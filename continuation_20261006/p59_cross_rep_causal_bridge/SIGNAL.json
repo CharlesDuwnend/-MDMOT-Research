@@ -1,0 +1,90 @@
+{
+  "delta": -0.014584172424741138,
+  "gate": {
+    "minimum_calibration_macro": 0.48412456211781996,
+    "minimum_macro_delta": 0.005,
+    "minimum_pair_wins": 3,
+    "passed": false
+  },
+  "history": {
+    "27": {
+      "history_fraction": 0.9173357121617604,
+      "max_history": 4,
+      "mean_history": 3.6196848052334225,
+      "rows": 3363,
+      "with_history": 3085
+    },
+    "32": {
+      "history_fraction": 0.9370842572062085,
+      "max_history": 4,
+      "mean_history": 3.7189578713968956,
+      "rows": 3608,
+      "with_history": 3381
+    },
+    "42": {
+      "history_fraction": 0.9367147510469986,
+      "max_history": 4,
+      "mean_history": 3.7054443927408096,
+      "rows": 2149,
+      "with_history": 2013
+    },
+    "64": {
+      "history_fraction": 0.9069148936170213,
+      "max_history": 4,
+      "mean_history": 3.529255319148936,
+      "rows": 1504,
+      "with_history": 1364
+    },
+    "65": {
+      "history_fraction": 0.8967486818980668,
+      "max_history": 4,
+      "mean_history": 3.4663884007029875,
+      "rows": 4552,
+      "with_history": 4082
+    }
+  },
+  "host_attachment_authorized": false,
+  "macro_r1": {
+    "crcb": 0.4645403896930788,
+    "target_only": 0.47912456211781995
+  },
+  "official_val_test_read": false,
+  "pair_wins": 0,
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "per_pair": {
+    "27": {
+      "crcb": 0.3331692913385827,
+      "queries": 2032,
+      "target_only": 0.3405511811023622
+    },
+    "32": {
+      "crcb": 0.46188158961881587,
+      "queries": 2466,
+      "target_only": 0.4793187347931874
+    },
+    "42": {
+      "crcb": 0.5608,
+      "queries": 1250,
+      "target_only": 0.5816
+    },
+    "64": {
+      "crcb": 0.5755467196819085,
+      "queries": 1006,
+      "target_only": 0.5944333996023857
+    },
+    "65": {
+      "crcb": 0.391304347826087,
+      "queries": 1426,
+      "target_only": 0.3997194950911641
+    }
+  },
+  "progression_authorized": false,
+  "status": "P59_CALIBRATION_GATE_COMPLETE",
+  "training_completed": true
+}

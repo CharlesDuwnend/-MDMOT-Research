@@ -1,0 +1,24 @@
+{
+  "status": "STOP_P59_CRCB",
+  "candidate": "cross_representation_causal_bridge",
+  "macro_r1": {
+    "target_only": 0.47912456211781995,
+    "crcb": 0.4645403896930788,
+    "delta": -0.014584172424741138,
+    "pair_wins_of_5": 0
+  },
+  "scope": "fit15 train-only bridge with frozen P23 current and P1 strict-past history; cal5 ranking only",
+  "gate": {
+    "minimum_calibration_macro": 0.48412456211781996,
+    "minimum_macro_delta": 0.005,
+    "minimum_pair_wins": 3,
+    "passed": false
+  },
+  "novelty_claim": false,
+  "paper_claim": false,
+  "official_val_test_read": false,
+  "training_completed": true,
+  "progression_authorized": false,
+  "host_attachment_authorized": false,
+  "next": "retain as a negative control; do not extend steps, tune consistency weight, or attach to P26; choose a different identity target after a new mechanism screen"
+}

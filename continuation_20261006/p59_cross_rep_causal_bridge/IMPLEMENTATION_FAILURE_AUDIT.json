@@ -1,0 +1,22 @@
+{
+  "status": "P59_IMPLEMENTATION_AUDIT_CLOSED",
+  "initial_defects": [
+    {
+      "defect": "launcher passed the Python binary to verified_gpu.py runpy",
+      "impact": "no training/checkpoint was produced by the failed invocation",
+      "repair": "reran verified_gpu.py with run_crcb.py as its script and exit 0"
+    },
+    {
+      "defect": "PREREG.json had a duplicate history key",
+      "impact": "spec parser could overwrite the history contract",
+      "repair": "renamed fields to history_contract/history_source before final v2 run"
+    }
+  ],
+  "final_source_sha256": "7d54640c336e3d29889dae3a485be819b076831c2c268d5c5f367b952fb4c62a",
+  "final_checkpoint_sha256": "d419ee3e872afc0c232c629ec6970c28c3a9b717b42133eb55e01e6b1fb36c29",
+  "final_prereg_sha256": "7da18b0c34278f69a945f151093b932ca4e7586b24079148e7f6d1a93490284a",
+  "final_protocol_valid": true,
+  "unresolved_scientific_implementation_defect": false,
+  "training_authorized_under_prereg": true,
+  "host_attachment_authorized": false
+}

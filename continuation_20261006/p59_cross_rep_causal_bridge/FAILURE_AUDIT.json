@@ -1,0 +1,144 @@
+{
+  "status": "P59_AUDITED_NEGATIVE",
+  "round_count": 3,
+  "checks_per_round": [
+    3,
+    3,
+    3
+  ],
+  "rounds": [
+    {
+      "round": "R1_data_lineage",
+      "checks": [
+        {
+          "check": "fit_calibration_pair_disjoint",
+          "passed": true,
+          "evidence": {
+            "fit_pairs": [
+              "23",
+              "25",
+              "28",
+              "29",
+              "39",
+              "44",
+              "45",
+              "51",
+              "53",
+              "63",
+              "66",
+              "69",
+              "70",
+              "74",
+              "78"
+            ],
+            "calibration_pairs": [
+              "27",
+              "32",
+              "42",
+              "64",
+              "65"
+            ]
+          }
+        },
+        {
+          "check": "history_contract_and_support",
+          "passed": true,
+          "evidence": {
+            "fit_history_fraction": 0.9637167816766995,
+            "cal_history_fraction": {
+              "27": 0.9173357121617604,
+              "32": 0.9370842572062085,
+              "42": 0.9367147510469986,
+              "64": 0.9069148936170213,
+              "65": 0.8967486818980668
+            },
+            "max_age_frames": 8,
+            "max_observations": 4
+          }
+        },
+        {
+          "check": "label_boundary_and_official_closed",
+          "passed": true,
+          "evidence": {
+            "training_labels": "fit15 offline_pid only",
+            "evaluation": "labels opened by frozen scorer after outputs",
+            "official_val_test_read": false
+          }
+        }
+      ]
+    },
+    {
+      "round": "R2_operator_training",
+      "checks": [
+        {
+          "check": "zero_init_cpu_and_gradient_contract",
+          "passed": true,
+          "evidence": {
+            "zero_init_max_error": 2.9802322387695312e-08,
+            "finite_gradients": true,
+            "parameters": 132225
+          }
+        },
+        {
+          "check": "checkpoint_finite_and_history_causal_effect",
+          "passed": true,
+          "evidence": {
+            "checkpoint_sha256": "d419ee3e872afc0c232c629ec6970c28c3a9b717b42133eb55e01e6b1fb36c29",
+            "counterfactual_history_max_abs": 0.20749123394489288,
+            "output_finite": true
+          }
+        },
+        {
+          "check": "physical_gpu_receipt_and_corrected_launcher",
+          "passed": true,
+          "evidence": {
+            "gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+            "gpu_name": "NVIDIA A100-SXM4-40GB",
+            "total_memory_bytes": 42298834944,
+            "updates": 1200,
+            "final_exit": 0,
+            "initial_launcher_defect": "verified_gpu.py was first given the Python binary as its runpy target; corrected before the final run"
+          }
+        }
+      ]
+    },
+    {
+      "round": "R3_metric_decision",
+      "checks": [
+        {
+          "check": "independent_macro_recompute",
+          "passed": true,
+          "evidence": {
+            "recomputed_target": 0.47912456211781995,
+            "stored_target": 0.47912456211781995,
+            "recomputed_crcb": 0.4645403896930788,
+            "stored_crcb": 0.4645403896930788
+          }
+        },
+        {
+          "check": "independent_delta_and_pair_win_recompute",
+          "passed": true,
+          "evidence": {
+            "recomputed_delta": -0.014584172424741138,
+            "stored_delta": -0.014584172424741138,
+            "recomputed_wins": 0,
+            "stored_wins": 0
+          }
+        },
+        {
+          "check": "negative_gate_and_host_block",
+          "passed": true,
+          "evidence": {
+            "delta": -0.014584172424741138,
+            "minimum_delta": 0.005,
+            "pair_wins": 0,
+            "minimum_wins": 3,
+            "host_attachment_authorized": false
+          }
+        }
+      ]
+    }
+  ],
+  "scientific_classification": "generalization_failure_after_valid_protocol; final result is not explained by the corrected launcher defect",
+  "decision": "STOP_P59_CRCB_BEFORE_P26_HOST_ATTACHMENT"
+}
