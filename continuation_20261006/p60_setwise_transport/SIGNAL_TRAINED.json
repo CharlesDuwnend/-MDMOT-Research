@@ -1,0 +1,56 @@
+{
+  "checkpoint_sha256": "47c750bb8195916aa649654bdcd851f7c7534268590dbed8adde40a943902a06",
+  "gate": {
+    "minimum_calibration_macro": 0.48412456211781996,
+    "minimum_macro_delta": 0.005,
+    "minimum_pair_wins": 3,
+    "passed": true
+  },
+  "macro": {
+    "delta": 0.03781366135456454,
+    "seit": 0.5169382234723845,
+    "target_only": 0.47912456211781995
+  },
+  "official_val_test_read": false,
+  "pair_wins": 4,
+  "per_pair": {
+    "27": {
+      "delta": 0.000656167979002642,
+      "eligible": 2032,
+      "pair_wins": true,
+      "seit": 0.34120734908136485,
+      "target_only": 0.3405511811023622
+    },
+    "32": {
+      "delta": 0.06788997026223303,
+      "eligible": 2466,
+      "pair_wins": true,
+      "seit": 0.5472087050554204,
+      "target_only": 0.4793187347931874
+    },
+    "42": {
+      "delta": 0.050000000000000044,
+      "eligible": 1250,
+      "pair_wins": true,
+      "seit": 0.6316,
+      "target_only": 0.5816
+    },
+    "64": {
+      "delta": 0.07753479125248508,
+      "eligible": 1006,
+      "pair_wins": true,
+      "seit": 0.6719681908548708,
+      "target_only": 0.5944333996023857
+    },
+    "65": {
+      "delta": -0.007012622720897643,
+      "eligible": 1426,
+      "pair_wins": false,
+      "seit": 0.39270687237026647,
+      "target_only": 0.3997194950911641
+    }
+  },
+  "source_sha256": "c8d64e95ca1a06012bb626eb648277ed085bb089b6582ee70c6e9498d4c509b4",
+  "status": "P60_CALIBRATION_GATE_COMPLETE",
+  "training_completed": true
+}

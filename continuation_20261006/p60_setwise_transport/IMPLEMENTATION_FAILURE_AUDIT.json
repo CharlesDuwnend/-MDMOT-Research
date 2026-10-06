@@ -1,0 +1,22 @@
+{
+  "final_checkpoint_sha256": "47c750bb8195916aa649654bdcd851f7c7534268590dbed8adde40a943902a06",
+  "final_prereg_sha256": "faf593608f63cd5f8ba65327539f22e295fe3b671800c169a6176645cd8350c6",
+  "final_protocol_valid": true,
+  "final_source_sha256": "c8d64e95ca1a06012bb626eb648277ed085bb089b6582ee70c6e9498d4c509b4",
+  "host_attachment_authorized": false,
+  "initial_defects": [
+    {
+      "defect": "run script named signal.py shadowed stdlib signal during torch import",
+      "impact": "circular import prevented signal execution",
+      "repair": "renamed to run_p60_signal.py before accepted signal"
+    },
+    {
+      "defect": "initial signal used stale continuation_20260404 path for checkpoint",
+      "impact": "FileNotFoundError before signal computation",
+      "repair": "corrected path to continuation_20261004 before accepted signal"
+    }
+  ],
+  "status": "P60_IMPLEMENTATION_AUDIT_CLOSED",
+  "training_authorized_under_prereg": true,
+  "unresolved_scientific_implementation_defect": false
+}

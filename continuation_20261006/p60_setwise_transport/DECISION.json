@@ -1,0 +1,7 @@
+{
+  "decision": "retain as validated setwise transport control/engineering candidate; no novelty or paper-method claim; no P26 host attachment; no official val/test",
+  "method_result": "trained SEIT passes calibration gate but learned residual lift over fixed transport is +0.0011055 macro",
+  "next": "Only proceed with a fresh target/operator that is distinct from OT/assignment and passes novelty and calibration gates; do not tune epsilon or extend P60 steps.",
+  "reason": "balanced Sinkhorn and differentiable assignment are established; independent audit attributes most gain to fixed operator, while direct same-task/assignment prior-art collision remains",
+  "status": "STOP_P60_AS_PAPER_NOVELTY_HOLD"
+}

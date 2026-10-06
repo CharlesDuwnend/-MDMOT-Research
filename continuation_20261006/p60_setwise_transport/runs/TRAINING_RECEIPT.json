@@ -1,0 +1,90 @@
+{
+  "checkpoint_sha256": "47c750bb8195916aa649654bdcd851f7c7534268590dbed8adde40a943902a06",
+  "elapsed_seconds": 74.32226509228349,
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "gpu_total_memory_bytes": 42298834944,
+  "gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+  "history": [
+    {
+      "gradient_norm": 0.28677719831466675,
+      "loss": 0.6174936294555664,
+      "queries": 16,
+      "step": 1
+    },
+    {
+      "gradient_norm": 0.7927792072296143,
+      "loss": 1.2247846126556396,
+      "queries": 16,
+      "step": 100
+    },
+    {
+      "gradient_norm": 0.370654433965683,
+      "loss": 0.6837797164916992,
+      "queries": 60,
+      "step": 200
+    },
+    {
+      "gradient_norm": 0.2903589606285095,
+      "loss": 0.37223878502845764,
+      "queries": 22,
+      "step": 300
+    },
+    {
+      "gradient_norm": 0.25702574849128723,
+      "loss": 0.7782660126686096,
+      "queries": 66,
+      "step": 400
+    },
+    {
+      "gradient_norm": 0.07585922628641129,
+      "loss": 0.7048409581184387,
+      "queries": 10,
+      "step": 500
+    },
+    {
+      "gradient_norm": 0.034547027200460434,
+      "loss": 0.34911638498306274,
+      "queries": 4,
+      "step": 600
+    },
+    {
+      "gradient_norm": 0.19038408994674683,
+      "loss": 0.3290275037288666,
+      "queries": 40,
+      "step": 700
+    },
+    {
+      "gradient_norm": 0.29426896572113037,
+      "loss": 0.6280184984207153,
+      "queries": 34,
+      "step": 800
+    },
+    {
+      "gradient_norm": 0.2554986774921417,
+      "loss": 0.2755611836910248,
+      "queries": 12,
+      "step": 900
+    },
+    {
+      "gradient_norm": 0.28191983699798584,
+      "loss": 0.5491859912872314,
+      "queries": 30,
+      "step": 1000
+    },
+    {
+      "gradient_norm": 0.22027930617332458,
+      "loss": 0.5822247266769409,
+      "queries": 34,
+      "step": 1100
+    },
+    {
+      "gradient_norm": 0.3027704954147339,
+      "loss": 0.5515384674072266,
+      "queries": 62,
+      "step": 1200
+    }
+  ],
+  "official_val_test_read": false,
+  "status": "PASS_P60_TRAINING",
+  "updates": 1200
+}

@@ -68,6 +68,23 @@ P59 screened and trained a cross-representation causal bridge: frozen P23 curren
 
 The protected P26 baseline remains unchanged. No P57-P59 branch supports an official-val/test or formal MOT improvement claim. The next candidate must use a different identity target or operator, pass a fresh mechanism-level prior-art screen, and clear the same legal observability, CPU, train-only, and calibration gates.
 
+## P60 setwise transport outcome (2026-10-06)
+
+P60 screened a fixed balanced Sinkhorn transport operator over each same-frame,
+same-class opposite-view candidate set, followed by a zero-initialized trainable
+residual (SEIT). The frozen operator signal passed on calibration5: target-only
+`0.4791246` to fixed transport `0.5158327`, delta `+0.0367081`, 4/5 pair wins.
+The accepted 1,200-update run used physical GPU3 A100-SXM4-40GB and produced
+trained SEIT `0.5169382`, delta `+0.0378137`, 4/5 wins. The independent audit passed
+three rounds with three checks each, including transport marginals, set permutation,
+zero initialization, receipt/hash, split closure, and independent metric replay.
+
+The attribution gate is decisive: trained SEIT adds only `+0.0011055` over the
+fixed transport operator. Balanced optimal transport/differentiable assignment is
+established prior art, so P60 is retained as a validated engineering control and
+stopped for paper novelty and P26 host attachment. No official val/test or formal
+MOT result was read.
+
 ## Git phase archival
 
 The workspace is initialized on branch `main` with the authorized remote `git@github.com:CharlesDuwnend/-MDMOT-Research.git`. Each major phase is archived with `scripts/stage_snapshot.py`; it records local large-artifact paths and checkpoint hashes, commits compact source/spec/audit/result evidence, pushes `origin/main`, and verifies the exact remote commit. The initial phase will include the screened CCFI/CCSI evidence and the stop decisions above.

@@ -1,0 +1,108 @@
+{
+  "checkpoint_sha256": "47c750bb8195916aa649654bdcd851f7c7534268590dbed8adde40a943902a06",
+  "classification": "valid_train_and_scorer_contract; most signal is fixed setwise transport operator; learned residual adds only small calibration lift; no formal MOT result",
+  "official_val_test_read": false,
+  "rounds": [
+    {
+      "all_passed": true,
+      "checks": [
+        {
+          "check": "split_contract",
+          "detail": {
+            "calibration": 5,
+            "fit": 15
+          },
+          "passed": true
+        },
+        {
+          "check": "training_receipt_and_checkpoint",
+          "detail": {
+            "checkpoint_sha256": "47c750bb8195916aa649654bdcd851f7c7534268590dbed8adde40a943902a06",
+            "exit": 0
+          },
+          "passed": true
+        },
+        {
+          "check": "official_closed",
+          "detail": {
+            "official_val_test_read": false
+          },
+          "passed": true
+        }
+      ],
+      "round": 1
+    },
+    {
+      "all_passed": true,
+      "checks": [
+        {
+          "check": "numpy_transport_marginals",
+          "detail": {
+            "col_max_error": 5.551115123125783e-17,
+            "row_max_error": 1.2030825433106962e-09
+          },
+          "passed": true
+        },
+        {
+          "check": "set_permutation_invariance",
+          "detail": {
+            "max_abs_error": 2.6020852139652106e-17
+          },
+          "passed": true
+        },
+        {
+          "check": "zero_init_equivalence",
+          "detail": {
+            "max_abs_error": 2.9802322387695312e-08
+          },
+          "passed": true
+        }
+      ],
+      "round": 2
+    },
+    {
+      "all_passed": true,
+      "checks": [
+        {
+          "check": "independent_macro_recompute",
+          "detail": {
+            "base": 0.47912456211781995,
+            "delta": 0.03781366135456454,
+            "trained": 0.5169382234723845
+          },
+          "passed": true
+        },
+        {
+          "check": "fixed_vs_trained_attribution",
+          "detail": {
+            "fixed_transport": 0.5158326817257749,
+            "learned_residual_lift": 0.0011055417466095951,
+            "trained_seit": 0.5169382234723845
+          },
+          "passed": true
+        },
+        {
+          "check": "gate_replay",
+          "detail": {
+            "delta": 0.03781366135456454,
+            "passed": true,
+            "wins": 4
+          },
+          "passed": true
+        }
+      ],
+      "round": 3
+    }
+  ],
+  "scientific_findings": {
+    "fixed_operator_delta": 0.03670811960795495,
+    "fixed_sinkhorn_macro": 0.5158326817257749,
+    "learned_residual_lift_over_fixed_operator": 0.0011055417466095951,
+    "p23_target_only_macro": 0.47912456211781995,
+    "pair_wins": 4,
+    "trained_delta": 0.03781366135456454,
+    "trained_seit_macro": 0.5169382234723845
+  },
+  "source_sha256": "c8d64e95ca1a06012bb626eb648277ed085bb089b6582ee70c6e9498d4c509b4",
+  "status": "P60_AUDITED_VALID_CALIBRATION_GAIN_WITH_COLLISION_BOUNDARY"
+}
