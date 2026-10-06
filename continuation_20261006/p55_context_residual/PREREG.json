@@ -1,0 +1,22 @@
+{
+  "candidate": "P55_CVCR",
+  "status": "SCREENING_BEFORE_TRAINING",
+  "fit_pairs": ["23", "25", "28", "29", "39", "44", "45", "51", "53", "63", "66", "69", "70", "74", "78"],
+  "calibration_pairs": ["65", "66", "69", "70", "74"],
+  "input": "P23 predicted-box crop plus expanded crop with target interior neutralized; raw FPN row",
+  "forbidden_inputs": ["XML IDs", "future frames", "timestamps", "GPS", "dev", "official_val", "test"],
+  "arms": ["target_only", "context_residual", "context_swap", "context_dropout"],
+  "train_free_gate": {
+    "minimum_pair_wins_vs_target_only": 3,
+    "minimum_positive_present_macro_delta": 0.005,
+    "context_swap_score_change_required": true
+  },
+  "short_train": {
+    "updates": 1200,
+    "pair_grouped": true,
+    "seed": 42,
+    "no_checkpoint_selection": true,
+    "formal_mot_authorized": false
+  },
+  "host_gate": "only after train-free and short representation gates; pair23 development smoke only"
+}

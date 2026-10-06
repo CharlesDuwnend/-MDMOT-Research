@@ -1,0 +1,224 @@
+{
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "gpu_total_memory": 42298834944,
+  "official_val_test_read": false,
+  "receipts": [
+    {
+      "arm": "target_only",
+      "checkpoint_sha256": "b2feab8083ebe22ac35ca36ba426ed4ed7d5f4bfe8c3c2c762fc6e36670dd7ea",
+      "context_receipt_sha256": "5620091ae064c8e11f7459bebd182b8411436ddded61b62f6300ee83b1a682b7",
+      "elapsed_seconds": 45.490480022504926,
+      "fit_pairs": [
+        "23",
+        "25",
+        "28",
+        "29",
+        "39",
+        "44",
+        "45",
+        "63",
+        "66",
+        "69",
+        "70",
+        "74"
+      ],
+      "heldout_pairs": [
+        "51",
+        "53",
+        "78"
+      ],
+      "history": [
+        {
+          "dust_targets": 20,
+          "loss": 5.6600141525268555,
+          "queries": 36,
+          "step": 1
+        },
+        {
+          "dust_targets": 2,
+          "loss": 1.1753015518188477,
+          "queries": 4,
+          "step": 100
+        },
+        {
+          "dust_targets": 8,
+          "loss": 1.9284441471099854,
+          "queries": 28,
+          "step": 200
+        },
+        {
+          "dust_targets": 2,
+          "loss": 1.3388872146606445,
+          "queries": 10,
+          "step": 300
+        },
+        {
+          "dust_targets": 9,
+          "loss": 1.3187817335128784,
+          "queries": 19,
+          "step": 400
+        },
+        {
+          "dust_targets": 44,
+          "loss": 1.9758507013320923,
+          "queries": 148,
+          "step": 500
+        },
+        {
+          "dust_targets": 31,
+          "loss": 1.0907161235809326,
+          "queries": 117,
+          "step": 600
+        },
+        {
+          "dust_targets": 15,
+          "loss": 0.3510854244232178,
+          "queries": 55,
+          "step": 700
+        },
+        {
+          "dust_targets": 19,
+          "loss": 1.2520031929016113,
+          "queries": 37,
+          "step": 800
+        },
+        {
+          "dust_targets": 0,
+          "loss": 0.23860308527946472,
+          "queries": 8,
+          "step": 900
+        },
+        {
+          "dust_targets": 2,
+          "loss": 1.4137006998062134,
+          "queries": 46,
+          "step": 1000
+        },
+        {
+          "dust_targets": 30,
+          "loss": 0.6519606113433838,
+          "queries": 108,
+          "step": 1100
+        },
+        {
+          "dust_targets": 9,
+          "loss": 0.12256722152233124,
+          "queries": 31,
+          "step": 1200
+        }
+      ],
+      "official_val_test_read": false,
+      "status": "COMPLETE_P55_SHORT_TRAIN",
+      "updates": 1200
+    },
+    {
+      "arm": "context_residual",
+      "checkpoint_sha256": "26756571ce8e3cac6f32580e08896ae7668c1151f3f83e1522848a9a5bd31c83",
+      "context_receipt_sha256": "5620091ae064c8e11f7459bebd182b8411436ddded61b62f6300ee83b1a682b7",
+      "elapsed_seconds": 44.966418704018,
+      "fit_pairs": [
+        "23",
+        "25",
+        "28",
+        "29",
+        "39",
+        "44",
+        "45",
+        "63",
+        "66",
+        "69",
+        "70",
+        "74"
+      ],
+      "heldout_pairs": [
+        "51",
+        "53",
+        "78"
+      ],
+      "history": [
+        {
+          "dust_targets": 20,
+          "loss": 5.670261383056641,
+          "queries": 36,
+          "step": 1
+        },
+        {
+          "dust_targets": 2,
+          "loss": 1.1677753925323486,
+          "queries": 4,
+          "step": 100
+        },
+        {
+          "dust_targets": 8,
+          "loss": 1.8806178569793701,
+          "queries": 28,
+          "step": 200
+        },
+        {
+          "dust_targets": 2,
+          "loss": 1.3062951564788818,
+          "queries": 10,
+          "step": 300
+        },
+        {
+          "dust_targets": 9,
+          "loss": 1.3624961376190186,
+          "queries": 19,
+          "step": 400
+        },
+        {
+          "dust_targets": 44,
+          "loss": 1.8462066650390625,
+          "queries": 148,
+          "step": 500
+        },
+        {
+          "dust_targets": 31,
+          "loss": 0.9252978563308716,
+          "queries": 117,
+          "step": 600
+        },
+        {
+          "dust_targets": 15,
+          "loss": 0.3419192433357239,
+          "queries": 55,
+          "step": 700
+        },
+        {
+          "dust_targets": 19,
+          "loss": 1.2003834247589111,
+          "queries": 37,
+          "step": 800
+        },
+        {
+          "dust_targets": 0,
+          "loss": 0.21730950474739075,
+          "queries": 8,
+          "step": 900
+        },
+        {
+          "dust_targets": 2,
+          "loss": 1.2402760982513428,
+          "queries": 46,
+          "step": 1000
+        },
+        {
+          "dust_targets": 30,
+          "loss": 0.5150234699249268,
+          "queries": 108,
+          "step": 1100
+        },
+        {
+          "dust_targets": 9,
+          "loss": 0.12310754507780075,
+          "queries": 31,
+          "step": 1200
+        }
+      ],
+      "official_val_test_read": false,
+      "status": "COMPLETE_P55_SHORT_TRAIN",
+      "updates": 1200
+    }
+  ],
+  "status": "P55_SHORT_TRAIN_COMPLETE"
+}

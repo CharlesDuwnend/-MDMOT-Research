@@ -1,0 +1,26 @@
+{
+  "status": "STOP_P55_CVCR_AFTER_VALID_CAL5_NEGATIVE_GATE",
+  "candidate": "target-masked local context residual",
+  "train_free_internal_holdout": {
+    "target_only_macro_r1": 0.23197813018242122,
+    "context_residual_macro_r1": 0.36701269415250737,
+    "pair_wins_of_3": 3,
+    "scope": "fit-only internal holdout diagnostic"
+  },
+  "valid_cal5_gate": {
+    "target_only_macro_r1": 0.4905143803303213,
+    "context_residual_macro_r1": 0.43813173988543763,
+    "delta": -0.052382640444883666,
+    "pair_wins_of_5": 0,
+    "protocol": "same-frame same-class P4 positive-present readout"
+  },
+  "failure_audit": "FAILURE_AUDIT_V4.json",
+  "classification": "generalization_failure_after_valid_protocol",
+  "implementation_contract": "PASS_3_ROUNDS_X_3_CHECKS",
+  "paper_module": false,
+  "p26_host_attachment": false,
+  "official_val_test_read": false,
+  "training_authorized": false,
+  "retain_as_negative_control": true,
+  "next": "archive P55; do not increase steps or tune context weights; establish a directly comparable published MDMT method baseline before another novel candidate"
+}

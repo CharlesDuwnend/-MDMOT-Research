@@ -1,0 +1,12 @@
+{
+  "status": "P55_IMPLEMENTATION_DEFECTS_CORRECTED_BEFORE_FINAL_GATE",
+  "defects": [
+    {"stage": "initial_train", "defect": "CVCR input width was declared 1536 but actual target/context/difference/FPN concatenation was 1408", "evidence": "train_short_v3.log RuntimeError mat1 and mat2 shapes cannot be multiplied", "fixed": true},
+    {"stage": "initial_train", "defect": "group_loss call omitted the candidate dustbin logit", "evidence": "train_short_v2.log TypeError group_loss missing y_b", "fixed": true},
+    {"stage": "initial_calibration", "defect": "calibration candidates were not filtered by class", "evidence": "target-only R@1 0.021098 before class filter", "fixed": true},
+    {"stage": "initial_calibration", "defect": "calibration candidates mixed all sampled frames", "evidence": "target-only R@1 0.016595 before frame filter", "fixed": true}
+  ],
+  "final_gate_after_fixes": "CAL5_GATE_V4.json",
+  "final_failure_is_implementation_defect": false,
+  "note": "The final gate was rerun after both candidate-pool contract fixes and independently audited."
+}

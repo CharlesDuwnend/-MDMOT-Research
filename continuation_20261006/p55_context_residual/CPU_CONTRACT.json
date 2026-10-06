@@ -1,0 +1,14 @@
+{
+  "status": "PASS_P55_CPU_CONTRACT",
+  "checks": [
+    "finite_forward",
+    "finite_gradients",
+    "context_swap_changes_output",
+    "context_dropout_changes_output",
+    "target_only_control"
+  ],
+  "context_swap_max_abs": 0.3229010226585311,
+  "context_dropout_max_abs": 0.859635045702793,
+  "labels_or_xml_read": false,
+  "official_val_test_read": false
+}

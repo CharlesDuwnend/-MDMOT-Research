@@ -1,0 +1,106 @@
+{
+  "arm": "target_only",
+  "checkpoint_sha256": "d81bf36cadb606037cc165ca7d9cc2cfa08d96c2ee29bae8a2955a6833cdebb0",
+  "elapsed_seconds": 32.03220326453447,
+  "fit_pairs": [
+    "23",
+    "25",
+    "28",
+    "29",
+    "39",
+    "44",
+    "45",
+    "51",
+    "53",
+    "63",
+    "66",
+    "69",
+    "70",
+    "74",
+    "78"
+  ],
+  "history": [
+    {
+      "dust_targets": 20,
+      "loss": 3.113377571105957,
+      "queries": 36,
+      "step": 1
+    },
+    {
+      "dust_targets": 12,
+      "loss": 2.510725259780884,
+      "queries": 28,
+      "step": 100
+    },
+    {
+      "dust_targets": 13,
+      "loss": 1.6905643939971924,
+      "queries": 73,
+      "step": 200
+    },
+    {
+      "dust_targets": 18,
+      "loss": 2.53737735748291,
+      "queries": 40,
+      "step": 300
+    },
+    {
+      "dust_targets": 49,
+      "loss": 1.6590560674667358,
+      "queries": 115,
+      "step": 400
+    },
+    {
+      "dust_targets": 12,
+      "loss": 1.750893473625183,
+      "queries": 22,
+      "step": 500
+    },
+    {
+      "dust_targets": 1,
+      "loss": 0.017749708145856857,
+      "queries": 5,
+      "step": 600
+    },
+    {
+      "dust_targets": 11,
+      "loss": 0.9530046582221985,
+      "queries": 51,
+      "step": 700
+    },
+    {
+      "dust_targets": 21,
+      "loss": 1.1805397272109985,
+      "queries": 55,
+      "step": 800
+    },
+    {
+      "dust_targets": 6,
+      "loss": 2.057250738143921,
+      "queries": 18,
+      "step": 900
+    },
+    {
+      "dust_targets": 5,
+      "loss": 0.9353216886520386,
+      "queries": 35,
+      "step": 1000
+    },
+    {
+      "dust_targets": 3,
+      "loss": 0.46324872970581055,
+      "queries": 37,
+      "step": 1100
+    },
+    {
+      "dust_targets": 21,
+      "loss": 1.7140493392944336,
+      "queries": 83,
+      "step": 1200
+    }
+  ],
+  "official_val_test_read": false,
+  "p23_init_sha256": "904d19c7913c23c3e851e77bf0139c39ff2e17f2eaced2fd81a31c183593c043",
+  "status": "COMPLETE_P55_HEAD_INIT_SHORT",
+  "updates": 1200
+}

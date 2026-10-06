@@ -1,0 +1,97 @@
+{
+  "calibration_pairs_read": false,
+  "candidate_context_swap_r1": {
+    "51": 0.15340253748558247,
+    "53": 0.11979166666666667,
+    "78": 0.09390547263681592
+  },
+  "holdout_pairs": [
+    "51",
+    "53",
+    "78"
+  ],
+  "interpretation": "context-only is a shortcut diagnostic; residual must be evaluated with context-swap controls before training",
+  "macro_r1": {
+    "context_only": 0.31815698710527524,
+    "context_residual": 0.36701269415250737,
+    "equal_context_fusion": 0.3096090293558161,
+    "target_only": 0.23197813018242122
+  },
+  "official_val_test_read": false,
+  "per_pair": {
+    "51": {
+      "context_only": {
+        "mrr": 0.4618203382736725,
+        "queries": 1734,
+        "r1": 0.3160322952710496
+      },
+      "context_residual": {
+        "mrr": 0.5973962499777067,
+        "queries": 1734,
+        "r1": 0.46539792387543255
+      },
+      "equal_context_fusion": {
+        "mrr": 0.5229167839774825,
+        "queries": 1734,
+        "r1": 0.38523644752018454
+      },
+      "target_only": {
+        "mrr": 0.4797566885251558,
+        "queries": 1734,
+        "r1": 0.3333333333333333
+      }
+    },
+    "53": {
+      "context_only": {
+        "mrr": 0.466667348431828,
+        "queries": 1536,
+        "r1": 0.3209635416666667
+      },
+      "context_residual": {
+        "mrr": 0.47819647397614107,
+        "queries": 1536,
+        "r1": 0.341796875
+      },
+      "equal_context_fusion": {
+        "mrr": 0.4436255773798628,
+        "queries": 1536,
+        "r1": 0.29296875
+      },
+      "target_only": {
+        "mrr": 0.35679163767874916,
+        "queries": 1536,
+        "r1": 0.21614583333333334
+      }
+    },
+    "78": {
+      "context_only": {
+        "mrr": 0.45506328978902666,
+        "queries": 3216,
+        "r1": 0.31747512437810943
+      },
+      "context_residual": {
+        "mrr": 0.4346136700202867,
+        "queries": 3216,
+        "r1": 0.29384328358208955
+      },
+      "equal_context_fusion": {
+        "mrr": 0.38850954111894276,
+        "queries": 3216,
+        "r1": 0.2506218905472637
+      },
+      "target_only": {
+        "mrr": 0.26721320685666844,
+        "queries": 3216,
+        "r1": 0.146455223880597
+      }
+    }
+  },
+  "readout": "positive-present conditional R@1/MRR; fit-only diagnostic",
+  "status": "P55_TRAIN_FREE_INTERNAL_HOLDOUT",
+  "wins_vs_target_only": {
+    "context_only": 2,
+    "context_residual": 3,
+    "equal_context_fusion": 3,
+    "target_only": 0
+  }
+}

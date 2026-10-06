@@ -1,0 +1,80 @@
+{
+  "delta_macro_r1": -0.052382640444883666,
+  "macro_r1": {
+    "context_residual": 0.43813173988543763,
+    "target_only": 0.4905143803303213
+  },
+  "official_val_test_read": false,
+  "pair_wins": 0,
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "per_pair": {
+    "27": {
+      "context_residual": {
+        "mrr": 0.5095097511882677,
+        "queries": 2032,
+        "r1": 0.34891732283464566
+      },
+      "target_only": {
+        "mrr": 0.5235187607130242,
+        "queries": 2032,
+        "r1": 0.3656496062992126
+      }
+    },
+    "32": {
+      "context_residual": {
+        "mrr": 0.5769053505925815,
+        "queries": 2466,
+        "r1": 0.39456609894566097
+      },
+      "target_only": {
+        "mrr": 0.6446334933868753,
+        "queries": 2466,
+        "r1": 0.48337388483373883
+      }
+    },
+    "42": {
+      "context_residual": {
+        "mrr": 0.6992084285181395,
+        "queries": 1250,
+        "r1": 0.5496
+      },
+      "target_only": {
+        "mrr": 0.723279203539422,
+        "queries": 1250,
+        "r1": 0.5856
+      }
+    },
+    "64": {
+      "context_residual": {
+        "mrr": 0.701947657489407,
+        "queries": 1006,
+        "r1": 0.5308151093439364
+      },
+      "target_only": {
+        "mrr": 0.7584622964841653,
+        "queries": 1006,
+        "r1": 0.6133200795228628
+      }
+    },
+    "65": {
+      "context_residual": {
+        "mrr": 0.5171162233817261,
+        "queries": 1426,
+        "r1": 0.3667601683029453
+      },
+      "target_only": {
+        "mrr": 0.5505666566550589,
+        "queries": 1426,
+        "r1": 0.40462833099579243
+      }
+    }
+  },
+  "protocol": "P4 calibration five-pair positive-present readout; no dev/test",
+  "status": "P55_CAL5_REPLAY_COMPLETE"
+}

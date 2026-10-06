@@ -1,0 +1,131 @@
+{
+  "candidate": "CVCR",
+  "checks_per_round": [
+    3,
+    3,
+    3
+  ],
+  "decision": "STOP_AS_PAPER_MODULE_RETAIN_AS_NEGATIVE_CONTROL",
+  "official_val_test_read": false,
+  "round_count": 3,
+  "rounds": [
+    {
+      "checks": [
+        {
+          "check": "fit_calibration_disjoint",
+          "evidence": {
+            "cal_pairs": [
+              "27",
+              "32",
+              "42",
+              "64",
+              "65"
+            ],
+            "fit_pairs": [
+              "23",
+              "25",
+              "28",
+              "29",
+              "39",
+              "44",
+              "45",
+              "51",
+              "53",
+              "63",
+              "66",
+              "69",
+              "70",
+              "74",
+              "78"
+            ]
+          },
+          "passed": true
+        },
+        {
+          "check": "row_alignment",
+          "evidence": {
+            "keys": 54488,
+            "labels": 54488
+          },
+          "passed": true
+        },
+        {
+          "check": "calibration_protocol",
+          "evidence": {
+            "official_val_test_read": false,
+            "pairs": [
+              "27",
+              "32",
+              "42",
+              "64",
+              "65"
+            ]
+          },
+          "passed": true
+        }
+      ],
+      "round": "R1_data_lineage"
+    },
+    {
+      "checks": [
+        {
+          "check": "strict_checkpoint_load_finite",
+          "evidence": {
+            "parameters": 265985
+          },
+          "passed": true
+        },
+        {
+          "check": "base_head_frozen_to_p23_init",
+          "evidence": {
+            "base_tensors": 14,
+            "init_sha256": "904d19c7913c23c3e851e77bf0139c39ff2e17f2eaced2fd81a31c183593c043"
+          },
+          "passed": true
+        },
+        {
+          "check": "context_counterfactual_changes_output",
+          "evidence": {
+            "dropout_max_abs": 0.02534390427172184,
+            "swap_max_abs": 0.025556791573762894
+          },
+          "passed": true
+        }
+      ],
+      "round": "R2_operator_training"
+    },
+    {
+      "checks": [
+        {
+          "check": "independent_macro_recompute",
+          "evidence": {
+            "recomputed": 0.43813173988543763,
+            "stored": 0.43813173988543763
+          },
+          "passed": true
+        },
+        {
+          "check": "pair_win_recompute",
+          "evidence": {
+            "recomputed_wins": 0,
+            "stored": 0
+          },
+          "passed": true
+        },
+        {
+          "check": "negative_gate_is_scientific_after_contract_fix",
+          "evidence": {
+            "delta": -0.052382640444883666,
+            "target_macro": 0.4905143803303213,
+            "wins": 0
+          },
+          "passed": true
+        }
+      ],
+      "round": "R3_evaluation_decision"
+    }
+  ],
+  "scientific_classification": "generalization_failure_after_valid_protocol; not an unresolved implementation defect",
+  "status": "P55_STOP_AFTER_VALID_NEGATIVE_GATE",
+  "training_authorized": false
+}
