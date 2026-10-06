@@ -2,7 +2,7 @@
 
 日期：2026-10-07  
 稿件：`/home/chenhc/src_egia_icme_paper`  
-当前稿件构建：9 页，5 幅图，4 张表；`main.pdf` SHA-256 为 `02b3e6aec7968b9f64652d24e9e28699dcee66fe088bc55c725ff35b936f0362`。
+当前稿件构建：9 页，5 幅图，4 张表；`main.pdf` SHA-256 为 `3e4d7f012f82d71c2592bb355400265203b191cb21c29db7838dad703ef27cd4`。
 
 ## 当前已经可以支撑的结果
 
