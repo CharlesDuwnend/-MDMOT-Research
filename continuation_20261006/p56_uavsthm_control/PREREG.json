@@ -1,0 +1,11 @@
+{
+  "status": "CONTROL_BEFORE_HOST_PORT",
+  "source": "https://www.mdpi.com/2504-446X/8/12/704",
+  "pairs": ["27", "32", "42", "64", "65"],
+  "arms": ["target_only", "two_neighbour_region"],
+  "candidate_protocol": "same frame and same class only; all known candidates; positive-present conditional readout",
+  "no_threshold_search": true,
+  "no_dev_official_val_test": true,
+  "formal_mot_claim": false,
+  "progression": "positive control -> geometry/assignment port; negative control -> retain prior and choose another gap"
+}

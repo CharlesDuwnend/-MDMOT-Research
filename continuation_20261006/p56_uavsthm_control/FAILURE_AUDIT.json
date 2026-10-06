@@ -1,0 +1,24 @@
+{
+  "status": "P56_CONTROL_AUDITED_NEGATIVE",
+  "round_count": 3,
+  "checks_per_round": [3,3,3],
+  "rounds": [
+    {"round":"R1_data_lineage","checks":[
+      {"check":"five_calibration_pairs","passed":true,"evidence":{"pairs":["27","32","42","64","65"]}},
+      {"check":"frozen_p23_head_init","passed":true,"evidence":{"init":"P23 head-only fixed_step_001200"}},
+      {"check":"official_val_test_closed","passed":true,"evidence":{"official_val_test_read":false}}
+    ]},
+    {"round":"R2_operator","checks":[
+      {"check":"same_frame_neighbour_selection","passed":true,"evidence":{"operator":"two nearest same-view rows per frame"}},
+      {"check":"finite_normalized_descriptors","passed":true,"evidence":{"arms":["target_only","two_neighbour_region"]}},
+      {"check":"candidate_class_and_frame_contract","passed":true,"evidence":{"candidate_pool":"opposite view, same frame, same class"}}
+    ]},
+    {"round":"R3_metric_decision","checks":[
+      {"check":"macro_replay","passed":true,"evidence":{"target_only":0.41188549711971456,"region":0.36328708658525355}},
+      {"check":"pair_win_replay","passed":true,"evidence":{"wins":0,"pairs":5}},
+      {"check":"negative_control_classification","passed":true,"evidence":{"delta":-0.04859841053446101,"formal_mot_claim":false}}
+    ]}
+  ],
+  "classification":"regional_component_negative; full published method not reproduced",
+  "decision":"RETAIN_AS_PRIOR_CONTROL_STOP_COMPONENT"
+}

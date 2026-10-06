@@ -1,0 +1,71 @@
+{
+  "delta": -0.04859841053446101,
+  "formal_mot_claim": false,
+  "macro_r1": {
+    "target_only": 0.41188549711971456,
+    "two_neighbour_region": 0.36328708658525355
+  },
+  "official_val_test_read": false,
+  "pair_wins": 0,
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "per_pair": {
+    "27": {
+      "target_only": {
+        "queries": 2032,
+        "r1": 0.3090551181102362
+      },
+      "two_neighbour_region": {
+        "queries": 2032,
+        "r1": 0.25541338582677164
+      }
+    },
+    "32": {
+      "target_only": {
+        "queries": 2466,
+        "r1": 0.40875912408759124
+      },
+      "two_neighbour_region": {
+        "queries": 2466,
+        "r1": 0.3682076236820762
+      }
+    },
+    "42": {
+      "target_only": {
+        "queries": 1250,
+        "r1": 0.488
+      },
+      "two_neighbour_region": {
+        "queries": 1250,
+        "r1": 0.448
+      }
+    },
+    "64": {
+      "target_only": {
+        "queries": 1006,
+        "r1": 0.5029821073558648
+      },
+      "two_neighbour_region": {
+        "queries": 1006,
+        "r1": 0.426441351888668
+      }
+    },
+    "65": {
+      "target_only": {
+        "queries": 1426,
+        "r1": 0.3506311360448808
+      },
+      "two_neighbour_region": {
+        "queries": 1426,
+        "r1": 0.31837307152875177
+      }
+    }
+  },
+  "source": "https://www.mdpi.com/2504-446X/8/12/704",
+  "status": "P56_REGION_CONTROL_COMPLETE"
+}
