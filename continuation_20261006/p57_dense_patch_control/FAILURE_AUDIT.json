@@ -1,0 +1,123 @@
+{
+  "status": "P57_AUDITED_NEGATIVE",
+  "round_count": 3,
+  "checks_per_round": [
+    3,
+    3,
+    3
+  ],
+  "rounds": [
+    {
+      "round": "R1_data_lineage",
+      "checks": [
+        {
+          "check": "five_calibration_pairs_exact",
+          "passed": true,
+          "evidence": {
+            "pairs": [
+              "27",
+              "32",
+              "42",
+              "64",
+              "65"
+            ],
+            "protocol": "P23 calibration readout"
+          }
+        },
+        {
+          "check": "candidate_pool_frame_class_view_contract",
+          "passed": true,
+          "evidence": {
+            "pool": "opposite view, same frame, same class",
+            "labels_used": "diagnostic ranking denominator only"
+          }
+        },
+        {
+          "check": "official_val_test_closed",
+          "passed": true,
+          "evidence": {
+            "official_val_test_read": false,
+            "training_authorized": false
+          }
+        }
+      ]
+    },
+    {
+      "round": "R2_operator_execution",
+      "checks": [
+        {
+          "check": "per_token_l2_normalization_present",
+          "passed": true,
+          "evidence": {
+            "final_run": "v3",
+            "operator_line": "F.normalize(...x_norm_patchtokens, dim=-1)",
+            "initial_v2_defect": "normalization was omitted and v2 was not used as the final result"
+          }
+        },
+        {
+          "check": "symmetric_top16_operator_and_finite_outputs",
+          "passed": true,
+          "evidence": {
+            "operator": "symmetric top-16 patch maxima",
+            "patch_r1_values": [
+              0.24753937007874016,
+              0.09529602595296026,
+              0.296,
+              0.3320079522862823,
+              0.20476858345021037
+            ],
+            "finite": true
+          }
+        },
+        {
+          "check": "physical_gpu_and_process_receipt",
+          "passed": true,
+          "evidence": {
+            "gpu_name": "NVIDIA A100-SXM4-40GB",
+            "gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+            "total_memory_bytes": 42298834944,
+            "v3_exit_code": 0,
+            "source_sha256": "107eacc91cbd3e0282b1d4c5998e0f3a952d41c13c1e52acb9d2067f813d3bcb"
+          }
+        }
+      ]
+    },
+    {
+      "round": "R3_metric_decision",
+      "checks": [
+        {
+          "check": "independent_macro_recompute",
+          "passed": true,
+          "evidence": {
+            "recomputed_patch_partial": 0.2351223863536386,
+            "stored_patch_partial": 0.2351223863536386,
+            "recomputed_target_only": 0.4905143803303213,
+            "stored_target_only": 0.4905143803303213
+          }
+        },
+        {
+          "check": "independent_pair_win_recompute",
+          "passed": true,
+          "evidence": {
+            "recomputed_wins": 0,
+            "stored_wins": 0,
+            "pairs": 5
+          }
+        },
+        {
+          "check": "preregistered_negative_gate",
+          "passed": true,
+          "evidence": {
+            "delta": -0.25539199397668266,
+            "minimum_macro_delta": 0.005,
+            "pair_wins": 0,
+            "minimum_pair_wins": 3
+          }
+        }
+      ]
+    }
+  ],
+  "scientific_classification": "scientific_negative_after_normalization_fix; final protocol is valid and no unresolved implementation defect remains",
+  "decision": "STOP_P57_PATCH_SIGNAL_BEFORE_TRAINING",
+  "formal_mot_claim": false
+}

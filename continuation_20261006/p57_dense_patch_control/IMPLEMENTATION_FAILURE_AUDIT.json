@@ -1,0 +1,26 @@
+{
+  "status": "P57_IMPLEMENTATION_AUDIT_CLOSED",
+  "initial_defects": [
+    {
+      "defect": "v2 omitted per-token L2 normalization before patch-token cosine",
+      "observed_in": "patch_v2",
+      "action": "patched F.normalize on x_norm_patchtokens and reran complete control as v3",
+      "final_result_used": "SIGNAL.json from v3 only"
+    }
+  ],
+  "final_run": {
+    "receipt": "patch_v3.exit.actual",
+    "exit_code": 0,
+    "signal_sha256": "01d2e02803ae0e066e618f430d425205af77af928f61c5f347ace48a4c084554",
+    "source_sha256": "107eacc91cbd3e0282b1d4c5998e0f3a952d41c13c1e52acb9d2067f813d3bcb"
+  },
+  "round_count": 3,
+  "checks_per_round": [
+    3,
+    3,
+    3
+  ],
+  "final_gate": "valid_negative_scientific_gate",
+  "unresolved_implementation_defect": false,
+  "training_authorized": false
+}

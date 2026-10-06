@@ -1,0 +1,1020 @@
+{
+  "stage": "p57_dense_patch_control_stop_20261006",
+  "time_asia_shanghai": "2026-10-06T15:05:53.155980+08:00",
+  "local_root": "/home/chenhc/claude_try_MDMOT",
+  "scope": "local path/size index; SHA256 for checkpoints only",
+  "local_files_deleted": false,
+  "artifacts": [
+    {
+      "path": "continuation_20261004/p22_dense_analysis/TEMPORAL_ANALYSIS.json",
+      "bytes": 11939258,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261004/p22_dense_motion/assets/raft_large_C_T_SKHT_V2-ff5fadd5.pth",
+      "bytes": 21106607,
+      "stored_in_git": false,
+      "sha256": "ff5fadd56d26b40647388883af1547351ea17868b765c05b27231e72dd16a322"
+    },
+    {
+      "path": "continuation_20261004/p22_prior_art/sources/geonet_pdf.pdf",
+      "bytes": 4967430,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261004/p22_prior_art/sources/homview_arxiv_pdf.pdf",
+      "bytes": 9957901,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261004/p23_visual/data/PREDECODE.json",
+      "bytes": 16766593,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261004/p23_visual/data/frozen_dino.npy",
+      "bytes": 83693696,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261004/p23_visual/data/raw_fpn.npy",
+      "bytes": 55795840,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261004/p23_visual/runs/head_only/fixed_step_001200.pt",
+      "bytes": 603552,
+      "stored_in_git": false,
+      "sha256": "904d19c7913c23c3e851e77bf0139c39ff2e17f2eaced2fd81a31c183593c043"
+    },
+    {
+      "path": "continuation_20261004/p23_visual/runs/visual_ft/fixed_step_001200.pt",
+      "bytes": 88893058,
+      "stored_in_git": false,
+      "sha256": "5b48db9db2d30e836455e271736aa5d6634670ea87b658068376cad7a7e75450"
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/independent_score/31-1.txt",
+      "bytes": 2291021,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/independent_score/31-2.txt",
+      "bytes": 2727907,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/independent_score/52-2.txt",
+      "bytes": 2592566,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/independent_score/68-2.txt",
+      "bytes": 2407291,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/independent_score/73-1.txt",
+      "bytes": 2132832,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/independent_score/73-2.txt",
+      "bytes": 2148060,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/26-1.json",
+      "bytes": 3850966,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/31-1.json",
+      "bytes": 4459095,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/31-2.json",
+      "bytes": 5308043,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/34-2.json",
+      "bytes": 3007633,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/48-1.json",
+      "bytes": 2816200,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/52-1.json",
+      "bytes": 2816597,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/52-2.json",
+      "bytes": 5046022,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/55-2.json",
+      "bytes": 2356773,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/59-1.json",
+      "bytes": 2132093,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/61-2.json",
+      "bytes": 3350912,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/62-1.json",
+      "bytes": 2548788,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/62-2.json",
+      "bytes": 3038235,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/68-1.json",
+      "bytes": 3555754,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/68-2.json",
+      "bytes": 4699062,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/71-2.json",
+      "bytes": 3237502,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/73-1.json",
+      "bytes": 4167309,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/predictions/73-2.json",
+      "bytes": 4172830,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/31-1.txt",
+      "bytes": 2291021,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/31-2.txt",
+      "bytes": 2727907,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/52-2.txt",
+      "bytes": 2592566,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/68-2.txt",
+      "bytes": 2407291,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/73-1.txt",
+      "bytes": 2132832,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/73-2.txt",
+      "bytes": 2148060,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/runs/fit23/json/mia_baseline/23-1.json",
+      "bytes": 2719655,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/runs/fit23/json/mia_baseline/23-2.json",
+      "bytes": 2808074,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p26_mia_baseline/source/MDMT.png",
+      "bytes": 2971717,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p28_causal_fgfa/flow_lookback/observations.npz",
+      "bytes": 3399579,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p28_causal_fgfa/training/causal_fgfa/final.pth",
+      "bytes": 3152783,
+      "stored_in_git": false,
+      "sha256": "1ccca1c811f100daaec33977aeea6f299cb064a4ead31314f1bc8e3f8ef907a9"
+    },
+    {
+      "path": "continuation_20261005/p28_causal_fgfa/training/single_adapter/final.pth",
+      "bytes": 3152847,
+      "stored_in_git": false,
+      "sha256": "cdb73ec9ec9483710ab44227f8fbe7e60cb29f79a58fcd492650b116eb13ccee"
+    },
+    {
+      "path": "continuation_20261005/p28_causal_fgfa/training/uniform_fgfa/final.pth",
+      "bytes": 3152847,
+      "stored_in_git": false,
+      "sha256": "eaf9e2521fb2afa8bbe4b2d53dafc1e583bb780d891d4698268d63802350dadc"
+    },
+    {
+      "path": "continuation_20261005/p29_learned_alignment/training/current_residual/final.pth",
+      "bytes": 2569281,
+      "stored_in_git": false,
+      "sha256": "901d917187ca78c09d33602e07ecde90f32134eae18417e982c459ac74ab96de"
+    },
+    {
+      "path": "continuation_20261005/p29_learned_alignment/training/past_fixed_offsets/final.pth",
+      "bytes": 2569281,
+      "stored_in_git": false,
+      "sha256": "2895fa240884fe4b7bf783696adcd9d27c9cc1fa87589a7ad843a2fb732f7677"
+    },
+    {
+      "path": "continuation_20261005/p29_learned_alignment/training/past_learned_offsets/final.pth",
+      "bytes": 2569281,
+      "stored_in_git": false,
+      "sha256": "e768dc8d159b2d13d51fdee7ad0a23dd59bdd370eee7b589b7e21585ecc914a0"
+    },
+    {
+      "path": "continuation_20261005/p29_repair_20261005/training/current_residual/final.pth",
+      "bytes": 2569281,
+      "stored_in_git": false,
+      "sha256": "edc5b63833478dc89382ffb2e786aa350b7610321275561b7f102a008193b6ad"
+    },
+    {
+      "path": "continuation_20261005/p29_repair_20261005/training/past_fixed_offsets/final.pth",
+      "bytes": 2569281,
+      "stored_in_git": false,
+      "sha256": "cc698b1f73f278e0d5ce0447a1ed5f62b408c075c27d6ea7665f65e54cf02ae7"
+    },
+    {
+      "path": "continuation_20261005/p29_repair_20261005/training/past_learned_offsets/final.pth",
+      "bytes": 2569281,
+      "stored_in_git": false,
+      "sha256": "8d94362d1a7e17b4a4895814ea49f2738686684df0bdf2dd245350e92f5d22a7"
+    },
+    {
+      "path": "continuation_20261005/p30_full_host/calibration/FEATURE_EVENTS.jsonl",
+      "bytes": 4679933,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p30_full_host/calibration/FEATURE_INDEX.json",
+      "bytes": 9554340,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p30_full_host/calibration/FLOW_INDEX.json",
+      "bytes": 2160891,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p35_canonical_transport/runs/train_v1/anchor.pt",
+      "bytes": 202696,
+      "stored_in_git": false,
+      "sha256": "4462764e1a2d449f89e44ba16a0f58efdd2bf4be4581bbe77b468ae2622dcb30"
+    },
+    {
+      "path": "continuation_20261005/p38_temporal_memory/runs/evaluation/28_embeddings.npz",
+      "bytes": 2124744,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p38_temporal_memory/runs/evaluation/29_embeddings.npz",
+      "bytes": 2481482,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p38_temporal_memory/runs/evaluation/45_embeddings.npz",
+      "bytes": 3003258,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p38_temporal_memory/runs/evaluation/65_embeddings.npz",
+      "bytes": 2178649,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p38_temporal_memory/runs/evaluation/69_embeddings.npz",
+      "bytes": 2133935,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p38_temporal_memory/runs/evaluation/74_embeddings.npz",
+      "bytes": 2106116,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p38_temporal_memory/runs/evaluation/78_embeddings.npz",
+      "bytes": 2952025,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p38_temporal_memory/runs/p38_temporal/fixed_step_001200.pt",
+      "bytes": 465860,
+      "stored_in_git": false,
+      "sha256": "411f1c908f3bca6263ad53994a94b7c2f23268f62b23f41aff785a2af97d9127"
+    },
+    {
+      "path": "continuation_20261005/p39_temporal_mean_anchor/runs/28_embeddings.npz",
+      "bytes": 2124568,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p39_temporal_mean_anchor/runs/29_embeddings.npz",
+      "bytes": 2481173,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p39_temporal_mean_anchor/runs/45_embeddings.npz",
+      "bytes": 3001732,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p39_temporal_mean_anchor/runs/65_embeddings.npz",
+      "bytes": 2178934,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p39_temporal_mean_anchor/runs/69_embeddings.npz",
+      "bytes": 2134208,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p39_temporal_mean_anchor/runs/74_embeddings.npz",
+      "bytes": 2106219,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p39_temporal_mean_anchor/runs/78_embeddings.npz",
+      "bytes": 2951908,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p40_temporal_mean_adapter/runs/28_embeddings.npz",
+      "bytes": 2124448,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p40_temporal_mean_adapter/runs/29_embeddings.npz",
+      "bytes": 2481119,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p40_temporal_mean_adapter/runs/45_embeddings.npz",
+      "bytes": 3001813,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p40_temporal_mean_adapter/runs/65_embeddings.npz",
+      "bytes": 2178600,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p40_temporal_mean_adapter/runs/69_embeddings.npz",
+      "bytes": 2134146,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p40_temporal_mean_adapter/runs/74_embeddings.npz",
+      "bytes": 2106162,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p40_temporal_mean_adapter/runs/78_embeddings.npz",
+      "bytes": 2951971,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p40_temporal_mean_adapter/runs/fixed_step_001200.pt",
+      "bytes": 465860,
+      "stored_in_git": false,
+      "sha256": "0948ce21fd80af1e7481d3a430992dd5f5d4f4e70f442a60fb2a8657f7bedf7c"
+    },
+    {
+      "path": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/28_embeddings.npz",
+      "bytes": 2124665,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/29_embeddings.npz",
+      "bytes": 2481163,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/45_embeddings.npz",
+      "bytes": 3001581,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/65_embeddings.npz",
+      "bytes": 2178944,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/69_embeddings.npz",
+      "bytes": 2134104,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/74_embeddings.npz",
+      "bytes": 2105871,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/78_embeddings.npz",
+      "bytes": 2952063,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/fixed_step_055236.pt",
+      "bytes": 465860,
+      "stored_in_git": false,
+      "sha256": "528542e3574ee7270550e42a1505f46013101d2c5b3e205103d7167bdc8d7eee"
+    },
+    {
+      "path": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/fixed_step_055236_raw_metadata.pt",
+      "bytes": 465860,
+      "stored_in_git": false,
+      "sha256": "7caec0707c772cca1470c29b5efceb87c475bc0df839505bb45d8ed250908211"
+    },
+    {
+      "path": "continuation_20261005/p42_temporal_mean_host_pair23/runs/host_pair23/P42_geometry-23-2.json",
+      "bytes": 2152224,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p42_temporal_mean_host_pair23/runs/host_pair23/P42_mean8-23-2.json",
+      "bytes": 2152215,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p42_temporal_mean_host_pair23/runs/pair23/23-1.npz",
+      "bytes": 7908402,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p42_temporal_mean_host_pair23/runs/pair23/23-2.npz",
+      "bytes": 8150037,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p43_owner_continuity_repair/runs/host_pair23/P43_geometry-23-2.json",
+      "bytes": 2153267,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p43_owner_continuity_repair/runs/host_pair23/P43_mean8-23-2.json",
+      "bytes": 2153267,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p44_tracklet_owner_evidence/runs/host_pair23/P44_geometry-23-2.json",
+      "bytes": 2154438,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p44_tracklet_owner_evidence/runs/host_pair23/P44_mean8-23-2.json",
+      "bytes": 2154306,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_geometry_v2/json/geometry_frontdoor/23-1.json",
+      "bytes": 2719762,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_geometry_v2/json/geometry_frontdoor/23-2.json",
+      "bytes": 2808548,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_p14_v3/json/p14_frontdoor/23-1.json",
+      "bytes": 2719604,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_p14_v3/json/p14_frontdoor/23-2.json",
+      "bytes": 2809022,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p48_cross_view_kinematic_transport/runs/trace_pair23_v1/json/traced_baseline/23-1.json",
+      "bytes": 2719655,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p48_cross_view_kinematic_transport/runs/trace_pair23_v1/json/traced_baseline/23-2.json",
+      "bytes": 2808074,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p48_cross_view_kinematic_transport/runs/trace_pair23_v1/trace.jsonl",
+      "bytes": 12528255,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261005/p50_fragment_teacher_residual/MAP_FPN_GATE_MODEL.pt",
+      "bytes": 46213315,
+      "stored_in_git": false,
+      "sha256": "28dade2c725cadef3921e12f283cedf293917a1882ed544100f33d3d050332e7"
+    },
+    {
+      "path": "continuation_20261005/p50_fragment_teacher_residual/MAP_GATE_MODEL.pt",
+      "bytes": 34811587,
+      "stored_in_git": false,
+      "sha256": "ffbda0e3694ef66e493cc816fdc79de9cb7b6bc8217a8ab69df29c5e0e55be7d"
+    },
+    {
+      "path": "continuation_20261005/p50_fragment_teacher_residual/MAP_SUFFICIENCY_MODEL.pt",
+      "bytes": 34811587,
+      "stored_in_git": false,
+      "sha256": "ef675580291dbb7683b2832998b425617107bc60812a749948601ee7c361618e"
+    },
+    {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/b4_extension_block1_v1/checkpoints/B4_latest.pt",
+      "bytes": 104010965,
+      "stored_in_git": false,
+      "sha256": "f99f3d3d2e14b23563e9df20b5c9fee158e68f9cc2f85525eb3225df84e61124"
+    },
+    {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/b4_extension_block1_v1/checkpoints/CVSGM_B4_latest.pt",
+      "bytes": 104158751,
+      "stored_in_git": false,
+      "sha256": "e9fa28da1dc35025312b35684f8fd28f0508b292977476e59d565a65c42da881"
+    },
+    {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_seed17_v1/checkpoints/B1_latest.pt",
+      "bytes": 103986433,
+      "stored_in_git": false,
+      "sha256": "1ee7b583480e290278e11fd29e2826827b15a4ba06cc393ea967771e56488a2f"
+    },
+    {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_seed17_v1/checkpoints/B4_latest.pt",
+      "bytes": 104010965,
+      "stored_in_git": false,
+      "sha256": "0757d57e39ffcbd2b462583b7126dfae1b16ffbba7736fb7a1c0f83295800a4a"
+    },
+    {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_seed17_v1/checkpoints/CVSGM_latest.pt",
+      "bytes": 104134283,
+      "stored_in_git": false,
+      "sha256": "7e35e944bc40918afd3faf9ae26240861a1b8eee70b1597fb1310645fbe6d673"
+    },
+    {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_v2/checkpoints/B1_latest.pt",
+      "bytes": 103986433,
+      "stored_in_git": false,
+      "sha256": "992b892ca47e61fe511063de55852b406a2f6d68cc10f896bde0d07a7feeb423"
+    },
+    {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_v2/checkpoints/B4_latest.pt",
+      "bytes": 104010965,
+      "stored_in_git": false,
+      "sha256": "3a427d3681c512951e2c0c9b0882ed93239fa8284901230a348b2d30e88a4188"
+    },
+    {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_v2/checkpoints/CVSGM_latest.pt",
+      "bytes": 104134283,
+      "stored_in_git": false,
+      "sha256": "f425c57f2121a14208fb636b55c414ab0d198de05e3ac24e3b4a6c19206733d7"
+    },
+    {
+      "path": "continuation_20261006/lcscf_b4_gate/runs/block1_600_v3/checkpoints/B4_latest.pt",
+      "bytes": 104010965,
+      "stored_in_git": false,
+      "sha256": "5cbe37dc74d524cb907decd1227b81b708971598479f57fb154cc5e193820dc3"
+    },
+    {
+      "path": "continuation_20261006/lcscf_b4_gate/runs/block1_600_v3/checkpoints/LCSCF_B4_latest.pt",
+      "bytes": 104013571,
+      "stored_in_git": false,
+      "sha256": "108902731c51f55860a28c6187e7be901dcbe8e6431dfab0ddd0ac918fabeba4"
+    },
+    {
+      "path": "continuation_20261006/lcscf_b4_gate/runs/block1_600_v4/checkpoints/B4_latest.pt",
+      "bytes": 104010965,
+      "stored_in_git": false,
+      "sha256": "de5024c7a14895054af63e20bbb9e591329c920f78b8ae51194aa190c97ae355"
+    },
+    {
+      "path": "continuation_20261006/lcscf_b4_gate/runs/block1_600_v4/checkpoints/LCSCF_B4_latest.pt",
+      "bytes": 104013571,
+      "stored_in_git": false,
+      "sha256": "5c5aa98a48bcf4e3abbb46518c1bc58ba7a26d129a978c9567aca1bbce3ddcc2"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/attempts/cf_v1_semantics_invalid/checkpoints/counterfactual_cf_off_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "dba119fb06f434190c5d77a40a0746d235935dbcf0cba65b5ede7518ad05365a"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/attempts/cf_v1_semantics_invalid/checkpoints/counterfactual_cf_off_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "6252fdb386547e41e967683e21d315fdf5fe570b77f5869bfa58cca0aefda242"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/attempts/cf_v2_smoke/counterfactual_cf_off_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "7ccbb8a9109c567d715d8c1919a1a1d1e7b019593663e2dc02a6b045f5ecf660"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/attempts/cf_v2_smoke/counterfactual_cf_off_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "a40557d7f2a7dd183e81db8696a6469c5e08845d0a627b1cf220871674b58340"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/attempts/cf_v2_smoke/counterfactual_cf_on_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "014fd64c89f93067b2aa100cf221353cd14a6df81c439c5497da13764e3230a8"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/attempts/cf_v2_smoke/counterfactual_cf_on_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "b0529739e6e7b97a2d5958820863cfb181a12fd14998e16a2ef0b4c13fa2d869"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/cf_smoke/counterfactual_cf_off_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "fe56b800fdb600877d43047d16f14eb1fce774d9e88c618c536de64a66b20f03"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/cf_smoke/counterfactual_cf_off_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "1b34f4701e8920d597cd28ac77481a841411c7aa20cbf0450d23533a9b83fcbc"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/cf_smoke/counterfactual_cf_on_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "1c04f3ff15ffd1fb3c1c607def369721e0ee43418cfc4aabd2cb25296d1e086d"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/cf_smoke/counterfactual_cf_on_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "c01258d156fcd06f64ba740734551ae3be279639bf01a54f04d7d55078060786"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/counterfactual_cf_off_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "0c715d7faf6561d9b85902ed7cf7acb3236bb5a79653ef2b83be321b5fb1d036"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/counterfactual_cf_off_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "ac8d506d745142441fd9ca1f2391e02e9fd18ccb88c08f2837c534e3c73bb795"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/counterfactual_cf_on_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "c8cebacf4decd0ef65dbe1415dad3fd4c9c5b9e3463647fea04084cf39167d1d"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/counterfactual_cf_on_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "76b77bb6453c2d7a4038a670c0af45fefc29b379fc3bab2f3f3a946d01dd7017"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/pooled_teacher_off_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "1faab425edf069d802ccd02d4429d41039018c56d7a369b5dfaa8607389e6ab8"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/pooled_teacher_off_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "54a84952336f8b49ea9088f57b1bbcb0553715825034c9b57873b13d7787f458"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/pooled_teacher_on_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "dc98e4c505ea100fa8c205efdd67f7ff44d05f62334d8e09065aec8a3a196145"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/pooled_teacher_on_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "55b8bd21de130160b74055655cc175b7496068a22a36993f1941cb9e8e8804b4"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/rel_on_teacher_off_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "97a96c70839026513edb70e147a550199fa35481df8b05c7f91c1852a7a73c96"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/rel_on_teacher_off_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "03294b0fb89c4569f7af66d2f79d37fc7568a1d3d7267597a4d4a66d8614380e"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/rel_on_teacher_on_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "d548154d81e0ec0ffbbd8514b43ce8b6c1f68916f37ca75f5b653521e91736ed"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/rel_on_teacher_on_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "cb2d342db4619733c67347bb5f063889f5884c9a2e36070024f2b33f0c29f3c1"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/smoke2/pooled_teacher_off_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "2f5042c982d1ca80e833c6d2edf204666ad6476b49b471174942da9e7e01a36b"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/smoke2/pooled_teacher_off_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "a4ca0523909124419d5deb324b3c71b628d0efba3d70aff636d44821b7c885ee"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/smoke2/pooled_teacher_on_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "611cf2a6b3807bc49689bd05f9b48158ba56379472386a52245ca813a3fd4cd7"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/smoke2/pooled_teacher_on_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "35e2da341e7dfa2529794cc662afa140024393165990a5fd8636c4fea73e2a57"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/smoke2/rel_on_teacher_off_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "a3c0cd39dd155bfeb6390e0bcc7374008cf428d18099b1b7d107df0e7f33dfda"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/smoke2/rel_on_teacher_off_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "51cc1eb52069e54ca8938501a26436b9c579c138d340e5c71003c80eb814faf7"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/smoke2/rel_on_teacher_on_seed17.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "7331165bb5bd7c784ef97587e72ca8e5e4078cad1f90982e6ec71d42b9e52314"
+    },
+    {
+      "path": "continuation_20261006/p50_native_map_repair/smoke2/rel_on_teacher_on_seed7.pt",
+      "bytes": 1978095,
+      "stored_in_git": false,
+      "sha256": "e38141976f0b3438758816a4e72026ca6b872cf1533f388fedfc3ed7d67a61c3"
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs/evaluation/28_embeddings.npz",
+      "bytes": 2140691,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs/evaluation/29_embeddings.npz",
+      "bytes": 2499443,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs/evaluation/45_embeddings.npz",
+      "bytes": 3023751,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs/evaluation/65_embeddings.npz",
+      "bytes": 2194933,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs/evaluation/69_embeddings.npz",
+      "bytes": 2149834,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs/evaluation/74_embeddings.npz",
+      "bytes": 2121836,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs/evaluation/78_embeddings.npz",
+      "bytes": 2973585,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs/fixed_step_001200.pt",
+      "bytes": 1058287,
+      "stored_in_git": false,
+      "sha256": "1aac07f23c1a6fd9ce23a21fbb2e36839bf0a8a2b1a4fdb82fb15a2bcc185e8d"
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs_full/evaluation/28_embeddings.npz",
+      "bytes": 2134853,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs_full/evaluation/29_embeddings.npz",
+      "bytes": 2489440,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs_full/evaluation/45_embeddings.npz",
+      "bytes": 3011337,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs_full/evaluation/65_embeddings.npz",
+      "bytes": 2190902,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs_full/evaluation/69_embeddings.npz",
+      "bytes": 2141317,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs_full/evaluation/74_embeddings.npz",
+      "bytes": 2114343,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs_full/evaluation/78_embeddings.npz",
+      "bytes": 2966261,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/runs_full/fixed_step_055236.pt",
+      "bytes": 1058287,
+      "stored_in_git": false,
+      "sha256": "8ff3a1642cbb7d40cb19fe6571793b62b33d8834097c1ea95f84d65020b6bbe3"
+    },
+    {
+      "path": "continuation_20261006/p51_ccfi/signal/65_embeddings.npz",
+      "bytes": 2192523,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p52_p26_host_compat/full_json/p52_full/23-1.json",
+      "bytes": 2723403,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p52_p26_host_compat/full_json/p52_full/23-2.json",
+      "bytes": 2813983,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs/evaluation/28_embeddings.npz",
+      "bytes": 2140487,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs/evaluation/29_embeddings.npz",
+      "bytes": 2499493,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs/evaluation/45_embeddings.npz",
+      "bytes": 3023457,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs/evaluation/65_embeddings.npz",
+      "bytes": 2194547,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs/evaluation/69_embeddings.npz",
+      "bytes": 2149850,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs/evaluation/74_embeddings.npz",
+      "bytes": 2121588,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs/evaluation/78_embeddings.npz",
+      "bytes": 2973275,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs/fixed_step_001200.pt",
+      "bytes": 1058223,
+      "stored_in_git": false,
+      "sha256": "81b70d8d863b87ec836a40c0eece844f3e29fce47f8fae345b685bb20ad54fb1"
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs_full/evaluation/28_embeddings.npz",
+      "bytes": 2134320,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs_full/evaluation/29_embeddings.npz",
+      "bytes": 2488681,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs_full/evaluation/45_embeddings.npz",
+      "bytes": 3010314,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs_full/evaluation/65_embeddings.npz",
+      "bytes": 2190447,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs_full/evaluation/69_embeddings.npz",
+      "bytes": 2140749,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs_full/evaluation/74_embeddings.npz",
+      "bytes": 2113431,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs_full/evaluation/78_embeddings.npz",
+      "bytes": 2965769,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p53_ccsi/runs_full/fixed_step_055236.pt",
+      "bytes": 1058223,
+      "stored_in_git": false,
+      "sha256": "c719bcf300f168a4c9fbf9bbda0ecc64d82b01e4215bb3220b57625459ca381f"
+    },
+    {
+      "path": "continuation_20261006/p54_future_evidence_distill/runs/fixed_step_001200.pt",
+      "bytes": 2176117,
+      "stored_in_git": false,
+      "sha256": "27ac6475147325833c46e4bddb7bd7f5dffedc8ac0472fb1575374195ab228df"
+    },
+    {
+      "path": "continuation_20261006/p55_context_residual/context_dino.npy",
+      "bytes": 83693696,
+      "stored_in_git": false
+    },
+    {
+      "path": "continuation_20261006/p55_context_residual/runs/context_residual/fixed_step_001200.pt",
+      "bytes": 3086776,
+      "stored_in_git": false,
+      "sha256": "26756571ce8e3cac6f32580e08896ae7668c1151f3f83e1522848a9a5bd31c83"
+    },
+    {
+      "path": "continuation_20261006/p55_context_residual/runs/target_only/fixed_step_001200.pt",
+      "bytes": 3086776,
+      "stored_in_git": false,
+      "sha256": "b2feab8083ebe22ac35ca36ba426ed4ed7d5f4bfe8c3c2c762fc6e36670dd7ea"
+    },
+    {
+      "path": "continuation_20261006/p55_context_residual/runs_v4/context_residual/fixed_step_001200.pt",
+      "bytes": 1071832,
+      "stored_in_git": false,
+      "sha256": "21baf3dedfe5cb24ae9bf2e1e63efc950053b4c5047aa25014fb61afedf761ba"
+    },
+    {
+      "path": "continuation_20261006/p55_context_residual/runs_v4/target_only/fixed_step_001200.pt",
+      "bytes": 1071832,
+      "stored_in_git": false,
+      "sha256": "d81bf36cadb606037cc165ca7d9cc2cfa08d96c2ee29bae8a2955a6833cdebb0"
+    }
+  ]
+}

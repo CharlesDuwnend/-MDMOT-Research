@@ -1,0 +1,21 @@
+{
+  "status": "STOP_P57_PATCH_SIGNAL",
+  "candidate": "bidirectional_partial_patch_correspondence",
+  "macro_r1": {
+    "target_only": 0.4905143803303213,
+    "patch_partial": 0.2351223863536386,
+    "delta": -0.25539199397668266,
+    "pair_wins_of_5": 0
+  },
+  "scope": "frozen train-free P23 calibration signal; same-frame/same-class/opposite-view candidate pool",
+  "gate": {
+    "minimum_macro_delta": 0.005,
+    "minimum_pair_wins": 3,
+    "passed": false
+  },
+  "novelty_claim": false,
+  "paper_claim": false,
+  "official_val_test_read": false,
+  "training_authorized": false,
+  "next": "do not train the proposed patch scorer or tune top-k; retain this as a negative control and continue from the baseline bottleneck with a different mechanism"
+}

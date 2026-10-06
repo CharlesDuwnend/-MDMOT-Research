@@ -1,0 +1,10 @@
+{
+  "status": "TRAIN_FREE_SIGNAL_BEFORE_TRAINING",
+  "pairs": ["27", "32", "42", "64", "65"],
+  "operator": "symmetric mean top-16 patch-to-patch cosine maxima",
+  "baseline": "P23 head-only pooled representation",
+  "candidate_pool": "same frame, same class, opposite view, known candidates retained for diagnostic denominator",
+  "gate": {"minimum_macro_delta": 0.005, "minimum_pair_wins": 3},
+  "official_val_test_read": false,
+  "training_authorized": false
+}

@@ -1,0 +1,76 @@
+{
+  "delta": -0.25539199397668266,
+  "elapsed_seconds": 119.44326818734407,
+  "gpu": {
+    "memory": 42298834944,
+    "name": "NVIDIA A100-SXM4-40GB"
+  },
+  "macro_r1": {
+    "patch_partial": 0.2351223863536386,
+    "target_only": 0.4905143803303213
+  },
+  "official_val_test_read": false,
+  "operator": "symmetric top-16 patch maxima",
+  "pair_wins": 0,
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "per_pair": {
+    "27": {
+      "patch_partial": {
+        "queries": 2032,
+        "r1": 0.24753937007874016
+      },
+      "target_only": {
+        "queries": 2032,
+        "r1": 0.3656496062992126
+      }
+    },
+    "32": {
+      "patch_partial": {
+        "queries": 2466,
+        "r1": 0.09529602595296026
+      },
+      "target_only": {
+        "queries": 2466,
+        "r1": 0.48337388483373883
+      }
+    },
+    "42": {
+      "patch_partial": {
+        "queries": 1250,
+        "r1": 0.296
+      },
+      "target_only": {
+        "queries": 1250,
+        "r1": 0.5856
+      }
+    },
+    "64": {
+      "patch_partial": {
+        "queries": 1006,
+        "r1": 0.3320079522862823
+      },
+      "target_only": {
+        "queries": 1006,
+        "r1": 0.6133200795228628
+      }
+    },
+    "65": {
+      "patch_partial": {
+        "queries": 1426,
+        "r1": 0.20476858345021037
+      },
+      "target_only": {
+        "queries": 1426,
+        "r1": 0.40462833099579243
+      }
+    }
+  },
+  "status": "P57_PATCH_SIGNAL_COMPLETE",
+  "training_authorized": false
+}
