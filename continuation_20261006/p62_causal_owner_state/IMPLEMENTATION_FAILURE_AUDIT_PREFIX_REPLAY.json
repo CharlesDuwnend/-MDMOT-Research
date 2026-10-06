@@ -1,0 +1,33 @@
+{
+  "status": "REPAIRED_AND_VERIFIED",
+  "defect": "The first prefix replay implementation used a mutating DSU find for read-only state features. Querying an unseen candidate endpoint inserted singleton nodes, so later events at the same ready_frame appeared to have a different state.",
+  "impact": "The causal replay contract stopped before acceptance; no model training or MOT result was produced from the defective implementation.",
+  "repair": "Added a non-mutating _peek path for component-size and same-component feature queries; only accepted historical edges can create DSU nodes.",
+  "rounds": [
+    {
+      "round": 1,
+      "checks": [
+        "python3 -m py_compile src/prefix_replay_contract.py",
+        "source and input SHA-256 values loaded for all 20 train pairs"
+      ],
+      "result": "PASS"
+    },
+    {
+      "round": 2,
+      "checks": [
+        "same-frame state digest is invariant after candidate feature queries",
+        "all 20 pairs have zero future evidence-frame and future-commit violations"
+      ],
+      "result": "PASS"
+    },
+    {
+      "round": 3,
+      "checks": [
+        "positive rows remain candidate-present and legal-prefix labeled",
+        "OwnerState provisional/revoke/final transition remains deterministic"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "scientific_status": "No official-val/test metric or novelty claim is authorized by this contract."
+}

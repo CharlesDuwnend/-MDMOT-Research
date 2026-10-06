@@ -110,6 +110,14 @@ and produced no scientific result. P62 is still before model training and formal
 metrics; the next gate is held-out prefix replay with same-information/delayed and
 log-only controls.
 
+The held-out prefix replay contract then passed on all 20 train pairs. It sorts
+events by ready frame and admits only accepted commits from strictly earlier
+frames; same-frame state digests are invariant, candidate evidence has zero
+future-frame violations, and positive labels remain candidate-present. The first
+implementation mutated the DSU while querying unseen endpoints; the repair uses
+non-mutating reads and passed three audit rounds with three checks each. This is
+still a train-only causality/mechanism result, not an MOT improvement.
+
 ## Git phase archival
 
 The workspace is initialized on branch `main` with the authorized remote `git@github.com:CharlesDuwnend/-MDMOT-Research.git`. Each major phase is archived with `scripts/stage_snapshot.py`; it records local large-artifact paths and checkpoint hashes, commits compact source/spec/audit/result evidence, pushes `origin/main`, and verifies the exact remote commit. The initial phase will include the screened CCFI/CCSI evidence and the stop decisions above.
