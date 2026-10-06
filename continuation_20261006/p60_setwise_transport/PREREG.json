@@ -1,0 +1,14 @@
+{
+  "stage": "P60_setwise_identity_transport",
+  "status": "FROZEN_BEFORE_TRAINING",
+  "split": {"fit": ["23","25","28","29","39","44","45","51","53","63","66","69","70","74","78"], "calibration": ["27","32","42","64","65"], "dev_val_test_read": false},
+  "input": "P23 head-only 128D embeddings; P4 exact all-candidate same-frame same-class opposite-view groups",
+  "operator": "stable Sinkhorn transport with uniform row/column marginals; epsilon=0.10; iterations=50",
+  "signal_metric": "known-positive R@1 tie-averaged over eligible all-candidate queries",
+  "gate": {"minimum_macro_delta": 0.005, "minimum_pair_wins": 3, "minimum_calibration_macro": 0.48412456211781995},
+  "no_training_before_cpu_contract": true,
+  "no_geometry": true,
+  "no_threshold_tuning": true,
+  "no_official_val_test": true,
+  "novelty_claim": false
+}

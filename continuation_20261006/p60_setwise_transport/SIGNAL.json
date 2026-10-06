@@ -1,0 +1,62 @@
+{
+  "status": "P60_FROZEN_SIGNAL_COMPLETE",
+  "operator": "balanced_sinkhorn_eps_0.10_iters_50",
+  "per_pair": {
+    "27": {
+      "target_only": 0.3405511811023622,
+      "transport": 0.3428477690288714,
+      "delta": 0.0022965879265091638,
+      "eligible": 2032,
+      "unknown_top_mass": 0.05577427821522309,
+      "queries": 3352
+    },
+    "32": {
+      "target_only": 0.4793187347931874,
+      "transport": 0.5382873749662072,
+      "delta": 0.05896864017301978,
+      "eligible": 2466,
+      "unknown_top_mass": 0.02132333062989997,
+      "queries": 3564
+    },
+    "42": {
+      "target_only": 0.5816,
+      "transport": 0.6292,
+      "delta": 0.047599999999999976,
+      "eligible": 1250,
+      "unknown_top_mass": 0.0264,
+      "queries": 2147
+    },
+    "64": {
+      "target_only": 0.5944333996023857,
+      "transport": 0.6789264413518886,
+      "delta": 0.0844930417495029,
+      "eligible": 1006,
+      "unknown_top_mass": 0.061630218687872766,
+      "queries": 1504
+    },
+    "65": {
+      "target_only": 0.3997194950911641,
+      "transport": 0.3899018232819074,
+      "delta": -0.00981767180925669,
+      "eligible": 1426,
+      "unknown_top_mass": 0.05329593267882188,
+      "queries": 4518
+    }
+  },
+  "macro": {
+    "target_only": 0.47912456211781995,
+    "transport": 0.5158326817257749,
+    "delta": 0.03670811960795495
+  },
+  "pair_wins": 4,
+  "gate": {
+    "minimum_macro_delta": 0.005,
+    "minimum_pair_wins": 3,
+    "minimum_calibration_macro": 0.48412456211781996,
+    "passed": true
+  },
+  "official_val_test_read": false,
+  "training": false,
+  "source_sha256": "b1708a0d7badbaa09d17dbe9807252ccb4f3910476d88f62a8301c97fa45f8e5",
+  "prereg_sha256": "bfc5d895fe6b45d80259449ef35abe71d7f082cf131019b844d4bc7a11de9776"
+}
