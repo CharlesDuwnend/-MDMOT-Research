@@ -97,6 +97,19 @@ finite/unit embeddings, and independent scorer replay. This is a valid negative
 cross-pair generalization result, not an implementation failure; P61 is stopped
 before host attachment and official evaluation.
 
+## P62 causal owner-state transition screening (2026-10-06)
+
+P62 starts from the COD finding that high candidate coverage coexists with
+persistent false ownership commits. The candidate is a prefix-causal owner-state
+transition policy: candidate evidence and the current provisional partition produce
+a link/no-link action and an explicit state update. The repaired data/CPU contract
+covers 20 legal train pairs, 179,949 candidate rows, and 2,552 prefix-positive
+rows; all source cache/event hashes, finite gradients, and provisional/revoke/final
+state transitions pass. A PyTorch positional-dtype typo was fixed before acceptance
+and produced no scientific result. P62 is still before model training and formal
+metrics; the next gate is held-out prefix replay with same-information/delayed and
+log-only controls.
+
 ## Git phase archival
 
 The workspace is initialized on branch `main` with the authorized remote `git@github.com:CharlesDuwnend/-MDMOT-Research.git`. Each major phase is archived with `scripts/stage_snapshot.py`; it records local large-artifact paths and checkpoint hashes, commits compact source/spec/audit/result evidence, pushes `origin/main`, and verifies the exact remote commit. The initial phase will include the screened CCFI/CCSI evidence and the stop decisions above.

@@ -1,0 +1,13 @@
+{
+  "status": "P62_PRECONTRACT_IMPLEMENTATION_AUDIT_CLOSED",
+  "defect": "CPU contract used torch.tensor(values, torch.float32), which is invalid positional dtype syntax in the active PyTorch version",
+  "impact": "data contract terminated before the model finite-gradient check; no training or scientific result was produced",
+  "repair": "changed to torch.tensor(values, dtype=torch.float32) and reran the complete 20-pair contract",
+  "rounds": [
+    {"round": 1, "checks": ["source compiles after repair", "all 20 pair cache/event hashes load"]},
+    {"round": 2, "checks": ["179949 rows and 2552 prefix positives are finite", "all 15 fit and 5 calibration pairs are disjoint and present"]},
+    {"round": 3, "checks": ["COST gradients are finite", "OwnerState revoke/provisional/final transition passes"]}
+  ],
+  "scientific_result_from_failed_run": false,
+  "repair_verified": true
+}

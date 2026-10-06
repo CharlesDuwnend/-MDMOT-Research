@@ -1,0 +1,15 @@
+{
+  "stage": "P62_counterfactual_owner_state_transition",
+  "status": "FROZEN_BEFORE_DATA_CONTRACT",
+  "data": "MDMT train split only; 25 paired sequences from frozen stage15 cache and stage1 streams",
+  "fit_pairs": ["23","25","28","29","39","44","45","51","53","63","66","69","70","74","78"],
+  "calibration_pairs": ["27","32","42","64","65"],
+  "prefix_boundary": "candidate evidence frame <= ready_frame = confirmation_frame + 4",
+  "model": "gated endpoint state cell with candidate evidence encoder and provisional owner partition input",
+  "objective": "masked prefix link/no-link loss + owner transition contract consistency",
+  "controls": ["same-information-same-delay", "log-only-ID-relabel", "state-contamination-descendant-replay"],
+  "official_val_test_read": false,
+  "formal_mot_metrics": false,
+  "novelty_claim": false,
+  "progression": "data contract -> CPU state contract -> held-out pair prefix replay -> only then GPU training"
+}
