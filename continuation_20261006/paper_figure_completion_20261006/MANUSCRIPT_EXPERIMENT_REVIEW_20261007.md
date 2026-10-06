@@ -2,7 +2,7 @@
 
 日期：2026-10-07  
 稿件：`/home/chenhc/src_egia_icme_paper`  
-当前稿件构建：9 页，5 幅图，4 张表；`main.pdf` SHA-256 为 `3e4d7f012f82d71c2592bb355400265203b191cb21c29db7838dad703ef27cd4`。
+当前稿件构建：9 页，5 幅图，4 张表；`main.pdf` SHA-256 为 `c9f18b573fd13ba99de0d80497cc290f1bd2f835a76a096f17eba9ebe26be6f1`。
 
 ## 当前已经可以支撑的结果
 
@@ -83,3 +83,4 @@ operator，属于另一层机制问题。是否放入正文，等你根据上面
 - Table II 数据已取消加粗；Table IV 宽度为 `0.70\\columnwidth`，表下注释间距为 8pt，FPS 为 27.4/25.2/23.8。
 - 主文已无 Fig. 6 引用；README 和 evidence ledger 已同步说明 Fig. 6 已从正文移除。
 - U2MOT setup 已压缩为数据协议、共享 detector 和 vehicle-only lifecycle 设定；具体 fit/calibration 流程仍由证据清单保留。
+- Fig. 4 caption 进一步明确 (c) 中的示例是逐轨 scalar cost entries，不是概率向量。
