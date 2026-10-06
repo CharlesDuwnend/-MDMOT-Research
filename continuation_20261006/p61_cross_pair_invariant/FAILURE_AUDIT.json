@@ -1,0 +1,103 @@
+{
+  "checkpoint_sha256": "55c894f09bb7c66d950abdc2d5e367a6d7b8f32b9ddf0d7659d7467b48a8475a",
+  "official_val_test_read": false,
+  "result": {
+    "cpia_macro": 0.46087556482289455,
+    "delta": -0.018248997294925406,
+    "pair_wins": 0,
+    "target_only_macro": 0.47912456211781995
+  },
+  "rounds": [
+    {
+      "all_passed": true,
+      "checks": [
+        {
+          "check": "fit_calibration_pair_disjoint",
+          "detail": {
+            "calibration": 5,
+            "fit": 15
+          },
+          "passed": true
+        },
+        {
+          "check": "training_receipt_checkpoint_exit",
+          "detail": {
+            "checkpoint_sha256": "55c894f09bb7c66d950abdc2d5e367a6d7b8f32b9ddf0d7659d7467b48a8475a",
+            "exit": 0
+          },
+          "passed": true
+        },
+        {
+          "check": "official_and_dev_closed",
+          "detail": {
+            "dev_val_test_read": false,
+            "official_val_test_read": false
+          },
+          "passed": true
+        }
+      ],
+      "round": 1
+    },
+    {
+      "all_passed": true,
+      "checks": [
+        {
+          "check": "zero_init_contract_replay",
+          "detail": {
+            "max_abs_error": 2.9802322387695312e-08
+          },
+          "passed": true
+        },
+        {
+          "check": "unknown_label_mask_invariance",
+          "detail": {
+            "altered_unknowns": 0.1749384105205536,
+            "clean": 0.1749384105205536
+          },
+          "passed": true
+        },
+        {
+          "check": "final_embedding_finite_unit",
+          "detail": {
+            "finite": true,
+            "max_unit_norm_error": 0.0
+          },
+          "passed": true
+        }
+      ],
+      "round": 2
+    },
+    {
+      "all_passed": true,
+      "checks": [
+        {
+          "check": "independent_metric_replay",
+          "detail": {
+            "base": 0.47912456211781995,
+            "cpia": 0.46087556482289455
+          },
+          "passed": true
+        },
+        {
+          "check": "independent_negative_gate_replay",
+          "detail": {
+            "delta": -0.018248997294925406,
+            "wins": 0
+          },
+          "passed": true
+        },
+        {
+          "check": "checkpoint_not_nan_or_collapsed",
+          "detail": {
+            "state_tensors": 6
+          },
+          "passed": true
+        }
+      ],
+      "round": 3
+    }
+  ],
+  "scientific_classification": "valid protocol and implementation; cross-pair invariant residual generalizes negatively on all five calibration pairs",
+  "source_sha256": "a73965992f3397da1b40e62441337422e02d83cb1977fda036cffd5a35ba7212",
+  "status": "P61_AUDITED_NEGATIVE"
+}

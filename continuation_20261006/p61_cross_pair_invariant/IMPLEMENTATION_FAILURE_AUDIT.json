@@ -1,0 +1,17 @@
+{
+  "final_checkpoint_sha256": "55c894f09bb7c66d950abdc2d5e367a6d7b8f32b9ddf0d7659d7467b48a8475a",
+  "final_prereg_sha256": "a38beefdd6de5dbaba2926b867c5193991817faf33a05e8229a4270a85a19995",
+  "final_protocol_valid": true,
+  "final_source_sha256": "a73965992f3397da1b40e62441337422e02d83cb1977fda036cffd5a35ba7212",
+  "host_attachment_authorized": false,
+  "pretrain_defects": [
+    {
+      "defect": "CPU fit-domain summary indexed the original candidate positions after filtering to known candidates",
+      "impact": "the support diagnostic raised IndexError before any model contract or training run",
+      "repair": "map the positive index into the filtered known-candidate array and rerun py_compile plus CPU contract"
+    }
+  ],
+  "status": "P61_IMPLEMENTATION_AUDIT_CLOSED",
+  "training_authorized_under_prereg": true,
+  "unresolved_scientific_implementation_defect": false
+}

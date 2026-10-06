@@ -85,6 +85,18 @@ established prior art, so P60 is retained as a validated engineering control and
 stopped for paper novelty and P26 host attachment. No official val/test or formal
 MOT result was read.
 
+## P61 cross-pair invariant identity outcome (2026-10-06)
+
+P61 (CPIA) treated each fit pair as an environment and aligned second-order
+gradient directions from two distinct pair-local identity losses. The repaired CPU
+contract covered all 15 fit pairs and 1,200 groups. The physical GPU3 run completed
+1,200 updates, but calibration fell from P23 `0.4791246` to `0.4608756`, delta
+`-0.0182490`, with 0/5 pair wins. The independent audit passed three rounds with
+three checks each, including split/receipt closure, zero-init, unknown-label masking,
+finite/unit embeddings, and independent scorer replay. This is a valid negative
+cross-pair generalization result, not an implementation failure; P61 is stopped
+before host attachment and official evaluation.
+
 ## Git phase archival
 
 The workspace is initialized on branch `main` with the authorized remote `git@github.com:CharlesDuwnend/-MDMOT-Research.git`. Each major phase is archived with `scripts/stage_snapshot.py`; it records local large-artifact paths and checkpoint hashes, commits compact source/spec/audit/result evidence, pushes `origin/main`, and verifies the exact remote commit. The initial phase will include the screened CCFI/CCSI evidence and the stop decisions above.

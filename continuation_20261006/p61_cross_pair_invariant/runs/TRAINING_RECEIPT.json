@@ -1,0 +1,142 @@
+{
+  "checkpoint_sha256": "55c894f09bb7c66d950abdc2d5e367a6d7b8f32b9ddf0d7659d7467b48a8475a",
+  "elapsed_seconds": 111.25211794674397,
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "gpu_total_memory_bytes": 42298834944,
+  "gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+  "history": [
+    {
+      "alignment": 0.9729911684989929,
+      "gradient_norm": 2.223639726638794,
+      "objective": 0.290375679731369,
+      "query_loss": 0.37018677592277527,
+      "query_queries": 20,
+      "step": 1,
+      "support_loss": 0.11326545476913452,
+      "support_queries": 16
+    },
+    {
+      "alignment": 0.9510030150413513,
+      "gradient_norm": 2.1674182415008545,
+      "objective": 0.3849581778049469,
+      "query_loss": 0.0021351648028939962,
+      "query_queries": 6,
+      "step": 100,
+      "support_loss": 0.6726809144020081,
+      "support_queries": 16
+    },
+    {
+      "alignment": 1.0044944286346436,
+      "gradient_norm": 1.8951257467269897,
+      "objective": 0.5039068460464478,
+      "query_loss": 0.36507120728492737,
+      "query_queries": 72,
+      "step": 200,
+      "support_loss": 0.5422930717468262,
+      "support_queries": 60
+    },
+    {
+      "alignment": 0.9856345057487488,
+      "gradient_norm": 1.2807990312576294,
+      "objective": 0.15114983916282654,
+      "query_loss": 0.10168249905109406,
+      "query_queries": 18,
+      "step": 300,
+      "support_loss": 0.10205373167991638,
+      "support_queries": 22
+    },
+    {
+      "alignment": 0.9465742707252502,
+      "gradient_norm": 1.5671522617340088,
+      "objective": 0.3698856234550476,
+      "query_loss": 0.33214351534843445,
+      "query_queries": 10,
+      "step": 400,
+      "support_loss": 0.3129703104496002,
+      "support_queries": 66
+    },
+    {
+      "alignment": 0.9892247319221497,
+      "gradient_norm": 1.7047669887542725,
+      "objective": 0.243188738822937,
+      "query_loss": 0.37782636284828186,
+      "query_queries": 42,
+      "step": 500,
+      "support_loss": 0.009628643281757832,
+      "support_queries": 10
+    },
+    {
+      "alignment": 1.0290851593017578,
+      "gradient_norm": 0.47428494691848755,
+      "objective": 0.0852602869272232,
+      "query_loss": 0.06553525477647781,
+      "query_queries": 22,
+      "step": 600,
+      "support_loss": 0.0020768127869814634,
+      "support_queries": 4
+    },
+    {
+      "alignment": 0.9911373853683472,
+      "gradient_norm": 1.8379340171813965,
+      "objective": 0.32247141003608704,
+      "query_loss": 0.47328418493270874,
+      "query_queries": 46,
+      "step": 700,
+      "support_loss": 0.0725448727607727,
+      "support_queries": 40
+    },
+    {
+      "alignment": 1.027965784072876,
+      "gradient_norm": 1.1235054731369019,
+      "objective": 0.1724109947681427,
+      "query_loss": 0.0016022849595174193,
+      "query_queries": 2,
+      "step": 800,
+      "support_loss": 0.24042311310768127,
+      "support_queries": 34
+    },
+    {
+      "alignment": 1.0218697786331177,
+      "gradient_norm": 0.8660562634468079,
+      "objective": 0.1255190521478653,
+      "query_loss": 0.0694144144654274,
+      "query_queries": 52,
+      "step": 900,
+      "support_loss": 0.07943671941757202,
+      "support_queries": 12
+    },
+    {
+      "alignment": 0.996675968170166,
+      "gradient_norm": 1.2708451747894287,
+      "objective": 0.13540801405906677,
+      "query_loss": 0.08794480562210083,
+      "query_queries": 10,
+      "step": 1000,
+      "support_loss": 0.08320362865924835,
+      "support_queries": 30
+    },
+    {
+      "alignment": 0.9764888286590576,
+      "gradient_norm": 1.1504778861999512,
+      "objective": 0.13103675842285156,
+      "query_loss": 0.061066459864377975,
+      "query_queries": 10,
+      "step": 1100,
+      "support_loss": 0.1033581867814064,
+      "support_queries": 34
+    },
+    {
+      "alignment": 1.1062190532684326,
+      "gradient_norm": 0.8210664391517639,
+      "objective": 0.16446547210216522,
+      "query_loss": 0.03983127698302269,
+      "query_queries": 10,
+      "step": 1200,
+      "support_loss": 0.17847774922847748,
+      "support_queries": 62
+    }
+  ],
+  "official_val_test_read": false,
+  "status": "PASS_P61_TRAINING",
+  "updates": 1200
+}

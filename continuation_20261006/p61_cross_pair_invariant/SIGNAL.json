@@ -1,0 +1,56 @@
+{
+  "checkpoint_sha256": "55c894f09bb7c66d950abdc2d5e367a6d7b8f32b9ddf0d7659d7467b48a8475a",
+  "gate": {
+    "minimum_calibration_macro": 0.48412456211781996,
+    "minimum_macro_delta": 0.005,
+    "minimum_pair_wins": 3,
+    "passed": false
+  },
+  "macro": {
+    "cpia": 0.46087556482289455,
+    "delta": -0.018248997294925406,
+    "target_only": 0.47912456211781995
+  },
+  "official_val_test_read": false,
+  "pair_wins": 0,
+  "per_pair": {
+    "27": {
+      "cpia": 0.3331692913385827,
+      "delta": -0.0073818897637795144,
+      "pair_wins": false,
+      "queries": 2032,
+      "target_only": 0.3405511811023622
+    },
+    "32": {
+      "cpia": 0.4557988645579886,
+      "delta": -0.023519870235198748,
+      "pair_wins": false,
+      "queries": 2466,
+      "target_only": 0.4793187347931874
+    },
+    "42": {
+      "cpia": 0.572,
+      "delta": -0.009600000000000053,
+      "pair_wins": false,
+      "queries": 1250,
+      "target_only": 0.5816
+    },
+    "64": {
+      "cpia": 0.562624254473161,
+      "delta": -0.031809145129224725,
+      "pair_wins": false,
+      "queries": 1006,
+      "target_only": 0.5944333996023857
+    },
+    "65": {
+      "cpia": 0.3807854137447405,
+      "delta": -0.018934081346423604,
+      "pair_wins": false,
+      "queries": 1426,
+      "target_only": 0.3997194950911641
+    }
+  },
+  "source_sha256": "a73965992f3397da1b40e62441337422e02d83cb1977fda036cffd5a35ba7212",
+  "status": "P61_CALIBRATION_GATE_COMPLETE",
+  "training_completed": true
+}

@@ -1,0 +1,7 @@
+{
+  "decision": "stop before P26 host attachment, official evaluation, or tuning; retain checkpoint and audit as negative representation evidence",
+  "method_result": "CPIA calibration macro 0.4608756 versus P23 0.4791246, delta -0.0182490, 0/5 pair wins",
+  "next": "Do not extend CPIA or tune gradient-alignment weight. Reassess the paper route from the COD protocol or a genuinely different observable/operator.",
+  "reason": "three-round audit passed data split, launcher/receipt, label masking, finite/unit output, and independent scorer replay; result is not explained by an implementation defect",
+  "status": "STOP_P61_CPIA_NEGATIVE_GATE"
+}
