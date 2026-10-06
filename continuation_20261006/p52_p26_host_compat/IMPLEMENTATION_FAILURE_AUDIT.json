@@ -1,0 +1,79 @@
+{
+  "status": "STOP_P52_P26_HOST_COMPATIBILITY",
+  "candidate": "P52 native counterfactual adapter injected into protected P26 MIA host",
+  "rounds": [
+    {
+      "round": "R1",
+      "checks": [
+        {
+          "check": "K0_empty_candidate_forward",
+          "status": "FAIL_THEN_FIXED",
+          "finding": "NativeSetResidual called amax over an empty candidate dimension.",
+          "evidence": "audit_contract.py first run raised IndexError",
+          "fix": "finite maxsim sentinel -1 for K=0"
+        },
+        {
+          "check": "hook_direction_and_owner_index",
+          "status": "FAIL_THEN_FIXED",
+          "finding": "B-to-A hook read the owner index from rows_a and raised an out-of-bounds error during the 30-frame smoke replay.",
+          "evidence": "smoke30 first replay exited with IndexError at p52_p26_host_replay.py:193",
+          "fix": "read target_row from owner_rows for both directions"
+        }
+      ]
+    },
+    {
+      "round": "R2",
+      "checks": [
+        {
+          "check": "noncontiguous_geometry_candidate_index",
+          "status": "FAIL_THEN_FIXED",
+          "finding": "The learned local candidate index was converted twice to a source-row index.",
+          "evidence": "hook audit added a noncontiguous candidate regression",
+          "fix": "single geom_indices[local_index] conversion"
+        },
+        {
+          "check": "collision_direction_reload_contract",
+          "status": "PASS",
+          "evidence": "HOOK_CONTRACT.json; A-to-B, B-to-A, collision guard, and exact reload all pass"
+        }
+      ]
+    },
+    {
+      "round": "R3",
+      "checks": [
+        {
+          "check": "full_pair23_structure_and_finiteness",
+          "status": "PASS",
+          "evidence": "FULL_REPLAY_AUDIT.json; 700 frames per view, no duplicate IDs per frame, finite feature/model audit"
+        },
+        {
+          "check": "host_transfer_effectiveness_and_collision_behavior",
+          "status": "FAIL",
+          "finding": "P52 selected dustbin 4385/4973 scored events, added 327 collision skips, and degraded the same pair23 development protocol.",
+          "evidence": "FULL_REPLAY_AUDIT.json and FULL_SCORE.json",
+          "delta_p52_minus_p26": {
+            "MDA": -0.2142399851503065,
+            "IDF1": -0.030133513459241312,
+            "MOTA": -0.013987111602953517,
+            "num_switches": 434.0
+          }
+        }
+      ]
+    }
+  ],
+  "decision": {
+    "status": "STOP_P52_AS_P26_HOST_ADAPTER",
+    "paper_method": false,
+    "training_authorized": false,
+    "official_val_test_access": false,
+    "formal_mot_score_authorized": false,
+    "next": "retain P52 only as a negative adapter control; redesign identity representation and supervision before any new training"
+  },
+  "artifacts": {
+    "interface_contract": "INTERFACE_CONTRACT.json",
+    "hook_contract": "HOOK_CONTRACT.json",
+    "full_replay_audit": "FULL_REPLAY_AUDIT.json",
+    "full_score": "FULL_SCORE.json",
+    "host_receipt": "HOST_REPLAY_p52.json"
+  }
+}

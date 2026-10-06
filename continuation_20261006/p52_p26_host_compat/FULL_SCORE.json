@@ -1,0 +1,59 @@
+{
+  "status": "COMPLETE_P52_P26_PAIR23_DEVELOPMENT_DIAGNOSTIC",
+  "protocol": "pair23 fit development only; same XML MOT scorer as P42 diagnostic",
+  "baseline": {
+    "method": "P26_baseline",
+    "MDA": 0.6431315772400862,
+    "IDF1": 0.9087675268817306,
+    "MOTA": 0.9474145050991436,
+    "num_switches": 770.0,
+    "views": [
+      {
+        "idf1": 0.9026395757611869,
+        "mota": 0.9447530134719925,
+        "num_switches": 407.0,
+        "num_false_positives": 123.0,
+        "num_misses": 405.0
+      },
+      {
+        "idf1": 0.9148954780022741,
+        "mota": 0.9500759967262948,
+        "num_switches": 363.0,
+        "num_false_positives": 289.0,
+        "num_misses": 202.0
+      }
+    ]
+  },
+  "p52_host": {
+    "method": "P52_host",
+    "MDA": 0.42889159208977967,
+    "IDF1": 0.8786340134224893,
+    "MOTA": 0.9334273934961901,
+    "num_switches": 1204.0,
+    "views": [
+      {
+        "idf1": 0.8852146453361933,
+        "mota": 0.9363625620420705,
+        "num_switches": 548.0,
+        "num_false_positives": 124.0,
+        "num_misses": 405.0
+      },
+      {
+        "idf1": 0.8720533815087852,
+        "mota": 0.9304922249503098,
+        "num_switches": 656.0,
+        "num_false_positives": 320.0,
+        "num_misses": 213.0
+      }
+    ]
+  },
+  "delta_p52_minus_p26": {
+    "MDA": -0.2142399851503065,
+    "IDF1": -0.030133513459241312,
+    "MOTA": -0.013987111602953517,
+    "num_switches": 434.0
+  },
+  "official_val_test_access": false,
+  "formal_mot_score_authorized": false,
+  "training_authorized": false
+}

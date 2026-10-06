@@ -1,0 +1,35 @@
+{
+  "status": "PASS_P52_P26_INTERFACE_CONTRACT",
+  "sequence": "23",
+  "feature_store": {
+    "1": {
+      "index": "/home/chenhc/cross_uav_query_mamba_20260830/features/train/23-1.jsonl",
+      "index_sha256": "1db89b2b484794d6f9d708468a894bf01625973813775b19e1cf9ce8f0670fa5",
+      "shard": "/home/chenhc/cross_uav_query_mamba_20260830/features/train/23-1.npz",
+      "shard_sha256": "bb21cd8fae4b83d47f5dc92399aa6271c02923ebfd97676f007f8a6a8fb1c780",
+      "rows": 23248,
+      "frames": 700
+    },
+    "2": {
+      "index": "/home/chenhc/cross_uav_query_mamba_20260830/features/train/23-2.jsonl",
+      "index_sha256": "19f3bf8acaf81280de8fad40865e7351f1c1686bbbadebc805252c619e688606",
+      "shard": "/home/chenhc/cross_uav_query_mamba_20260830/features/train/23-2.npz",
+      "shard_sha256": "1b716306dff795a05aeb6291b1d099816e582143591fb2d383fea1fb30d83c71",
+      "rows": 25256,
+      "frames": 700
+    }
+  },
+  "frame": 10,
+  "target_iou": 1.0,
+  "candidate_rows": 19,
+  "score_shape": [
+    1,
+    19
+  ],
+  "empty_shape": [
+    1,
+    0
+  ],
+  "checkpoint_sha256": "76b77bb6453c2d7a4038a670c0af45fefc29b379fc3bab2f3f3a946d01dd7017",
+  "official_val_test_access": false
+}

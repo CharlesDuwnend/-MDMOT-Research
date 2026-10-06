@@ -1,0 +1,106 @@
+{
+  "status": "PASS_P52_P26_FULL_REPLAY_STRUCTURE_AUDIT",
+  "sequence": "23",
+  "views": {
+    "1": {
+      "p52": {
+        "frames": 700,
+        "min_frame": 0,
+        "max_frame": 699,
+        "rows": 16643,
+        "duplicate_id_frames": 0
+      },
+      "p26": {
+        "frames": 700,
+        "min_frame": 0,
+        "max_frame": 699,
+        "rows": 16642,
+        "duplicate_id_frames": 0
+      },
+      "p52_sha256": "119328aad5cf98ce24ccb60116e5a81e29c328b97b0af84afc1942e03a52fca1",
+      "p26_sha256": "c2988c6c1c42ae15c84616c3d701f958662fad98bc3e51e9c07b79c72045bf58"
+    },
+    "2": {
+      "p52": {
+        "frames": 700,
+        "min_frame": 0,
+        "max_frame": 699,
+        "rows": 17213,
+        "duplicate_id_frames": 0
+      },
+      "p26": {
+        "frames": 700,
+        "min_frame": 0,
+        "max_frame": 699,
+        "rows": 17193,
+        "duplicate_id_frames": 0
+      },
+      "p52_sha256": "94277491819052ae3511c5528a4de2130c475dc09341113fa3f9ba8c0d82b8eb",
+      "p26_sha256": "6c7f3add80ddaba8d065627975125070619febf0b858372e3ec41ff3f9e4707e"
+    }
+  },
+  "changed_frames": {
+    "1": {
+      "count": 687,
+      "first": [
+        "frame=6",
+        "frame=7",
+        "frame=8",
+        "frame=9",
+        "frame=10",
+        "frame=18",
+        "frame=19",
+        "frame=20",
+        "frame=21",
+        "frame=22",
+        "frame=23",
+        "frame=24",
+        "frame=25",
+        "frame=26",
+        "frame=27",
+        "frame=28",
+        "frame=29",
+        "frame=30",
+        "frame=31",
+        "frame=32"
+      ]
+    },
+    "2": {
+      "count": 683,
+      "first": [
+        "frame=17",
+        "frame=18",
+        "frame=19",
+        "frame=20",
+        "frame=21",
+        "frame=22",
+        "frame=23",
+        "frame=24",
+        "frame=25",
+        "frame=26",
+        "frame=27",
+        "frame=28",
+        "frame=29",
+        "frame=30",
+        "frame=31",
+        "frame=32",
+        "frame=33",
+        "frame=34",
+        "frame=35",
+        "frame=36"
+      ]
+    }
+  },
+  "hook_stats": {
+    "scored_events": 4973,
+    "candidate_rows_scored": 7055,
+    "dustbin_selected": 4385,
+    "learned_dustbin_skip": 4385,
+    "learned_choice": 588,
+    "relabels": 261,
+    "collision_skip": 327
+  },
+  "checkpoint_sha256": "76b77bb6453c2d7a4038a670c0af45fefc29b379fc3bab2f3f3a946d01dd7017",
+  "official_val_test_access": false,
+  "formal_mot_score_authorized": false
+}

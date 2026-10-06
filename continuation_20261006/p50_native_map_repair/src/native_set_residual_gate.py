@@ -158,7 +158,10 @@ class NativeSetResidual(nn.Module):
       corr=self.score(x).squeeze(-1)
       logits=(base+0.25*corr).masked_fill(~mask,-1e9)
       setvec=(c*valid.unsqueeze(-1)).sum(1)/den.squeeze(1)
-      maxsim=torch.where(mask,(F.normalize(a,dim=-1)[:,None]*F.normalize(c+1e-8,dim=-1)).sum(-1),torch.full_like(base,-1.)).amax(1,keepdim=True)
+      sim=(F.normalize(a,dim=-1)[:,None]*F.normalize(c+1e-8,dim=-1)).sum(-1)
+      # Empty candidate sets are valid no-match events.  Avoid amax over an
+      # empty dimension and expose a finite sentinel to the dustbin head.
+      maxsim=torch.where(mask,sim,torch.full_like(base,-1.)).amax(1,keepdim=True) if k else torch.full((b,1),-1.,device=c.device,dtype=c.dtype)
       count=(valid.sum(1,keepdim=True)/KMAX)
       dust=self.dust(torch.cat([F.normalize(a,dim=-1),F.normalize(setvec,dim=-1),maxsim,count],-1)).squeeze(-1)
       return logits,dust,z

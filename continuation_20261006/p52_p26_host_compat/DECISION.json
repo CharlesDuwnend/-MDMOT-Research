@@ -1,0 +1,22 @@
+{
+  "status": "STOP_P52_AS_P26_HOST_ADAPTER",
+  "candidate": "P52 native counterfactual adapter",
+  "scope": "pair23 development-only P26 host compatibility",
+  "decision": "STOP",
+  "reason": "The adapter is executable and structurally finite, but host transfer is materially worse than the protected P26 baseline.",
+  "evidence": {
+    "MDA_delta": -0.2142399851503065,
+    "IDF1_delta": -0.030133513459241312,
+    "MOTA_delta": -0.013987111602953517,
+    "num_switches_delta": 434.0,
+    "scored_events": 4973,
+    "dustbin_selected": 4385,
+    "collision_skips": 327
+  },
+  "paper_claim": false,
+  "training_authorized": false,
+  "official_val_test_access": false,
+  "formal_mot_score_authorized": false,
+  "protected_p26_modified": false,
+  "next": "do not tune thresholds or continue steps; retain this as an adapter negative control and redesign the identity representation/supervision"
+}
