@@ -58,6 +58,16 @@ CCSI adds counterfactual history/change swapping to CCFI. Its CPU mechanism cont
 
 The retained artifacts are the short and full checkpoints as local diagnostic evidence, the method specification, CPU contract, train-free signal, implementation audits, frozen evaluation manifests, and full failure audit. Checkpoints and raw embeddings remain local and are indexed by SHA-256 rather than stored in Git.
 
+## P57-P59 current continuation outcomes (2026-10-06)
+
+P57 tested frozen bidirectional top-16 DINO patch correspondence after fixing an initial per-token normalization defect. The corrected five-pair signal was 0.2351224 versus P23 target-only 0.4905144, delta -0.2553920, with 0/5 pair wins; it is stopped before training.
+
+P58 tested a strict-past temporal anchor on the P23 head. The sealed calibration cache samples every 11 frames while the preregistered history window is at most 8 frames, so legal temporal support was zero on all five pairs. It is an observability hold, not a scientific negative; no training is authorized until a continuous all-frame P23 feature cache exists.
+
+P59 screened and trained a cross-representation causal bridge: frozen P23 current identity plus frozen P1 strict-past local-track history, a gated residual, and cross-view masked identity loss with causal consistency. Fit support was 96.37%; the corrected v2 run completed 1,200 updates on physical GPU3. Calibration5 was 0.4645404 versus target-only 0.4791246, delta -0.0145842, with 0/5 pair wins. Its three-round implementation audit passed and classified a valid cross-pair generalization failure; the branch is stopped before P26 host attachment.
+
+The protected P26 baseline remains unchanged. No P57-P59 branch supports an official-val/test or formal MOT improvement claim. The next candidate must use a different identity target or operator, pass a fresh mechanism-level prior-art screen, and clear the same legal observability, CPU, train-only, and calibration gates.
+
 ## Git phase archival
 
 The workspace is initialized on branch `main` with the authorized remote `git@github.com:CharlesDuwnend/-MDMOT-Research.git`. Each major phase is archived with `scripts/stage_snapshot.py`; it records local large-artifact paths and checkpoint hashes, commits compact source/spec/audit/result evidence, pushes `origin/main`, and verifies the exact remote commit. The initial phase will include the screened CCFI/CCSI evidence and the stop decisions above.
