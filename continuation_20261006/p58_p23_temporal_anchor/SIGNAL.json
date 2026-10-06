@@ -1,0 +1,78 @@
+{
+  "delta": 0.0,
+  "history": {
+    "27": {
+      "max_history": 0,
+      "mean_history": 0.0,
+      "queries": 3363,
+      "with_history": 0
+    },
+    "32": {
+      "max_history": 0,
+      "mean_history": 0.0,
+      "queries": 3608,
+      "with_history": 0
+    },
+    "42": {
+      "max_history": 0,
+      "mean_history": 0.0,
+      "queries": 2149,
+      "with_history": 0
+    },
+    "64": {
+      "max_history": 0,
+      "mean_history": 0.0,
+      "queries": 1504,
+      "with_history": 0
+    },
+    "65": {
+      "max_history": 0,
+      "mean_history": 0.0,
+      "queries": 4551,
+      "with_history": 0
+    }
+  },
+  "macro_r1": {
+    "target_only": 0.47912456211781995,
+    "temporal_anchor": 0.47912456211781995
+  },
+  "official_val_test_read": false,
+  "operator": "L2-normalized mean of current plus up to four strict-past P23 embeddings",
+  "pair_wins": 0,
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "per_pair": {
+    "27": {
+      "queries": 2032,
+      "target_only": 0.3405511811023622,
+      "temporal_anchor": 0.3405511811023622
+    },
+    "32": {
+      "queries": 2466,
+      "target_only": 0.4793187347931874,
+      "temporal_anchor": 0.4793187347931874
+    },
+    "42": {
+      "queries": 1250,
+      "target_only": 0.5816,
+      "temporal_anchor": 0.5816
+    },
+    "64": {
+      "queries": 1006,
+      "target_only": 0.5944333996023857,
+      "temporal_anchor": 0.5944333996023857
+    },
+    "65": {
+      "queries": 1426,
+      "target_only": 0.3997194950911641,
+      "temporal_anchor": 0.3997194950911641
+    }
+  },
+  "status": "P58_TEMPORAL_ANCHOR_SIGNAL_COMPLETE",
+  "training_authorized": false
+}

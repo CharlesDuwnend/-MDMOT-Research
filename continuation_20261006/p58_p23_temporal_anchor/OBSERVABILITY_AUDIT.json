@@ -1,0 +1,33 @@
+{
+  "status": "P58_SIGNAL_UNOBSERVABLE_ON_CURRENT_CAL_CACHE",
+  "round_count": 3,
+  "checks_per_round": [3, 3, 3],
+  "rounds": [
+    {
+      "round": "R1_data_lineage",
+      "checks": [
+        {"check": "calibration_pairs_exact", "passed": true, "evidence": {"pairs": ["27", "32", "42", "64", "65"]}},
+        {"check": "P23_head_checkpoint_loaded", "passed": true, "evidence": {"checkpoint": "continuation_20261004/p23_visual/runs/head_only/fixed_step_001200.pt"}},
+        {"check": "official_val_test_closed", "passed": true, "evidence": {"official_val_test_read": false}}
+      ]
+    },
+    {
+      "round": "R2_observable_operator",
+      "checks": [
+        {"check": "strict_past_age_contract", "passed": true, "evidence": {"max_age_frames": 8, "max_observations": 4}},
+        {"check": "selected_frame_spacing_audited", "passed": true, "evidence": {"pair_27_selected_frames": [1, 11, 22, 33], "spacing": 11}},
+        {"check": "zero_history_is_data_support_condition", "passed": true, "evidence": {"with_history": {"27": 0, "32": 0, "42": 0, "64": 0, "65": 0}, "mean_history_all_pairs": 0.0}}
+      ]
+    },
+    {
+      "round": "R3_progression",
+      "checks": [
+        {"check": "signal_output_finite", "passed": true, "evidence": {"target_macro_r1": 0.47912456211781995, "anchor_macro_r1": 0.47912456211781995}},
+        {"check": "no_temporal_effect_claimed", "passed": true, "evidence": {"delta": 0.0, "pair_wins": 0, "reason": "all rows fell back to current embedding because no legal history row was cached"}},
+        {"check": "training_blocked", "passed": true, "evidence": {"training_authorized": false, "required_next": "continuous all-frame P23 feature cache"}}
+      ]
+    }
+  ],
+  "classification": "observability_stop_not_scientific_method_failure",
+  "decision": "HOLD_P58_UNTIL_CONTINUOUS_P23_FEATURE_CACHE"
+}

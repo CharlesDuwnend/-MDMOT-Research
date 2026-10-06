@@ -1,0 +1,12 @@
+{
+  "status": "HOLD_P58_OBSERVABILITY",
+  "candidate": "P23 head-only causal temporal anchor",
+  "reason": "The sealed P23 calibration cache samples frames every 11 frames, while the pre-registered strict-past window is at most 8 frames; legal history support is zero on all five pairs.",
+  "signal": {"target_only": 0.47912456211781995, "temporal_anchor": 0.47912456211781995, "delta": 0.0, "pair_wins_of_5": 0},
+  "interpretation": "No effectiveness conclusion is permitted because the temporal operator received no history on this cache.",
+  "novelty_claim": false,
+  "paper_claim": false,
+  "official_val_test_read": false,
+  "training_authorized": false,
+  "next": "Only resume after an independently sealed continuous all-frame P23 feature cache passes the same data and label-boundary audit. Do not relax max_age or tune the sparse calibration rows."
+}

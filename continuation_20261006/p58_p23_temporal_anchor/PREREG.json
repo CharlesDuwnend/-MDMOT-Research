@@ -1,0 +1,10 @@
+{
+  "status": "TRAIN_FREE_SIGNAL_BEFORE_TRAINING",
+  "pairs": ["27", "32", "42", "64", "65"],
+  "history": {"max_observations": 4, "max_age_frames": 8, "same_view": true, "strictly_past": true, "group_key": "local_track_id_metadata_only"},
+  "operator": "L2-normalized mean of current P23 head embedding and strict past history",
+  "baseline": "P23 head-only pooled identity representation",
+  "gate": {"minimum_macro_delta": 0.005, "minimum_pair_wins": 3},
+  "official_val_test_read": false,
+  "training_authorized": false
+}
