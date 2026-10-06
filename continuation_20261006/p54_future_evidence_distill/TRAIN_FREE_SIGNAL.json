@@ -1,0 +1,55 @@
+{
+  "status": "PASS_P54_TRAIN_FREE_FUTURE_SIGNAL",
+  "eval_pairs": [
+    "69",
+    "70",
+    "74",
+    "76",
+    "78"
+  ],
+  "per_pair": {
+    "69": {
+      "all_events": 32499,
+      "baseline_r1_all": 0.10104926305424783,
+      "teacher_events": 32456,
+      "baseline_r1_teacher_subset": 0.10102908553118067,
+      "future_teacher_r1": 0.98145181168351
+    },
+    "70": {
+      "all_events": 13625,
+      "baseline_r1_all": 0.059229357798165135,
+      "teacher_events": 13595,
+      "baseline_r1_teacher_subset": 0.05928650239058477,
+      "future_teacher_r1": 0.9982346450901066
+    },
+    "74": {
+      "all_events": 21604,
+      "baseline_r1_all": 0.04212182929087206,
+      "teacher_events": 21526,
+      "baseline_r1_teacher_subset": 0.041856359750998794,
+      "future_teacher_r1": 0.9913128309950757
+    },
+    "76": {
+      "all_events": 20037,
+      "baseline_r1_all": 0.1550631332035734,
+      "teacher_events": 19996,
+      "baseline_r1_teacher_subset": 0.15508101620324063,
+      "future_teacher_r1": 0.9998499699939988
+    },
+    "78": {
+      "all_events": 25033,
+      "baseline_r1_all": 0.1067790516518196,
+      "teacher_events": 24951,
+      "baseline_r1_teacher_subset": 0.10680934631878482,
+      "future_teacher_r1": 0.9999599214460342
+    }
+  },
+  "macro": {
+    "baseline_r1_all": 0.0928485269997356,
+    "baseline_r1_teacher_subset": 0.09281246203895795,
+    "future_teacher_r1": 0.994161835841745
+  },
+  "teacher_is_inference_input": false,
+  "metrics_are_ceiling_diagnostics_only": true,
+  "official_val_test_access": false
+}

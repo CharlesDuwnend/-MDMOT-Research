@@ -1,0 +1,30 @@
+{
+  "status": "FROZEN_P54_SCREENING_GATE",
+  "fit_pairs": ["23", "25", "27", "28", "29", "30", "32", "39", "42", "44", "45", "50", "51", "53", "54"],
+  "calibration_pairs": ["69", "70", "74", "76", "78"],
+  "teacher": {
+    "access": "train-only strict future source-view fragments after the target event",
+    "max_frames": 8,
+    "aggregation": "L2-normalized trimmed mean, detached",
+    "inference_input": false
+  },
+  "student": {
+    "inputs": ["current target visual feature", "same-frame source candidate features K<=64", "candidate mask", "optional strict-prefix target history"],
+    "output": ["candidate logits", "no-match logit", "identity residual vectors"]
+  },
+  "training": {
+    "steps": 1200,
+    "seed": 42,
+    "optimizer": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.0001
+  },
+  "gate": {
+    "minimum_full_event_recall_delta": 0.01,
+    "minimum_pair_wins": 3,
+    "finite_outputs": true,
+    "teacher_in_inference": false,
+    "forbidden": ["dev", "official_val", "official_test", "threshold_search", "future_input_at_inference", "numeric_local_id"]
+  },
+  "novelty": "NO_FIRST_OR_SOTA_CLAIM"
+}

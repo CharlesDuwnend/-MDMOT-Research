@@ -1,5 +1,31 @@
 # MDMOT 2026-10-06 continuation status
 
+## Latest continuation: P54 v2 invalidated as a method test
+
+The resumed thread `01a10a58-06da-7631-9ae1-a772f6d29e20` had stopped while waiting
+for P54. That background run subsequently completed 1,200 updates with exit 0.
+Its conditional calibration Recall@1 was 0.06589844 versus frozen 0.09284853,
+delta -0.02695008, with 2/5 pair wins. This does not establish method failure:
+the new independent 3-round x 3-check audit found a different model in the CPU
+contract, missing declared margin loss, non-trimmed row-based future aggregation,
+padding-dependent dustbin, missing no-match evaluation, and a candidate-copy
+shortcut in the teacher objective. The archived CUDA name also identifies the
+prohibited DGX Display/physical GPU2; the claimed A100 UUID was only an environment
+label. Historical artifacts remain unchanged and must be read with the new audit.
+
+See `p54_future_evidence_distill/SUPERSEDING_AUDIT.md` and `DECISION.json`.
+The current vector ranker is stopped as a paper module; retraining is held pending
+a representation/supervision redesign. Future distillation in general is not
+declared ineffective. The research objective remains a substantive trainable
+improvement of P26; the COD protocol route below is historical diagnostic work,
+not a replacement of that objective. No new learned paper method is validated.
+
+This continuation added a same-process GPU UUID/name/memory verification launcher,
+passed nine GPU-policy regression tests and a live permitted-A100 probe, and
+verified all 658 sealed P26 files. No training, raw official-val/test read, or
+artifact deletion occurred in this continuation. P54's audit and run are a new
+phase after the CCFI/CCSI initial archive.
+
 ## What was actually discovered and corrected
 
 LCSCF v3's negative short gate was invalid. Independent counterexamples found incorrect local reverse-plan sampling, cross-view reference comparison, unknown-candidate ranking/probability handling, and detector native image/RoI geometry. The v3 decision was superseded; it must not be cited as an effectiveness failure.

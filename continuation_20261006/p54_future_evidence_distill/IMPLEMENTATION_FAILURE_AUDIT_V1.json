@@ -1,0 +1,74 @@
+{
+  "status": "PASS_P54_IMPLEMENTATION_FAILURE_AUDIT_V1_3X2",
+  "failure": "FIRST_SHORT_RUN_DIMENSION_MISMATCH_SETMEAN_DUSTBIN",
+  "root_cause": "setmean retained [B,1,D] in train_short.py while dustbin requires [B,D]",
+  "fixed": true,
+  "rounds": {
+    "R1_data_boundary": [
+      {
+        "name": "R1_data_receipt",
+        "pass": true,
+        "detail": {
+          "status": "PASS_P54_FUTURE_TEACHER_DATA_AUDIT",
+          "future_events": 330038
+        }
+      },
+      {
+        "name": "R1_forbidden_boundary",
+        "pass": true,
+        "detail": {
+          "official_val_test_access": false,
+          "teacher_in_inference": false
+        }
+      }
+    ],
+    "R2_operator": [
+      {
+        "name": "R2_shape_and_finite",
+        "pass": true,
+        "detail": {
+          "logits": [
+            4,
+            5
+          ],
+          "dustbin": [
+            4
+          ],
+          "vectors": [
+            4,
+            5,
+            8
+          ]
+        }
+      },
+      {
+        "name": "R2_candidate_permutation",
+        "pass": true,
+        "detail": 1.1920928955078125e-07
+      }
+    ],
+    "R3_real_smoke": [
+      {
+        "name": "R3_real_event_finite_gradients",
+        "pass": true,
+        "detail": {
+          "events": 8,
+          "loss": 0.9520675539970398,
+          "grad_tensors": 16
+        }
+      },
+      {
+        "name": "R3_real_update_and_teacher_boundary",
+        "pass": true,
+        "detail": {
+          "max_parameter_delta": 0.00010102987289428711,
+          "teacher_in_inference": false
+        }
+      }
+    ]
+  },
+  "all_checks_pass": true,
+  "failed_run_log": "train_short.log",
+  "failed_run_exit": 1,
+  "no_effectiveness_claim": true
+}

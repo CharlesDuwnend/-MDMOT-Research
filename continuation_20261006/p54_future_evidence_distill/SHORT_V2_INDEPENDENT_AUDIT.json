@@ -1,0 +1,352 @@
+{
+  "status": "AUDIT_COMPLETE_WITH_FAILED_CONTRACTS_3X3",
+  "rounds": {
+    "R1": [
+      {
+        "round": "R1",
+        "name": "train_split_and_independent_XML_labels",
+        "contract_pass": true,
+        "classification": "INPUT_LABEL_CHECK",
+        "evidence": {
+          "fit": [
+            "23",
+            "25",
+            "27",
+            "28",
+            "29",
+            "30",
+            "32",
+            "39",
+            "42",
+            "44",
+            "45",
+            "50",
+            "51",
+            "53",
+            "54"
+          ],
+          "calibration": [
+            "69",
+            "70",
+            "74",
+            "76",
+            "78"
+          ],
+          "checked_real_rows": 200,
+          "label_disagreements": 0,
+          "raw_val_test_read": false,
+          "feature_source": "/home/chenhc/cross_uav_query_mamba_20260830",
+          "feature_dimension": 256,
+          "P26_host_replay": false
+        }
+      },
+      {
+        "round": "R1",
+        "name": "future_teacher_frame_and_trim_contract",
+        "contract_pass": false,
+        "classification": "SPEC_IMPLEMENTATION_MISMATCH",
+        "evidence": {
+          "actual_teacher": [
+            0.9899494647979736,
+            0.1414213627576828
+          ],
+          "untrimmed_first_eight_rows": [
+            0.9899494936611665,
+            0.1414213562373095
+          ],
+          "equal_to_untrimmed_mean": true,
+          "donor_rows": 8,
+          "distinct_future_frames_selected": 1,
+          "future_frames_available": 9,
+          "strict_future_filter_present": true,
+          "mismatch": "Spec says max 8 frames and trimmed mean; code takes first 8 rows and arithmetic mean."
+        }
+      },
+      {
+        "round": "R1",
+        "name": "checkpoint_and_physical_GPU_provenance",
+        "contract_pass": false,
+        "classification": "HARDWARE_POLICY_VIOLATION_AND_UNVERIFIED_UUID",
+        "evidence": {
+          "checkpoint_sha256": "27ac6475147325833c46e4bddb7bd7f5dffedc8ac0472fb1575374195ab228df",
+          "checkpoint_integrity": true,
+          "tensors": 16,
+          "parameters": 542850,
+          "exit_code": 0,
+          "recorded_cuda_name": "NVIDIA DGX Display",
+          "asserted_env_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+          "unique_name_matches_in_recorded_snapshot": [
+            [
+              "2",
+              "GPU-6f385048-7771-5048-9c46-067bf301ea27",
+              "NVIDIA DGX Display",
+              "4096",
+              "8"
+            ]
+          ],
+          "historical_actual_cuda_uuid_recorded": false,
+          "hardware_violation": "CUDA reported DGX Display; its unique snapshot entry is physical GPU2, 4096 MiB. UUID field came only from environment."
+        }
+      }
+    ],
+    "R2": [
+      {
+        "round": "R2",
+        "name": "production_operator_contract_and_batch_padding",
+        "contract_pass": false,
+        "classification": "WRONG_TESTED_MODEL_AND_NO_MATCH_OPERATOR_DEFECT",
+        "evidence": {
+          "production_shapes": {
+            "residual.0.weight": [
+              16,
+              32
+            ],
+            "residual.0.bias": [
+              16
+            ],
+            "residual.2.weight": [
+              16
+            ],
+            "residual.2.bias": [
+              16
+            ],
+            "residual.3.weight": [
+              8,
+              16
+            ],
+            "residual.3.bias": [
+              8
+            ],
+            "score.0.weight": [
+              16,
+              32
+            ],
+            "score.0.bias": [
+              16
+            ],
+            "score.2.weight": [
+              16
+            ],
+            "score.2.bias": [
+              16
+            ],
+            "score.3.weight": [
+              1,
+              16
+            ],
+            "score.3.bias": [
+              1
+            ],
+            "dustbin.0.weight": [
+              16,
+              17
+            ],
+            "dustbin.0.bias": [
+              16
+            ],
+            "dustbin.2.weight": [
+              1,
+              16
+            ],
+            "dustbin.2.bias": [
+              1
+            ]
+          },
+          "tested_toy_shapes": {
+            "res.0.weight": [
+              16,
+              32
+            ],
+            "res.0.bias": [
+              16
+            ],
+            "res.2.weight": [
+              16
+            ],
+            "res.2.bias": [
+              16
+            ],
+            "res.3.weight": [
+              8,
+              16
+            ],
+            "res.3.bias": [
+              8
+            ],
+            "score.0.weight": [
+              16,
+              24
+            ],
+            "score.0.bias": [
+              16
+            ],
+            "score.2.weight": [
+              1,
+              16
+            ],
+            "score.2.bias": [
+              1
+            ],
+            "dust.0.weight": [
+              16,
+              17
+            ],
+            "dust.0.bias": [
+              16
+            ],
+            "dust.2.weight": [
+              1,
+              16
+            ],
+            "dust.2.bias": [
+              1
+            ]
+          },
+          "candidate_permutation_logit_error": 2.384185791015625e-07,
+          "valid_logits_padding_error": 1.1920928955078125e-07,
+          "dustbin_padding_error": 0.013407975435256958,
+          "true_K0_dustbin_finite": false,
+          "cause": "dustbin uses valid_count/padded_batch_width; K=0 takes mean of empty mask"
+        }
+      },
+      {
+        "round": "R2",
+        "name": "implemented_assignment_loss_vs_specification",
+        "contract_pass": false,
+        "classification": "MISSING_DECLARED_LOSS",
+        "evidence": {
+          "implemented_assignment": "mean BCE over all valid candidate rows",
+          "total_loss": "assign + 0.15*dust_loss + 0.30*align",
+          "hard_negative_margin_in_executable": false,
+          "missing_margin_verified_in_source": true,
+          "ranking_counterexample": {
+            "correct_top1_BCE": 0.6443967223167419,
+            "wrong_top1_BCE": 0.08067948371171951
+          },
+          "significance": "Lower BCE alone cannot validate ranking; margin named in METHOD_SPEC is absent."
+        }
+      },
+      {
+        "round": "R2",
+        "name": "privileged_teacher_signal_proves_causal_transfer",
+        "contract_pass": false,
+        "classification": "TEACHER_CEILING_DOES_NOT_ESTABLISH_LEARNABILITY",
+        "evidence": {
+          "candidate_copy_alignment_losses": [
+            0.0,
+            0.0
+          ],
+          "losses_after_target_swap": [
+            0.0,
+            0.0
+          ],
+          "swapped_target_teacher_cosines": [
+            0.0,
+            0.0
+          ],
+          "alignment_gradient_in_separate_score_branch": 0,
+          "interpretation": "GT selects same-identity source future; near-perfect same-source oracle ranking is not a causal-student learning signal.",
+          "scope": "Representation degeneracy counterexample, not a claim that all future distillation fails."
+        }
+      }
+    ],
+    "R3": [
+      {
+        "round": "R3",
+        "name": "scorer_denominator_and_no_match_decision",
+        "contract_pass": false,
+        "classification": "SCORER_SCOPE_MISMATCH",
+        "evidence": {
+          "input_events": 2,
+          "returned": {
+            "events": 1,
+            "student_r1": 1.0,
+            "baseline_r1": 1.0,
+            "student_mrr": 1.0,
+            "baseline_mrr": 1.0,
+            "no_match_score_mean": 1.0
+          },
+          "no_match_logit": 100.0,
+          "all_stored_calibration_no_match_scores_null": true,
+          "interpretation": "Reported R@1/MRR are conditional on a supplied positive and ignore dustbin. They are not full-event association/no-match metrics."
+        }
+      },
+      {
+        "round": "R3",
+        "name": "real_CPU_checkpoint_rank_replay_and_recorded_macro",
+        "contract_pass": true,
+        "classification": "LIMITED_REPLAY_PASS_NOT_METHOD_VALIDATION",
+        "evidence": {
+          "real_sample_events": 128,
+          "pair": "23",
+          "sample_frames": [
+            0,
+            14
+          ],
+          "conditional_positive_events": 122,
+          "independent_r1": 0.45081967213114754,
+          "independent_mrr": 0.627000920166301,
+          "production_replay": {
+            "events": 122,
+            "student_r1": 0.45081967213114754,
+            "baseline_r1": 0.36065573770491804,
+            "student_mrr": 0.627000920166301,
+            "baseline_mrr": 0.4902012766387153,
+            "no_match_score_mean": 0.09405168145895004
+          },
+          "recorded_calibration_macro_student": 0.06589844210216553,
+          "recorded_calibration_macro_baseline": 0.0928485269997356,
+          "recorded_delta": -0.026950084897570073,
+          "full_calibration_predictions_independently_replayed": false,
+          "sampling": "build_pair limit keeps the earliest events; 2000/pair was not a full temporal epoch"
+        }
+      },
+      {
+        "round": "R3",
+        "name": "method_depth_and_P26_host_evidence",
+        "contract_pass": false,
+        "classification": "LOCAL_METHOD_SCOPE_STOP_NOT_CROSS_DOMAIN_COLLISION",
+        "evidence": {
+          "forward_signature": "(self, target, candidates, mask)",
+          "input_shape": "pooled 256-D target and candidate vectors",
+          "trained_backbone_or_spatial_map": false,
+          "P26_inference_modified": false,
+          "existing_method_stop_rule": "METHOD_SPEC: stop if it reduces to a post-pooling ranker",
+          "conclusion": "Implemented vector ranker crosses its own stop boundary; vector screening cannot be promoted to a new identity representation or P26 MOT gain.",
+          "external_novelty_reaudit_performed": false
+        }
+      }
+    ]
+  },
+  "checks": 9,
+  "contracts_passed": 2,
+  "contracts_failed": 7,
+  "decision": "INVALIDATE_P54_V2_METHOD_FAILURE_AND_HOLD_RETRAINING",
+  "audit_device": "CPU",
+  "cuda_initialized": false,
+  "raw_official_val_test_access": false,
+  "historical_receipts_preserved": true,
+  "source_hashes": {
+    "src/train_short.py": "3240ee0e2535fac12553f0d23aaf88ca18821e2503648f977d5f24ad0e3a0cbe",
+    "src/contract.py": "e9502d4952f9ef8ebfe7ed6dbbcd638173086689f141a55ad323a7771395f232",
+    "src/data_audit.py": "bdbd6bae150b9571747189be0fa2bd2e99a8957040aca988560fd128c0b7fd8c",
+    "src/signal.py": "8b90bcc97c3b94862e8bbb8d8a627c65d6da762d8cc6b3d91b5bc728e852c92f",
+    "src/audit_short_v1.py": "b46728aa9f22a0cf46c57a6ceb4dc6b945a95c1c524fc492b1e41b935a6452f0",
+    "METHOD_SPEC.md": "ca66f3e5570714448ce46d71ae28e947e9105dce08d0ebf79dfcf7493f51cce7",
+    "PREREG.json": "b37c08eda19115ee20ea96e3b0d1306bb2ac38df3f8ef7a29bc835c5aac0c378",
+    "SHORT_GATE.json": "89428f1f277f01eb53ee9ce281276cab97750f3e976c0349dfca1ee9167213b8",
+    "runs/TRAINING_RECEIPT.json": "38d923d47b6aa394ab7eddaf0e084702fccecf3c85cc55760d1820c349c23644",
+    "src/audit_short_v2_independent.py": "be3caa19566105f8ab4ea21c637910ec7aa7f2baa08ef79787e2e9dad8aaae74"
+  },
+  "external_input_hashes": {
+    "/home/chenhc/cross_uav_query_mamba_20260830/stage3_runner.py": "4ddd1d9683ccb4ed330a0d112c4ad522b8af7497420ee608286e6c28f5e48826",
+    "/home/chenhc/mdmt_phase0_reproduction_20260829_202909/manifest/official_protocol_manifest.json": "3d5d4a27402008bd452cab6170b66a37636da76bf906c5de1459925caaba5016",
+    "/raid/datasets/chc_data/MDMT/new_xml/1/23-1.xml": "282a2099ddecd8b77d4f13f879e1c0a024970a9cf96ce9301b49c95ed5b1a4ce",
+    "/raid/datasets/chc_data/MDMT/new_xml/2/23-2.xml": "5bd42006e58b648c7665e6128a7611b824ab756fbba2e8409061eac1761e01db",
+    "/home/chenhc/cross_uav_query_mamba_20260830/features/train/23-1.jsonl": "1db89b2b484794d6f9d708468a894bf01625973813775b19e1cf9ce8f0670fa5",
+    "/home/chenhc/cross_uav_query_mamba_20260830/features/train/23-2.jsonl": "19f3bf8acaf81280de8fad40865e7351f1c1686bbbadebc805252c619e688606",
+    "/home/chenhc/cross_uav_query_mamba_20260830/features/train/23-1.npz": "bb21cd8fae4b83d47f5dc92399aa6271c02923ebfd97676f007f8a6a8fb1c780",
+    "/home/chenhc/cross_uav_query_mamba_20260830/features/train/23-2.npz": "1b716306dff795a05aeb6291b1d099816e582143591fb2d383fea1fb30d83c71"
+  },
+  "no_validated_new_learned_method": true
+}

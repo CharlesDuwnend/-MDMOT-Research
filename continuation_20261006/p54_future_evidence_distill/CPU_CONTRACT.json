@@ -1,0 +1,17 @@
+{
+  "status": "PASS_P54_CPU_MECHANISM_CONTRACT",
+  "checks": 9,
+  "gradient_l1": 5.5234593991190195,
+  "candidate_permutation_max_error": 2.9802322387695312e-08,
+  "teacher_detached_contract": true,
+  "inference_fields": [
+    "target",
+    "candidates",
+    "mask",
+    "prefix_summary"
+  ],
+  "teacher_in_inference": false,
+  "no_match_output": true,
+  "future_is_training_only": true,
+  "metrics_are_mechanism_only": true
+}

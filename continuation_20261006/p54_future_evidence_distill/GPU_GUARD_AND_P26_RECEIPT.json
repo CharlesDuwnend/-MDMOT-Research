@@ -1,0 +1,33 @@
+{
+  "status": "VERIFIED_GPU_GUARD_AND_PROTECTED_P26",
+  "gpu_probe": {
+    "status": "VERIFIED_PHYSICAL_GPU",
+    "selected": {
+      "index": 3,
+      "uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+      "name": "NVIDIA A100-SXM4-40GB",
+      "memory_mib": 40960,
+      "pci_bus_id": "00000000:C2:00.0"
+    },
+    "cuda_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+    "cuda_name": "NVIDIA A100-SXM4-40GB",
+    "cuda_total_memory_bytes": 42298834944,
+    "cuda_visible_devices": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a"
+  },
+  "policy_tests": {
+    "exit_code": 0,
+    "output": "test_4gb_rejected_at_any_index (__main__.Policy) ... ok\ntest_bad_cli_selection_never_queries_cuda (__main__.Policy) ... ok\ntest_index_two_rejected_even_when_large (__main__.Policy) ... ok\ntest_numeric_ordinal_rejected (__main__.Policy) ... ok\ntest_runtime_uuid_name_and_memory_must_match (__main__.Policy) ... ok\ntest_script_runs_only_after_verification_with_selected_uuid (__main__.Policy) ... ok\ntest_unknown_or_duplicate_uuid_rejected (__main__.Policy) ... ok\ntest_uuid_selection_is_physical (__main__.Policy) ... ok\ntest_visibility_mismatch_rejected_before_torch (__main__.Policy) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.006s\n\nOK\n"
+  },
+  "P26_seal": {
+    "entries": 658,
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "source_sha256": {
+    "scripts/verified_gpu.py": "f7b170571ca5c0cc90794d4cf514ab25e7dfcc56f29a9b4efd15349ae8ca3f5f",
+    "scripts/test_verified_gpu.py": "560835a26309caccda3795a9765a194e7b1c2ecc0729597940babc12624b7341"
+  },
+  "training_launched": false,
+  "physical_GPU2_initialized": false
+}

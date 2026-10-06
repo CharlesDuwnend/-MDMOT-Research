@@ -1,0 +1,257 @@
+{
+  "status": "PASS_P54_SHORT_GATE_COMPLETE",
+  "calibration_pair_macro": {
+    "student_r1": 0.06589844210216553,
+    "baseline_r1": 0.0928485269997356,
+    "delta": -0.026950084897570073,
+    "wins": 2,
+    "minimum_delta": 0.01,
+    "minimum_wins": 3,
+    "pass": false
+  },
+  "per_pair": {
+    "69": {
+      "events": 32499,
+      "student_r1": 0.052370842179759375,
+      "baseline_r1": 0.10104926305424783,
+      "student_mrr": 0.15100133084467665,
+      "baseline_mrr": 0.22329410678446196,
+      "no_match_score_mean": null
+    },
+    "70": {
+      "events": 13625,
+      "student_r1": 0.061504587155963304,
+      "baseline_r1": 0.059229357798165135,
+      "student_mrr": 0.17164081402961132,
+      "baseline_mrr": 0.17131145899897687,
+      "no_match_score_mean": null
+    },
+    "74": {
+      "events": 21604,
+      "student_r1": 0.04980559155711905,
+      "baseline_r1": 0.04212182929087206,
+      "student_mrr": 0.15380629933014836,
+      "baseline_mrr": 0.13428758683685416,
+      "no_match_score_mean": null
+    },
+    "76": {
+      "events": 20037,
+      "student_r1": 0.09422568248739831,
+      "baseline_r1": 0.1550631332035734,
+      "student_mrr": 0.24000616103295638,
+      "baseline_mrr": 0.26696850029744096,
+      "no_match_score_mean": null
+    },
+    "78": {
+      "events": 25033,
+      "student_r1": 0.07158550713058763,
+      "baseline_r1": 0.1067790516518196,
+      "student_mrr": 0.1810682897788356,
+      "baseline_mrr": 0.22968553822230312,
+      "no_match_score_mean": null
+    }
+  },
+  "training_receipt": {
+    "status": "PASS_P54_SHORT_TRAINING",
+    "steps": 1200,
+    "fit_events": 30000,
+    "fit_pairs": [
+      "23",
+      "25",
+      "27",
+      "28",
+      "29",
+      "30",
+      "32",
+      "39",
+      "42",
+      "44",
+      "45",
+      "50",
+      "51",
+      "53",
+      "54"
+    ],
+    "eval_pairs": [
+      "69",
+      "70",
+      "74",
+      "76",
+      "78"
+    ],
+    "seed": 42,
+    "gpu_name": "NVIDIA DGX Display",
+    "gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+    "gpu_visible_name": "NVIDIA DGX Display",
+    "cuda_visible_devices": "3",
+    "gpu_snapshot": "0, GPU-2a55197e-2c19-45ff-cf33-13031951f9d0, NVIDIA A100-SXM4-40GB, 40960, 24458\n1, GPU-1b297aba-ae7e-e326-5903-476f1bb683d7, NVIDIA A100-SXM4-40GB, 40960, 7019\n2, GPU-6f385048-7771-5048-9c46-067bf301ea27, NVIDIA DGX Display, 4096, 8\n3, GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a, NVIDIA A100-SXM4-40GB, 40960, 13",
+    "peak_allocated_bytes": 203752448,
+    "elapsed_seconds": 123.71919918060303,
+    "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p54_future_evidence_distill/runs/fixed_step_001200.pt",
+    "checkpoint_sha256": "27ac6475147325833c46e4bddb7bd7f5dffedc8ac0472fb1575374195ab228df",
+    "teacher_in_inference": false,
+    "official_val_test_access": false,
+    "build_counts": {
+      "23": {
+        "future_teacher_events": 1921,
+        "events": 2000,
+        "target_unlabelled": 527,
+        "no_future_teacher": 2,
+        "positive_not_in_top64": 77,
+        "candidate_rows_top64": 68804
+      },
+      "25": {
+        "target_unlabelled": 275,
+        "positive_not_in_top64": 894,
+        "events": 2000,
+        "future_teacher_events": 1103,
+        "no_future_teacher": 3,
+        "candidate_rows_top64": 84592
+      },
+      "27": {
+        "future_teacher_events": 1051,
+        "events": 2000,
+        "positive_not_in_top64": 949,
+        "target_unlabelled": 838,
+        "candidate_rows_top64": 114916
+      },
+      "28": {
+        "future_teacher_events": 1316,
+        "events": 2000,
+        "positive_not_in_top64": 683,
+        "target_unlabelled": 1325,
+        "no_future_teacher": 1,
+        "candidate_rows_top64": 128000
+      },
+      "29": {
+        "future_teacher_events": 1826,
+        "events": 2000,
+        "target_unlabelled": 507,
+        "positive_not_in_top64": 172,
+        "no_future_teacher": 2,
+        "candidate_rows_top64": 128000
+      },
+      "30": {
+        "positive_not_in_top64": 1300,
+        "events": 2000,
+        "future_teacher_events": 698,
+        "target_unlabelled": 1129,
+        "no_future_teacher": 2,
+        "candidate_rows_top64": 128000
+      },
+      "32": {
+        "future_teacher_events": 1721,
+        "events": 2000,
+        "positive_not_in_top64": 276,
+        "target_unlabelled": 244,
+        "no_future_teacher": 3,
+        "candidate_rows_top64": 128000
+      },
+      "39": {
+        "future_teacher_events": 1859,
+        "events": 2000,
+        "positive_not_in_top64": 130,
+        "target_unlabelled": 2069,
+        "no_future_teacher": 11,
+        "candidate_rows_top64": 80581
+      },
+      "42": {
+        "positive_not_in_top64": 575,
+        "events": 2000,
+        "future_teacher_events": 1420,
+        "target_unlabelled": 470,
+        "no_future_teacher": 5,
+        "candidate_rows_top64": 126648
+      },
+      "44": {
+        "future_teacher_events": 1380,
+        "events": 2000,
+        "positive_not_in_top64": 618,
+        "target_unlabelled": 324,
+        "no_future_teacher": 2,
+        "candidate_rows_top64": 100451
+      },
+      "45": {
+        "future_teacher_events": 1277,
+        "events": 2000,
+        "positive_not_in_top64": 721,
+        "target_unlabelled": 537,
+        "no_future_teacher": 2,
+        "candidate_rows_top64": 128000
+      },
+      "50": {
+        "positive_not_in_top64": 171,
+        "events": 2000,
+        "target_unlabelled": 306,
+        "future_teacher_events": 1829,
+        "candidate_rows_top64": 128000
+      },
+      "51": {
+        "future_teacher_events": 1874,
+        "events": 2000,
+        "positive_not_in_top64": 117,
+        "target_unlabelled": 650,
+        "no_future_teacher": 9,
+        "candidate_rows_top64": 122568
+      },
+      "53": {
+        "positive_not_in_top64": 45,
+        "events": 2000,
+        "target_unlabelled": 322,
+        "future_teacher_events": 1955,
+        "candidate_rows_top64": 126701
+      },
+      "54": {
+        "future_teacher_events": 1659,
+        "events": 2000,
+        "target_unlabelled": 1862,
+        "positive_not_in_top64": 339,
+        "no_future_teacher": 2,
+        "candidate_rows_top64": 128000
+      }
+    }
+  },
+  "history": [
+    {
+      "step": 1,
+      "loss": 1.0132285356521606,
+      "assign": 0.654018759727478,
+      "dustbin": 0.6971477270126343,
+      "align": 0.8487920165061951,
+      "grad_norm": 9.734485626220703
+    },
+    {
+      "step": 300,
+      "loss": 0.1831626445055008,
+      "assign": 0.06952598690986633,
+      "dustbin": 0.5157777667045593,
+      "align": 0.12089995294809341,
+      "grad_norm": 0.09059125185012817
+    },
+    {
+      "step": 600,
+      "loss": 0.14248627424240112,
+      "assign": 0.06100904569029808,
+      "dustbin": 0.4207347631454468,
+      "align": 0.061223361641168594,
+      "grad_norm": 0.1077442467212677
+    },
+    {
+      "step": 900,
+      "loss": 0.14496077597141266,
+      "assign": 0.057382870465517044,
+      "dustbin": 0.4852502942085266,
+      "align": 0.04930120334029198,
+      "grad_norm": 0.1115526631474495
+    },
+    {
+      "step": 1200,
+      "loss": 0.12706847488880157,
+      "assign": 0.057105522602796555,
+      "dustbin": 0.3828182816505432,
+      "align": 0.04180067405104637,
+      "grad_norm": 0.11138246953487396
+    }
+  ],
+  "metrics_are_train_only": true
+}

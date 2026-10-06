@@ -1,0 +1,202 @@
+{
+  "status": "PASS_P54_FUTURE_TEACHER_DATA_AUDIT",
+  "fit_pairs": [
+    "23",
+    "25",
+    "27",
+    "28",
+    "29",
+    "30",
+    "32",
+    "39",
+    "42",
+    "44",
+    "45",
+    "50",
+    "51",
+    "53",
+    "54"
+  ],
+  "eval_pairs": [
+    "69",
+    "70",
+    "74",
+    "76",
+    "78"
+  ],
+  "per_pair": {
+    "23": {
+      "future_teacher_events": 15720,
+      "events": 15778,
+      "target_unlabelled": 4956,
+      "no_future_teacher": 58,
+      "positive_not_in_top64": 2514,
+      "candidate_rows_top64": 617757
+    },
+    "25": {
+      "target_unlabelled": 4792,
+      "positive_not_in_top64": 22259,
+      "future_teacher_events": 13515,
+      "events": 13568,
+      "no_future_teacher": 53,
+      "candidate_rows_top64": 687514
+    },
+    "27": {
+      "future_teacher_events": 11851,
+      "events": 11895,
+      "positive_not_in_top64": 11124,
+      "target_unlabelled": 7750,
+      "no_future_teacher": 44,
+      "candidate_rows_top64": 694163
+    },
+    "28": {
+      "future_teacher_events": 20519,
+      "events": 20574,
+      "positive_not_in_top64": 8709,
+      "target_unlabelled": 11694,
+      "no_future_teacher": 55,
+      "candidate_rows_top64": 1316736
+    },
+    "29": {
+      "future_teacher_events": 33757,
+      "events": 33891,
+      "target_unlabelled": 14555,
+      "positive_not_in_top64": 15486,
+      "no_future_teacher": 134,
+      "candidate_rows_top64": 2169024
+    },
+    "30": {
+      "positive_not_in_top64": 25817,
+      "future_teacher_events": 26103,
+      "events": 26267,
+      "target_unlabelled": 14980,
+      "no_future_teacher": 164,
+      "candidate_rows_top64": 1681088
+    },
+    "32": {
+      "future_teacher_events": 12374,
+      "events": 12412,
+      "positive_not_in_top64": 2720,
+      "target_unlabelled": 2173,
+      "no_future_teacher": 38,
+      "candidate_rows_top64": 787821
+    },
+    "39": {
+      "future_teacher_events": 2668,
+      "events": 2687,
+      "positive_not_in_top64": 159,
+      "target_unlabelled": 2848,
+      "no_future_teacher": 19,
+      "candidate_rows_top64": 105461
+    },
+    "42": {
+      "positive_not_in_top64": 5624,
+      "future_teacher_events": 9405,
+      "events": 9465,
+      "target_unlabelled": 3574,
+      "no_future_teacher": 60,
+      "candidate_rows_top64": 435550
+    },
+    "44": {
+      "future_teacher_events": 11989,
+      "events": 12046,
+      "positive_not_in_top64": 8738,
+      "target_unlabelled": 2524,
+      "no_future_teacher": 57,
+      "candidate_rows_top64": 492396
+    },
+    "45": {
+      "future_teacher_events": 23023,
+      "events": 23116,
+      "positive_not_in_top64": 14935,
+      "target_unlabelled": 1949,
+      "no_future_teacher": 93,
+      "candidate_rows_top64": 1479424
+    },
+    "50": {
+      "positive_not_in_top64": 806,
+      "target_unlabelled": 2242,
+      "future_teacher_events": 10444,
+      "events": 10467,
+      "no_future_teacher": 23,
+      "candidate_rows_top64": 663735
+    },
+    "51": {
+      "future_teacher_events": 7905,
+      "events": 7978,
+      "positive_not_in_top64": 2129,
+      "target_unlabelled": 2306,
+      "no_future_teacher": 73,
+      "candidate_rows_top64": 505295
+    },
+    "53": {
+      "positive_not_in_top64": 60,
+      "target_unlabelled": 2005,
+      "future_teacher_events": 12082,
+      "events": 12099,
+      "no_future_teacher": 17,
+      "candidate_rows_top64": 671242
+    },
+    "54": {
+      "future_teacher_events": 6159,
+      "events": 6198,
+      "target_unlabelled": 6753,
+      "positive_not_in_top64": 2319,
+      "no_future_teacher": 39,
+      "candidate_rows_top64": 396672
+    },
+    "69": {
+      "future_teacher_events": 32456,
+      "events": 32499,
+      "positive_not_in_top64": 16502,
+      "target_unlabelled": 17150,
+      "no_future_teacher": 43,
+      "candidate_rows_top64": 2079936
+    },
+    "70": {
+      "future_teacher_events": 13595,
+      "events": 13625,
+      "positive_not_in_top64": 1859,
+      "target_unlabelled": 2564,
+      "no_future_teacher": 30,
+      "candidate_rows_top64": 872000
+    },
+    "74": {
+      "positive_not_in_top64": 23441,
+      "future_teacher_events": 21526,
+      "events": 21604,
+      "target_unlabelled": 12596,
+      "no_future_teacher": 78,
+      "candidate_rows_top64": 1382501
+    },
+    "76": {
+      "positive_not_in_top64": 2267,
+      "future_teacher_events": 19996,
+      "events": 20037,
+      "target_unlabelled": 871,
+      "no_future_teacher": 41,
+      "candidate_rows_top64": 1280165
+    },
+    "78": {
+      "future_teacher_events": 24951,
+      "events": 25033,
+      "positive_not_in_top64": 7940,
+      "target_unlabelled": 1588,
+      "no_future_teacher": 82,
+      "candidate_rows_top64": 1602112
+    }
+  },
+  "totals": {
+    "future_teacher_events": 330038,
+    "events": 331239,
+    "target_unlabelled": 119870,
+    "no_future_teacher": 1201,
+    "positive_not_in_top64": 175408,
+    "candidate_rows_top64": 19920592
+  },
+  "teacher_in_inference": false,
+  "labels_used_only_for_event_construction": true,
+  "official_val_test_access": false,
+  "future_condition": "source_view frame > target frame",
+  "no_same_frame_future_leak": true
+}
