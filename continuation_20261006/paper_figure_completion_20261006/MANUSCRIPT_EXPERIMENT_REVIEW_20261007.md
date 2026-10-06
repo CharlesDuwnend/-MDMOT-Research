@@ -2,7 +2,7 @@
 
 日期：2026-10-07  
 稿件：`/home/chenhc/src_egia_icme_paper`  
-当前稿件构建：9 页，5 幅图，4 张表；`main.pdf` SHA-256 为 `2558f7a1ff3952f7398ff67733a428a33f47f165eadb2990f63049bbc156c982`。
+当前稿件构建：9 页，5 幅图，4 张表；`main.pdf` SHA-256 为 `02b3e6aec7968b9f64652d24e9e28699dcee66fe088bc55c725ff35b936f0362`。
 
 ## 当前已经可以支撑的结果
 
@@ -82,3 +82,4 @@ operator，属于另一层机制问题。是否放入正文，等你根据上面
 - 无 undefined/multiply-defined/citation/overfull 错误；仅有页 3、页 7 的 `Underfull \\vbox` 分页提示。
 - Table II 数据已取消加粗；Table IV 宽度为 `0.70\\columnwidth`，表下注释间距为 8pt，FPS 为 27.4/25.2/23.8。
 - 主文已无 Fig. 6 引用；README 和 evidence ledger 已同步说明 Fig. 6 已从正文移除。
+- U2MOT setup 已压缩为数据协议、共享 detector 和 vehicle-only lifecycle 设定；具体 fit/calibration 流程仍由证据清单保留。
