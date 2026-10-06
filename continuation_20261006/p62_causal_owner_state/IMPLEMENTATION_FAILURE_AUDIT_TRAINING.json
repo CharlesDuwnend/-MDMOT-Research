@@ -1,0 +1,63 @@
+{
+  "all_implementation_checks_pass": true,
+  "checks": [
+    {
+      "check": "checkpoint_finite_and_receipt_hashes",
+      "pass": true,
+      "round": 1
+    },
+    {
+      "check": "fit_calibration_disjoint_and_closed",
+      "pass": true,
+      "round": 1
+    },
+    {
+      "check": "official_and_test_closed",
+      "pass": true,
+      "round": 1
+    },
+    {
+      "check": "source_hashes_replay_identical",
+      "pass": true,
+      "round": 2
+    },
+    {
+      "check": "legal_prefix_labels",
+      "pass": true,
+      "round": 2
+    },
+    {
+      "check": "candidate_and_state_finite",
+      "pass": true,
+      "round": 2
+    },
+    {
+      "check": "checkpoint_replay_deterministic",
+      "pass": true,
+      "round": 3
+    },
+    {
+      "check": "negative_gate_replayed",
+      "pass": true,
+      "round": 3
+    },
+    {
+      "check": "no_hidden_nan_or_parameter_collapse",
+      "pass": true,
+      "round": 3
+    }
+  ],
+  "checks_per_round": 3,
+  "loss_not_converged": true,
+  "negative_gate": {
+    "baseline_correct": 39,
+    "baseline_selected": 471,
+    "dynamic_correct": 0,
+    "dynamic_false": 4,
+    "dynamic_selected": 4
+  },
+  "official_val_test_read": false,
+  "rounds": 3,
+  "scientific_decision": "STOP_P62_OWNER_STATE_POLICY_NEGATIVE_CALIBRATION",
+  "status": "PASS_IMPLEMENTATION_AUDIT_METHOD_NEGATIVE"
+}

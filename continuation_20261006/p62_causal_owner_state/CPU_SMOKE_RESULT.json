@@ -1,0 +1,344 @@
+{
+  "baseline_calibration": {
+    "correct": 39,
+    "false": 432,
+    "mode": "aggregate_distance_top1",
+    "pairs": [
+      {
+        "correct": 7,
+        "false": 91,
+        "pair": "27",
+        "precision": 0.07142857142857142,
+        "selected": 98
+      },
+      {
+        "correct": 10,
+        "false": 116,
+        "pair": "32",
+        "precision": 0.07936507936507936,
+        "selected": 126
+      },
+      {
+        "correct": 9,
+        "false": 65,
+        "pair": "42",
+        "precision": 0.12162162162162163,
+        "selected": 74
+      },
+      {
+        "correct": 9,
+        "false": 95,
+        "pair": "64",
+        "precision": 0.08653846153846154,
+        "selected": 104
+      },
+      {
+        "correct": 4,
+        "false": 65,
+        "pair": "65",
+        "precision": 0.057971014492753624,
+        "selected": 69
+      }
+    ],
+    "precision": 0.08280254777070063,
+    "selected": 471
+  },
+  "delayed4_calibration": {
+    "correct": 0,
+    "false": 0,
+    "mode": "delayed4",
+    "pairs": [
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "delayed4",
+        "pair": "27",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "delayed4",
+        "pair": "32",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "delayed4",
+        "pair": "42",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "delayed4",
+        "pair": "64",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "delayed4",
+        "pair": "65",
+        "precision": 0.0,
+        "selected": 0
+      }
+    ],
+    "precision": 0.0,
+    "selected": 0
+  },
+  "descriptor_only_calibration": {
+    "correct": 0,
+    "false": 0,
+    "mode": "descriptor_only",
+    "pairs": [
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "descriptor_only",
+        "pair": "27",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "descriptor_only",
+        "pair": "32",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "descriptor_only",
+        "pair": "42",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "descriptor_only",
+        "pair": "64",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "descriptor_only",
+        "pair": "65",
+        "precision": 0.0,
+        "selected": 0
+      }
+    ],
+    "precision": 0.0,
+    "selected": 0
+  },
+  "device": "cpu",
+  "dynamic_calibration": {
+    "correct": 0,
+    "false": 0,
+    "mode": "dynamic",
+    "pairs": [
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "dynamic",
+        "pair": "27",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "dynamic",
+        "pair": "32",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "dynamic",
+        "pair": "42",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "dynamic",
+        "pair": "64",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "dynamic",
+        "pair": "65",
+        "precision": 0.0,
+        "selected": 0
+      }
+    ],
+    "precision": 0.0,
+    "selected": 0
+  },
+  "events": 6769,
+  "future_outcome_features_used": false,
+  "gpu_receipt": null,
+  "log_only_calibration": {
+    "correct": 0,
+    "false": 0,
+    "mode": "log_only",
+    "pairs": [
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "log_only",
+        "pair": "27",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "log_only",
+        "pair": "32",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "log_only",
+        "pair": "42",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "log_only",
+        "pair": "64",
+        "precision": 0.0,
+        "selected": 0
+      },
+      {
+        "correct": 0,
+        "false": 0,
+        "mode": "log_only",
+        "pair": "65",
+        "precision": 0.0,
+        "selected": 0
+      }
+    ],
+    "precision": 0.0,
+    "selected": 0
+  },
+  "model_parameters": 4322,
+  "official_val_test_read": false,
+  "pairs_calibration": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "pairs_fit": [
+    "23",
+    "25",
+    "28",
+    "29",
+    "39",
+    "44",
+    "45",
+    "51",
+    "53",
+    "63",
+    "66",
+    "69",
+    "70",
+    "74",
+    "78"
+  ],
+  "script_sha256": "e325bb1425a8297533a9328c995eeb07d0a7923244b4a62ff38396bc44ca36fa",
+  "seed": 62062,
+  "source_sha256": {
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/23.json.gz": "e62d0f6412caf1ded01166be5e698f6f722d190322ece8c6aa283bdbbe12bea5",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/25.json.gz": "9e397391a09664c6d189b3bb430310093946c558c3575547d0381cb1e236b2b0",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/27.json.gz": "d57d74d9e7dda2269fc01206916af5254cec0bf462c9e5d089ab4580ed796f4d",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/28.json.gz": "446b189a703836120e82f9ae1e8eba9b7ecddd62fb6afb27e94d80f2c4a89be6",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/29.json.gz": "f8cdb5acb0fe987421ef30cd7408e769002bd65fb875bf508f807b04369aefbb",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/32.json.gz": "c9c64df9356b44ef1e4c813591aa2ca23a662a4b94429dcc54d4cdd3d132fcc2",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/39.json.gz": "336ffc3913bc4a9ed0c47805bed24e401ddac891b99811ff2061f73de1b3981a",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/42.json.gz": "0b9c4c60500bf6724f7ea3007bf6f19b68edbcf4341c61ac098608284dd7e53b",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/44.json.gz": "2a38a3467d66951f88d70731ee72b136283a07ebc4c6a007339f48bcd3191336",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/45.json.gz": "616825653344bfd11670badd4a9549d78993c072abd6a6462267996878497d05",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/51.json.gz": "6d365eaee98a302db89b87387282cbdc7da9959facd8bb7cf3fcc31884ae0e11",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/53.json.gz": "7f006079d456af3cbee19f190145200121c144895931185048b1f4bb1455221c",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/63.json.gz": "8cd874a16bf5e7388a7b72984c03cd91d64e88364833efa64da6491395f0946c",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/64.json.gz": "c6943718de14f9f267a2c89d90709ee5c41db8ba6b176cfd55d0ce8847456880",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/65.json.gz": "c54bfa91ffd53455e7f552ca7b2fc380368b93901b72203f39ac573900f36c16",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/66.json.gz": "d67eb9e94abf5a32108f0b81c8e6ead6850027b3f0421cf7046e552ebfa397eb",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/69.json.gz": "03956e597c14f68e19c659a6e243efeb4aa2de3255ebf126a7be93b6f3117a3f",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/70.json.gz": "5e6d539fe1ab6ad95d6509ac47d41b3d77097569a71e89e8ac21b879b30714c1",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/74.json.gz": "c41c1e12d669f0ecd1a3d4ff14f8912034244a78644fc87d399b4e69258626b7",
+    "/home/chenhc/mdmot_global_host_stage15_20260905/cache/train/78.json.gz": "68175e236df81f02a05eba328c88889523655c0ccc7ecc454d8e688242603b33",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/23.jsonl.gz": "891841774347e3d1865fe864ed3fbd4268944a523367ea18a717030a1a52a881",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/25.jsonl.gz": "ea4d76a52ed091995abebbb72da486eedbffacdaf54a2a8d6b8e97632777898c",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/27.jsonl.gz": "7e02d4a3dbec8f5d4c0438982ff379bb8bea3e8fccb7b2c34987146a26f9795c",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/28.jsonl.gz": "75072aa82e557f53e952a268c9efe6915af855c2fc9433ee036a7c445b13d44d",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/29.jsonl.gz": "3e2245c8e3cd5a1de97e6a8866bbb119a9c673aec7368b86d599e99928bc588a",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/32.jsonl.gz": "fab929feef5ff587d1079413a64ee6d4e971d55e7e2a9a2ecb37959cefd99913",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/39.jsonl.gz": "50a25fdaa9f1f6a727baa456e2e3bce2a46f16a49862d714d456e3351c8d924d",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/42.jsonl.gz": "d4a19f02d3509cb6cf3ee16174cec12a483d44dbeb5f769f791d5f6550206ab9",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/44.jsonl.gz": "d374198e2f16b15f58dd964625802acdcc24604f4eee7e60a949191500d256e6",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/45.jsonl.gz": "6ce9498d1e843d02aabcf3f9e343104ba07e41f5c318306ab08f21b54377f4d0",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/51.jsonl.gz": "e25ceeb992c3be2bdbf6512df0b6f4841fb90e556e11f8f21e6430e0b5347855",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/53.jsonl.gz": "592999afd586e645b820adccf09e13dac027364d663646c81306a6cba0ce4f71",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/63.jsonl.gz": "1a69c562bdaf986f1f13412c4ba521e69b3b77af8a08dc5b5f1a59deed7baad3",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/64.jsonl.gz": "b80dc6b07ae42a51e4025026f84896ad21f9a8c769e9f01cb15c3b4d3062dc0f",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/65.jsonl.gz": "2b04682e4f50ff5c3836d1fcb2a0725bf88bbed9d76d848c1e514825202b5a51",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/66.jsonl.gz": "7338752f5ddbd2a0156622a16ee5d31d7480b2320463a8dee3fb0368ae95de6d",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/69.jsonl.gz": "0abb3953235f6572d68f64619f15bc52d286a2db6c4110ecfa1fcef9de74f753",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/70.jsonl.gz": "f7d677f8c1bbac42843ef3ba3ec20326b8f00a80f4b65198d9376cab32eacc39",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/74.jsonl.gz": "56e13d1f23619518c5244cfb6137522d953c55ebcaa70130d490a26d885c472a",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/commits/78.jsonl.gz": "a439eff0a8ddafb756886b561cea22fd696ef4cc58d37336d4575cad78b8a3e9",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/23.jsonl.gz": "c410b9ba58e4defd95a7889c04e133fdff33c49f92e9725ff8d1776f5af3a062",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/25.jsonl.gz": "93ae4b257e034d96856ee0eaabb8d4ebe5fad025ab65265bdc813542f782e60b",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/27.jsonl.gz": "1f6651df3ad8f0bf44ca7a6ab9c8f2b9c79d12a140bdc24ee684b9c706109010",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/28.jsonl.gz": "2eefbd21f50b2ee9f05d6dc9c0ee817e40e366cb27cfd630fea2ca836c1c984f",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/29.jsonl.gz": "ef04f14990a9ce52e02e138da6e7aaaf42dfe13b89d2666a47b12f1053d6f4ae",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/32.jsonl.gz": "9e4b66801a199f40ccfae1ca7418ef9a6a6d63441e25d170c7a1c14de53dbcf0",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/39.jsonl.gz": "8e87db696f813c72a301d627a49d89a8db56300f6f81b83e020f381bfad2bb82",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/42.jsonl.gz": "56fb54a718ed36b657d9f4d852d87ff400b07e97b2f8121dea97f318478943c0",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/44.jsonl.gz": "0242c38a362bddbeddeb99a8abae82dab86b3508fd4d5e2afa0dae561a077be6",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/45.jsonl.gz": "adef2530d25001246fbaeee17ece5e3dd77b49bf90aaddb61e6e820a64fcb202",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/51.jsonl.gz": "3e52188a10e2967c74b42bdead773406ac5b567becd88b2de4ec6b9cf2e4dd5c",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/53.jsonl.gz": "ba636e9d1465967205b579df0cdb1194b6ea4e9bec1d287816fe2f0935404c71",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/63.jsonl.gz": "af88a77cf166f7140d6087a098f1ca63e5d6965e90a0c5f8129b151a8500bc51",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/64.jsonl.gz": "107408ffbe3d0674a2e82e257c5a79a450a8d66b4c86cad640493b17f7964d88",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/65.jsonl.gz": "93d731005efb9557a3c0d7ffccfbf977a5ae3d17bb349d9805c6a22f3925a664",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/66.jsonl.gz": "c6781fb5e88a4d95e881850640e93b082a8576f40b7c8db1465c36585341119d",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/69.jsonl.gz": "8d41f29a2c2591abd9834594ca5abba2c4843528100d6ec63ead121a261b0fe7",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/70.jsonl.gz": "a613dca39c6f5b728c38f46ad039fd1484dcd4855c3d08f3358f18e3c6034020",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/74.jsonl.gz": "6a1d19125fcb86a0441e2b8523af287fa93e70ec8660bf0715fca15196c60e54",
+    "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2/events/78.jsonl.gz": "f1efb56c8783b9d01ee5f7d770b6d79fb60613a517572c59d54385b386a75a10"
+  },
+  "status": "PASS_P62_PREFIX_POLICY_TRAIN_REPLAY",
+  "steps": 5,
+  "train": {
+    "loss_first10": 3.5132989406585695,
+    "loss_last10": 3.5132989406585695,
+    "loss_min": 3.3255350589752197,
+    "steps": 5
+  }
+}

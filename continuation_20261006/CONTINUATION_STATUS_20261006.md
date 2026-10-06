@@ -118,6 +118,16 @@ implementation mutated the DSU while querying unseen endpoints; the repair uses
 non-mutating reads and passed three audit rounds with three checks each. This is
 still a train-only causality/mechanism result, not an MOT improvement.
 
+The first 1,200-step COST run reduced loss but selected no calibration edges. A
+second 1,200-step run added explicit positive-link and dustbin margins; loss still
+did not reach a stable floor (`3.3314` first ten versus `2.5802` last ten and
+minimum `1.3782`), and held-out dynamic replay selected 4 edges with 0 correct.
+Descriptor-only selected 6 with 1 correct, while the frozen aggregate-distance
+control selected 471 with 39 correct. Three rounds of three implementation
+checks passed for artifact hashes, split/causal labels, finite checkpoint and
+deterministic independent replay. This is a method/training negative gate, so P62
+is stopped before P26 host attachment; no official-val/test or MOT claim follows.
+
 ## Git phase archival
 
 The workspace is initialized on branch `main` with the authorized remote `git@github.com:CharlesDuwnend/-MDMOT-Research.git`. Each major phase is archived with `scripts/stage_snapshot.py`; it records local large-artifact paths and checkpoint hashes, commits compact source/spec/audit/result evidence, pushes `origin/main`, and verifies the exact remote commit. The initial phase will include the screened CCFI/CCSI evidence and the stop decisions above.
