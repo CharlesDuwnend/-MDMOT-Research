@@ -1,0 +1,35 @@
+{
+  "protocol_id": "P31_CEIN_FIT_GROUPED_GATE_v1",
+  "status": "HOLD_REAL_FEATURE_PORT",
+  "scope": "MDMT/MDMOT only",
+  "detector_host": "P26 frozen detector, geometry, candidate generation and MIA host",
+  "legal_supervision": "FIT/train grouped pairs only; no official val/test read",
+  "candidate_inputs": [
+    "current object ROI feature",
+    "strict-past same-view ROI features",
+    "motion residual token",
+    "detection quality token",
+    "age and validity mask"
+  ],
+  "controls": [
+    "native current object representation",
+    "static appearance pooling",
+    "causal temporal mean pooling",
+    "CEIN leave-one-support-out influence + null/dustbin"
+  ],
+  "split": "sequence/pair grouped; no frame-level split; fold assignment frozen before training",
+  "first_gate": "pair-macro retrieval/assignment on held-out FIT groups, with identity labels legal only in FIT",
+  "stop_if": [
+    "future/view leakage",
+    "mask/order invariance failure",
+    "native-output degradation without a retrieval/assignment gain",
+    "direct same-task full-chain collision",
+    "unsupported global-ID/calibration/timestamp assumption"
+  ],
+  "not_authorized": [
+    "large-scale training",
+    "official-val/test evaluation",
+    "MDA/IDF1/MOTA claim",
+    "novel/first claim"
+  ]
+}

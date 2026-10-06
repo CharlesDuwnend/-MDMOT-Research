@@ -1,0 +1,18 @@
+{
+  "association_result": "runs/host_pair23/RESULT.json",
+  "checks": {
+    "assignment_symmetric_difference_events": 2150,
+    "duplicates_geometry": 0,
+    "duplicates_mean8": 0,
+    "labels_read": false,
+    "mapped_coverage_view1": 0.9996394664102872,
+    "mapped_coverage_view2": 0.9971500029081602,
+    "official_test_read": false,
+    "xml_read": false
+  },
+  "conclusion": "Appearance descriptors are causally active and collision-safe; below-baseline host metrics are not explained by mapping or ID application defects.",
+  "extract_receipt": "runs/pair23/RECEIPT.json",
+  "implementation_defect_found": false,
+  "scores": "runs/host_pair23/SCORES.json",
+  "status": "PASS_P42_HOST_FAILURE_AUDIT"
+}

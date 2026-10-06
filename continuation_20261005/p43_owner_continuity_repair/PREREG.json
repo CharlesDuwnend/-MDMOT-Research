@@ -1,0 +1,11 @@
+{
+  "candidate": "P43_CAUSAL_OWNER_APPLICATION_REPAIR",
+  "scope": "fit23 only; unchanged P42 descriptor and P37 homography solver",
+  "changes": "native-owner ID continuity and injective label reservation only",
+  "no_search": true,
+  "no_learning": true,
+  "endpoint_gate": "MDA/IDF1/MOTA must all exceed unchanged P26 to call host improvement",
+  "audit": "native-owner added discontinuities zero, no duplicate IDs, exact frame0, future-prefix application invariance",
+  "not_paper_method": true,
+  "no_official_val_test": true
+}

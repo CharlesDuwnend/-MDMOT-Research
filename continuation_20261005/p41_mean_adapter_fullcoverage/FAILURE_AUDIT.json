@@ -1,0 +1,152 @@
+{
+  "checkpoint_metadata_repair": "METADATA_REPAIR.json",
+  "comparison": {
+    "cal_pair_wins_vs_p1": 4,
+    "p39_fixed_mean_cal5": 0.4686440210690039,
+    "p41_cal5": 0.45930341073623504,
+    "p41_minus_fixed_mean": -0.00934061033276884,
+    "static_p1_cal5": 0.44406777177539514
+  },
+  "conclusion": "Full-coverage training does not beat the fixed causal mean; implementation audit passes, so the learned residual adapter is stopped.",
+  "coverage": {
+    "coverage_per_epoch": 1.0,
+    "eligible_groups": 18412,
+    "epochs": 3,
+    "updates": 55236
+  },
+  "generalization_strata": "GENERALIZATION_AUDIT.json",
+  "generalization_strata_summary": {
+    "cal_delta_vs_mean": -0.009340610332768784,
+    "cal_known_only_delta_vs_mean": -0.0080913419615952,
+    "cal_unknown_top_mass_delta": 0.0032036262677779424,
+    "fit_delta_vs_mean": 0.055742220152607276,
+    "interpretation": "Most calibration loss remains when unknown candidates are removed; under the diagnostic label convention, ranking of known targets degrades."
+  },
+  "implementation_audit": "IMPLEMENTATION_AUDIT.json",
+  "implementation_defect_found": false,
+  "per_pair": {
+    "23": {
+      "delta": 0.09210526315789469,
+      "p39_fixed_mean": 0.8413312693498453,
+      "p41": 0.93343653250774,
+      "role": "fit"
+    },
+    "25": {
+      "delta": 0.03554216867469884,
+      "p39_fixed_mean": 0.9204819277108434,
+      "p41": 0.9560240963855422,
+      "role": "fit"
+    },
+    "27": {
+      "delta": 0.002460629921259838,
+      "p39_fixed_mean": 0.3302165354330709,
+      "p41": 0.33267716535433073,
+      "role": "calibration"
+    },
+    "28": {
+      "delta": 0.09387351778656128,
+      "p39_fixed_mean": 0.7989130434782609,
+      "p41": 0.8927865612648221,
+      "role": "fit"
+    },
+    "29": {
+      "delta": 0.11983471074380159,
+      "p39_fixed_mean": 0.7458677685950413,
+      "p41": 0.8657024793388429,
+      "role": "fit"
+    },
+    "32": {
+      "delta": 0.0,
+      "p39_fixed_mean": 0.48094079480940793,
+      "p41": 0.48094079480940793,
+      "role": "calibration"
+    },
+    "39": {
+      "delta": 0.0286624203821656,
+      "p39_fixed_mean": 0.9299363057324841,
+      "p41": 0.9585987261146497,
+      "role": "fit"
+    },
+    "42": {
+      "delta": -0.022399999999999975,
+      "p39_fixed_mean": 0.5544,
+      "p41": 0.532,
+      "role": "calibration"
+    },
+    "44": {
+      "delta": 0.018190757128810242,
+      "p39_fixed_mean": 0.9665683382497542,
+      "p41": 0.9847590953785644,
+      "role": "fit"
+    },
+    "45": {
+      "delta": 0.037004662004662014,
+      "p39_fixed_mean": 0.8581002331002331,
+      "p41": 0.8951048951048951,
+      "role": "fit"
+    },
+    "51": {
+      "delta": 0.03933566433566427,
+      "p39_fixed_mean": 0.9012237762237763,
+      "p41": 0.9405594405594405,
+      "role": "fit"
+    },
+    "53": {
+      "delta": 0.07446808510638303,
+      "p39_fixed_mean": 0.8464095744680851,
+      "p41": 0.9208776595744681,
+      "role": "fit"
+    },
+    "63": {
+      "delta": 0.07974683544303796,
+      "p39_fixed_mean": 0.8493670886075949,
+      "p41": 0.9291139240506329,
+      "role": "fit"
+    },
+    "64": {
+      "delta": 0.001988071570576455,
+      "p39_fixed_mean": 0.5765407554671969,
+      "p41": 0.5785288270377733,
+      "role": "calibration"
+    },
+    "65": {
+      "delta": -0.028751753155680237,
+      "p39_fixed_mean": 0.4011220196353436,
+      "p41": 0.37237026647966337,
+      "role": "calibration"
+    },
+    "66": {
+      "delta": 0.013221990257480942,
+      "p39_fixed_mean": 0.9624217118997912,
+      "p41": 0.9756437021572721,
+      "role": "fit"
+    },
+    "69": {
+      "delta": 0.09076803723816917,
+      "p39_fixed_mean": 0.7602792862684251,
+      "p41": 0.8510473235065943,
+      "role": "fit"
+    },
+    "70": {
+      "delta": 0.023053665910808707,
+      "p39_fixed_mean": 0.890400604686319,
+      "p41": 0.9134542705971277,
+      "role": "fit"
+    },
+    "74": {
+      "delta": 0.07642998027613412,
+      "p39_fixed_mean": 0.8284023668639053,
+      "p41": 0.9048323471400395,
+      "role": "fit"
+    },
+    "78": {
+      "delta": 0.013895543842836644,
+      "p39_fixed_mean": 0.9556780067081936,
+      "p41": 0.9695735505510302,
+      "role": "fit"
+    }
+  },
+  "result": "runs/RESULTS.json",
+  "status": "PASS_P41_FAILURE_AUDIT",
+  "training_receipt": "runs/TRAINING_RECEIPT.json"
+}

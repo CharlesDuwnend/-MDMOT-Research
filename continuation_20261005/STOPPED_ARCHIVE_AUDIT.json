@@ -1,0 +1,62 @@
+{
+  "status": "PASS_STOPPED_WORKSPACE_ARCHIVE",
+  "created_utc": "2026-10-05T15:13:55Z",
+  "root": "/home/chenhc/claude_try_MDMOT/continuation_20261005",
+  "archive_root": "/raid/datasets/chc_data/mdmot_experiment_cache/continuation_20261005_stopped",
+  "entries": [
+    {
+      "name": "reference_improvements_20261005",
+      "status": "moved_to_raid",
+      "bytes": 648310411,
+      "archive": "/raid/datasets/chc_data/mdmot_experiment_cache/continuation_20261005_stopped/reference_improvements_20261005",
+      "path_preserved": true
+    },
+    {
+      "name": "p24_background_bootstrap",
+      "status": "moved_to_raid",
+      "bytes": 88667034,
+      "archive": "/raid/datasets/chc_data/mdmot_experiment_cache/continuation_20261005_stopped/p24_background_bootstrap",
+      "path_preserved": true
+    },
+    {
+      "name": "p25_pixel_localization",
+      "status": "moved_to_raid",
+      "bytes": 11090792205,
+      "archive": "/raid/datasets/chc_data/mdmot_experiment_cache/continuation_20261005_stopped/p25_pixel_localization",
+      "path_preserved": true
+    },
+    {
+      "name": "p34_btch",
+      "status": "moved_to_raid",
+      "bytes": 221579579,
+      "archive": "/raid/datasets/chc_data/mdmot_experiment_cache/continuation_20261005_stopped/p34_btch",
+      "path_preserved": true
+    },
+    {
+      "name": "p36_visual_geometry",
+      "status": "moved_to_raid",
+      "bytes": 48554096,
+      "archive": "/raid/datasets/chc_data/mdmot_experiment_cache/continuation_20261005_stopped/p36_visual_geometry",
+      "path_preserved": true
+    },
+    {
+      "name": "p37_p14_host_transfer",
+      "status": "moved_to_raid",
+      "bytes": 34175941,
+      "archive": "/raid/datasets/chc_data/mdmot_experiment_cache/continuation_20261005_stopped/p37_p14_host_transfer",
+      "path_preserved": true
+    }
+  ],
+  "protected": [
+    "p26_mia_baseline",
+    "continuation_20261004/p23_visual checkpoint and receipts",
+    "p38_temporal_memory",
+    "p39_temporal_mean_anchor",
+    "p40_temporal_mean_adapter",
+    "p41_mean_adapter_fullcoverage",
+    "p42_temporal_mean_host_pair23",
+    "p43_owner_continuity_repair",
+    "p44_tracklet_owner_evidence",
+    "PAPER_PROGRESS_20261005.md"
+  ]
+}

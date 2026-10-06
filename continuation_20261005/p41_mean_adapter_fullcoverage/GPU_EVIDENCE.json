@@ -1,0 +1,15 @@
+{
+  "earlier_P38_P40_limit": "Selected GPU UUID metadata exists, but per-PID runtime UUID was not captured for those jobs; do not treat it as runtime UUID verification.",
+  "final_training_pid": 1965993,
+  "first_launch_observed_gpu_index": 0,
+  "first_launch_pid": 1964435,
+  "first_launch_published_checkpoint": false,
+  "first_launch_stopped": true,
+  "four_gb_gpu_used": false,
+  "launch_binding": "CUDA_DEVICE_ORDER=PCI_BUS_ID CUDA_VISIBLE_DEVICES=GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+  "observed_gpu_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+  "observed_used_mib": 534,
+  "receipt": "runs/TRAINING_RECEIPT.json",
+  "runtime_tool_observation": "nvidia-smi --query-compute-apps=gpu_uuid,pid,used_memory --format=csv,noheader,nounits",
+  "status": "PASS_P41_RUNTIME_UUID_OBSERVATION"
+}

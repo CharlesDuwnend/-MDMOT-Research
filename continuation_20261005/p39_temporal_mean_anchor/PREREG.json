@@ -1,0 +1,9 @@
+{
+  "candidate": "P39_FIXED_CAUSAL_MEAN8",
+  "scope": "P4 crop32 fit15/cal5 label-free embedding freeze followed by one offline score pass",
+  "source": "sealed P1 independent128 checkpoint and P1C WINDOW=8/MAX_GAP=30 rule",
+  "mechanism": "unit-normalized causal mean of current plus previous same-view local-track feature-present P1 embeddings",
+  "no_search": true,
+  "gate": {"calibration_pair_macro_r1_min": 0.4641, "relative_lift_min": 0.01, "calibration_pair_wins_min": 3, "fit_drop_max": 0.05},
+  "next_action": "If the fixed mean passes all gates, train one predeclared residual adapter anchored at the mean; otherwise stop this temporal-mean initialization branch."
+}

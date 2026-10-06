@@ -1,0 +1,30 @@
+{
+  "status": "PASS_P29_TWO_DOMAIN_REPAIR_CONTRACTS",
+  "center_msda_cases": [
+    {
+      "flow_dx": 8.0,
+      "query_index": [
+        1,
+        2
+      ],
+      "expected": 4.0,
+      "repaired": 4.0,
+      "stride_only": 0.0
+    },
+    {
+      "flow_dx": -8.0,
+      "query_index": [
+        1,
+        1
+      ],
+      "expected": 1.0,
+      "repaired": 1.0,
+      "stride_only": 0.0
+    }
+  ],
+  "raw_padding_contract": "PASS",
+  "anisotropic_resize_ramp": "PASS_24_NODES",
+  "labels_read": false,
+  "gpu_used": false,
+  "official_val_or_test_read": false
+}

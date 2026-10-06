@@ -1,0 +1,111 @@
+{
+  "schema": "p29_repair_decision_v2",
+  "status": "STOP_REPAIRED_P29_LEARNED_GATE_NOT_PASSED_BEFORE_HOST",
+  "timestamp_utc": "2026-10-05T08:48:54.087343+00:00",
+  "scope": "P29 repaired coordinate and raw-value-mask domains; 40 calibration groups only",
+  "source": {
+    "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/residual_deformable.py",
+    "sha256": "1c597803d5ba1e60b9276eab8b66404726b636909e8d488b1c9be14ed5e3cd80",
+    "training_receipt": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/training/TRAIN_RECEIPT.json",
+      "sha256": "1162a4502f80b8218659924183698a6ee734d6ec57bd2edb8abbe1d2e7f46e26"
+    },
+    "prediction_receipt": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/PREDICTION_RECEIPT.json",
+      "sha256": "6ec760c44ee4978352e7c0f4694d38e803078429a8560eca5e1e116079557080"
+    },
+    "detection_receipt": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/detection_readout/RECEIPT.json",
+      "sha256": "fd3507b4beca237af0c94cf86f4bdab77aedeff2b385b3f3503ad7fe1d1ae296"
+    }
+  },
+  "implementation_audit": {
+    "stride_coordinate_defect_fixed": true,
+    "raw_value_mask_domain_defect_fixed": true,
+    "cpu_contract": "PASS_P29_TWO_DOMAIN_REPAIR_CONTRACTS",
+    "raw_mask_counterexample": "FOUND_P29_RAW_VALUE_MASK_DOMAIN_DEFECT",
+    "interrupted_invalid_attempt": "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/STOP_RECEIPT.json"
+  },
+  "results": {
+    "native": {
+      "pair_macro_ap50": 0.9444869057119499,
+      "recall": 0.9354677338669335,
+      "tp": 1870,
+      "fp": 2230,
+      "fn": 129,
+      "pairs": {
+        "27": 0.9533405435336585,
+        "32": 0.9149653977467698,
+        "42": 0.9899926733564044,
+        "64": 0.9680525382691301,
+        "65": 0.8960833756537872
+      }
+    },
+    "current_residual": {
+      "pair_macro_ap50": 0.9443215136037105,
+      "recall": 0.935967983991996,
+      "tp": 1871,
+      "fp": 2325,
+      "fn": 128,
+      "pairs": {
+        "27": 0.9518372807533716,
+        "32": 0.9157585845321542,
+        "42": 0.989867999527024,
+        "64": 0.9724341254610904,
+        "65": 0.8917095777449132
+      }
+    },
+    "past_fixed_offsets": {
+      "pair_macro_ap50": 0.9455491780851796,
+      "recall": 0.9364682341170585,
+      "tp": 1872,
+      "fp": 2250,
+      "fn": 127,
+      "pairs": {
+        "27": 0.9569097729083161,
+        "32": 0.9156672015642959,
+        "42": 0.9899111410960829,
+        "64": 0.9745422650349674,
+        "65": 0.890715509822236
+      }
+    },
+    "past_learned_offsets": {
+      "pair_macro_ap50": 0.9444387540165403,
+      "recall": 0.9354677338669335,
+      "tp": 1870,
+      "fp": 2262,
+      "fn": 129,
+      "pairs": {
+        "27": 0.9522211362224294,
+        "32": 0.9158916265685549,
+        "42": 0.9898911626831474,
+        "64": 0.9732071267777158,
+        "65": 0.8909827178308539
+      }
+    }
+  },
+  "comparisons": {
+    "learned_minus_native_ap50": -4.815169540961506e-05,
+    "learned_minus_current_ap50": 0.00011724041282978881,
+    "learned_minus_fixed_ap50": -0.0011104240686392597,
+    "learned_wins_vs_current_pairs": 4,
+    "learned_wins_vs_fixed_pairs": 2,
+    "learned_recall_minus_native": 0.0
+  },
+  "pre_registered_gate": {
+    "learned_beats_native": false,
+    "learned_beats_trained_current": true,
+    "learned_wins_at_least_3_of_5_vs_current": true,
+    "learned_recall_at_least_native": true,
+    "learned_beats_fixed": false,
+    "learned_wins_at_least_3_of_5_vs_fixed": false,
+    "overall": "STOP_BEFORE_P30_HOST"
+  },
+  "boundary": {
+    "calibration_labels_read": true,
+    "official_val_or_test_read": false,
+    "host_integration_started": false,
+    "novelty_claim": false,
+    "fixed_arm_not_creditable_as_learned_offset_method": true
+  }
+}

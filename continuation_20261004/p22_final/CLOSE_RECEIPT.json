@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-10-04T12:36:50.057568+00:00",
+  "extraction_exits": {
+    "launcher.exit": "0",
+    "runner.exit": "0"
+  },
+  "feature_receipt_files_verified": 45,
+  "original_p21_seal": "PASS",
+  "prior_art_seal": "PASS",
+  "current_gpu_snapshot": "0, GPU-2a55197e-2c19-45ff-cf33-13031951f9d0, NVIDIA A100-SXM4-40GB, 40960 MiB, 24454 MiB\n1, GPU-1b297aba-ae7e-e326-5903-476f1bb683d7, NVIDIA A100-SXM4-40GB, 40960 MiB, 17 MiB\n2, GPU-6f385048-7771-5048-9c46-067bf301ea27, NVIDIA DGX Display, 4096 MiB, 8 MiB\n3, GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a, NVIDIA A100-SXM4-40GB, 40960 MiB, 31300 MiB\n",
+  "p22_tmux_exists": false,
+  "current_dependency_snapshots_not_prelaunch_attestations": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/probe.py": "247e5de3af8cd0d82759b50ac6ab950286c329b65a874fec848dc3fe231f7ae8",
+    "/home/chenhc/mdmot_research_20261002/p2/src/data.py": "98ebdcee3c7e4b322acaedd1dc1c388c08b351ccb00604f44e0a77399e866a04"
+  },
+  "no_more_p22_model_expansion": "Current vector-dynamics rationale stopped; research goal active.",
+  "decision_sha256": "aadafd5a2d719e2a043806824d5e731c68c92e9cbb54fbd35be81a453fa0e71e"
+}

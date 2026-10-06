@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETE_P42_P39_MEAN_EXTRACTION",
+  "window": 8,
+  "max_gap": 30,
+  "sequences": [
+    {
+      "view": 1,
+      "rows": 16642,
+      "mapped_rows": 16636,
+      "mapping_coverage": 0.9996394664102872,
+      "valid_embeddings": 16636,
+      "mean_iou": 0.9999551457800455,
+      "min_iou": 0.7689693141691213,
+      "history_used_rows": 16165,
+      "resets": 2,
+      "output_sha256": "567e3a0d2e91d367bda3c6fef64c646a1971aeb7afcbc5ca62c2cf7ebb78e021",
+      "p26_sha256": "c2988c6c1c42ae15c84616c3d701f958662fad98bc3e51e9c07b79c72045bf58",
+      "p2_sha256": "51dac264583cf36caeaa4e27e2d051f9436f6940e839f553e9fac54fa12d77dc"
+    },
+    {
+      "view": 2,
+      "rows": 17193,
+      "mapped_rows": 17144,
+      "mapping_coverage": 0.9971500029081602,
+      "valid_embeddings": 17144,
+      "mean_iou": 0.9998141077821703,
+      "min_iou": 0.3810231481298232,
+      "history_used_rows": 16373,
+      "resets": 1,
+      "output_sha256": "9f260e18b108c8fa1ac0df70d9d2271588fac31acd2fc85cbb9729ff07d44a3d",
+      "p26_sha256": "6c7f3add80ddaba8d065627975125070619febf0b858372e3ec41ff3f9e4707e",
+      "p2_sha256": "8eedaaf60d67a8fabd57f6ccbd053cf22fa62a1c8ae37d417b201491627f8866"
+    }
+  ],
+  "labels_read": false,
+  "xml_read": false,
+  "official_test_read": false
+}

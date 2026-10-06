@@ -1,0 +1,34 @@
+{
+  "status": "STOP_CVSGM_B4_NOT_INCREMENTAL_OVER_B4",
+  "run_dir": "continuation_20261006/cvsgm_autoassign_gate/runs/b4_extension_block1_v1",
+  "scope": "same AutoAssign initialization, same B4 head, same 600-step budget; train-only holdout",
+  "checks": {
+    "run_complete": true,
+    "same_pair_denominators": true,
+    "all_checkpoints_finite": true,
+    "official_val_test_locked": true,
+    "cvsgm_b4_pair_wins_vs_b4": 0,
+    "cvsgm_b4_macro_r1_above_b4": false
+  },
+  "pair_macro": {
+    "B4": {
+      "recall1": 0.15201221747757074,
+      "mrr": 0.2816146703423894,
+      "margin": -0.9950218394062615,
+      "dustbin_brier": 0.3736780517200534
+    },
+    "CVSGM_B4": {
+      "recall1": 0.1081646286231884,
+      "mrr": 0.25691594344784374,
+      "margin": -1.0602256917702602,
+      "dustbin_brier": 0.3656069715795044
+    }
+  },
+  "pair_recall1_delta_cvsgm_b4_minus_b4": {
+    "29": -0.016908212560386475,
+    "30": 0.0,
+    "32": -0.015624999999999993,
+    "39": -0.14285714285714285
+  },
+  "interpretation": "The map-level symmetric channel gate does not improve the strong B4 head and damages the cross-view generalization block; do not expand this branch with more steps or threshold tuning."
+}

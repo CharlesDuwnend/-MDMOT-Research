@@ -1,0 +1,31 @@
+{
+  "calibration_read": false,
+  "checkpoint_sha256": "c719bcf300f168a4c9fbf9bbda0ecc64d82b01e4215bb3220b57625459ca381f",
+  "dev_read": false,
+  "elapsed_seconds": 820.6285988371819,
+  "eligible_groups": 18412,
+  "epochs": 3,
+  "first": {
+    "base": 0.06221283972263336,
+    "loss": 0.06743648648262024,
+    "queries": 4,
+    "step": 1,
+    "swap": 0.05223649740219116,
+    "swap_rows": 4
+  },
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "gpu_snapshot": "3, GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a, NVIDIA A100-SXM4-40GB, 40960, 40322",
+  "gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+  "last": {
+    "base": 0.41953349113464355,
+    "loss": 0.4362618327140808,
+    "queries": 86,
+    "step": 55236,
+    "swap": 0.16728347539901733,
+    "swap_rows": 114
+  },
+  "last100_mean": 0.30237950982525946,
+  "p38_checkpoint_sha256": "411f1c908f3bca6263ad53994a94b7c2f23268f62b23f41aff785a2af97d9127",
+  "status": "PASS_CCSI_FULL_COVERAGE_TRAINING",
+  "steps": 55236
+}

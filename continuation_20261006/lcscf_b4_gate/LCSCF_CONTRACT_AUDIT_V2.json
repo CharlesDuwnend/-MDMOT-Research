@@ -1,0 +1,27 @@
+{
+  "status": "PASS_LCSCF_MECHANISM_CONTRACT",
+  "created_utc": "2026-10-05T23:10:13.033900+00:00",
+  "checkpoint": "/home/chenhc/cross_uav_query_mamba_20260830/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt_epoch_60.pth",
+  "checkpoint_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+  "device": "cuda:0",
+  "operator": "3x3 bidirectional latent transport with cycle/mass/entropy diagnostics",
+  "placement": "paired identity RoI maps before B4 pooling",
+  "learned_dense_correspondence": false,
+  "checks": {
+    "backbone_loaded_tensor_keys": 258,
+    "step_zero": {
+      "k1_max_abs_error": 0.0,
+      "k64_max_abs_error": 0.0
+    },
+    "backbone_gradient_l1": 204968.86205112934,
+    "residual_scale_gradient_l1": 0.07269024103879929,
+    "transport_stats_finite": true,
+    "parameters_finite": true,
+    "contract_terms": {
+      "cycle_gap": 0.025994300842285156,
+      "mass_gap": -0.031450361013412476,
+      "positive_entropy": 0.6844531893730164
+    },
+    "official_val_test_access": false
+  }
+}

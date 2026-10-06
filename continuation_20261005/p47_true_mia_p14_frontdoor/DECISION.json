@@ -1,0 +1,45 @@
+{
+  "status": "STOP_P47_AS_PAPER_METHOD_HOLD_AS_ENGINEERING_CONTROL",
+  "candidate": "P47 true MIA front-door one-to-one refresh with optional frozen P14 descriptor",
+  "decision_basis": {
+    "p26_pair23": {
+      "MDA": 0.6431315772400862,
+      "IDF1": 0.9087675268817306,
+      "MOTA": 0.9474145050991436,
+      "switches": 770
+    },
+    "geometry_frontdoor_pair23": {
+      "MDA": 0.751103850421779,
+      "IDF1": 0.9126065838870341,
+      "MOTA": 0.9481839023505831,
+      "switches": 743,
+      "delta_MDA": 0.10797227318169278
+    },
+    "p14_frontdoor_pair23": {
+      "MDA": 0.6747512345101938,
+      "IDF1": 0.9101919718186572,
+      "MOTA": 0.9486525175112468,
+      "switches": 727,
+      "delta_MDA": 0.031619657270107626
+    }
+  },
+  "audit": {
+    "geometry_output": "700 frames, finite positive boxes, no duplicate IDs within a frame",
+    "p14_output": "700 frames, finite positive boxes, no duplicate IDs within a frame",
+    "descriptor_alignment": "not exact on 365/700 view1 and 370/700 view2 frames; P14 is therefore not an isolated clean gain",
+    "implementation_failure_audited": true,
+    "first_replay_failure": "Python 3.8-incompatible dict union syntax at frame 6; fixed and fresh replay completed"
+  },
+  "novelty_screen": {
+    "status": "STOP_DIRECT_COLLISION_FOR_CLAIM",
+    "reason": "Hungarian/one-to-one cross-view association with homography or position cost is established adjacent/direct practice in MDMT-related UAV tracking and multi-camera tracking",
+    "claim_allowed": "engineering control and host-validation evidence only",
+    "paper_ready": false
+  },
+  "artifacts": {
+    "p14_score": "runs/true_mia_p14_v3/score/SCORES.json",
+    "geometry_score": "runs/true_mia_geometry_v2/score/SCORES.json",
+    "p14_audit": "runs/true_mia_p14_v3/AUDIT.json",
+    "geometry_audit": "runs/true_mia_geometry_v2/AUDIT.json"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "status": "P23_VISUAL_CAL5_READOUT",
+  "readout": "P4 exact-tie positive-present r1 on cal5 only",
+  "arms": [
+    "frozen_adapter",
+    "head_only",
+    "visual_ft"
+  ],
+  "cal5": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "pair_macro_r1": {
+    "frozen_adapter": 0.4759154376000505,
+    "head_only": 0.4790261369209695,
+    "visual_ft": 0.5020281123081564
+  },
+  "visual_ft_vs_head_only_lift": 0.023001975387186846,
+  "visual_ft_vs_head_only_pair_wins_of_5": 5,
+  "progression_rule": "visual_ft >= head_only+0.01 and >=3/5 wins -> keep; else HOLD+look-back",
+  "progression_verdict": "KEEP_STRONGER_VISUAL_BASELINE",
+  "dino_reproduction_probe": {
+    "27": {
+      "min_cos": 0.9999853372573853,
+      "mean_cos": 0.9999992847442627,
+      "n": 3363
+    },
+    "32": {
+      "min_cos": 0.9999927878379822,
+      "mean_cos": 0.9999993443489075,
+      "n": 3608
+    },
+    "42": {
+      "min_cos": 0.999984085559845,
+      "mean_cos": 0.9999993443489075,
+      "n": 2149
+    },
+    "64": {
+      "min_cos": 0.9999427199363708,
+      "mean_cos": 0.9999985098838806,
+      "n": 1504
+    },
+    "65": {
+      "min_cos": 0.9999129772186279,
+      "mean_cos": 0.9999988079071045,
+      "n": 4551
+    }
+  },
+  "per_pair": {
+    "27": {
+      "role": "calibration",
+      "coverage": {
+        "common_support": 3363,
+        "crop_invalid": 0,
+        "crop_valid": 3363,
+        "excluded_from_common": 0,
+        "images_decoded": 64,
+        "old_feature_present": 3363,
+        "rows": 3363,
+        "selected_frames": 32,
+        "valid_crop_old_feature_missing": 0
+      },
+      "r1": {
+        "frozen_adapter": 0.34005905511811024,
+        "head_only": 0.34005905511811024,
+        "visual_ft": 0.36220472440944884
+      }
+    },
+    "32": {
+      "role": "calibration",
+      "coverage": {
+        "common_support": 3608,
+        "crop_invalid": 0,
+        "crop_valid": 3608,
+        "excluded_from_common": 0,
+        "images_decoded": 64,
+        "old_feature_present": 3608,
+        "rows": 3608,
+        "selected_frames": 32,
+        "valid_crop_old_feature_missing": 0
+      },
+      "r1": {
+        "frozen_adapter": 0.4764801297648013,
+        "head_only": 0.4793187347931874,
+        "visual_ft": 0.5097323600973236
+      }
+    },
+    "42": {
+      "role": "calibration",
+      "coverage": {
+        "common_support": 2149,
+        "crop_invalid": 0,
+        "crop_valid": 2149,
+        "excluded_from_common": 0,
+        "images_decoded": 64,
+        "old_feature_present": 2149,
+        "rows": 2149,
+        "selected_frames": 32,
+        "valid_crop_old_feature_missing": 0
+      },
+      "r1": {
+        "frozen_adapter": 0.5776,
+        "head_only": 0.5816,
+        "visual_ft": 0.6112
+      }
+    },
+    "64": {
+      "role": "calibration",
+      "coverage": {
+        "common_support": 1504,
+        "crop_invalid": 0,
+        "crop_valid": 1504,
+        "excluded_from_common": 0,
+        "images_decoded": 64,
+        "old_feature_present": 1504,
+        "rows": 1504,
+        "selected_frames": 32,
+        "valid_crop_old_feature_missing": 0
+      },
+      "r1": {
+        "frozen_adapter": 0.5815109343936382,
+        "head_only": 0.5944333996023857,
+        "visual_ft": 0.6083499005964215
+      }
+    },
+    "65": {
+      "role": "calibration",
+      "coverage": {
+        "common_support": 4551,
+        "crop_invalid": 0,
+        "crop_valid": 4552,
+        "excluded_from_common": 1,
+        "images_decoded": 64,
+        "old_feature_present": 4551,
+        "rows": 4552,
+        "selected_frames": 32,
+        "valid_crop_old_feature_missing": 1
+      },
+      "r1": {
+        "frozen_adapter": 0.40392706872370265,
+        "head_only": 0.3997194950911641,
+        "visual_ft": 0.41865357643758766
+      }
+    }
+  },
+  "frozen_adapter_reference_is_sealed_p14_evaluation_v2": true,
+  "dev_val_test_read": false,
+  "GPU2_used": false,
+  "sources": {
+    "p23_head_only": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p23_visual/runs/head_only/fixed_step_001200.pt",
+      "sha256": "904d19c7913c23c3e851e77bf0139c39ff2e17f2eaced2fd81a31c183593c043"
+    },
+    "p23_visual_ft": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p23_visual/runs/visual_ft/fixed_step_001200.pt",
+      "sha256": "5b48db9db2d30e836455e271736aa5d6634670ea87b658068376cad7a7e75450"
+    },
+    "readout": {
+      "path": "/home/chenhc/mdmot_research_20261002/p4_diagnosis/compare_crop32.py",
+      "sha256": "e6b84620e31061aa3746d5639b2695965d03f68a87c9d7293a563f1c7590c1be"
+    },
+    "frozen_p14_eval_dir": "/home/chenhc/mdmot_research_20261002/p14_fusion/evaluation_v2"
+  }
+}

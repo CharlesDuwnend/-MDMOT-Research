@@ -1,0 +1,52 @@
+[
+  {
+    "type": "LoadImageFromFile"
+  },
+  {
+    "flip": false,
+    "img_scale": [
+      1333,
+      800
+    ],
+    "transforms": [
+      {
+        "keep_ratio": true,
+        "type": "Resize"
+      },
+      {
+        "type": "RandomFlip"
+      },
+      {
+        "mean": [
+          102.9801,
+          115.9465,
+          122.7717
+        ],
+        "std": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "to_rgb": false,
+        "type": "Normalize"
+      },
+      {
+        "size_divisor": 32,
+        "type": "Pad"
+      },
+      {
+        "keys": [
+          "img"
+        ],
+        "type": "ImageToTensor"
+      },
+      {
+        "keys": [
+          "img"
+        ],
+        "type": "Collect"
+      }
+    ],
+    "type": "MultiScaleFlipAug"
+  }
+]

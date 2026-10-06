@@ -1,0 +1,75 @@
+{
+  "status": "PASS_SEMANTIC_FAILURE_AUDIT_3X3",
+  "checks": [
+    {
+      "round": "R1",
+      "check": "valid supervision is explicit",
+      "status": "PASS",
+      "evidence": {
+        "source": "native_set_residual_gate.py"
+      }
+    },
+    {
+      "round": "R1",
+      "check": "unknown candidates excluded from strict eligibility",
+      "status": "PASS",
+      "evidence": {
+        "source": "native_set_residual_gate.py"
+      }
+    },
+    {
+      "round": "R1",
+      "check": "negative control uses known-negative mask",
+      "status": "PASS",
+      "evidence": {
+        "source": "counterfactual_gate.py"
+      }
+    },
+    {
+      "round": "R2",
+      "check": "synthetic mask cardinality and unknown/invalid contract",
+      "status": "PASS",
+      "evidence": {
+        "stdout": "PASS_SEMANTIC_UNIT_CONTRACT\n",
+        "stderr": ""
+      }
+    },
+    {
+      "round": "R2",
+      "check": "v1 semantic counts preserved",
+      "status": "PASS",
+      "evidence": {
+        "artifact": "SEMANTIC_SUPERSEDING_AUDIT.json"
+      }
+    },
+    {
+      "round": "R2",
+      "check": "v2 compiles",
+      "status": "PASS",
+      "evidence": {}
+    },
+    {
+      "round": "R3",
+      "check": "invalid v1 process archived",
+      "status": "PASS",
+      "evidence": {
+        "log": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/attempts/cf_v1_semantics_invalid/counterfactual_gate.log",
+        "exit": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/attempts/cf_v1_semantics_invalid/counterfactual_gate.exit"
+      }
+    },
+    {
+      "round": "R3",
+      "check": "v1 invalidity decision recorded",
+      "status": "PASS",
+      "evidence": {}
+    },
+    {
+      "round": "R3",
+      "check": "official val/test remains locked",
+      "status": "PASS",
+      "evidence": {}
+    }
+  ],
+  "next": "v2 strict supervision smoke then formal run",
+  "official_val_test_access": false
+}

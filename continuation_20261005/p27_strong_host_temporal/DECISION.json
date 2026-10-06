@@ -1,0 +1,111 @@
+{
+  "continuation": {
+    "execution_authority": "P28 was separately authorized and arranged by root; its pre-fixed protocol and actual receipts govern execution and results.",
+    "fuller_detector_or_host_evidence": "conditional on P28 actual frozen-prediction detection comparison, not on Oracle observation counts",
+    "kind": "established causal FGFA structural pilot, not a new method or complete end-to-end FGFA reproduction",
+    "official_val_or_test_authorized_by_this_decision": false,
+    "required_baseline": "fresh native float32 FPN and native detections from those exact features; do not train or evaluate against substituted historical stream controls",
+    "workspace": "../p28_causal_fgfa"
+  },
+  "date": "2026-10-05",
+  "decision": "KEEP_P28_ESTABLISHED_CAUSAL_FGFA_PILOT",
+  "evidence_sha256": {
+    "OPERATOR_REVIEW.md": "2c0174360086b447ec35a31775807d08a4dc0f5e80821b67ec66257dad9e9df0",
+    "PARITY_LOOKBACK.json": "ac67aade03ac123e2455f5d43179737ea213a412ff128f020e65e896b327ba22",
+    "detector_parity/PROTOCOL.json": "c42683171261925fe7387ae61251553a9315493e471d5ef736768c5e32dd158e",
+    "detector_parity/RECEIPT.json": "6ac461e6480926d6484345666f0bbff02a80a13f9c96356df212a4e0f2aece0b",
+    "visibility/PROTOCOL.md": "ab9fd2ff8a8e5633f51a8dec6def3a45aa9ca73428abe19327f174f14446045d",
+    "visibility/RECEIPT.json": "8e9880d433de751eb65b90d45acfb44ec9394f74b59ec06c3aa9ad5541ed3290",
+    "visibility/REPORT.md": "af57266863b16926131cf1b9f17e05f79a5b7cacc54ab30a000a62d44dd67f38",
+    "visibility/REVIEW.md": "e6861cfdd3dd196f909a53648d877fb45b664c307400c566d90fe6895da43530",
+    "visibility/VERIFY.json": "49b41e47899baee113f48b80a41d41996084770316763fa7259309d83e341cfb",
+    "visibility/summary.json": "23cd46e0d9ed97b01b550bf19a01b711218617a73d118e36f1b64b114a5f00cd"
+  },
+  "fit_visibility": {
+    "counts_are_not_fixed_lag_reference_coverage": true,
+    "counts_are_not_recoverable_detections_or_expected_fgfa_gains": true,
+    "cross_view_semantics": "same-label equal-raw-ID annotation convention only; physical identity, hardware synchronization and calibration unverified",
+    "current_detected": 834897,
+    "current_missing": 33665,
+    "current_recall": 0.9612405332031565,
+    "gt_observations": 868562,
+    "miss_categories": {
+      "annotation_birth_no_prior_annotation": 824,
+      "continuous_prior_detection_older_than_8": 5047,
+      "continuous_prior_detection_within_8": 23930,
+      "continuous_segment_never_detected_before": 3816,
+      "reappearance_after_annotation_gap": 48
+    },
+    "missing_with_strict_prior_window_support": {
+      "1": 10616,
+      "4": 20183,
+      "8": 23930
+    },
+    "pairs": [
+      "23",
+      "25",
+      "28",
+      "29",
+      "39",
+      "44",
+      "45",
+      "51",
+      "53",
+      "63",
+      "66",
+      "69",
+      "70",
+      "74",
+      "78"
+    ],
+    "scope": "FIT15 only, offline Oracle observation diagnostic, historical detector score>=0.1",
+    "sequences": 30,
+    "status": "PASS_FIT_ORACLE_OBSERVATION_DIAGNOSTIC",
+    "verification": {
+      "all_temporal_columns_verified": true,
+      "cross_view_saved_row_reference_verified": true,
+      "full_miss_run_mass_and_intervals_verified": true,
+      "independent_algorithm": "group by local identity/class, split annotation gaps, strict-left searchsorted on detected frame numbers",
+      "input_hashes_rechecked": 128,
+      "one_to_one_verified": true,
+      "status": "PASS",
+      "total_rows_verified": 868562
+    },
+    "view_frame_observations": 15572
+  },
+  "mot_effect_established": false,
+  "novelty_claim": false,
+  "operator": "established FGFA dense flow alignment and learned temporal aggregation, adapted to causal AutoAssign/FPN pilot",
+  "preservation": {
+    "model_or_gpu_run_for_this_report": false,
+    "new_p27_seal_created": true,
+    "p25_resumed": false,
+    "p26_sealed_files_modified": false,
+    "raw_dataset_read_for_this_report": false
+  },
+  "report_sha256": "39e24bc922bf5a8dd8c6268f81332a24eb0a44b4327bfd55652c54173583b0ae",
+  "review_state": "ROOT_REVIEWED",
+  "schema": "p27_strong_host_temporal_decision_v1",
+  "sealed": true,
+  "strict_detector_parity": {
+    "absolute_tolerance": 0.001,
+    "cause": "Near-identical boxes/scores and ordering differences are consistent with numerical/runtime differences; exact cause is not established.",
+    "comparison": "ordered native-output score>=0.1 subset with fixed bbox/score absolute tolerance",
+    "failed_images": 42,
+    "fresh_native_score_thr": 0.05,
+    "historical_score_min": 0.1,
+    "images": 90,
+    "implication": "Historical visibility remains support motivation only; no substitution for fresh native detector control.",
+    "near_match_lookback": {
+      "matched_iou99": 6051,
+      "new_rows": 6053,
+      "old_rows": 6052,
+      "status": "OLD_STREAM_NOT_BIT_EXACT_WITH_FRESH_NATIVE_DETECTOR",
+      "unmatched_new": 2,
+      "unmatched_old": 1
+    },
+    "passed_images": 48,
+    "status": "FAIL_SAMPLED_PARITY",
+    "strict_gate_relaxed": false
+  }
+}

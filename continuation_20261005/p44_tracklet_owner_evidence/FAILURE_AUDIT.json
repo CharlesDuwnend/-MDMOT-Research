@@ -1,0 +1,25 @@
+{
+  "association_result": "runs/host_pair23/RESULT.json",
+  "conclusion": "Tracklet accumulation is collision-safe but destroys mature-host output quality; no implementation defect explains the below-baseline result. Stop without training or multi-pair expansion.",
+  "coverage": {
+    "p14_view1": "0da025846d79904d750726ce3dc6efb602baea209d1378b4c1a4c4cfc69a9861",
+    "p14_view2": "e19999f10d9734dd6a2fd532409a972d13081836bcdae3ff5cb8a289853788f5"
+  },
+  "implementation_defect_found": false,
+  "owner_segment_audit": {
+    "geometry": {
+      "duplicates": 0,
+      "relabels": 5446,
+      "rows": 17193,
+      "segment_output_splits": 33
+    },
+    "mean8": {
+      "duplicates": 0,
+      "relabels": 5073,
+      "rows": 17193,
+      "segment_output_splits": 29
+    }
+  },
+  "scores": "runs/host_pair23/SCORES.json",
+  "status": "PASS_P44_FAILURE_AUDIT"
+}

@@ -1,0 +1,14 @@
+{
+  "all_parameter_tensors_exactly_equal": true,
+  "cause": "Inherited P40 checkpoint metadata wrote fixed_step=1200 despite executed 55236 updates; fixed filename and metadata without changing weights",
+  "corrected_checkpoint_sha256": "528542e3574ee7270550e42a1505f46013101d2c5b3e205103d7167bdc8d7eee",
+  "corrected_fixed_step": 55236,
+  "parameter_state_sha256": "eee9598fea37117e09fea9d65cc18b019b1585b6b774a7c50c0338534574e2a3",
+  "raw_backup": "continuation_20261005/p41_mean_adapter_fullcoverage/runs/fixed_step_055236_raw_metadata.pt",
+  "raw_checkpoint_sha256": "7caec0707c772cca1470c29b5efceb87c475bc0df839505bb45d8ed250908211",
+  "raw_fixed_step": 1200,
+  "status": "PASS_P41_CHECKPOINT_METADATA_REPAIR",
+  "training_log_final_step": 55236,
+  "training_receipt_steps": 55236,
+  "weights_changed": false
+}

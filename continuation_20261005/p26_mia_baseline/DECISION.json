@@ -1,0 +1,25 @@
+{
+  "baseline": "original MIA-Net + occlusion supplement, original AutoAssign checkpoint, original single scale/default parameters",
+  "current_baseline_pointer": "/home/chenhc/claude_try_MDMOT/CURRENT_BASELINE.md",
+  "macro_percent": {
+    "MDA": 41.73089529111109,
+    "idf1": 68.34102373782748,
+    "idp": 76.05222511888739,
+    "idr": 62.60809943282053,
+    "mota": 49.6971680799368
+  },
+  "no_new_method_validated": true,
+  "p25_status": "deferred by user before data decoding, rawGT read or training",
+  "protocol": "official first-frame GT boxes/IDs/confirmed tracker/Kalman/H retained",
+  "receipts": {
+    "EVIDENCE_REVIEW.md": "10836210352fef348763351489c653ab331a8ab21719f9e4be332fc8598d7076",
+    "INDEPENDENT_SCORES.json": "bd90eef527771738c7df54b6a534b6313f256118337b1cf938bbe1287fa5d093",
+    "INDEPENDENT_SCORE_INPUTS.json": "ca31e2a90b3b8588a387af9dc900ab24436611de12a7affd42df45c911bfa1ba",
+    "REPRODUCTION_CONTRACT.md": "add6ee31e59d666f544e4f86bd9945d73971b40d1fce87326a84823dbbada457",
+    "SOURCE_IMPORT.json": "5846421bbbc9c28e64a8669aac4340aff96e8b833ee3879a18ba767f7e52a853",
+    "runs/fit23/RECEIPT.json": "6f8c3620eacb7eb19636b64ac50b3e4137352b77d3c72f601df2d83066d8fbc1"
+  },
+  "runtime_evidence": "fresh fit23 full inference, 700 frames per view, exit0",
+  "score_evidence": "full archived test14 independent rescore; not new test14 inference",
+  "status": "KEEP_MATURE_PAPER_COMPARABLE_MIA_BASELINE"
+}

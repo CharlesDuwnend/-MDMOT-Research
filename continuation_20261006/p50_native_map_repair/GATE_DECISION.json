@@ -1,0 +1,92 @@
+{
+  "status": "HOLD_P50_SET_TEACHER_NOVELTY_GATE",
+  "summary": {
+    "7": {
+      "rel_vs_base": {
+        "macro_r1_delta": 0.10733405975683885,
+        "wins": 4,
+        "per_pair": [
+          -0.01255230125523013,
+          0.13333333333333336,
+          0.07368421052631578,
+          0.2359550561797753,
+          0.10624999999999998
+        ]
+      },
+      "rel_vs_pooled": {
+        "macro_r1_delta": 0.010974583425089923,
+        "wins": 2,
+        "per_pair": [
+          -0.004184100418410025,
+          0.013333333333333336,
+          -0.01052631578947369,
+          0.0,
+          0.056249999999999994
+        ]
+      },
+      "teacher_on_vs_off": {
+        "macro_r1_delta": -0.0017597824894614034,
+        "wins": 2,
+        "per_pair": [
+          -0.008368200836820078,
+          0.013333333333333308,
+          0.0,
+          0.011235955056179747,
+          -0.024999999999999994
+        ]
+      },
+      "rel_dustbin": 0.6616892920631378,
+      "pooled_dustbin": 0.6445152667589346
+    },
+    "17": {
+      "rel_vs_base": {
+        "macro_r1_delta": 0.10044146630739323,
+        "wins": 4,
+        "per_pair": [
+          -0.02092050209205021,
+          0.11333333333333333,
+          0.05263157894736843,
+          0.2696629213483146,
+          0.0875
+        ]
+      },
+      "rel_vs_pooled": {
+        "macro_r1_delta": 0.023662404212307843,
+        "wins": 4,
+        "per_pair": [
+          0.008368200836820106,
+          0.04000000000000001,
+          0.0,
+          0.0449438202247191,
+          0.024999999999999994
+        ]
+      },
+      "teacher_on_vs_off": {
+        "macro_r1_delta": 0.0005952470499741514,
+        "wins": 3,
+        "per_pair": [
+          0.004184100418410025,
+          0.020000000000000018,
+          0.0,
+          -0.0337078651685393,
+          0.012500000000000011
+        ]
+      },
+      "rel_dustbin": 0.6519735786535086,
+      "pooled_dustbin": 0.6298979536998066
+    }
+  },
+  "pre_registered_gate": {
+    "relational_operator_keep": false,
+    "teacher_additive_keep": false,
+    "native_residual_feasibility": true
+  },
+  "decision": {
+    "native_candidate_residual": "KEEP_AS_STRONG_TRAINED_ADAPTER_CONTROL",
+    "leave_one_out_set_claim": "HOLD_NOT_CAUSAL_IN_BOTH_SEEDS",
+    "privileged_teacher_claim": "HOLD_NO_ADDITIVE_GAIN",
+    "official_val_test_authorized": false,
+    "next_research_step": "counterfactual positive-removal dustbin objective with cardinality-matched negative-removal control before any official-val integration"
+  },
+  "metrics_scope": "held-out train calibration only; no official MOT metric"
+}

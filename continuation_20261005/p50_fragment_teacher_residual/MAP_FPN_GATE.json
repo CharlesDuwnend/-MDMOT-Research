@@ -1,0 +1,73 @@
+{
+  "status": "PASS_P50_FPN_INIT_MAP_GATE_COMPLETE",
+  "device": "cuda",
+  "fit_rows": 2124,
+  "steps": 1200,
+  "trainable_parameters": 1380097,
+  "frozen_backbone_pyramid": true,
+  "history": [
+    {
+      "step": 1,
+      "loss": 0.8954795598983765,
+      "grad_l1": 1364.02099609375
+    },
+    {
+      "step": 400,
+      "loss": 0.25835534930229187,
+      "grad_l1": 47.17178726196289
+    },
+    {
+      "step": 800,
+      "loss": 0.21782231330871582,
+      "grad_l1": 31.616025924682617
+    },
+    {
+      "step": 1200,
+      "loss": 0.3352440297603607,
+      "grad_l1": 14.617201805114746
+    }
+  ],
+  "per_pair": {
+    "69": {
+      "events": 238,
+      "student_recall1": 0.05042016806722689,
+      "baseline_recall1": 0.1638655462184874,
+      "student_mrr": 0.17718580458988337,
+      "baseline_mrr": 0.3109250533317805
+    },
+    "70": {
+      "events": 150,
+      "student_recall1": 0.03333333333333333,
+      "baseline_recall1": 0.08,
+      "student_mrr": 0.12295169710205497,
+      "baseline_mrr": 0.2213120378123646
+    },
+    "74": {
+      "events": 186,
+      "student_recall1": 0.053763440860215055,
+      "baseline_recall1": 0.08602150537634409,
+      "student_mrr": 0.15360850858865274,
+      "baseline_mrr": 0.1931617417469169
+    },
+    "76": {
+      "events": 89,
+      "student_recall1": 0.0449438202247191,
+      "baseline_recall1": 0.0898876404494382,
+      "student_mrr": 0.15056006195307886,
+      "baseline_mrr": 0.21814024740475316
+    },
+    "78": {
+      "events": 160,
+      "student_recall1": 0.04375,
+      "baseline_recall1": 0.1625,
+      "student_mrr": 0.1285650980193906,
+      "baseline_mrr": 0.27946737304713254
+    }
+  },
+  "teacher_in_inference": false,
+  "official_val_test_access": false,
+  "baseline": "frozen_stage3_visual_feature_cosine_same_definition_as_feature_gate",
+  "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p50_fragment_teacher_residual/MAP_FPN_GATE_MODEL.pt",
+  "checkpoint_sha256": "28dade2c725cadef3921e12f283cedf293917a1882ed544100f33d3d050332e7",
+  "metrics_are_train_only_diagnostics": true
+}

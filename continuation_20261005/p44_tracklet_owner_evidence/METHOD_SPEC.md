@@ -1,0 +1,3 @@
+# P44 tracklet-level owner evidence accumulation
+
+P44 tests a causal host-attachment mechanism after P42/P43 exposed framewise owner discontinuity. Frozen P14 appearance descriptors and P37 homography geometry produce the same per-frame candidate edges. Instead of writing an ID per frame, each native view2 tracklet segment (native local ID, gap <=30 frames) accumulates edge costs against view1 owner IDs and commits one target owner for the complete segment. The output application preserves that mapping and rejects per-frame duplicate owners. Geometry-only accumulation is a control. No labels, XML, thresholds, checkpoint selection, or official data enter the run. This is an integration candidate only; no novelty claim.

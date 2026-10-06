@@ -1,0 +1,42 @@
+{
+  "status": "PASS_P50_MAP_FAILURE_AUDIT_3X3",
+  "candidate": "P50 map-level cross-view fragment teacher residual",
+  "rounds": [
+    {
+      "round": "R1_OPERATOR_AND_CHECKPOINT",
+      "checks": {
+        "checkpoint_state_complete": true,
+        "parameters_finite": true,
+        "teacher_separation_and_legal_split": true
+      }
+    },
+    {
+      "round": "R2_TRAINING_SUFFICIENCY_REPLAY",
+      "checks": {
+        "all_reported_losses_finite": true,
+        "three_effective_epochs_completed": true,
+        "all_eval_pairs_have_finite_scores": true
+      }
+    },
+    {
+      "round": "R3_METHOD_GATE_AND_IMPLEMENTATION_CAUSALITY",
+      "checks": {
+        "macro_recall_gain_gate": true,
+        "at_least_three_pair_wins": false,
+        "macro_mrr_not_lower": false
+      }
+    }
+  ],
+  "decision": {
+    "implementation_failure_explains_negative_result": false,
+    "training_sufficiency_completed": true,
+    "paper_method": "STOP",
+    "additional_training": "STOP",
+    "official_val_test_access": false,
+    "reason": "checkpoint and separation checks pass; 3.013 effective epochs still yield macro Recall@1 0.0474585 vs 0.1164549, MRR 0.1580423 vs 0.2446013, and 0/5 pair wins"
+  },
+  "inputs": {
+    "MAP_IMPLEMENTATION_AUDIT_sha256": "a93edc8e8178a6caaf259661475fd74fd0d2ed57db20ed0443ba41c08bbe26dc",
+    "MAP_SUFFICIENCY_sha256": "bc7bc623138bfffbc5c3c223529b8e82637386326b79dfb86c82f1e8b08ce220"
+  }
+}

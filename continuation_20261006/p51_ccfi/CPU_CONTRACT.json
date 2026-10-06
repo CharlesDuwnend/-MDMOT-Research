@@ -1,0 +1,23 @@
+{
+  "all_checks_pass": true,
+  "rounds": {
+    "R1_data_legal": {
+      "fit_role": true,
+      "label_field_explicit": true,
+      "pair_loaded": true
+    },
+    "R2_operator": {
+      "finite_extreme_dispersion": true,
+      "finite_real": true,
+      "real_group": true
+    },
+    "R3_supervision_gradient": {
+      "finite_gradients": true,
+      "history_rows": 3,
+      "loss_finite": true,
+      "query_count": 2,
+      "unknown_label_invariant": true
+    }
+  },
+  "status": "PASS_CCFI_CPU_CONTRACT_3X3"
+}

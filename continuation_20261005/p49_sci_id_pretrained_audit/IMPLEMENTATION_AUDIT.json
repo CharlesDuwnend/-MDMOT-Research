@@ -1,0 +1,23 @@
+{
+  "status": "PASS_IMPLEMENTATION_AUDIT_STOP_METHOD",
+  "checks": {
+    "backbone_checkpoint": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+    "loaded_backbone_tensors": 258,
+    "skipped_backbone_tensors": 0,
+    "preprocessing": "Caffe BGR mean [102.9801,115.9465,122.7717], std [1,1,1], value_scale=1",
+    "arms": ["B1", "B2", "B3", "B4", "P1"],
+    "shared_train_eval_contract": true,
+    "train_steps_per_arm": 800,
+    "eval_events": 884,
+    "official_val_or_test_access": false,
+    "gpu": "physical GPU3 A100-SXM4-40GB"
+  },
+  "causal_result": {
+    "P1_vs_B1_recall1_delta": 0.0,
+    "P1_vs_B4_recall1_delta": -0.004830508474576244,
+    "P1_vs_strongest_init_control_recall1_delta": -0.007246376811594207,
+    "P1_vs_B1_mrr_delta": -0.0106639366791262,
+    "P1_vs_B1_dustbin_brier_delta": 0.09859110727014703
+  },
+  "conclusion": "No loader, normalization, checkpoint-shape, crash, or split defect explains the P1 result. The pre-pooling composition arm does not clear the train-only advancement gate under the corrected initialization contract."
+}

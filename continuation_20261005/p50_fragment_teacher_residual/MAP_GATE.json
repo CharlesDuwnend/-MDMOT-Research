@@ -1,0 +1,71 @@
+{
+  "status": "PASS_P50_MAP_SHORT_GATE_COMPLETE",
+  "device": "cuda",
+  "fit_rows": 2124,
+  "steps": 1200,
+  "history": [
+    {
+      "step": 1,
+      "loss": 0.94847172498703,
+      "grad_l1": 4962.01904296875
+    },
+    {
+      "step": 400,
+      "loss": 0.4888221025466919,
+      "grad_l1": 1797.5416259765625
+    },
+    {
+      "step": 800,
+      "loss": 0.2982163429260254,
+      "grad_l1": 495.9939270019531
+    },
+    {
+      "step": 1200,
+      "loss": 0.3665757179260254,
+      "grad_l1": 137.9816131591797
+    }
+  ],
+  "per_pair": {
+    "69": {
+      "events": 238,
+      "student_recall1": 0.058823529411764705,
+      "baseline_recall1": 0.1638655462184874,
+      "student_mrr": 0.18850806600547174,
+      "baseline_mrr": 0.3109250533317805
+    },
+    "70": {
+      "events": 150,
+      "student_recall1": 0.02666666666666667,
+      "baseline_recall1": 0.08,
+      "student_mrr": 0.1046099100139911,
+      "baseline_mrr": 0.2213120378123646
+    },
+    "74": {
+      "events": 186,
+      "student_recall1": 0.04838709677419355,
+      "baseline_recall1": 0.08602150537634409,
+      "student_mrr": 0.1436004979140731,
+      "baseline_mrr": 0.1931617417469169
+    },
+    "76": {
+      "events": 89,
+      "student_recall1": 0.07865168539325842,
+      "baseline_recall1": 0.0898876404494382,
+      "student_mrr": 0.19608303923567727,
+      "baseline_mrr": 0.21814024740475316
+    },
+    "78": {
+      "events": 160,
+      "student_recall1": 0.04375,
+      "baseline_recall1": 0.1625,
+      "student_mrr": 0.14899115229124044,
+      "baseline_mrr": 0.27946737304713254
+    }
+  },
+  "teacher_in_inference": false,
+  "official_val_test_access": false,
+  "metrics_are_train_only_diagnostics": true,
+  "baseline": "frozen_stage3_visual_feature_cosine_same_definition_as_feature_gate",
+  "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p50_fragment_teacher_residual/MAP_GATE_MODEL.pt",
+  "checkpoint_sha256": "ffbda0e3694ef66e493cc816fdc79de9cb7b6bc8217a8ab69df29c5e0e55be7d"
+}

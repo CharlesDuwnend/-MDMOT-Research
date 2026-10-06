@@ -1,0 +1,308 @@
+{
+  "status": "HOLD_IMPLEMENTATION_CONFOUNDED_SUPERSEDING_AUDIT",
+  "audit_version": "2026-10-06-p50-repair-v1",
+  "old_artifacts": {
+    "map_gate.py": "08b448e2007f1b6ac740f08224fbc638a209f356034a27194571591892f33df0",
+    "map_fpn_gate.py": "f2b4b5c219b33a0d5a2208821a970205dbd27ad82c3002e8a532f80caeb89977",
+    "MAP_GATE.json": "fc92ca1b6c872a5c1bd45bd22ca4644bd94311e884165ba97d7544ede1d7c7c0",
+    "MAP_SUFFICIENCY.json": "bc7bc623138bfffbc5c3c223529b8e82637386326b79dfb86c82f1e8b08ce220",
+    "MAP_FPN_GATE.json": "e776a7ff05a75eddefac463a13bf1516e9155d68d9cd592bffcf007d9643bdda"
+  },
+  "source_checks": {
+    "resized_non_native_256x448": true,
+    "trainable_teacher_projection": true,
+    "teacher_projection_in_loss": true,
+    "teacher_not_detached_before_projection": true,
+    "positive_and_teacher_filter": true,
+    "no_match_explicitly_retained": false,
+    "raw_dot_labeled_cosine": false,
+    "unequal_eval_append_paths": true,
+    "model_train_called": true
+  },
+  "fpn_source_checks": {
+    "p2_is_trainable": true,
+    "bn_or_norm_added_to_copied_branch": true,
+    "discard_or_replace_original_fpn_semantics": true,
+    "declared_frozen_false_by_code": true
+  },
+  "prior_result_artifacts": {
+    "MAP_GATE.json": {
+      "status": "PASS_P50_MAP_SHORT_GATE_COMPLETE",
+      "device": "cuda",
+      "fit_rows": 2124,
+      "steps": 1200,
+      "history": [
+        {
+          "step": 1,
+          "loss": 0.94847172498703,
+          "grad_l1": 4962.01904296875
+        },
+        {
+          "step": 400,
+          "loss": 0.4888221025466919,
+          "grad_l1": 1797.5416259765625
+        },
+        {
+          "step": 800,
+          "loss": 0.2982163429260254,
+          "grad_l1": 495.9939270019531
+        },
+        {
+          "step": 1200,
+          "loss": 0.3665757179260254,
+          "grad_l1": 137.9816131591797
+        }
+      ],
+      "per_pair": {
+        "69": {
+          "events": 238,
+          "student_recall1": 0.058823529411764705,
+          "baseline_recall1": 0.1638655462184874,
+          "student_mrr": 0.18850806600547174,
+          "baseline_mrr": 0.3109250533317805
+        },
+        "70": {
+          "events": 150,
+          "student_recall1": 0.02666666666666667,
+          "baseline_recall1": 0.08,
+          "student_mrr": 0.1046099100139911,
+          "baseline_mrr": 0.2213120378123646
+        },
+        "74": {
+          "events": 186,
+          "student_recall1": 0.04838709677419355,
+          "baseline_recall1": 0.08602150537634409,
+          "student_mrr": 0.1436004979140731,
+          "baseline_mrr": 0.1931617417469169
+        },
+        "76": {
+          "events": 89,
+          "student_recall1": 0.07865168539325842,
+          "baseline_recall1": 0.0898876404494382,
+          "student_mrr": 0.19608303923567727,
+          "baseline_mrr": 0.21814024740475316
+        },
+        "78": {
+          "events": 160,
+          "student_recall1": 0.04375,
+          "baseline_recall1": 0.1625,
+          "student_mrr": 0.14899115229124044,
+          "baseline_mrr": 0.27946737304713254
+        }
+      },
+      "teacher_in_inference": false,
+      "official_val_test_access": false,
+      "metrics_are_train_only_diagnostics": true,
+      "baseline": "frozen_stage3_visual_feature_cosine_same_definition_as_feature_gate",
+      "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p50_fragment_teacher_residual/MAP_GATE_MODEL.pt",
+      "checkpoint_sha256": "ffbda0e3694ef66e493cc816fdc79de9cb7b6bc8217a8ab69df29c5e0e55be7d"
+    },
+    "MAP_SUFFICIENCY.json": {
+      "status": "PASS_P50_MAP_TRAINING_SUFFICIENCY_AUDIT_COMPLETE",
+      "device": "cuda",
+      "fit_rows": 2124,
+      "start_step": 1200,
+      "total_steps": 3200,
+      "effective_epochs": 3.0131826741996233,
+      "history": [
+        {
+          "step": 1600,
+          "loss": 0.3711937665939331,
+          "grad_l1": 50.62721252441406
+        },
+        {
+          "step": 2000,
+          "loss": 0.23230277001857758,
+          "grad_l1": 16.859928131103516
+        },
+        {
+          "step": 2400,
+          "loss": 0.3471134603023529,
+          "grad_l1": 23.784589767456055
+        },
+        {
+          "step": 2800,
+          "loss": 0.33789458870887756,
+          "grad_l1": 20.003568649291992
+        },
+        {
+          "step": 3200,
+          "loss": 0.3283478319644928,
+          "grad_l1": 21.36452865600586
+        }
+      ],
+      "per_pair": {
+        "69": {
+          "events": 238,
+          "student_recall1": 0.08823529411764706,
+          "baseline_recall1": 0.1638655462184874,
+          "student_mrr": 0.21950593099774215,
+          "baseline_mrr": 0.3109250533317805
+        },
+        "70": {
+          "events": 150,
+          "student_recall1": 0.013333333333333334,
+          "baseline_recall1": 0.08,
+          "student_mrr": 0.1148233740216421,
+          "baseline_mrr": 0.2213120378123646
+        },
+        "74": {
+          "events": 186,
+          "student_recall1": 0.06451612903225806,
+          "baseline_recall1": 0.08602150537634409,
+          "student_mrr": 0.16316286525887314,
+          "baseline_mrr": 0.1931617417469169
+        },
+        "76": {
+          "events": 89,
+          "student_recall1": 0.033707865168539325,
+          "baseline_recall1": 0.0898876404494382,
+          "student_mrr": 0.15612883253807358,
+          "baseline_mrr": 0.21814024740475316
+        },
+        "78": {
+          "events": 160,
+          "student_recall1": 0.0375,
+          "baseline_recall1": 0.1625,
+          "student_mrr": 0.13659046963640248,
+          "baseline_mrr": 0.27946737304713254
+        }
+      },
+      "teacher_in_inference": false,
+      "official_val_test_access": false,
+      "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p50_fragment_teacher_residual/MAP_SUFFICIENCY_MODEL.pt",
+      "checkpoint_sha256": "ef675580291dbb7683b2832998b425617107bc60812a749948601ee7c361618e",
+      "interpretation": "3-epoch train-only sufficiency audit; still no formal MOT result"
+    },
+    "MAP_FPN_GATE.json": {
+      "status": "PASS_P50_FPN_INIT_MAP_GATE_COMPLETE",
+      "device": "cuda",
+      "fit_rows": 2124,
+      "steps": 1200,
+      "trainable_parameters": 1380097,
+      "frozen_backbone_pyramid": true,
+      "history": [
+        {
+          "step": 1,
+          "loss": 0.8954795598983765,
+          "grad_l1": 1364.02099609375
+        },
+        {
+          "step": 400,
+          "loss": 0.25835534930229187,
+          "grad_l1": 47.17178726196289
+        },
+        {
+          "step": 800,
+          "loss": 0.21782231330871582,
+          "grad_l1": 31.616025924682617
+        },
+        {
+          "step": 1200,
+          "loss": 0.3352440297603607,
+          "grad_l1": 14.617201805114746
+        }
+      ],
+      "per_pair": {
+        "69": {
+          "events": 238,
+          "student_recall1": 0.05042016806722689,
+          "baseline_recall1": 0.1638655462184874,
+          "student_mrr": 0.17718580458988337,
+          "baseline_mrr": 0.3109250533317805
+        },
+        "70": {
+          "events": 150,
+          "student_recall1": 0.03333333333333333,
+          "baseline_recall1": 0.08,
+          "student_mrr": 0.12295169710205497,
+          "baseline_mrr": 0.2213120378123646
+        },
+        "74": {
+          "events": 186,
+          "student_recall1": 0.053763440860215055,
+          "baseline_recall1": 0.08602150537634409,
+          "student_mrr": 0.15360850858865274,
+          "baseline_mrr": 0.1931617417469169
+        },
+        "76": {
+          "events": 89,
+          "student_recall1": 0.0449438202247191,
+          "baseline_recall1": 0.0898876404494382,
+          "student_mrr": 0.15056006195307886,
+          "baseline_mrr": 0.21814024740475316
+        },
+        "78": {
+          "events": 160,
+          "student_recall1": 0.04375,
+          "baseline_recall1": 0.1625,
+          "student_mrr": 0.1285650980193906,
+          "baseline_mrr": 0.27946737304713254
+        }
+      },
+      "teacher_in_inference": false,
+      "official_val_test_access": false,
+      "baseline": "frozen_stage3_visual_feature_cosine_same_definition_as_feature_gate",
+      "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p50_fragment_teacher_residual/MAP_FPN_GATE_MODEL.pt",
+      "checkpoint_sha256": "28dade2c725cadef3921e12f283cedf293917a1882ed544100f33d3d050332e7",
+      "metrics_are_train_only_diagnostics": true
+    },
+    "MAP_IMPLEMENTATION_AUDIT.json": {
+      "status": "PASS_P50_MAP_CHECKPOINT_IMPLEMENTATION_AUDIT",
+      "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p50_fragment_teacher_residual/MAP_SUFFICIENCY_MODEL.pt",
+      "missing": [],
+      "unexpected": [],
+      "finite_parameters": true,
+      "parameter_count": 8647393,
+      "teacher_in_forward_contract": true,
+      "official_val_test_access": false,
+      "interpretation": "checkpoint reload, shape, finite, and train/inference teacher separation checks passed; performance failure remains after 3-epoch sufficiency"
+    }
+  },
+  "deterministic_pipeline_checks": {
+    "native_detector_input": "1333x800 keep_ratio, source 1920x1080 gives approximately 1333x750",
+    "old_map_input": "256x448 direct resize, source 1920x1080 gives approximately 448x252",
+    "short_to_native_image_area_ratio": 0.11292423105776445,
+    "short_input_is_not_native_detector_pipeline": true,
+    "teacher_projection_is_optimized_in_old_map_gate": true,
+    "teacher_target_is_not_fixed_native_feature": true,
+    "gt_positive_and_teacher_rows_are_required_before_training": true,
+    "no_match_rows_are_not_a_validated_population": true,
+    "eval_denominators_are_not_proven_equal": true
+  },
+  "failure_audit": [
+    {
+      "id": "IA-1",
+      "severity": "critical",
+      "finding": "The old map comparison changes the image preprocessing from native detector resolution to a 256x448 direct resize; this is a backbone input change, not a module-only comparison."
+    },
+    {
+      "id": "IA-2",
+      "severity": "critical",
+      "finding": "The teacher projection is trainable and used in the teacher loss, so the target representation can move with the student; this does not establish a fixed privileged-teacher causal effect."
+    },
+    {
+      "id": "IA-3",
+      "severity": "critical",
+      "finding": "Training rows require an available teacher and at least one same-ID candidate. Events with no candidate or no prefix teacher are removed, so no-match/dustbin behavior is untested."
+    },
+    {
+      "id": "IA-4",
+      "severity": "high",
+      "finding": "The old evaluation appends student and frozen-feature ranks through different continue paths, so equal matched denominators are not established."
+    },
+    {
+      "id": "IA-5",
+      "severity": "high",
+      "finding": "The FPN arm copies selected lateral weights into a new pyramid, adds a normalization block, trains P2/refine parameters, and calls train(); it is not a frozen native FPN control."
+    },
+    {
+      "id": "IA-6",
+      "severity": "high",
+      "finding": "The prior implementation audit checked checkpoint shape/finite values but did not test native-feature equivalence, no-match retention, teacher fixedness, BN statistics, equal denominators, or causal teacher-off controls."
+    }
+  ],
+  "decision": "Prior P50 performance and STOP/PASS wording cannot authorize a scientific rejection or paper claim. Preserve all old files; rerun a native-space equal-budget teacher-on/off and spatial-vs-pooled factorial with explicit no-match rows.",
+  "official_val_test_access": false,
+  "protected_baseline": "continuation_20261005/p26_mia_baseline"
+}

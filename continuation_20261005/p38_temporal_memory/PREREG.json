@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN_P38_TRAIN_ONLY_GATE",
+  "fit_pairs": ["23", "25", "28", "29", "39", "44", "45", "51", "53", "63", "66", "69", "70", "74", "78"],
+  "calibration_pairs": ["27", "32", "42", "64", "65"],
+  "history": {"max_observations": 4, "max_age_frames": 8, "same_view": true, "strictly_past": true, "group_key": "local_track_id"},
+  "model": {"input_dim": 128, "output_dim": 128, "zero_init_residual": true, "gate": "sigmoid", "temperature": 0.1, "temporal_weight": 0.2},
+  "training": {"updates": 1200, "seed": 42, "optimizer": "AdamW", "lr": 0.0001, "weight_decay": 0.0001, "schedule": "frozen P7R schedule"},
+  "gate": {"calibration_pair_macro_r1_min": 0.4641, "calibration_pair_wins_min": 3, "fit15_drop_max": 0.05},
+  "forbidden": ["dev", "official_val", "official_test", "threshold_search", "future_history", "numeric_local_id_as_feature"],
+  "novelty": "NO_NOVELTY_CLAIM"
+}

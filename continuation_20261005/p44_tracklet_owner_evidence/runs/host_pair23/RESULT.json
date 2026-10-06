@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE_P44_TRACKLET_OWNER_EVIDENCE",
+  "segment_gap_frames": 30,
+  "initial_H_shared_ids": 8,
+  "links": {
+    "mean8": 8220,
+    "geometry": 8220
+  },
+  "frame_assignment_changes": 2178,
+  "sample": [
+    {
+      "frame": 0,
+      "mean8_links": 0,
+      "geometry_links": 0
+    },
+    {
+      "frame": 1,
+      "mean8_links": 6,
+      "geometry_links": 6
+    },
+    {
+      "frame": 100,
+      "mean8_links": 20,
+      "geometry_links": 20
+    },
+    {
+      "frame": 300,
+      "mean8_links": 11,
+      "geometry_links": 11
+    },
+    {
+      "frame": 699,
+      "mean8_links": 16,
+      "geometry_links": 16
+    }
+  ],
+  "segments": 384,
+  "mapped_segments": {
+    "mean8": 95,
+    "geometry": 96
+  },
+  "application": {
+    "mean8": {
+      "collision_skips": 4218,
+      "relabels": 5073
+    },
+    "geometry": {
+      "relabels": 5446,
+      "collision_skips": 4090
+    }
+  },
+  "duplicate_frame_ids": {
+    "mean8": 0,
+    "geometry": 0
+  },
+  "labels_read": false,
+  "xml_read": false,
+  "official_test_read": false,
+  "inputs_sha256": {
+    "p26_view1": "c2988c6c1c42ae15c84616c3d701f958662fad98bc3e51e9c07b79c72045bf58",
+    "p26_view2": "6c7f3add80ddaba8d065627975125070619febf0b858372e3ec41ff3f9e4707e",
+    "p14_view1": "0da025846d79904d750726ce3dc6efb602baea209d1378b4c1a4c4cfc69a9861",
+    "p14_view2": "e19999f10d9734dd6a2fd532409a972d13081836bcdae3ff5cb8a289853788f5"
+  }
+}

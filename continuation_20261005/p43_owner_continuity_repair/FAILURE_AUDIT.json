@@ -1,0 +1,16 @@
+{
+  "conclusion": "The earlier P42/P37 degradation was partly caused by framewise owner relabeling. After repair, the temporal descriptor is causally inactive at complete-output level and still does not improve MDA.",
+  "endpoint_comparison": {
+    "p26_idf1": 0.9087675268817306,
+    "p26_mda": 0.6431315772400862,
+    "p26_mota": 0.9474145050991436,
+    "p43_geometry_mda": 0.6393068818695818,
+    "p43_mean8_idf1": 0.9087675268817306,
+    "p43_mean8_mda": 0.6393068818695818,
+    "p43_mean8_mota": 0.9474145050991436
+  },
+  "implementation_defect_found_in_prior_host_application": true,
+  "owner_continuity_audit": "OWNER_CONTINUITY_AUDIT.json",
+  "repair": "native owner first-safe commit with injective reservation",
+  "status": "PASS_P43_FAILURE_AUDIT"
+}

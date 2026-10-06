@@ -1,0 +1,49 @@
+{
+  "pair_metrics": {
+    "29": {
+      "events": 866,
+      "candidate_present_events": 414,
+      "candidate_present_recall1": 0.0748792270531401,
+      "candidate_present_mrr": 0.20205033846269857,
+      "candidate_present_margin": -1.100470166500424,
+      "no_match_events": 452,
+      "dustbin_brier": 0.44078315001687685
+    },
+    "30": {
+      "events": 692,
+      "candidate_present_events": 175,
+      "candidate_present_recall1": 0.06285714285714286,
+      "candidate_present_mrr": 0.16057004054975613,
+      "candidate_present_margin": -1.188180651664734,
+      "no_match_events": 517,
+      "dustbin_brier": 0.5078015085964357
+    },
+    "32": {
+      "events": 203,
+      "candidate_present_events": 128,
+      "candidate_present_recall1": 0.0703125,
+      "candidate_present_mrr": 0.15735478587358673,
+      "candidate_present_margin": -1.4087425044604711,
+      "no_match_events": 75,
+      "dustbin_brier": 0.34715606402507326
+    },
+    "39": {
+      "events": 83,
+      "candidate_present_events": 35,
+      "candidate_present_recall1": 0.4,
+      "candidate_present_mrr": 0.6064835164835163,
+      "candidate_present_margin": -0.2826940349994167,
+      "no_match_events": 48,
+      "dustbin_brier": 0.19897148424182765
+    }
+  },
+  "pair_macro": {
+    "pairs": 4,
+    "candidate_present_recall1": 0.15201221747757074,
+    "candidate_present_mrr": 0.2816146703423894,
+    "candidate_present_margin": -0.9950218394062615,
+    "dustbin_brier": 0.3736780517200534,
+    "no_match_events": 1092
+  },
+  "evaluated_events": 1868
+}

@@ -1,0 +1,75 @@
+{
+  "backbone": {
+    "depth": 50,
+    "frozen_stages": 1,
+    "norm_cfg": {
+      "requires_grad": false,
+      "type": "BN"
+    },
+    "norm_eval": true,
+    "num_stages": 4,
+    "out_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "style": "caffe",
+    "type": "ResNet"
+  },
+  "bbox_head": {
+    "feat_channels": 256,
+    "in_channels": 256,
+    "loss_bbox": {
+      "loss_weight": 5.0,
+      "type": "GIoULoss"
+    },
+    "num_classes": 3,
+    "stacked_convs": 4,
+    "strides": [
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "test_cfg": {
+      "max_per_img": 100,
+      "min_bbox_size": 0,
+      "nms": {
+        "iou_threshold": 0.6,
+        "type": "nms"
+      },
+      "nms_pre": 1000,
+      "score_thr": 0.05
+    },
+    "train_cfg": null,
+    "type": "AutoAssignHead"
+  },
+  "neck": {
+    "add_extra_convs": true,
+    "in_channels": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "num_outs": 5,
+    "out_channels": 256,
+    "relu_before_extra_convs": true,
+    "start_level": 1,
+    "type": "FPN"
+  },
+  "test_cfg": {
+    "max_per_img": 100,
+    "min_bbox_size": 0,
+    "nms": {
+      "iou_threshold": 0.6,
+      "type": "nms"
+    },
+    "nms_pre": 1000,
+    "score_thr": 0.05
+  },
+  "train_cfg": null,
+  "type": "AutoAssign"
+}

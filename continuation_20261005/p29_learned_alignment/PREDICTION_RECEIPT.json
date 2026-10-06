@@ -1,0 +1,103 @@
+{
+  "arms": [
+    "native",
+    "current_residual",
+    "past_fixed_offsets",
+    "past_learned_offsets"
+  ],
+  "artifacts": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/CONFIG.json": "12a16a5e88b5f854f66517f4615d0e9f9a5cb0b4e757b7046bd15f003f1e144f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/GROUPS.json": "2574e33643165f52b7b45486c6426a8493d9427aab97539a6daa846341964f97",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/TRAIN_PROTOCOL.json": "74a16b2a6bdb21d56e076e862724d6855bef020c3146d47895a64e70de553b95",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predict_calibration.py": "c6490621b10423bb018c586d1456688f24b371f8b2e732f8d088169c0c5b07d8",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/current_residual.json": "1348a3ccc339bde5c219ca905c5b7ee7c97715c41d034f6f7f0d2d476b0710b7",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/native.json": "d656226f791c9d133b2d69b729b3e4a980f2c82de6e307d24d3f7db5d41df6f9",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/past_fixed_offsets.json": "9e1ca0f391178d45c0e3bed57972daef14b82553e0c92ebaf2770a2710ff6828",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/past_learned_offsets.json": "75e5560d5cab4bc997b93a82174d23926d504efdaabc1ce58178447860496d6a",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/residual_deformable.py": "4b5cda3d8405b3113c75b2b89006e8ef7bc24c92c5fc8906ed4b67b459cdfe5f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/train_residual.py": "98b4a0f17311acaa1cfa432a7d6caab09aa9d3be325f058a19d779695c2d8e52",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/TRAIN_RECEIPT.json": "17bfa3e3190610d0af701f27b3320ddecaff9b9c9798637011c803a0be1a60b0",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/current_residual/final.pth": "901d917187ca78c09d33602e07ecde90f32134eae18417e982c459ac74ab96de",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/past_fixed_offsets/final.pth": "2895fa240884fe4b7bf783696adcd9d27c9cc1fa87589a7ad843a2fb732f7677",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/past_learned_offsets/final.pth": "e768dc8d159b2d13d51fdee7ad0a23dd59bdd370eee7b589b7e21585ecc914a0",
+    "/raid/datasets/chc_data/MDMT/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt/epoch_60.pth": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901"
+  },
+  "checkpoints_by_arm": {
+    "current_residual": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/current_residual/final.pth",
+      "sha256": "901d917187ca78c09d33602e07ecde90f32134eae18417e982c459ac74ab96de"
+    },
+    "past_fixed_offsets": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/past_fixed_offsets/final.pth",
+      "sha256": "2895fa240884fe4b7bf783696adcd9d27c9cc1fa87589a7ad843a2fb732f7677"
+    },
+    "past_learned_offsets": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/past_learned_offsets/final.pth",
+      "sha256": "e768dc8d159b2d13d51fdee7ad0a23dd59bdd370eee7b589b7e21585ecc914a0"
+    }
+  },
+  "frozen_model_state_sha256": "39e5ec506b13592708fc2fd129a68383c7b87411da2daacf1dc353f32bcaa737",
+  "group_count": 40,
+  "inputs": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/CONFIG.json": "12a16a5e88b5f854f66517f4615d0e9f9a5cb0b4e757b7046bd15f003f1e144f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/GROUPS.json": "2574e33643165f52b7b45486c6426a8493d9427aab97539a6daa846341964f97",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/TRAIN_PROTOCOL.json": "74a16b2a6bdb21d56e076e862724d6855bef020c3146d47895a64e70de553b95",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/TRAIN_RECEIPT.json": "17bfa3e3190610d0af701f27b3320ddecaff9b9c9798637011c803a0be1a60b0",
+    "/raid/datasets/chc_data/MDMT/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt/epoch_60.pth": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901"
+  },
+  "labels_read": false,
+  "native_checkpoint": {
+    "path": "/raid/datasets/chc_data/MDMT/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt/epoch_60.pth",
+    "sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901"
+  },
+  "original_output_semantics": "cap300 native score_thr=.05, NMS=.6, no added postfilter",
+  "predictions_by_arm": {
+    "current_residual": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/current_residual.json",
+      "sha256": "1348a3ccc339bde5c219ca905c5b7ee7c97715c41d034f6f7f0d2d476b0710b7"
+    },
+    "native": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/native.json",
+      "sha256": "d656226f791c9d133b2d69b729b3e4a980f2c82de6e307d24d3f7db5d41df6f9"
+    },
+    "past_fixed_offsets": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/past_fixed_offsets.json",
+      "sha256": "9e1ca0f391178d45c0e3bed57972daef14b82553e0c92ebaf2770a2710ff6828"
+    },
+    "past_learned_offsets": {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/past_learned_offsets.json",
+      "sha256": "75e5560d5cab4bc997b93a82174d23926d504efdaabc1ce58178447860496d6a"
+    }
+  },
+  "protocol_sha256": "74a16b2a6bdb21d56e076e862724d6855bef020c3146d47895a64e70de553b95",
+  "runtime": {
+    "cuda_visible_devices": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+    "cudnn_allow_tf32": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "logical_gpu": {
+      "index": 0,
+      "name": "NVIDIA A100-SXM4-40GB",
+      "total_memory_bytes": 42298834944
+    },
+    "matmul_allow_tf32": true,
+    "mmcv": "1.4.8",
+    "mmdet": "2.25.1",
+    "mmtrack_path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/source/mmtrack/__init__.py",
+    "numpy": "1.24.4",
+    "physical_gpu": {
+      "index": 3,
+      "memory_total_mib": 40960,
+      "memory_used_mib_at_start": 17,
+      "name": "NVIDIA A100-SXM4-40GB",
+      "uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a"
+    },
+    "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+    "python_executable": "/home/chenhc/mdmt_phase0_reproduction_20260829_202909/mdmt_env/bin/python",
+    "torch": "1.10.1+cu113",
+    "torch_threads": 2
+  },
+  "seconds": 7.750794216059148,
+  "status": "COMPLETE_CALIBRATION_PREDICTIONS_FROZEN",
+  "training_receipt_sha256": "17bfa3e3190610d0af701f27b3320ddecaff9b9c9798637011c803a0be1a60b0"
+}

@@ -1,0 +1,1589 @@
+{
+  "coverage": {
+    "common_support": 3093,
+    "crop_invalid": 0,
+    "crop_valid": 3093,
+    "excluded_from_common": 0,
+    "images_decoded": 64,
+    "old_feature_present": 3093,
+    "rows": 3093,
+    "selected_frames": 32,
+    "valid_crop_old_feature_missing": 0
+  },
+  "metrics": {
+    "all": {
+      "directed_candidate_edges": 101284,
+      "known_queries": 2982,
+      "known_without_observed_positive": 1838,
+      "methods": {
+        "ccsi128": {
+          "all_candidates": {
+            "eligible_queries": 1144,
+            "known_positive_r1_tie_averaged": 0.8959790209790209,
+            "possible_positive_r1_if_unknown_tops_match": 0.902972027972028,
+            "queries_with_multiple_top_ties": 0,
+            "queries_with_unknown_in_top_ties": 8,
+            "r1_all_top_ties_known_positive": 0.8959790209790209,
+            "r1_any_top_tie_known_positive": 0.8959790209790209,
+            "unknown_top_tie_mass": 0.006993006993006993
+          },
+          "conventional_known_only": {
+            "eligible_queries": 1144,
+            "known_positive_r1_tie_averaged": 0.9020979020979021,
+            "possible_positive_r1_if_unknown_tops_match": 0.9020979020979021,
+            "queries_with_multiple_top_ties": 0,
+            "queries_with_unknown_in_top_ties": 0,
+            "r1_all_top_ties_known_positive": 0.9020979020979021,
+            "r1_any_top_tie_known_positive": 0.9020979020979021,
+            "unknown_top_tie_mass": 0.0
+          }
+        },
+        "p1_independent128": {
+          "all_candidates": {
+            "eligible_queries": 1144,
+            "known_positive_r1_tie_averaged": 0.8715034965034965,
+            "possible_positive_r1_if_unknown_tops_match": 0.8784965034965035,
+            "queries_with_multiple_top_ties": 0,
+            "queries_with_unknown_in_top_ties": 8,
+            "r1_all_top_ties_known_positive": 0.8715034965034965,
+            "r1_any_top_tie_known_positive": 0.8715034965034965,
+            "unknown_top_tie_mass": 0.006993006993006993
+          },
+          "conventional_known_only": {
+            "eligible_queries": 1144,
+            "known_positive_r1_tie_averaged": 0.8767482517482518,
+            "possible_positive_r1_if_unknown_tops_match": 0.8767482517482518,
+            "queries_with_multiple_top_ties": 0,
+            "queries_with_unknown_in_top_ties": 0,
+            "r1_all_top_ties_known_positive": 0.8767482517482518,
+            "r1_any_top_tie_known_positive": 0.8767482517482518,
+            "unknown_top_tie_mass": 0.0
+          }
+        },
+        "temporal128": {
+          "all_candidates": {
+            "eligible_queries": 1144,
+            "known_positive_r1_tie_averaged": 0.8811188811188811,
+            "possible_positive_r1_if_unknown_tops_match": 0.888986013986014,
+            "queries_with_multiple_top_ties": 0,
+            "queries_with_unknown_in_top_ties": 9,
+            "r1_all_top_ties_known_positive": 0.8811188811188811,
+            "r1_any_top_tie_known_positive": 0.8811188811188811,
+            "unknown_top_tie_mass": 0.007867132867132868
+          },
+          "conventional_known_only": {
+            "eligible_queries": 1144,
+            "known_positive_r1_tie_averaged": 0.8872377622377622,
+            "possible_positive_r1_if_unknown_tops_match": 0.8872377622377622,
+            "queries_with_multiple_top_ties": 0,
+            "queries_with_unknown_in_top_ties": 0,
+            "r1_all_top_ties_known_positive": 0.8872377622377622,
+            "r1_any_top_tie_known_positive": 0.8872377622377622,
+            "unknown_top_tie_mass": 0.0
+          }
+        }
+      },
+      "positive_present_queries": 1144,
+      "queries": 3093,
+      "queries_without_candidates": 9,
+      "unknown_candidate_edges": 3195,
+      "unknown_queries": 111
+    },
+    "by_class": {
+      "bicycle": {
+        "directed_candidate_edges": 0,
+        "known_queries": 0,
+        "known_without_observed_positive": 0,
+        "methods": {
+          "ccsi128": {
+            "all_candidates": {
+              "eligible_queries": 0,
+              "known_positive_r1_tie_averaged": null,
+              "possible_positive_r1_if_unknown_tops_match": null,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": null,
+              "r1_any_top_tie_known_positive": null,
+              "unknown_top_tie_mass": null
+            },
+            "conventional_known_only": {
+              "eligible_queries": 0,
+              "known_positive_r1_tie_averaged": null,
+              "possible_positive_r1_if_unknown_tops_match": null,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": null,
+              "r1_any_top_tie_known_positive": null,
+              "unknown_top_tie_mass": null
+            }
+          },
+          "p1_independent128": {
+            "all_candidates": {
+              "eligible_queries": 0,
+              "known_positive_r1_tie_averaged": null,
+              "possible_positive_r1_if_unknown_tops_match": null,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": null,
+              "r1_any_top_tie_known_positive": null,
+              "unknown_top_tie_mass": null
+            },
+            "conventional_known_only": {
+              "eligible_queries": 0,
+              "known_positive_r1_tie_averaged": null,
+              "possible_positive_r1_if_unknown_tops_match": null,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": null,
+              "r1_any_top_tie_known_positive": null,
+              "unknown_top_tie_mass": null
+            }
+          },
+          "temporal128": {
+            "all_candidates": {
+              "eligible_queries": 0,
+              "known_positive_r1_tie_averaged": null,
+              "possible_positive_r1_if_unknown_tops_match": null,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": null,
+              "r1_any_top_tie_known_positive": null,
+              "unknown_top_tie_mass": null
+            },
+            "conventional_known_only": {
+              "eligible_queries": 0,
+              "known_positive_r1_tie_averaged": null,
+              "possible_positive_r1_if_unknown_tops_match": null,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": null,
+              "r1_any_top_tie_known_positive": null,
+              "unknown_top_tie_mass": null
+            }
+          }
+        },
+        "positive_present_queries": 0,
+        "queries": 1,
+        "queries_without_candidates": 1,
+        "unknown_candidate_edges": 0,
+        "unknown_queries": 1
+      },
+      "car": {
+        "directed_candidate_edges": 100874,
+        "known_queries": 2859,
+        "known_without_observed_positive": 1777,
+        "methods": {
+          "ccsi128": {
+            "all_candidates": {
+              "eligible_queries": 1082,
+              "known_positive_r1_tie_averaged": 0.8927911275415896,
+              "possible_positive_r1_if_unknown_tops_match": 0.8974121996303143,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 5,
+              "r1_all_top_ties_known_positive": 0.8927911275415896,
+              "r1_any_top_tie_known_positive": 0.8927911275415896,
+              "unknown_top_tie_mass": 0.0046210720887245845
+            },
+            "conventional_known_only": {
+              "eligible_queries": 1082,
+              "known_positive_r1_tie_averaged": 0.8964879852125693,
+              "possible_positive_r1_if_unknown_tops_match": 0.8964879852125693,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.8964879852125693,
+              "r1_any_top_tie_known_positive": 0.8964879852125693,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "p1_independent128": {
+            "all_candidates": {
+              "eligible_queries": 1082,
+              "known_positive_r1_tie_averaged": 0.866913123844732,
+              "possible_positive_r1_if_unknown_tops_match": 0.8715341959334566,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 5,
+              "r1_all_top_ties_known_positive": 0.866913123844732,
+              "r1_any_top_tie_known_positive": 0.866913123844732,
+              "unknown_top_tie_mass": 0.0046210720887245845
+            },
+            "conventional_known_only": {
+              "eligible_queries": 1082,
+              "known_positive_r1_tie_averaged": 0.8696857670979667,
+              "possible_positive_r1_if_unknown_tops_match": 0.8696857670979667,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.8696857670979667,
+              "r1_any_top_tie_known_positive": 0.8696857670979667,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "temporal128": {
+            "all_candidates": {
+              "eligible_queries": 1082,
+              "known_positive_r1_tie_averaged": 0.8770794824399261,
+              "possible_positive_r1_if_unknown_tops_match": 0.8826247689463955,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 6,
+              "r1_all_top_ties_known_positive": 0.8770794824399261,
+              "r1_any_top_tie_known_positive": 0.8770794824399261,
+              "unknown_top_tie_mass": 0.005545286506469501
+            },
+            "conventional_known_only": {
+              "eligible_queries": 1082,
+              "known_positive_r1_tie_averaged": 0.8807763401109058,
+              "possible_positive_r1_if_unknown_tops_match": 0.8807763401109058,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.8807763401109058,
+              "r1_any_top_tie_known_positive": 0.8807763401109058,
+              "unknown_top_tie_mass": 0.0
+            }
+          }
+        },
+        "positive_present_queries": 1082,
+        "queries": 2945,
+        "queries_without_candidates": 0,
+        "unknown_candidate_edges": 3127,
+        "unknown_queries": 86
+      },
+      "pedestrian": {
+        "directed_candidate_edges": 410,
+        "known_queries": 123,
+        "known_without_observed_positive": 61,
+        "methods": {
+          "ccsi128": {
+            "all_candidates": {
+              "eligible_queries": 62,
+              "known_positive_r1_tie_averaged": 0.9516129032258065,
+              "possible_positive_r1_if_unknown_tops_match": 1.0,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 3,
+              "r1_all_top_ties_known_positive": 0.9516129032258065,
+              "r1_any_top_tie_known_positive": 0.9516129032258065,
+              "unknown_top_tie_mass": 0.04838709677419355
+            },
+            "conventional_known_only": {
+              "eligible_queries": 62,
+              "known_positive_r1_tie_averaged": 1.0,
+              "possible_positive_r1_if_unknown_tops_match": 1.0,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 1.0,
+              "r1_any_top_tie_known_positive": 1.0,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "p1_independent128": {
+            "all_candidates": {
+              "eligible_queries": 62,
+              "known_positive_r1_tie_averaged": 0.9516129032258065,
+              "possible_positive_r1_if_unknown_tops_match": 1.0,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 3,
+              "r1_all_top_ties_known_positive": 0.9516129032258065,
+              "r1_any_top_tie_known_positive": 0.9516129032258065,
+              "unknown_top_tie_mass": 0.04838709677419355
+            },
+            "conventional_known_only": {
+              "eligible_queries": 62,
+              "known_positive_r1_tie_averaged": 1.0,
+              "possible_positive_r1_if_unknown_tops_match": 1.0,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 1.0,
+              "r1_any_top_tie_known_positive": 1.0,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "temporal128": {
+            "all_candidates": {
+              "eligible_queries": 62,
+              "known_positive_r1_tie_averaged": 0.9516129032258065,
+              "possible_positive_r1_if_unknown_tops_match": 1.0,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 3,
+              "r1_all_top_ties_known_positive": 0.9516129032258065,
+              "r1_any_top_tie_known_positive": 0.9516129032258065,
+              "unknown_top_tie_mass": 0.04838709677419355
+            },
+            "conventional_known_only": {
+              "eligible_queries": 62,
+              "known_positive_r1_tie_averaged": 1.0,
+              "possible_positive_r1_if_unknown_tops_match": 1.0,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 1.0,
+              "r1_any_top_tie_known_positive": 1.0,
+              "unknown_top_tie_mass": 0.0
+            }
+          }
+        },
+        "positive_present_queries": 62,
+        "queries": 147,
+        "queries_without_candidates": 8,
+        "unknown_candidate_edges": 68,
+        "unknown_queries": 24
+      }
+    },
+    "by_class_and_query_native_min_side": {
+      "bicycle": {
+        "[0,16)": {
+          "directed_candidate_edges": 0,
+          "known_queries": 0,
+          "known_without_observed_positive": 0,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            }
+          },
+          "positive_present_queries": 0,
+          "queries": 0,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 0,
+          "unknown_queries": 0
+        },
+        "[16,32)": {
+          "directed_candidate_edges": 0,
+          "known_queries": 0,
+          "known_without_observed_positive": 0,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            }
+          },
+          "positive_present_queries": 0,
+          "queries": 1,
+          "queries_without_candidates": 1,
+          "unknown_candidate_edges": 0,
+          "unknown_queries": 1
+        },
+        "[32,64)": {
+          "directed_candidate_edges": 0,
+          "known_queries": 0,
+          "known_without_observed_positive": 0,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            }
+          },
+          "positive_present_queries": 0,
+          "queries": 0,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 0,
+          "unknown_queries": 0
+        },
+        "[64,inf)": {
+          "directed_candidate_edges": 0,
+          "known_queries": 0,
+          "known_without_observed_positive": 0,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            }
+          },
+          "positive_present_queries": 0,
+          "queries": 0,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 0,
+          "unknown_queries": 0
+        }
+      },
+      "car": {
+        "[0,16)": {
+          "directed_candidate_edges": 901,
+          "known_queries": 30,
+          "known_without_observed_positive": 26,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 4,
+                "known_positive_r1_tie_averaged": 0.25,
+                "possible_positive_r1_if_unknown_tops_match": 0.25,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.25,
+                "r1_any_top_tie_known_positive": 0.25,
+                "unknown_top_tie_mass": 0.0
+              },
+              "conventional_known_only": {
+                "eligible_queries": 4,
+                "known_positive_r1_tie_averaged": 0.25,
+                "possible_positive_r1_if_unknown_tops_match": 0.25,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.25,
+                "r1_any_top_tie_known_positive": 0.25,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 4,
+                "known_positive_r1_tie_averaged": 0.5,
+                "possible_positive_r1_if_unknown_tops_match": 0.5,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.5,
+                "r1_any_top_tie_known_positive": 0.5,
+                "unknown_top_tie_mass": 0.0
+              },
+              "conventional_known_only": {
+                "eligible_queries": 4,
+                "known_positive_r1_tie_averaged": 0.5,
+                "possible_positive_r1_if_unknown_tops_match": 0.5,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.5,
+                "r1_any_top_tie_known_positive": 0.5,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 4,
+                "known_positive_r1_tie_averaged": 0.5,
+                "possible_positive_r1_if_unknown_tops_match": 0.5,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.5,
+                "r1_any_top_tie_known_positive": 0.5,
+                "unknown_top_tie_mass": 0.0
+              },
+              "conventional_known_only": {
+                "eligible_queries": 4,
+                "known_positive_r1_tie_averaged": 0.5,
+                "possible_positive_r1_if_unknown_tops_match": 0.5,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.5,
+                "r1_any_top_tie_known_positive": 0.5,
+                "unknown_top_tie_mass": 0.0
+              }
+            }
+          },
+          "positive_present_queries": 4,
+          "queries": 34,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 36,
+          "unknown_queries": 4
+        },
+        "[16,32)": {
+          "directed_candidate_edges": 31754,
+          "known_queries": 1333,
+          "known_without_observed_positive": 1183,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 150,
+                "known_positive_r1_tie_averaged": 0.88,
+                "possible_positive_r1_if_unknown_tops_match": 0.8866666666666667,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 1,
+                "r1_all_top_ties_known_positive": 0.88,
+                "r1_any_top_tie_known_positive": 0.88,
+                "unknown_top_tie_mass": 0.006666666666666667
+              },
+              "conventional_known_only": {
+                "eligible_queries": 150,
+                "known_positive_r1_tie_averaged": 0.8866666666666667,
+                "possible_positive_r1_if_unknown_tops_match": 0.8866666666666667,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.8866666666666667,
+                "r1_any_top_tie_known_positive": 0.8866666666666667,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 150,
+                "known_positive_r1_tie_averaged": 0.8466666666666667,
+                "possible_positive_r1_if_unknown_tops_match": 0.8533333333333334,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 1,
+                "r1_all_top_ties_known_positive": 0.8466666666666667,
+                "r1_any_top_tie_known_positive": 0.8466666666666667,
+                "unknown_top_tie_mass": 0.006666666666666667
+              },
+              "conventional_known_only": {
+                "eligible_queries": 150,
+                "known_positive_r1_tie_averaged": 0.8533333333333334,
+                "possible_positive_r1_if_unknown_tops_match": 0.8533333333333334,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.8533333333333334,
+                "r1_any_top_tie_known_positive": 0.8533333333333334,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 150,
+                "known_positive_r1_tie_averaged": 0.86,
+                "possible_positive_r1_if_unknown_tops_match": 0.8666666666666667,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 1,
+                "r1_all_top_ties_known_positive": 0.86,
+                "r1_any_top_tie_known_positive": 0.86,
+                "unknown_top_tie_mass": 0.006666666666666667
+              },
+              "conventional_known_only": {
+                "eligible_queries": 150,
+                "known_positive_r1_tie_averaged": 0.8666666666666667,
+                "possible_positive_r1_if_unknown_tops_match": 0.8666666666666667,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.8666666666666667,
+                "r1_any_top_tie_known_positive": 0.8666666666666667,
+                "unknown_top_tie_mass": 0.0
+              }
+            }
+          },
+          "positive_present_queries": 150,
+          "queries": 1362,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 1100,
+          "unknown_queries": 29
+        },
+        "[32,64)": {
+          "directed_candidate_edges": 55829,
+          "known_queries": 1253,
+          "known_without_observed_positive": 467,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 786,
+                "known_positive_r1_tie_averaged": 0.8893129770992366,
+                "possible_positive_r1_if_unknown_tops_match": 0.8918575063613231,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 2,
+                "r1_all_top_ties_known_positive": 0.8893129770992366,
+                "r1_any_top_tie_known_positive": 0.8893129770992366,
+                "unknown_top_tie_mass": 0.002544529262086514
+              },
+              "conventional_known_only": {
+                "eligible_queries": 786,
+                "known_positive_r1_tie_averaged": 0.8918575063613231,
+                "possible_positive_r1_if_unknown_tops_match": 0.8918575063613231,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.8918575063613231,
+                "r1_any_top_tie_known_positive": 0.8918575063613231,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 786,
+                "known_positive_r1_tie_averaged": 0.8651399491094147,
+                "possible_positive_r1_if_unknown_tops_match": 0.8676844783715013,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 2,
+                "r1_all_top_ties_known_positive": 0.8651399491094147,
+                "r1_any_top_tie_known_positive": 0.8651399491094147,
+                "unknown_top_tie_mass": 0.002544529262086514
+              },
+              "conventional_known_only": {
+                "eligible_queries": 786,
+                "known_positive_r1_tie_averaged": 0.8664122137404581,
+                "possible_positive_r1_if_unknown_tops_match": 0.8664122137404581,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.8664122137404581,
+                "r1_any_top_tie_known_positive": 0.8664122137404581,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 786,
+                "known_positive_r1_tie_averaged": 0.871501272264631,
+                "possible_positive_r1_if_unknown_tops_match": 0.8753180661577609,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 3,
+                "r1_all_top_ties_known_positive": 0.871501272264631,
+                "r1_any_top_tie_known_positive": 0.871501272264631,
+                "unknown_top_tie_mass": 0.003816793893129771
+              },
+              "conventional_known_only": {
+                "eligible_queries": 786,
+                "known_positive_r1_tie_averaged": 0.8740458015267175,
+                "possible_positive_r1_if_unknown_tops_match": 0.8740458015267175,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.8740458015267175,
+                "r1_any_top_tie_known_positive": 0.8740458015267175,
+                "unknown_top_tie_mass": 0.0
+              }
+            }
+          },
+          "positive_present_queries": 786,
+          "queries": 1290,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 1607,
+          "unknown_queries": 37
+        },
+        "[64,inf)": {
+          "directed_candidate_edges": 12390,
+          "known_queries": 243,
+          "known_without_observed_positive": 101,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 142,
+                "known_positive_r1_tie_averaged": 0.9436619718309859,
+                "possible_positive_r1_if_unknown_tops_match": 0.9577464788732394,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 2,
+                "r1_all_top_ties_known_positive": 0.9436619718309859,
+                "r1_any_top_tie_known_positive": 0.9436619718309859,
+                "unknown_top_tie_mass": 0.014084507042253521
+              },
+              "conventional_known_only": {
+                "eligible_queries": 142,
+                "known_positive_r1_tie_averaged": 0.9507042253521126,
+                "possible_positive_r1_if_unknown_tops_match": 0.9507042253521126,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.9507042253521126,
+                "r1_any_top_tie_known_positive": 0.9507042253521126,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 142,
+                "known_positive_r1_tie_averaged": 0.9084507042253521,
+                "possible_positive_r1_if_unknown_tops_match": 0.9225352112676056,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 2,
+                "r1_all_top_ties_known_positive": 0.9084507042253521,
+                "r1_any_top_tie_known_positive": 0.9084507042253521,
+                "unknown_top_tie_mass": 0.014084507042253521
+              },
+              "conventional_known_only": {
+                "eligible_queries": 142,
+                "known_positive_r1_tie_averaged": 0.9154929577464789,
+                "possible_positive_r1_if_unknown_tops_match": 0.9154929577464789,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.9154929577464789,
+                "r1_any_top_tie_known_positive": 0.9154929577464789,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 142,
+                "known_positive_r1_tie_averaged": 0.9366197183098591,
+                "possible_positive_r1_if_unknown_tops_match": 0.9507042253521126,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 2,
+                "r1_all_top_ties_known_positive": 0.9366197183098591,
+                "r1_any_top_tie_known_positive": 0.9366197183098591,
+                "unknown_top_tie_mass": 0.014084507042253521
+              },
+              "conventional_known_only": {
+                "eligible_queries": 142,
+                "known_positive_r1_tie_averaged": 0.9436619718309859,
+                "possible_positive_r1_if_unknown_tops_match": 0.9436619718309859,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 0.9436619718309859,
+                "r1_any_top_tie_known_positive": 0.9436619718309859,
+                "unknown_top_tie_mass": 0.0
+              }
+            }
+          },
+          "positive_present_queries": 142,
+          "queries": 259,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 384,
+          "unknown_queries": 16
+        }
+      },
+      "pedestrian": {
+        "[0,16)": {
+          "directed_candidate_edges": 141,
+          "known_queries": 56,
+          "known_without_observed_positive": 47,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 9,
+                "known_positive_r1_tie_averaged": 0.8888888888888888,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 1,
+                "r1_all_top_ties_known_positive": 0.8888888888888888,
+                "r1_any_top_tie_known_positive": 0.8888888888888888,
+                "unknown_top_tie_mass": 0.1111111111111111
+              },
+              "conventional_known_only": {
+                "eligible_queries": 9,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 9,
+                "known_positive_r1_tie_averaged": 0.8888888888888888,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 1,
+                "r1_all_top_ties_known_positive": 0.8888888888888888,
+                "r1_any_top_tie_known_positive": 0.8888888888888888,
+                "unknown_top_tie_mass": 0.1111111111111111
+              },
+              "conventional_known_only": {
+                "eligible_queries": 9,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 9,
+                "known_positive_r1_tie_averaged": 0.8888888888888888,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 1,
+                "r1_all_top_ties_known_positive": 0.8888888888888888,
+                "r1_any_top_tie_known_positive": 0.8888888888888888,
+                "unknown_top_tie_mass": 0.1111111111111111
+              },
+              "conventional_known_only": {
+                "eligible_queries": 9,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              }
+            }
+          },
+          "positive_present_queries": 9,
+          "queries": 66,
+          "queries_without_candidates": 8,
+          "unknown_candidate_edges": 19,
+          "unknown_queries": 10
+        },
+        "[16,32)": {
+          "directed_candidate_edges": 255,
+          "known_queries": 65,
+          "known_without_observed_positive": 14,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 51,
+                "known_positive_r1_tie_averaged": 0.9607843137254902,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 2,
+                "r1_all_top_ties_known_positive": 0.9607843137254902,
+                "r1_any_top_tie_known_positive": 0.9607843137254902,
+                "unknown_top_tie_mass": 0.0392156862745098
+              },
+              "conventional_known_only": {
+                "eligible_queries": 51,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 51,
+                "known_positive_r1_tie_averaged": 0.9607843137254902,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 2,
+                "r1_all_top_ties_known_positive": 0.9607843137254902,
+                "r1_any_top_tie_known_positive": 0.9607843137254902,
+                "unknown_top_tie_mass": 0.0392156862745098
+              },
+              "conventional_known_only": {
+                "eligible_queries": 51,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 51,
+                "known_positive_r1_tie_averaged": 0.9607843137254902,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 2,
+                "r1_all_top_ties_known_positive": 0.9607843137254902,
+                "r1_any_top_tie_known_positive": 0.9607843137254902,
+                "unknown_top_tie_mass": 0.0392156862745098
+              },
+              "conventional_known_only": {
+                "eligible_queries": 51,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              }
+            }
+          },
+          "positive_present_queries": 51,
+          "queries": 76,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 46,
+          "unknown_queries": 11
+        },
+        "[32,64)": {
+          "directed_candidate_edges": 14,
+          "known_queries": 2,
+          "known_without_observed_positive": 0,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 2,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              },
+              "conventional_known_only": {
+                "eligible_queries": 2,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 2,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              },
+              "conventional_known_only": {
+                "eligible_queries": 2,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 2,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              },
+              "conventional_known_only": {
+                "eligible_queries": 2,
+                "known_positive_r1_tie_averaged": 1.0,
+                "possible_positive_r1_if_unknown_tops_match": 1.0,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": 1.0,
+                "r1_any_top_tie_known_positive": 1.0,
+                "unknown_top_tie_mass": 0.0
+              }
+            }
+          },
+          "positive_present_queries": 2,
+          "queries": 5,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 3,
+          "unknown_queries": 3
+        },
+        "[64,inf)": {
+          "directed_candidate_edges": 0,
+          "known_queries": 0,
+          "known_without_observed_positive": 0,
+          "methods": {
+            "ccsi128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "p1_independent128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            },
+            "temporal128": {
+              "all_candidates": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              },
+              "conventional_known_only": {
+                "eligible_queries": 0,
+                "known_positive_r1_tie_averaged": null,
+                "possible_positive_r1_if_unknown_tops_match": null,
+                "queries_with_multiple_top_ties": 0,
+                "queries_with_unknown_in_top_ties": 0,
+                "r1_all_top_ties_known_positive": null,
+                "r1_any_top_tie_known_positive": null,
+                "unknown_top_tie_mass": null
+              }
+            }
+          },
+          "positive_present_queries": 0,
+          "queries": 0,
+          "queries_without_candidates": 0,
+          "unknown_candidate_edges": 0,
+          "unknown_queries": 0
+        }
+      }
+    },
+    "by_query_native_min_side": {
+      "[0,16)": {
+        "directed_candidate_edges": 1042,
+        "known_queries": 86,
+        "known_without_observed_positive": 73,
+        "methods": {
+          "ccsi128": {
+            "all_candidates": {
+              "eligible_queries": 13,
+              "known_positive_r1_tie_averaged": 0.6923076923076923,
+              "possible_positive_r1_if_unknown_tops_match": 0.7692307692307693,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 1,
+              "r1_all_top_ties_known_positive": 0.6923076923076923,
+              "r1_any_top_tie_known_positive": 0.6923076923076923,
+              "unknown_top_tie_mass": 0.07692307692307693
+            },
+            "conventional_known_only": {
+              "eligible_queries": 13,
+              "known_positive_r1_tie_averaged": 0.7692307692307693,
+              "possible_positive_r1_if_unknown_tops_match": 0.7692307692307693,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.7692307692307693,
+              "r1_any_top_tie_known_positive": 0.7692307692307693,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "p1_independent128": {
+            "all_candidates": {
+              "eligible_queries": 13,
+              "known_positive_r1_tie_averaged": 0.7692307692307693,
+              "possible_positive_r1_if_unknown_tops_match": 0.8461538461538461,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 1,
+              "r1_all_top_ties_known_positive": 0.7692307692307693,
+              "r1_any_top_tie_known_positive": 0.7692307692307693,
+              "unknown_top_tie_mass": 0.07692307692307693
+            },
+            "conventional_known_only": {
+              "eligible_queries": 13,
+              "known_positive_r1_tie_averaged": 0.8461538461538461,
+              "possible_positive_r1_if_unknown_tops_match": 0.8461538461538461,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.8461538461538461,
+              "r1_any_top_tie_known_positive": 0.8461538461538461,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "temporal128": {
+            "all_candidates": {
+              "eligible_queries": 13,
+              "known_positive_r1_tie_averaged": 0.7692307692307693,
+              "possible_positive_r1_if_unknown_tops_match": 0.8461538461538461,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 1,
+              "r1_all_top_ties_known_positive": 0.7692307692307693,
+              "r1_any_top_tie_known_positive": 0.7692307692307693,
+              "unknown_top_tie_mass": 0.07692307692307693
+            },
+            "conventional_known_only": {
+              "eligible_queries": 13,
+              "known_positive_r1_tie_averaged": 0.8461538461538461,
+              "possible_positive_r1_if_unknown_tops_match": 0.8461538461538461,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.8461538461538461,
+              "r1_any_top_tie_known_positive": 0.8461538461538461,
+              "unknown_top_tie_mass": 0.0
+            }
+          }
+        },
+        "positive_present_queries": 13,
+        "queries": 100,
+        "queries_without_candidates": 8,
+        "unknown_candidate_edges": 55,
+        "unknown_queries": 14
+      },
+      "[16,32)": {
+        "directed_candidate_edges": 32009,
+        "known_queries": 1398,
+        "known_without_observed_positive": 1197,
+        "methods": {
+          "ccsi128": {
+            "all_candidates": {
+              "eligible_queries": 201,
+              "known_positive_r1_tie_averaged": 0.900497512437811,
+              "possible_positive_r1_if_unknown_tops_match": 0.9154228855721394,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 3,
+              "r1_all_top_ties_known_positive": 0.900497512437811,
+              "r1_any_top_tie_known_positive": 0.900497512437811,
+              "unknown_top_tie_mass": 0.014925373134328358
+            },
+            "conventional_known_only": {
+              "eligible_queries": 201,
+              "known_positive_r1_tie_averaged": 0.9154228855721394,
+              "possible_positive_r1_if_unknown_tops_match": 0.9154228855721394,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.9154228855721394,
+              "r1_any_top_tie_known_positive": 0.9154228855721394,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "p1_independent128": {
+            "all_candidates": {
+              "eligible_queries": 201,
+              "known_positive_r1_tie_averaged": 0.8756218905472637,
+              "possible_positive_r1_if_unknown_tops_match": 0.8905472636815921,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 3,
+              "r1_all_top_ties_known_positive": 0.8756218905472637,
+              "r1_any_top_tie_known_positive": 0.8756218905472637,
+              "unknown_top_tie_mass": 0.014925373134328358
+            },
+            "conventional_known_only": {
+              "eligible_queries": 201,
+              "known_positive_r1_tie_averaged": 0.8905472636815921,
+              "possible_positive_r1_if_unknown_tops_match": 0.8905472636815921,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.8905472636815921,
+              "r1_any_top_tie_known_positive": 0.8905472636815921,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "temporal128": {
+            "all_candidates": {
+              "eligible_queries": 201,
+              "known_positive_r1_tie_averaged": 0.8855721393034826,
+              "possible_positive_r1_if_unknown_tops_match": 0.900497512437811,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 3,
+              "r1_all_top_ties_known_positive": 0.8855721393034826,
+              "r1_any_top_tie_known_positive": 0.8855721393034826,
+              "unknown_top_tie_mass": 0.014925373134328358
+            },
+            "conventional_known_only": {
+              "eligible_queries": 201,
+              "known_positive_r1_tie_averaged": 0.900497512437811,
+              "possible_positive_r1_if_unknown_tops_match": 0.900497512437811,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.900497512437811,
+              "r1_any_top_tie_known_positive": 0.900497512437811,
+              "unknown_top_tie_mass": 0.0
+            }
+          }
+        },
+        "positive_present_queries": 201,
+        "queries": 1439,
+        "queries_without_candidates": 1,
+        "unknown_candidate_edges": 1146,
+        "unknown_queries": 41
+      },
+      "[32,64)": {
+        "directed_candidate_edges": 55843,
+        "known_queries": 1255,
+        "known_without_observed_positive": 467,
+        "methods": {
+          "ccsi128": {
+            "all_candidates": {
+              "eligible_queries": 788,
+              "known_positive_r1_tie_averaged": 0.8895939086294417,
+              "possible_positive_r1_if_unknown_tops_match": 0.8921319796954315,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 2,
+              "r1_all_top_ties_known_positive": 0.8895939086294417,
+              "r1_any_top_tie_known_positive": 0.8895939086294417,
+              "unknown_top_tie_mass": 0.0025380710659898475
+            },
+            "conventional_known_only": {
+              "eligible_queries": 788,
+              "known_positive_r1_tie_averaged": 0.8921319796954315,
+              "possible_positive_r1_if_unknown_tops_match": 0.8921319796954315,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.8921319796954315,
+              "r1_any_top_tie_known_positive": 0.8921319796954315,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "p1_independent128": {
+            "all_candidates": {
+              "eligible_queries": 788,
+              "known_positive_r1_tie_averaged": 0.8654822335025381,
+              "possible_positive_r1_if_unknown_tops_match": 0.868020304568528,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 2,
+              "r1_all_top_ties_known_positive": 0.8654822335025381,
+              "r1_any_top_tie_known_positive": 0.8654822335025381,
+              "unknown_top_tie_mass": 0.0025380710659898475
+            },
+            "conventional_known_only": {
+              "eligible_queries": 788,
+              "known_positive_r1_tie_averaged": 0.866751269035533,
+              "possible_positive_r1_if_unknown_tops_match": 0.866751269035533,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.866751269035533,
+              "r1_any_top_tie_known_positive": 0.866751269035533,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "temporal128": {
+            "all_candidates": {
+              "eligible_queries": 788,
+              "known_positive_r1_tie_averaged": 0.8718274111675127,
+              "possible_positive_r1_if_unknown_tops_match": 0.8756345177664975,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 3,
+              "r1_all_top_ties_known_positive": 0.8718274111675127,
+              "r1_any_top_tie_known_positive": 0.8718274111675127,
+              "unknown_top_tie_mass": 0.0038071065989847717
+            },
+            "conventional_known_only": {
+              "eligible_queries": 788,
+              "known_positive_r1_tie_averaged": 0.8743654822335025,
+              "possible_positive_r1_if_unknown_tops_match": 0.8743654822335025,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.8743654822335025,
+              "r1_any_top_tie_known_positive": 0.8743654822335025,
+              "unknown_top_tie_mass": 0.0
+            }
+          }
+        },
+        "positive_present_queries": 788,
+        "queries": 1295,
+        "queries_without_candidates": 0,
+        "unknown_candidate_edges": 1610,
+        "unknown_queries": 40
+      },
+      "[64,inf)": {
+        "directed_candidate_edges": 12390,
+        "known_queries": 243,
+        "known_without_observed_positive": 101,
+        "methods": {
+          "ccsi128": {
+            "all_candidates": {
+              "eligible_queries": 142,
+              "known_positive_r1_tie_averaged": 0.9436619718309859,
+              "possible_positive_r1_if_unknown_tops_match": 0.9577464788732394,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 2,
+              "r1_all_top_ties_known_positive": 0.9436619718309859,
+              "r1_any_top_tie_known_positive": 0.9436619718309859,
+              "unknown_top_tie_mass": 0.014084507042253521
+            },
+            "conventional_known_only": {
+              "eligible_queries": 142,
+              "known_positive_r1_tie_averaged": 0.9507042253521126,
+              "possible_positive_r1_if_unknown_tops_match": 0.9507042253521126,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.9507042253521126,
+              "r1_any_top_tie_known_positive": 0.9507042253521126,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "p1_independent128": {
+            "all_candidates": {
+              "eligible_queries": 142,
+              "known_positive_r1_tie_averaged": 0.9084507042253521,
+              "possible_positive_r1_if_unknown_tops_match": 0.9225352112676056,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 2,
+              "r1_all_top_ties_known_positive": 0.9084507042253521,
+              "r1_any_top_tie_known_positive": 0.9084507042253521,
+              "unknown_top_tie_mass": 0.014084507042253521
+            },
+            "conventional_known_only": {
+              "eligible_queries": 142,
+              "known_positive_r1_tie_averaged": 0.9154929577464789,
+              "possible_positive_r1_if_unknown_tops_match": 0.9154929577464789,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.9154929577464789,
+              "r1_any_top_tie_known_positive": 0.9154929577464789,
+              "unknown_top_tie_mass": 0.0
+            }
+          },
+          "temporal128": {
+            "all_candidates": {
+              "eligible_queries": 142,
+              "known_positive_r1_tie_averaged": 0.9366197183098591,
+              "possible_positive_r1_if_unknown_tops_match": 0.9507042253521126,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 2,
+              "r1_all_top_ties_known_positive": 0.9366197183098591,
+              "r1_any_top_tie_known_positive": 0.9366197183098591,
+              "unknown_top_tie_mass": 0.014084507042253521
+            },
+            "conventional_known_only": {
+              "eligible_queries": 142,
+              "known_positive_r1_tie_averaged": 0.9436619718309859,
+              "possible_positive_r1_if_unknown_tops_match": 0.9436619718309859,
+              "queries_with_multiple_top_ties": 0,
+              "queries_with_unknown_in_top_ties": 0,
+              "r1_all_top_ties_known_positive": 0.9436619718309859,
+              "r1_any_top_tie_known_positive": 0.9436619718309859,
+              "unknown_top_tie_mass": 0.0
+            }
+          }
+        },
+        "positive_present_queries": 142,
+        "queries": 259,
+        "queries_without_candidates": 0,
+        "unknown_candidate_edges": 384,
+        "unknown_queries": 16
+      }
+    }
+  },
+  "pair": "51",
+  "role": "fit"
+}

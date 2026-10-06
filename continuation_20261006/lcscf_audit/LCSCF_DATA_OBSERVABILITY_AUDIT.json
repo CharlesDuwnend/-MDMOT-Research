@@ -1,0 +1,62 @@
+{
+  "status": "HOLD_LCSCF_DENSE_SUPERVISION_NOT_OBSERVABLE",
+  "created_utc": "2026-10-05T22:42:42.812032+00:00",
+  "manifest": "/home/chenhc/mdmot_sci_id_20260906/data/train_episodes_v1/manifest.json",
+  "manifest_sha256": "d43d3023da63bb7f17b0683843ed324b644c04a651e61dc2645e6468535228f2",
+  "counts": {
+    "events": 8311,
+    "supervision_valid": 8177,
+    "positive_events": 3467,
+    "positive_candidate_members": 3557,
+    "multi_positive_events": 83,
+    "zero_candidate_events": 197,
+    "known_negative_events": 7959,
+    "unmapped_events": 361,
+    "dense_correspondence_fields": 0,
+    "source_target_image_pairs": 4503
+  },
+  "available_fields": [
+    "candidate_count",
+    "candidate_set_sha256",
+    "candidates",
+    "class",
+    "confirmation_frame",
+    "dynamic_irrelevant_selection_pool",
+    "eligible_before_k",
+    "episode_id",
+    "factual_positive_indices",
+    "hard_negative_base_holdout_index",
+    "is_multi_positive",
+    "is_zero_candidate",
+    "known_negative_indices",
+    "pair_id",
+    "positive_in_frozen_k64",
+    "ready_frame",
+    "remove_all_positive_indices",
+    "same_cardinality_remove_negative_indices",
+    "same_id_candidate_indices",
+    "source_image",
+    "source_uav",
+    "split",
+    "supervision_valid",
+    "target_bbox_xyxy",
+    "target_detector_index",
+    "target_image",
+    "target_local_track_id",
+    "target_map_quality",
+    "target_train_gt_id",
+    "target_uav",
+    "unmapped_candidate_indices"
+  ],
+  "missing_contracts": [
+    "no dense target-source correspondence labels",
+    "no homography/pose/flow field in episode rows",
+    "no per-pixel occlusion/visibility mask"
+  ],
+  "legal_supervision": [
+    "pair-level same-ID candidate indices",
+    "known negatives and no-match rows",
+    "target/source bounding boxes and frame paths"
+  ],
+  "interpretation": "A learned offset field can be implemented, but its intended local correspondence/cycle/occlusion effect is not directly observable from the frozen train episode contract. Pair-level association loss alone would reduce to ordinary local matching and is insufficient authorization for a paper method."
+}

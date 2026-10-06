@@ -1,0 +1,5 @@
+Authorized cleanup, 2026-10-06:
+- delete only checkpoint directories from runs/smoke_v1, runs/smoke_v2, runs/block1_600_v1, runs/block1_600_v2
+- preserve every events.jsonl, run_meta.json, metric JSON, stdout/exit marker, source/audit/decision, and all block1_600_v3 artifacts
+- these checkpoints are obsolete smoke/invalid v1-v2 states and are not needed for recovery
+- do not touch baseline, train episode data, stage15 cache, P50/P52, CVSGM decision artifacts, or unrelated users/processes

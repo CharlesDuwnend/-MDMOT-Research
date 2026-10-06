@@ -1,0 +1,22 @@
+{
+  "pair_metrics": {
+    "29": {
+      "events": 866,
+      "candidate_present_events": 414,
+      "candidate_present_recall1": 0.08695652173913043,
+      "candidate_present_mrr": 0.22903408980689724,
+      "candidate_present_margin": -0.7604244041126131,
+      "no_match_events": 452,
+      "dustbin_brier": 0.48307740205380045
+    }
+  },
+  "pair_macro": {
+    "pairs": 1,
+    "candidate_present_recall1": 0.08695652173913043,
+    "candidate_present_mrr": 0.22903408980689724,
+    "candidate_present_margin": -0.7604244041126131,
+    "dustbin_brier": 0.48307740205380045,
+    "no_match_events": 452
+  },
+  "evaluated_events": 884
+}

@@ -1,0 +1,13 @@
+{
+  "status": "STOP_P45_DIRECT_COLLISION",
+  "date": "2026-10-05",
+  "reason": "GTA-Net (2025) explicitly formulates multi-drone target association as graph matching with node/edge spatial relationships and affine completion on a public drone dataset; P45's relation-configuration-to-global-plan claim is not defensibly new at this boundary.",
+  "cpu_contract": "PASS_P45_CPU_MECHANISM_CONTRACT",
+  "effect_evidence": false,
+  "training_authorized": false,
+  "official_val_or_test_opened": false,
+  "labels_read": false,
+  "xml_read": false,
+  "source": "https://www.mdpi.com/2504-446X/9/4/300",
+  "next_action": "Do not train or port P45. Audit a different observable/learning target; retain the CPU contract only as a discarded engineering artifact."
+}

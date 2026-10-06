@@ -1,0 +1,40 @@
+{
+  "status": "PASS_CCFI_TRAIN_FREE_LABEL_FREEZE",
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "alpha": 0.5,
+  "dispersion_scale": 2.0,
+  "rule": "fixed_no_search",
+  "frozen": {
+    "27": {
+      "rows": 3363,
+      "history_rows": 3082,
+      "sha256": "a6df61d26cb81d2b9bbe88f432a8ebdd3563ccfc977b2738cfbdcb7168fd53c1"
+    },
+    "32": {
+      "rows": 3608,
+      "history_rows": 3381,
+      "sha256": "e4d550c7be428985c1b1ac0f7c8cf93438714c70523cc3b532dbe077c7673621"
+    },
+    "42": {
+      "rows": 2149,
+      "history_rows": 2013,
+      "sha256": "5927a4ef935331472629751c5eeabbed8e475bd42867ca7eb5ed90a64e751303"
+    },
+    "64": {
+      "rows": 1504,
+      "history_rows": 1364,
+      "sha256": "15e55659c8f5491b8ac249b73e7e39187d1b1c6b7048ca0d631bce9730c6a8c8"
+    },
+    "65": {
+      "rows": 4552,
+      "history_rows": 4079,
+      "sha256": "39b76352a1a4ef82e713cd14c9a92c9cd42a9018e71f7d5ce1d2d9d279e78bcf"
+    }
+  }
+}

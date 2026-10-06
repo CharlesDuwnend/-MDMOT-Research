@@ -1,0 +1,58 @@
+{
+  "status": "COMPLETE",
+  "classification": "initialization_diagnostic_not_confirmatory",
+  "created_utc": "2026-10-05T22:48:52.014628+00:00",
+  "train_pairs": [
+    "23"
+  ],
+  "eval_pairs": [
+    "29"
+  ],
+  "steps_per_arm": 1,
+  "batch_size": 2,
+  "image_size": [
+    256,
+    448
+  ],
+  "channels": 8,
+  "prototypes": 2,
+  "roi_size": 3,
+  "device": "cuda:0",
+  "arms": [
+    "B4",
+    "LCSCF_B4"
+  ],
+  "backbone_init": "/home/chenhc/cross_uav_query_mamba_20260830/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt_epoch_60.pth",
+  "backbone_init_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+  "mean": [
+    102.9801,
+    115.9465,
+    122.7717
+  ],
+  "std": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "value_scale": 1.0,
+  "channel_order": "bgr",
+  "official_val_access": false,
+  "test_access": false,
+  "seed_offset": 0,
+  "transport_loss_weight": 0.2,
+  "random_init_comparator": "/home/chenhc/claude_try_MDMOT/continuation_20261006/lcscf_b4_gate/logs/n4_retrain_formal_20260906_v1",
+  "random_init_comparator_is_completed": true,
+  "pair_is_independent_unit": true,
+  "gpu": {
+    "cuda_visible_devices": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+    "logical_index": 0,
+    "name": "NVIDIA A100-SXM4-40GB",
+    "total_memory_bytes": 42298834944
+  },
+  "completed_utc": "2026-10-05T22:50:17.723427+00:00",
+  "event_log_sha256": "3851fc4abb41bae1f994aca075dcc014895520d7df5202d64a0523ea64c1dacf",
+  "metric_files": {
+    "B4": "4bd015f35176623d9f26011cfb0b6940c880cd1e0e4bfb5ee52523eca3ef9b06",
+    "LCSCF_B4": "91babf14b4289a4f396f4df7dd611637439ef8cf51e37dcf3ddb8f8eeb5802fb"
+  }
+}

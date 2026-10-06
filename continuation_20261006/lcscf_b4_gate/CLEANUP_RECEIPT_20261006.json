@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "allowlist": "CLEANUP_ALLOWLIST_20261006.txt",
+  "deleted": [
+    "runs/smoke_v1/checkpoints",
+    "runs/smoke_v2/checkpoints",
+    "runs/block1_600_v1/checkpoints",
+    "runs/block1_600_v2/checkpoints"
+  ],
+  "preserved": [
+    "runs/block1_600_v3",
+    "runs/block1_600_v4",
+    "all textual metrics/logs/audits",
+    "baseline and train data"
+  ],
+  "reason": "obsolete smoke and invalid v1-v2 checkpoints; retain textual evidence and current rerun recovery state"
+}

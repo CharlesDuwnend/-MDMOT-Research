@@ -1,0 +1,32 @@
+{
+  "GT_or_labels_read": false,
+  "archive_total_bytes": 21124944280,
+  "calibration_export_executed": false,
+  "completion_artifact_hashes": {
+    "FEATURE_API.md": "8cf0c1a62c85b0874575d47d5b9b352c3d83344cd6902ba4cac6ef59f8531dd6",
+    "export_fpn.py": "4120e74feb9426b01cedbdef0985bd9e7167c9ac20f187daf139194635929d09",
+    "fit/FEATURE_RECEIPT.json": "2795432a2ebcb71ced1d4f1a8441b66c92050d76dd7c43d4c5252235bf335fe5",
+    "fit/FEATURE_RECEIPT.sha256": "bd2efe8eb9e60fd3b4eadd46824dc6e2796ce657570f5a4de30350b37b8ca620",
+    "fit/FEATURE_VERIFY.json": "d5796df059c1b545005317b4b7c0935a56bc516a5875a91bdf54820d9a34b680",
+    "fit/FEATURE_VERIFY.sha256": "e0850479477d18dcad2b262d8c55ef3f8b80e962ae99d26c1d32737d772e8338",
+    "fit/SMOKE.json": "3baa0c7017a67dc7d31b5e0461b15463334290c86263816015b421a848c25077",
+    "fit/feature_verify.log": "f728533b57d2c04241ee26d2db99a0696d1ec68f9ecce803ec9c184d0602ba17",
+    "fit/fpn.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "fit/fpn.log": "ecb1709a020619ccf5afc388e556e952210cf3f73a67870724e3b1656f15a10f",
+    "fit/verification_attempt_001/FAILURE.json": "6688b9c3f545e0418c4fba3596027d7a10cd7a8df48a0c60433a0b04f39f4d5e",
+    "fit/verification_attempt_001/feature_verify.log": "12f1206f73276234f0d6cf202e3599a19ee904446808f8d782a61e3059b705d5",
+    "fit/verification_attempt_001/verify_fpn.py": "e99b99a41be6b1f459122a1f33d591d8ec89725c246f7ed067af61eb2e186e50",
+    "run_fpn.sh": "a8add3946cd1a9d6312afe71b904620ad015c5f47210846504ecf30ea2562790",
+    "verify_fpn.py": "1150a840bf6be406ecff80a7dbb32be750d4762ccb3a8c5691506b1bacfcad3c"
+  },
+  "export_exit_code": 0,
+  "export_receipt_sha256": "2795432a2ebcb71ced1d4f1a8441b66c92050d76dd7c43d4c5252235bf335fe5",
+  "frame_count": 960,
+  "group_count": 240,
+  "native_detection_count": 75086,
+  "preserved_verifier_failure": "initial score floor assumption corrected from >=.05 to native [0,1]; no exported arrays or original receipt changed",
+  "role": "fit",
+  "status": "PASS_FIT_NATIVE_FPN_EXPORT_AND_FULL_READBACK",
+  "verification_exit_code": 0,
+  "verification_sha256": "d5796df059c1b545005317b4b7c0935a56bc516a5875a91bdf54820d9a34b680"
+}

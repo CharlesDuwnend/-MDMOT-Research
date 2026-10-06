@@ -1,0 +1,88 @@
+{
+  "status": "KEEP_P52_NCCA_FOR_HOST_COMPATIBILITY_PHASE",
+  "method": "Native Cross-View Counterfactual Candidate Association (NCCA)",
+  "summary": {
+    "7": {
+      "original_recall1_delta_pp": 2.3624791914943932,
+      "original_recall1_pair_wins": 3,
+      "positive_removal_dustbin_rate": 0.664603623593379,
+      "negative_removal_retain_r1_delta_pp": 3.4021835001841625,
+      "per_pair": {
+        "69": {
+          "r1_delta": -0.004201680672268893,
+          "cf_dustbin": 0.6092436974789915,
+          "negative_retain_delta": -0.012605042016806706
+        },
+        "70": {
+          "r1_delta": -0.013333333333333336,
+          "cf_dustbin": 0.7933333333333333,
+          "negative_retain_delta": -0.006666666666666654
+        },
+        "74": {
+          "r1_delta": 0.043243243243243246,
+          "cf_dustbin": 0.7837837837837838,
+          "negative_retain_delta": 0.043243243243243246
+        },
+        "76": {
+          "r1_delta": 0.06741573033707865,
+          "cf_dustbin": 0.6741573033707865,
+          "negative_retain_delta": 0.0898876404494382
+        },
+        "78": {
+          "r1_delta": 0.024999999999999994,
+          "cf_dustbin": 0.4625,
+          "negative_retain_delta": 0.05625000000000002
+        }
+      }
+    },
+    "17": {
+      "original_recall1_delta_pp": 1.7908460438533131,
+      "original_recall1_pair_wins": 3,
+      "positive_removal_dustbin_rate": 0.6532360805239193,
+      "negative_removal_retain_r1_delta_pp": 1.6734234234234222,
+      "per_pair": {
+        "69": {
+          "r1_delta": 0.004201680672268893,
+          "cf_dustbin": 0.6218487394957983,
+          "negative_retain_delta": 0.0
+        },
+        "70": {
+          "r1_delta": 0.053333333333333316,
+          "cf_dustbin": 0.7933333333333333,
+          "negative_retain_delta": 0.033333333333333326
+        },
+        "74": {
+          "r1_delta": 0.043243243243243246,
+          "cf_dustbin": 0.7567567567567568,
+          "negative_retain_delta": 0.03783783783783784
+        },
+        "76": {
+          "r1_delta": -0.011235955056179803,
+          "cf_dustbin": 0.6067415730337079,
+          "negative_retain_delta": 0.0
+        },
+        "78": {
+          "r1_delta": 0.0,
+          "cf_dustbin": 0.4875,
+          "negative_retain_delta": 0.012499999999999956
+        }
+      }
+    }
+  },
+  "criteria": {
+    "macro_r1_gain_at_least_1.5pp_both_seeds": true,
+    "three_of_five_pair_wins_both_seeds": true,
+    "positive_removal_dustbin_at_least_0.50_both_seeds": true,
+    "negative_removal_not_degraded": true,
+    "independent_replay_passed": true
+  },
+  "decision": {
+    "teacher_removed": true,
+    "simple_set_context_not_claimed_as_causal": true,
+    "keep_for_next_phase": true,
+    "official_val_test_access": false,
+    "next": "compatibility audit and frozen adapter injection into protected P26 MIA host on a separately declared development split"
+  },
+  "novelty": "HOLD_NARROW_CLAIM_ONLY",
+  "scope": "held-out train calibration; not formal MOT score"
+}

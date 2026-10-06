@@ -1,0 +1,193 @@
+{
+  "status": "STOP_INIT_AUDIT_NO_RECOVERY",
+  "candidate": "SCI-ID/P1 pre-pooling exact composition with learned dustbin",
+  "scope": "train-only pair29 holdout; no official val/test",
+  "new_run": {
+    "B1": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.07729468599033816,
+      "candidate_present_mrr": 0.2182638049902057,
+      "candidate_present_margin": -0.35851408249658084,
+      "dustbin_brier": 0.25119022714904554,
+      "no_match_events": 452
+    },
+    "B2": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.08454106280193237,
+      "candidate_present_mrr": 0.21909402671668865,
+      "candidate_present_margin": -0.6547728325397784,
+      "dustbin_brier": 0.33593043793704674,
+      "no_match_events": 452
+    },
+    "B3": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.05314009661835749,
+      "candidate_present_mrr": 0.19435559519252335,
+      "candidate_present_margin": -0.27046564501228826,
+      "dustbin_brier": 0.274388872689978,
+      "no_match_events": 452
+    },
+    "B4": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.0821256038647343,
+      "candidate_present_mrr": 0.22095218018952723,
+      "candidate_present_margin": -0.739851676683495,
+      "dustbin_brier": 0.4018768463168438,
+      "no_match_events": 452
+    },
+    "P1": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.07729468599033816,
+      "candidate_present_mrr": 0.20759986831107988,
+      "candidate_present_margin": -0.6377280675018755,
+      "dustbin_brier": 0.34978133441919257,
+      "no_match_events": 452
+    }
+  },
+  "prior_random_init_run": {
+    "B1": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.07971014492753623,
+      "candidate_present_mrr": 0.22126933883175687,
+      "candidate_present_margin": -0.4133825779168142,
+      "dustbin_brier": 0.22900449018241079,
+      "no_match_events": 452
+    },
+    "B2": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.07729468599033816,
+      "candidate_present_mrr": 0.20405289744609614,
+      "candidate_present_margin": -0.6910525360977017,
+      "dustbin_brier": 0.22314925542400632,
+      "no_match_events": 452
+    },
+    "B3": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.11594202898550725,
+      "candidate_present_mrr": 0.27530741875989684,
+      "candidate_present_margin": -0.24610780410756525,
+      "dustbin_brier": 0.23896527068532677,
+      "no_match_events": 452
+    },
+    "B4": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.07729468599033816,
+      "candidate_present_mrr": 0.22245894023234386,
+      "candidate_present_margin": -0.5804108368853728,
+      "dustbin_brier": 0.22703701662823553,
+      "no_match_events": 452
+    },
+    "P1": {
+      "pairs": 1,
+      "candidate_present_recall1": 0.09178743961352658,
+      "candidate_present_mrr": 0.25264182582489286,
+      "candidate_present_margin": -0.5146015748597573,
+      "dustbin_brier": 0.23877689713147882,
+      "no_match_events": 452
+    }
+  },
+  "deltas": {
+    "B1": {
+      "candidate_present_recall1": -0.0024154589371980645,
+      "candidate_present_mrr": -0.0030055338415511668,
+      "candidate_present_margin": 0.054868495420233365,
+      "dustbin_brier": 0.022185736966634756
+    },
+    "B2": {
+      "candidate_present_recall1": 0.007246376811594207,
+      "candidate_present_mrr": 0.015041129270592507,
+      "candidate_present_margin": 0.036279703557923315,
+      "dustbin_brier": 0.11278118251304042
+    },
+    "B3": {
+      "candidate_present_recall1": -0.06280193236714976,
+      "candidate_present_mrr": -0.08095182356737349,
+      "candidate_present_margin": -0.02435784090472301,
+      "dustbin_brier": 0.03542360200465125
+    },
+    "B4": {
+      "candidate_present_recall1": 0.004830917874396143,
+      "candidate_present_mrr": -0.001506760042816635,
+      "candidate_present_margin": -0.1594408397981223,
+      "dustbin_brier": 0.17483982968860826
+    },
+    "P1": {
+      "candidate_present_recall1": -0.014492753623188415,
+      "candidate_present_mrr": -0.045041957513812986,
+      "candidate_present_margin": -0.12312649264211817,
+      "dustbin_brier": 0.11100443728771375
+    }
+  },
+  "protocol": {
+    "status": "COMPLETE",
+    "interpretation": "train-only pair holdout; no official-val/test access and no MOT metrics",
+    "created_utc": "2026-10-05T17:00:26.049460+00:00",
+    "train_pairs": [
+      "23",
+      "25",
+      "27",
+      "28",
+      "30",
+      "32",
+      "39",
+      "42",
+      "44",
+      "45",
+      "50",
+      "51",
+      "53",
+      "54",
+      "58",
+      "63",
+      "64",
+      "65",
+      "66",
+      "69",
+      "70",
+      "74",
+      "76",
+      "78"
+    ],
+    "eval_pairs": [
+      "29"
+    ],
+    "steps_per_arm": 800,
+    "batch_size": 4,
+    "image_size": [
+      256,
+      448
+    ],
+    "channels": 32,
+    "prototypes": 2,
+    "roi_size": 7,
+    "device": "cuda:0",
+    "arms": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "P1"
+    ],
+    "shuffle_seed_base": 12000,
+    "checkpoint_every": 200,
+    "keep_periodic_checkpoints": false,
+    "backbone_init": "/home/chenhc/cross_uav_query_mamba_20260830/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt_epoch_60.pth",
+    "backbone_init_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+    "mean": [
+      102.9801,
+      115.9465,
+      122.7717
+    ],
+    "std": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "value_scale": 1.0,
+    "channel_order": "bgr",
+    "completed_utc": "2026-10-05T17:30:23.464301+00:00"
+  },
+  "checkpoint_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+  "physical_gpu": "GPU3 A100-SXM4-40GB (CUDA_VISIBLE_DEVICES=3, process cuda:0)",
+  "decision_rule": "P1 must exceed strongest adjacent control on retrieval and no-match measures; pair29 audit is diagnostic and cannot authorize official-val"
+}

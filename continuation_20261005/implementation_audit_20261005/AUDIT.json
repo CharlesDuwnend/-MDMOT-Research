@@ -1,0 +1,251 @@
+{
+  "checks": [
+    {
+      "evidence": "KEEP_IMAGE_GEOMETRY_SUBSTRATE_NOT_NOVEL_METHOD",
+      "name": "P24_scope",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": "DEFERRED_BY_USER_BASELINE_FIRST",
+      "name": "P25_not_run",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "failed_images": 42,
+        "mot_effect_established": false,
+        "status": "FAIL_SAMPLED_PARITY"
+      },
+      "name": "P27_parity_isolated",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "artifact_count": 11,
+        "mismatch": [],
+        "missing": []
+      },
+      "name": "P28_CANONICAL_ARTIFACT_HASHES",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "artifact_count": 15,
+        "mismatch": [],
+        "missing": []
+      },
+      "name": "P29_PREDICTION_ARTIFACT_HASHES",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "absolute_difference": 9.999919775571797e-08,
+        "computed_pp": 0.08848163768718775,
+        "decision_pp": 0.08848153768799
+      },
+      "name": "P29_metric_arithmetic",
+      "ok": true,
+      "status": "ROUNDING_ONLY"
+    },
+    {
+      "evidence": {
+        "computed_pp": 0.08848163768718775,
+        "report_token": ".088467"
+      },
+      "name": "P29_report_doc_only_typo",
+      "ok": true,
+      "status": "DOC_ONLY"
+    },
+    {
+      "evidence": {
+        "original_sha256": "4b5cda3d8405b3113c75b2b89006e8ef7bc24c92c5fc8906ed4b67b459cdfe5f",
+        "repair_sha256": "589a0c70c0678ce23e335e3c01736250720349f4b3c8841e18ab44a19b92b05f"
+      },
+      "name": "P29_stride_coordinate_defect_identified",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "{'status': 'PASS_P29_REPAIR_FLOW_REFERENCE_CONTRACT', 'expected_feature_displacements': [0.0, 1.0, 2.0, 3.0], 'actual_feature_displacements': [0.0, 1.0, 2.0, 3.0], 'official_metric_authorized': False}"
+      },
+      "name": "P29_repair_cpu_contract",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        {
+          "byte_equal": true,
+          "exists": true,
+          "file": "27-1.json",
+          "sha_direct": "0766307f1eb031aa7a510fdd6dcfc5f06cafe75ecf517e30b4d2622a3e01bd58",
+          "sha_p30": "0766307f1eb031aa7a510fdd6dcfc5f06cafe75ecf517e30b4d2622a3e01bd58"
+        },
+        {
+          "byte_equal": true,
+          "exists": true,
+          "file": "27-2.json",
+          "sha_direct": "dad01aa6b06f4941bad9e81c7092687b9f5008e10f75a526850d344280f9fe54",
+          "sha_p30": "dad01aa6b06f4941bad9e81c7092687b9f5008e10f75a526850d344280f9fe54"
+        }
+      ],
+      "name": "P30_native_host_direct_replay",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "capacity": {
+          "max_per_img": 300,
+          "nms_iou": 0.6,
+          "nms_pre": 2000,
+          "score_thr": 0.05
+        },
+        "frame_count": 3900,
+        "total_rows": 389784
+      },
+      "name": "P30_native_receipt",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "array_count": 3900,
+        "bad": [],
+        "receipt_rows": 389784,
+        "rows": 389784,
+        "seq_count": 10
+      },
+      "name": "P30_native_arrays",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "capacity": {
+          "max_per_img": 300,
+          "nms_iou": 0.6,
+          "nms_pre": 2000,
+          "score_thr": 0.05
+        },
+        "frame_count": 3900,
+        "total_rows": 395064
+      },
+      "name": "P30_past_fixed_offsets_receipt",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "array_count": 3900,
+        "bad": [],
+        "receipt_rows": 395064,
+        "rows": 395064,
+        "seq_count": 10
+      },
+      "name": "P30_past_fixed_offsets_arrays",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "duplicate_id_frames": [
+          {
+            "frame": "frame=247",
+            "path": "/raid/datasets/chc_data/claude_try_MDMOT_p30_full_host_20261005/host/native/json/p30_native/32-1.json",
+            "reason": "duplicate_id"
+          },
+          {
+            "frame": "frame=239",
+            "path": "/raid/datasets/chc_data/claude_try_MDMOT_p30_full_host_20261005/host/native/json/p30_native/64-1.json",
+            "reason": "duplicate_id"
+          },
+          {
+            "frame": "frame=95",
+            "path": "/raid/datasets/chc_data/claude_try_MDMOT_p30_full_host_20261005/host/native/json/p30_native/65-1.json",
+            "reason": "duplicate_id"
+          }
+        ],
+        "frames": 3900,
+        "json_count": 10,
+        "rows": 178359
+      },
+      "name": "P30_native_host_json",
+      "ok": true,
+      "status": "INHERITED_HOST_BEHAVIOR"
+    },
+    {
+      "evidence": {
+        "duplicate_id_frames": [
+          {
+            "frame": "frame=247",
+            "path": "/raid/datasets/chc_data/claude_try_MDMOT_p30_full_host_20261005/host/fixed/json/p30_fixed/32-1.json",
+            "reason": "duplicate_id"
+          },
+          {
+            "frame": "frame=229",
+            "path": "/raid/datasets/chc_data/claude_try_MDMOT_p30_full_host_20261005/host/fixed/json/p30_fixed/64-1.json",
+            "reason": "duplicate_id"
+          }
+        ],
+        "frames": 3900,
+        "json_count": 10,
+        "rows": 178366
+      },
+      "name": "P30_fixed_host_json",
+      "ok": true,
+      "status": "INHERITED_HOST_BEHAVIOR"
+    },
+    {
+      "evidence": {
+        "mismatches": []
+      },
+      "name": "P30_host_manifest_hashes",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "guard_tokens": true
+      },
+      "name": "P30_override_guard",
+      "ok": true,
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "source": "P26 ByteTrack and P30 override"
+      },
+      "name": "P26_zero_label_semantics_mirrored",
+      "ok": true,
+      "status": "PASS"
+    }
+  ],
+  "next_gate": "repair P29 stride-domain reference, rerun real GPU smoke, then retrain/re-predict/re-score before deciding P29; P30 host comparison must be repeated only after corrected predictions",
+  "novelty_claim": false,
+  "official_val_or_test_read": false,
+  "schema": "implementation_audit_20261005_v1",
+  "scope": [
+    "P24",
+    "P25",
+    "P26",
+    "P27",
+    "P28",
+    "P29",
+    "P30"
+  ],
+  "status": "P29_IMPLEMENTATION_DEFECT_FOUND_P29_P30_NEGATIVE_NOT_FINAL",
+  "summary": {
+    "failed": 0,
+    "passed": 19,
+    "total": 19
+  }
+}

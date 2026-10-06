@@ -1,0 +1,128 @@
+{
+  "status": "PASS_CVTDCF_CPU_MECHANISM_CONTRACT",
+  "rounds": [
+    {
+      "round": "R1_INPUT_AND_MASK",
+      "checks": [
+        {
+          "check": "zero_initialized_residual_is_base_only",
+          "status": "PASS",
+          "evidence": {
+            "residual_norm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": 0.0
+          }
+        },
+        {
+          "check": "explicit_missing_mask_has_no_nan_and_no_fake_pairs",
+          "status": "PASS",
+          "evidence": {
+            "valid_pair_count": [
+              4,
+              2,
+              0,
+              0
+            ],
+            "support_valid_count": [
+              5,
+              4,
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "check": "S1_no_derivative_is_defined",
+          "status": "PASS",
+          "evidence": {
+            "valid_pair_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "round": "R2_TEMPORAL_ORDER",
+      "checks": [
+        {
+          "check": "support_order_is_not_silently_permuted",
+          "status": "PASS",
+          "evidence": {}
+        },
+        {
+          "check": "temporal_order_changes_differential_field",
+          "status": "PASS",
+          "evidence": {
+            "max_abs_delta": 0.015947502106428146
+          }
+        },
+        {
+          "check": "repeated_timestamp_is_not_differential_evidence",
+          "status": "PASS",
+          "evidence": {
+            "valid_pairs": 3
+          }
+        }
+      ]
+    },
+    {
+      "round": "R3_BACKWARD_AND_INPUT_BOUNDARY",
+      "checks": [
+        {
+          "check": "masked_missing_values_cannot_contaminate_output",
+          "status": "PASS",
+          "evidence": {
+            "max_error": 0.0
+          }
+        },
+        {
+          "check": "model_api_has_no_gt_or_tracker_id",
+          "status": "PASS",
+          "evidence": {
+            "input_names": [
+              "current_target",
+              "current_source",
+              "support_target",
+              "support_source",
+              "support_offsets",
+              "support_valid"
+            ]
+          }
+        },
+        {
+          "check": "backward_gradients_finite",
+          "status": "PASS",
+          "evidence": {
+            "parameter_gradients": {
+              "residual_scale": true,
+              "field.0.weight": true,
+              "field.0.bias": true,
+              "field.1.weight": true,
+              "field.1.bias": true,
+              "field.3.weight": true,
+              "field.3.bias": true,
+              "gate.0.weight": true,
+              "gate.0.bias": true,
+              "gate.1.weight": true,
+              "gate.1.bias": true,
+              "base.0.weight": true,
+              "base.0.bias": true,
+              "base.1.weight": true,
+              "base.1.bias": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "co_movement.py": "034fe0da51fe667f663796181cd4207e82a67b91241dbd7e9df35c1f81f414a0",
+    "cpu_contract.py": "1d9d2256a76e53900be2433e600ab94317aa85dc958631d8b4194ccf00091e5b"
+  },
+  "official_val_test_access": false,
+  "effectiveness_claim": false,
+  "next": "complete collision and signal audit before real-feature learning; no official evaluation"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "exploratory competing-explanation test after P22 photometric/temporal inspection",
+  "hypothesis": "Spatial fields mostly represent one rigid displacement modulated by foreground/background occupancy, not independently rich vector dynamics.",
+  "controls": [
+    "H plus median vector",
+    "H plus rank-one nonnegative ray through residual zero",
+    "H plus best affine line of residual vectors (offset and oracle scalar support)",
+    "H plus full dense residual"
+  ],
+  "support": "Same current visibility and endpoint validity for all arms; temporal descriptive subset additionally uses both saved step masks.",
+  "no_threshold_sweep": true,
+  "identity_labels": false,
+  "new_flow_inference": false,
+  "training": false,
+  "source_sha256": "794a7d7deebf3a30b8a12ba2e6861845703b9dad3a1813b0122635217cd0c5dd",
+  "feature_receipt_sha256": "08f11a1322d89510dc1b6d6acba0b4cf068ecd0e62bbfbd23e7696f7ce2f1782"
+}

@@ -1,0 +1,49 @@
+{
+  "audit_v1_defect": "Audit counted len(dict) instead of len(frame array); prefix check was invalid. Corrected without modifying training or scoring.",
+  "conclusion": "Training helps fit but does not improve calibration over fixed mean. Undertraining versus objective/generalization remains unresolved.",
+  "fixed_mean_comparison": {
+    "calibration": {
+      "macro_delta_vs_fixed_mean": -0.0005600044251633629,
+      "pair_wins_vs_fixed_mean": 1,
+      "per_pair_delta": {
+        "27": -0.0004921259842519676,
+        "32": -0.003244120032441178,
+        "42": -0.0023999999999999577,
+        "64": 0.008946322067594381,
+        "65": -0.005610098176718092
+      }
+    },
+    "fit": {
+      "macro_delta_vs_fixed_mean": 0.00849432123628419,
+      "pair_wins_vs_fixed_mean": 15,
+      "per_pair_delta": {
+        "23": 0.009287925696594423,
+        "25": 0.007831325301204783,
+        "28": 0.007411067193675902,
+        "29": 0.011363636363636354,
+        "39": 0.0031847133757961776,
+        "44": 0.005899705014749235,
+        "45": 0.002039627039627012,
+        "51": 0.013986013986013957,
+        "53": 0.021276595744680882,
+        "63": 0.01898734177215189,
+        "66": 0.002435629784272808,
+        "69": 0.005042668735453892,
+        "70": 0.006424792139077873,
+        "74": 0.009368836291913207,
+        "78": 0.0028749401054144474
+      }
+    }
+  },
+  "implementation_audit": "IMPLEMENTATION_AUDIT.json",
+  "implementation_defect_found": false,
+  "next": "One full-coverage 3-epoch experiment with same architecture; evaluate only final checkpoint; require improvement over fixed mean.",
+  "status": "PASS_P40_FAILURE_DECOMPOSITION",
+  "training_coverage": {
+    "eligible_groups": 18412,
+    "equivalent_group_epochs": 0.0651748859439496,
+    "unique_group_fraction": 0.06273082772105149,
+    "unique_groups": 1155,
+    "updates": 1200
+  }
+}

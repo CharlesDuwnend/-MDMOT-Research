@@ -1,0 +1,33 @@
+{
+  "status": "PASS_CCFI_IMPLEMENTATION_FAILURE_AUDIT_V1_3X3",
+  "failure": "CPU contract selected a legal shared-label frame/class group with zero causal-history rows, so the change branch received no gradient and the all-parameter gradient check failed.",
+  "classification": "IMPLEMENTATION_CONTRACT_SELECTION_FAILURE",
+  "rounds": {
+    "R1_data_selection": {
+      "checks": {
+        "frozen_fit_pair_loaded": true,
+        "shared_label_group_found": true,
+        "selected_group_has_zero_history": true
+      },
+      "conclusion": "The selected group was real and legal, but it was not suitable for a factorized-branch gradient contract."
+    },
+    "R2_loss_connectivity": {
+      "checks": {
+        "matching_loss_finite": true,
+        "uncertainty_branch_gradient_present": true,
+        "change_branch_gradient_present": false
+      },
+      "conclusion": "The missing change gradient is explained by the zero-history selection, not by a NaN or broken tensor shape."
+    },
+    "R3_replay_finiteness": {
+      "checks": {
+        "forward_replay_finite": true,
+        "repeat_replay_deterministic": true,
+        "parameter_values_finite": true
+      },
+      "conclusion": "No numerical instability or nondeterministic replay defect was found."
+    }
+  },
+  "repair": "Require the CPU contract group to contain a shared valid identity and at least one history row, and include all declared auxiliary losses in the gradient check.",
+  "gpu_authorized_before_repair": false
+}

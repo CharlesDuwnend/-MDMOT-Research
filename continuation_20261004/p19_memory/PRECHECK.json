@@ -1,0 +1,118 @@
+{
+  "attribution_limit": "Observed response of the existing joint implementation: the memory threshold and the same-frame score shift both change. Same-frame admissibility stays at cosine >= 0.70, but a varying shift can change Hungarian assignment cardinality. This is not an isolated causal estimate of memory-threshold effects.",
+  "checks": [
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "prediction_freeze_sha256": "621b788ec330bb098af90928e4e541df1002552df9dafc902eb13d3449c48768",
+      "runner_exit": 0,
+      "runtime_threshold": 0.8918,
+      "same_frame_shift": 0.19180000000000008,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "tag": "p19_cal_mem0.8918_sf0.70",
+      "verified_frozen_run_files": 36
+    },
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "prediction_freeze_sha256": "562b28b0833e49ab88abde3854123994bce9aa23b3fffb6575d82feccb380311",
+      "runner_exit": 0,
+      "runtime_threshold": 0.85,
+      "same_frame_shift": 0.15000000000000002,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "tag": "p19_cal_mem0.85_sf0.70",
+      "verified_frozen_run_files": 36
+    },
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "prediction_freeze_sha256": "14a21aea0feb48c7ca7914452b98ce3ff0d4fb2213ea0e5438e7ad0454fd93c1",
+      "runner_exit": 0,
+      "runtime_threshold": 0.8,
+      "same_frame_shift": 0.10000000000000009,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "tag": "p19_cal_mem0.80_sf0.70",
+      "verified_frozen_run_files": 36
+    },
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "prediction_freeze_sha256": "58b436972b29aec82d422fdec528e1298dfa0a136b39bd28248676396fc6ff12",
+      "runner_exit": 0,
+      "runtime_threshold": 0.75,
+      "same_frame_shift": 0.050000000000000044,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "tag": "p19_cal_mem0.75_sf0.70",
+      "verified_frozen_run_files": 36
+    },
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "prediction_freeze_sha256": "86da0b377c1e5e2231d9ec7f3b83239f8bd67f3ccccf4a417dec97309bcd9932",
+      "runner_exit": 0,
+      "runtime_threshold": 0.7,
+      "same_frame_shift": 0.0,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "tag": "p19_cal_mem0.70_sf0.70",
+      "verified_frozen_run_files": 36
+    }
+  ],
+  "created_utc": "2026-10-04T11:06:49.013276+00:00",
+  "dev5_read": false,
+  "official_val_or_test_read": false,
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "protected_input_sha256": {
+    "/home/chenhc/mdmot_research_20261002/p18_merge_verifier/data_io_cal5.py": "feb54d6aa35ba358b7b843761887c06578cfd8ae8d0b6dfbc640e7df6b9d35f1",
+    "/home/chenhc/mdmot_research_20261002/p18_merge_verifier/evaluate_cal5.py": "53c45013500905aaa79206dff97c13cc21180bab998f5d444e6c8a114393a797",
+    "/home/chenhc/mdmot_research_20261002/p18_merge_verifier/run_host_merge.py": "3379b498b9da170098581be2f46c585648cfe16fbebf5b7efa3d9e45c141dafe",
+    "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/P19_PREREG.json": "a2f601723149e021c292afed4dcec239c8d0c34a71bac74cd5f71b97c2119eb0",
+    "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/p19mem.log": "887024ef841404af06c37d32b06ba2a2878cb3498462f6c69a8beaf10207d08f",
+    "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/run_p19_mem.sh": "3d011a63329de3c917b79d684dc6f5f4078d236f1686949333b340eca6a71791",
+    "/home/chenhc/mdmot_research_20261002/p1e/evaluation/RULES.json": "147f903178bb20131cd8014d95403c7487822917f8f6d06678cf975d8b6e6f2c",
+    "/home/chenhc/mdmot_research_20261002/p1e/evaluation/crosslink.py": "a63da8d67a6780521d5e459730064a61e734aaaa15a5bb9fa9c984b5565c1eb1",
+    "/home/chenhc/mdmot_research_20261002/p1e/evaluation/metrics.py": "829e675062de73b494701d7b97ad69d23cf6c6a61bb267b615fcc102149cf676",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.70_sf0.70/PREDICTIONS_FROZEN.json": "86da0b377c1e5e2231d9ec7f3b83239f8bd67f3ccccf4a417dec97309bcd9932",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.70_sf0.70/runner.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.75_sf0.70/PREDICTIONS_FROZEN.json": "58b436972b29aec82d422fdec528e1298dfa0a136b39bd28248676396fc6ff12",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.75_sf0.70/runner.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.80_sf0.70/PREDICTIONS_FROZEN.json": "14a21aea0feb48c7ca7914452b98ce3ff0d4fb2213ea0e5438e7ad0454fd93c1",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.80_sf0.70/runner.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/PREDICTIONS_FROZEN.json": "562b28b0833e49ab88abde3854123994bce9aa23b3fffb6575d82feccb380311",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/runner.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.8918_sf0.70/PREDICTIONS_FROZEN.json": "621b788ec330bb098af90928e4e541df1002552df9dafc902eb13d3449c48768",
+    "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.8918_sf0.70/runner.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  "raw_GT_read": false,
+  "status": "PASS_FIVE_EXISTING_CAL5_RUNS_FROZEN"
+}

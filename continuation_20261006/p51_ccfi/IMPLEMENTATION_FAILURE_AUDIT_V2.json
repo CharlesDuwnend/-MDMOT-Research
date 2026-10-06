@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CCFI_IMPLEMENTATION_FAILURE_AUDIT_V2_3X3",
+  "failure": "The first GPU launch set CUDA_VISIBLE_DEVICES after an earlier CUDA device-count probe, so the cached torch device count remained 4 and the physical UUID binding check rejected the run.",
+  "classification": "GPU_BINDING_ORDER_FAILURE",
+  "rounds": {
+    "R1_environment": {
+      "checks": {
+        "physical_uuid_exists": true,
+        "physical_gpu3_is_a100_40gb": true,
+        "gpu2_forbidden": true
+      }
+    },
+    "R2_binding_replay": {
+      "checks": {
+        "pre_binding_torch_cache_was_all_devices": true,
+        "post_binding_uuid_device_count_rejected": true,
+        "no_training_kernel_launched": true
+      }
+    },
+    "R3_scope_and_recovery": {
+      "checks": {
+        "cpu_contract_still_passes": true,
+        "no_checkpoint_written_by_failed_launch": true,
+        "repair_is_preimport_binding_and_unmasked_physical_probe": true
+      }
+    }
+  },
+  "repair": "Set the approved GPU UUID before importing torch and query nvidia-smi with CUDA_VISIBLE_DEVICES removed for physical-index verification.",
+  "gpu_authorized_before_repair": false
+}

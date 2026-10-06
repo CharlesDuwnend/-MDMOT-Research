@@ -1,0 +1,37 @@
+{
+  "bbox_mask_expansion_fraction": 0.1,
+  "code_sha256": "17f558a0e797cbbf5b62313ceabcbfe0bee5a3d020272389ab3338dc430fce58",
+  "common_coordinate_or_hardware_sync_assumed": false,
+  "created_utc": "2026-10-04T11:43:17.208591+00:00",
+  "failure_scope": "SIFT/background-homography construction only; cannot rule out a learned geometry model",
+  "foreground_position": "bbox bottom center",
+  "frames_per_pair": 8,
+  "gate": {
+    "at_least_pairs_with_supported_geometry": 3,
+    "min_feature_edges": 200,
+    "remaining_gate": "known-label true-vs-distractor motion evidence beyond static geometry, evaluated after feature freeze"
+  },
+  "hypothesis": "Background-separated target motion may add identity-specific cross-view evidence",
+  "inference_identity_labels": false,
+  "lag": 8,
+  "max_cycle_error_pixels": 3.0,
+  "max_image_side": 960,
+  "min_hull_fraction": 0.02,
+  "min_inlier_fraction": 0.25,
+  "min_inliers": 12,
+  "no_GPU": true,
+  "no_dev_calibration_val_test": true,
+  "no_tuning": true,
+  "novelty": "HOLD: background compensation and Jacobian transport alone are established operators",
+  "pairs": [
+    "23",
+    "25",
+    "29",
+    "69",
+    "78"
+  ],
+  "ransac_pixels": 3.0,
+  "ratio": 0.75,
+  "seed": 20261004,
+  "sift_features": 2000
+}

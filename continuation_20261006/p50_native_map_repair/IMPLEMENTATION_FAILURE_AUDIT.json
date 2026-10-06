@@ -1,0 +1,38 @@
+{
+  "status": "A1_A2_A3_PASS_FRESH_RERUN",
+  "audits": [
+    {
+      "audit": "A1_stack_and_contract",
+      "status": "PASS",
+      "evidence": {
+        "failure": "IndexError: mask [19] used on tensor [20] in assignment_loss",
+        "root_cause": "candidate mask indexed concatenated candidate+dustbin logits",
+        "fix": "positive numerator now indexes logits[i,p], denominator indexes K+1 all_logits",
+        "source_sha256": "abf80d87dbfc4d4a0a6012a1ac55dc88620e9b1c2fb55950b8fd82b3e01064a6"
+      }
+    },
+    {
+      "audit": "A2_executable_edge_shapes",
+      "status": "PASS",
+      "stdout": "PASS_EDGE_K0_K1_K19_K64_FINITE\n",
+      "stderr": ""
+    },
+    {
+      "audit": "A3_fresh_process_smoke_rerun",
+      "status": "PASS",
+      "evidence": {
+        "command": "CUDA_VISIBLE_DEVICES=GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a P50_STEPS=2 P50_FIT_PAIRS=23 P50_EVAL_PAIRS=69 native_set_residual_gate.py",
+        "exit_code": 0,
+        "fit_events": 213,
+        "eval_events": 566,
+        "dropped_fit": 0,
+        "dropped_eval": 0,
+        "arms_completed": 8,
+        "source_sha256": "1bee77852107ca786688d2cbf694adaa66708ce3c6fa6521cdea70619f53598d",
+        "smoke_artifact_sha256": "7b5d593b933681b41d13758fb38945a75507f414f76755e2f5fd2190d415c31f"
+      }
+    }
+  ],
+  "official_val_test_access": false,
+  "formal_rerun_authorized": true
+}

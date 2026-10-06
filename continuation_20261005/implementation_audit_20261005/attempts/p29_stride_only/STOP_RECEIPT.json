@@ -1,0 +1,32 @@
+{
+  "status": "STOPPED_IMPLEMENTATION_DEFECT_FOUND",
+  "reason": "raw value token mask incorrectly used current-query warp validity",
+  "stop_method": "tmux Ctrl-C",
+  "process_exit_marker": "absent because shell also interrupted; Python KeyboardInterrupt recorded in train.log",
+  "last_recorded_step": 600,
+  "completed_arms": 0,
+  "predictions_produced": false,
+  "artifacts": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/residual_deformable.py": "589a0c70c0678ce23e335e3c01736250720349f4b3c8841e18ab44a19b92b05f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/train_residual.py": "e9f38369dc20ceba660bc7435ee08733d22285c6c7f355b72ff2216151b8c29b",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/smoke.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/TRAIN_PROTOCOL.json": "777632cab4ee2e3850c4a4d7f5641dbb7cccebda1ecd06ac23bc6c1f88a62dd7",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/train.log": "06bc574db145af99afe513d981489f2bd232e204fda37fa7ecde0bf064968741",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/test_repair_contract.py": "d54ee1d1708e2ce07f6a2de00e622ebe6f3ff8a524c22609ecd4ad5ce487d6a1",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/run_train.sh": "41883e246b237707f8904338b9d51f27070fa5e46f48989898ebb0938b5f14b6",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/REPAIR_STATUS.json": "2f3130b002746f87b33edf3047478d83bd3eee90df0d9a1ddfcb72f29b121b7a",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/smoke.log": "51c5e6a9affa1cad905113649572a07a0a1fb77e9e0657107e0048f92f44dda0",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/smoke/INPUTS_VERIFIED_BEFORE_LABELS.json": "3177d17723be157aa60fe838c351613833ce8272ba50c4a620488018de5fcbe7",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/smoke/SCHEDULE.json": "71bc45eeffc4d5f64a2c2fec4670caae03b41a61f3ce49b605c5836f56e40db5",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/smoke/SMOKE.json": "29f836f038f931d2bc7c51a1d39fdfbc99d9e04013d3af8d03a40a07ee54c896",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/smoke/SMOKE_RECEIPT.json": "fd952eef9852ff32d8277dee92ae195cf6ea3a51fabce458358e254b853e233b",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/smoke/PRE_TRAIN.json": "14bcac589ad815325f06b5843dc2cd672c1bc018b252e1cdcda012f000b32882",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/training/PROGRESS.json": "5687a8759995014308837197a7daabb52b6267eb4658e2f707ed255538214dba",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/training/INPUTS_VERIFIED_BEFORE_LABELS.json": "2693fc8a4c87d532118784f7d2409789a01dffcd10a383b862174f8bae47b804",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/training/SCHEDULE.json": "71bc45eeffc4d5f64a2c2fec4670caae03b41a61f3ce49b605c5836f56e40db5",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/training/SMOKE.json": "ac879a855cbb28810d034c3a3b42ef1471f21aa757198af46a9f97e14ba2018c",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/training/PRE_TRAIN.json": "1a9005ef8b384401567ed14b3e3fb05d7a2fc89d5e20df75a71a440fec0e5f44",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/implementation_audit_20261005/attempts/p29_stride_only/training/current_residual/LOSSES.jsonl": "dd32edce1678510eb92955fb5c43b534aee92cad029bc545d768d5e35b064a7a"
+  },
+  "official_val_or_test_read": false
+}

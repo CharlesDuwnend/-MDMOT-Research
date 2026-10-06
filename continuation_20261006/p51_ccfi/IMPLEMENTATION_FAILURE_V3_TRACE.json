@@ -1,0 +1,369 @@
+{
+  "status": "FOUND_CCFI_NONFINITE_GRADIENT_V3",
+  "first_failure": {
+    "step": 291,
+    "pair": "53",
+    "frame": 1,
+    "class": 2,
+    "loss": 1.3975213766098022,
+    "parts": {
+      "matching": 1.3975213766098022,
+      "change": 0.0,
+      "orthogonality": 0.0,
+      "uncertainty": 0.0
+    },
+    "bad": [
+      "change.0.weight",
+      "change.0.bias",
+      "change.2.weight",
+      "change.2.bias"
+    ],
+    "stats": {
+      "core_gate.0.weight": {
+        "finite": true,
+        "max": 0.0
+      },
+      "core_gate.0.bias": {
+        "finite": true,
+        "max": 0.0
+      },
+      "core_gate.1.weight": {
+        "finite": true,
+        "max": 0.0
+      },
+      "core_gate.1.bias": {
+        "finite": true,
+        "max": 0.0
+      },
+      "core_gate.3.weight": {
+        "finite": true,
+        "max": 0.0
+      },
+      "core_gate.3.bias": {
+        "finite": true,
+        "max": 0.0
+      },
+      "core_delta.0.weight": {
+        "finite": true,
+        "max": 0.0
+      },
+      "core_delta.0.bias": {
+        "finite": true,
+        "max": 0.0
+      },
+      "core_delta.2.weight": {
+        "finite": true,
+        "max": 0.0
+      },
+      "core_delta.2.bias": {
+        "finite": true,
+        "max": 0.0
+      },
+      "change.0.weight": {
+        "finite": false,
+        "max": null
+      },
+      "change.0.bias": {
+        "finite": false,
+        "max": null
+      },
+      "change.2.weight": {
+        "finite": false,
+        "max": null
+      },
+      "change.2.bias": {
+        "finite": false,
+        "max": null
+      },
+      "uncert.0.weight": {
+        "finite": true,
+        "max": 0.0011062566190958023
+      },
+      "uncert.0.bias": {
+        "finite": true,
+        "max": 0.013498151674866676
+      },
+      "uncert.2.weight": {
+        "finite": true,
+        "max": 0.010201506316661835
+      },
+      "uncert.2.bias": {
+        "finite": true,
+        "max": 0.16890385746955872
+      }
+    }
+  },
+  "checked_steps": 291,
+  "pre_failure_finite": true,
+  "trace_tail": [
+    {
+      "step": 289,
+      "pair": "63",
+      "frame": 650,
+      "class": 2,
+      "loss": 0.8746352791786194,
+      "parts": {
+        "matching": 0.8256871104240417,
+        "change": 0.9333599805831909,
+        "orthogonality": 0.004642672836780548,
+        "uncertainty": 0.04096049442887306
+      },
+      "bad": [],
+      "stats": {
+        "core_gate.0.weight": {
+          "finite": true,
+          "max": 0.0005214876146055758
+        },
+        "core_gate.0.bias": {
+          "finite": true,
+          "max": 0.0015552304685115814
+        },
+        "core_gate.1.weight": {
+          "finite": true,
+          "max": 0.00022173683100845665
+        },
+        "core_gate.1.bias": {
+          "finite": true,
+          "max": 0.00013248083996586502
+        },
+        "core_gate.3.weight": {
+          "finite": true,
+          "max": 0.0021881419233977795
+        },
+        "core_gate.3.bias": {
+          "finite": true,
+          "max": 0.0008552835206501186
+        },
+        "core_delta.0.weight": {
+          "finite": true,
+          "max": 0.006752555258572102
+        },
+        "core_delta.0.bias": {
+          "finite": true,
+          "max": 0.023869622498750687
+        },
+        "core_delta.2.weight": {
+          "finite": true,
+          "max": 0.03078758530318737
+        },
+        "core_delta.2.bias": {
+          "finite": true,
+          "max": 0.138126939535141
+        },
+        "change.0.weight": {
+          "finite": true,
+          "max": 0.00020602985750883818
+        },
+        "change.0.bias": {
+          "finite": true,
+          "max": 0.0013179207453504205
+        },
+        "change.2.weight": {
+          "finite": true,
+          "max": 0.0002071498311124742
+        },
+        "change.2.bias": {
+          "finite": true,
+          "max": 0.004111310932785273
+        },
+        "uncert.0.weight": {
+          "finite": true,
+          "max": 0.0010774258989840746
+        },
+        "uncert.0.bias": {
+          "finite": true,
+          "max": 0.010787473991513252
+        },
+        "uncert.2.weight": {
+          "finite": true,
+          "max": 0.010368863120675087
+        },
+        "uncert.2.bias": {
+          "finite": true,
+          "max": 0.12442947924137115
+        }
+      }
+    },
+    {
+      "step": 290,
+      "pair": "39",
+      "frame": 140,
+      "class": 2,
+      "loss": 0.16600297391414642,
+      "parts": {
+        "matching": 0.11554522067308426,
+        "change": 0.9623068571090698,
+        "orthogonality": 0.0014794999733567238,
+        "uncertainty": 0.04536905512213707
+      },
+      "bad": [],
+      "stats": {
+        "core_gate.0.weight": {
+          "finite": true,
+          "max": 4.828518649446778e-05
+        },
+        "core_gate.0.bias": {
+          "finite": true,
+          "max": 0.0001934586907736957
+        },
+        "core_gate.1.weight": {
+          "finite": true,
+          "max": 2.2904772777110338e-05
+        },
+        "core_gate.1.bias": {
+          "finite": true,
+          "max": 1.7321919585810974e-05
+        },
+        "core_gate.3.weight": {
+          "finite": true,
+          "max": 0.0002172514796257019
+        },
+        "core_gate.3.bias": {
+          "finite": true,
+          "max": 5.106307798996568e-05
+        },
+        "core_delta.0.weight": {
+          "finite": true,
+          "max": 0.008253161795437336
+        },
+        "core_delta.0.bias": {
+          "finite": true,
+          "max": 0.015880240127444267
+        },
+        "core_delta.2.weight": {
+          "finite": true,
+          "max": 0.020858094096183777
+        },
+        "core_delta.2.bias": {
+          "finite": true,
+          "max": 0.19638536870479584
+        },
+        "change.0.weight": {
+          "finite": true,
+          "max": 0.0007678121328353882
+        },
+        "change.0.bias": {
+          "finite": true,
+          "max": 0.003504361491650343
+        },
+        "change.2.weight": {
+          "finite": true,
+          "max": 0.0006305393762886524
+        },
+        "change.2.bias": {
+          "finite": true,
+          "max": 0.00962990801781416
+        },
+        "uncert.0.weight": {
+          "finite": true,
+          "max": 0.0008369082352146506
+        },
+        "uncert.0.bias": {
+          "finite": true,
+          "max": 0.005084634758532047
+        },
+        "uncert.2.weight": {
+          "finite": true,
+          "max": 0.004481846000999212
+        },
+        "uncert.2.bias": {
+          "finite": true,
+          "max": 0.058391325175762177
+        }
+      }
+    },
+    {
+      "step": 291,
+      "pair": "53",
+      "frame": 1,
+      "class": 2,
+      "loss": 1.3975213766098022,
+      "parts": {
+        "matching": 1.3975213766098022,
+        "change": 0.0,
+        "orthogonality": 0.0,
+        "uncertainty": 0.0
+      },
+      "bad": [
+        "change.0.weight",
+        "change.0.bias",
+        "change.2.weight",
+        "change.2.bias"
+      ],
+      "stats": {
+        "core_gate.0.weight": {
+          "finite": true,
+          "max": 0.0
+        },
+        "core_gate.0.bias": {
+          "finite": true,
+          "max": 0.0
+        },
+        "core_gate.1.weight": {
+          "finite": true,
+          "max": 0.0
+        },
+        "core_gate.1.bias": {
+          "finite": true,
+          "max": 0.0
+        },
+        "core_gate.3.weight": {
+          "finite": true,
+          "max": 0.0
+        },
+        "core_gate.3.bias": {
+          "finite": true,
+          "max": 0.0
+        },
+        "core_delta.0.weight": {
+          "finite": true,
+          "max": 0.0
+        },
+        "core_delta.0.bias": {
+          "finite": true,
+          "max": 0.0
+        },
+        "core_delta.2.weight": {
+          "finite": true,
+          "max": 0.0
+        },
+        "core_delta.2.bias": {
+          "finite": true,
+          "max": 0.0
+        },
+        "change.0.weight": {
+          "finite": false,
+          "max": null
+        },
+        "change.0.bias": {
+          "finite": false,
+          "max": null
+        },
+        "change.2.weight": {
+          "finite": false,
+          "max": null
+        },
+        "change.2.bias": {
+          "finite": false,
+          "max": null
+        },
+        "uncert.0.weight": {
+          "finite": true,
+          "max": 0.0011062566190958023
+        },
+        "uncert.0.bias": {
+          "finite": true,
+          "max": 0.013498151674866676
+        },
+        "uncert.2.weight": {
+          "finite": true,
+          "max": 0.010201506316661835
+        },
+        "uncert.2.bias": {
+          "finite": true,
+          "max": 0.16890385746955872
+        }
+      }
+    }
+  ]
+}

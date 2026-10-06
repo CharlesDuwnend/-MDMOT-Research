@@ -1,0 +1,93 @@
+# Paper progress checkpoint — 2026-10-05
+
+The honest paper status is now separated into two routes.
+
+## Route A: paperable protocol/diagnosis
+
+`MDMT-COD` remains the strongest paper route currently supported by evidence: a frozen, prefix-causal event ledger that separates candidate coverage, rank evidence, one-to-one assignment, owner commit, and future contamination. It has a train-only replay and legal GT boundary. This can support a protocol/diagnosis paper, but it does not claim a new association operator or SOTA MOT score.
+
+## Route B: new method
+
+There is still no validated paper-ready method. The latest candidate, P32 Prefix-Causal Owner-State Revision, was implemented and tested on 25 train pairs. Its exact decision and hashes are in [`p32_cod_state_repair/P32_DECISION.md`](p32_cod_state_repair/P32_DECISION.md) and [`p32_cod_state_repair/RECEIPT.json`](p32_cod_state_repair/RECEIPT.json). It is `HOLD_NOT_PAPER_READY`: 32 bounded replacements produced one fewer false edge than an equal-information/equal-delay control, no extra correct edge, and only a 0.30% reduction in the diagnostic wrong-co-observation count.
+
+The implementation failure audit passed after correcting an invalid global end-frame statistic. This means the weak result is not currently explained by a replay bug; a stronger claim would need a new observable identity signal or a distinct supervision/representation target. Sweeping `W`, tie breaks, or thresholds would be tuning and is not the next method step.
+
+## Frozen evidence boundaries
+
+* P26 MIA is a mature paper-comparable baseline; it is not a new method.
+* P28 causal FGFA is an established pilot and failed host integration as a frozen temporal port.
+* P29 learned alignment was repaired twice, then failed its pre-registered detection gate; P30 fixed-offset host integration lost 2.08 pp MDA.
+* P20/P23 deferred global merge improves a complete-output operating point, but its skeleton is prior art and cannot be presented as a novel module.
+* No official val/test was read or selected in P32.
+
+The next authorized research action should therefore be either (1) write and validate the MDMT-COD protocol/diagnosis paper, or (2) pre-register a genuinely new representation/supervision mechanism with an independent train-only gate before using any large GPU run.
+
+## P34/P35 actual method attempts (2026-10-05)
+
+Two isolated, trained candidates were executed on top of the P26 MIA baseline. BTCH, a generic temporal tracklet relation head, was collision-prone and failed attachment: pair23 diagnostic MDA fell from 0.6431316 to 0.0041913 after one false ID edit. The failure audit found an initially buggy frame-index diagnostic, a label-policy issue, and an unsafe interaction with official duplicate-ID semantics; the candidate is STOP (`p34_btch/BTCH_DECISION.md`).
+
+P35 canonical point transport learned an object-conditioned bounded point from frozen DINO crop features, with target-excluded cross-fit DLT loss. Its implementation audit passed, but the held-out calibration representation gate failed: learned/center median reprojection ratio 1.00594697 and 0/5 pairs improved by >=5%. It was stopped before host attachment (`p35_canonical_transport/DECISION.json`).
+
+The unchanged MIA baseline was then replayed on six fit pairs. Native runs completed pairs25/28/29; the separate crash-only compatibility replay completed pairs39/44/45. The original MIA sentinel bug (`int(0).reshape`) caused the crash; the compatibility layer preserved normal paths and logged 907 previous-valid-H fallbacks. These are fit diagnostics, not a merged paper result (`p34_btch/MULTIPAIR_REPLAY_INVENTORY.json`).
+
+## P36 visual-conditioned geometry host transfer (2026-10-05)
+
+P23 visual_ft was selected as the strongest existing learned representation signal: fit15 training followed by a held-out cal5 retrieval gate gave macro R@1 0.502028 versus 0.479026 for head-only, with 5/5 pair wins. P36 extracted the frozen visual_ft descriptor for all pair23 detector rows and attached it to a fixed homography-gated one-to-one association on fresh P26 outputs.
+
+The first implementation audit found two real engineering failures: an incorrect train/2 image root stopped the second-view extraction, and unsafe ID rewriting created duplicate IDs in 270 frames. Both were repaired and rerun; the final extraction had 100%/99.8777% output-to-feature coverage and zero duplicate IDs. The repaired fused and geometry-only assignments were byte-identical, so the appearance term was not causally active. Pair23 diagnostic scores were P26 MDA/IDF1/MOTA 0.643132/0.908768/0.947415 versus P36 0.671904/0.903053/0.940458, with switches 770 -> 1008. This is a host-transfer failure, not a paper improvement. Decision and audit: `p36_visual_geometry/DECISION.json`, `p36_visual_geometry/FAILURE_AUDIT.json`.
+
+## P25 source-conditioned pixel localization (2026-10-05)
+
+P25 passed input-contract, target-contract, real-gradient, and source-permutation audits. Fit15 used 27,189 frozen predicted-box/image rows (15,769 eligible supervised rows); two 1,200-step arms were trained from the same P23 visual_ft checkpoint on GPU3 A100, with receiver-only and source-conditioned final losses 2.9202/2.9126. Calibration5 predictions were frozen for all 3,782 queries before XML labels were read. The source-conditioned output changed under donor permutation on 99.46% of eligible rows and swapping increased median error by 0.000108, so the branch is causally active. However, its normalized center median was 0.0168445 versus 0.0160696 for receiver-only, losing on all 5 calibration pairs; the fixed representation gate required >=3/5 wins. Failure audit passed hashes, ordering, nonconstant crops, gradient update, source path, and label-order checks, so this is a weak representation signal rather than a demonstrated implementation failure. STOP_REPRESENTATION_GATE; no P26 host transfer or official val/test. Artifacts: `p25_pixel_localization/DECISION.json`, `p25_pixel_localization/FAILURE_AUDIT.json`, `p25_pixel_localization/CALIBRATION_READOUT.json`.
+
+P37 transferred the already-trained P14 frozen_adapter residual association to fresh P26 fit23 outputs. P26 rows were mapped to the frozen P2 detector cache by unique same-frame IoU (view1 99.964% / view2 99.715%), then processed with the fixed P14 checkpoint and original DINOv2 crop rule on GPU1 A100. Descriptors were finite/unit and changed 2,178 frame-level assignment pairs versus the geometry-only control; zero duplicate IDs remained after collision-safe application. The complete-output diagnostic nevertheless scored P26 0.643132/0.908768/0.947415 (MDA/IDF1/MOTA) versus P37-P14 0.633205/0.891537/0.924586, with switches 770 -> 1551. The geometry-only control was also poor (0.634063/0.889117/0.923066). P37 therefore stops at the host-quality gate: the representation-proxy gain does not survive the mature MIA host, and no multi-pair or official-val/test expansion is authorized. This is a host-transfer failure, not an extraction or implementation-bug claim. Artifacts: `p37_p14_host_transfer/DECISION.json`, `FAILURE_AUDIT.json`, `runs/pair23/RECEIPT.json`, `runs/host_pair23/SCORES.json`.
+
+P38 trained a new causal track-conditioned temporal memory adapter on top of frozen P1 128D embeddings. The adapter receives only the current embedding and up to four strictly past same-view observations indexed by local-track history; it was trained for 1,200 fixed P7R updates with cross-view masked CE plus causal temporal consistency on GPU3 A100. Label-free embeddings were frozen on all fit15/cal5 crop32 frames before one scoring pass. Fit15 R@1 improved 0.847626 -> 0.859214 (+0.011588); cal5 improved 0.444068 -> 0.451366 (+0.007299), with 5/5 calibration-pair wins and 15/15 fit-pair wins. The fixed gate required cal5 >=0.4641 and lift >=0.01, so P38 is held as a promising representation direction but cannot enter P26 or support a paper claim. Implementation audit passed zero-init, gradients, key order, causal-history age, permutation sensitivity, and no-label input checks; no implementation defect explains the below-gate result. Artifacts: `p38_temporal_memory/DECISION.json`, `FAILURE_AUDIT.json`, `IMPLEMENTATION_AUDIT.json`, `runs/evaluation/RESULTS.json`.
+
+## P39/P40 temporal mean and training sufficiency (2026-10-05)
+
+P39 uses the existing FIFO8/MAX_GAP30 causal mean without training. Exact P4 fit15 R@1 is 0.870359 and cal5 0.468644 (static P1 0.847626/0.444068), with 5/5 calibration wins. P40 zero-residual anchored adapter trained 1200 updates gives fit15 0.878853, cal5 0.468084. Although P40 passes the static-P1 representation gate, it is below fixed mean by 0.000560 on calibration (1/5 wins); no learned contribution is established. Implementation audit passes after correcting the audit dictionary-row-count bug; no training/scoring bug was found. P7R short schedule covers 1155/18412 eligible groups (6.27%, 0.065 equivalent epoch). One complete-coverage three-epoch sufficiency study is the next research gate; no host or paper claim is authorized.
+
+## P41 full-coverage sufficiency and stop (2026-10-05)
+
+P41 trained the P40 mean-anchored residual adapter over all 18,412 eligible fit groups for three fixed seeded permutations (55,236 updates) on GPU1 A100. The final checkpoint passed causal/key/unit/finite implementation audit, but cal5 R@1 was 0.459303 versus P1 0.444068 and P39 fixed mean 0.468644; it lost to the fixed mean by 0.9341 pp and won 4/5 cal pairs. The learned temporal adapter is therefore stopped; P39 remains a non-novel control, not a paper method. No host transfer or official-val/test read is authorized.
+
+P41 existing-artifact strata confirm fit +5.5742 pp versus fixed mean, calibration -0.9341 pp, and conventional known-only calibration -0.8091 pp. Unknown-candidate confusion explains only part of the regression. Checkpoint metadata inherited `fixed_step=1200`; it was repaired to 55236 with the raw checkpoint retained and exact tensor equality verified (`METADATA_REPAIR.json`). The corrected final checkpoint SHA is `528542e3574ee7270550e42a1505f46013101d2c5b3e205103d7167bdc8d7eee`. Runtime GPU1 PID/UUID evidence is recorded in `GPU_EVIDENCE.json`; earlier P38/P40 UUIDs represent selection metadata, not verified per-PID execution evidence.
+
+## P42 fixed temporal mean host transfer (2026-10-05)
+
+P42 mapped fresh P26 pair23 rows to frozen P2 P1 embeddings with 99.964%/99.715% coverage, replayed the sealed P39 FIFO8/MAX_GAP30 mean, and used the P37 homography-gated one-to-one solver unchanged. The mean changed 2,150 frame-level assignments with zero duplicate IDs. Host scores were P26 MDA/IDF1/MOTA 0.643132/0.908768/0.947415, geometry 0.634063/0.889117/0.923066, and mean8 0.633664/0.891391/0.924995; switches were 770/1603/1537. P42 stops temporal-mean host transfer; no pair expansion or official-val/test read.
+
+## P43 causal owner continuity repair (2026-10-05)
+
+P43 audited and repaired the host application defect found in P42/P37: a native view2 owner is assigned once and kept injectively for its lifetime. The repair reduced view2 relabels to 186 and eliminated all owner continuity violations and duplicate frame IDs. However, P43 geometry and P43 mean8 outputs are identical at the complete-output level; both score MDA 0.639307 (below P26 0.643132), with IDF1/MOTA unchanged at 0.908768/0.947415. P43 is an engineering control and closes temporal-mean host transfer; it is not a paper method.
+
+## P44 tracklet owner evidence stop (2026-10-05)
+
+P44 accumulated frozen P14 appearance plus homography edge costs per native view2 tracklet segment (gap 30) and committed one owner per segment. The application was collision-safe, but mean8 scored MDA/IDF1/MOTA 0.419584/0.854888/0.932800 versus P26 0.643132/0.908768/0.947415; geometry control scored 0.408984/0.836608/0.933384. P44 is stopped before training or pair expansion. The host-transfer/owner-evidence phase is closed; P26 remains the mature baseline, P23/P39 remain representation controls, and MDMT-COD remains the only currently defensible paper route.
+
+## P45 relation-to-plan collision audit (2026-10-05)
+
+P45 proposed a permutation-equivariant cross-view relation encoder, partial transport plan, and continuity-safe owner publication at the MIA association front door. Its CPU mechanism contract passed four checks (finite/injective plan, permutation equivariance, strict prefix boundary, confirmed-owner continuity), but no MDMT data, XML, detector, GPU, training, host replay, or MOT metric was opened. The mechanism was stopped before implementation: GTA-Net (2025) explicitly formulates multi-drone target association as graph matching over node/edge spatial relationships with affine association/completion. P45 would therefore be a direct collision under the current claim. The separate asynchronous-time pivot is also inadmissible: the pinned MDMT schema records timestamp/delay/synchronization fields as unavailable, while the paired protocol uses shared frame IDs. No new method claim is authorized; see `p45_causal_relational_transport/DECISION.json` and `NEXT_DIRECTION_AUDIT_20261005.md`.
+
+## P46 latent anchor geometry and P47 true MIA front-door control (2026-10-06)
+
+P46 tested whether replacing the bbox-center homography point with a bottom-center or lower-support latent anchor could improve cross-view separability before any training. On 14,482 GT-matched pair23 cross-view rows, center projection ranked the true counterpart first on 93.378% of rows, lower-line on 92.908%, and bottom-center on 74.672%; the candidate was stopped before GPU work. Artifact: `p46_latent_anchor_geometry/runs/pair23/RESULT.json`.
+
+P47 then placed the frozen P14 descriptor at the real P26 MIA refresh calls, with a geometry-only front-door control and an implementation audit. Both variants completed 700 frames with finite positive boxes and no within-frame duplicate IDs. The geometry-only control scored MDA/IDF1/MOTA `0.751104/0.912607/0.948184` versus P26 `0.643132/0.908768/0.947415`; the P14 joint-cost variant scored `0.674751/0.910192/0.948653`, so the apparent P14 gain is not causal. Descriptor alignment was incomplete on 365/700 and 370/700 frames for the two views, further excluding a clean representation claim. The one-to-one geometry front door is a standard Hungarian/position association pattern already present in MDMT-related and multi-camera tracking literature, so P47 is retained as a strong engineering control and stopped as a paper method. Artifacts: `p47_true_mia_p14_frontdoor/DECISION.json`, `runs/true_mia_geometry_v2/score/SCORES.json`, `runs/true_mia_p14_v3/score/SCORES.json`, and the corresponding `AUDIT.json` files.
+
+## P48 cross-view kinematic transport (2026-10-06)
+
+P48 was audited at the true MIA front door using a read-only wrapper over the frozen P26 pair23 replay. The wrapper captured native `H_t`, `H_{t-1}`, source/target rows, and prefix state for all 700 frames on GPU1 A100; it exited cleanly with 2,099 trace lines. An initial diagnostic incorrectly reused a frame-zero homography; that issue was corrected to `project(H_t,p_t)-project(H_{t-1},p_{t-1})`. The corrected audit still reduced position-only rank-1 from `0.935177` to `0.927326` for A→B and from `0.939892` to `0.930496` for B→A. Kinematic-only rank-1 was only `0.132564/0.143430`. This is a signal failure, not an implementation failure, so P48 is stopped before training. Artifacts: `p48_cross_view_kinematic_transport/DECISION.json`, `IMPLEMENTATION_AUDIT.json`, and `runs/trace_pair23_v1/TRACE_AUDIT.json`.
+
+## P49 SCI-ID initialization audit (2026-10-06)
+
+To test whether the earlier SCI-ID/P1 stop was caused by an uninitialized backbone, a fresh train-only pair-29 holdout trained B1/B2/B3/B4/P1 for 800 steps each with the structurally verified AutoAssign epoch-60 C2–C4 checkpoint and its native Caffe BGR preprocessing. All five arms completed 884-event evaluation. P1 reached Recall@1 `0.077295`, MRR `0.207600`, and dustbin Brier `0.349781`; B1 was `0.077295/0.218264/0.251190`, B2 `0.084541/0.219094/0.335930`, and B4 `0.082126/0.220952/0.401877`. P1 did not exceed the strongest adjacent control and its no-match calibration was worse. The implementation audit found no loader, shape, normalization, split, crash, or GPU defect; the branch is stopped as `STOP_INIT_AUDIT_NO_RECOVERY` before tracker attachment or official-val/test. Artifacts: `p49_sci_id_pretrained_audit/DECISION.json` and `IMPLEMENTATION_AUDIT.json`.
+
+## P50 cross-view fragment teacher residual (2026-10-06)
+
+P50 passed a seven-check CPU contract and a real train-episode donor audit: 8,311 train episodes were read, with 1,998/3,467 supervised positive events having a strict prefix source-view donor. A feature-space short gate then trained a student for 1,200 steps on 7,500 fit events (fit15) using a detached prefix teacher target; inference used only target/candidate frozen features and the candidate-set summary. On five disjoint train pairs, student Recall@1 was `0.21017` versus frozen-cosine `0.11783` (+9.23pp), with 4/5 pair wins; MRR was `0.35576` versus `0.22184`. This is a promising representation signal, but the event subset is donor-eligible and feature-space only, so it is not a paper or MOT result. P50 is advanced to map-level implementation on GPU3 A100; host attachment and official-val/test remain blocked until that gate repeats with the real ROI-map student. Artifacts: `p50_fragment_teacher_residual/CPU_CONTRACT.json`, `REAL_DATA_CONTRACT.json`, `FEATURE_GATE.json`, and `DECISION.json`.
+
+### P50 map-level transfer audit and stop
+
+The first map-level 1,200-step run used a mismatched episode-distance control; that comparison was corrected by rerunning the same training budget against the frozen visual-feature cosine definition. The corrected map student scored macro Recall@1 `0.04746` versus `0.11645` baseline and macro MRR `0.15804` versus `0.24460` on five held-out train pairs. Because 1,200 steps covered only 1.13 effective epochs over 2,124 eligible episodes, a sufficiency audit continued the saved checkpoint to 3,200 total steps (3.013 epochs). It still scored `0.04746` vs `0.11645` Recall@1, with 0/5 pair wins. Checkpoint reload, 8.65M parameter shapes, finite tensors, teacher exclusion from inference, and GPU execution all passed the implementation audit. P50 therefore stops as `STOP_P50_MAP_TRANSFER_GATE`; the earlier feature-space +9.23pp result remains an exploratory diagnostic and is not authorized for host attachment or official-val/test. Artifacts: `p50_fragment_teacher_residual/MAP_GATE.json`, `MAP_SUFFICIENCY.json`, `MAP_IMPLEMENTATION_AUDIT.json`, and `DECISION.json`.

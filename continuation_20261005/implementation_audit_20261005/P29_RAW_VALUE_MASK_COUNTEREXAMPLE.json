@@ -1,0 +1,91 @@
+{
+  "status": "FOUND_P29_RAW_VALUE_MASK_DOMAIN_DEFECT",
+  "source_path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/residual_deformable.py",
+  "source_sha256": "589a0c70c0678ce23e335e3c01736250720349f4b3c8841e18ab44a19b92b05f",
+  "geometry": {
+    "stride": 8,
+    "original_hw": [
+      32,
+      32
+    ],
+    "detector_hw": [
+      32,
+      32
+    ],
+    "pad_hw": [
+      32,
+      32
+    ],
+    "constant_flow_dx": 8.0
+  },
+  "actual_key_mask_first_lag": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "expected_raw_value_key_mask_first_lag": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "query_index": [
+    1,
+    2
+  ],
+  "reference_normalized": [
+    0.875,
+    0.375
+  ],
+  "reference_source_index": [
+    1,
+    3
+  ],
+  "actual_source_is_masked": true,
+  "expected_source_is_valid": true,
+  "reason": "P28 warp validity is in current-query domain; applying it as raw-past value token mask incorrectly removes in-domain source nodes",
+  "labels_read": false,
+  "gpu_used": false,
+  "official_val_or_test_read": false
+}

@@ -1,0 +1,20 @@
+{
+  "status": "STOP_P31_DIRECT_COLLISION_WITH_P3",
+  "codes": [
+    "PASS_CPU_MECHANISM_CONTRACT",
+    "PASS_TRAIN_ONLY_ID_CONVENTION_AUDIT",
+    "STOP_DIRECT_SAME_TASK_COLLISION_P3",
+    "DO_NOT_PORT_REAL_FEATURES",
+    "NO_OFFICIAL_VAL_TEST_ACCESS",
+    "NO_EFFECTIVENESS_CLAIM"
+  ],
+  "decision": "Stop CEIN before real-feature port. Its support/conflict causal evidence chain is already present in the local P3 MDMT experiment; do not rename the added influence/null/dustbin terms as a new method.",
+  "training_authorized": false,
+  "official_metric_authorized": false,
+  "novelty_claim_authorized": false,
+  "next_required_artifacts": [
+    "new candidate with a changed observable or learning target",
+    "direct same-task source/code audit before any training",
+    "fit-only mechanism gate and matched controls"
+  ]
+}

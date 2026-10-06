@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CCSI_IMPLEMENTATION_FAILURE_AUDIT_V7_3X3",
+  "failure": "The CCSI evaluator labeled the CCFI output directory as temporal128, so its first replay compared CCSI against CCFI rather than the frozen P38 comparator.",
+  "classification": "COMPARATOR_PATH_WIRING_FAILURE",
+  "rounds": {
+    "R1_source_paths": {
+      "checks": {
+        "ccsi_checkpoint_valid": true,
+        "p51_ccfi_directory_is_not_p38": true,
+        "protected_p38_evaluation_directory_exists": true
+      }
+    },
+    "R2_replay_consistency": {
+      "checks": {
+        "ccsi_label_freeze_completed": true,
+        "ccsi_outputs_finite": true,
+        "wrong_comparator_detected_by_path_audit": true
+      }
+    },
+    "R3_scope_recovery": {
+      "checks": {
+        "no_official_split_read": true,
+        "no_host_attachment": true,
+        "repair_is_exact_p38_evaluation_path": true
+      }
+    }
+  },
+  "repair": "Use /home/chenhc/claude_try_MDMOT/continuation_20261005/p38_temporal_memory/runs/evaluation for temporal128 and rerun the frozen replay.",
+  "gpu_authorized_before_repair": false
+}

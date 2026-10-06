@@ -1,0 +1,9 @@
+{
+  "status": "DEFERRED_UNEXECUTED_ENGINEERING_DRAFT",
+  "reason": "User explicitly rejects threshold selection as a technically substantive method. Research effort moves to image-derived target representation; no P20 runs are launched.",
+  "method_claim": false,
+  "materialized": false,
+  "tested": false,
+  "training_or_inference_run": false,
+  "remaining_if_reused": "Materialize isolated sources, test default parity and native-vs-shifted matching, then validate before using this host for a future learned model. Do not use run_native.py as-is without its required generated modules and TESTS.json."
+}

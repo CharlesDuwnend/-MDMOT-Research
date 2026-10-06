@@ -1,0 +1,11 @@
+{
+  "align_corners": false,
+  "border_mode": "border",
+  "export": "RAFT(current,past)",
+  "original_center_to_flow_index": "center_xy * (flow_width/original_width,flow_height/original_height) - 0.5",
+  "projection": "current_center + sampled_current_to_past_displacement",
+  "raft_output": "coords1-coords0; channels dx,dy",
+  "runtime_current_torch": "2.2.0+cu121",
+  "source_sha256": "16948b3d78acba0bb9473a7f0f95c2af4dfbb2705aa4c2747433ebc3d73708d9",
+  "status": "PASS_SOURCE_DIRECTION_CONTRACT"
+}

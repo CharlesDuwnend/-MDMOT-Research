@@ -1,0 +1,50 @@
+{
+  "fit_pairs": [
+    "23",
+    "25",
+    "28",
+    "29",
+    "39",
+    "44",
+    "45",
+    "51",
+    "53",
+    "63",
+    "66",
+    "69",
+    "70",
+    "74",
+    "78"
+  ],
+  "calibration_pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "fit_anchors_per_sequence": 8,
+  "calibration_anchors_per_sequence": 4,
+  "lags": [
+    0,
+    1,
+    4,
+    8
+  ],
+  "sampling": "linspace(9,T,n,dtype=int64)",
+  "flow_model": "frozen official torchvision RAFT-large C_T_SKHT_V2,12updates",
+  "flow_max_side": 640,
+  "feature_dtype": "float32 for current/raw reference cache",
+  "training_steps": 1200,
+  "training_arms": [
+    "single_adapter",
+    "causal_fgfa"
+  ],
+  "trainable": "shared identity-initialized pointwise value adapter; FGFA additionally learned embedding for temporal weights",
+  "frozen": "P26 detector backbone,FPN,head and RAFT",
+  "loss": "original AutoAssign loss_pos+loss_neg+loss_center",
+  "host": "original P26 MIA unchanged",
+  "new_method_claim": false,
+  "split_boundary": "no dev/officialval/test; cal labels after all predictions frozen",
+  "cache_root": "/raid/datasets/chc_data/claude_try_MDMOT_p28_causal_fgfa_20261005"
+}

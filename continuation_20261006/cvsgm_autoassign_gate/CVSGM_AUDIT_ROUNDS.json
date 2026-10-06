@@ -1,0 +1,34 @@
+{
+  "status": "PASS_THREE_ROUNDS_METHOD_DECISION",
+  "method": "CVSGM",
+  "rounds": [
+    {
+      "round": "R1_MECHANISM",
+      "checks": [
+        "AutoAssign C2-C4 strict load 258/258",
+        "K=1 zero-valid and K=64 finite contract",
+        "step-zero identity plus gradient to backbone and spatial residual"
+      ],
+      "result": "PASS_CVSGM_INITIALIZATION_AND_MECHANISM_CONTRACT"
+    },
+    {
+      "round": "R2_FIRST_BLOCK",
+      "checks": [
+        "B1/CVSGM/B4 same 600 updates and same pair event denominators",
+        "CVSGM beats B1 on 3/4 pairs and macro R@1/MRR/margin",
+        "official val/test locked and all checkpoints finite"
+      ],
+      "result": "PASS_SHORT_GATE_ADVANCE_SEED17"
+    },
+    {
+      "round": "R3_REPLICATION_AND_STRONG_BASELINE",
+      "checks": [
+        "disjoint second block CVSGM beats B1 only 2/4 and B4 0/4",
+        "same pair denominators, initialization hash, GPU and finite checkpoints",
+        "CVSGM-B4 on first block beats B4 on 0/4 pairs and lowers macro R@1"
+      ],
+      "result": "STOP_CVSGM_NOT_INCREMENTAL"
+    }
+  ],
+  "conclusion": "The negative decision is method-level generalization/incrementality evidence, not an implementation-failure diagnosis. Preserve artifacts as controls and do not train longer."
+}

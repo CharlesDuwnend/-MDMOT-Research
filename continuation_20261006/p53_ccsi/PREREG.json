@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_CCSI_TRAIN_ONLY_GATE",
+  "fit_pairs": ["23", "25", "28", "29", "39", "44", "45", "51", "53", "63", "66", "69", "70", "74", "78"],
+  "calibration_pairs": ["27", "32", "42", "64", "65"],
+  "initialization": "P38 warm-start mapping, seed42; same schedule and data as CCFI short gate",
+  "operator": {"max_observations": 4, "max_age_frames": 8, "same_view": true, "strictly_past": true, "swap_scope": "same_frame_class_available_histories"},
+  "objective": {"ccfi": 1.0, "swap_consistency": 0.10},
+  "training": {"updates": 1200, "optimizer": "AdamW", "lr": 0.0001, "weight_decay": 0.0001, "seed": 42},
+  "gate": {"calibration_pair_macro_r1_min": 0.4641, "calibration_pair_wins_vs_p38_min": 3, "fit15_drop_max": 0.05},
+  "forbidden": ["dev", "official_val", "official_test", "threshold_search", "future_history", "numeric_local_id_as_feature", "host_attachment_before_gate"],
+  "novelty": "NO_FIRST_OR_SOTA_CLAIM"
+}

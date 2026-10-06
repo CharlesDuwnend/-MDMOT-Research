@@ -1,0 +1,39 @@
+{
+  "status": "STOP_CVSGM_AS_PAPER_METHOD_KEEP_AS_NEGATIVE_CONTROL",
+  "method": "Cross-View Scale-Consistent Gated Modulation",
+  "mechanism_contract": "PASS_CVSGM_INITIALIZATION_AND_MECHANISM_CONTRACT",
+  "evidence": {
+    "block1_b1_extension": {
+      "status": "PASS_SHORT_GATE_ADVANCE_SEED17",
+      "macro_recall1": {"B1": 0.1731028942374051, "CVSGM": 0.19502156659765355},
+      "pair_wins_vs_b1": 3,
+      "pair_wins_vs_b4": 3
+    },
+    "block2_b1_extension": {
+      "status": "HOLD_SHORT_GATE_AUDIT",
+      "macro_recall1": {"B1": 0.10030783343476843, "B4": 0.16406750284459262, "CVSGM": 0.10796552089121748},
+      "pair_wins_vs_b1": 2,
+      "pair_wins_vs_b4": 0
+    },
+    "block1_b4_extension": {
+      "status": "STOP_CVSGM_B4_NOT_INCREMENTAL_OVER_B4",
+      "macro_recall1": {"B4": 0.15201221747757074, "CVSGM_B4": 0.1081646286231884},
+      "pair_wins_vs_b4": 0
+    }
+  },
+  "controls": {
+    "autoassign_backbone_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+    "official_val_test": false,
+    "gpu2_used": false,
+    "step_zero_identity": true,
+    "gradient_reaches_backbone_and_module": true,
+    "equal_pair_denominators": true
+  },
+  "decision": {
+    "paper_method": "STOP",
+    "additional_training": "STOP",
+    "tracker_integration": "STOP",
+    "keep_as_negative_control": true,
+    "next_audit_only": "local cross-view spatial correspondence/offset field with explicit deformation and cycle/occlusion consistency; first perform collision audit against deformable alignment and cross-view feature consistency literature"
+  }
+}

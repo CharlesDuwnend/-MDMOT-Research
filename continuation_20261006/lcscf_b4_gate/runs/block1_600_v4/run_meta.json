@@ -1,0 +1,66 @@
+{
+  "status": "COMPLETE",
+  "classification": "initialization_diagnostic_not_confirmatory",
+  "created_utc": "2026-10-06T00:34:24.817622+00:00",
+  "train_pairs": [
+    "23",
+    "25",
+    "27",
+    "28"
+  ],
+  "eval_pairs": [
+    "29",
+    "30",
+    "32",
+    "39"
+  ],
+  "steps_per_arm": 600,
+  "batch_size": 4,
+  "image_size": [
+    800,
+    1333
+  ],
+  "channels": 32,
+  "prototypes": 2,
+  "roi_size": 7,
+  "device": "cuda:0",
+  "arms": [
+    "B4",
+    "LCSCF_B4"
+  ],
+  "backbone_init": "/home/chenhc/cross_uav_query_mamba_20260830/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt_epoch_60.pth",
+  "backbone_init_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+  "mean": [
+    102.9801,
+    115.9465,
+    122.7717
+  ],
+  "std": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "value_scale": 1.0,
+  "channel_order": "bgr",
+  "official_val_access": false,
+  "test_access": false,
+  "seed_offset": 0,
+  "transport_loss_weight": 0.2,
+  "gradient_clip_norm": 10.0,
+  "preprocess_contract": "MMCV/cv2 keep_ratio (1333,800); Caffe BGR mean [102.9801,115.9465,122.7717], std 1; normalize then pad32 and batch pad; no flip",
+  "supervision_scope": "known-label subset of frozen train candidates; unknown candidates remain unlabeled model context, excluded from supervised logit denominators and ranks",
+  "finite_checks": "loss/all gradients before clip; total norm; all parameters after update",
+  "pair_is_independent_unit": true,
+  "gpu": {
+    "cuda_visible_devices": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+    "logical_index": 0,
+    "name": "NVIDIA A100-SXM4-40GB",
+    "total_memory_bytes": 42298834944
+  },
+  "completed_utc": "2026-10-06T00:46:36.960898+00:00",
+  "event_log_sha256": "bbd3d9fa65e797867d0b15e871de00951648ced43caea2adf97b0caadb6a0ec5",
+  "metric_files": {
+    "B4": "e8bb0f75d966dc577153a48746d24c5a2817fad687226dedeb7a81b3dba25d09",
+    "LCSCF_B4": "59c41c30c411f8855697422b58ab323896567599720047a223d8cc1d8fca04b6"
+  }
+}

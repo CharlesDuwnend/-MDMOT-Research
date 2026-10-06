@@ -1,0 +1,131 @@
+{
+  "status": "PASS_CCFI_GATE_FAILURE_AUDIT_3X3",
+  "classification": "METHOD_GATE_BELOW_ABSOLUTE_CALIBRATION_THRESHOLD",
+  "decision": "HOLD_FOR_FULL_COVERAGE_SUFFICIENCY",
+  "rounds": {
+    "R1_provenance": [
+      {
+        "name": "R1_training_receipt",
+        "pass": true,
+        "detail": "PASS_CCFI_FIXED_TRAINING"
+      },
+      {
+        "name": "R1_label_freeze",
+        "pass": true,
+        "detail": {
+          "pairs": 20
+        }
+      },
+      {
+        "name": "R1_no_dev_or_official",
+        "pass": true,
+        "detail": true
+      }
+    ],
+    "R2_replay": [
+      {
+        "name": "R2_all_pair_reports",
+        "pass": true,
+        "detail": 20
+      },
+      {
+        "name": "R2_all_metric_values_finite",
+        "pass": true,
+        "detail": true
+      },
+      {
+        "name": "R2_checkpoint_receipt_hash",
+        "pass": true,
+        "detail": "1aac07f23c1a6fd9ce23a21fbb2e36839bf0a8a2b1a4fdb82fb15a2bcc185e8d"
+      }
+    ],
+    "R3_gate": [
+      {
+        "name": "R3_beats_p38_pair_gate",
+        "pass": true,
+        "detail": {
+          "wins": 4,
+          "delta": 0.0026682250481561143
+        }
+      },
+      {
+        "name": "R3_absolute_gate_failure_is_explicit",
+        "pass": true,
+        "detail": {
+          "calibration_min": 0.4641,
+          "calibration_r1_vs_p1": 0.009966761220557174,
+          "calibration_r1_vs_p38": 0.0026682250481561143,
+          "fit_drop_max": 0.05,
+          "fit_drop_vs_p1": 0.01947338813834365,
+          "pair_wins_vs_p1_min": 3,
+          "pair_wins_vs_p38_min": 3,
+          "pass": false,
+          "wins_vs_p1": 4,
+          "wins_vs_p38": 4
+        }
+      },
+      {
+        "name": "R3_no_host_authorization",
+        "pass": true,
+        "detail": true
+      }
+    ]
+  },
+  "all_checks_pass": true,
+  "evidence": {
+    "calibration": {
+      "pair_macro_r1": {
+        "ccfi128": 0.4540345329959523,
+        "p1_independent128": 0.44406777177539514,
+        "temporal128": 0.4513663079477962
+      },
+      "pairs": [
+        "27",
+        "32",
+        "42",
+        "64",
+        "65"
+      ],
+      "wins_vs_p1": 4,
+      "wins_vs_p38": 4
+    },
+    "fit": {
+      "pair_macro_r1": {
+        "ccfi128": 0.8670994046346288,
+        "p1_independent128": 0.8476260164962851,
+        "temporal128": 0.8592144082265776
+      },
+      "pairs": [
+        "23",
+        "25",
+        "28",
+        "29",
+        "39",
+        "44",
+        "45",
+        "51",
+        "53",
+        "63",
+        "66",
+        "69",
+        "70",
+        "74",
+        "78"
+      ],
+      "wins_vs_p1": 15,
+      "wins_vs_p38": 15
+    },
+    "gate": {
+      "calibration_min": 0.4641,
+      "calibration_r1_vs_p1": 0.009966761220557174,
+      "calibration_r1_vs_p38": 0.0026682250481561143,
+      "fit_drop_max": 0.05,
+      "fit_drop_vs_p1": 0.01947338813834365,
+      "pair_wins_vs_p1_min": 3,
+      "pair_wins_vs_p38_min": 3,
+      "pass": false,
+      "wins_vs_p1": 4,
+      "wins_vs_p38": 4
+    }
+  }
+}

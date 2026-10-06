@@ -1,0 +1,9 @@
+{
+  "status": "KEEP_PROTOCOL_DIAGNOSIS_ROUTE_NO_NEW_ALGORITHM",
+  "date": "2026-10-06",
+  "evidence": "PAPER_READINESS_AUDIT.json",
+  "scope": "MDMT train-only COD replay",
+  "decision": "把 MDMT-COD 作为当前论文主线的协议/诊断贡献推进；不把它写成训练模块，不启动 COD GPU 训练，不读取 official val/test。",
+  "reason": "候选覆盖宏平均 0.9918146，但给定候选 Top-1 仅 0.0927080，25/25 pair 有 persistent false commit；现有证据支持错误分解，不支持因果修复或正式 MOT 性能。",
+  "next_gate": "先完成独立文献—数据—代码—可验证性审查，再为排序/owner commit 设计一个具有新身份表征或监督目标的合法 repair；repair 必须先过 train-only causal gate。"
+}

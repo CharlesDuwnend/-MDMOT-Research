@@ -1,0 +1,29 @@
+{
+  "status": "HOLD_P38_PROMISING_REPRESENTATION_BELOW_GATE",
+  "candidate": "causal track-conditioned temporal memory adapter",
+  "novelty": "NO_NOVELTY_CLAIM",
+  "training": "1200 fixed P7R updates, seed42, GPU3 A100, zero-initialized residual from frozen P1 128D embedding",
+  "results": {
+    "fit15_p1_independent128": 0.8476260164962851,
+    "fit15_temporal128": 0.8592144082265776,
+    "fit15_lift": 0.011588391730292469,
+    "cal5_p1_independent128": 0.44406777177539514,
+    "cal5_temporal128": 0.4513663079477962,
+    "cal5_lift": 0.00729853617240106,
+    "cal5_pair_wins": 5,
+    "cal5_pair_count": 5
+  },
+  "gate": {
+    "absolute_calibration_min": 0.4641,
+    "relative_lift_min": 0.01,
+    "pair_wins_min": 3,
+    "fit_drop_max": 0.05,
+    "absolute_calibration_pass": false,
+    "relative_lift_pass": false,
+    "pair_consistency_pass": true,
+    "fit_pass": true,
+    "host_transfer_authorized": false
+  },
+  "decision": "The causal history mechanism is consistently positive on all 5 calibration pairs and all 15 fit pairs, but the preregistered absolute and relative calibration gates are not met. Keep as a research direction; do not attach to P26 or claim paper effectiveness.",
+  "next_boundary": "test one predeclared stronger representation initialization or cross-family control; no threshold sweep, dev tuning, or host transfer before a gate pass"
+}

@@ -1,0 +1,84 @@
+{
+  "status": "COMPLETE_P47_PAIR23_SCORE",
+  "variant_tag": "P47_geometry_frontdoor",
+  "rows": {
+    "P26_baseline": {
+      "MDA": 0.6431315772400862,
+      "IDF1": 0.9087675268817306,
+      "MOTA": 0.9474145050991436,
+      "switches": 770,
+      "views": {
+        "1": {
+          "txt": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_geometry_v2/score/P26_baseline-23-1.txt",
+          "metrics": {
+            "idf1": 0.9026395757611869,
+            "idp": 0.9102872250931379,
+            "idr": 0.8951193571259749,
+            "mota": 0.9447530134719925,
+            "motp": 0.10848887173188744,
+            "num_switches": 407.0,
+            "num_false_positives": 123.0,
+            "num_misses": 405.0
+          }
+        },
+        "2": {
+          "txt": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_geometry_v2/score/P26_baseline-23-2.txt",
+          "metrics": {
+            "idf1": 0.9148954780022741,
+            "idp": 0.9125807014482639,
+            "idr": 0.9172220273588214,
+            "mota": 0.9500759967262948,
+            "motp": 0.10255283805793482,
+            "num_switches": 363.0,
+            "num_false_positives": 289.0,
+            "num_misses": 202.0
+          }
+        }
+      },
+      "official_stdout": "AAS:  0.6431315772400862\n"
+    },
+    "P47_geometry_frontdoor": {
+      "MDA": 0.751103850421779,
+      "IDF1": 0.9126065838870341,
+      "MOTA": 0.9481839023505831,
+      "switches": 743,
+      "views": {
+        "1": {
+          "txt": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_geometry_v2/score/P47_geometry_frontdoor-23-1.txt",
+          "metrics": {
+            "idf1": 0.905737949115176,
+            "idp": 0.9134118495373152,
+            "idr": 0.8981919168045379,
+            "mota": 0.9465256440557788,
+            "motp": 0.10849744562640834,
+            "num_switches": 377.0,
+            "num_false_positives": 123.0,
+            "num_misses": 405.0
+          }
+        },
+        "2": {
+          "txt": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_geometry_v2/score/P47_geometry_frontdoor-23-2.txt",
+          "metrics": {
+            "idf1": 0.9194752186588921,
+            "idp": 0.9171222519483541,
+            "idr": 0.9218402899567403,
+            "mota": 0.9498421606453876,
+            "motp": 0.10245131442652021,
+            "num_switches": 366.0,
+            "num_false_positives": 290.0,
+            "num_misses": 202.0
+          }
+        }
+      },
+      "official_stdout": "AAS:  0.751103850421779\n"
+    }
+  },
+  "delta_variant_minus_P26": {
+    "MDA": 0.10797227318169278,
+    "IDF1": 0.0038390570053035145,
+    "MOTA": 0.0007693972514395409,
+    "switches": -27
+  },
+  "gt_scope": "fit pair23 XML only",
+  "official_test_read": false
+}

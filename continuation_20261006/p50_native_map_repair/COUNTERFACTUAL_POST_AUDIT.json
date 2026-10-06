@@ -1,0 +1,226 @@
+{
+  "status": "PASS_COUNTERFACTUAL_POST_AUDIT",
+  "checks": [
+    {
+      "check": "complete_hash_finite",
+      "status": "PASS",
+      "evidence": [
+        {
+          "arm": "cf_off",
+          "seed": 7,
+          "hash": true,
+          "finite": true
+        },
+        {
+          "arm": "cf_off",
+          "seed": 17,
+          "hash": true,
+          "finite": true
+        },
+        {
+          "arm": "cf_on",
+          "seed": 7,
+          "hash": true,
+          "finite": true
+        },
+        {
+          "arm": "cf_on",
+          "seed": 17,
+          "hash": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "check": "strict_supervision_population",
+      "status": "PASS",
+      "evidence": {
+        "all_fit_events": 5234,
+        "strict_fit_events": 1913,
+        "eval_events": {
+          "69": 238,
+          "70": 150,
+          "74": 185,
+          "76": 89,
+          "78": 160
+        },
+        "controls": {
+          "native_features_frozen": true,
+          "teacher_in_inference": false,
+          "official_val_test_access": false,
+          "negative_removal_cardinality_matched": true,
+          "positive_removal_leaves_known_negatives_and_excludes_unknown_events": true,
+          "invalid_supervision_excluded_from_loss": true,
+          "cf_loss_only_difference": "positive-removal dustbin term"
+        }
+      }
+    },
+    {
+      "check": "same_pair_denominators",
+      "status": "PASS",
+      "evidence": [
+        [
+          "cf_off",
+          7,
+          "69",
+          238,
+          238
+        ],
+        [
+          "cf_off",
+          7,
+          "70",
+          150,
+          150
+        ],
+        [
+          "cf_off",
+          7,
+          "74",
+          185,
+          185
+        ],
+        [
+          "cf_off",
+          7,
+          "76",
+          89,
+          89
+        ],
+        [
+          "cf_off",
+          7,
+          "78",
+          160,
+          160
+        ],
+        [
+          "cf_off",
+          17,
+          "69",
+          238,
+          238
+        ],
+        [
+          "cf_off",
+          17,
+          "70",
+          150,
+          150
+        ],
+        [
+          "cf_off",
+          17,
+          "74",
+          185,
+          185
+        ],
+        [
+          "cf_off",
+          17,
+          "76",
+          89,
+          89
+        ],
+        [
+          "cf_off",
+          17,
+          "78",
+          160,
+          160
+        ],
+        [
+          "cf_on",
+          7,
+          "69",
+          238,
+          238
+        ],
+        [
+          "cf_on",
+          7,
+          "70",
+          150,
+          150
+        ],
+        [
+          "cf_on",
+          7,
+          "74",
+          185,
+          185
+        ],
+        [
+          "cf_on",
+          7,
+          "76",
+          89,
+          89
+        ],
+        [
+          "cf_on",
+          7,
+          "78",
+          160,
+          160
+        ],
+        [
+          "cf_on",
+          17,
+          "69",
+          238,
+          238
+        ],
+        [
+          "cf_on",
+          17,
+          "70",
+          150,
+          150
+        ],
+        [
+          "cf_on",
+          17,
+          "74",
+          185,
+          185
+        ],
+        [
+          "cf_on",
+          17,
+          "76",
+          89,
+          89
+        ],
+        [
+          "cf_on",
+          17,
+          "78",
+          160,
+          160
+        ]
+      ]
+    },
+    {
+      "check": "unknown_and_short_control_rejected",
+      "status": "PASS",
+      "evidence": {
+        "source_sha256": "dd19fe14fd01821d4f6439aa269241794aed94ae661940cb64b1fae46f352486"
+      }
+    },
+    {
+      "check": "official_locked",
+      "status": "PASS",
+      "evidence": {
+        "native_features_frozen": true,
+        "teacher_in_inference": false,
+        "official_val_test_access": false,
+        "negative_removal_cardinality_matched": true,
+        "positive_removal_leaves_known_negatives_and_excludes_unknown_events": true,
+        "invalid_supervision_excluded_from_loss": true,
+        "cf_loss_only_difference": "positive-removal dustbin term"
+      }
+    }
+  ],
+  "result_sha256": "27cf4910ba31cc04fb7c905ed24409a0473103e0ab400139d6ba3f838950bf72"
+}

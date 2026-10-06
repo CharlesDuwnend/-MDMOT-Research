@@ -1,0 +1,15 @@
+# P28 FIT-only cached-flow motion lookback
+
+This offline diagnosis follows the failed trained pilot; it does not tune or change any model, flow, feature, prediction or calibration result. Read only the fixed 240 FIT groups and their three cached current-to-past RAFT fields at lags 1/4/8. No calibration/dev/official-val/test XML or labels, images, GPU, model loading or new inference.
+
+Reuse the original `build_detection_labels.read_xml` parser and `sequences_train.json`, with hashes pinned in `training/TRAIN_RECEIPT.json`. Only FIT15 XML files are opened. XML frame+1 matches stream frame; outside boxes are excluded. The identity is `(pair,view,raw_local_id,class)`, supported classes 0/1/2; never cross-view physical ID.
+
+A comparison requires a current supported annotated box, the same raw local ID/class at t-lag, and annotation in every intermediate frame. Endpoint absence and interior gaps are excluded and counted separately. Occluded boxes remain annotated; report current, past and any-path occlusion. No requirement uses future frames.
+
+Box coordinates are continuous original-image edge coordinates. For current box center `(cx,cy)`, map to RAFT raster pixel-centre indices `(cx*Fw/W-.5, cy*Fh/H-.5)`. Bilinearly sample with border extension, matching `grid_sample(align_corners=False,padding_mode='border')`. Add sampled displacement scaled by `(W/Fw,H/Fh)` to the current center to predict its position in the past. Native1080x1920 to flow360x640 is expected and verified from every archive; do not silently assume isotropic scale if metadata differs.
+
+Direction evidence: export code calls `RAFT(current,past)`; torchvision builds correlations from image1 to image2 and returns `coords1-coords0`. Thus addition maps current coordinates to past. A known constant translation, spatial-ramp halfpixel test, border test, zero-flow identity and CPU grid_sample comparison must pass in the same helper used for real data. The real-data float64 sampler is additionally compared with float32 grid_sample at all sampled current centers, with maximum original-pixel component difference <=0.01 as a numerical consistency gate.
+
+Compare Euclidean original-pixel center error with zero-flow (current center unchanged). Normalize each error separately by current sqrt(box area) and past sqrt(box area). Report lag, current min-side<16 versus>=16, current sqrt-area<16 versus>=16, current occlusion, their intersections, class and pair. These size definitions are distinct. Include median/mean/p90, paired fraction RAFT better than zero, and complete per-comparison rows. Report center domain flags rather than silently dropping them.
+
+GT centers are offline correspondences, not motion supervision added to the model. A bbox center is not necessarily a material point under deformation or occlusion. Center errors cannot establish FPN alignment correctness, feature usefulness, why the learned pilot failed, or a blanket conclusion about temporal methods. This is a source/coordinate audit and an observation-level geometry diagnostic.

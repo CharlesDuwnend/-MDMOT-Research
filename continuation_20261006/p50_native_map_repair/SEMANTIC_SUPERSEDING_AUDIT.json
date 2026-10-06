@@ -1,0 +1,32 @@
+{
+  "status": "HOLD_SEMANTIC_SUPERVISION_FAILURE",
+  "supersedes": [
+    "PASS_THREE_ROUNDS_NINE_CHECKS as scientific-validity authorization",
+    "P50 native residual paper-feasibility claims",
+    "cf_v1 cardinality-matched statement"
+  ],
+  "fit": {
+    "events": 5234,
+    "invalid_supervision": 85,
+    "insufficient_nonpositive": 19,
+    "unknown_candidate_events": 321,
+    "zero_positive_unknown_candidate_events": 119
+  },
+  "held_out_train": {
+    "events": 1845,
+    "invalid_supervision": 30,
+    "insufficient_nonpositive": 1,
+    "unknown_candidate_events": 20,
+    "zero_positive_unknown_candidate_events": 15
+  },
+  "problems": [
+    "supervision_valid is ignored by training loss and dustbin evaluation",
+    "negative_mask accepts unknown candidates as negatives",
+    "insufficient nonpositive cardinality is silently clipped",
+    "learned scalar correction may account for residual-model gains; no representation-only ablation",
+    "older SCI episode host differs from protected P26 MIA host; native feature parity alone does not imply host improvement"
+  ],
+  "action": "Stop own invalid CF run, preserve attempts, build v2 masks and explicit paired eligibility. Do not replace baseline or report official MOT gains.",
+  "own_process_stopped": 2109045,
+  "formal_val_test_read": false
+}

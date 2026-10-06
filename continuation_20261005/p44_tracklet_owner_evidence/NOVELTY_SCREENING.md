@@ -1,0 +1,1 @@
+Tracklet matching, global assignment, Bayesian evidence accumulation, and owner-state revision are prior-art families; P32/P43 in this workspace are close controls. P44 therefore makes no novelty claim. It is a technical test of whether persistent tracklet evidence can correctly attach an already-trained representation to the mature P26 host.

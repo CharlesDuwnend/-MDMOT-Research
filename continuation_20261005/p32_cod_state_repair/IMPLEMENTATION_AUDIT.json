@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "event_count": 213,
+  "proposal_count": 37,
+  "evidence_crosses_ready": 0,
+  "nonfinite_costs": 0,
+  "duplicate_batch_edges": 0,
+  "deterministic": true,
+  "causal_violations": 0,
+  "state_transition_functions_do_not_take_gt": true,
+  "notes": [
+    "GT is only loaded by post-replay diagnostics in run_pair; simulate_delay/simulate_repair accept proposals and W only."
+  ]
+}

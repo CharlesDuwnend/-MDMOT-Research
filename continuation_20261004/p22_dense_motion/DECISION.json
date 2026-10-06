@@ -1,0 +1,55 @@
+{
+  "status": "STOP_CURRENT_HIGH_DOF_MOTION_ENCODER_RATIONALE",
+  "research_goal": "ACTIVE_NO_VALIDATED_METHOD",
+  "input_engineering": "COMPLETE_WITH_MATERIALIZED_COMPOSED_MASK_CORRECTION",
+  "original_quantity_gate_after_correction": {
+    "passed_pairs": [
+      "29",
+      "69",
+      "78"
+    ],
+    "counts": {
+      "23": 17,
+      "25": 19,
+      "29": 36,
+      "69": 53,
+      "78": 142
+    },
+    "not_method_pass": true
+  },
+  "competing_explanation": "one motion direction modulated by scalar spatial support; free offset needed to explain all pairs",
+  "screened_regions": 267,
+  "offset_line_shape_energy_explained_median": 0.9977104016529715,
+  "claims_stopped": [
+    "high-dimensional vector dynamics established by dense-versus-constant advantage",
+    "generic camera compensation plus geometry as novelty"
+  ],
+  "claims_not_falsified": [
+    "spatial support information",
+    "motion as complementary evidence",
+    "all camera/object factorization methods"
+  ],
+  "remaining_gaps": [
+    "actual cross-view support transfer",
+    "identity complementarity",
+    "strong same-task baseline",
+    "SAME-MDMT full text",
+    "camera intervention real-pixel support and saved altered fields"
+  ],
+  "next_candidate_requirement": "A substantive representation operator with explicit identity-relevant target and matched ordinary appearance, motion-segmentation/support and GMC controls; no threshold/ranker rewrite.",
+  "labels_read": false,
+  "model_trained": false,
+  "official_val_test_read": false,
+  "sources": {
+    "p22_dense_motion/FEATURE_RECEIPT.json": "08f11a1322d89510dc1b6d6acba0b4cf068ecd0e62bbfbd23e7696f7ce2f1782",
+    "p22_dense_motion/P22_REPORT.md": "c0f28ba73656fb70543c1f9512ffe25dfda7a2daa3eac83361469e60dbb3ff95",
+    "p22_dense_motion/PROTOCOL.json": "2c969d322e58748320e2dce67455e49f5c092512c53fe19b60e2131e235b7b2c",
+    "p22_dense_analysis/PHOTOMETRIC.json": "e038d009ccd867e7c28e3c1ca963f41edd28178d314c90d8c37c5b5e2c2be987",
+    "p22_dense_analysis/TEMPORAL_ANALYSIS.json": "fa2f6de9db1c1c8cf5ecdef2941eeef3e6866bb98e7d6d5c97b0287a3273b937",
+    "p22_dense_correction/CORRECTED_SUPPORT_RECEIPT.json": "54a37476c20156aca8be2d4fc69ec6e572a97c1bcc4ec8eea4e0506f178d3232",
+    "p22_dense_correction/TESTS.json": "e6a40bd7613c9cb3099c23898c038c5399d3ff5d4f67efda65afee7bbfdc154b",
+    "p22_dense_review/REVIEW.json": "298bcbd7671c7547184d69cf43698883920bc3f092c86bd9c1d4925717d40c1b",
+    "p22_rigid_support/RIGID_SUPPORT.json": "cd528c0f446433289fb9dbff597c06a98b60121e8777f4dbaa5c02ff15568757",
+    "p22_prior_art/DECISION.json": "dbb4938a853e77035dfa2bb1b1fc6a5bbbdb08e27d8af59e118bd1a0edbc883b"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CCSI_IMPLEMENTATION_FAILURE_AUDIT_V6_3X3",
+  "failure": "The 1200-step CCSI computation completed with finite losses, but receipt writing referenced a nonexistent p51_ccfi/runs/p38_temporal path instead of the protected P38 source path.",
+  "classification": "CHECKPOINT_PROVENANCE_PATH_FAILURE",
+  "rounds": {
+    "R1_training_scope": {
+      "checks": {
+        "all_1200_updates_completed": true,
+        "loss_and_gradients_finite": true,
+        "gpu3_uuid_used": true
+      }
+    },
+    "R2_artifact_write": {
+      "checks": {
+        "failure_is_missing_source_path": true,
+        "no_invalid_checkpoint_accepted": true,
+        "protected_p38_checkpoint_unchanged": true
+      }
+    },
+    "R3_recovery": {
+      "checks": {
+        "cpu_contract_still_passes": true,
+        "no_evaluation_or_official_split_read": true,
+        "repair_is_exact_p38_path": true
+      }
+    }
+  },
+  "repair": "Use b.P38/runs/p38_temporal/fixed_step_001200.pt for provenance and rerun from the same P38 initialization; discard the unreceipted run.",
+  "gpu_authorized_before_repair": false
+}

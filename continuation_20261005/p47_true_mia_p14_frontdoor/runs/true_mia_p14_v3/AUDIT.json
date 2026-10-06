@@ -1,0 +1,252 @@
+{
+  "method": "p14_frontdoor",
+  "receipt": {
+    "alignment": {
+      "view1": {
+        "coverage_lt_0_99": 365,
+        "coverage_lt_1": 365,
+        "coverage_mean": 0.96330142229966,
+        "coverage_min": 0.7333333333333333,
+        "frames": 700,
+        "mean_iou_min": 0.9583333333333334,
+        "min_iou_min": 0.0
+      },
+      "view2": {
+        "coverage_lt_0_99": 370,
+        "coverage_lt_1": 370,
+        "coverage_mean": 0.9650968542154534,
+        "coverage_min": 0.7894736842105263,
+        "frames": 700,
+        "mean_iou_min": 0.875,
+        "min_iou_min": 0.0
+      }
+    },
+    "event_total_accepted": 310,
+    "event_total_proposals": 1723,
+    "event_total_skipped": 1413,
+    "events": {
+      "A_new": {
+        "accepted_count": 163,
+        "accepted_unique_new_ids": 107,
+        "accepted_unique_target_indices": 163,
+        "cost_max": 0.9713986504372485,
+        "cost_min": 0.015186752172821739,
+        "frames": 699,
+        "proposal_count": 459,
+        "skipped_count": 296
+      },
+      "A_old": {
+        "accepted_count": 19,
+        "accepted_unique_new_ids": 16,
+        "accepted_unique_target_indices": 19,
+        "cost_max": 0.9782272113103366,
+        "cost_min": 0.01934833408505009,
+        "frames": 699,
+        "proposal_count": 654,
+        "skipped_count": 635
+      },
+      "B_new": {
+        "accepted_count": 128,
+        "accepted_unique_new_ids": 50,
+        "accepted_unique_target_indices": 128,
+        "cost_max": 0.987222202727026,
+        "cost_min": 0.0010619010789269176,
+        "frames": 699,
+        "proposal_count": 610,
+        "skipped_count": 482
+      }
+    },
+    "labels_read": false,
+    "mode": "p14",
+    "official_test_read": false,
+    "sequences": [],
+    "status": "COMPLETE_P47_TRUE_MIA_FRONTDOOR_REPLAY"
+  },
+  "variant_dir": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_p14_v3",
+  "view1": {
+    "bad_rows": [],
+    "duplicate_ids": [],
+    "frames": 700,
+    "row_count_max": 45,
+    "row_count_min": 5,
+    "rows": 16641
+  },
+  "view2": {
+    "bad_rows": [],
+    "duplicate_ids": [],
+    "frames": 700,
+    "row_count_max": 39,
+    "row_count_min": 8,
+    "rows": 17197
+  },
+  "vs_p26": {
+    "first_changes": [
+      {
+        "frame": "frame=55",
+        "geometry_changed": 0,
+        "id_changed": 1,
+        "kind": "rows",
+        "p26_rows": 10,
+        "p47_rows": 10
+      },
+      {
+        "frame": "frame=56",
+        "geometry_changed": 0,
+        "id_changed": 1,
+        "kind": "rows",
+        "p26_rows": 11,
+        "p47_rows": 11
+      },
+      {
+        "frame": "frame=57",
+        "geometry_changed": 0,
+        "id_changed": 2,
+        "kind": "rows",
+        "p26_rows": 11,
+        "p47_rows": 11
+      },
+      {
+        "frame": "frame=58",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 13,
+        "p47_rows": 13
+      },
+      {
+        "frame": "frame=59",
+        "geometry_changed": 0,
+        "id_changed": 3,
+        "kind": "rows",
+        "p26_rows": 13,
+        "p47_rows": 13
+      },
+      {
+        "frame": "frame=60",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 14,
+        "p47_rows": 14
+      },
+      {
+        "frame": "frame=61",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 15,
+        "p47_rows": 15
+      },
+      {
+        "frame": "frame=62",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 15,
+        "p47_rows": 15
+      },
+      {
+        "frame": "frame=63",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 15,
+        "p47_rows": 15
+      },
+      {
+        "frame": "frame=64",
+        "geometry_changed": 0,
+        "id_changed": 5,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=65",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=66",
+        "geometry_changed": 0,
+        "id_changed": 3,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=67",
+        "geometry_changed": 0,
+        "id_changed": 3,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=68",
+        "geometry_changed": 0,
+        "id_changed": 3,
+        "kind": "rows",
+        "p26_rows": 16,
+        "p47_rows": 16
+      },
+      {
+        "frame": "frame=69",
+        "geometry_changed": 0,
+        "id_changed": 6,
+        "kind": "rows",
+        "p26_rows": 18,
+        "p47_rows": 18
+      },
+      {
+        "frame": "frame=70",
+        "geometry_changed": 0,
+        "id_changed": 5,
+        "kind": "rows",
+        "p26_rows": 18,
+        "p47_rows": 18
+      },
+      {
+        "frame": "frame=71",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=72",
+        "geometry_changed": 0,
+        "id_changed": 5,
+        "kind": "rows",
+        "p26_rows": 19,
+        "p47_rows": 19
+      },
+      {
+        "frame": "frame=73",
+        "geometry_changed": 0,
+        "id_changed": 5,
+        "kind": "rows",
+        "p26_rows": 19,
+        "p47_rows": 19
+      },
+      {
+        "frame": "frame=74",
+        "geometry_changed": 2,
+        "id_changed": 6,
+        "kind": "rows",
+        "p26_rows": 19,
+        "p47_rows": 19
+      }
+    ],
+    "frames_with_any_change": 645,
+    "frames_with_geometry_change": 13,
+    "frames_with_id_change": 644,
+    "row_count_change_frames": 1,
+    "rows_geometry_changed": 41,
+    "rows_id_changed": 12823
+  }
+}

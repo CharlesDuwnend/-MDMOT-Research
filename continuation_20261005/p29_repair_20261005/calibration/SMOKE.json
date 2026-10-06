@@ -1,0 +1,133 @@
+{
+  "cached_api": "model.detector.extract_feat -> bbox_head.simple_test -> bbox2result",
+  "class_comparisons": [
+    {
+      "allclose_rtol0_atol0": true,
+      "class_id": 0,
+      "direct_shape": [
+        38,
+        5
+      ],
+      "exact_array_equal": true,
+      "head_shape": [
+        38,
+        5
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "allclose_rtol0_atol0": true,
+      "class_id": 1,
+      "direct_shape": [
+        1,
+        5
+      ],
+      "exact_array_equal": true,
+      "head_shape": [
+        1,
+        5
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "allclose_rtol0_atol0": true,
+      "class_id": 2,
+      "direct_shape": [
+        61,
+        5
+      ],
+      "exact_array_equal": true,
+      "head_shape": [
+        61,
+        5
+      ],
+      "max_abs_error": 0.0
+    }
+  ],
+  "direct_api": "model.detector.simple_test(img,metadata,rescale=True)",
+  "feature_dtype": "float32",
+  "fpn_shapes": [
+    [
+      1,
+      256,
+      96,
+      168
+    ],
+    [
+      1,
+      256,
+      48,
+      84
+    ],
+    [
+      1,
+      256,
+      24,
+      42
+    ],
+    [
+      1,
+      256,
+      12,
+      21
+    ],
+    [
+      1,
+      256,
+      6,
+      11
+    ]
+  ],
+  "image_sha256": "32356898b723a4bd4066c20fe8c3bbb86b37fa947aeb77f8c8ae1b03f27030ef",
+  "input_dtype": "torch.float32",
+  "key": "27-1-t000001",
+  "metadata": {
+    "batch_input_shape": [
+      768,
+      1344
+    ],
+    "filename": "/raid/datasets/chc_data/MDMT/train/1/27-1/00000361.jpg",
+    "flip": false,
+    "flip_direction": null,
+    "img_norm_cfg": {
+      "mean": [
+        102.9801025390625,
+        115.94650268554688,
+        122.77169799804688
+      ],
+      "std": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "to_rgb": false
+    },
+    "img_shape": [
+      750,
+      1333,
+      3
+    ],
+    "ori_filename": "/raid/datasets/chc_data/MDMT/train/1/27-1/00000361.jpg",
+    "ori_shape": [
+      1080,
+      1920,
+      3
+    ],
+    "pad_shape": [
+      768,
+      1344,
+      3
+    ],
+    "scale_factor": [
+      0.6942708492279053,
+      0.6944444179534912,
+      0.6942708492279053,
+      0.6944444179534912
+    ]
+  },
+  "source_paths": {
+    "detector": "/home/chenhc/mdmt_phase0_reproduction_20260829_202909/mdmt_env/lib/python3.8/site-packages/mmdet/models/detectors/autoassign.py",
+    "head": "/home/chenhc/mdmt_phase0_reproduction_20260829_202909/mdmt_env/lib/python3.8/site-packages/mmdet/models/dense_heads/autoassign_head.py"
+  },
+  "status": "PASS"
+}

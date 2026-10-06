@@ -1,0 +1,68 @@
+{
+  "all_archive_hashes_match": true,
+  "all_feature_arrays_float32_finite": true,
+  "all_native_detection_arrays_float32_finite": true,
+  "archive_count": 960,
+  "archive_total_bytes": 21124944280,
+  "distinct_level_shapes": [
+    {
+      "level": 0,
+      "shape": [
+        1,
+        256,
+        96,
+        168
+      ]
+    },
+    {
+      "level": 1,
+      "shape": [
+        1,
+        256,
+        48,
+        84
+      ]
+    },
+    {
+      "level": 2,
+      "shape": [
+        1,
+        256,
+        24,
+        42
+      ]
+    },
+    {
+      "level": 3,
+      "shape": [
+        1,
+        256,
+        12,
+        21
+      ]
+    },
+    {
+      "level": 4,
+      "shape": [
+        1,
+        256,
+        6,
+        11
+      ]
+    }
+  ],
+  "elapsed_seconds": 31.699,
+  "exact_plan_coverage_and_fixed_past_lags": true,
+  "feature_index_sha256": "16c66fc7d389caa33ecffb5494e442903439117c1568317a8b2f95b5367b32c2",
+  "group_count": 240,
+  "images_GT_or_model_read": false,
+  "maximum_native_score": 1.0,
+  "minimum_native_score": 0.04997823387384415,
+  "native_score_threshold_semantics": "cfg.score_thr=.05 applied before score_factors multiplication; output range [0,1], no extra postfilter",
+  "receipt_sha256": "2795432a2ebcb71ced1d4f1a8441b66c92050d76dd7c43d4c5252235bf335fe5",
+  "role": "fit",
+  "status": "PASS_NATIVE_FPN_ARCHIVE_VERIFICATION",
+  "total_native_detections": 75086,
+  "verification_code_sha256": "1150a840bf6be406ecff80a7dbb32be750d4762ccb3a8c5691506b1bacfcad3c",
+  "within_group_image_or_feature_shape_mismatch_keys": []
+}

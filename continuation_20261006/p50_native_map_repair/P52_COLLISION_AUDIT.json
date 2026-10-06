@@ -1,0 +1,40 @@
+{
+  "status": "STOP_P52_AS_PAPER_METHOD_COLLIDES_WITH_SCI_ID",
+  "created_utc": "2026-10-06T04:15:00+08:00",
+  "scope": "paper-novelty audit only; P52 remains a native adapter/control diagnostic",
+  "p52": {
+    "method": "Native Cross-View Counterfactual Candidate Association (NCCA)",
+    "artifact": "continuation_20261006/p50_native_map_repair/P52_DECISION.json",
+    "result": "held-out train calibration only; official val/test locked"
+  },
+  "direct_collision": {
+    "existing_project": "/home/chenhc/mdmot_sci_id_20260906",
+    "novelty_report": "N0_NOVELTY_REPORT_ZH.md",
+    "collision_sentence": "pre-pooling candidate-composition + positive removal + same-cardinality negative control + learned positive-absent dustbin",
+    "p52_overlap": [
+      "candidate membership counterfactuals",
+      "positive removal",
+      "same-cardinality negative-removal control",
+      "positive-absent dustbin"
+    ],
+    "judgement": "P52 cannot be presented as a distinct paper method by renaming the objective or moving the adapter to native ROI vectors."
+  },
+  "prior_result": {
+    "artifact": "N4_MULTIPAIR_RESULTS_20260907.md",
+    "status": "STOP_SCI_ID_NOT_INCREMENTAL_OVER_ADJACENT_PRIORS / STOP_SCI_ID_BACKBONE_NOT_CAUSAL",
+    "holdout_pairs": ["29", "30", "32", "39"],
+    "mean_recall1_delta": -0.0718,
+    "mean_mrr_delta": -0.0445,
+    "mean_margin_delta": -0.1506,
+    "mean_brier_delta": 0.0132,
+    "positive_recall1_pairs": 1,
+    "required_positive_pairs": 3,
+    "interpretation": "The exact SCI-ID composition branch failed its preregistered advancement gate; this blocks treating P52's overlapping composition objective as a new paper contribution."
+  },
+  "disposition": {
+    "p52_as_paper_method": "STOP",
+    "p52_as_native_adapter_control": "KEEP",
+    "official_val_test": false,
+    "next_direction": "AutoAssign-initialized identity backbone with a substantive cross-view, scale-consistent modulation inside C3/C4 or the identity pyramid; compare against AutoAssign-initialized B1/B4 before any tracker integration."
+  }
+}

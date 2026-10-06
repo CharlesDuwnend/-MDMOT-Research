@@ -1,0 +1,63 @@
+{
+  "GT_in_features": false,
+  "anchor_fractions": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "background_ransac_pixels": 3.0,
+  "background_sample_stride": 16,
+  "cal_dev_val_test_read": false,
+  "camera_intervention": "first anchor each pair, view1; old-image rotation 3deg, translation (12,-8) pixels",
+  "code_sha256": "c7fda7df82dfabb626ae0b9114029febb5f03ba14aa5204dd0707169a9f67ff5",
+  "created_utc": "2026-10-04T12:02:35.741787+00:00",
+  "crossview_homography_required": false,
+  "failure_scope": "Frozen RAFT plus background homography at native resolution; not a learned representation or universal motion impossibility.",
+  "fixed_anchors": {
+    "23": [
+      233,
+      467
+    ],
+    "25": [
+      167,
+      333
+    ],
+    "29": [
+      233,
+      467
+    ],
+    "69": [
+      233,
+      467
+    ],
+    "78": [
+      116,
+      232
+    ]
+  },
+  "foreground_mask_expansion": 0.1,
+  "gate": "At least 20 objects with >=.5 valid two-step grid support and residual spatial standard deviation above held-out background p90, in >=3 fixed fit pairs; background errors and camera intervention separately reported.",
+  "gpu_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+  "hypothesis": "Dense per-object residual fields have usable spatial and temporal evidence beyond a single box-center vector.",
+  "image_resolution": "native, pad to multiple of 8, never rescale",
+  "pairs": [
+    "23",
+    "25",
+    "29",
+    "69",
+    "78"
+  ],
+  "patch_grid": 16,
+  "raft_source": {
+    "path": "/home/chenhc/.conda/envs/remdet_paper/lib/python3.11/site-packages/torchvision/models/optical_flow/raft.py",
+    "sha256": "16948b3d78acba0bb9473a7f0f95c2af4dfbb2705aa4c2747433ebc3d73708d9"
+  },
+  "raft_updates": 12,
+  "time_offsets": [
+    -2,
+    -1,
+    0
+  ],
+  "torchvision": "0.17.0+cu121",
+  "train_model": false,
+  "weights_sha256": "ff5fadd56d26b40647388883af1547351ea17868b765c05b27231e72dd16a322"
+}

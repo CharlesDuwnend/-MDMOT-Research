@@ -1,0 +1,166 @@
+{
+  "status": "PASS_COD_PAPER_ROUTE_AUDIT_3X3",
+  "route_status": "KEEP_PROTOCOL_DIAGNOSIS_ROUTE_NO_NEW_ALGORITHM",
+  "source_root": "/home/chenhc/mdmt_cod_revision_audit_20260926/artifacts_v2",
+  "rounds": {
+    "R1_source_legal": [
+      {
+        "name": "R1_manifest_complete",
+        "pass": true,
+        "detail": "complete"
+      },
+      {
+        "name": "R1_train_only_split",
+        "pass": true,
+        "detail": {
+          "split": "train",
+          "val_access": false,
+          "test_access": false
+        }
+      },
+      {
+        "name": "R1_no_training_or_gpu",
+        "pass": true,
+        "detail": {
+          "training": false,
+          "gpu_used": false
+        }
+      },
+      {
+        "name": "R1_source_unchanged",
+        "pass": true,
+        "detail": true
+      },
+      {
+        "name": "R1_all_25_pair_files",
+        "pass": true,
+        "detail": {
+          "manifest_pairs": 25,
+          "missing": []
+        }
+      },
+      {
+        "name": "R1_no_formal_mot_metrics",
+        "pass": true,
+        "detail": "NOT_RUN"
+      }
+    ],
+    "R2_aggregate_replay": [
+      {
+        "name": "R2_events_recomputed",
+        "pass": true,
+        "detail": {
+          "recomputed": 8311,
+          "summary": 8311
+        }
+      },
+      {
+        "name": "R2_pair_macro_candidate_recall",
+        "pass": true,
+        "detail": 0.9918145908986111
+      },
+      {
+        "name": "R2_pair_macro_given_top1",
+        "pass": true,
+        "detail": 0.09270802006988602
+      },
+      {
+        "name": "R2_pair_macro_given_mrr",
+        "pass": true,
+        "detail": 0.2149330411381026
+      },
+      {
+        "name": "R2_false_commit_totals",
+        "pass": true,
+        "detail": {
+          "new_false_commits": 792,
+          "persistent": 740
+        }
+      },
+      {
+        "name": "R2_persistent_pair_coverage",
+        "pass": true,
+        "detail": {
+          "pairs_with_persistent_false_commits": 25
+        }
+      },
+      {
+        "name": "R2_future_frames_recomputed",
+        "pass": true,
+        "detail": 78624
+      },
+      {
+        "name": "R2_causal_link_macro",
+        "pass": true,
+        "detail": {
+          "precision": 0.13691840079393658,
+          "recall": 0.033168367056211186,
+          "f1": 0.04924721166535837
+        }
+      },
+      {
+        "name": "R2_all_numeric_finite",
+        "pass": true,
+        "detail": true
+      }
+    ],
+    "R3_claim_boundary": [
+      {
+        "name": "R3_candidate_coverage_not_primary_bottleneck",
+        "pass": true,
+        "detail": {
+          "candidate_recall": 0.9918145908986111,
+          "given_candidate_top1": 0.09270802006988602
+        }
+      },
+      {
+        "name": "R3_persistent_error_is_cross_pair",
+        "pass": true,
+        "detail": 25
+      },
+      {
+        "name": "R3_route_is_diagnostic_only",
+        "pass": true,
+        "detail": {
+          "candidate_method_status": "HOLD_NOT_AUTHORIZED_FOR_TRAINING",
+          "interpretation": "Error prevalence is descriptive; no causal repair gain or learned method performance established."
+        }
+      },
+      {
+        "name": "R3_no_official_selection",
+        "pass": true,
+        "detail": true
+      },
+      {
+        "name": "R3_source_receipt_present",
+        "pass": true,
+        "detail": true
+      }
+    ]
+  },
+  "recomputed": {
+    "pairs": 25,
+    "events": 8311,
+    "candidate_recall": 0.9918145908986111,
+    "given_candidate_top1": 0.09270802006988602,
+    "given_candidate_mrr": 0.2149330411381026,
+    "new_false_commits": 792,
+    "observed_persistent_false_commits": 740,
+    "pairs_with_persistent_false_commits": 25,
+    "future_wrong_coobserved_edge_frames": 78624,
+    "paired_link_causal_lag4": {
+      "precision": 0.13691840079393658,
+      "recall": 0.033168367056211186,
+      "f1": 0.04924721166535837
+    }
+  },
+  "claim_boundary": [
+    "train-only diagnostics",
+    "no learned module trained",
+    "no val/test access",
+    "no IDF1/AssA/HOTA/MOTA claim",
+    "no SOTA or first claim",
+    "no authorization for official evaluation"
+  ],
+  "all_checks_pass": true
+}

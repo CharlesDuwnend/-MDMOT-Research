@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-04",
+  "scope": "Bounded primary-source motion representation audit; no data/training/GPU",
+  "overall": "CONTINUE_INPUT_OBSERVABILITY_GATE_ONLY",
+  "novelty": "HOLD_FULL_CHAIN_NOVELTY_SAME_FULLTEXT_UNAVAILABLE",
+  "full_chain_tier1_collision_proven": false,
+  "broad_claim_stop": "STOP_BROAD_DMC_GEOMETRY_MDMT_CLAIM",
+  "broad_claim_stopped": "Novel multi-drone camera compensation + spatial/position/IoU matching",
+  "same_fulltext_obtained": false,
+  "homview_version": "2403.10830v3 (2026-02-08)",
+  "tier2_main": [
+    "2607.21576v1 SDM",
+    "2602.20157v1 Flow3r",
+    "2601.01075v1 FloWM"
+  ],
+  "tier2_foundation": [
+    "1803.02276 GeoNet"
+  ],
+  "tier3_sources_used_as_stop": false,
+  "method_confirmed": false,
+  "training_started": false,
+  "gpus_used": false,
+  "next_gate_requirements": [
+    "Independent held-out background support",
+    "Correct finite residual transfer or checked first-order approximation",
+    "Time/frame coordinate consistency and causal visibility",
+    "Camera/object intervention semantics checked",
+    "Identity information increment beyond ordinary GMC and static geometry"
+  ],
+  "not_authorized_by_this_audit": [
+    "Novel/first claim",
+    "Formal model training",
+    "Official-validation tuning",
+    "Threshold sweep as contribution"
+  ],
+  "method_lock": "HOLD_METHOD_LOCK_OBSERVABILITY_AND_NON_EQUIVALENCE_UNPROVEN",
+  "narrow_candidate_claim": "Target-excluded background constraints plus per-object spatial residual-field reconstruction/transfer for MDMT identity information beyond appearance, static geometry and ordinary GMC; unverified",
+  "motion_intervention_identity_boundary": "Changing object motion does not change identity; do not use motion-donor identity as a synthetic negative label"
+}

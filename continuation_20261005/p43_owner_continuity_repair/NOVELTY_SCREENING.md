@@ -1,0 +1,1 @@
+This is persistent owner-state bookkeeping required for a valid temporal tracker attachment. It is not novel association, learning, or identity representation. A positive result would establish an integration control only.

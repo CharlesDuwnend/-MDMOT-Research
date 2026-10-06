@@ -1,0 +1,66 @@
+{
+  "arms": {
+    "causal_fgfa": {
+      "embedding_gradient_norm": 0.19499273598194122,
+      "losses": {
+        "loss_center": 0.024610746651887894,
+        "loss_neg": 0.0035136870574206114,
+        "loss_pos": 0.33665117621421814
+      },
+      "parameter_counts": {
+        "active": 787456,
+        "embedding": 721664,
+        "total": 787456,
+        "unused_embedding": 0,
+        "value_adapter": 65792
+      },
+      "real_update_verified": true,
+      "value_gradient_norm": 1.4802345037460327
+    },
+    "single_adapter": {
+      "embedding_gradient_norm": 0.0,
+      "losses": {
+        "loss_center": 0.024610746651887894,
+        "loss_neg": 0.015522907488048077,
+        "loss_pos": 0.21014504134655
+      },
+      "parameter_counts": {
+        "active": 65792,
+        "embedding": 721664,
+        "total": 787456,
+        "unused_embedding": 721664,
+        "value_adapter": 65792
+      },
+      "real_update_verified": true,
+      "value_gradient_norm": 1.3332388401031494
+    },
+    "uniform_fgfa": {
+      "embedding_gradient_norm": 0.0,
+      "losses": {
+        "loss_center": 0.024610746651887894,
+        "loss_neg": 0.0035748619120568037,
+        "loss_pos": 0.36235949397087097
+      },
+      "parameter_counts": {
+        "active": 65792,
+        "embedding": 721664,
+        "total": 787456,
+        "unused_embedding": 721664,
+        "value_adapter": 65792
+      },
+      "real_update_verified": true,
+      "value_gradient_norm": 1.6403356790542603
+    }
+  },
+  "frozen_model_state_sha256": "39e5ec506b13592708fc2fd129a68383c7b87411da2daacf1dc353f32bcaa737",
+  "key": "23-1-t000009",
+  "labels_role": "fit",
+  "native_exact_array_equal": [
+    true,
+    true,
+    true
+  ],
+  "real_gt_count": 9,
+  "status": "PASS_REAL_GPU_SMOKE",
+  "synthetic_performance_claim": false
+}

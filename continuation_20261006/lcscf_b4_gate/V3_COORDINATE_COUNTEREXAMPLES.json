@@ -1,0 +1,49 @@
+{
+  "status": "FAIL_V3_COORDINATE_AND_EVALUATION_CONTRACT",
+  "source_sha256": {
+    "sci_id/models/lcscf.py": "0f74b93439bd96a8c99686737770667706dff615f4be4217502051bdb77611fe",
+    "sci_id/models/identity_pyramid.py": "2acd5af6bf0f8f1e9454c2527d90dd5735c15e58a6af4d9feee864486b8ee9d2",
+    "sci_id/models/backbone.py": "b494b1aa08c6cba7f2b75573aa5bf3d85cba8ac4d13c5a4686a5c56d8600466d",
+    "sci_id/models/full_model.py": "7a4f7b633e94c5ad2014dce3d263ece5714752d5b2fc670ce1417a4215717472",
+    "sci_id/data/episodes.py": "adc4eceacd6680e06f097ba782f1aa5e436a0221ed3f33a16a852c2dc7b4c2e6",
+    "run_n4_holdout.py": "e63a700fa6696c51d5158bf8f791bd1750230ff55980c4cddd45cf327e1013cc",
+    "train_n4_holdout.py": "3c7a18d4b75049df5f49b46b350871a7a2c1f8ce0560a052aa5ae74742a5d2f9",
+    "run_lcscf_gate.py": "14bffc8a383b0253db86a98e5ba242a9c36e6dc46f6ca2769d525c1f68368c07",
+    "lcscf_contract_audit.py": "3d08b697a6c928b6cae886bf76c52000eedab10f810f73ef08f2a3954b21c0e7",
+    "LCSCF_DECISION.json": "ce92403584f22ffc5a4f3597f022bc1b5f03976ccce161c3ea24d80c1deee94a",
+    "LCSCF_FAILURE_AUDIT_BLOCK1.json": "8dd25081bd938b5ea6a2d00acea63c60e9a548822e9cffc300c1b268ead52a28",
+    "LCSCF_CONTRACT_AUDIT_V3.json": "c2e16e8fc240a00d38774544bfb92c2e91ebaa98881fa75ce83dd959b980df02"
+  },
+  "counterexamples": {
+    "displaced_roundtrip": {
+      "legacy": 0.0,
+      "expected": 1.0
+    },
+    "cross_view_feature_consistency": {
+      "legacy": 0.0,
+      "expected": 1.0
+    },
+    "unknown_candidate_rank": {
+      "legacy_rank": 2,
+      "known_only_rank": 1
+    },
+    "native_padding": {
+      "legacy_width": 1333,
+      "required_divisor": 32,
+      "modulus": 21
+    },
+    "roi_extent": {
+      "legacy_normalized_full_extent": [
+        0,
+        335
+      ],
+      "expected_at_stride4_padded1344": [
+        0,
+        336
+      ]
+    }
+  },
+  "direction_clarification": "P(target->source) warps source features onto the target grid. That candidate self-warp is valid; the defects are unshifted reverse-plan sampling and swapped cross-view cosine references. Do not replace source appearance with copied target features.",
+  "old_stop_decision": "SUPERSEDED_PENDING_REPAIR",
+  "official_val_test_access": false
+}

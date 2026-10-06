@@ -1,0 +1,21 @@
+{
+  "status": "FIXED_TRAINING_COMPLETE",
+  "arm": "head_only",
+  "steps": 1200,
+  "rows_seen": 56647,
+  "supervised_queries": 32854,
+  "first50_mean_loss": 0.31847409020763734,
+  "last50_mean_loss": 0.23823862404140528,
+  "initial_head_sha256": "4e1f4f39dd6ff654afafdff917f987078703f7e372cf759e9fdecce8c60dd03a",
+  "final_head_sha256": "0ba5c978a100d7cc6e037412a1a0347e01f8daa84958f21a640f2339a8ed8215",
+  "initial_backbone_sha256": null,
+  "final_backbone_sha256": null,
+  "trainable_parameters": 50048,
+  "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p23_visual/runs/head_only/fixed_step_001200.pt",
+  "checkpoint_sha256": "904d19c7913c23c3e851e77bf0139c39ff2e17f2eaced2fd81a31c183593c043",
+  "protocol_sha256": "63c922870eecf57d553653ded26c941f71b5d81a90a97befaf325fa383a5c8b3",
+  "elapsed_seconds": 6.662013640161604,
+  "peak_cuda_allocated_bytes": 70258176,
+  "cal_dev_val_test_read": false,
+  "GPU2_used": false
+}

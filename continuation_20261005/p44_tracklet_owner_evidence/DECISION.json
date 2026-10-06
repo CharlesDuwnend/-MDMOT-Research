@@ -1,0 +1,65 @@
+{
+  "baseline": {
+    "IDF1": 0.9087675268817306,
+    "MDA": 0.6431315772400862,
+    "MOTA": 0.9474145050991436,
+    "method": "P26_baseline",
+    "num_switches": 770.0,
+    "views": [
+      {
+        "idf1": 0.9026395757611869,
+        "mota": 0.9447530134719925,
+        "num_switches": 407.0
+      },
+      {
+        "idf1": 0.9148954780022741,
+        "mota": 0.9500759967262948,
+        "num_switches": 363.0
+      }
+    ]
+  },
+  "failure_audit": "FAILURE_AUDIT.json",
+  "geometry": {
+    "IDF1": 0.8366079887027749,
+    "MDA": 0.40898364480337285,
+    "MOTA": 0.9333843402447066,
+    "method": "P44_geometry",
+    "num_switches": 1250.0,
+    "views": [
+      {
+        "idf1": 0.9026395757611869,
+        "mota": 0.9447530134719925,
+        "num_switches": 407.0
+      },
+      {
+        "idf1": 0.7705764016443628,
+        "mota": 0.9220156670174208,
+        "num_switches": 843.0
+      }
+    ]
+  },
+  "mean8": {
+    "IDF1": 0.8548884050414436,
+    "MDA": 0.41958432203317153,
+    "MOTA": 0.9327997500424384,
+    "method": "P44_mean8",
+    "num_switches": 1270.0,
+    "views": [
+      {
+        "idf1": 0.9026395757611869,
+        "mota": 0.9447530134719925,
+        "num_switches": 407.0
+      },
+      {
+        "idf1": 0.8071372343217004,
+        "mota": 0.9208464866128844,
+        "num_switches": 863.0
+      }
+    ]
+  },
+  "no_multi_pair_expansion": true,
+  "no_official_val_test": true,
+  "no_training_authorized": true,
+  "reason": "Persistent tracklet evidence aggregation loses MDA/IDF1/MOTA on pair23 despite collision-safe output.",
+  "verdict": "STOP_P44_TRACKLET_OWNER_EVIDENCE"
+}

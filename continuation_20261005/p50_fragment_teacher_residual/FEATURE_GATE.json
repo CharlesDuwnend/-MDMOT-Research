@@ -1,0 +1,91 @@
+{
+  "status": "PASS_P50_FEATURE_SHORT_GATE_COMPLETE",
+  "fit_pairs": [
+    "23",
+    "25",
+    "27",
+    "28",
+    "29",
+    "30",
+    "32",
+    "39",
+    "42",
+    "44",
+    "45",
+    "50",
+    "51",
+    "53",
+    "54"
+  ],
+  "eval_pairs": [
+    "69",
+    "70",
+    "74",
+    "76",
+    "78"
+  ],
+  "fit_events": 7500,
+  "steps": 1200,
+  "device": "cuda",
+  "history": [
+    {
+      "step": 1,
+      "loss": 0.9564641714096069,
+      "bce": 0.6143800020217896
+    },
+    {
+      "step": 400,
+      "loss": 0.10275273025035858,
+      "bce": 0.07284217327833176
+    },
+    {
+      "step": 800,
+      "loss": 0.0746615082025528,
+      "bce": 0.05476682633161545
+    },
+    {
+      "step": 1200,
+      "loss": 0.055001914501190186,
+      "bce": 0.041395142674446106
+    }
+  ],
+  "per_pair": {
+    "69": {
+      "events": 1200,
+      "student_recall1": 0.1525,
+      "baseline_recall1": 0.10083333333333333,
+      "student_mrr": 0.24562235313798852,
+      "baseline_mrr": 0.18247464422142992
+    },
+    "70": {
+      "events": 1200,
+      "student_recall1": 0.23166666666666666,
+      "baseline_recall1": 0.11583333333333333,
+      "student_mrr": 0.36171596169695563,
+      "baseline_mrr": 0.2389379238827717
+    },
+    "74": {
+      "events": 1200,
+      "student_recall1": 0.2125,
+      "baseline_recall1": 0.07916666666666666,
+      "student_mrr": 0.3503229223064101,
+      "baseline_mrr": 0.17752859942087038
+    },
+    "76": {
+      "events": 1200,
+      "student_recall1": 0.31333333333333335,
+      "baseline_recall1": 0.12166666666666667,
+      "student_mrr": 0.49652455412839513,
+      "baseline_mrr": 0.2339060179255706
+    },
+    "78": {
+      "events": 1200,
+      "student_recall1": 0.14083333333333334,
+      "baseline_recall1": 0.17166666666666666,
+      "student_mrr": 0.3245943370110694,
+      "baseline_mrr": 0.2763291802976927
+    }
+  },
+  "metrics_are_train_only_diagnostics": true,
+  "teacher_in_inference": false
+}

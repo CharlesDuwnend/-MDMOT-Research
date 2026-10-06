@@ -1,0 +1,83 @@
+{
+  "application": {
+    "geometry": {
+      "birth_collision_fresh_ids": 1,
+      "existing_owner_rows": 16811,
+      "new_owners": 382,
+      "occupied_proposal_skips": 18,
+      "proposal_commits": 2,
+      "relabeled_rows": 186
+    },
+    "mean8": {
+      "birth_collision_fresh_ids": 1,
+      "existing_owner_rows": 16811,
+      "new_owners": 382,
+      "occupied_proposal_skips": 18,
+      "proposal_commits": 2,
+      "relabeled_rows": 186
+    }
+  },
+  "assignment_symmetric_difference_events": 2150,
+  "descriptor_coverage": {
+    "view1": 0.9996394664102872,
+    "view2": 0.9971500029081602
+  },
+  "duplicate_frame_ids": {
+    "geometry": 0,
+    "mean8": 0
+  },
+  "frames": 700,
+  "frames_sampled": [
+    {
+      "frame": 0,
+      "geometry_links": 0,
+      "mean8_links": 0,
+      "view1_rows": 8,
+      "view2_rows": 19
+    },
+    {
+      "frame": 1,
+      "geometry_links": 6,
+      "mean8_links": 6,
+      "view1_rows": 8,
+      "view2_rows": 19
+    },
+    {
+      "frame": 100,
+      "geometry_links": 20,
+      "mean8_links": 20,
+      "view1_rows": 22,
+      "view2_rows": 25
+    },
+    {
+      "frame": 300,
+      "geometry_links": 11,
+      "mean8_links": 11,
+      "view1_rows": 13,
+      "view2_rows": 13
+    },
+    {
+      "frame": 699,
+      "geometry_links": 16,
+      "mean8_links": 16,
+      "view1_rows": 35,
+      "view2_rows": 30
+    }
+  ],
+  "initial_H_shared_ids": 8,
+  "inputs_sha256": {
+    "mean8_view1": "567e3a0d2e91d367bda3c6fef64c646a1971aeb7afcbc5ca62c2cf7ebb78e021",
+    "mean8_view2": "9f260e18b108c8fa1ac0df70d9d2271588fac31acd2fc85cbb9729ff07d44a3d",
+    "p26_view1": "c2988c6c1c42ae15c84616c3d701f958662fad98bc3e51e9c07b79c72045bf58",
+    "p26_view2": "6c7f3add80ddaba8d065627975125070619febf0b858372e3ec41ff3f9e4707e"
+  },
+  "labels_read": false,
+  "links": {
+    "geometry": 8220,
+    "mean8": 8220
+  },
+  "method": "P39 mean with causal native-owner first-safe commit; engineering control, not new method",
+  "official_test_read": false,
+  "status": "COMPLETE_P43_CAUSAL_OWNER_REPAIR",
+  "xml_read": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN_CCFI_TRAIN_ONLY_GATE",
+  "name": "CCFI",
+  "fit_pairs": ["23", "25", "28", "29", "39", "44", "45", "51", "53", "63", "66", "69", "70", "74", "78"],
+  "calibration_pairs": ["27", "32", "42", "64", "65"],
+  "history": {"max_observations": 4, "max_age_frames": 8, "same_view": true, "strictly_past": true, "group_key": "local_track_id"},
+  "model": {"input_dim": 512, "identity_dim": 128, "change_dim": 128, "zero_init_identity_residual": true, "uncertainty": "bounded_sigmoid", "temperature": 0.1},
+  "objective": {"matching": 1.0, "change_prediction": 0.05, "orthogonality": 0.05, "uncertainty_calibration": 0.05},
+  "training": {"updates": 1200, "seed": 42, "optimizer": "AdamW", "lr": 0.0001, "weight_decay": 0.0001, "schedule": "frozen P7R schedule", "initialization": "P38 core weights mapped into first 384 input columns; extra dispersion columns zero"},
+  "gate": {"calibration_pair_macro_r1_min": 0.4641, "calibration_pair_wins_min": 3, "fit15_drop_max": 0.05, "vs_p38_calibration_r1_min": 0.4513663079477962, "vs_p38_pair_wins_min": 3},
+  "forbidden": ["dev", "official_val", "official_test", "threshold_search", "future_history", "numeric_local_id_as_feature", "GT_in_inference", "host_attachment_before_gate"],
+  "novelty": "NO_FIRST_OR_SOTA_CLAIM"
+}

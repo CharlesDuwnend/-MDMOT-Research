@@ -1,0 +1,35 @@
+{
+  "status": "PASS_CCFI_IMPLEMENTATION_FAILURE_AUDIT_V3_3X3",
+  "failure": "The first clean GPU training run reached finite loss values at step 291 but reported missing gradients for the change branch when the current group had no history. The gradients were absent, not non-finite.",
+  "classification": "INACTIVE_AUXILIARY_BRANCH_MISCLASSIFIED_AS_NUMERICAL_FAILURE",
+  "evidence": "IMPLEMENTATION_FAILURE_V3_TRACE.json",
+  "rounds": {
+    "R1_gradient_localization": {
+      "checks": {
+        "first_failing_step_identified": true,
+        "bad_parameters_localized_to_change_branch": true,
+        "matching_and_uncertainty_loss_finite": true
+      },
+      "finding": "step 291, pair 53 frame 1 class 2; change.0/change.2 gradients were None because both sides had no history."
+    },
+    "R2_numerical_replay": {
+      "checks": {
+        "pre_failure_steps_finite": true,
+        "extreme_dispersion_forward_finite": true,
+        "gradient_clipping_was_after_the_structural_check": true
+      },
+      "finding": "This was a loss-connectivity/audit ordering defect, not overflow. The repair connects inactive auxiliary terms with explicit zero tensors and keeps clipping after finite-gradient validation."
+    },
+    "R3_scope_check": {
+      "checks": {
+        "no_checkpoint_accepted": true,
+        "no_calibration_or_official_split_read": true,
+        "approved_gpu_uuid_unchanged": true
+      },
+      "finding": "The failed run produced no accepted model artifact and did not authorize host attachment."
+    }
+  },
+  "repair": "Connect no-history auxiliary losses to explicit zero terms so inactive branches have finite zero gradients; rerun CPU contract before a fresh GPU run.",
+  "post_repair_cpu_contract": "PASS_CCFI_CPU_CONTRACT_3X3",
+  "gpu_authorized_before_repair": false
+}

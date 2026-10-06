@@ -1,0 +1,1059 @@
+{
+  "attribution_limit": "Observed response of the existing joint implementation: the memory threshold and the same-frame score shift both change. Same-frame admissibility stays at cosine >= 0.70, but a varying shift can change Hungarian assignment cardinality. This is not an isolated causal estimate of memory-threshold effects.",
+  "completed_utc": "2026-10-04T11:10:23.539063+00:00",
+  "dataset": "MDMT",
+  "delta_vs_first_grid_setting": 0.004324943261952208,
+  "dev5_read": false,
+  "gpu_used": false,
+  "historical_metadata_corrections": [
+    "freeze dev_access=true is a copied label; actual pairs are internal cal5",
+    "freeze threshold_origin refers to P16; actual settings belong to the P19 memory grid",
+    "freeze hyperparameter_search=false describes an individual fixed run; the collection is a calibration sweep",
+    "same-frame threshold is missing from the freeze schema and is derived from launch evidence"
+  ],
+  "identity_semantics": "same_label_equal_id annotation-convention pseudo identity",
+  "max_parallel_evaluations": 2,
+  "metric": "CA_IDF1_conventional_pseudo",
+  "new_inference": false,
+  "official_metric": false,
+  "official_val_or_test_read": false,
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "per_pair_wins_vs_first_grid_setting": 5,
+  "precheck_sha256": "93fa68ec0a2bb4d2d046dd608687caf856af4d33ad08ecc128d623669b5fc4d6",
+  "protected_inputs_unchanged": true,
+  "reproducer_sha256": "d863861a60e19a3f7327a1454b4988ed62a848f3466fcae9d4b6b78d7a3852d8",
+  "rows": [
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "per_pair": {
+        "27": {
+          "CA_IDF1": 0.6171542592212212,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.2660197621442518,
+            "fn": 8889,
+            "fp": 3516,
+            "gt_links": 11137,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.39000693962526023,
+            "pred_links": 5764,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 72,
+            "prediction_observations_without_crosslink": 23426,
+            "recall": 0.20184969022178326,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2248
+          },
+          "current_future_gid_merge": 69,
+          "past_memory_link": 1387,
+          "spatial": {
+            "f1": 0.9505267173332551,
+            "fn": 811,
+            "fp": 2561,
+            "mean_matched_iou": 0.8631629607458544,
+            "precision": 0.9267322767065286,
+            "recall": 0.9755752318997711,
+            "tp": 32393
+          }
+        },
+        "32": {
+          "CA_IDF1": 0.6793389622573428,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5323416506717851,
+            "fn": 8221,
+            "fp": 1525,
+            "gt_links": 13768,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.7843608597285068,
+            "pred_links": 7072,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 43,
+            "prediction_observations_without_crosslink": 17920,
+            "recall": 0.4028907611853573,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 5547
+          },
+          "current_future_gid_merge": 56,
+          "past_memory_link": 603,
+          "spatial": {
+            "f1": 0.9169084217363066,
+            "fn": 5457,
+            "fp": 300,
+            "mean_matched_iou": 0.9163401384060584,
+            "precision": 0.9906437125748503,
+            "recall": 0.8533892157652938,
+            "tp": 31764
+          }
+        },
+        "42": {
+          "CA_IDF1": 0.7431270601828253,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.42188405797101447,
+            "fn": 5944,
+            "fp": 2034,
+            "gt_links": 8855,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.5886754297269969,
+            "pred_links": 4945,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 58,
+            "prediction_observations_without_crosslink": 19990,
+            "recall": 0.3287408243929983,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2911
+          },
+          "current_future_gid_merge": 41,
+          "past_memory_link": 393,
+          "spatial": {
+            "f1": 0.9810378224079926,
+            "fn": 105,
+            "fp": 1011,
+            "mean_matched_iou": 0.8994856388873308,
+            "precision": 0.9661646586345382,
+            "recall": 0.9963760612963346,
+            "tp": 28869
+          }
+        },
+        "64": {
+          "CA_IDF1": 0.6821816874831521,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5639869772101177,
+            "fn": 4671,
+            "fp": 552,
+            "gt_links": 8049,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.8595419847328244,
+            "pred_links": 3930,
+            "pred_links_with_cross_class_endpoints": 5,
+            "pred_links_with_unmatched_endpoint": 88,
+            "prediction_observations_without_crosslink": 15423,
+            "recall": 0.4196794632873649,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 3378
+          },
+          "current_future_gid_merge": 43,
+          "past_memory_link": 913,
+          "spatial": {
+            "f1": 0.9440201275945728,
+            "fn": 221,
+            "fp": 2271,
+            "mean_matched_iou": 0.8868046983222216,
+            "precision": 0.9024610230640382,
+            "recall": 0.9895916733386709,
+            "tp": 21012
+          }
+        },
+        "65": {
+          "CA_IDF1": 0.6231669396843458,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.34805060676478183,
+            "fn": 8523,
+            "fp": 1577,
+            "gt_links": 11219,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.630938450737187,
+            "pred_links": 4273,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 56,
+            "prediction_observations_without_crosslink": 37776,
+            "recall": 0.24030662269364472,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2696
+          },
+          "current_future_gid_merge": 46,
+          "past_memory_link": 2471,
+          "spatial": {
+            "f1": 0.8621538642628033,
+            "fn": 11678,
+            "fp": 2375,
+            "mean_matched_iou": 0.8841182372858563,
+            "precision": 0.9487284659557014,
+            "recall": 0.7900584269662921,
+            "tp": 43947
+          }
+        }
+      },
+      "prediction_freeze_sha256": "621b788ec330bb098af90928e4e541df1002552df9dafc902eb13d3449c48768",
+      "result_sha256": "ca072ab95e7530878c83798f67632b87c343cb615a2e703fb89757fecc52468b",
+      "runner_exit": 0,
+      "runtime_threshold": 0.8918,
+      "same_frame_shift": 0.19180000000000008,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "summary": {
+        "crosslinks_micro": {
+          "f1": 0.42474560826203617,
+          "fn": 36248,
+          "fp": 9204,
+          "gt_links": 53028,
+          "precision": 0.6457820197044335,
+          "pred_links": 25984,
+          "recall": 0.31643659953232256,
+          "tp": 16780
+        },
+        "idfn": 62874,
+        "idfp": 53120,
+        "idtp": 113383,
+        "micro_CA_IDF1": 0.6615882833469483,
+        "pair_count": 5,
+        "pair_macro_CA_IDF1": 0.6689937817657774,
+        "shared_gid_count_sum_over_pairs": 233,
+        "shared_gid_sameframe_slot_count_sum": 26237,
+        "spatial_micro": {
+          "f1": 0.9218403547671841,
+          "fn": 18272,
+          "fp": 8518,
+          "precision": 0.9488417626108839,
+          "recall": 0.8963331952773507,
+          "tp": 157985
+        }
+      },
+      "tag": "p19_cal_mem0.8918_sf0.70",
+      "verified_frozen_run_files": 36
+    },
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "per_pair": {
+        "27": {
+          "CA_IDF1": 0.6181519410780832,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.2660279157795127,
+            "fn": 8888,
+            "fp": 3522,
+            "gt_links": 11137,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.38970715647201526,
+            "pred_links": 5771,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 77,
+            "prediction_observations_without_crosslink": 23412,
+            "recall": 0.20193948100924844,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2249
+          },
+          "current_future_gid_merge": 67,
+          "past_memory_link": 1599,
+          "spatial": {
+            "f1": 0.9505267173332551,
+            "fn": 811,
+            "fp": 2561,
+            "mean_matched_iou": 0.8631629607458543,
+            "precision": 0.9267322767065286,
+            "recall": 0.9755752318997711,
+            "tp": 32393
+          }
+        },
+        "32": {
+          "CA_IDF1": 0.6797719564119218,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5323099064523866,
+            "fn": 8220,
+            "fp": 1529,
+            "gt_links": 13768,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.7839480005652113,
+            "pred_links": 7077,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 43,
+            "prediction_observations_without_crosslink": 17910,
+            "recall": 0.4029633933759442,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 5548
+          },
+          "current_future_gid_merge": 55,
+          "past_memory_link": 676,
+          "spatial": {
+            "f1": 0.9169084217363066,
+            "fn": 5457,
+            "fp": 300,
+            "mean_matched_iou": 0.9163401384060568,
+            "precision": 0.9906437125748503,
+            "recall": 0.8533892157652938,
+            "tp": 31764
+          }
+        },
+        "42": {
+          "CA_IDF1": 0.7443164440819655,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.42297385384225394,
+            "fn": 5935,
+            "fp": 2032,
+            "gt_links": 8855,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.5896607431340872,
+            "pred_links": 4952,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 58,
+            "prediction_observations_without_crosslink": 19976,
+            "recall": 0.3297571993224167,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2920
+          },
+          "current_future_gid_merge": 41,
+          "past_memory_link": 472,
+          "spatial": {
+            "f1": 0.9810378224079926,
+            "fn": 105,
+            "fp": 1011,
+            "mean_matched_iou": 0.8994856388873315,
+            "precision": 0.9661646586345382,
+            "recall": 0.9963760612963346,
+            "tp": 28869
+          }
+        },
+        "64": {
+          "CA_IDF1": 0.6867193817953096,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5638715060492282,
+            "fn": 4670,
+            "fp": 557,
+            "gt_links": 8049,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.8584857723577236,
+            "pred_links": 3936,
+            "pred_links_with_cross_class_endpoints": 5,
+            "pred_links_with_unmatched_endpoint": 93,
+            "prediction_observations_without_crosslink": 15411,
+            "recall": 0.41980370232326997,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 3379
+          },
+          "current_future_gid_merge": 43,
+          "past_memory_link": 1137,
+          "spatial": {
+            "f1": 0.9440201275945728,
+            "fn": 221,
+            "fp": 2271,
+            "mean_matched_iou": 0.8868046983222214,
+            "precision": 0.9024610230640382,
+            "recall": 0.9895916733386709,
+            "tp": 21012
+          }
+        },
+        "65": {
+          "CA_IDF1": 0.6269924568648415,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.3432645785586962,
+            "fn": 8523,
+            "fp": 1793,
+            "gt_links": 11219,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.6005791935843172,
+            "pred_links": 4489,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 56,
+            "prediction_observations_without_crosslink": 37344,
+            "recall": 0.24030662269364472,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2696
+          },
+          "current_future_gid_merge": 47,
+          "past_memory_link": 2976,
+          "spatial": {
+            "f1": 0.8621538642628033,
+            "fn": 11678,
+            "fp": 2375,
+            "mean_matched_iou": 0.8841182372858556,
+            "precision": 0.9487284659557014,
+            "recall": 0.7900584269662921,
+            "tp": 43947
+          }
+        }
+      },
+      "prediction_freeze_sha256": "562b28b0833e49ab88abde3854123994bce9aa23b3fffb6575d82feccb380311",
+      "result_sha256": "39372498dfd3e685e4c7fe6ab4355b8c66f473fd02fcf57b16da0923bf545e64",
+      "runner_exit": 0,
+      "runtime_threshold": 0.85,
+      "same_frame_shift": 0.15000000000000002,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "summary": {
+        "crosslinks_micro": {
+          "f1": 0.42375682939447085,
+          "fn": 36236,
+          "fp": 9433,
+          "gt_links": 53028,
+          "precision": 0.6403050524308865,
+          "pred_links": 26225,
+          "recall": 0.31666289507430034,
+          "tp": 16792
+        },
+        "idfn": 62494,
+        "idfp": 52740,
+        "idtp": 113763,
+        "micro_CA_IDF1": 0.66380557824717,
+        "pair_count": 5,
+        "pair_macro_CA_IDF1": 0.6711904360464244,
+        "shared_gid_count_sum_over_pairs": 232,
+        "shared_gid_sameframe_slot_count_sum": 26478,
+        "spatial_micro": {
+          "f1": 0.9218403547671841,
+          "fn": 18272,
+          "fp": 8518,
+          "precision": 0.9488417626108839,
+          "recall": 0.8963331952773507,
+          "tp": 157985
+        }
+      },
+      "tag": "p19_cal_mem0.85_sf0.70",
+      "verified_frozen_run_files": 36
+    },
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "per_pair": {
+        "27": {
+          "CA_IDF1": 0.6185040640863875,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.2651113467656416,
+            "fn": 8887,
+            "fp": 3587,
+            "gt_links": 11137,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.3854719890354634,
+            "pred_links": 5837,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 109,
+            "prediction_observations_without_crosslink": 23280,
+            "recall": 0.20202927179671365,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2250
+          },
+          "current_future_gid_merge": 67,
+          "past_memory_link": 1718,
+          "spatial": {
+            "f1": 0.9505267173332551,
+            "fn": 811,
+            "fp": 2561,
+            "mean_matched_iou": 0.8631629607458539,
+            "precision": 0.9267322767065286,
+            "recall": 0.9755752318997711,
+            "tp": 32393
+          }
+        },
+        "32": {
+          "CA_IDF1": 0.6820523922927041,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5321312104354499,
+            "fn": 8220,
+            "fp": 1536,
+            "gt_links": 13768,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.7831733483907397,
+            "pred_links": 7084,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 45,
+            "prediction_observations_without_crosslink": 17896,
+            "recall": 0.4029633933759442,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 5548
+          },
+          "current_future_gid_merge": 55,
+          "past_memory_link": 721,
+          "spatial": {
+            "f1": 0.9169084217363066,
+            "fn": 5457,
+            "fp": 300,
+            "mean_matched_iou": 0.9163401384060565,
+            "precision": 0.9906437125748503,
+            "recall": 0.8533892157652938,
+            "tp": 31764
+          }
+        },
+        "42": {
+          "CA_IDF1": 0.7450300744214496,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.42583073915876346,
+            "fn": 5914,
+            "fp": 2017,
+            "gt_links": 8855,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.5931827349737797,
+            "pred_links": 4958,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 60,
+            "prediction_observations_without_crosslink": 19964,
+            "recall": 0.332128740824393,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2941
+          },
+          "current_future_gid_merge": 39,
+          "past_memory_link": 524,
+          "spatial": {
+            "f1": 0.9810378224079926,
+            "fn": 105,
+            "fp": 1011,
+            "mean_matched_iou": 0.8994856388873315,
+            "precision": 0.9661646586345382,
+            "recall": 0.9963760612963346,
+            "tp": 28869
+          }
+        },
+        "64": {
+          "CA_IDF1": 0.6882019947883907,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5639913232104121,
+            "fn": 4669,
+            "fp": 557,
+            "gt_links": 8049,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.858521717043434,
+            "pred_links": 3937,
+            "pred_links_with_cross_class_endpoints": 5,
+            "pred_links_with_unmatched_endpoint": 93,
+            "prediction_observations_without_crosslink": 15409,
+            "recall": 0.41992794135917505,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 3380
+          },
+          "current_future_gid_merge": 44,
+          "past_memory_link": 1295,
+          "spatial": {
+            "f1": 0.9440201275945728,
+            "fn": 221,
+            "fp": 2271,
+            "mean_matched_iou": 0.8868046983222211,
+            "precision": 0.9024610230640382,
+            "recall": 0.9895916733386709,
+            "tp": 21012
+          }
+        },
+        "65": {
+          "CA_IDF1": 0.6298174541673615,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.3435770185149838,
+            "fn": 8519,
+            "fp": 1798,
+            "gt_links": 11219,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.6002667852378835,
+            "pred_links": 4498,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 58,
+            "prediction_observations_without_crosslink": 37326,
+            "recall": 0.24066316070951066,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2700
+          },
+          "current_future_gid_merge": 46,
+          "past_memory_link": 3271,
+          "spatial": {
+            "f1": 0.8621538642628033,
+            "fn": 11678,
+            "fp": 2375,
+            "mean_matched_iou": 0.8841182372858539,
+            "precision": 0.9487284659557014,
+            "recall": 0.7900584269662921,
+            "tp": 43947
+          }
+        }
+      },
+      "prediction_freeze_sha256": "14a21aea0feb48c7ca7914452b98ce3ff0d4fb2213ea0e5438e7ad0454fd93c1",
+      "result_sha256": "c9f8cedaffe8db39ba2f6be8c20353d569d9f16effd4aef2ca8b37466fba0674",
+      "runner_exit": 0,
+      "runtime_threshold": 0.8,
+      "same_frame_shift": 0.10000000000000009,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "summary": {
+        "crosslinks_micro": {
+          "f1": 0.42396208817524134,
+          "fn": 36209,
+          "fp": 9495,
+          "gt_links": 53028,
+          "precision": 0.6391654632515011,
+          "pred_links": 26314,
+          "recall": 0.3171720600437505,
+          "tp": 16819
+        },
+        "idfn": 62205,
+        "idfp": 52451,
+        "idtp": 114052,
+        "micro_CA_IDF1": 0.6654918893686544,
+        "pair_count": 5,
+        "pair_macro_CA_IDF1": 0.6727211959512587,
+        "shared_gid_count_sum_over_pairs": 233,
+        "shared_gid_sameframe_slot_count_sum": 26571,
+        "spatial_micro": {
+          "f1": 0.9218403547671841,
+          "fn": 18272,
+          "fp": 8518,
+          "precision": 0.9488417626108839,
+          "recall": 0.8963331952773507,
+          "tp": 157985
+        }
+      },
+      "tag": "p19_cal_mem0.80_sf0.70",
+      "verified_frozen_run_files": 36
+    },
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "per_pair": {
+        "27": {
+          "CA_IDF1": 0.6188268435106664,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.2651992231181214,
+            "fn": 8884,
+            "fp": 3601,
+            "gt_links": 11137,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.3848650495387769,
+            "pred_links": 5854,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 119,
+            "prediction_observations_without_crosslink": 23246,
+            "recall": 0.20229864415910928,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2253
+          },
+          "current_future_gid_merge": 65,
+          "past_memory_link": 1781,
+          "spatial": {
+            "f1": 0.9505267173332551,
+            "fn": 811,
+            "fp": 2561,
+            "mean_matched_iou": 0.8631629607458559,
+            "precision": 0.9267322767065286,
+            "recall": 0.9755752318997711,
+            "tp": 32393
+          }
+        },
+        "32": {
+          "CA_IDF1": 0.6819080609078444,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5318251533742331,
+            "fn": 8220,
+            "fp": 1548,
+            "gt_links": 13768,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.7818489289740699,
+            "pred_links": 7096,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 47,
+            "prediction_observations_without_crosslink": 17872,
+            "recall": 0.4029633933759442,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 5548
+          },
+          "current_future_gid_merge": 55,
+          "past_memory_link": 736,
+          "spatial": {
+            "f1": 0.9169084217363066,
+            "fn": 5457,
+            "fp": 300,
+            "mean_matched_iou": 0.9163401384060563,
+            "precision": 0.9906437125748503,
+            "recall": 0.8533892157652938,
+            "tp": 31764
+          }
+        },
+        "42": {
+          "CA_IDF1": 0.7469330886600741,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.4323774954627949,
+            "fn": 5877,
+            "fp": 1942,
+            "gt_links": 8855,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.6052845528455284,
+            "pred_links": 4920,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 58,
+            "prediction_observations_without_crosslink": 20040,
+            "recall": 0.3363071710897798,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2978
+          },
+          "current_future_gid_merge": 39,
+          "past_memory_link": 562,
+          "spatial": {
+            "f1": 0.9810378224079926,
+            "fn": 105,
+            "fp": 1011,
+            "mean_matched_iou": 0.8994856388873321,
+            "precision": 0.9661646586345382,
+            "recall": 0.9963760612963346,
+            "tp": 28869
+          }
+        },
+        "64": {
+          "CA_IDF1": 0.6886961991194177,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5639486409871602,
+            "fn": 4667,
+            "fp": 563,
+            "gt_links": 8049,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.8572877059569075,
+            "pred_links": 3945,
+            "pred_links_with_cross_class_endpoints": 5,
+            "pred_links_with_unmatched_endpoint": 99,
+            "prediction_observations_without_crosslink": 15393,
+            "recall": 0.4201764194309852,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 3382
+          },
+          "current_future_gid_merge": 44,
+          "past_memory_link": 1389,
+          "spatial": {
+            "f1": 0.9440201275945728,
+            "fn": 221,
+            "fp": 2271,
+            "mean_matched_iou": 0.8868046983222223,
+            "precision": 0.9024610230640382,
+            "recall": 0.9895916733386709,
+            "tp": 21012
+          }
+        },
+        "65": {
+          "CA_IDF1": 0.6302294329406456,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.34340222575516693,
+            "fn": 8519,
+            "fp": 1806,
+            "gt_links": 11219,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.5992010652463382,
+            "pred_links": 4506,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 66,
+            "prediction_observations_without_crosslink": 37310,
+            "recall": 0.24066316070951066,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2700
+          },
+          "current_future_gid_merge": 46,
+          "past_memory_link": 3453,
+          "spatial": {
+            "f1": 0.8621538642628033,
+            "fn": 11678,
+            "fp": 2375,
+            "mean_matched_iou": 0.8841182372858551,
+            "precision": 0.9487284659557014,
+            "recall": 0.7900584269662921,
+            "tp": 43947
+          }
+        }
+      },
+      "prediction_freeze_sha256": "58b436972b29aec82d422fdec528e1298dfa0a136b39bd28248676396fc6ff12",
+      "result_sha256": "470646ac5af7d82c071b3a763c58f9053e653a7b63f4b4013905d3b1a1987880",
+      "runner_exit": 0,
+      "runtime_threshold": 0.75,
+      "same_frame_shift": 0.050000000000000044,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "summary": {
+        "crosslinks_micro": {
+          "f1": 0.42498330161690756,
+          "fn": 36167,
+          "fp": 9460,
+          "gt_links": 53028,
+          "precision": 0.640591162949736,
+          "pred_links": 26321,
+          "recall": 0.31796409444067286,
+          "tp": 16861
+        },
+        "idfn": 62111,
+        "idfp": 52357,
+        "idtp": 114146,
+        "micro_CA_IDF1": 0.6660403781071303,
+        "pair_count": 5,
+        "pair_macro_CA_IDF1": 0.6733187250277296,
+        "shared_gid_count_sum_over_pairs": 233,
+        "shared_gid_sameframe_slot_count_sum": 26582,
+        "spatial_micro": {
+          "f1": 0.9218403547671841,
+          "fn": 18272,
+          "fp": 8518,
+          "precision": 0.9488417626108839,
+          "recall": 0.8963331952773507,
+          "tp": 157985
+        }
+      },
+      "tag": "p19_cal_mem0.75_sf0.70",
+      "verified_frozen_run_files": 36
+    },
+    {
+      "input_counts": {
+        "frames": 1950,
+        "missing_feature_observations": 17,
+        "outputs_per_arm": 175862,
+        "zero_area_observations": 0
+      },
+      "per_pair": {
+        "27": {
+          "CA_IDF1": 0.6182106282461339,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.2653325485579753,
+            "fn": 8883,
+            "fp": 3599,
+            "gt_links": 11137,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.3851016572697762,
+            "pred_links": 5853,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 119,
+            "prediction_observations_without_crosslink": 23248,
+            "recall": 0.2023884349465745,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2254
+          },
+          "current_future_gid_merge": 64,
+          "past_memory_link": 1830,
+          "spatial": {
+            "f1": 0.9505267173332551,
+            "fn": 811,
+            "fp": 2561,
+            "mean_matched_iou": 0.8631629607458552,
+            "precision": 0.9267322767065286,
+            "recall": 0.9755752318997711,
+            "tp": 32393
+          }
+        },
+        "32": {
+          "CA_IDF1": 0.6818791946308724,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5317996645099449,
+            "fn": 8220,
+            "fp": 1549,
+            "gt_links": 13768,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.7817387628575454,
+            "pred_links": 7097,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 47,
+            "prediction_observations_without_crosslink": 17870,
+            "recall": 0.4029633933759442,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 5548
+          },
+          "current_future_gid_merge": 55,
+          "past_memory_link": 754,
+          "spatial": {
+            "f1": 0.9169084217363066,
+            "fn": 5457,
+            "fp": 300,
+            "mean_matched_iou": 0.9163401384060574,
+            "precision": 0.9906437125748503,
+            "recall": 0.8533892157652938,
+            "tp": 31764
+          }
+        },
+        "42": {
+          "CA_IDF1": 0.7429231658001155,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.43196982883666957,
+            "fn": 5877,
+            "fp": 1955,
+            "gt_links": 8855,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.6036894384755727,
+            "pred_links": 4933,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 59,
+            "prediction_observations_without_crosslink": 20014,
+            "recall": 0.3363071710897798,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2978
+          },
+          "current_future_gid_merge": 39,
+          "past_memory_link": 594,
+          "spatial": {
+            "f1": 0.9810378224079926,
+            "fn": 105,
+            "fp": 1011,
+            "mean_matched_iou": 0.8994856388873314,
+            "precision": 0.9661646586345382,
+            "recall": 0.9963760612963346,
+            "tp": 28869
+          }
+        },
+        "64": {
+          "CA_IDF1": 0.6839338664749753,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.5635727378770204,
+            "fn": 4667,
+            "fp": 571,
+            "gt_links": 8049,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.8555527447508222,
+            "pred_links": 3953,
+            "pred_links_with_cross_class_endpoints": 5,
+            "pred_links_with_unmatched_endpoint": 105,
+            "prediction_observations_without_crosslink": 15377,
+            "recall": 0.4201764194309852,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 3382
+          },
+          "current_future_gid_merge": 41,
+          "past_memory_link": 1468,
+          "spatial": {
+            "f1": 0.9440201275945728,
+            "fn": 221,
+            "fp": 2271,
+            "mean_matched_iou": 0.8868046983222211,
+            "precision": 0.9024610230640382,
+            "recall": 0.9895916733386709,
+            "tp": 21012
+          }
+        },
+        "65": {
+          "CA_IDF1": 0.6249717990720669,
+          "clock": "PASS",
+          "crosslinks": {
+            "denominator": "all same-gid same-frame cross-camera links, including cross-class and unmatched endpoints after fixed ignores",
+            "f1": 0.3436963570474919,
+            "fn": 8516,
+            "fp": 1807,
+            "gt_links": 11219,
+            "metric": "strict_sameframe_crosslink_conventional_pseudo",
+            "precision": 0.5993348115299335,
+            "pred_links": 4510,
+            "pred_links_with_cross_class_endpoints": 0,
+            "pred_links_with_unmatched_endpoint": 66,
+            "prediction_observations_without_crosslink": 37302,
+            "recall": 0.2409305642214101,
+            "scope": "standalone wrong single-view observations are penalized by companion CA-IDF1/spatial FP, not this link-only metric",
+            "tp": 2703
+          },
+          "current_future_gid_merge": 47,
+          "past_memory_link": 3595,
+          "spatial": {
+            "f1": 0.8621538642628033,
+            "fn": 11678,
+            "fp": 2375,
+            "mean_matched_iou": 0.8841182372858558,
+            "precision": 0.9487284659557014,
+            "recall": 0.7900584269662921,
+            "tp": 43947
+          }
+        }
+      },
+      "prediction_freeze_sha256": "86da0b377c1e5e2231d9ec7f3b83239f8bd67f3ccccf4a417dec97309bcd9932",
+      "result_sha256": "3fcce7723f366e928396431608263f3c8becde8858a7238cda283847d4e2c785",
+      "runner_exit": 0,
+      "runtime_threshold": 0.7,
+      "same_frame_shift": 0.0,
+      "same_frame_threshold": 0.7,
+      "same_frame_threshold_provenance": "launch shell and recorded historical command; absent from freeze schema",
+      "summary": {
+        "crosslinks_micro": {
+          "f1": 0.4249502355935193,
+          "fn": 36163,
+          "fp": 9481,
+          "gt_links": 53028,
+          "precision": 0.6401351248766416,
+          "pred_links": 26346,
+          "recall": 0.3180395262879988,
+          "tp": 16865
+        },
+        "idfn": 62625,
+        "idfp": 52871,
+        "idtp": 113632,
+        "micro_CA_IDF1": 0.6630411950052515,
+        "pair_count": 5,
+        "pair_macro_CA_IDF1": 0.6703837308448328,
+        "shared_gid_count_sum_over_pairs": 235,
+        "shared_gid_sameframe_slot_count_sum": 26607,
+        "spatial_micro": {
+          "f1": 0.9218403547671841,
+          "fn": 18272,
+          "fp": 8518,
+          "precision": 0.9488417626108839,
+          "recall": 0.8963331952773507,
+          "tp": 157985
+        }
+      },
+      "tag": "p19_cal_mem0.70_sf0.70",
+      "verified_frozen_run_files": 36
+    }
+  ],
+  "selected_runtime_threshold": 0.75,
+  "selected_same_frame_threshold": 0.7,
+  "selected_score": 0.6733187250277296,
+  "selected_tag": "p19_cal_mem0.75_sf0.70",
+  "selection_rule": "argmax cal5 pair_macro_CA_IDF1 over the five historical settings; first grid entry breaks exact ties",
+  "status": "PASS_EXISTING_P19_CAL5_GRID_EVALUATED_AND_SELECTED",
+  "training": false,
+  "verification": {
+    "all_180_frozen_run_files_verified_before_raw_GT": true,
+    "all_25_pair_clock_checks_pass": true,
+    "common_support_spatial_GT_and_stream_hashes_across_five_settings": true,
+    "macro_micro_and_crosslink_aggregation_crosschecked": true,
+    "mean_matched_iou_max_abs_roundoff": 2.3314683517128287e-15,
+    "mean_matched_iou_tolerance": 1e-12
+  },
+  "verification_lookback": "Initial exact dict comparison failed only for mean_matched_iou at floating summation roundoff; all integer counts, derived P/R/F1, support, source and GT hashes matched exactly. Mean IoU now uses 1e-12 tolerance; raw evaluation results remain untouched."
+}

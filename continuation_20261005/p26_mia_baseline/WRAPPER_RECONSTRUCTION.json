@@ -1,0 +1,11 @@
+{
+  "status": "PASS_EXACT_SEALED_WRAPPER_RECONSTRUCTED",
+  "reference_current_path": "/home/chenhc/mdmot_p24_test_20261004/official_demo/suppl_compat.py",
+  "reference_current_sha256": "2f1b42eab1f3d6ab26230534c184edebf3e2f8227d1a1e902b9a98b170c0054f",
+  "wrapper_path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/wrappers/supplement_mia.py",
+  "wrapper_sha256": "96c91509b3cf517dcbcbad5a0a73f2d40e46eae57b0950300027c65d55a422d8",
+  "sealed_expected_sha256": "96c91509b3cf517dcbcbad5a0a73f2d40e46eae57b0950300027c65d55a422d8",
+  "removed_blocks": 4,
+  "removed_lines": 12,
+  "semantics": "Only optional SUPPL_DUMP serialization blocks removed. Compatibility import and five SUPPL_NO_VIS guards retained. No reference mutation."
+}

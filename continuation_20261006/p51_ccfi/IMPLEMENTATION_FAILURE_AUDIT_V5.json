@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CCFI_IMPLEMENTATION_FAILURE_AUDIT_V5_3X3",
+  "failure": "The first full-coverage schedule builder counted all shared-label groups (18,925) instead of the frozen P41 eligible-group contract (18,412), which also requires at least two valid supervised rows on one side.",
+  "classification": "SCHEDULE_ELIGIBILITY_CONTRACT_MISMATCH",
+  "rounds": {
+    "R1_source_contract": {
+      "checks": {
+        "fit_pair_allowlist_unchanged": true,
+        "frozen_p41_expected_count_is_18412": true,
+        "initial_count_mismatch_detected_before_gpu": true
+      }
+    },
+    "R2_definition_replay": {
+      "checks": {
+        "shared_identity_condition_present": true,
+        "at_least_one_side_valid_count_gt_one_was_missing": true,
+        "no_training_update_started": true
+      }
+    },
+    "R3_scope_recovery": {
+      "checks": {
+        "no_full_checkpoint_written": true,
+        "no_calibration_or_official_split_read": true,
+        "repair_is_exact_frozen_p41_condition": true
+      }
+    }
+  },
+  "repair": "Use shared valid labels plus (valid_count_side_a > 1 or valid_count_side_b > 1) and require exactly 18,412 groups before GPU allocation.",
+  "gpu_authorized_before_repair": false
+}

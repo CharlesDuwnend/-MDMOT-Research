@@ -1,0 +1,68 @@
+{
+  "GPU_used": false,
+  "calibration_dev_official_val_test_read": false,
+  "complementarity_limit": "Motion rescues all four static-geometry errors but damages 44 correct choices. This is tiny fit-only oracle complementarity, not an executable learned selection rule or model gain.",
+  "counts": {
+    "feature_edges": 7261,
+    "frames": 40,
+    "image_reads": 160,
+    "stage_support_frames": {
+      "cross_now": 12,
+      "cross_old": 11,
+      "time1": 40,
+      "time2": 40
+    },
+    "supported_frames": 9,
+    "supported_left_targets": 281,
+    "supported_pairs": [
+      "23",
+      "69",
+      "78"
+    ]
+  },
+  "created_utc": "2026-10-04T11:51:26.034972+00:00",
+  "data_scope": "MDMT official-train fit pairs 23/25/29/69/78 only; 8 fixed sampled times each",
+  "decision": "HOLD_DENSE_RESIDUAL_REPRESENTATION_LEARNING",
+  "evaluable_queries": 165,
+  "feature_receipt_sha256": "4a5ec7d7ae0e6b46fd0eabff5a6e38120c7186001801041576763c3b247f143f",
+  "fit_support_conditioned_query_micro_discrimination": {
+    "appearance": 0.8848484848484849,
+    "exact_motion": 0.7333333333333333,
+    "linearized_motion": 0.7333333333333333,
+    "shuffled_target_motion": 0.46060606060606063,
+    "static_geometry": 0.9757575757575757
+  },
+  "geometry_right_motion_wrong": 44,
+  "geometry_wrong_motion_right": 4,
+  "implementation_lookback": [
+    "Serialized geometry.valid as Python bool after a numpy scalar failure; initial failed attempt preserved.",
+    "Bound image path to original stream.image_stem after pair78 offset failure; all ten train view mappings checked.",
+    "Verified four-coordinate-domain composition and finite-difference Jacobian; recorded exact transport as a control.",
+    "Exact and linearized residuals have identical discrimination on all 165 evaluated queries; linearization does not explain the narrow negative result.",
+    "Feature extraction used no labels; stable current/history labels attached only after all five feature sets froze.",
+    "Readout currently reduces each object to one bottom-center displacement; it does not implement dense flow or a learned residual-field model.",
+    "Current gate compares standalone cues. Underperformance alone cannot falsify complementary information or a learned fusion hypothesis.",
+    "Independent review checked that the nine feature files actually enumerated by the evaluator exactly match the frozen list. Future evaluators should enumerate from the receipt itself."
+  ],
+  "information_result_sha256": "afda8d4fd678454abd07ea48321a265c44fc8a130105471a3434800af2e73dcb",
+  "metric_scope": "previously used fit subset, conventional pseudo-labels, positive-present given-candidate discrimination",
+  "narrow_empirical_result": "This sparse bottom-center residual readout underperforms static geometry on the same geometry-supported fit queries.",
+  "next_research_boundary": "A dense object-motion representation needs observable independent geometric support and a mechanism beyond GMC/homography/speed fusion. Do not promote this probe or tune its geometric thresholds into a method.",
+  "not_inferred": [
+    "motion contains no complementary identity information",
+    "dense target residual fields cannot help",
+    "all geometry estimators are unusable",
+    "a deep method has been validated",
+    "official MOT improvement"
+  ],
+  "primary_failure": "Only 2 of 5 pairs have at least 20 evaluable queries; cross-view geometry support is sparse.",
+  "standalone_lift_gate_validity": {
+    "consequence": "The standalone +.02 criterion cannot be met on this support even by a perfect method. It is not re-tuned after seeing labels; report it as an unsuitable criterion. Independent sample-support failure still stands.",
+    "maximum_possible_lift": 0.017709691438504982,
+    "predeclared_required_lift": 0.02,
+    "static_geometry_supported_pair_macro": 0.982290308561495,
+    "status": "INVALID_AS_A_DIRECTION_FALSIFIER_DUE_TO_CEILING"
+  },
+  "status": "P21_FIT_INFORMATION_GATE_COMPLETE_NOT_A_METHOD",
+  "training": false
+}

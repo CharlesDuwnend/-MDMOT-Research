@@ -1,0 +1,13 @@
+{
+  "GPU_used": false,
+  "grid_sample_max_component_error_original_px": 5.790923296444817e-13,
+  "status": "PASS",
+  "tests": [
+    "known_current_to_past_translation_plus_sign_and_scale",
+    "constant_flow_border_extension",
+    "zero_flow_identity",
+    "spatial_ramp_exact_halfpixel_mapping",
+    "independent_cpu_grid_sample_halfpixel_parity",
+    "continuous_annotation_gap_and_class_identity_guard"
+  ]
+}

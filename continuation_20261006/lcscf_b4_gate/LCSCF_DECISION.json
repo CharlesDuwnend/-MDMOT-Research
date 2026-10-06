@@ -1,0 +1,22 @@
+{
+  "status": "STOP_LCSCF_AFTER_CORRECTED_BLOCK1",
+  "implementation_audit": "LCSCF_IMPLEMENTATION_AUDIT_V4.json",
+  "effectiveness_audit": "LCSCF_GATE_AUDIT_V4.json",
+  "corrected_run": "runs/block1_600_v4",
+  "result": {
+    "B4": {"recall1": 0.15679471834023465, "mrr": 0.3049949995764359, "margin": -0.7258046032091674, "dustbin_brier": 0.3254346945035964},
+    "LCSCF_B4": {"recall1": 0.1584476902173913, "mrr": 0.2923626913711246, "margin": -0.7474970100398921, "dustbin_brier": 0.328983952553002},
+    "pair_recall1_strict_wins": 2,
+    "pair_recall1_ties": 1,
+    "pair_count": 4,
+    "deltas": {"recall1": 0.001652971877156656, "mrr": -0.012632308205311304, "margin": -0.02169240683072471, "dustbin_brier": 0.0035492580494055903}
+  },
+  "gate": {"strict_pair_wins_min": 3, "macro_margin_delta_min": 0.0, "advance": false},
+  "paper_method": "STOP",
+  "additional_training": "STOP",
+  "second_block": "NOT_AUTHORIZED",
+  "tracker_integration": "STOP",
+  "official_val_test": false,
+  "retain_as_negative_control": true,
+  "reason": "After the v4 implementation audit and independent 3x3 metric replay, the corrected operator still fails the predeclared incremental gate."
+}

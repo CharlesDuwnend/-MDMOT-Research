@@ -1,0 +1,25 @@
+{
+  "boundary": "full training-sequence replay validates execution; independently re-scored archived test14 establishes paper-level parity",
+  "counts": {
+    "1": {
+      "frames": 700,
+      "rows": 16642
+    },
+    "2": {
+      "frames": 700,
+      "rows": 17193
+    }
+  },
+  "environment_sha256": "eb572c645a4b47326a71f970a8f84da67b81fe6ba62313659c9321118fb7f2ea",
+  "gpu": "3, GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a, NVIDIA A100-SXM4-40GB, 40960",
+  "launcher_exit": 0,
+  "no_new_test_inference": true,
+  "no_parameter_tuning": true,
+  "outputs": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/runs/fit23/json/mia_baseline/23-1.json": "c2988c6c1c42ae15c84616c3d701f958662fad98bc3e51e9c07b79c72045bf58",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/runs/fit23/json/mia_baseline/23-2.json": "6c7f3add80ddaba8d065627975125070619febf0b858372e3ec41ff3f9e4707e"
+  },
+  "pre_run_sha256": "9fe58f79f4cc960de277c7bcfcda4dbb2e2f548b7d61f0bee6709eaba9be0992",
+  "seconds": 121.46216472331434,
+  "status": "COMPLETE_FULL_FIT23_MIA_REPLAY"
+}

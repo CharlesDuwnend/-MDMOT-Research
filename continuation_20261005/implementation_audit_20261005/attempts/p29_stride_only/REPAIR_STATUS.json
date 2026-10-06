@@ -1,0 +1,39 @@
+{
+  "schema": "p29_repair_status_v1",
+  "status": "REPAIR_SOURCE_READY_CACHE_REGENERATED_SMOKE_PASS",
+  "source": {
+    "path": "residual_deformable.py",
+    "sha256": "589a0c70c0678ce23e335e3c01736250720349f4b3c8841e18ab44a19b92b05f"
+  },
+  "cpu_contract": "PASS_P29_REPAIR_FLOW_REFERENCE_CONTRACT",
+  "real_gpu_smoke": {
+    "status": "PASS_REAL_GPU_SMOKE",
+    "exit": 0,
+    "log": "smoke.log",
+    "receipt": "smoke/SMOKE_RECEIPT.json",
+    "updates_per_arm": 4,
+    "native_capacity": {
+      "nms_pre": 2000,
+      "max_per_img": 300,
+      "score_thr": 0.05,
+      "nms_iou": 0.6
+    },
+    "physical_gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+    "gpu_index_at_run": 3
+  },
+  "required_data_action": "complete",
+  "official_val_or_test_read": false,
+  "novelty_claim": false,
+  "cache_regeneration": {
+    "status": "PASS_FIT_CALIBRATION_FPN_FLOW_REGENERATED",
+    "cache_root": "/raid/datasets/chc_data/claude_try_MDMOT_p29_repair_20261005",
+    "fit_groups": 240,
+    "calibration_groups": 40,
+    "fit_fpn_exit": 0,
+    "fit_flow_exit": 0,
+    "calibration_fpn_exit": 0,
+    "calibration_flow_exit": 0,
+    "fit_feature_verify": "PASS_NATIVE_FPN_ARCHIVE_VERIFICATION",
+    "calibration_feature_verify": "PASS_NATIVE_FPN_ARCHIVE_VERIFICATION"
+  }
+}

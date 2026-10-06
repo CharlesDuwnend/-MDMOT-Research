@@ -1,0 +1,56 @@
+{
+  "status": "HOLD_LCSCF_V1_IMPLEMENTATION_INVALID",
+  "created_utc": "2026-10-05T23:05:54.879550+00:00",
+  "issues": [
+    {
+      "issue": "target_norm_axis_wrong",
+      "evidence": "target [B,C,H,W] normalized over dim=2 (height), candidates over channels",
+      "effect": "correlations are not comparable channel cosines"
+    },
+    {
+      "issue": "neighbour_keys_not_normalized",
+      "evidence": "query normalized but local neighbour maps remain raw feature amplitude",
+      "effect": "plan can reward feature norm instead of cross-view correspondence"
+    },
+    {
+      "issue": "cycle_not_round_trip",
+      "evidence": "cosine_similarity of one-step weighted maps with same-view map, without P_ts @ P_st composition",
+      "effect": "statistics/loss do not measure return-to-origin consistency"
+    },
+    {
+      "issue": "boundary_duplicates",
+      "evidence": "replicate padding duplicates edge cells in 3x3 plan",
+      "effect": "cycle/mass/entropy boundary biased"
+    },
+    {
+      "issue": "unknown_candidate_loss_semantics",
+      "evidence": "legacy assignment loss includes unmapped members as negatives; positive removal can leave unknown positives",
+      "effect": "pair-label supervision unsafe for a correspondence claim"
+    },
+    {
+      "issue": "native_image_contract_mismatch",
+      "evidence": "256x448 PIL anisotropic resize versus P26 1333x800 keep-ratio cv2 normalize/pad32",
+      "effect": "small target evidence/input contract mismatched to frozen detector baseline"
+    },
+    {
+      "issue": "claimed_operator_drift",
+      "evidence": "audit spec claimed pre-RoI bounded offset field; implementation is post-RoI local mixture with 5 learned scalars",
+      "effect": "must rewrite exact method around implemented operator and trainable projection; no dense labels"
+    },
+    {
+      "issue": "obsolete_metadata",
+      "evidence": "runner declares completed random_init_comparator at a nonexistent local path",
+      "effect": "provenance inaccurate"
+    }
+  ],
+  "result_scope": "invalid exploratory diagnostic; neither effectiveness nor method rejection",
+  "old_result_hashes": {
+    "runs/block1_600_v1/events.jsonl": "4a91959448868de7e0b7f14acbc62a8d46dbd1ea7dcabe8004794b38374c14d2",
+    "runs/block1_600_v1/run_meta.json": "29d1a09f1950520167bbf07f233a9f2744c534a6b2c13ad9e1ed7c9ff8f7a055",
+    "runs/block1_600_v1/metrics_B4.json": "85c83760ac2044141763f1e4bf55278c1c0f449220f3397fefa3c13594976fb5",
+    "runs/block1_600_v1/metrics_LCSCF_B4.json": "1235fc1bb69e59f050392eb8aa175b5ec463c8b66122e6d2d455e191667e2228"
+  },
+  "source_snapshot": "continuation_20261006/lcscf_b4_gate/attempts/v1_operator_invalid",
+  "official_val_test_access": false,
+  "next": "correct operator, supervision masks, native image and RoI contracts; three audit rounds of three checks before new train"
+}

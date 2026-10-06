@@ -1,0 +1,32 @@
+{
+  "status": "KEEP_P29_FIXED_FLOW_CENTERED_RESIDUAL_AS_HOST_CANDIDATE",
+  "novelty_claim": false,
+  "evidence_scope": "calibration5 40 anchors; detector AP50 only; no official val/test; no MOT metric",
+  "real_gpu_smoke": "PASS_REAL_GPU_SMOKE",
+  "training": "COMPLETE_THREE_ARM_FIT",
+  "prediction": "COMPLETE_CALIBRATION_PREDICTIONS_FROZEN",
+  "scoring": "COMPLETE_FROZEN_CALIBRATION_DETECTION_READOUT",
+  "arms": {
+    "native": {"pair_macro_ap50": 0.9444869057119499, "pooled_recall": 0.9354677338669335},
+    "current_residual": {"pair_macro_ap50": 0.9436209436251234, "pooled_recall": 0.935967983991996},
+    "past_fixed_offsets": {"pair_macro_ap50": 0.945166937087628, "pooled_recall": 0.9364682341170585},
+    "past_learned_offsets": {"pair_macro_ap50": 0.9445057600019953, "pooled_recall": 0.935967983991996}
+  },
+  "comparisons": {
+    "fixed_minus_native_pp": 0.0680031375679,
+    "learned_minus_native_pp": 0.00188542900434,
+    "learned_minus_current_pp": 0.08848153768799,
+    "learned_minus_fixed_pp": -0.06611770856327,
+    "learned_wins_vs_current_pairs": 4,
+    "learned_wins_vs_fixed_pairs": 3
+  },
+  "gates": {
+    "learned_beats_native": true,
+    "learned_beats_current": true,
+    "learned_recall_not_below_native": true,
+    "learned_offset_benefit_over_fixed": false,
+    "fixed_host_integration_authorized": false
+  },
+  "decision_codes": ["KEEP_FIXED_RESIDUAL_HOST_CANDIDATE", "NO_OFFSET_LEARNING_CREDIT", "HOLD_FULL_HOST_INTEGRATION"],
+  "next_phase": "full continuous calibration-pair feature/flow cache and isolated MIA host integration"
+}

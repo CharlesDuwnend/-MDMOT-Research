@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN_CCFI_FULL_COVERAGE_SUFFICIENCY_GATE",
+  "purpose": "Test whether the below-absolute 1200-step result is a short-schedule effect without changing the method or tuning a threshold.",
+  "initialization": "same P38 1200-step checkpoint mapping and seed42 initialization as the fixed gate; fresh optimizer",
+  "fit_pairs": ["23", "25", "28", "29", "39", "44", "45", "51", "53", "63", "66", "69", "70", "74", "78"],
+  "eligible_groups_expected": 18412,
+  "epochs": 3,
+  "updates_expected": 55236,
+  "schedule": "three seeded permutations of all eligible fit groups, seed42",
+  "gate": {
+    "calibration_pair_macro_r1_min": 0.4641,
+    "calibration_pair_wins_vs_p38_min": 3,
+    "fit_drop_vs_p1_max": 0.05,
+    "absolute_or_relative_pass_required": true
+  },
+  "stop_conditions": ["no threshold search", "no dev read", "no official val/test", "no host attachment before gate"],
+  "authorization": "train-only GPU3 A100; this is a sufficiency test, not an official result"
+}

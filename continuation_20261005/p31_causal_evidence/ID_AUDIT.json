@@ -1,0 +1,359 @@
+{
+  "status": "PASS_TRAIN_ONLY_ID_CONVENTION_AUDIT",
+  "source_root": "/raid/datasets/chc_data/MDMT/new_xml",
+  "source_split": "train_only_inferred_from_MDMT_new_xml_path; official_val_test_not_read",
+  "sequences": [
+    23,
+    25,
+    27,
+    28,
+    29,
+    32,
+    39,
+    42,
+    44,
+    51,
+    53,
+    63,
+    64,
+    65,
+    66,
+    69,
+    70,
+    74,
+    78
+  ],
+  "records": [
+    {
+      "sequence": 23,
+      "left_track_count": 83,
+      "right_track_count": 76,
+      "shared_raw_ids": 76,
+      "coframe_shared_raw_ids": 76,
+      "raw_id_jaccard": 0.915663,
+      "coframe_rate_among_shared": 1.0
+    },
+    {
+      "sequence": 25,
+      "left_track_count": 198,
+      "right_track_count": 73,
+      "shared_raw_ids": 73,
+      "coframe_shared_raw_ids": 72,
+      "raw_id_jaccard": 0.368687,
+      "coframe_rate_among_shared": 0.986301
+    },
+    {
+      "sequence": 27,
+      "left_track_count": 131,
+      "right_track_count": 92,
+      "shared_raw_ids": 92,
+      "coframe_shared_raw_ids": 88,
+      "raw_id_jaccard": 0.70229,
+      "coframe_rate_among_shared": 0.956522
+    },
+    {
+      "sequence": 28,
+      "left_track_count": 133,
+      "right_track_count": 202,
+      "shared_raw_ids": 133,
+      "coframe_shared_raw_ids": 133,
+      "raw_id_jaccard": 0.658416,
+      "coframe_rate_among_shared": 1.0
+    },
+    {
+      "sequence": 29,
+      "left_track_count": 192,
+      "right_track_count": 247,
+      "shared_raw_ids": 192,
+      "coframe_shared_raw_ids": 189,
+      "raw_id_jaccard": 0.777328,
+      "coframe_rate_among_shared": 0.984375
+    },
+    {
+      "sequence": 32,
+      "left_track_count": 109,
+      "right_track_count": 112,
+      "shared_raw_ids": 109,
+      "coframe_shared_raw_ids": 97,
+      "raw_id_jaccard": 0.973214,
+      "coframe_rate_among_shared": 0.889908
+    },
+    {
+      "sequence": 39,
+      "left_track_count": 19,
+      "right_track_count": 39,
+      "shared_raw_ids": 19,
+      "coframe_shared_raw_ids": 19,
+      "raw_id_jaccard": 0.487179,
+      "coframe_rate_among_shared": 1.0
+    },
+    {
+      "sequence": 42,
+      "left_track_count": 59,
+      "right_track_count": 101,
+      "shared_raw_ids": 59,
+      "coframe_shared_raw_ids": 58,
+      "raw_id_jaccard": 0.584158,
+      "coframe_rate_among_shared": 0.983051
+    },
+    {
+      "sequence": 44,
+      "left_track_count": 89,
+      "right_track_count": 56,
+      "shared_raw_ids": 56,
+      "coframe_shared_raw_ids": 56,
+      "raw_id_jaccard": 0.629213,
+      "coframe_rate_among_shared": 1.0
+    },
+    {
+      "sequence": 51,
+      "left_track_count": 93,
+      "right_track_count": 188,
+      "shared_raw_ids": 93,
+      "coframe_shared_raw_ids": 91,
+      "raw_id_jaccard": 0.494681,
+      "coframe_rate_among_shared": 0.978495
+    },
+    {
+      "sequence": 53,
+      "left_track_count": 80,
+      "right_track_count": 129,
+      "shared_raw_ids": 80,
+      "coframe_shared_raw_ids": 80,
+      "raw_id_jaccard": 0.620155,
+      "coframe_rate_among_shared": 1.0
+    },
+    {
+      "sequence": 63,
+      "left_track_count": 68,
+      "right_track_count": 97,
+      "shared_raw_ids": 68,
+      "coframe_shared_raw_ids": 64,
+      "raw_id_jaccard": 0.701031,
+      "coframe_rate_among_shared": 0.941176
+    },
+    {
+      "sequence": 64,
+      "left_track_count": 75,
+      "right_track_count": 95,
+      "shared_raw_ids": 75,
+      "coframe_shared_raw_ids": 71,
+      "raw_id_jaccard": 0.789474,
+      "coframe_rate_among_shared": 0.946667
+    },
+    {
+      "sequence": 65,
+      "left_track_count": 86,
+      "right_track_count": 247,
+      "shared_raw_ids": 86,
+      "coframe_shared_raw_ids": 83,
+      "raw_id_jaccard": 0.348178,
+      "coframe_rate_among_shared": 0.965116
+    },
+    {
+      "sequence": 66,
+      "left_track_count": 94,
+      "right_track_count": 144,
+      "shared_raw_ids": 94,
+      "coframe_shared_raw_ids": 91,
+      "raw_id_jaccard": 0.652778,
+      "coframe_rate_among_shared": 0.968085
+    },
+    {
+      "sequence": 69,
+      "left_track_count": 162,
+      "right_track_count": 126,
+      "shared_raw_ids": 126,
+      "coframe_shared_raw_ids": 121,
+      "raw_id_jaccard": 0.777778,
+      "coframe_rate_among_shared": 0.960317
+    },
+    {
+      "sequence": 70,
+      "left_track_count": 108,
+      "right_track_count": 168,
+      "shared_raw_ids": 108,
+      "coframe_shared_raw_ids": 108,
+      "raw_id_jaccard": 0.642857,
+      "coframe_rate_among_shared": 1.0
+    },
+    {
+      "sequence": 74,
+      "left_track_count": 180,
+      "right_track_count": 294,
+      "shared_raw_ids": 180,
+      "coframe_shared_raw_ids": 141,
+      "raw_id_jaccard": 0.612245,
+      "coframe_rate_among_shared": 0.783333
+    },
+    {
+      "sequence": 78,
+      "left_track_count": 108,
+      "right_track_count": 119,
+      "shared_raw_ids": 108,
+      "coframe_shared_raw_ids": 106,
+      "raw_id_jaccard": 0.907563,
+      "coframe_rate_among_shared": 0.981481
+    }
+  ],
+  "source_files": [
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/23-1.xml",
+      "sha256": "282a2099ddecd8b77d4f13f879e1c0a024970a9cf96ce9301b49c95ed5b1a4ce"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/25-1.xml",
+      "sha256": "a0d4a0f8cdd0c122e176988125620efb3fee9fc4fd6d858f286abb674a2f18ef"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/27-1.xml",
+      "sha256": "d76767b69f7548fbbce6baba581b2f4adf86acfb48c0874a4e618b8f64811f9c"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/28-1.xml",
+      "sha256": "0e25d50aa712c2b158952e37a9a42dc40a1a43c5b11447a9e7a529a1db8caf8d"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/29-1.xml",
+      "sha256": "21d276e660750bf3775f4b2228b0cf4a9a03faff330ef09d0387bd845bfa9099"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/32-1.xml",
+      "sha256": "8b36b5b018a9d1e78f3b7c7eda7a5d30034f1441bc32583e3b7b9c53852a64c6"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/39-1.xml",
+      "sha256": "4184f004a5d1ac036b72ea8b02cdd0baf2124447532cf659a0f93891be83ae1d"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/42-1.xml",
+      "sha256": "2c07e7b5f81ef53243a5f017bef97819657ff4a41c251cdc3d3d31d02cecbf54"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/44-1.xml",
+      "sha256": "d3c90b1a425d4abd01bb7dc133d490047951868ec517740ccbace615920d9c42"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/51-1.xml",
+      "sha256": "208de8ebb3ba2b5ba4101ed154079d8d421aa906fa71228dfdad05710815f096"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/53-1.xml",
+      "sha256": "b8f967ca046ba78d220c73337eb034cd2464ee947a3ccbf462913af698a40ad6"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/63-1.xml",
+      "sha256": "6a80df0bd21d51c6177dc05606f522d13632f644627018376fba220eb3ab7cdc"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/64-1.xml",
+      "sha256": "7b26bd76ac8df057286468686866ca213c7887814decc8ec19ce75de362d3759"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/65-1.xml",
+      "sha256": "c814178d205a8f223ed3f67f13364208fed97d25fd632148fd29be144a9ad0a2"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/66-1.xml",
+      "sha256": "f6821485d17ab8efed97218f83beb3e7133f5889beed3130e45e97ea9091432a"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/69-1.xml",
+      "sha256": "2e55549df7d10e081308fa74d1c802ea2339157f9fb14af263c895fcbd03bd23"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/70-1.xml",
+      "sha256": "f560cf9a9581f86322386d10c96b8331de9cc7043afff97c18f46420960b594c"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/74-1.xml",
+      "sha256": "178cdaa0a8f5ac463655a7b66ff6cf9e41cb35921a35e6fe02ab41deb80cf87a"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/1/78-1.xml",
+      "sha256": "01f9b1a4edaec6240a69b26882a7e6e5c725f76894c8f51b30e5bc1aee162ebb"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/23-2.xml",
+      "sha256": "5bd42006e58b648c7665e6128a7611b824ab756fbba2e8409061eac1761e01db"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/25-2.xml",
+      "sha256": "599c79752e132395c350428e72182b302202ff7511d2f4dd8e8b491d906d045a"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/27-2.xml",
+      "sha256": "dbaf97416487646a5e10fe4f39fa163757e21fcbab822a48fc5be0bbe0a8a5ce"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/28-2.xml",
+      "sha256": "b6cd62f69134b75b98fbaccea69b47824a7ab8c8706d2d3cefd19b5fec134028"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/29-2.xml",
+      "sha256": "923dd5dd49b5815e237ca69e55a7a172af95b3d8f88802a66a1de81fdfb9cb19"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/32-2.xml",
+      "sha256": "e65b6e2081dfbd06542d07c6fbfea686ac8be82ce136f1dc31888f0a42cfead9"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/39-2.xml",
+      "sha256": "0493d68ed9a40b673e10223c9e3dfbe5696802cc067f89a19956a6158b292a58"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/42-2.xml",
+      "sha256": "d73d490329a7ba3017c70a6ac8782e75d2e49a355b427757e59d7aaaed814f47"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/44-2.xml",
+      "sha256": "394dfd0e79b12f0dc668379bac12b51ec2a484649db6c986cb14be2624217d11"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/51-2.xml",
+      "sha256": "eed45364a7a962cd2d6b63054baa0787b17568380792b29dd1b70e00190e91de"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/53-2.xml",
+      "sha256": "f46d2e3b94e2dbe97d0df16e0495d41236ffbf66ff829b0bcc05e7264d1441b0"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/63-2.xml",
+      "sha256": "28077e189063ff5bd8594a77278f7a0dc4ddc3b797d3f7569833fd2fb0d18279"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/64-2.xml",
+      "sha256": "32c0437ec2890d7642d141c1f1b524cd331cbccf17b9f63cd5f1b0d94a59e85a"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/65-2.xml",
+      "sha256": "918680e06ad6e7d848ae1f608706a8d24d18c6d4bac258e1a5428c7a8041369d"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/66-2.xml",
+      "sha256": "0bd8e00e6f6070b1641042466123065c66bb7e4c9cf0bc8af1b808a0ff556cfa"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/69-2.xml",
+      "sha256": "52103273f046b4abc68609c1d81fcd35d657a8d9924e821a16a1694e39644a36"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/70-2.xml",
+      "sha256": "a58b7850ed05ded62076050e851d6053db0f04ce5fabcf9578faa7c71c1ee952"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/74-2.xml",
+      "sha256": "532d939be2cb63ecc25aed2a6d53b191bb68bf8504124aaec9a788efb0b6ec86"
+    },
+    {
+      "path": "/raid/datasets/chc_data/MDMT/new_xml/2/78-2.xml",
+      "sha256": "2b5f8505e35e7c1899f8ec25c4cae4a67c725ad795120fdfba512874715d4e88"
+    }
+  ],
+  "interpretation": {
+    "raw_id_overlap_is_annotation_convention_not_physical_global_identity": true,
+    "coframe_overlap_is_not_cross_view_correspondence_proof": true,
+    "pose_calibration_timestamp_and_global_id_assumptions": "unsupported",
+    "legal_supervision": "FIT/train grouped pairs only; no official val/test reads"
+  }
+}

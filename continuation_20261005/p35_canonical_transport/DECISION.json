@@ -1,0 +1,12 @@
+{
+  "status": "STOP_REPRESENTATION_GATE",
+  "method": "object-conditioned canonical point transport",
+  "reason": "held-out calibration macro median reprojection error ratio learned/center = 1.0059469723; 0 of 5 calibration pairs improved by the pre-registered 5 percent gate",
+  "fit_groups": 441,
+  "calibration_groups": 156,
+  "implementation_audit": "PASS",
+  "implementation_failure_checked": true,
+  "do_not": ["do not attach to full MIA host", "do not tune on dev", "do not claim novelty or effectiveness"],
+  "evidence": ["runs/train_v1/RESULT.json", "runs/train_v1/IMPLEMENTATION_AUDIT.json", "METHOD_SPEC.md"],
+  "next_boundary": "retain P26 MIA as mature baseline; finish compatibility-audited multi-pair replay; choose a new candidate only after a fresh mechanism-level novelty screen"
+}

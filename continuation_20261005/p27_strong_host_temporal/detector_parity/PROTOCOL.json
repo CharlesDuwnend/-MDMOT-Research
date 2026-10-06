@@ -1,0 +1,35 @@
+{
+  "GT_read": false,
+  "cal_dev_official_val_test_read": false,
+  "checkpoint_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+  "code_sha256": "9ccd4be97d1117f1e3a8dee6710306eced4739f0b9bf1bce7b869750f13331e5",
+  "frames": "ordinal 1, floor((T+1)/2), T",
+  "gpu": "3, GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a, NVIDIA A100-SXM4-40GB, 40960",
+  "labels_read": false,
+  "native_config_unchanged": true,
+  "pairs": [
+    "23",
+    "25",
+    "28",
+    "29",
+    "39",
+    "44",
+    "45",
+    "51",
+    "53",
+    "63",
+    "66",
+    "69",
+    "70",
+    "74",
+    "78"
+  ],
+  "scope": "native P26 detector post-NMS outputs vs historical .1-retained subset; not tracker parity",
+  "score_subset": 0.1,
+  "source_import_sha256": "5846421bbbc9c28e64a8669aac4340aff96e8b833ee3879a18ba767f7e52a853",
+  "tolerance_bbox_or_score_absolute": 0.001,
+  "views": [
+    1,
+    2
+  ]
+}

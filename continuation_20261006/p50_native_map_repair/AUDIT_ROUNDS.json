@@ -1,0 +1,75 @@
+{
+  "status": "PASS_THREE_ROUNDS_NINE_CHECKS",
+  "rounds": [
+    {
+      "round": "R1_failure_fix",
+      "checks": [
+        {
+          "id": "R1.1",
+          "source": "IMPLEMENTATION_FAILURE_AUDIT.json",
+          "check": "stack root cause and source fix",
+          "status": "PASS"
+        },
+        {
+          "id": "R1.2",
+          "source": "IMPLEMENTATION_FAILURE_AUDIT.json",
+          "check": "K=0/1/19/64 finite gradient edge test",
+          "status": "PASS"
+        },
+        {
+          "id": "R1.3",
+          "source": "IMPLEMENTATION_FAILURE_AUDIT.json",
+          "check": "fresh two-pair eight-arm smoke exit 0 and zero drops",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "round": "R2_data_contract",
+      "checks": [
+        {
+          "id": "R2.1",
+          "source": "DATA_CONTRACT_AUDIT.json",
+          "check": "episode line counts equal trainer events and zero drops",
+          "status": "PASS"
+        },
+        {
+          "id": "R2.2",
+          "source": "DATA_CONTRACT_AUDIT.json",
+          "check": "all zero-candidate rows retained",
+          "status": "PASS"
+        },
+        {
+          "id": "R2.3",
+          "source": "DATA_CONTRACT_AUDIT.json",
+          "check": "40 native shards inference-safe, 1,372,492 rows",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "round": "R3_post_run",
+      "checks": [
+        {
+          "id": "R3.1",
+          "source": "POST_RUN_IMPLEMENTATION_AUDIT.json",
+          "check": "all eight checkpoint hashes and parameters finite",
+          "status": "PASS"
+        },
+        {
+          "id": "R3.2",
+          "source": "POST_RUN_IMPLEMENTATION_AUDIT.json",
+          "check": "same event and matched denominators across arms/seeds",
+          "status": "PASS"
+        },
+        {
+          "id": "R3.3",
+          "source": "POST_RUN_IMPLEMENTATION_AUDIT.json",
+          "check": "step-zero cosine and teacher absent from forward",
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "official_val_test_access": false
+}

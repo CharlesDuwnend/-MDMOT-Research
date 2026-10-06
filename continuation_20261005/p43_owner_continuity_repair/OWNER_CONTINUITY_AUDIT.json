@@ -1,0 +1,26 @@
+{
+  "finding": "P43 eliminates framewise owner discontinuities and duplicate IDs, but geometry and mean8 outputs are identical; descriptor gains do not survive a continuity-safe owner commit.",
+  "labels_read": false,
+  "official_test_read": false,
+  "reports": {
+    "P43_geometry": {
+      "native_ids": 382,
+      "native_ids_split": 0,
+      "owner_continuity_violations": 0,
+      "owner_rows_after_first": 16811,
+      "relabels": 186,
+      "rows": 17193
+    },
+    "P43_mean8": {
+      "native_ids": 382,
+      "native_ids_split": 0,
+      "owner_continuity_violations": 0,
+      "owner_rows_after_first": 16811,
+      "relabels": 186,
+      "rows": 17193
+    }
+  },
+  "source": "fresh P26 pair23 and P43 outputs",
+  "status": "PASS_P43_OWNER_CONTINUITY_AUDIT",
+  "xml_read": false
+}

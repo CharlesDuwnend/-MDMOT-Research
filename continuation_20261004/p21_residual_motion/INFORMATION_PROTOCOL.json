@@ -1,0 +1,23 @@
+{
+  "cal_dev_val_test_read": false,
+  "code_sha256": "fa0f885534292d24e1e4c62a6e9033fa30344f6e4b7938431e98bcfc191967c7",
+  "feature_freeze_sha256": "4a5ec7d7ae0e6b46fd0eabff5a6e38120c7186001801041576763c3b247f143f",
+  "minimum_support_for_next_learning_gate": "20 evaluable queries per pair in at least 3 of the 5 fixed fit pairs",
+  "motion_gate": "exact motion improves conditional discrimination over static geometry by .02 pair macro; improves >=3 pairs; target shuffle removes >=half lift",
+  "negative_choice": "largest current P1 cosine among known nonmatching candidates on the same frozen support",
+  "permutation": "right residuals circularly permuted by sorted observation key within same frame/class, without labels",
+  "positive_choice": "smallest observation key if multiple; no score-based positive selection",
+  "query": "known current and t-8 pseudo-label agree; at least one similarly stable known positive and negative",
+  "readouts": [
+    "current P1 cosine",
+    "background static geometry",
+    "exact residual motion",
+    "linearized residual motion",
+    "shuffled right residual"
+  ],
+  "scope": "previously used fit5 only, feature-support-conditioned information assay, no performance claim",
+  "ties": "half credit at absolute tolerance 1e-12",
+  "train_weights": false,
+  "unknown_handling": "retain feature candidate inventory; separate counts; no unknown-as-negative",
+  "written_utc": "2026-10-04T11:48:24.644981+00:00"
+}

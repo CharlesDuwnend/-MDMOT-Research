@@ -1,0 +1,86 @@
+{
+  "status": "PASS_SHORT_GATE_ADVANCE_SEED17",
+  "run_dir": "/home/chenhc/claude_try_MDMOT/continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_v2",
+  "checks": {
+    "run_complete": true,
+    "same_backbone_sha": true,
+    "same_pair_set": true,
+    "same_pair_event_denominators": true,
+    "all_expected_steps": true,
+    "all_checkpoints_finite": true,
+    "physical_gpu_is_A100_40GB": true,
+    "gpu2_not_used": true,
+    "official_val_test_locked": true,
+    "cvsgm_wins_at_least_three_pairs_vs_b1": true,
+    "cvsgm_wins_at_least_three_pairs_vs_b4": true,
+    "cvsgm_macro_r1_above_b1_b4": true
+  },
+  "pair_event_counts": {
+    "B1": {
+      "29": 866,
+      "30": 692,
+      "32": 203,
+      "39": 83
+    },
+    "B4": {
+      "29": 866,
+      "30": 692,
+      "32": 203,
+      "39": 83
+    },
+    "CVSGM": {
+      "29": 866,
+      "30": 692,
+      "32": 203,
+      "39": 83
+    }
+  },
+  "pair_recall1_wins_vs_reference": {
+    "B1": 3,
+    "B4": 3
+  },
+  "pair_macro": {
+    "B1": {
+      "pairs": 4,
+      "candidate_present_recall1": 0.1731028942374051,
+      "candidate_present_mrr": 0.31958476239408873,
+      "candidate_present_margin": -0.4183676081103597,
+      "dustbin_brier": 0.293085233166669,
+      "no_match_events": 1092
+    },
+    "B4": {
+      "pairs": 4,
+      "candidate_present_recall1": 0.12206732013457557,
+      "candidate_present_mrr": 0.26420108560302885,
+      "candidate_present_margin": -0.9761547398902964,
+      "dustbin_brier": 0.3690548012543034,
+      "no_match_events": 1092
+    },
+    "CVSGM": {
+      "pairs": 4,
+      "candidate_present_recall1": 0.19502156659765355,
+      "candidate_present_mrr": 0.33090079275927714,
+      "candidate_present_margin": -0.41003425013423406,
+      "dustbin_brier": 0.3070503127700147,
+      "no_match_events": 1092
+    }
+  },
+  "checkpoints": {
+    "B1": {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_v2/checkpoints/B1_latest.pt",
+      "sha256": "992b892ca47e61fe511063de55852b406a2f6d68cc10f896bde0d07a7feeb423",
+      "finite": true
+    },
+    "B4": {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_v2/checkpoints/B4_latest.pt",
+      "sha256": "3a427d3681c512951e2c0c9b0882ed93239fa8284901230a348b2d30e88a4188",
+      "finite": true
+    },
+    "CVSGM": {
+      "path": "continuation_20261006/cvsgm_autoassign_gate/runs/short_gate_600_v2/checkpoints/CVSGM_latest.pt",
+      "sha256": "f425c57f2121a14208fb636b55c414ab0d198de05e3ac24e3b4a6c19206733d7",
+      "finite": true
+    }
+  },
+  "interpretation": "single-seed short train-only representation gate; not official-val, tracker, or paper performance"
+}

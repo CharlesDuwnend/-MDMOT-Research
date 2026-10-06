@@ -1,0 +1,11 @@
+{
+  "status": "KEEP_LCSCF_FOR_MECHANISM_GATE_ONLY",
+  "candidate": "Local Cross-View Spatial Correspondence Field",
+  "data_audit": "HOLD_LCSCF_DENSE_SUPERVISION_NOT_OBSERVABLE",
+  "novelty_claim": "none; narrow mechanism only",
+  "legal_supervision": ["pair-level same-ID labels", "known negatives", "no-match rows", "target/source boxes"],
+  "missing_supervision": ["dense correspondence", "homography/pose", "pixel visibility/occlusion mask"],
+  "controls_required": ["zero-field", "uniform-plan", "detached-transport", "B4 same budget"],
+  "official_val_test": false,
+  "decision": "Proceed only to CPU/single-batch mechanism gate; no official evaluation or long training before anti-collapse and collision checks."
+}

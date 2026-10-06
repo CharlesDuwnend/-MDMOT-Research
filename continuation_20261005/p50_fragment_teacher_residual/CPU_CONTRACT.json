@@ -1,0 +1,22 @@
+{
+  "status": "PASS_P50_CPU_MECHANISM_CONTRACT",
+  "checks": 7,
+  "shape": {
+    "B": 3,
+    "K": 5,
+    "C": 8,
+    "H": 4,
+    "W": 4
+  },
+  "gradient_l1": 1.2274055164307356,
+  "candidate_permutation_max_error": 2.9802322387695312e-08,
+  "donor_permutation_loss_delta": 0.027487635612487793,
+  "inference_fields": [
+    "candidates",
+    "mask",
+    "target"
+  ],
+  "teacher_in_inference": false,
+  "prefix_donor_check": true,
+  "metrics_are_mechanism_only": true
+}

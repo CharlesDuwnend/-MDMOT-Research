@@ -1,0 +1,165 @@
+{
+  "status": "PASS_LCSCF_V4_IMPLEMENTATION_AUDIT_3X3",
+  "rounds": [
+    {
+      "round": "R1_OPERATOR_COORDINATES",
+      "checks": [
+        {
+          "check": "displaced_round_trip_samples_reverse_at_destination",
+          "status": "PASS",
+          "evidence": {
+            "expected": 1.0,
+            "actual": 1.0,
+            "legacy_actual": 0.0
+          }
+        },
+        {
+          "check": "transported_appearance_compared_with_destination",
+          "status": "PASS",
+          "evidence": {
+            "target_consistency": 1.0,
+            "source_consistency": 1.0,
+            "legacy_actual": 0.0
+          }
+        },
+        {
+          "check": "border_and_extreme_temperature_gradients",
+          "status": "PASS",
+          "evidence": {
+            "finite_backward_at_log_tau": [
+              -20,
+              0,
+              20
+            ],
+            "results": [
+              true,
+              true,
+              true
+            ],
+            "invalid_border_mass": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "round": "R2_DATA_AND_METRICS",
+      "checks": [
+        {
+          "check": "same_pixels_as_mmdetection_native_resize_normalize_pad",
+          "status": "PASS",
+          "evidence": {
+            "max_pixel_error": 0.0,
+            "padded_shape": [
+              3,
+              768,
+              1344
+            ],
+            "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000001.jpg"
+          }
+        },
+        {
+          "check": "box_scale_and_roi_extent_equal_absolute_reference",
+          "status": "PASS",
+          "evidence": {
+            "roi_error": 0.0,
+            "bbox_error": 0.0
+          }
+        },
+        {
+          "check": "unknown_excluded_from_supervised_rank_and_probability",
+          "status": "PASS",
+          "evidence": {
+            "known_only_rank": 1,
+            "dustbin_prob": 0.30719590187072754,
+            "reference_prob": 0.30719590187072754,
+            "batch_edge_cases": [
+              "unlabeled_target",
+              "zero_candidates",
+              "unknown_candidate",
+              "multi_positive"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": "R3_REAL_WIRING_AND_UPDATES",
+      "checks": [
+        {
+          "check": "strict_initialization_and_same_common_seed",
+          "status": "PASS",
+          "evidence": {
+            "actual_backbone_load": {
+              "loaded": 258,
+              "skipped": 0
+            },
+            "common_keys_different": []
+          }
+        },
+        {
+          "check": "step_zero_preserves_b4_including_k0_k1_k64",
+          "status": "PASS",
+          "evidence": {
+            "logit_max_errors": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "valid_k": [
+              0,
+              1,
+              64
+            ]
+          }
+        },
+        {
+          "check": "production_loss_backward_optimizer_on_real_edge_cases",
+          "status": "PASS",
+          "evidence": [
+            {
+              "loss": 0.0,
+              "gradient_l1": 0.0,
+              "optimizer_finite": true,
+              "valid_rows": 0,
+              "candidate_count": [
+                5
+              ]
+            },
+            {
+              "loss": 0.0,
+              "gradient_l1": 0.0,
+              "optimizer_finite": true,
+              "valid_rows": 1,
+              "candidate_count": [
+                0
+              ]
+            },
+            {
+              "loss": 3.782161235809326,
+              "gradient_l1": 14065.185546875,
+              "optimizer_finite": true,
+              "valid_rows": 2,
+              "candidate_count": [
+                13,
+                12
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "sci_id/models/lcscf.py": "b80442b8b679f7d2f41a95f1bef5a3d99e031d78774d143bb7a5ac8127306ebc",
+    "sci_id/models/identity_pyramid.py": "ac8bafaaab06195863e047a694868b7851c29054c81bd6c5c5c6f8ec070d9bef",
+    "sci_id/models/full_model.py": "53b623908e2077bb34d368d5e2b1e3be6c78d3c79cb824e16706cc702d9a3479",
+    "sci_id/data/episodes.py": "dba80b58c401e7b5889f7f8f5a500eba114cfefa824b90aa7a88c7347fbce822",
+    "run_n4_holdout.py": "ed16776a4b10df8661a42425ec22a337352abfc02d3ff9d5da80b1b34329b97a",
+    "run_lcscf_gate.py": "7ca2a8463492d0ba344249d8191c04822cce338e1cbab4e095bd212fb5c450cc",
+    "train_n4_holdout.py": "c6fc0438e534adfe2714fb8dbfdcc0634861a13cc170a01eea01ee32e762e62a",
+    "audit_lcscf_v4.py": "7ae12ca9cf217db6d8c29477b45e72b82441141a829dbced9203a8e9a77e1383"
+  },
+  "checkpoint_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+  "official_val_test_access": false,
+  "scope": "Mechanism, preprocessing and production gradient contracts; no effectiveness claim."
+}

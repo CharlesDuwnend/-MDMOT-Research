@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_CCSI_FULL_COVERAGE_SUFFICIENCY_GATE",
+  "reason": "The short gate beats P38 on 4/5 calibration pairs but remains below the absolute threshold; the full run tests the declared anti-overfit mechanism once.",
+  "fit_pairs": ["23", "25", "28", "29", "39", "44", "45", "51", "53", "63", "66", "69", "70", "74", "78"],
+  "eligible_groups_expected": 18412,
+  "epochs": 3,
+  "updates_expected": 55236,
+  "seed": 42,
+  "initialization": "P38 warm start, same as CCSI short gate",
+  "gate": {"calibration_pair_macro_r1_min": 0.4641, "calibration_wins_vs_p38_min": 3, "fit_drop_vs_p1_max": 0.05},
+  "forbidden": ["threshold_search", "dev", "official_val", "official_test", "host_attachment"]
+}

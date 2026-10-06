@@ -1,0 +1,768 @@
+[
+  {
+    "PID_read": false,
+    "feature_rows": 36,
+    "frame": 9,
+    "geometry": {
+      "cross_now": {
+        "hull_fractions": [
+          0.05600530478068614,
+          0.05306411142519075
+        ],
+        "inlier_error_median": 0.27438568280902775,
+        "inlier_error_p90": 0.5518948575895692,
+        "inlier_fraction": 0.6538461538461539,
+        "inliers": 17,
+        "matches": 26,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.6666666666666666,
+        "spatial_holdout_count": 6,
+        "spatial_holdout_error_median": 1.1720196173628128,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "cross_old": {
+        "hull_fractions": [
+          0.1562431837892768,
+          0.12426263566865578
+        ],
+        "inlier_error_median": 0.4343071264634961,
+        "inlier_error_p90": 0.9321374949745138,
+        "inlier_fraction": 0.7272727272727273,
+        "inliers": 24,
+        "matches": 33,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.7777777777777778,
+        "spatial_holdout_count": 9,
+        "spatial_holdout_error_median": 1.233788678831788,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "time1": {
+        "hull_fractions": [
+          0.7722221725635896,
+          0.7719675489029961
+        ],
+        "inlier_error_median": 0.11573011539932326,
+        "inlier_error_p90": 0.3200680936418933,
+        "inlier_fraction": 0.9867256637168141,
+        "inliers": 669,
+        "matches": 678,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.9824561403508771,
+        "spatial_holdout_count": 171,
+        "spatial_holdout_error_median": 0.14474994681511175,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "time2": {
+        "hull_fractions": [
+          0.8440754918160953,
+          0.8455827333745193
+        ],
+        "inlier_error_median": 0.8201399252986454,
+        "inlier_error_p90": 1.5731231197610724,
+        "inlier_fraction": 0.8466757123473542,
+        "inliers": 624,
+        "matches": 737,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.9948453608247423,
+        "spatial_holdout_count": 194,
+        "spatial_holdout_error_median": 0.5892330371372436,
+        "uncertainty_calibrated": false,
+        "valid": true
+      }
+    },
+    "geometry_cycle_error_median": 1.8049146082836782,
+    "history_eligible_per_view": {
+      "1": 8,
+      "2": 19
+    },
+    "history_frame": 1,
+    "images": [
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000009.jpg",
+        "sha256": "380a8581215edf85629a1ccfd1781099055b7b31dcbf8bafcd276a83943442d1",
+        "unmasked_fraction": 0.9645119598765433
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000001.jpg",
+        "sha256": "4e9ab35809e21a4e03ca895f8a6a0a52964765a790e928acc0df147d6b16a6b1",
+        "unmasked_fraction": 0.9679764660493827
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000009.jpg",
+        "sha256": "f279cbd357d217b4c9139a4bc90feb0e5061168a54e09611ee8e530cc1f16ed4",
+        "unmasked_fraction": 0.9320717592592592
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000001.jpg",
+        "sha256": "6541df25a63ed466f13125faf0cb4a32e93f4cf6059556759d0eff2c067b6160",
+        "unmasked_fraction": 0.9350848765432099
+      }
+    ],
+    "pair": "23",
+    "projection_failures": 0,
+    "stage_support": {
+      "cross_now": true,
+      "cross_old": true,
+      "time1": true,
+      "time2": true
+    },
+    "status": "PIXEL_RESIDUAL_FEATURES_EXTRACTED",
+    "supported_left_targets": 5
+  },
+  {
+    "PID_read": false,
+    "feature_rows": 0,
+    "frame": 107,
+    "geometry": {
+      "cross_now": {
+        "inliers": 0,
+        "matches": 9,
+        "reason": "too_few_mutual_background_matches",
+        "valid": false
+      },
+      "cross_old": {
+        "inlier_fraction": 0.5,
+        "inliers": 6,
+        "matches": 12,
+        "reason": "too_few_inliers",
+        "valid": false
+      },
+      "time1": {
+        "hull_fractions": [
+          0.8634173348763589,
+          0.8617000991890433
+        ],
+        "inlier_error_median": 0.12221058601895576,
+        "inlier_error_p90": 0.29402816909615,
+        "inlier_fraction": 0.989843028624192,
+        "inliers": 1072,
+        "matches": 1083,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.984472049689441,
+        "spatial_holdout_count": 322,
+        "spatial_holdout_error_median": 0.1884353231064576,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "time2": {
+        "hull_fractions": [
+          0.8886889442728841,
+          0.8883387099150973
+        ],
+        "inlier_error_median": 0.5536412201244746,
+        "inlier_error_p90": 1.1332603355610023,
+        "inlier_fraction": 0.8337628865979382,
+        "inliers": 647,
+        "matches": 776,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 1.0,
+        "spatial_holdout_count": 208,
+        "spatial_holdout_error_median": 0.5705780094593252,
+        "uncertainty_calibrated": false,
+        "valid": true
+      }
+    },
+    "history_eligible_per_view": {
+      "1": 22,
+      "2": 25
+    },
+    "history_frame": 99,
+    "images": [
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000107.jpg",
+        "sha256": "84dd49c76fd64690a6bd5fe76e5232ef6b5e6b3960cf1ed9ec6c842d83cdfe11",
+        "unmasked_fraction": 0.939224537037037
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000099.jpg",
+        "sha256": "ce3beb1be67ad7b634d120427d67e5d05e76403fb2b5d48891e7a0bf3326eaf6",
+        "unmasked_fraction": 0.9345196759259259
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000107.jpg",
+        "sha256": "be82cd8599508cbca0bc698c443a7b16960745ab02ce274f3a286162bad7a72a",
+        "unmasked_fraction": 0.9002179783950617
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000099.jpg",
+        "sha256": "41fc2e4a03168aaeb789b51e2cd2e9e0c300df2298c3263faab6ac3ccbefe770",
+        "unmasked_fraction": 0.9058873456790123
+      }
+    ],
+    "pair": "23",
+    "projection_failures": 0,
+    "stage_support": {
+      "cross_now": false,
+      "cross_old": false,
+      "time1": true,
+      "time2": true
+    },
+    "status": "GEOMETRY_UNAVAILABLE",
+    "supported_left_targets": 0
+  },
+  {
+    "PID_read": false,
+    "feature_rows": 0,
+    "frame": 206,
+    "geometry": {
+      "cross_now": {
+        "inliers": 0,
+        "matches": 9,
+        "reason": "too_few_mutual_background_matches",
+        "valid": false
+      },
+      "cross_old": {
+        "inliers": 0,
+        "matches": 6,
+        "reason": "too_few_mutual_background_matches",
+        "valid": false
+      },
+      "time1": {
+        "hull_fractions": [
+          0.8956772189230309,
+          0.91680450299252
+        ],
+        "inlier_error_median": 0.3062570679553066,
+        "inlier_error_p90": 0.6971206502291762,
+        "inlier_fraction": 0.9944802207911684,
+        "inliers": 1081,
+        "matches": 1087,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.9966101694915255,
+        "spatial_holdout_count": 295,
+        "spatial_holdout_error_median": 0.41229839051869394,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "time2": {
+        "hull_fractions": [
+          0.8273048243322367,
+          0.8267639112197483
+        ],
+        "inlier_error_median": 0.6198158999466389,
+        "inlier_error_p90": 1.1183571856773042,
+        "inlier_fraction": 0.9014084507042254,
+        "inliers": 768,
+        "matches": 852,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 1.0,
+        "spatial_holdout_count": 215,
+        "spatial_holdout_error_median": 0.6769151633746044,
+        "uncertainty_calibrated": false,
+        "valid": true
+      }
+    },
+    "history_eligible_per_view": {
+      "1": 20,
+      "2": 22
+    },
+    "history_frame": 198,
+    "images": [
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000206.jpg",
+        "sha256": "66abee743f1595d3bd108debab741502dea4694033e89ee82500175d49f45ca8",
+        "unmasked_fraction": 0.9592534722222222
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000198.jpg",
+        "sha256": "03f842d1bef8c22c10dd511eb9e3f55e71a369256e88179c23d6d341a0582b54",
+        "unmasked_fraction": 0.9533217592592592
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000206.jpg",
+        "sha256": "6ca6579b6289c9b605f004b2090c4aa7b9ee30e585b5d687a634f92ca5a43770",
+        "unmasked_fraction": 0.9384837962962963
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000198.jpg",
+        "sha256": "f1d49ab19abd9ea89be821fe2102c36d66301e94383b11a7a280b06a764d714f",
+        "unmasked_fraction": 0.929375
+      }
+    ],
+    "pair": "23",
+    "projection_failures": 0,
+    "stage_support": {
+      "cross_now": false,
+      "cross_old": false,
+      "time1": true,
+      "time2": true
+    },
+    "status": "GEOMETRY_UNAVAILABLE",
+    "supported_left_targets": 0
+  },
+  {
+    "PID_read": false,
+    "feature_rows": 0,
+    "frame": 305,
+    "geometry": {
+      "cross_now": {
+        "inlier_fraction": 0.29411764705882354,
+        "inliers": 5,
+        "matches": 17,
+        "reason": "too_few_inliers",
+        "valid": false
+      },
+      "cross_old": {
+        "inlier_fraction": 0.5,
+        "inliers": 8,
+        "matches": 16,
+        "reason": "too_few_inliers",
+        "valid": false
+      },
+      "time1": {
+        "hull_fractions": [
+          0.749648723711508,
+          0.8308949680561337
+        ],
+        "inlier_error_median": 0.8250626494224023,
+        "inlier_error_p90": 1.7463312884832114,
+        "inlier_fraction": 0.7436708860759493,
+        "inliers": 470,
+        "matches": 632,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.9655172413793104,
+        "spatial_holdout_count": 145,
+        "spatial_holdout_error_median": 1.1390239252854697,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "time2": {
+        "hull_fractions": [
+          0.5434733917391069,
+          0.5413532825571726
+        ],
+        "inlier_error_median": 0.7986774871301198,
+        "inlier_error_p90": 2.0909223814718056,
+        "inlier_fraction": 0.668997668997669,
+        "inliers": 287,
+        "matches": 429,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.4326923076923077,
+        "spatial_holdout_count": 104,
+        "spatial_holdout_error_median": 3.442214005020411,
+        "uncertainty_calibrated": false,
+        "valid": true
+      }
+    },
+    "history_eligible_per_view": {
+      "1": 11,
+      "2": 11
+    },
+    "history_frame": 297,
+    "images": [
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000305.jpg",
+        "sha256": "671c069933e8bb85c21a8956812ec5aa4f78c60c9e2b77969238b8f8c9a9e7b6",
+        "unmasked_fraction": 0.9592052469135802
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000297.jpg",
+        "sha256": "1012d0f79be80572f0e436ea975ac4959ac7ee3b44864825ee406054f001dbfb",
+        "unmasked_fraction": 0.9554243827160493
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000305.jpg",
+        "sha256": "4e9a14a0db45d6ee68c4c517ae34ce9a8c29d2845f66b40a0f60a1e8eb173478",
+        "unmasked_fraction": 0.9645042438271605
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000297.jpg",
+        "sha256": "2bb303f656736c51d0b6b1ac157244e42422c4fbcefe68024f9ce1901f1fd8bf",
+        "unmasked_fraction": 0.9597781635802469
+      }
+    ],
+    "pair": "23",
+    "projection_failures": 0,
+    "stage_support": {
+      "cross_now": false,
+      "cross_old": false,
+      "time1": true,
+      "time2": true
+    },
+    "status": "GEOMETRY_UNAVAILABLE",
+    "supported_left_targets": 0
+  },
+  {
+    "PID_read": false,
+    "feature_rows": 0,
+    "frame": 403,
+    "geometry": {
+      "cross_now": {
+        "inliers": 0,
+        "matches": 6,
+        "reason": "too_few_mutual_background_matches",
+        "valid": false
+      },
+      "cross_old": {
+        "inliers": 0,
+        "matches": 9,
+        "reason": "too_few_mutual_background_matches",
+        "valid": false
+      },
+      "time1": {
+        "hull_fractions": [
+          0.7722964155599339,
+          0.8159673123901768
+        ],
+        "inlier_error_median": 0.46760227097800894,
+        "inlier_error_p90": 1.2472309860704514,
+        "inlier_fraction": 0.9085903083700441,
+        "inliers": 825,
+        "matches": 908,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.9918367346938776,
+        "spatial_holdout_count": 245,
+        "spatial_holdout_error_median": 0.720498738530457,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "time2": {
+        "hull_fractions": [
+          0.7159812765025121,
+          0.7125013903665348
+        ],
+        "inlier_error_median": 0.6227900731091003,
+        "inlier_error_p90": 1.3994020919008048,
+        "inlier_fraction": 0.8303030303030303,
+        "inliers": 411,
+        "matches": 495,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.976,
+        "spatial_holdout_count": 125,
+        "spatial_holdout_error_median": 0.5163018989371277,
+        "uncertainty_calibrated": false,
+        "valid": true
+      }
+    },
+    "history_eligible_per_view": {
+      "1": 21,
+      "2": 12
+    },
+    "history_frame": 395,
+    "images": [
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000403.jpg",
+        "sha256": "dbca9290c126d17fcb10a050e0c3f15f3eebc068e51aeb79f29e27dd5efb1e5e",
+        "unmasked_fraction": 0.9679783950617284
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000395.jpg",
+        "sha256": "3c4f737addd2ee9fe1bc4374a723d100a215a07ae89c0a3c7f41cb966950f448",
+        "unmasked_fraction": 0.9662422839506173
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000403.jpg",
+        "sha256": "bce1d9b342aa4e6eb5cd4a3409e8caba38c35e1ba448a2e1d432983d2187b7e0",
+        "unmasked_fraction": 0.9126929012345679
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000395.jpg",
+        "sha256": "8b2c8a69f385541c0adc749c74244fb6e316d58fce610c81ba8ecefff978ac9f",
+        "unmasked_fraction": 0.921676311728395
+      }
+    ],
+    "pair": "23",
+    "projection_failures": 0,
+    "stage_support": {
+      "cross_now": false,
+      "cross_old": false,
+      "time1": true,
+      "time2": true
+    },
+    "status": "GEOMETRY_UNAVAILABLE",
+    "supported_left_targets": 0
+  },
+  {
+    "PID_read": false,
+    "feature_rows": 0,
+    "frame": 502,
+    "geometry": {
+      "cross_now": {
+        "inliers": 0,
+        "matches": 9,
+        "reason": "too_few_mutual_background_matches",
+        "valid": false
+      },
+      "cross_old": {
+        "inliers": 0,
+        "matches": 8,
+        "reason": "too_few_mutual_background_matches",
+        "valid": false
+      },
+      "time1": {
+        "hull_fractions": [
+          0.8351978264793646,
+          0.856886393050816
+        ],
+        "inlier_error_median": 0.23444541237732675,
+        "inlier_error_p90": 0.6822231301749209,
+        "inlier_fraction": 0.9354545454545454,
+        "inliers": 1029,
+        "matches": 1100,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.994269340974212,
+        "spatial_holdout_count": 349,
+        "spatial_holdout_error_median": 0.28174668204624104,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "time2": {
+        "hull_fractions": [
+          0.8812530862862684,
+          0.8824546872223876
+        ],
+        "inlier_error_median": 0.4084418953071931,
+        "inlier_error_p90": 1.4025307874682518,
+        "inlier_fraction": 0.8115942028985508,
+        "inliers": 336,
+        "matches": 414,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.9357142857142857,
+        "spatial_holdout_count": 140,
+        "spatial_holdout_error_median": 0.6161414260875904,
+        "uncertainty_calibrated": false,
+        "valid": true
+      }
+    },
+    "history_eligible_per_view": {
+      "1": 33,
+      "2": 30
+    },
+    "history_frame": 494,
+    "images": [
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000502.jpg",
+        "sha256": "2f1c930c8829dec322e043e675e4f818273191c1d6b85421e337ee16bc97f73b",
+        "unmasked_fraction": 0.954795524691358
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000494.jpg",
+        "sha256": "a88bf6308ce17a5b54c734d0ac71b14a32d6523d5148f8afb57b31785b036054",
+        "unmasked_fraction": 0.9549131944444444
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000502.jpg",
+        "sha256": "13d071eb97d5b95c7539998007309b2c2c75901848d7963d5551f17df5588c05",
+        "unmasked_fraction": 0.8548939043209877
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000494.jpg",
+        "sha256": "63166d1002fe1215b57b7fc9aadd0adc5f3f307610e48f1b8b9592073bb224b2",
+        "unmasked_fraction": 0.854116512345679
+      }
+    ],
+    "pair": "23",
+    "projection_failures": 0,
+    "stage_support": {
+      "cross_now": false,
+      "cross_old": false,
+      "time1": true,
+      "time2": true
+    },
+    "status": "GEOMETRY_UNAVAILABLE",
+    "supported_left_targets": 0
+  },
+  {
+    "PID_read": false,
+    "feature_rows": 0,
+    "frame": 601,
+    "geometry": {
+      "cross_now": {
+        "inliers": 0,
+        "matches": 4,
+        "reason": "too_few_mutual_background_matches",
+        "valid": false
+      },
+      "cross_old": {
+        "inliers": 0,
+        "matches": 5,
+        "reason": "too_few_mutual_background_matches",
+        "valid": false
+      },
+      "time1": {
+        "hull_fractions": [
+          0.791131437232208,
+          0.8730091343800308
+        ],
+        "inlier_error_median": 0.47146091327146306,
+        "inlier_error_p90": 1.9349649668302555,
+        "inlier_fraction": 0.8756544502617801,
+        "inliers": 669,
+        "matches": 764,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.6468531468531469,
+        "spatial_holdout_count": 286,
+        "spatial_holdout_error_median": 2.5408462341277596,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "time2": {
+        "hull_fractions": [
+          0.8226358723537388,
+          0.8241206684049917
+        ],
+        "inlier_error_median": 0.2825032514481489,
+        "inlier_error_p90": 0.6955743769816218,
+        "inlier_fraction": 0.9671848013816926,
+        "inliers": 560,
+        "matches": 579,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.968,
+        "spatial_holdout_count": 125,
+        "spatial_holdout_error_median": 0.4439229071896598,
+        "uncertainty_calibrated": false,
+        "valid": true
+      }
+    },
+    "history_eligible_per_view": {
+      "1": 39,
+      "2": 35
+    },
+    "history_frame": 593,
+    "images": [
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000601.jpg",
+        "sha256": "9fc713e8bb1094f309705dbec8d05558c60ac8ada40e8137c64b07e591c2bb43",
+        "unmasked_fraction": 0.9217226080246913
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000593.jpg",
+        "sha256": "581eb6a2066b7cbd267d57b173c63434ac60841a9146a72fceb9c10a3e5ecd4f",
+        "unmasked_fraction": 0.9244270833333333
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000601.jpg",
+        "sha256": "cf773cfcf38f19e2efea273a67d922a3e744e4f79c01e4a9e9f6e96965a613f9",
+        "unmasked_fraction": 0.8613425925925926
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000593.jpg",
+        "sha256": "cad32a0f91b49c1c9ad3fd2831ec06ea2c0bfd09324649c73ebfe91455bbe4a4",
+        "unmasked_fraction": 0.8544849537037037
+      }
+    ],
+    "pair": "23",
+    "projection_failures": 0,
+    "stage_support": {
+      "cross_now": false,
+      "cross_old": false,
+      "time1": true,
+      "time2": true
+    },
+    "status": "GEOMETRY_UNAVAILABLE",
+    "supported_left_targets": 0
+  },
+  {
+    "PID_read": false,
+    "feature_rows": 0,
+    "frame": 700,
+    "geometry": {
+      "cross_now": {
+        "inlier_fraction": 0.4375,
+        "inliers": 7,
+        "matches": 16,
+        "reason": "too_few_inliers",
+        "valid": false
+      },
+      "cross_old": {
+        "inlier_fraction": 0.5384615384615384,
+        "inliers": 7,
+        "matches": 13,
+        "reason": "too_few_inliers",
+        "valid": false
+      },
+      "time1": {
+        "hull_fractions": [
+          0.8657464664563097,
+          0.8880436650604009
+        ],
+        "inlier_error_median": 0.2654718693239204,
+        "inlier_error_p90": 0.8314728163706803,
+        "inlier_fraction": 0.9832512315270936,
+        "inliers": 998,
+        "matches": 1015,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.9758308157099698,
+        "spatial_holdout_count": 331,
+        "spatial_holdout_error_median": 0.8051032594087316,
+        "uncertainty_calibrated": false,
+        "valid": true
+      },
+      "time2": {
+        "hull_fractions": [
+          0.8767711618543941,
+          0.8765173711396549
+        ],
+        "inlier_error_median": 0.18247740262198126,
+        "inlier_error_p90": 0.4336488862897321,
+        "inlier_fraction": 0.9147982062780269,
+        "inliers": 408,
+        "matches": 446,
+        "reason": "supported_background_homography",
+        "spatial_holdout_available": true,
+        "spatial_holdout_consensus_fraction": 0.7209302325581395,
+        "spatial_holdout_count": 86,
+        "spatial_holdout_error_median": 0.4033811459067122,
+        "uncertainty_calibrated": false,
+        "valid": true
+      }
+    },
+    "history_eligible_per_view": {
+      "1": 34,
+      "2": 30
+    },
+    "history_frame": 692,
+    "images": [
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000700.jpg",
+        "sha256": "ee4caebb4f493853e670dd35f56e368eb9172f115ec88a8e85acd4d71777b408",
+        "unmasked_fraction": 0.9225694444444444
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/1/23-1/00000692.jpg",
+        "sha256": "9f505510d675cd4cc9a5974eb0628887454ea1c217e998a128da320a0fd43a72",
+        "unmasked_fraction": 0.9186246141975308
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000700.jpg",
+        "sha256": "fcd4370c1a8d0d130346bccd15414c3719fb4c229b6be56a634a7fa86e9b1631",
+        "unmasked_fraction": 0.8923804012345679
+      },
+      {
+        "path": "/raid/datasets/chc_data/MDMT/train/2/23-2/00000692.jpg",
+        "sha256": "1aca73a25e294bcca99a0f2bdc1dd2eb3f7decbf07ff33f0fabd70d100035997",
+        "unmasked_fraction": 0.8922376543209877
+      }
+    ],
+    "pair": "23",
+    "projection_failures": 0,
+    "stage_support": {
+      "cross_now": false,
+      "cross_old": false,
+      "time1": true,
+      "time2": true
+    },
+    "status": "GEOMETRY_UNAVAILABLE",
+    "supported_left_targets": 0
+  }
+]

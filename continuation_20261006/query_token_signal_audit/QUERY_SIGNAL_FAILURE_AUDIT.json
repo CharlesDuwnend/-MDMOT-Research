@@ -1,0 +1,41 @@
+{
+  "status": "PASS_QUERY_TOKEN_SIGNAL_FAILURE_AUDIT_3X3",
+  "candidate": "frozen AutoAssign query-token complement and role-whitened calibration",
+  "rounds": [
+    {
+      "round": "R1_DATA_AND_LEGAL",
+      "checks": {
+        "all_primary_pairs_loaded_without_drop": true,
+        "same_candidate_population_across_modes": true,
+        "train_only_and_no_parameter_update": true
+      }
+    },
+    {
+      "round": "R2_REPLAY_AND_FINITE",
+      "checks": {
+        "visual_macro_recall_finite": true,
+        "query_macro_recall_finite": true,
+        "calibration_stats_fit_only": true
+      }
+    },
+    {
+      "round": "R3_PREDECLARED_GATE",
+      "checks": {
+        "query_wins_at_least_three_pairs": false,
+        "equal_fusion_wins_at_least_three_pairs": false,
+        "role_zscore_wins_at_least_three_pairs": false
+      }
+    }
+  ],
+  "decision": {
+    "query_token_training": "STOP_BEFORE_TRAINING",
+    "role_whitening_training": "STOP_BEFORE_TRAINING",
+    "reason": "query token loses the visual baseline on all four primary pairs; equal fusion wins only one; role z-score reaches two of four and is a standard camera-aware normalization family",
+    "official_val_test_access": false,
+    "retain_as_diagnostic": true
+  },
+  "inputs": {
+    "query_signal_sha256": "5de009205e3146d9c0b55e9b62ed1e920a9166d8cb8a30bb63111bdf04a9cfb9",
+    "calibration_signal_sha256": "a20ae599c6a50a413ad8c416faee8133021d430cd2e6e11759728208a531afcb"
+  }
+}

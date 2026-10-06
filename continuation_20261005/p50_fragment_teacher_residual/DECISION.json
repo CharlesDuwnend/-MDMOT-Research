@@ -1,0 +1,57 @@
+{
+  "status": "STOP_P50_MAP_TRANSFER_GATE",
+  "candidate": "cross-view fragment teacher with candidate-conditioned pre-pooling residual student",
+  "paper_claim": false,
+  "official_val_test_read": false,
+  "training_authorized": false,
+  "novelty_status": "N0_NARROW_HOLD",
+  "mechanism_gate": {
+    "cpu_contract": "PASS_P50_CPU_MECHANISM_CONTRACT",
+    "real_donor_contract": "PASS_P50_REAL_TRAIN_DONOR_CONTRACT",
+    "feature_short_gate": "PASS_P50_FEATURE_SHORT_GATE_COMPLETE",
+    "fit_events": 7500,
+    "steps": 1200,
+    "eval_pairs": ["69", "70", "74", "76", "78"],
+    "macro_baseline_recall1": 0.11783333333333332,
+    "macro_student_recall1": 0.21016666666666667,
+    "macro_delta_recall1": 0.09233333333333332,
+    "macro_baseline_mrr": 0.22183527314966706,
+    "macro_student_mrr": 0.3557560256561637,
+    "pairs_won_recall1": 4,
+    "selection_bias_warning": "events require a strict-prefix train donor and are feature-space diagnostics; this is not a formal MOT result"
+  },
+  "map_gate": {
+    "status": "STOP_AFTER_TRAINING_SUFFICIENCY_AUDIT",
+    "initial_steps": 1200,
+    "initial_effective_epochs": 1.1299435028248588,
+    "sufficiency_total_steps": 3200,
+    "sufficiency_effective_epochs": 3.0131826741996233,
+    "baseline": "frozen_stage3_visual_feature_cosine_same_definition_as_feature_gate",
+    "macro_baseline_recall1": 0.11645493840885393,
+    "macro_student_recall1": 0.04745852433035556,
+    "macro_delta_recall1": -0.06899641407849837,
+    "macro_baseline_mrr": 0.24460129066858954,
+    "macro_student_mrr": 0.1580422944905467,
+    "pairs_won_recall1": 0,
+    "train_rows": 2124,
+    "eval_events_per_pair": {"69": 238, "70": 150, "74": 186, "76": 89, "78": 160},
+    "fpn_init_control": {
+      "steps": 1200,
+      "trainable_parameters": 1380097,
+      "student_macro_recall1": 0.04524228570643267,
+      "baseline_macro_recall1": 0.11645493840885393,
+      "student_macro_mrr": 0.1465741531918105,
+      "baseline_macro_mrr": 0.24460129066858954,
+      "pairs_won_recall1": 0,
+      "interpretation": "shape-compatible FPN initialization with frozen backbone/pyramid did not recover the map transfer"
+    }
+  },
+  "implementation_audit": "MAP_IMPLEMENTATION_AUDIT.json",
+  "next_gate": "retain feature-space result as exploratory diagnostic only; do not attach P50 to P26 or read official-val/test",
+  "stop_if": [
+    "teacher or GT enters inference inputs",
+    "student reduces to post-pooling ranker",
+    "donor permutation has no effect",
+    "no gain over frozen feature control on the preregistered pair gate"
+  ]
+}

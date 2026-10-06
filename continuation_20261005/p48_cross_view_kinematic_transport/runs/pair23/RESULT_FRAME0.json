@@ -1,0 +1,29 @@
+{
+  "status": "PASS_P48_CPU_KINEMATIC_DIAGNOSTIC",
+  "scope": "fit pair23 XML diagnostic; XML labels used only for measurement",
+  "homography_mode": "frame-zero estimate",
+  "input_contract": "strict prefix positions; no timestamps; no future frames; no official score",
+  "homography_inliers_frame0": 5,
+  "position": {
+    "queries": 14774,
+    "rank1": 0.11411939894409097,
+    "rank_le_3": 0.2834032760254501,
+    "median_rank": 7.0,
+    "true_median_cost": 3.133053932116725,
+    "wrong_median_cost": 5.6925573580124915,
+    "median_wrong_minus_true": 2.5595034258957665
+  },
+  "position_plus_kinematics": {
+    "queries": 14774,
+    "rank1": 0.11486395018275349,
+    "rank_le_3": 0.2852308108839854,
+    "median_rank": 7.0,
+    "true_median_cost": 2.0531299794266156,
+    "wrong_median_cost": 3.7187110624993442,
+    "median_wrong_minus_true": 1.6655810830727287
+  },
+  "rank1_delta": 0.0007445512386625164,
+  "queries_with_rank_change": 585,
+  "no_training": true,
+  "no_official_val_test": true
+}

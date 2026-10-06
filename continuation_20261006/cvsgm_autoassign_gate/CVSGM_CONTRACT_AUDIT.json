@@ -1,0 +1,21 @@
+{
+  "status": "PASS_CVSGM_INITIALIZATION_AND_MECHANISM_CONTRACT",
+  "created_utc": "2026-10-05T21:53:24.524731+00:00",
+  "checkpoint": "/home/chenhc/cross_uav_query_mamba_20260830/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt_epoch_60.pth",
+  "checkpoint_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+  "device": "cuda:0",
+  "module": "CrossViewScaleGatedModulation",
+  "placement": "paired target/source C2-C4 -> IdentityPyramid P2/P3/P4 maps, before RoIAlign",
+  "shared_across_levels": true,
+  "residual_zero_initialized": true,
+  "checks": {
+    "k1_step_zero_max_abs_error": 0.0,
+    "k64_step_zero_max_abs_error": 0.0,
+    "backbone_loaded_tensor_keys": 258,
+    "backbone_gradient_l1": 49533.43832680583,
+    "cvsgm_spatial_residual_gradient_l1": 1.3937418460845947,
+    "all_parameter_values_finite": true,
+    "cvsgm_parameter_count_channels8": 1187,
+    "official_val_test_access": false
+  }
+}

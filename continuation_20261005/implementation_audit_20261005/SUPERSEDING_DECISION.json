@@ -1,0 +1,49 @@
+{
+  "schema": "mdmot_implementation_audit_superseding_decision_v1",
+  "date": "2026-10-05",
+  "status": "P29_REPAIR_REQUIRED_BEFORE_METHOD_VERDICT",
+  "scope": ["P24", "P25", "P26", "P27", "P28", "P29", "P30", "P6", "P7R", "P10", "P15", "P16"],
+  "material_defect": {
+    "stage": "P29",
+    "file": "continuation_20261005/p29_learned_alignment/residual_deformable.py",
+    "function": "_flow_sample",
+    "description": "flow raster sampled at feature indices rather than offset-zero detector-image coordinates j*stride/i*stride; subsequent /stride conversion shrinks reference displacement",
+    "original_sha256": "4b5cda3d8405b3113c75b2b89006e8ef7bc24c92c5fc8906ed4b67b459cdfe5f",
+    "repair_path": "continuation_20261005/p29_repair_20261005/residual_deformable.py",
+    "repair_sha256": "589a0c70c0678ce23e335e3c01736250720349f4b3c8841e18ab44a19b92b05f",
+    "synthetic_counterexample": {
+      "flow_x": "flow_x[x]=x",
+      "stride": 8,
+      "original_displacement": [0.0, 0.125, 0.25, 0.375],
+      "correct_displacement": [0.0, 1.0, 2.0, 3.0]
+    }
+  },
+  "validated": {
+    "p29_repair_cpu_contract": "PASS_P29_REPAIR_FLOW_REFERENCE_CONTRACT",
+    "p30_native_direct_replay_pair27": "PASS_BYTE_EXACT_BOTH_VIEWS",
+    "p28_artifact_hashes": "PASS",
+    "p29_artifact_hashes": "PASS",
+    "p30_override_arrays": "PASS_3900_ARRAYS_EACH_ARM",
+    "official_val_or_test_read": false,
+    "novelty_claim": false
+  },
+  "verdict_boundary": {
+    "p28": "KEEP_SPECIFIC_FGFA_PILOT_NEGATIVE",
+    "p26_and_p30_native_host": "IMPLEMENTATION_SUPPORTED",
+    "p29_original": "INVALID_FOR_FINAL_METHOD_VERDICT",
+    "p30_fixed_original": "INVALID_FOR_FINAL_P29_VERDICT_DUE_TO_P29_COORDINATE_DEFECT"
+  },
+  "required_next": [
+    "real GPU3 smoke with repaired source",
+    "same-protocol three-arm retrain and frozen calibration prediction",
+    "independent detection readout",
+    "repeat full P30 host only after repaired detection gate"
+  ],
+  "decision_codes": [
+    "PASS_EARLIER_ROUND_REASSESSMENT",
+    "FOUND_MATERIAL_P29_IMPLEMENTATION_DEFECT",
+    "DO_NOT_CLAIM_P29_NULL",
+    "DO_NOT_USE_P30_FIXED_NULL_AS_PAPER_NEGATIVE",
+    "NO_OFFICIAL_VAL_TEST"
+  ]
+}

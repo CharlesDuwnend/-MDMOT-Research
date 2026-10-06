@@ -1,0 +1,11 @@
+{
+  "candidate": "P41_FULL_COVERAGE_MEAN_ANCHORED_ADAPTER",
+  "parent": "P40_NO_CALIBRATION_GAIN_OVER_FIXED_MEAN",
+  "updates": 55236,
+  "epochs": 3,
+  "eligible_groups": 18412,
+  "seed": 42,
+  "gate": {"calibration_pair_macro_r1_min": 0.4641, "relative_lift_min": 0.01, "calibration_pair_wins_min": 3, "fit_drop_max": 0.05, "must_beat_fixed_mean": true, "fixed_mean_cal5": 0.4686440210690039},
+  "no_search": true,
+  "next": "If final adapter beats P39 fixed mean on cal5, retain representation direction and perform a separate complete-output transport audit; otherwise stop learned temporal adapter."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS_CCSI_INHERITED_TRAIN_FREE_INPUT_SIGNAL",
+  "basis": "CCSI and CCFI share the same frozen causal identity/history input contract; CCSI adds only a training-time swap objective.",
+  "source": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p51_ccfi/TRAIN_FREE_SIGNAL.json",
+  "source_sha256": "1ff2e2bae75164276f014f74f201ad665754fd5eeeb0c74e3672a5e69ee25d1d",
+  "signal": {
+    "calibration_pairs": 5,
+    "fixed_rule_wins": 5,
+    "p1_macro_r1": 0.44406777177539514,
+    "fixed_history_macro_r1": 0.46243467963126383,
+    "delta": 0.018366907855868697
+  },
+  "training_authorized": true,
+  "note": "No hyperparameter search was performed for CCSI; this gate validates the shared causal-history input, not the swap loss effectiveness."
+}

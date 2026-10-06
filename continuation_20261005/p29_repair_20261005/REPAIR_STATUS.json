@@ -1,0 +1,71 @@
+{
+  "schema": "p29_repair_status_v1",
+  "status": "STOP_REPAIRED_P29_LEARNED_GATE_NOT_PASSED",
+  "source": {
+    "path": "residual_deformable.py",
+    "sha256": "589a0c70c0678ce23e335e3c01736250720349f4b3c8841e18ab44a19b92b05f"
+  },
+  "cpu_contract": "PASS_P29_REPAIR_FLOW_REFERENCE_CONTRACT",
+  "real_gpu_smoke": {
+    "status": "PASS_REAL_GPU_SMOKE",
+    "exit": 0,
+    "log": "smoke.log",
+    "receipt": "smoke/SMOKE_RECEIPT.json",
+    "updates_per_arm": 4,
+    "native_capacity": {
+      "nms_pre": 2000,
+      "max_per_img": 300,
+      "score_thr": 0.05,
+      "nms_iou": 0.6
+    },
+    "physical_gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+    "gpu_index_at_run": 3
+  },
+  "required_data_action": "complete",
+  "official_val_or_test_read": false,
+  "novelty_claim": false,
+  "cache_regeneration": {
+    "status": "PASS_FIT_CALIBRATION_FPN_FLOW_REGENERATED",
+    "cache_root": "/raid/datasets/chc_data/claude_try_MDMOT_p29_repair_20261005",
+    "fit_groups": 240,
+    "calibration_groups": 40,
+    "fit_fpn_exit": 0,
+    "fit_flow_exit": 0,
+    "calibration_fpn_exit": 0,
+    "calibration_flow_exit": 0,
+    "fit_feature_verify": "PASS_NATIVE_FPN_ARCHIVE_VERIFICATION",
+    "calibration_feature_verify": "PASS_NATIVE_FPN_ARCHIVE_VERIFICATION"
+  },
+  "repair_defects_fixed": [
+    "stride_domain_reference_sampling",
+    "raw_past_value_mask_domain"
+  ],
+  "training": {
+    "status": "COMPLETE_THREE_ARM_FIT",
+    "exit": 0,
+    "steps_per_arm": 1200,
+    "receipt": "training/TRAIN_RECEIPT.json"
+  },
+  "calibration_prediction": {
+    "status": "COMPLETE_CALIBRATION_PREDICTIONS_FROZEN",
+    "groups": 40,
+    "exit": 0,
+    "receipt": "PREDICTION_RECEIPT.json"
+  },
+  "detection_readout": {
+    "status": "COMPLETE_FROZEN_CALIBRATION_DETECTION_READOUT",
+    "exit": 0,
+    "receipt": "detection_readout/RECEIPT.json",
+    "summary": "detection_readout/SUMMARY.json"
+  },
+  "progression_gate": {
+    "learned_beats_native": false,
+    "learned_beats_trained_current": true,
+    "learned_wins_at_least_3_of_5_vs_current": true,
+    "learned_recall_at_least_native": true,
+    "learned_beats_fixed": false,
+    "learned_wins_at_least_3_of_5_vs_fixed": false,
+    "overall": "STOP_BEFORE_P30_HOST"
+  },
+  "host_integration": "NOT_STARTED_STOP_BEFORE_P30"
+}

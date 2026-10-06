@@ -1,0 +1,64 @@
+{
+  "baseline": {
+    "IDF1": 0.9087675268817306,
+    "MDA": 0.6431315772400862,
+    "MOTA": 0.9474145050991436,
+    "method": "P26_baseline",
+    "num_switches": 770.0,
+    "views": [
+      {
+        "idf1": 0.9026395757611869,
+        "mota": 0.9447530134719925,
+        "num_switches": 407.0
+      },
+      {
+        "idf1": 0.9148954780022741,
+        "mota": 0.9500759967262948,
+        "num_switches": 363.0
+      }
+    ]
+  },
+  "geometry": {
+    "IDF1": 0.9087675268817306,
+    "MDA": 0.6393068818695818,
+    "MOTA": 0.9474145050991436,
+    "method": "P43_geometry",
+    "num_switches": 770.0,
+    "views": [
+      {
+        "idf1": 0.9026395757611869,
+        "mota": 0.9447530134719925,
+        "num_switches": 407.0
+      },
+      {
+        "idf1": 0.9148954780022741,
+        "mota": 0.9500759967262948,
+        "num_switches": 363.0
+      }
+    ]
+  },
+  "mean8": {
+    "IDF1": 0.9087675268817306,
+    "MDA": 0.6393068818695818,
+    "MOTA": 0.9474145050991436,
+    "method": "P43_mean8",
+    "num_switches": 770.0,
+    "views": [
+      {
+        "idf1": 0.9026395757611869,
+        "mota": 0.9447530134719925,
+        "num_switches": 407.0
+      },
+      {
+        "idf1": 0.9148954780022741,
+        "mota": 0.9500759967262948,
+        "num_switches": 363.0
+      }
+    ]
+  },
+  "no_method_claim": true,
+  "no_official_val_test": true,
+  "owner_continuity_audit": "OWNER_CONTINUITY_AUDIT.json",
+  "result": "Causal owner repair removes framewise identity discontinuities, but mean8 and geometry are identical and both remain below P26 MDA.",
+  "verdict": "STOP_P43_TEMPORAL_MEAN_HOST_TRANSFER"
+}

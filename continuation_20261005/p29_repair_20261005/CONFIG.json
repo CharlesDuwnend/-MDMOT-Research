@@ -1,0 +1,45 @@
+{
+  "cache_root": "/raid/datasets/chc_data/claude_try_MDMOT_p29_repair_20261005",
+  "cache_source": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p28_causal_fgfa",
+  "calibration_anchors_per_sequence": 4,
+  "calibration_pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "calibration_status": "Development calibration previously read by P28; held out from new module fitting, not unseen architecture decisions; original detector trained on full MDMT train",
+  "fit_anchors_per_sequence": 8,
+  "fit_pairs": [
+    "23",
+    "25",
+    "28",
+    "29",
+    "39",
+    "44",
+    "45",
+    "51",
+    "53",
+    "63",
+    "66",
+    "69",
+    "70",
+    "74",
+    "78"
+  ],
+  "flow_max_side": 640,
+  "lags": [
+    0,
+    1,
+    4,
+    8
+  ],
+  "native_capacity": {
+    "max_per_img": 300,
+    "nms_iou": 0.6,
+    "nms_pre": 2000,
+    "score_thr": 0.05
+  },
+  "sampling": "linspace(9,T,n,dtype=int64)"
+}

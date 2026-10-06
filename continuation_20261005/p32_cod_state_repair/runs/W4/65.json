@@ -1,0 +1,5151 @@
+{
+  "summary": {
+    "pair": "65",
+    "W": 4,
+    "proposal_count": 58,
+    "baseline_selected_owner_accept": 38,
+    "delay_final_edges": 31,
+    "repair_final_edges": 30,
+    "b0_edges": 38,
+    "repair_ops": {
+      "provisional_publish": 30,
+      "revoke": 2,
+      "revision_publish": 2,
+      "repair_reject": 26
+    },
+    "repair_revokes": 2,
+    "repair_revisions": 2,
+    "repair_rejections": 26,
+    "repair_changes_vs_delay": 9,
+    "repair_changes_vs_b0": 16,
+    "delay_diagnostics": {
+      "correct_edges": 2,
+      "false_edges": 28,
+      "unknown_edges": 1,
+      "future_coobserved_frames": 0,
+      "future_wrong_coobserved_frames": 0
+    },
+    "repair_diagnostics": {
+      "correct_edges": 2,
+      "false_edges": 27,
+      "unknown_edges": 1,
+      "future_coobserved_frames": 0,
+      "future_wrong_coobserved_frames": 0
+    },
+    "b0_diagnostics": {
+      "correct_edges": 2,
+      "false_edges": 35,
+      "unknown_edges": 1,
+      "future_coobserved_frames": 1855,
+      "future_wrong_coobserved_frames": 1453
+    },
+    "repair_edge_rows": [
+      {
+        "edge": [
+          [
+            "1",
+            6
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cost": 0.3092773787832507,
+        "label": "false",
+        "left_gid": 12,
+        "right_gid": 0,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            10
+          ],
+          [
+            "2",
+            55
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cost": 0.3137951485557876,
+        "label": "false",
+        "left_gid": 5,
+        "right_gid": 6,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            11
+          ],
+          [
+            "2",
+            57
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cost": 0.34652187393370987,
+        "label": "correct",
+        "left_gid": 2,
+        "right_gid": 2,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            4
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cost": 0.34947731543535665,
+        "label": "false",
+        "left_gid": 1,
+        "right_gid": 7,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            2
+          ],
+          [
+            "2",
+            5
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cost": 0.3499936704036285,
+        "label": "false",
+        "left_gid": 39,
+        "right_gid": 200,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            728
+          ]
+        ],
+        "ready": 44,
+        "effective": 44,
+        "cost": 0.3623171823593915,
+        "label": "false",
+        "left_gid": 8,
+        "right_gid": 61,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            622
+          ],
+          [
+            "2",
+            45
+          ]
+        ],
+        "ready": 86,
+        "effective": 86,
+        "cost": 0.3549233896269936,
+        "label": "false",
+        "left_gid": 46,
+        "right_gid": 238,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            253
+          ],
+          [
+            "2",
+            1474
+          ]
+        ],
+        "ready": 107,
+        "effective": 107,
+        "cost": 0.3608724293811162,
+        "label": "false",
+        "left_gid": 55,
+        "right_gid": 38,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1160
+          ],
+          [
+            "2",
+            1059
+          ]
+        ],
+        "ready": 121,
+        "effective": 121,
+        "cost": 0.3580798976138895,
+        "label": "false",
+        "left_gid": 65,
+        "right_gid": 146,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1213
+          ],
+          [
+            "2",
+            70
+          ]
+        ],
+        "ready": 127,
+        "effective": 127,
+        "cost": 0.33777799627574845,
+        "label": "false",
+        "left_gid": 62,
+        "right_gid": 14,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1227
+          ],
+          [
+            "2",
+            27
+          ]
+        ],
+        "ready": 129,
+        "effective": 129,
+        "cost": 0.3117652919973443,
+        "label": "false",
+        "left_gid": 49,
+        "right_gid": 220,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1271
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 134,
+        "effective": 134,
+        "cost": 0.34892835115991383,
+        "label": "false",
+        "left_gid": 52,
+        "right_gid": 218,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1265
+          ],
+          [
+            "2",
+            1627
+          ]
+        ],
+        "ready": 134,
+        "effective": 134,
+        "cost": 0.3677707089041288,
+        "label": "false",
+        "left_gid": 45,
+        "right_gid": 246,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1123
+          ],
+          [
+            "2",
+            1675
+          ]
+        ],
+        "ready": 144,
+        "effective": 144,
+        "cost": 0.3470171304516627,
+        "label": "false",
+        "left_gid": 83,
+        "right_gid": 49,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1505
+          ],
+          [
+            "2",
+            233
+          ]
+        ],
+        "ready": 161,
+        "effective": 161,
+        "cost": 0.33673991929681674,
+        "label": "false",
+        "left_gid": 48,
+        "right_gid": 219,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1608
+          ],
+          [
+            "2",
+            63
+          ]
+        ],
+        "ready": 170,
+        "effective": 170,
+        "cost": 0.19504381444969837,
+        "label": "false",
+        "left_gid": 61,
+        "right_gid": 15,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1737
+          ],
+          [
+            "2",
+            251
+          ]
+        ],
+        "ready": 184,
+        "effective": 184,
+        "cost": 0.25618953843507825,
+        "label": "false",
+        "left_gid": 43,
+        "right_gid": 41,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1863
+          ],
+          [
+            "2",
+            60
+          ]
+        ],
+        "ready": 207,
+        "effective": 207,
+        "cost": 0.31691572241794597,
+        "label": "false",
+        "left_gid": 10,
+        "right_gid": 58,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1901
+          ],
+          [
+            "2",
+            1591
+          ]
+        ],
+        "ready": 220,
+        "effective": 220,
+        "cost": 0.2975976896738415,
+        "label": "false",
+        "left_gid": 41,
+        "right_gid": 53,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1914
+          ],
+          [
+            "2",
+            1835
+          ]
+        ],
+        "ready": 226,
+        "effective": 226,
+        "cost": 0.3050746284707025,
+        "label": "false",
+        "left_gid": 40,
+        "right_gid": 41,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1917
+          ],
+          [
+            "2",
+            1427
+          ]
+        ],
+        "ready": 229,
+        "effective": 229,
+        "cost": 0.2562505531867472,
+        "label": "correct",
+        "left_gid": 46,
+        "right_gid": 46,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1912
+          ],
+          [
+            "2",
+            1844
+          ]
+        ],
+        "ready": 240,
+        "effective": 240,
+        "cost": 0.35379683406827783,
+        "label": "unknown",
+        "left_gid": null,
+        "right_gid": 50,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            603
+          ],
+          [
+            "2",
+            1852
+          ]
+        ],
+        "ready": 253,
+        "effective": 253,
+        "cost": 0.22291744344207506,
+        "label": "false",
+        "left_gid": 44,
+        "right_gid": 45,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1987
+          ],
+          [
+            "2",
+            30
+          ]
+        ],
+        "ready": 290,
+        "effective": 290,
+        "cost": 0.27156634732828144,
+        "label": "false",
+        "left_gid": 43,
+        "right_gid": 40,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            2046
+          ],
+          [
+            "2",
+            1524
+          ]
+        ],
+        "ready": 308,
+        "effective": 308,
+        "cost": 0.3435664200273415,
+        "label": "false",
+        "left_gid": 84,
+        "right_gid": 47,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            2105
+          ],
+          [
+            "2",
+            84
+          ]
+        ],
+        "ready": 319,
+        "effective": 319,
+        "cost": 0.3140001318119964,
+        "label": "false",
+        "left_gid": 21,
+        "right_gid": 144,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            2144
+          ],
+          [
+            "2",
+            1928
+          ]
+        ],
+        "ready": 342,
+        "effective": 342,
+        "cost": 0.292189680320686,
+        "label": "false",
+        "left_gid": 53,
+        "right_gid": 45,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            1493
+          ],
+          [
+            "2",
+            1953
+          ]
+        ],
+        "ready": 350,
+        "effective": 350,
+        "cost": 0.3525494940825054,
+        "label": "false",
+        "left_gid": 23,
+        "right_gid": 152,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            2208
+          ],
+          [
+            "2",
+            1816
+          ]
+        ],
+        "ready": 357,
+        "effective": 357,
+        "cost": 0.35930245488794493,
+        "label": "false",
+        "left_gid": 32,
+        "right_gid": 149,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            2212
+          ],
+          [
+            "2",
+            808
+          ]
+        ],
+        "ready": 358,
+        "effective": 358,
+        "cost": 0.29673205472774833,
+        "label": "false",
+        "left_gid": 63,
+        "right_gid": 54,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      }
+    ]
+  },
+  "detail": {
+    "proposals": [
+      {
+        "pair": "65",
+        "ready": 5,
+        "a": [
+          "1",
+          6
+        ],
+        "b": [
+          "2",
+          56
+        ],
+        "cost": 0.3092773787832507,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 5,
+        "a": [
+          "1",
+          10
+        ],
+        "b": [
+          "2",
+          55
+        ],
+        "cost": 0.3137951485557876,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 5,
+        "a": [
+          "1",
+          11
+        ],
+        "b": [
+          "2",
+          57
+        ],
+        "cost": 0.34652187393370987,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 5,
+        "a": [
+          "1",
+          4
+        ],
+        "b": [
+          "2",
+          54
+        ],
+        "cost": 0.34947731543535665,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 5,
+        "a": [
+          "1",
+          2
+        ],
+        "b": [
+          "2",
+          5
+        ],
+        "cost": 0.3499936704036285,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 44,
+        "a": [
+          "1",
+          5
+        ],
+        "b": [
+          "2",
+          728
+        ],
+        "cost": 0.3623171823593915,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 27,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 85,
+        "a": [
+          "1",
+          603
+        ],
+        "b": [
+          "2",
+          45
+        ],
+        "cost": 0.36121653490967504,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 60,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 86,
+        "a": [
+          "1",
+          622
+        ],
+        "b": [
+          "2",
+          45
+        ],
+        "cost": 0.3549233896269936,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 61,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 107,
+        "a": [
+          "1",
+          253
+        ],
+        "b": [
+          "2",
+          1474
+        ],
+        "cost": 0.3608724293811162,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 78,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 121,
+        "a": [
+          "1",
+          1160
+        ],
+        "b": [
+          "2",
+          1059
+        ],
+        "cost": 0.3580798976138895,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 90,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 127,
+        "a": [
+          "1",
+          1213
+        ],
+        "b": [
+          "2",
+          70
+        ],
+        "cost": 0.33777799627574845,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 93,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 129,
+        "a": [
+          "1",
+          1227
+        ],
+        "b": [
+          "2",
+          27
+        ],
+        "cost": 0.3117652919973443,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 94,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 134,
+        "a": [
+          "1",
+          1271
+        ],
+        "b": [
+          "2",
+          28
+        ],
+        "cost": 0.34892835115991383,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 97,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 134,
+        "a": [
+          "1",
+          1265
+        ],
+        "b": [
+          "2",
+          1627
+        ],
+        "cost": 0.3677707089041288,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 97,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 135,
+        "a": [
+          "1",
+          1281
+        ],
+        "b": [
+          "2",
+          27
+        ],
+        "cost": 0.3657304497967145,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 98,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 137,
+        "a": [
+          "1",
+          1290
+        ],
+        "b": [
+          "2",
+          28
+        ],
+        "cost": 0.3576770264327387,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 100,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 143,
+        "a": [
+          "1",
+          1347
+        ],
+        "b": [
+          "2",
+          1627
+        ],
+        "cost": 0.34508511427088034,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 102,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 144,
+        "a": [
+          "1",
+          1123
+        ],
+        "b": [
+          "2",
+          1675
+        ],
+        "cost": 0.3470171304516627,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 103,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 161,
+        "a": [
+          "1",
+          1505
+        ],
+        "b": [
+          "2",
+          233
+        ],
+        "cost": 0.33673991929681674,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 109,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 170,
+        "a": [
+          "1",
+          1608
+        ],
+        "b": [
+          "2",
+          63
+        ],
+        "cost": 0.19504381444969837,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 114,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 170,
+        "a": [
+          "1",
+          1265
+        ],
+        "b": [
+          "2",
+          1764
+        ],
+        "cost": 0.29410334545786204,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 114,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 173,
+        "a": [
+          "1",
+          2
+        ],
+        "b": [
+          "2",
+          1771
+        ],
+        "cost": 0.3564842942220148,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 117,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 182,
+        "a": [
+          "1",
+          1728
+        ],
+        "b": [
+          "2",
+          251
+        ],
+        "cost": 0.31329536872897723,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 122,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 184,
+        "a": [
+          "1",
+          1737
+        ],
+        "b": [
+          "2",
+          251
+        ],
+        "cost": 0.25618953843507825,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 123,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 194,
+        "a": [
+          "1",
+          1796
+        ],
+        "b": [
+          "2",
+          251
+        ],
+        "cost": 0.30843725746442163,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 128,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 194,
+        "a": [
+          "1",
+          1265
+        ],
+        "b": [
+          "2",
+          1810
+        ],
+        "cost": 0.32480385363585973,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 128,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 207,
+        "a": [
+          "1",
+          1863
+        ],
+        "b": [
+          "2",
+          60
+        ],
+        "cost": 0.31691572241794597,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 135,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 211,
+        "a": [
+          "1",
+          1881
+        ],
+        "b": [
+          "2",
+          56
+        ],
+        "cost": 0.2349607517833215,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 137,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 218,
+        "a": [
+          "1",
+          1608
+        ],
+        "b": [
+          "2",
+          1826
+        ],
+        "cost": 0.23928390582709128,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 139,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 220,
+        "a": [
+          "1",
+          1901
+        ],
+        "b": [
+          "2",
+          1591
+        ],
+        "cost": 0.2975976896738415,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 141,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 224,
+        "a": [
+          "1",
+          622
+        ],
+        "b": [
+          "2",
+          1835
+        ],
+        "cost": 0.24696756696117728,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 144,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 225,
+        "a": [
+          "1",
+          1912
+        ],
+        "b": [
+          "2",
+          1591
+        ],
+        "cost": 0.34155609143858756,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 145,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 226,
+        "a": [
+          "1",
+          1914
+        ],
+        "b": [
+          "2",
+          1835
+        ],
+        "cost": 0.3050746284707025,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 146,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 229,
+        "a": [
+          "1",
+          1917
+        ],
+        "b": [
+          "2",
+          1427
+        ],
+        "cost": 0.2562505531867472,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 148,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 240,
+        "a": [
+          "1",
+          1912
+        ],
+        "b": [
+          "2",
+          1844
+        ],
+        "cost": 0.35379683406827783,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 152,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 253,
+        "a": [
+          "1",
+          603
+        ],
+        "b": [
+          "2",
+          1852
+        ],
+        "cost": 0.22291744344207506,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 156,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 254,
+        "a": [
+          "1",
+          603
+        ],
+        "b": [
+          "2",
+          1854
+        ],
+        "cost": 0.35411517139504756,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 157,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 264,
+        "a": [
+          "1",
+          1957
+        ],
+        "b": [
+          "2",
+          1427
+        ],
+        "cost": 0.36876569836966494,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 161,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 266,
+        "a": [
+          "1",
+          1964
+        ],
+        "b": [
+          "2",
+          60
+        ],
+        "cost": 0.35867410553776446,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 162,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 270,
+        "a": [
+          "1",
+          1914
+        ],
+        "b": [
+          "2",
+          1864
+        ],
+        "cost": 0.35990413030651625,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 163,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 285,
+        "a": [
+          "1",
+          1265
+        ],
+        "b": [
+          "2",
+          1869
+        ],
+        "cost": 0.2449942639286244,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 167,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 287,
+        "a": [
+          "1",
+          1608
+        ],
+        "b": [
+          "2",
+          1871
+        ],
+        "cost": 0.2530528680367563,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 168,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 290,
+        "a": [
+          "1",
+          1987
+        ],
+        "b": [
+          "2",
+          30
+        ],
+        "cost": 0.27156634732828144,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 169,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 290,
+        "a": [
+          "1",
+          1986
+        ],
+        "b": [
+          "2",
+          1835
+        ],
+        "cost": 0.27381689372317003,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 169,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 290,
+        "a": [
+          "1",
+          1988
+        ],
+        "b": [
+          "2",
+          1852
+        ],
+        "cost": 0.2954280255180497,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 169,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 308,
+        "a": [
+          "1",
+          2046
+        ],
+        "b": [
+          "2",
+          1524
+        ],
+        "cost": 0.3435664200273415,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 177,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 309,
+        "a": [
+          "1",
+          1901
+        ],
+        "b": [
+          "2",
+          1878
+        ],
+        "cost": 0.3645971434753633,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_fragment_not_closed",
+        "batch_index": 178,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 319,
+        "a": [
+          "1",
+          2105
+        ],
+        "b": [
+          "2",
+          84
+        ],
+        "cost": 0.3140001318119964,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 181,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 333,
+        "a": [
+          "1",
+          2144
+        ],
+        "b": [
+          "2",
+          1427
+        ],
+        "cost": 0.3390633881593082,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 188,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 342,
+        "a": [
+          "1",
+          2144
+        ],
+        "b": [
+          "2",
+          1928
+        ],
+        "cost": 0.292189680320686,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 192,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 350,
+        "a": [
+          "1",
+          1493
+        ],
+        "b": [
+          "2",
+          1953
+        ],
+        "cost": 0.3525494940825054,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 196,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 357,
+        "a": [
+          "1",
+          2208
+        ],
+        "b": [
+          "2",
+          1816
+        ],
+        "cost": 0.35930245488794493,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 200,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 358,
+        "a": [
+          "1",
+          2212
+        ],
+        "b": [
+          "2",
+          808
+        ],
+        "cost": 0.29673205472774833,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 201,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 361,
+        "a": [
+          "1",
+          1901
+        ],
+        "b": [
+          "2",
+          1981
+        ],
+        "cost": 0.36097762025994445,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 203,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 365,
+        "a": [
+          "1",
+          1901
+        ],
+        "b": [
+          "2",
+          1988
+        ],
+        "cost": 0.36468823293032776,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 204,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 368,
+        "a": [
+          "1",
+          2244
+        ],
+        "b": [
+          "2",
+          1953
+        ],
+        "cost": 0.29786293266298586,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 206,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 370,
+        "a": [
+          "1",
+          1160
+        ],
+        "b": [
+          "2",
+          2007
+        ],
+        "cost": 0.3181272598943691,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 208,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "65",
+        "ready": 373,
+        "a": [
+          "1",
+          2267
+        ],
+        "b": [
+          "2",
+          1953
+        ],
+        "cost": 0.2655683546381365,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 209,
+        "source": "frozen_hungarian_real_assignment"
+      }
+    ],
+    "delay_log": [
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            6
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 44
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            10
+          ],
+          [
+            "2",
+            55
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 44
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            11
+          ],
+          [
+            "2",
+            57
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 44
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            4
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 44
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            2
+          ],
+          [
+            "2",
+            5
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 44
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            728
+          ]
+        ],
+        "ready": 44,
+        "commit_frame": 85
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            603
+          ],
+          [
+            "2",
+            45
+          ]
+        ],
+        "ready": 85,
+        "commit_frame": 107
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            622
+          ],
+          [
+            "2",
+            45
+          ]
+        ],
+        "ready": 86,
+        "commit_frame": 107,
+        "conflicts": [
+          [
+            [
+              "1",
+              603
+            ],
+            [
+              "2",
+              45
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            253
+          ],
+          [
+            "2",
+            1474
+          ]
+        ],
+        "ready": 107,
+        "commit_frame": 121
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1160
+          ],
+          [
+            "2",
+            1059
+          ]
+        ],
+        "ready": 121,
+        "commit_frame": 127
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1213
+          ],
+          [
+            "2",
+            70
+          ]
+        ],
+        "ready": 127,
+        "commit_frame": 134
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1227
+          ],
+          [
+            "2",
+            27
+          ]
+        ],
+        "ready": 129,
+        "commit_frame": 134
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1271
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 134,
+        "commit_frame": 143
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1265
+          ],
+          [
+            "2",
+            1627
+          ]
+        ],
+        "ready": 134,
+        "commit_frame": 143
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1281
+          ],
+          [
+            "2",
+            27
+          ]
+        ],
+        "ready": 135,
+        "commit_frame": 143,
+        "conflicts": [
+          [
+            [
+              "1",
+              1227
+            ],
+            [
+              "2",
+              27
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1290
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 137,
+        "commit_frame": 143,
+        "conflicts": [
+          [
+            [
+              "1",
+              1271
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1347
+          ],
+          [
+            "2",
+            1627
+          ]
+        ],
+        "ready": 143,
+        "commit_frame": 161,
+        "conflicts": [
+          [
+            [
+              "1",
+              1265
+            ],
+            [
+              "2",
+              1627
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1123
+          ],
+          [
+            "2",
+            1675
+          ]
+        ],
+        "ready": 144,
+        "commit_frame": 161
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1505
+          ],
+          [
+            "2",
+            233
+          ]
+        ],
+        "ready": 161,
+        "commit_frame": 170
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1608
+          ],
+          [
+            "2",
+            63
+          ]
+        ],
+        "ready": 170,
+        "commit_frame": 182
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1265
+          ],
+          [
+            "2",
+            1764
+          ]
+        ],
+        "ready": 170,
+        "commit_frame": 182,
+        "conflicts": [
+          [
+            [
+              "1",
+              1265
+            ],
+            [
+              "2",
+              1627
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            2
+          ],
+          [
+            "2",
+            1771
+          ]
+        ],
+        "ready": 173,
+        "commit_frame": 182,
+        "conflicts": [
+          [
+            [
+              "1",
+              2
+            ],
+            [
+              "2",
+              5
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1728
+          ],
+          [
+            "2",
+            251
+          ]
+        ],
+        "ready": 182,
+        "commit_frame": 194
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1737
+          ],
+          [
+            "2",
+            251
+          ]
+        ],
+        "ready": 184,
+        "commit_frame": 194,
+        "conflicts": [
+          [
+            [
+              "1",
+              1728
+            ],
+            [
+              "2",
+              251
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1796
+          ],
+          [
+            "2",
+            251
+          ]
+        ],
+        "ready": 194,
+        "commit_frame": 207,
+        "conflicts": [
+          [
+            [
+              "1",
+              1728
+            ],
+            [
+              "2",
+              251
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1265
+          ],
+          [
+            "2",
+            1810
+          ]
+        ],
+        "ready": 194,
+        "commit_frame": 207,
+        "conflicts": [
+          [
+            [
+              "1",
+              1265
+            ],
+            [
+              "2",
+              1627
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1863
+          ],
+          [
+            "2",
+            60
+          ]
+        ],
+        "ready": 207,
+        "commit_frame": 211
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1881
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 211,
+        "commit_frame": 218,
+        "conflicts": [
+          [
+            [
+              "1",
+              6
+            ],
+            [
+              "2",
+              56
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1608
+          ],
+          [
+            "2",
+            1826
+          ]
+        ],
+        "ready": 218,
+        "commit_frame": 224,
+        "conflicts": [
+          [
+            [
+              "1",
+              1608
+            ],
+            [
+              "2",
+              63
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1901
+          ],
+          [
+            "2",
+            1591
+          ]
+        ],
+        "ready": 220,
+        "commit_frame": 224
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            622
+          ],
+          [
+            "2",
+            1835
+          ]
+        ],
+        "ready": 224,
+        "commit_frame": 229
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1912
+          ],
+          [
+            "2",
+            1591
+          ]
+        ],
+        "ready": 225,
+        "commit_frame": 229,
+        "conflicts": [
+          [
+            [
+              "1",
+              1901
+            ],
+            [
+              "2",
+              1591
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1914
+          ],
+          [
+            "2",
+            1835
+          ]
+        ],
+        "ready": 226,
+        "commit_frame": 240,
+        "conflicts": [
+          [
+            [
+              "1",
+              622
+            ],
+            [
+              "2",
+              1835
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1917
+          ],
+          [
+            "2",
+            1427
+          ]
+        ],
+        "ready": 229,
+        "commit_frame": 240
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1912
+          ],
+          [
+            "2",
+            1844
+          ]
+        ],
+        "ready": 240,
+        "commit_frame": 253
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            603
+          ],
+          [
+            "2",
+            1852
+          ]
+        ],
+        "ready": 253,
+        "commit_frame": 264,
+        "conflicts": [
+          [
+            [
+              "1",
+              603
+            ],
+            [
+              "2",
+              45
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            603
+          ],
+          [
+            "2",
+            1854
+          ]
+        ],
+        "ready": 254,
+        "commit_frame": 264,
+        "conflicts": [
+          [
+            [
+              "1",
+              603
+            ],
+            [
+              "2",
+              45
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1957
+          ],
+          [
+            "2",
+            1427
+          ]
+        ],
+        "ready": 264,
+        "commit_frame": 270,
+        "conflicts": [
+          [
+            [
+              "1",
+              1917
+            ],
+            [
+              "2",
+              1427
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1964
+          ],
+          [
+            "2",
+            60
+          ]
+        ],
+        "ready": 266,
+        "commit_frame": 270,
+        "conflicts": [
+          [
+            [
+              "1",
+              1863
+            ],
+            [
+              "2",
+              60
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1914
+          ],
+          [
+            "2",
+            1864
+          ]
+        ],
+        "ready": 270,
+        "commit_frame": 285
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1265
+          ],
+          [
+            "2",
+            1869
+          ]
+        ],
+        "ready": 285,
+        "commit_frame": 290,
+        "conflicts": [
+          [
+            [
+              "1",
+              1265
+            ],
+            [
+              "2",
+              1627
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1608
+          ],
+          [
+            "2",
+            1871
+          ]
+        ],
+        "ready": 287,
+        "commit_frame": 308,
+        "conflicts": [
+          [
+            [
+              "1",
+              1608
+            ],
+            [
+              "2",
+              63
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1987
+          ],
+          [
+            "2",
+            30
+          ]
+        ],
+        "ready": 290,
+        "commit_frame": 308
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1986
+          ],
+          [
+            "2",
+            1835
+          ]
+        ],
+        "ready": 290,
+        "commit_frame": 308,
+        "conflicts": [
+          [
+            [
+              "1",
+              622
+            ],
+            [
+              "2",
+              1835
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1988
+          ],
+          [
+            "2",
+            1852
+          ]
+        ],
+        "ready": 290,
+        "commit_frame": 308
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            2046
+          ],
+          [
+            "2",
+            1524
+          ]
+        ],
+        "ready": 308,
+        "commit_frame": 319
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1901
+          ],
+          [
+            "2",
+            1878
+          ]
+        ],
+        "ready": 309,
+        "commit_frame": 319,
+        "conflicts": [
+          [
+            [
+              "1",
+              1901
+            ],
+            [
+              "2",
+              1591
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            2105
+          ],
+          [
+            "2",
+            84
+          ]
+        ],
+        "ready": 319,
+        "commit_frame": 333
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            2144
+          ],
+          [
+            "2",
+            1427
+          ]
+        ],
+        "ready": 333,
+        "commit_frame": 342,
+        "conflicts": [
+          [
+            [
+              "1",
+              1917
+            ],
+            [
+              "2",
+              1427
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            2144
+          ],
+          [
+            "2",
+            1928
+          ]
+        ],
+        "ready": 342,
+        "commit_frame": 350
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            1493
+          ],
+          [
+            "2",
+            1953
+          ]
+        ],
+        "ready": 350,
+        "commit_frame": 357
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            2208
+          ],
+          [
+            "2",
+            1816
+          ]
+        ],
+        "ready": 357,
+        "commit_frame": 361
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            2212
+          ],
+          [
+            "2",
+            808
+          ]
+        ],
+        "ready": 358,
+        "commit_frame": 365
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1901
+          ],
+          [
+            "2",
+            1981
+          ]
+        ],
+        "ready": 361,
+        "commit_frame": 365,
+        "conflicts": [
+          [
+            [
+              "1",
+              1901
+            ],
+            [
+              "2",
+              1591
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1901
+          ],
+          [
+            "2",
+            1988
+          ]
+        ],
+        "ready": 365,
+        "commit_frame": 370,
+        "conflicts": [
+          [
+            [
+              "1",
+              1901
+            ],
+            [
+              "2",
+              1591
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            2244
+          ],
+          [
+            "2",
+            1953
+          ]
+        ],
+        "ready": 368,
+        "commit_frame": 373,
+        "conflicts": [
+          [
+            [
+              "1",
+              1493
+            ],
+            [
+              "2",
+              1953
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            1160
+          ],
+          [
+            "2",
+            2007
+          ]
+        ],
+        "ready": 370,
+        "commit_frame": 377,
+        "conflicts": [
+          [
+            [
+              "1",
+              1160
+            ],
+            [
+              "2",
+              1059
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            2267
+          ],
+          [
+            "2",
+            1953
+          ]
+        ],
+        "ready": 373,
+        "commit_frame": 377,
+        "conflicts": [
+          [
+            [
+              "1",
+              1493
+            ],
+            [
+              "2",
+              1953
+            ]
+          ]
+        ]
+      }
+    ],
+    "repair_log": [
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            6
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3092773787832507
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            10
+          ],
+          [
+            "2",
+            55
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3137951485557876
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            11
+          ],
+          [
+            "2",
+            57
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.34652187393370987
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            4
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.34947731543535665
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            2
+          ],
+          [
+            "2",
+            5
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3499936704036285
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            728
+          ]
+        ],
+        "ready": 44,
+        "frame": 44,
+        "cost": 0.3623171823593915
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            603
+          ],
+          [
+            "2",
+            45
+          ]
+        ],
+        "ready": 85,
+        "frame": 85,
+        "cost": 0.36121653490967504
+      },
+      {
+        "op": "revoke",
+        "edge": [
+          [
+            "1",
+            603
+          ],
+          [
+            "2",
+            45
+          ]
+        ],
+        "ready": 85,
+        "frame": 86,
+        "reason": "lower_cost_conflict",
+        "replacement": [
+          [
+            "1",
+            622
+          ],
+          [
+            "2",
+            45
+          ]
+        ],
+        "old_cost": 0.36121653490967504,
+        "new_cost": 0.3549233896269936
+      },
+      {
+        "op": "revision_publish",
+        "edge": [
+          [
+            "1",
+            622
+          ],
+          [
+            "2",
+            45
+          ]
+        ],
+        "ready": 86,
+        "frame": 86,
+        "cost": 0.3549233896269936
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            253
+          ],
+          [
+            "2",
+            1474
+          ]
+        ],
+        "ready": 107,
+        "frame": 107,
+        "cost": 0.3608724293811162
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1160
+          ],
+          [
+            "2",
+            1059
+          ]
+        ],
+        "ready": 121,
+        "frame": 121,
+        "cost": 0.3580798976138895
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1213
+          ],
+          [
+            "2",
+            70
+          ]
+        ],
+        "ready": 127,
+        "frame": 127,
+        "cost": 0.33777799627574845
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1227
+          ],
+          [
+            "2",
+            27
+          ]
+        ],
+        "ready": 129,
+        "frame": 129,
+        "cost": 0.3117652919973443
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1271
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 134,
+        "frame": 134,
+        "cost": 0.34892835115991383
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1265
+          ],
+          [
+            "2",
+            1627
+          ]
+        ],
+        "ready": 134,
+        "frame": 134,
+        "cost": 0.3677707089041288
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1281
+          ],
+          [
+            "2",
+            27
+          ]
+        ],
+        "ready": 135,
+        "frame": 135,
+        "cost": 0.3657304497967145,
+        "conflicts": [
+          [
+            [
+              "1",
+              1227
+            ],
+            [
+              "2",
+              27
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1290
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 137,
+        "frame": 137,
+        "cost": 0.3576770264327387,
+        "conflicts": [
+          [
+            [
+              "1",
+              1271
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ],
+        "open_conflicts": 1
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1347
+          ],
+          [
+            "2",
+            1627
+          ]
+        ],
+        "ready": 143,
+        "frame": 143,
+        "cost": 0.34508511427088034,
+        "conflicts": [
+          [
+            [
+              "1",
+              1265
+            ],
+            [
+              "2",
+              1627
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1123
+          ],
+          [
+            "2",
+            1675
+          ]
+        ],
+        "ready": 144,
+        "frame": 144,
+        "cost": 0.3470171304516627
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1505
+          ],
+          [
+            "2",
+            233
+          ]
+        ],
+        "ready": 161,
+        "frame": 161,
+        "cost": 0.33673991929681674
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1608
+          ],
+          [
+            "2",
+            63
+          ]
+        ],
+        "ready": 170,
+        "frame": 170,
+        "cost": 0.19504381444969837
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1265
+          ],
+          [
+            "2",
+            1764
+          ]
+        ],
+        "ready": 170,
+        "frame": 170,
+        "cost": 0.29410334545786204,
+        "conflicts": [
+          [
+            [
+              "1",
+              1265
+            ],
+            [
+              "2",
+              1627
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            2
+          ],
+          [
+            "2",
+            1771
+          ]
+        ],
+        "ready": 173,
+        "frame": 173,
+        "cost": 0.3564842942220148,
+        "conflicts": [
+          [
+            [
+              "1",
+              2
+            ],
+            [
+              "2",
+              5
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1728
+          ],
+          [
+            "2",
+            251
+          ]
+        ],
+        "ready": 182,
+        "frame": 182,
+        "cost": 0.31329536872897723
+      },
+      {
+        "op": "revoke",
+        "edge": [
+          [
+            "1",
+            1728
+          ],
+          [
+            "2",
+            251
+          ]
+        ],
+        "ready": 182,
+        "frame": 184,
+        "reason": "lower_cost_conflict",
+        "replacement": [
+          [
+            "1",
+            1737
+          ],
+          [
+            "2",
+            251
+          ]
+        ],
+        "old_cost": 0.31329536872897723,
+        "new_cost": 0.25618953843507825
+      },
+      {
+        "op": "revision_publish",
+        "edge": [
+          [
+            "1",
+            1737
+          ],
+          [
+            "2",
+            251
+          ]
+        ],
+        "ready": 184,
+        "frame": 184,
+        "cost": 0.25618953843507825
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1796
+          ],
+          [
+            "2",
+            251
+          ]
+        ],
+        "ready": 194,
+        "frame": 194,
+        "cost": 0.30843725746442163,
+        "conflicts": [
+          [
+            [
+              "1",
+              1737
+            ],
+            [
+              "2",
+              251
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1265
+          ],
+          [
+            "2",
+            1810
+          ]
+        ],
+        "ready": 194,
+        "frame": 194,
+        "cost": 0.32480385363585973,
+        "conflicts": [
+          [
+            [
+              "1",
+              1265
+            ],
+            [
+              "2",
+              1627
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1863
+          ],
+          [
+            "2",
+            60
+          ]
+        ],
+        "ready": 207,
+        "frame": 207,
+        "cost": 0.31691572241794597
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1881
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 211,
+        "frame": 211,
+        "cost": 0.2349607517833215,
+        "conflicts": [
+          [
+            [
+              "1",
+              6
+            ],
+            [
+              "2",
+              56
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1608
+          ],
+          [
+            "2",
+            1826
+          ]
+        ],
+        "ready": 218,
+        "frame": 218,
+        "cost": 0.23928390582709128,
+        "conflicts": [
+          [
+            [
+              "1",
+              1608
+            ],
+            [
+              "2",
+              63
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1901
+          ],
+          [
+            "2",
+            1591
+          ]
+        ],
+        "ready": 220,
+        "frame": 220,
+        "cost": 0.2975976896738415
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            622
+          ],
+          [
+            "2",
+            1835
+          ]
+        ],
+        "ready": 224,
+        "frame": 224,
+        "cost": 0.24696756696117728,
+        "conflicts": [
+          [
+            [
+              "1",
+              622
+            ],
+            [
+              "2",
+              45
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1912
+          ],
+          [
+            "2",
+            1591
+          ]
+        ],
+        "ready": 225,
+        "frame": 225,
+        "cost": 0.34155609143858756,
+        "conflicts": [
+          [
+            [
+              "1",
+              1901
+            ],
+            [
+              "2",
+              1591
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1914
+          ],
+          [
+            "2",
+            1835
+          ]
+        ],
+        "ready": 226,
+        "frame": 226,
+        "cost": 0.3050746284707025
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1917
+          ],
+          [
+            "2",
+            1427
+          ]
+        ],
+        "ready": 229,
+        "frame": 229,
+        "cost": 0.2562505531867472
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1912
+          ],
+          [
+            "2",
+            1844
+          ]
+        ],
+        "ready": 240,
+        "frame": 240,
+        "cost": 0.35379683406827783
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            603
+          ],
+          [
+            "2",
+            1852
+          ]
+        ],
+        "ready": 253,
+        "frame": 253,
+        "cost": 0.22291744344207506
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            603
+          ],
+          [
+            "2",
+            1854
+          ]
+        ],
+        "ready": 254,
+        "frame": 254,
+        "cost": 0.35411517139504756,
+        "conflicts": [
+          [
+            [
+              "1",
+              603
+            ],
+            [
+              "2",
+              1852
+            ]
+          ]
+        ],
+        "open_conflicts": 1
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1957
+          ],
+          [
+            "2",
+            1427
+          ]
+        ],
+        "ready": 264,
+        "frame": 264,
+        "cost": 0.36876569836966494,
+        "conflicts": [
+          [
+            [
+              "1",
+              1917
+            ],
+            [
+              "2",
+              1427
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1964
+          ],
+          [
+            "2",
+            60
+          ]
+        ],
+        "ready": 266,
+        "frame": 266,
+        "cost": 0.35867410553776446,
+        "conflicts": [
+          [
+            [
+              "1",
+              1863
+            ],
+            [
+              "2",
+              60
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1914
+          ],
+          [
+            "2",
+            1864
+          ]
+        ],
+        "ready": 270,
+        "frame": 270,
+        "cost": 0.35990413030651625,
+        "conflicts": [
+          [
+            [
+              "1",
+              1914
+            ],
+            [
+              "2",
+              1835
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1265
+          ],
+          [
+            "2",
+            1869
+          ]
+        ],
+        "ready": 285,
+        "frame": 285,
+        "cost": 0.2449942639286244,
+        "conflicts": [
+          [
+            [
+              "1",
+              1265
+            ],
+            [
+              "2",
+              1627
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1608
+          ],
+          [
+            "2",
+            1871
+          ]
+        ],
+        "ready": 287,
+        "frame": 287,
+        "cost": 0.2530528680367563,
+        "conflicts": [
+          [
+            [
+              "1",
+              1608
+            ],
+            [
+              "2",
+              63
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1987
+          ],
+          [
+            "2",
+            30
+          ]
+        ],
+        "ready": 290,
+        "frame": 290,
+        "cost": 0.27156634732828144
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1986
+          ],
+          [
+            "2",
+            1835
+          ]
+        ],
+        "ready": 290,
+        "frame": 290,
+        "cost": 0.27381689372317003,
+        "conflicts": [
+          [
+            [
+              "1",
+              1914
+            ],
+            [
+              "2",
+              1835
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1988
+          ],
+          [
+            "2",
+            1852
+          ]
+        ],
+        "ready": 290,
+        "frame": 290,
+        "cost": 0.2954280255180497,
+        "conflicts": [
+          [
+            [
+              "1",
+              603
+            ],
+            [
+              "2",
+              1852
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            2046
+          ],
+          [
+            "2",
+            1524
+          ]
+        ],
+        "ready": 308,
+        "frame": 308,
+        "cost": 0.3435664200273415
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1901
+          ],
+          [
+            "2",
+            1878
+          ]
+        ],
+        "ready": 309,
+        "frame": 309,
+        "cost": 0.3645971434753633,
+        "conflicts": [
+          [
+            [
+              "1",
+              1901
+            ],
+            [
+              "2",
+              1591
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            2105
+          ],
+          [
+            "2",
+            84
+          ]
+        ],
+        "ready": 319,
+        "frame": 319,
+        "cost": 0.3140001318119964
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            2144
+          ],
+          [
+            "2",
+            1427
+          ]
+        ],
+        "ready": 333,
+        "frame": 333,
+        "cost": 0.3390633881593082,
+        "conflicts": [
+          [
+            [
+              "1",
+              1917
+            ],
+            [
+              "2",
+              1427
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            2144
+          ],
+          [
+            "2",
+            1928
+          ]
+        ],
+        "ready": 342,
+        "frame": 342,
+        "cost": 0.292189680320686
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            1493
+          ],
+          [
+            "2",
+            1953
+          ]
+        ],
+        "ready": 350,
+        "frame": 350,
+        "cost": 0.3525494940825054
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            2208
+          ],
+          [
+            "2",
+            1816
+          ]
+        ],
+        "ready": 357,
+        "frame": 357,
+        "cost": 0.35930245488794493
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            2212
+          ],
+          [
+            "2",
+            808
+          ]
+        ],
+        "ready": 358,
+        "frame": 358,
+        "cost": 0.29673205472774833
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1901
+          ],
+          [
+            "2",
+            1981
+          ]
+        ],
+        "ready": 361,
+        "frame": 361,
+        "cost": 0.36097762025994445,
+        "conflicts": [
+          [
+            [
+              "1",
+              1901
+            ],
+            [
+              "2",
+              1591
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1901
+          ],
+          [
+            "2",
+            1988
+          ]
+        ],
+        "ready": 365,
+        "frame": 365,
+        "cost": 0.36468823293032776,
+        "conflicts": [
+          [
+            [
+              "1",
+              1901
+            ],
+            [
+              "2",
+              1591
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            2244
+          ],
+          [
+            "2",
+            1953
+          ]
+        ],
+        "ready": 368,
+        "frame": 368,
+        "cost": 0.29786293266298586,
+        "conflicts": [
+          [
+            [
+              "1",
+              1493
+            ],
+            [
+              "2",
+              1953
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            1160
+          ],
+          [
+            "2",
+            2007
+          ]
+        ],
+        "ready": 370,
+        "frame": 370,
+        "cost": 0.3181272598943691,
+        "conflicts": [
+          [
+            [
+              "1",
+              1160
+            ],
+            [
+              "2",
+              1059
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            2267
+          ],
+          [
+            "2",
+            1953
+          ]
+        ],
+        "ready": 373,
+        "frame": 373,
+        "cost": 0.2655683546381365,
+        "conflicts": [
+          [
+            [
+              "1",
+              1493
+            ],
+            [
+              "2",
+              1953
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      }
+    ],
+    "delay_edges": {
+      "96fc7a685da44ba257816bdc07b5b6a6914c2d67713c3a4223e9d4be10e6dee4": [
+        [
+          "1",
+          6
+        ],
+        [
+          "2",
+          56
+        ]
+      ],
+      "b89c4d5c6b32bc52c87d07fe5c8649c8b04c2a60337450556c63dd379b0f83fd": [
+        [
+          "1",
+          10
+        ],
+        [
+          "2",
+          55
+        ]
+      ],
+      "e3fd010749d3f15b90ab3513676c84648433cc5b2aff4123f484146488caeb49": [
+        [
+          "1",
+          11
+        ],
+        [
+          "2",
+          57
+        ]
+      ],
+      "e4c7fdaefbe15b15d8f7d7ae7485813aac7a483c544fce80f8cc705d582e34c4": [
+        [
+          "1",
+          4
+        ],
+        [
+          "2",
+          54
+        ]
+      ],
+      "e4317589d93a3421c119e832a5883008c6154b3e1ef2ca289cf4c2c2817b84f1": [
+        [
+          "1",
+          2
+        ],
+        [
+          "2",
+          5
+        ]
+      ],
+      "be0d9e7de90d59f658bfaee7514ee0e95c25f4dc43e3919a67fa0ba649845b5d": [
+        [
+          "1",
+          5
+        ],
+        [
+          "2",
+          728
+        ]
+      ],
+      "de0418779a56c5328e59f50afcdbab98b81aac54b671dd49a1959eea487560cf": [
+        [
+          "1",
+          603
+        ],
+        [
+          "2",
+          45
+        ]
+      ],
+      "85d840495fbe85db9279ffc9f8002dc2e9142e5cd96d6f22ab6452ae73e99158": [
+        [
+          "1",
+          253
+        ],
+        [
+          "2",
+          1474
+        ]
+      ],
+      "ffaaf80b7617cc9e0df4b800a4d19ab38eeff7c61e84d7807efee1af9a1e700b": [
+        [
+          "1",
+          1160
+        ],
+        [
+          "2",
+          1059
+        ]
+      ],
+      "68b101063ba9e2a98b162c15104418e767ee69fa32dda04d907c534c68b3278d": [
+        [
+          "1",
+          1213
+        ],
+        [
+          "2",
+          70
+        ]
+      ],
+      "a660fe189777eb187e49b1bc4c44eea0d49fc6d037e33c6f32dc80ab020a431e": [
+        [
+          "1",
+          1227
+        ],
+        [
+          "2",
+          27
+        ]
+      ],
+      "8027ccd78b6ca83ebe03038a9dbcded14712682f5e7d043f3d6729927817fba3": [
+        [
+          "1",
+          1271
+        ],
+        [
+          "2",
+          28
+        ]
+      ],
+      "3a4ba07823d1b6e283dbcb4ae2cfdc7f4a5df2a3e103b922ff3b6abd0fbe8eac": [
+        [
+          "1",
+          1265
+        ],
+        [
+          "2",
+          1627
+        ]
+      ],
+      "11491e9fc24b11735af304cfad333b401fcb4bad2445723e6c3b770b35d10baf": [
+        [
+          "1",
+          1123
+        ],
+        [
+          "2",
+          1675
+        ]
+      ],
+      "abc20201957504cfc3fb342fba3f5adcef8db2cd81cd9210f8f99724aa121826": [
+        [
+          "1",
+          1505
+        ],
+        [
+          "2",
+          233
+        ]
+      ],
+      "a47f0a4be7bcc6e31e7bf25584bc4a5c0488a5c445aec061d29066b343b6f609": [
+        [
+          "1",
+          1608
+        ],
+        [
+          "2",
+          63
+        ]
+      ],
+      "c19af4961a690a4f028c502b5c3f24f2e850d8e7c4f13fb90b64e51f5847409e": [
+        [
+          "1",
+          1728
+        ],
+        [
+          "2",
+          251
+        ]
+      ],
+      "57d19a009462267d00c8106b8b4632839636a6742b4b824d5dd79e1ce5ef7abb": [
+        [
+          "1",
+          1863
+        ],
+        [
+          "2",
+          60
+        ]
+      ],
+      "53c6cfadb3b25399a444029b6c8216517151a2c8606591e43d2cffdb02f94486": [
+        [
+          "1",
+          1901
+        ],
+        [
+          "2",
+          1591
+        ]
+      ],
+      "87c641d8981eb72e4104fae9427ce68bf8828238c54887acd5b8dd26dad32c81": [
+        [
+          "1",
+          622
+        ],
+        [
+          "2",
+          1835
+        ]
+      ],
+      "f7144e058a4f475c516e93ed52b18e14e739afbb412db91ffc52e4bcbe5496c6": [
+        [
+          "1",
+          1917
+        ],
+        [
+          "2",
+          1427
+        ]
+      ],
+      "2f646adf242d2941e97eef3507776d9229a8553f4a0de0efa3e5348cde01cdef": [
+        [
+          "1",
+          1912
+        ],
+        [
+          "2",
+          1844
+        ]
+      ],
+      "8853fcc5c3e064a7177704a57b2b00cf8b787597b5c3664b22c7b75b4e8a2663": [
+        [
+          "1",
+          1914
+        ],
+        [
+          "2",
+          1864
+        ]
+      ],
+      "36d6a75817c2d44a2b213bf83ca437c87c357837d4ee926ec7a3b65c77d5e907": [
+        [
+          "1",
+          1987
+        ],
+        [
+          "2",
+          30
+        ]
+      ],
+      "7ff1720cc4898491bec2387d729170f2d0f4ce39293ad0fe384ffba8e27e97bc": [
+        [
+          "1",
+          1988
+        ],
+        [
+          "2",
+          1852
+        ]
+      ],
+      "c75e174f034c7e9e00137b49be4a28e8f477a81e009f2ae3e73974bf6943530f": [
+        [
+          "1",
+          2046
+        ],
+        [
+          "2",
+          1524
+        ]
+      ],
+      "130ca84d292bb13e3c0ddfd665d85520367fc7c220c67dc12448011d0553004e": [
+        [
+          "1",
+          2105
+        ],
+        [
+          "2",
+          84
+        ]
+      ],
+      "e32d9cef3b32bcdc82ea410dc20a00c67dc17dd7132e2ef14e651043d0233ac4": [
+        [
+          "1",
+          2144
+        ],
+        [
+          "2",
+          1928
+        ]
+      ],
+      "80d3a5bdf1a6430b973c3227acda4bca63fc48f1ac7bf6133ba3e5055775e442": [
+        [
+          "1",
+          1493
+        ],
+        [
+          "2",
+          1953
+        ]
+      ],
+      "dac3bc9e133023c2cc7e2c7f5dd3da49628aafe8b9024dd8bf35b81f386f7efc": [
+        [
+          "1",
+          2208
+        ],
+        [
+          "2",
+          1816
+        ]
+      ],
+      "2274385e8aeb2b2820fe5d91d64d63956dc62053bc09cab08a711347d2c0b2e1": [
+        [
+          "1",
+          2212
+        ],
+        [
+          "2",
+          808
+        ]
+      ]
+    },
+    "repair_edges": {
+      "96fc7a685da44ba257816bdc07b5b6a6914c2d67713c3a4223e9d4be10e6dee4": [
+        [
+          "1",
+          6
+        ],
+        [
+          "2",
+          56
+        ]
+      ],
+      "b89c4d5c6b32bc52c87d07fe5c8649c8b04c2a60337450556c63dd379b0f83fd": [
+        [
+          "1",
+          10
+        ],
+        [
+          "2",
+          55
+        ]
+      ],
+      "e3fd010749d3f15b90ab3513676c84648433cc5b2aff4123f484146488caeb49": [
+        [
+          "1",
+          11
+        ],
+        [
+          "2",
+          57
+        ]
+      ],
+      "e4c7fdaefbe15b15d8f7d7ae7485813aac7a483c544fce80f8cc705d582e34c4": [
+        [
+          "1",
+          4
+        ],
+        [
+          "2",
+          54
+        ]
+      ],
+      "e4317589d93a3421c119e832a5883008c6154b3e1ef2ca289cf4c2c2817b84f1": [
+        [
+          "1",
+          2
+        ],
+        [
+          "2",
+          5
+        ]
+      ],
+      "be0d9e7de90d59f658bfaee7514ee0e95c25f4dc43e3919a67fa0ba649845b5d": [
+        [
+          "1",
+          5
+        ],
+        [
+          "2",
+          728
+        ]
+      ],
+      "a4aca87da6d56e29d29a244445881035390bd34707e2aee1cbafbfecb22d5594": [
+        [
+          "1",
+          622
+        ],
+        [
+          "2",
+          45
+        ]
+      ],
+      "85d840495fbe85db9279ffc9f8002dc2e9142e5cd96d6f22ab6452ae73e99158": [
+        [
+          "1",
+          253
+        ],
+        [
+          "2",
+          1474
+        ]
+      ],
+      "ffaaf80b7617cc9e0df4b800a4d19ab38eeff7c61e84d7807efee1af9a1e700b": [
+        [
+          "1",
+          1160
+        ],
+        [
+          "2",
+          1059
+        ]
+      ],
+      "68b101063ba9e2a98b162c15104418e767ee69fa32dda04d907c534c68b3278d": [
+        [
+          "1",
+          1213
+        ],
+        [
+          "2",
+          70
+        ]
+      ],
+      "a660fe189777eb187e49b1bc4c44eea0d49fc6d037e33c6f32dc80ab020a431e": [
+        [
+          "1",
+          1227
+        ],
+        [
+          "2",
+          27
+        ]
+      ],
+      "8027ccd78b6ca83ebe03038a9dbcded14712682f5e7d043f3d6729927817fba3": [
+        [
+          "1",
+          1271
+        ],
+        [
+          "2",
+          28
+        ]
+      ],
+      "3a4ba07823d1b6e283dbcb4ae2cfdc7f4a5df2a3e103b922ff3b6abd0fbe8eac": [
+        [
+          "1",
+          1265
+        ],
+        [
+          "2",
+          1627
+        ]
+      ],
+      "11491e9fc24b11735af304cfad333b401fcb4bad2445723e6c3b770b35d10baf": [
+        [
+          "1",
+          1123
+        ],
+        [
+          "2",
+          1675
+        ]
+      ],
+      "abc20201957504cfc3fb342fba3f5adcef8db2cd81cd9210f8f99724aa121826": [
+        [
+          "1",
+          1505
+        ],
+        [
+          "2",
+          233
+        ]
+      ],
+      "a47f0a4be7bcc6e31e7bf25584bc4a5c0488a5c445aec061d29066b343b6f609": [
+        [
+          "1",
+          1608
+        ],
+        [
+          "2",
+          63
+        ]
+      ],
+      "f8c364c0a86f4bdcafc88bc7ca69c8bdf301e7bc7bd019b44784a3b08b992447": [
+        [
+          "1",
+          1737
+        ],
+        [
+          "2",
+          251
+        ]
+      ],
+      "57d19a009462267d00c8106b8b4632839636a6742b4b824d5dd79e1ce5ef7abb": [
+        [
+          "1",
+          1863
+        ],
+        [
+          "2",
+          60
+        ]
+      ],
+      "53c6cfadb3b25399a444029b6c8216517151a2c8606591e43d2cffdb02f94486": [
+        [
+          "1",
+          1901
+        ],
+        [
+          "2",
+          1591
+        ]
+      ],
+      "53d499b3940533bc3ca69d779547f3951f2807353487f6434667d4f8d3525869": [
+        [
+          "1",
+          1914
+        ],
+        [
+          "2",
+          1835
+        ]
+      ],
+      "f7144e058a4f475c516e93ed52b18e14e739afbb412db91ffc52e4bcbe5496c6": [
+        [
+          "1",
+          1917
+        ],
+        [
+          "2",
+          1427
+        ]
+      ],
+      "2f646adf242d2941e97eef3507776d9229a8553f4a0de0efa3e5348cde01cdef": [
+        [
+          "1",
+          1912
+        ],
+        [
+          "2",
+          1844
+        ]
+      ],
+      "5fa5410617eea2a1c87fa5bc65accd94d03bf56ee5935c662b3b652c06a6d443": [
+        [
+          "1",
+          603
+        ],
+        [
+          "2",
+          1852
+        ]
+      ],
+      "36d6a75817c2d44a2b213bf83ca437c87c357837d4ee926ec7a3b65c77d5e907": [
+        [
+          "1",
+          1987
+        ],
+        [
+          "2",
+          30
+        ]
+      ],
+      "c75e174f034c7e9e00137b49be4a28e8f477a81e009f2ae3e73974bf6943530f": [
+        [
+          "1",
+          2046
+        ],
+        [
+          "2",
+          1524
+        ]
+      ],
+      "130ca84d292bb13e3c0ddfd665d85520367fc7c220c67dc12448011d0553004e": [
+        [
+          "1",
+          2105
+        ],
+        [
+          "2",
+          84
+        ]
+      ],
+      "e32d9cef3b32bcdc82ea410dc20a00c67dc17dd7132e2ef14e651043d0233ac4": [
+        [
+          "1",
+          2144
+        ],
+        [
+          "2",
+          1928
+        ]
+      ],
+      "80d3a5bdf1a6430b973c3227acda4bca63fc48f1ac7bf6133ba3e5055775e442": [
+        [
+          "1",
+          1493
+        ],
+        [
+          "2",
+          1953
+        ]
+      ],
+      "dac3bc9e133023c2cc7e2c7f5dd3da49628aafe8b9024dd8bf35b81f386f7efc": [
+        [
+          "1",
+          2208
+        ],
+        [
+          "2",
+          1816
+        ]
+      ],
+      "2274385e8aeb2b2820fe5d91d64d63956dc62053bc09cab08a711347d2c0b2e1": [
+        [
+          "1",
+          2212
+        ],
+        [
+          "2",
+          808
+        ]
+      ]
+    },
+    "b0_edges": {
+      "96fc7a685da44ba257816bdc07b5b6a6914c2d67713c3a4223e9d4be10e6dee4": [
+        [
+          "1",
+          6
+        ],
+        [
+          "2",
+          56
+        ]
+      ],
+      "b89c4d5c6b32bc52c87d07fe5c8649c8b04c2a60337450556c63dd379b0f83fd": [
+        [
+          "1",
+          10
+        ],
+        [
+          "2",
+          55
+        ]
+      ],
+      "e3fd010749d3f15b90ab3513676c84648433cc5b2aff4123f484146488caeb49": [
+        [
+          "1",
+          11
+        ],
+        [
+          "2",
+          57
+        ]
+      ],
+      "e4c7fdaefbe15b15d8f7d7ae7485813aac7a483c544fce80f8cc705d582e34c4": [
+        [
+          "1",
+          4
+        ],
+        [
+          "2",
+          54
+        ]
+      ],
+      "e4317589d93a3421c119e832a5883008c6154b3e1ef2ca289cf4c2c2817b84f1": [
+        [
+          "1",
+          2
+        ],
+        [
+          "2",
+          5
+        ]
+      ],
+      "be0d9e7de90d59f658bfaee7514ee0e95c25f4dc43e3919a67fa0ba649845b5d": [
+        [
+          "1",
+          5
+        ],
+        [
+          "2",
+          728
+        ]
+      ],
+      "de0418779a56c5328e59f50afcdbab98b81aac54b671dd49a1959eea487560cf": [
+        [
+          "1",
+          603
+        ],
+        [
+          "2",
+          45
+        ]
+      ],
+      "85d840495fbe85db9279ffc9f8002dc2e9142e5cd96d6f22ab6452ae73e99158": [
+        [
+          "1",
+          253
+        ],
+        [
+          "2",
+          1474
+        ]
+      ],
+      "ffaaf80b7617cc9e0df4b800a4d19ab38eeff7c61e84d7807efee1af9a1e700b": [
+        [
+          "1",
+          1160
+        ],
+        [
+          "2",
+          1059
+        ]
+      ],
+      "68b101063ba9e2a98b162c15104418e767ee69fa32dda04d907c534c68b3278d": [
+        [
+          "1",
+          1213
+        ],
+        [
+          "2",
+          70
+        ]
+      ],
+      "a660fe189777eb187e49b1bc4c44eea0d49fc6d037e33c6f32dc80ab020a431e": [
+        [
+          "1",
+          1227
+        ],
+        [
+          "2",
+          27
+        ]
+      ],
+      "8027ccd78b6ca83ebe03038a9dbcded14712682f5e7d043f3d6729927817fba3": [
+        [
+          "1",
+          1271
+        ],
+        [
+          "2",
+          28
+        ]
+      ],
+      "3a4ba07823d1b6e283dbcb4ae2cfdc7f4a5df2a3e103b922ff3b6abd0fbe8eac": [
+        [
+          "1",
+          1265
+        ],
+        [
+          "2",
+          1627
+        ]
+      ],
+      "11491e9fc24b11735af304cfad333b401fcb4bad2445723e6c3b770b35d10baf": [
+        [
+          "1",
+          1123
+        ],
+        [
+          "2",
+          1675
+        ]
+      ],
+      "abc20201957504cfc3fb342fba3f5adcef8db2cd81cd9210f8f99724aa121826": [
+        [
+          "1",
+          1505
+        ],
+        [
+          "2",
+          233
+        ]
+      ],
+      "a47f0a4be7bcc6e31e7bf25584bc4a5c0488a5c445aec061d29066b343b6f609": [
+        [
+          "1",
+          1608
+        ],
+        [
+          "2",
+          63
+        ]
+      ],
+      "8bef5a85b1f262a77a6cd36a3d7203a79d0ddc22516c6242457072df58f18b1e": [
+        [
+          "1",
+          2
+        ],
+        [
+          "2",
+          1771
+        ]
+      ],
+      "c19af4961a690a4f028c502b5c3f24f2e850d8e7c4f13fb90b64e51f5847409e": [
+        [
+          "1",
+          1728
+        ],
+        [
+          "2",
+          251
+        ]
+      ],
+      "57d19a009462267d00c8106b8b4632839636a6742b4b824d5dd79e1ce5ef7abb": [
+        [
+          "1",
+          1863
+        ],
+        [
+          "2",
+          60
+        ]
+      ],
+      "4c7fc3cda743f56ee1198c953c58ac6a6f62e7e6bb66e72b36cb5490d7c17f33": [
+        [
+          "1",
+          1881
+        ],
+        [
+          "2",
+          56
+        ]
+      ],
+      "fea69e45a053bdc6026102a277595bf3039b7e100de89275aa5d10443e7a8577": [
+        [
+          "1",
+          1608
+        ],
+        [
+          "2",
+          1826
+        ]
+      ],
+      "53c6cfadb3b25399a444029b6c8216517151a2c8606591e43d2cffdb02f94486": [
+        [
+          "1",
+          1901
+        ],
+        [
+          "2",
+          1591
+        ]
+      ],
+      "87c641d8981eb72e4104fae9427ce68bf8828238c54887acd5b8dd26dad32c81": [
+        [
+          "1",
+          622
+        ],
+        [
+          "2",
+          1835
+        ]
+      ],
+      "f7144e058a4f475c516e93ed52b18e14e739afbb412db91ffc52e4bcbe5496c6": [
+        [
+          "1",
+          1917
+        ],
+        [
+          "2",
+          1427
+        ]
+      ],
+      "2f646adf242d2941e97eef3507776d9229a8553f4a0de0efa3e5348cde01cdef": [
+        [
+          "1",
+          1912
+        ],
+        [
+          "2",
+          1844
+        ]
+      ],
+      "5fa5410617eea2a1c87fa5bc65accd94d03bf56ee5935c662b3b652c06a6d443": [
+        [
+          "1",
+          603
+        ],
+        [
+          "2",
+          1852
+        ]
+      ],
+      "8853fcc5c3e064a7177704a57b2b00cf8b787597b5c3664b22c7b75b4e8a2663": [
+        [
+          "1",
+          1914
+        ],
+        [
+          "2",
+          1864
+        ]
+      ],
+      "1450850e8fefc046a7ee939f89018ec550d9b1754ac4c30162c4f0e6a8c75b6a": [
+        [
+          "1",
+          1265
+        ],
+        [
+          "2",
+          1869
+        ]
+      ],
+      "36d6a75817c2d44a2b213bf83ca437c87c357837d4ee926ec7a3b65c77d5e907": [
+        [
+          "1",
+          1987
+        ],
+        [
+          "2",
+          30
+        ]
+      ],
+      "b63a39adfb57f1470bd909d5b6213c992b3b196dd9d23ae79e872d7a03774da9": [
+        [
+          "1",
+          1986
+        ],
+        [
+          "2",
+          1835
+        ]
+      ],
+      "c75e174f034c7e9e00137b49be4a28e8f477a81e009f2ae3e73974bf6943530f": [
+        [
+          "1",
+          2046
+        ],
+        [
+          "2",
+          1524
+        ]
+      ],
+      "130ca84d292bb13e3c0ddfd665d85520367fc7c220c67dc12448011d0553004e": [
+        [
+          "1",
+          2105
+        ],
+        [
+          "2",
+          84
+        ]
+      ],
+      "5d50f13402eff0dd0700870e07f0078cafe8684b4085143da6d96b9834ea918c": [
+        [
+          "1",
+          2144
+        ],
+        [
+          "2",
+          1427
+        ]
+      ],
+      "80d3a5bdf1a6430b973c3227acda4bca63fc48f1ac7bf6133ba3e5055775e442": [
+        [
+          "1",
+          1493
+        ],
+        [
+          "2",
+          1953
+        ]
+      ],
+      "dac3bc9e133023c2cc7e2c7f5dd3da49628aafe8b9024dd8bf35b81f386f7efc": [
+        [
+          "1",
+          2208
+        ],
+        [
+          "2",
+          1816
+        ]
+      ],
+      "2274385e8aeb2b2820fe5d91d64d63956dc62053bc09cab08a711347d2c0b2e1": [
+        [
+          "1",
+          2212
+        ],
+        [
+          "2",
+          808
+        ]
+      ],
+      "ddbc8283ad5659c40af7c9de700e058ecc141ef2b049318100d4e6e631f95950": [
+        [
+          "1",
+          1901
+        ],
+        [
+          "2",
+          1981
+        ]
+      ],
+      "0543302a90c440c5ca9683b46274ea0d3795903bf63438e262feb33f180f73dd": [
+        [
+          "1",
+          1160
+        ],
+        [
+          "2",
+          2007
+        ]
+      ]
+    }
+  }
+}

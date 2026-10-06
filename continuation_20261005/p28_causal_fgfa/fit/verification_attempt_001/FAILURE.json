@@ -1,0 +1,13 @@
+{
+  "status": "FAILED_VERIFIER_ASSUMPTION",
+  "exit_code": 1,
+  "command": "/home/chenhc/mdmt_phase0_reproduction_20260829_202909/mdmt_env/bin/python -B verify_fpn.py --role fit",
+  "assertion": "minimum final native detection score >= 0.05",
+  "observed_minimum_score": 0.04997823387384415,
+  "observed_key": "28-1-t000601",
+  "observed_class": 2,
+  "source": "/home/chenhc/mdmt_phase0_reproduction_20260829_202909/mdmt_env/lib/python3.8/site-packages/mmdet/models/dense_heads/base_dense_head.py",
+  "source_semantics": "classification score filtering at line 203 precedes score-factor multiplication at line 288; native output score can be below cfg.score_thr",
+  "correction": "verify native final score range [0,1]; do not postfilter or change any exported native detections",
+  "export_archives_or_original_feature_receipt_modified": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "STOP_CCSI_AFTER_FULL_COVERAGE",
+  "candidate": "Counterfactual Cross-View Swap Invariance",
+  "short_gate": {
+    "calibration_r1": 0.45343092865929047,
+    "vs_p38_delta": 0.0020646207114942694,
+    "wins_vs_p38": 4
+  },
+  "full_coverage": {
+    "steps": 55236,
+    "epochs": 3,
+    "calibration_r1": 0.44014372505923055,
+    "vs_p38_delta": -0.011222582888565646,
+    "wins_vs_p38": 1,
+    "fit_r1": 0.9095777785056306
+  },
+  "decision": "停止继续训练、停止 host attachment 和 official val/test；短门改善被完整 fit 训练后的跨 pair 回归否定。",
+  "failure_audit": "FULL_FAILURE_AUDIT.json",
+  "interpretation": "实现、有限性、冻结顺序、完整覆盖和物理 GPU 校验通过；主要问题是跨 pair 泛化/过拟合，不是 GPU、步数不足或评估 wiring。",
+  "retain": [
+    "短门 checkpoint 作为诊断控制",
+    "全覆盖 checkpoint 作为失败证据",
+    "CCSI method spec and audit trail"
+  ]
+}

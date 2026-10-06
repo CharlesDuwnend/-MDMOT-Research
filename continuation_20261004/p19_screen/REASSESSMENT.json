@@ -1,0 +1,2555 @@
+{
+  "schema": "P19A_INDEPENDENT_REASSESSMENT_V1",
+  "created_utc": "2026-10-04T11:17:45.068501+00:00",
+  "status": "INVALID_FOR_GENERAL_GEOMETRY_OR_MOTION_STOP",
+  "decision": "Retain this run as a limited retrospective handcrafted-feature screen; do not infer that non-cosine evidence adds nothing or that geometric/target-motion information is exhausted.",
+  "scope": {
+    "historical_files_read_only": true,
+    "official_val_test_read": false,
+    "train_cache_roles_read": [
+      "fit",
+      "calibration"
+    ],
+    "dev_cache_read": false,
+    "training_executed": false,
+    "inference_executed": false,
+    "images_decoded": false,
+    "gpu_used": false,
+    "new_model_implemented": false
+  },
+  "reproduce_command": "python3 /home/chenhc/claude_try_MDMOT/continuation_20261004/p19_screen/audit_p19_screen.py",
+  "script_sha256": "1daf292c770c452d9ad69302046447c632fd0bbaeafefe593f19503318dec2ca",
+  "original_result_source": {
+    "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/P19A_SCREEN.json",
+    "sha256": "0999b9ac9e99953735964fc4b8ddcfa752b83de84960a9800b119f05d80e4449"
+  },
+  "split_source": {
+    "path": "/home/chenhc/mdmot_research_20261002/p0/data/ASSOCIATION_DIAGNOSTIC_SPLIT.json",
+    "sha256": "7fd620378f79d99bbf1346d47a07ffea5b733bf915cf22481498b9f5c7b4771f",
+    "fit": [
+      "23",
+      "25",
+      "28",
+      "29",
+      "39",
+      "44",
+      "45",
+      "51",
+      "53",
+      "63",
+      "66",
+      "69",
+      "70",
+      "74",
+      "78"
+    ],
+    "calibration": [
+      "27",
+      "32",
+      "42",
+      "64",
+      "65"
+    ],
+    "fit_cal_pair_overlap": []
+  },
+  "empirical": {
+    "role_summary": {
+      "fit": {
+        "candidates": 872915,
+        "known": 509047,
+        "unknown": 363868,
+        "positive": 11501,
+        "singleton_count": 625697,
+        "singleton_fraction": 0.7167902945876746,
+        "positive_singleton_count": 7854,
+        "positive_singleton_fraction": 0.6828971393791844,
+        "positive_median_nco": 1.0,
+        "median_nco": 1.0,
+        "known_negative_singleton_fraction": 0.6087236155048981
+      },
+      "calibration": {
+        "candidates": 162766,
+        "known": 72791,
+        "unknown": 89975,
+        "positive": 2237,
+        "singleton_count": 122539,
+        "singleton_fraction": 0.7528537901035843,
+        "positive_singleton_count": 1464,
+        "positive_singleton_fraction": 0.6544479213232007,
+        "positive_median_nco": 1.0,
+        "median_nco": 1.0,
+        "known_negative_singleton_fraction": 0.5439521501261445
+      }
+    },
+    "per_pair": {
+      "fit": {
+        "23": {
+          "candidates": 11464,
+          "known": 7450,
+          "unknown": 4014,
+          "positive": 869,
+          "singleton_count": 8043,
+          "singleton_fraction": 0.7015875785066295,
+          "positive_singleton_count": 642,
+          "positive_singleton_fraction": 0.7387802071346375,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.5596413918857317
+        },
+        "25": {
+          "candidates": 25855,
+          "known": 17283,
+          "unknown": 8572,
+          "positive": 528,
+          "singleton_count": 14358,
+          "singleton_fraction": 0.5553277895958229,
+          "positive_singleton_count": 356,
+          "positive_singleton_fraction": 0.6742424242424242,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.3764846314532975
+        },
+        "28": {
+          "candidates": 41181,
+          "known": 25479,
+          "unknown": 15702,
+          "positive": 249,
+          "singleton_count": 18568,
+          "singleton_fraction": 0.4508875452271679,
+          "positive_singleton_count": 73,
+          "positive_singleton_fraction": 0.2931726907630522,
+          "positive_median_nco": 3.0,
+          "median_nco": 2.0,
+          "known_negative_singleton_fraction": 0.22861672611969877
+        },
+        "29": {
+          "candidates": 135280,
+          "known": 49475,
+          "unknown": 85805,
+          "positive": 1298,
+          "singleton_count": 96576,
+          "singleton_fraction": 0.7138971023063276,
+          "positive_singleton_count": 618,
+          "positive_singleton_fraction": 0.4761171032357473,
+          "positive_median_nco": 2.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.45752122382049526
+        },
+        "39": {
+          "candidates": 1711,
+          "known": 674,
+          "unknown": 1037,
+          "positive": 122,
+          "singleton_count": 1214,
+          "singleton_fraction": 0.7095265926358855,
+          "positive_singleton_count": 70,
+          "positive_singleton_fraction": 0.5737704918032787,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.42028985507246375
+        },
+        "44": {
+          "candidates": 6736,
+          "known": 3467,
+          "unknown": 3269,
+          "positive": 81,
+          "singleton_count": 3659,
+          "singleton_fraction": 0.5432007125890737,
+          "positive_singleton_count": 15,
+          "positive_singleton_fraction": 0.18518518518518517,
+          "positive_median_nco": 103.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.20880094506792676
+        },
+        "45": {
+          "candidates": 177273,
+          "known": 87977,
+          "unknown": 89296,
+          "positive": 1570,
+          "singleton_count": 135792,
+          "singleton_fraction": 0.766004975376961,
+          "positive_singleton_count": 1074,
+          "positive_singleton_fraction": 0.6840764331210191,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.6772715173539181
+        },
+        "51": {
+          "candidates": 68912,
+          "known": 61961,
+          "unknown": 6951,
+          "positive": 841,
+          "singleton_count": 47209,
+          "singleton_fraction": 0.68506210819596,
+          "positive_singleton_count": 627,
+          "positive_singleton_fraction": 0.7455410225921522,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.6663939790575916
+        },
+        "53": {
+          "candidates": 8660,
+          "known": 5952,
+          "unknown": 2708,
+          "positive": 249,
+          "singleton_count": 2788,
+          "singleton_fraction": 0.32193995381062357,
+          "positive_singleton_count": 127,
+          "positive_singleton_fraction": 0.5100401606425703,
+          "positive_median_nco": 1.0,
+          "median_nco": 22.0,
+          "known_negative_singleton_fraction": 0.05768893564790461
+        },
+        "63": {
+          "candidates": 9261,
+          "known": 5206,
+          "unknown": 4055,
+          "positive": 289,
+          "singleton_count": 5290,
+          "singleton_fraction": 0.5712126120289386,
+          "positive_singleton_count": 197,
+          "positive_singleton_fraction": 0.6816608996539792,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.2938783811267033
+        },
+        "66": {
+          "candidates": 20100,
+          "known": 10938,
+          "unknown": 9162,
+          "positive": 207,
+          "singleton_count": 11162,
+          "singleton_fraction": 0.5553233830845771,
+          "positive_singleton_count": 73,
+          "positive_singleton_fraction": 0.3526570048309179,
+          "positive_median_nco": 2.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.25207343211257105
+        },
+        "69": {
+          "candidates": 271478,
+          "known": 175991,
+          "unknown": 95487,
+          "positive": 4081,
+          "singleton_count": 228400,
+          "singleton_fraction": 0.8413204753239674,
+          "positive_singleton_count": 3384,
+          "positive_singleton_fraction": 0.8292085273217349,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.8175615147460881
+        },
+        "70": {
+          "candidates": 25806,
+          "known": 17808,
+          "unknown": 7998,
+          "positive": 440,
+          "singleton_count": 12487,
+          "singleton_fraction": 0.4838797178950632,
+          "positive_singleton_count": 260,
+          "positive_singleton_fraction": 0.5909090909090909,
+          "positive_median_nco": 1.0,
+          "median_nco": 2.0,
+          "known_negative_singleton_fraction": 0.30383463841547675
+        },
+        "74": {
+          "candidates": 62530,
+          "known": 35066,
+          "unknown": 27464,
+          "positive": 558,
+          "singleton_count": 39436,
+          "singleton_fraction": 0.6306732768271229,
+          "positive_singleton_count": 330,
+          "positive_singleton_fraction": 0.5913978494623656,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.418453691897531
+        },
+        "78": {
+          "candidates": 6668,
+          "known": 4320,
+          "unknown": 2348,
+          "positive": 119,
+          "singleton_count": 715,
+          "singleton_fraction": 0.10722855428914217,
+          "positive_singleton_count": 8,
+          "positive_singleton_fraction": 0.06722689075630252,
+          "positive_median_nco": 216.0,
+          "median_nco": 176.0,
+          "known_negative_singleton_fraction": 0.03189716734110926
+        }
+      },
+      "calibration": {
+        "27": {
+          "candidates": 36391,
+          "known": 14059,
+          "unknown": 22332,
+          "positive": 647,
+          "singleton_count": 26496,
+          "singleton_fraction": 0.7280921106867082,
+          "positive_singleton_count": 419,
+          "positive_singleton_fraction": 0.6476043276661515,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.39792722934685354
+        },
+        "32": {
+          "candidates": 13854,
+          "known": 11525,
+          "unknown": 2329,
+          "positive": 234,
+          "singleton_count": 7603,
+          "singleton_fraction": 0.5487945719647755,
+          "positive_singleton_count": 154,
+          "positive_singleton_fraction": 0.6581196581196581,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.5010185103179523
+        },
+        "42": {
+          "candidates": 16592,
+          "known": 7377,
+          "unknown": 9215,
+          "positive": 255,
+          "singleton_count": 12061,
+          "singleton_fraction": 0.7269165863066538,
+          "positive_singleton_count": 139,
+          "positive_singleton_fraction": 0.5450980392156862,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.5113732097725358
+        },
+        "64": {
+          "candidates": 19844,
+          "known": 9943,
+          "unknown": 9901,
+          "positive": 603,
+          "singleton_count": 14884,
+          "singleton_fraction": 0.7500503930659141,
+          "positive_singleton_count": 410,
+          "positive_singleton_fraction": 0.6799336650082919,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.5761241970021413
+        },
+        "65": {
+          "candidates": 76085,
+          "known": 29887,
+          "unknown": 46198,
+          "positive": 498,
+          "singleton_count": 61495,
+          "singleton_fraction": 0.8082407833344286,
+          "positive_singleton_count": 342,
+          "positive_singleton_fraction": 0.6867469879518072,
+          "positive_median_nco": 1.0,
+          "median_nco": 1.0,
+          "known_negative_singleton_fraction": 0.6247575623532614
+        }
+      }
+    },
+    "coverage_and_ties": {
+      "cnt_ge0.7": [
+        {
+          "nominal_N_per_pair": 5,
+          "target_total": 25,
+          "tau": 119.0,
+          "strictly_above_total": 24,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 25,
+          "legacy_macro_precision_lower_bound": 0.76,
+          "legacy_macro_recall_known": 0.007846968117789357,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 1,
+              "legacy_tp": 1,
+              "legacy_known_accepted": 1,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 1.0,
+              "known_only_precision": 1.0,
+              "strictly_above": 1,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 1.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 5,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 5,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.8,
+              "known_only_precision": 0.8,
+              "strictly_above": 5,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 5.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 1,
+              "legacy_tp": 1,
+              "legacy_known_accepted": 1,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 1.0,
+              "known_only_precision": 1.0,
+              "strictly_above": 1,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 1.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 9,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 9,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.4444444444444444,
+              "known_only_precision": 0.4444444444444444,
+              "strictly_above": 9,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 9.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 9,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 9,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.5555555555555556,
+              "known_only_precision": 0.5555555555555556,
+              "strictly_above": 8,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 9.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 10,
+          "target_total": 50,
+          "tau": 87.0,
+          "strictly_above_total": 49,
+          "boundary_tie_total": 2,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 0.5,
+          "actual_legacy_total": 51,
+          "legacy_macro_precision_lower_bound": 0.6176190476190475,
+          "legacy_macro_recall_known": 0.01684843424279317,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 7,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 7,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.5714285714285714,
+              "known_only_precision": 0.5714285714285714,
+              "strictly_above": 7,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 7.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 15,
+              "legacy_tp": 9,
+              "legacy_known_accepted": 15,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.6,
+              "known_only_precision": 0.6,
+              "strictly_above": 14,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 14.5,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 5,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 5,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 1.0,
+              "known_only_precision": 1.0,
+              "strictly_above": 4,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 4.5,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 12,
+              "legacy_tp": 6,
+              "legacy_known_accepted": 12,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.5,
+              "known_only_precision": 0.5,
+              "strictly_above": 12,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 12.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 12,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 12,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.4166666666666667,
+              "known_only_precision": 0.4166666666666667,
+              "strictly_above": 12,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 12.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 20,
+          "target_total": 100,
+          "tau": 64.0,
+          "strictly_above_total": 98,
+          "boundary_tie_total": 2,
+          "needed_from_boundary_tie": 2,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 100,
+          "legacy_macro_precision_lower_bound": 0.5005279866332498,
+          "legacy_macro_recall_known": 0.025206360900728107,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 25,
+              "legacy_tp": 7,
+              "legacy_known_accepted": 25,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.28,
+              "known_only_precision": 0.28,
+              "strictly_above": 25,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 25.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 36,
+              "legacy_tp": 16,
+              "legacy_known_accepted": 36,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.4444444444444444,
+              "known_only_precision": 0.4444444444444444,
+              "strictly_above": 34,
+              "boundary_ties": 2,
+              "exact_budget_uniform_tie_expected_accepted": 36.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 6,
+              "legacy_tp": 6,
+              "legacy_known_accepted": 6,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 1.0,
+              "known_only_precision": 1.0,
+              "strictly_above": 6,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 6.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 19,
+              "legacy_tp": 8,
+              "legacy_known_accepted": 19,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.42105263157894735,
+              "known_only_precision": 0.42105263157894735,
+              "strictly_above": 19,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 19.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 14,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 14,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.35714285714285715,
+              "known_only_precision": 0.35714285714285715,
+              "strictly_above": 14,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 14.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 50,
+          "target_total": 250,
+          "tau": 23.0,
+          "strictly_above_total": 248,
+          "boundary_tie_total": 8,
+          "needed_from_boundary_tie": 2,
+          "boundary_inclusion_fraction_for_exact_budget": 0.25,
+          "actual_legacy_total": 256,
+          "legacy_macro_precision_lower_bound": 0.39426183012389915,
+          "legacy_macro_recall_known": 0.04830034668020627,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 87,
+              "legacy_tp": 14,
+              "legacy_known_accepted": 87,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.16091954022988506,
+              "known_only_precision": 0.16091954022988506,
+              "strictly_above": 82,
+              "boundary_ties": 5,
+              "exact_budget_uniform_tie_expected_accepted": 83.25,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 84,
+              "legacy_tp": 27,
+              "legacy_known_accepted": 84,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.32142857142857145,
+              "known_only_precision": 0.32142857142857145,
+              "strictly_above": 81,
+              "boundary_ties": 3,
+              "exact_budget_uniform_tie_expected_accepted": 81.75,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 22,
+              "legacy_tp": 15,
+              "legacy_known_accepted": 22,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.6818181818181818,
+              "known_only_precision": 0.6818181818181818,
+              "strictly_above": 22,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 22.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 28,
+              "legacy_tp": 13,
+              "legacy_known_accepted": 28,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.4642857142857143,
+              "known_only_precision": 0.4642857142857143,
+              "strictly_above": 28,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 28.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 35,
+              "legacy_tp": 12,
+              "legacy_known_accepted": 35,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.34285714285714286,
+              "known_only_precision": 0.34285714285714286,
+              "strictly_above": 35,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 35.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 100,
+          "target_total": 500,
+          "tau": 5.0,
+          "strictly_above_total": 475,
+          "boundary_tie_total": 29,
+          "needed_from_boundary_tie": 25,
+          "boundary_inclusion_fraction_for_exact_budget": 0.8620689655172413,
+          "actual_legacy_total": 504,
+          "legacy_macro_precision_lower_bound": 0.3029839454332136,
+          "legacy_macro_recall_known": 0.07522202973613991,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 180,
+              "legacy_tp": 23,
+              "legacy_known_accepted": 180,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.12777777777777777,
+              "known_only_precision": 0.12777777777777777,
+              "strictly_above": 170,
+              "boundary_ties": 10,
+              "exact_budget_uniform_tie_expected_accepted": 178.6206896551724,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 173,
+              "legacy_tp": 45,
+              "legacy_known_accepted": 173,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.26011560693641617,
+              "known_only_precision": 0.26011560693641617,
+              "strictly_above": 163,
+              "boundary_ties": 10,
+              "exact_budget_uniform_tie_expected_accepted": 171.6206896551724,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 48,
+              "legacy_tp": 22,
+              "legacy_known_accepted": 48,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.4583333333333333,
+              "known_only_precision": 0.4583333333333333,
+              "strictly_above": 44,
+              "boundary_ties": 4,
+              "exact_budget_uniform_tie_expected_accepted": 47.44827586206897,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 47,
+              "legacy_tp": 18,
+              "legacy_known_accepted": 47,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.3829787234042553,
+              "known_only_precision": 0.3829787234042553,
+              "strictly_above": 46,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 46.86206896551724,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 56,
+              "legacy_tp": 16,
+              "legacy_known_accepted": 55,
+              "legacy_unknown_accepted": 1,
+              "legacy_reported_precision_lower_bound": 0.2857142857142857,
+              "known_only_precision": 0.2909090909090909,
+              "strictly_above": 52,
+              "boundary_ties": 4,
+              "exact_budget_uniform_tie_expected_accepted": 55.44827586206897,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.8620689655172413
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 200,
+          "target_total": 1000,
+          "tau": 0.0,
+          "strictly_above_total": 984,
+          "boundary_tie_total": 161782,
+          "needed_from_boundary_tie": 16,
+          "boundary_inclusion_fraction_for_exact_budget": 9.889851775846509e-05,
+          "actual_legacy_total": 162766,
+          "legacy_macro_precision_lower_bound": 0.017394146467741466,
+          "legacy_macro_recall_known": 1.0,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 36391,
+              "legacy_tp": 647,
+              "legacy_known_accepted": 14059,
+              "legacy_unknown_accepted": 22332,
+              "legacy_reported_precision_lower_bound": 0.017779121211288506,
+              "known_only_precision": 0.04602034284088484,
+              "strictly_above": 337,
+              "boundary_ties": 36054,
+              "exact_budget_uniform_tie_expected_accepted": 340.5656871592637,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 45.20434906231843
+            },
+            "32": {
+              "legacy_accepted": 13854,
+              "legacy_tp": 234,
+              "legacy_known_accepted": 11525,
+              "legacy_unknown_accepted": 2329,
+              "legacy_reported_precision_lower_bound": 0.016890428757037678,
+              "known_only_precision": 0.020303687635574837,
+              "strictly_above": 253,
+              "boundary_ties": 13601,
+              "exact_budget_uniform_tie_expected_accepted": 254.3451187400329,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 8.229543459717398
+            },
+            "42": {
+              "legacy_accepted": 16592,
+              "legacy_tp": 255,
+              "legacy_known_accepted": 7377,
+              "legacy_unknown_accepted": 9215,
+              "legacy_reported_precision_lower_bound": 0.015368852459016393,
+              "known_only_precision": 0.03456689711264742,
+              "strictly_above": 161,
+              "boundary_ties": 16431,
+              "exact_budget_uniform_tie_expected_accepted": 162.62500154528934,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 25.908877378200295
+            },
+            "64": {
+              "legacy_accepted": 19844,
+              "legacy_tp": 603,
+              "legacy_known_accepted": 9943,
+              "legacy_unknown_accepted": 9901,
+              "legacy_reported_precision_lower_bound": 0.03038701874622052,
+              "known_only_precision": 0.060645680378155487,
+              "strictly_above": 111,
+              "boundary_ties": 19733,
+              "exact_budget_uniform_tie_expected_accepted": 112.95156445092779,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 21.977117355453636
+            },
+            "65": {
+              "legacy_accepted": 76085,
+              "legacy_tp": 498,
+              "legacy_known_accepted": 29887,
+              "legacy_unknown_accepted": 46198,
+              "legacy_reported_precision_lower_bound": 0.006545311165144246,
+              "known_only_precision": 0.01666276307424633,
+              "strictly_above": 122,
+              "boundary_ties": 75963,
+              "exact_budget_uniform_tie_expected_accepted": 129.51262810448628,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 21.567232448603676
+            }
+          }
+        }
+      ],
+      "host_maxcos": [
+        {
+          "nominal_N_per_pair": 5,
+          "target_total": 25,
+          "tau": 0.8826779723167419,
+          "strictly_above_total": 24,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 25,
+          "legacy_macro_precision_lower_bound": 0.754978354978355,
+          "legacy_macro_recall_known": 0.010701746228844138,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 3,
+              "legacy_tp": 2,
+              "legacy_known_accepted": 3,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.6666666666666666,
+              "known_only_precision": 0.6666666666666666,
+              "strictly_above": 3,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 3.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 11,
+              "legacy_tp": 8,
+              "legacy_known_accepted": 11,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.7272727272727273,
+              "known_only_precision": 0.7272727272727273,
+              "strictly_above": 10,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 11.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 1,
+              "legacy_tp": 1,
+              "legacy_known_accepted": 1,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 1.0,
+              "known_only_precision": 1.0,
+              "strictly_above": 1,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 1.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 7,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 7,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.7142857142857143,
+              "known_only_precision": 0.7142857142857143,
+              "strictly_above": 7,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 7.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 3,
+              "legacy_tp": 2,
+              "legacy_known_accepted": 3,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.6666666666666666,
+              "known_only_precision": 0.6666666666666666,
+              "strictly_above": 3,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 3.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 10,
+          "target_total": 50,
+          "tau": 0.8658374547958374,
+          "strictly_above_total": 49,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 50,
+          "legacy_macro_precision_lower_bound": 0.5570910973084886,
+          "legacy_macro_recall_known": 0.016511744737997474,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 3,
+              "legacy_tp": 2,
+              "legacy_known_accepted": 3,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.6666666666666666,
+              "known_only_precision": 0.6666666666666666,
+              "strictly_above": 3,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 3.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 23,
+              "legacy_tp": 13,
+              "legacy_known_accepted": 23,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.5652173913043478,
+              "known_only_precision": 0.5652173913043478,
+              "strictly_above": 22,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 23.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 2,
+              "legacy_tp": 1,
+              "legacy_known_accepted": 2,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.5,
+              "known_only_precision": 0.5,
+              "strictly_above": 2,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 2.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 14,
+              "legacy_tp": 6,
+              "legacy_known_accepted": 14,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.42857142857142855,
+              "known_only_precision": 0.42857142857142855,
+              "strictly_above": 14,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 14.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 8,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 8,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.625,
+              "known_only_precision": 0.625,
+              "strictly_above": 8,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 8.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 20,
+          "target_total": 100,
+          "tau": 0.8410832285881042,
+          "strictly_above_total": 99,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 100,
+          "legacy_macro_precision_lower_bound": 0.4038095238095238,
+          "legacy_macro_recall_known": 0.024298814318282992,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 14,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 13,
+              "legacy_unknown_accepted": 1,
+              "legacy_reported_precision_lower_bound": 0.2857142857142857,
+              "known_only_precision": 0.3076923076923077,
+              "strictly_above": 14,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 14.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 1.0
+            },
+            "32": {
+              "legacy_accepted": 45,
+              "legacy_tp": 18,
+              "legacy_known_accepted": 45,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.4,
+              "known_only_precision": 0.4,
+              "strictly_above": 45,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 45.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 6,
+              "legacy_tp": 3,
+              "legacy_known_accepted": 6,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.5,
+              "known_only_precision": 0.5,
+              "strictly_above": 6,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 6.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 21,
+              "legacy_tp": 10,
+              "legacy_known_accepted": 21,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.47619047619047616,
+              "known_only_precision": 0.47619047619047616,
+              "strictly_above": 20,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 21.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 14,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 14,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.35714285714285715,
+              "known_only_precision": 0.35714285714285715,
+              "strictly_above": 14,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 14.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 50,
+          "target_total": 250,
+          "tau": 0.8039655089378357,
+          "strictly_above_total": 249,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 250,
+          "legacy_macro_precision_lower_bound": 0.33810157041540023,
+          "legacy_macro_recall_known": 0.042740695583775815,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 70,
+              "legacy_tp": 10,
+              "legacy_known_accepted": 66,
+              "legacy_unknown_accepted": 4,
+              "legacy_reported_precision_lower_bound": 0.14285714285714285,
+              "known_only_precision": 0.15151515151515152,
+              "strictly_above": 69,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 70.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 4.0
+            },
+            "32": {
+              "legacy_accepted": 94,
+              "legacy_tp": 27,
+              "legacy_known_accepted": 94,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.2872340425531915,
+              "known_only_precision": 0.2872340425531915,
+              "strictly_above": 94,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 94.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 18,
+              "legacy_tp": 10,
+              "legacy_known_accepted": 17,
+              "legacy_unknown_accepted": 1,
+              "legacy_reported_precision_lower_bound": 0.5555555555555556,
+              "known_only_precision": 0.5882352941176471,
+              "strictly_above": 18,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 18.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 1.0
+            },
+            "64": {
+              "legacy_accepted": 36,
+              "legacy_tp": 13,
+              "legacy_known_accepted": 35,
+              "legacy_unknown_accepted": 1,
+              "legacy_reported_precision_lower_bound": 0.3611111111111111,
+              "known_only_precision": 0.37142857142857144,
+              "strictly_above": 36,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 36.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 1.0
+            },
+            "65": {
+              "legacy_accepted": 32,
+              "legacy_tp": 11,
+              "legacy_known_accepted": 32,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.34375,
+              "known_only_precision": 0.34375,
+              "strictly_above": 32,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 32.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 100,
+          "target_total": 500,
+          "tau": 0.7547529339790344,
+          "strictly_above_total": 499,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 500,
+          "legacy_macro_precision_lower_bound": 0.27895136788979674,
+          "legacy_macro_recall_known": 0.07605099969502455,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 157,
+              "legacy_tp": 21,
+              "legacy_known_accepted": 150,
+              "legacy_unknown_accepted": 7,
+              "legacy_reported_precision_lower_bound": 0.1337579617834395,
+              "known_only_precision": 0.14,
+              "strictly_above": 157,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 157.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 7.0
+            },
+            "32": {
+              "legacy_accepted": 162,
+              "legacy_tp": 44,
+              "legacy_known_accepted": 159,
+              "legacy_unknown_accepted": 3,
+              "legacy_reported_precision_lower_bound": 0.2716049382716049,
+              "known_only_precision": 0.27672955974842767,
+              "strictly_above": 161,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 162.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 3.0
+            },
+            "42": {
+              "legacy_accepted": 66,
+              "legacy_tp": 24,
+              "legacy_known_accepted": 55,
+              "legacy_unknown_accepted": 11,
+              "legacy_reported_precision_lower_bound": 0.36363636363636365,
+              "known_only_precision": 0.43636363636363634,
+              "strictly_above": 66,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 66.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 11.0
+            },
+            "64": {
+              "legacy_accepted": 60,
+              "legacy_tp": 19,
+              "legacy_known_accepted": 53,
+              "legacy_unknown_accepted": 7,
+              "legacy_reported_precision_lower_bound": 0.31666666666666665,
+              "known_only_precision": 0.3584905660377358,
+              "strictly_above": 60,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 60.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 7.0
+            },
+            "65": {
+              "legacy_accepted": 55,
+              "legacy_tp": 17,
+              "legacy_known_accepted": 55,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.3090909090909091,
+              "known_only_precision": 0.3090909090909091,
+              "strictly_above": 55,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 55.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 200,
+          "target_total": 1000,
+          "tau": 0.6990342140197754,
+          "strictly_above_total": 999,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 1000,
+          "legacy_macro_precision_lower_bound": 0.23400509251632012,
+          "legacy_macro_recall_known": 0.12059656769778444,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 342,
+              "legacy_tp": 41,
+              "legacy_known_accepted": 298,
+              "legacy_unknown_accepted": 44,
+              "legacy_reported_precision_lower_bound": 0.11988304093567251,
+              "known_only_precision": 0.13758389261744966,
+              "strictly_above": 342,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 342.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 44.0
+            },
+            "32": {
+              "legacy_accepted": 257,
+              "legacy_tp": 50,
+              "legacy_known_accepted": 249,
+              "legacy_unknown_accepted": 8,
+              "legacy_reported_precision_lower_bound": 0.19455252918287938,
+              "known_only_precision": 0.20080321285140562,
+              "strictly_above": 257,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 257.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 8.0
+            },
+            "42": {
+              "legacy_accepted": 162,
+              "legacy_tp": 55,
+              "legacy_known_accepted": 137,
+              "legacy_unknown_accepted": 25,
+              "legacy_reported_precision_lower_bound": 0.3395061728395062,
+              "known_only_precision": 0.40145985401459855,
+              "strictly_above": 162,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 162.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 25.0
+            },
+            "64": {
+              "legacy_accepted": 113,
+              "legacy_tp": 35,
+              "legacy_known_accepted": 91,
+              "legacy_unknown_accepted": 22,
+              "legacy_reported_precision_lower_bound": 0.30973451327433627,
+              "known_only_precision": 0.38461538461538464,
+              "strictly_above": 113,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 113.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 22.0
+            },
+            "65": {
+              "legacy_accepted": 126,
+              "legacy_tp": 26,
+              "legacy_known_accepted": 109,
+              "legacy_unknown_accepted": 17,
+              "legacy_reported_precision_lower_bound": 0.20634920634920634,
+              "known_only_precision": 0.23853211009174313,
+              "strictly_above": 125,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 126.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 17.0
+            }
+          }
+        }
+      ],
+      "mean_cos": [
+        {
+          "nominal_N_per_pair": 5,
+          "target_total": 25,
+          "tau": 0.7895698335435656,
+          "strictly_above_total": 24,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 25,
+          "legacy_macro_precision_lower_bound": 0.26857142857142857,
+          "legacy_macro_recall_known": 0.005628224839143606,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 5,
+              "legacy_tp": 1,
+              "legacy_known_accepted": 1,
+              "legacy_unknown_accepted": 4,
+              "legacy_reported_precision_lower_bound": 0.2,
+              "known_only_precision": 1.0,
+              "strictly_above": 5,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 5.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 4.0
+            },
+            "32": {
+              "legacy_accepted": 6,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 6,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.6666666666666666,
+              "known_only_precision": 0.6666666666666666,
+              "strictly_above": 6,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 6.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 6,
+              "legacy_tp": 2,
+              "legacy_known_accepted": 2,
+              "legacy_unknown_accepted": 4,
+              "legacy_reported_precision_lower_bound": 0.3333333333333333,
+              "known_only_precision": 1.0,
+              "strictly_above": 6,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 6.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 4.0
+            },
+            "64": {
+              "legacy_accepted": 7,
+              "legacy_tp": 1,
+              "legacy_known_accepted": 3,
+              "legacy_unknown_accepted": 4,
+              "legacy_reported_precision_lower_bound": 0.14285714285714285,
+              "known_only_precision": 0.3333333333333333,
+              "strictly_above": 6,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 7.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 4.0
+            },
+            "65": {
+              "legacy_accepted": 1,
+              "legacy_tp": 0,
+              "legacy_known_accepted": 1,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.0,
+              "known_only_precision": 0.0,
+              "strictly_above": 1,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 1.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 10,
+          "target_total": 50,
+          "tau": 0.7689935018618902,
+          "strictly_above_total": 49,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 50,
+          "legacy_macro_precision_lower_bound": 0.3475,
+          "legacy_macro_recall_known": 0.009990109468225206,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 5,
+              "legacy_tp": 1,
+              "legacy_known_accepted": 1,
+              "legacy_unknown_accepted": 4,
+              "legacy_reported_precision_lower_bound": 0.2,
+              "known_only_precision": 1.0,
+              "strictly_above": 5,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 5.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 4.0
+            },
+            "32": {
+              "legacy_accepted": 12,
+              "legacy_tp": 6,
+              "legacy_known_accepted": 9,
+              "legacy_unknown_accepted": 3,
+              "legacy_reported_precision_lower_bound": 0.5,
+              "known_only_precision": 0.6666666666666666,
+              "strictly_above": 11,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 12.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 3.0
+            },
+            "42": {
+              "legacy_accepted": 12,
+              "legacy_tp": 3,
+              "legacy_known_accepted": 5,
+              "legacy_unknown_accepted": 7,
+              "legacy_reported_precision_lower_bound": 0.25,
+              "known_only_precision": 0.6,
+              "strictly_above": 12,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 12.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 7.0
+            },
+            "64": {
+              "legacy_accepted": 16,
+              "legacy_tp": 3,
+              "legacy_known_accepted": 10,
+              "legacy_unknown_accepted": 6,
+              "legacy_reported_precision_lower_bound": 0.1875,
+              "known_only_precision": 0.3,
+              "strictly_above": 16,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 16.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 6.0
+            },
+            "65": {
+              "legacy_accepted": 5,
+              "legacy_tp": 3,
+              "legacy_known_accepted": 5,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.6,
+              "known_only_precision": 0.6,
+              "strictly_above": 5,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 5.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 20,
+          "target_total": 100,
+          "tau": 0.7396321095211406,
+          "strictly_above_total": 99,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 100,
+          "legacy_macro_precision_lower_bound": 0.34402352033930983,
+          "legacy_macro_recall_known": 0.018796567833803388,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 19,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 6,
+              "legacy_unknown_accepted": 13,
+              "legacy_reported_precision_lower_bound": 0.2631578947368421,
+              "known_only_precision": 0.8333333333333334,
+              "strictly_above": 19,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 19.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 13.0
+            },
+            "32": {
+              "legacy_accepted": 21,
+              "legacy_tp": 10,
+              "legacy_known_accepted": 17,
+              "legacy_unknown_accepted": 4,
+              "legacy_reported_precision_lower_bound": 0.47619047619047616,
+              "known_only_precision": 0.5882352941176471,
+              "strictly_above": 20,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 21.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 4.0
+            },
+            "42": {
+              "legacy_accepted": 26,
+              "legacy_tp": 6,
+              "legacy_known_accepted": 12,
+              "legacy_unknown_accepted": 14,
+              "legacy_reported_precision_lower_bound": 0.23076923076923078,
+              "known_only_precision": 0.5,
+              "strictly_above": 26,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 26.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 14.0
+            },
+            "64": {
+              "legacy_accepted": 24,
+              "legacy_tp": 6,
+              "legacy_known_accepted": 16,
+              "legacy_unknown_accepted": 8,
+              "legacy_reported_precision_lower_bound": 0.25,
+              "known_only_precision": 0.375,
+              "strictly_above": 24,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 24.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 8.0
+            },
+            "65": {
+              "legacy_accepted": 10,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 9,
+              "legacy_unknown_accepted": 1,
+              "legacy_reported_precision_lower_bound": 0.5,
+              "known_only_precision": 0.5555555555555556,
+              "strictly_above": 10,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 10.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 1.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 50,
+          "target_total": 250,
+          "tau": 0.6974439024925232,
+          "strictly_above_total": 249,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 250,
+          "legacy_macro_precision_lower_bound": 0.22082505729564553,
+          "legacy_macro_recall_known": 0.031215025578513106,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 66,
+              "legacy_tp": 8,
+              "legacy_known_accepted": 24,
+              "legacy_unknown_accepted": 42,
+              "legacy_reported_precision_lower_bound": 0.12121212121212122,
+              "known_only_precision": 0.3333333333333333,
+              "strictly_above": 65,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 66.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 42.0
+            },
+            "32": {
+              "legacy_accepted": 42,
+              "legacy_tp": 11,
+              "legacy_known_accepted": 35,
+              "legacy_unknown_accepted": 7,
+              "legacy_reported_precision_lower_bound": 0.2619047619047619,
+              "known_only_precision": 0.3142857142857143,
+              "strictly_above": 42,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 42.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 7.0
+            },
+            "42": {
+              "legacy_accepted": 56,
+              "legacy_tp": 16,
+              "legacy_known_accepted": 31,
+              "legacy_unknown_accepted": 25,
+              "legacy_reported_precision_lower_bound": 0.2857142857142857,
+              "known_only_precision": 0.5161290322580645,
+              "strictly_above": 56,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 56.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 25.0
+            },
+            "64": {
+              "legacy_accepted": 51,
+              "legacy_tp": 12,
+              "legacy_known_accepted": 30,
+              "legacy_unknown_accepted": 21,
+              "legacy_reported_precision_lower_bound": 0.23529411764705882,
+              "known_only_precision": 0.4,
+              "strictly_above": 51,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 51.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 21.0
+            },
+            "65": {
+              "legacy_accepted": 35,
+              "legacy_tp": 7,
+              "legacy_known_accepted": 21,
+              "legacy_unknown_accepted": 14,
+              "legacy_reported_precision_lower_bound": 0.2,
+              "known_only_precision": 0.3333333333333333,
+              "strictly_above": 35,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 35.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 14.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 100,
+          "target_total": 500,
+          "tau": 0.6611365079879761,
+          "strictly_above_total": 499,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 500,
+          "legacy_macro_precision_lower_bound": 0.20567790722664547,
+          "legacy_macro_recall_known": 0.056339860268079266,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 160,
+              "legacy_tp": 16,
+              "legacy_known_accepted": 63,
+              "legacy_unknown_accepted": 97,
+              "legacy_reported_precision_lower_bound": 0.1,
+              "known_only_precision": 0.25396825396825395,
+              "strictly_above": 159,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 160.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 97.0
+            },
+            "32": {
+              "legacy_accepted": 72,
+              "legacy_tp": 20,
+              "legacy_known_accepted": 65,
+              "legacy_unknown_accepted": 7,
+              "legacy_reported_precision_lower_bound": 0.2777777777777778,
+              "known_only_precision": 0.3076923076923077,
+              "strictly_above": 72,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 72.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 7.0
+            },
+            "42": {
+              "legacy_accepted": 94,
+              "legacy_tp": 31,
+              "legacy_known_accepted": 52,
+              "legacy_unknown_accepted": 42,
+              "legacy_reported_precision_lower_bound": 0.32978723404255317,
+              "known_only_precision": 0.5961538461538461,
+              "strictly_above": 94,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 94.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 42.0
+            },
+            "64": {
+              "legacy_accepted": 88,
+              "legacy_tp": 18,
+              "legacy_known_accepted": 52,
+              "legacy_unknown_accepted": 36,
+              "legacy_reported_precision_lower_bound": 0.20454545454545456,
+              "known_only_precision": 0.34615384615384615,
+              "strictly_above": 88,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 88.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 36.0
+            },
+            "65": {
+              "legacy_accepted": 86,
+              "legacy_tp": 10,
+              "legacy_known_accepted": 47,
+              "legacy_unknown_accepted": 39,
+              "legacy_reported_precision_lower_bound": 0.11627906976744186,
+              "known_only_precision": 0.2127659574468085,
+              "strictly_above": 86,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 86.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 39.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 200,
+          "target_total": 1000,
+          "tau": 0.6241758465766907,
+          "strictly_above_total": 999,
+          "boundary_tie_total": 1,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 1.0,
+          "actual_legacy_total": 1000,
+          "legacy_macro_precision_lower_bound": 0.1952949201606629,
+          "legacy_macro_recall_known": 0.09452157978846587,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 376,
+              "legacy_tp": 44,
+              "legacy_known_accepted": 160,
+              "legacy_unknown_accepted": 216,
+              "legacy_reported_precision_lower_bound": 0.11702127659574468,
+              "known_only_precision": 0.275,
+              "strictly_above": 375,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 376.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 216.0
+            },
+            "32": {
+              "legacy_accepted": 115,
+              "legacy_tp": 31,
+              "legacy_known_accepted": 107,
+              "legacy_unknown_accepted": 8,
+              "legacy_reported_precision_lower_bound": 0.26956521739130435,
+              "known_only_precision": 0.2897196261682243,
+              "strictly_above": 115,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 115.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 8.0
+            },
+            "42": {
+              "legacy_accepted": 147,
+              "legacy_tp": 48,
+              "legacy_known_accepted": 81,
+              "legacy_unknown_accepted": 66,
+              "legacy_reported_precision_lower_bound": 0.32653061224489793,
+              "known_only_precision": 0.5925925925925926,
+              "strictly_above": 147,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 147.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 66.0
+            },
+            "64": {
+              "legacy_accepted": 173,
+              "legacy_tp": 30,
+              "legacy_known_accepted": 95,
+              "legacy_unknown_accepted": 78,
+              "legacy_reported_precision_lower_bound": 0.17341040462427745,
+              "known_only_precision": 0.3157894736842105,
+              "strictly_above": 173,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 173.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 78.0
+            },
+            "65": {
+              "legacy_accepted": 189,
+              "legacy_tp": 17,
+              "legacy_known_accepted": 84,
+              "legacy_unknown_accepted": 105,
+              "legacy_reported_precision_lower_bound": 0.08994708994708994,
+              "known_only_precision": 0.20238095238095238,
+              "strictly_above": 189,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 189.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 105.0
+            }
+          }
+        }
+      ],
+      "n_co_only": [
+        {
+          "nominal_N_per_pair": 5,
+          "target_total": 25,
+          "tau": 370.0,
+          "strictly_above_total": 12,
+          "boundary_tie_total": 31,
+          "needed_from_boundary_tie": 13,
+          "boundary_inclusion_fraction_for_exact_budget": 0.41935483870967744,
+          "actual_legacy_total": 43,
+          "legacy_macro_precision_lower_bound": 0.1857142857142857,
+          "legacy_macro_recall_known": 0.004571684455116338,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 0,
+              "legacy_tp": 0,
+              "legacy_known_accepted": 0,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.0,
+              "known_only_precision": null,
+              "strictly_above": 0,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 0.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 0,
+              "legacy_tp": 0,
+              "legacy_known_accepted": 0,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.0,
+              "known_only_precision": null,
+              "strictly_above": 0,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 0.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 6,
+              "legacy_tp": 2,
+              "legacy_known_accepted": 6,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.3333333333333333,
+              "known_only_precision": 0.3333333333333333,
+              "strictly_above": 6,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 6.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 7,
+              "legacy_tp": 3,
+              "legacy_known_accepted": 7,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.42857142857142855,
+              "known_only_precision": 0.42857142857142855,
+              "strictly_above": 6,
+              "boundary_ties": 1,
+              "exact_budget_uniform_tie_expected_accepted": 6.419354838709677,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 30,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 30,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.16666666666666666,
+              "known_only_precision": 0.16666666666666666,
+              "strictly_above": 0,
+              "boundary_ties": 30,
+              "exact_budget_uniform_tie_expected_accepted": 12.580645161290324,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 10,
+          "target_total": 50,
+          "tau": 368.0,
+          "strictly_above_total": 49,
+          "boundary_tie_total": 3,
+          "needed_from_boundary_tie": 1,
+          "boundary_inclusion_fraction_for_exact_budget": 0.3333333333333333,
+          "actual_legacy_total": 52,
+          "legacy_macro_precision_lower_bound": 0.1857142857142857,
+          "legacy_macro_recall_known": 0.005757604606309346,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 0,
+              "legacy_tp": 0,
+              "legacy_known_accepted": 0,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.0,
+              "known_only_precision": null,
+              "strictly_above": 0,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 0.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 0,
+              "legacy_tp": 0,
+              "legacy_known_accepted": 0,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.0,
+              "known_only_precision": null,
+              "strictly_above": 0,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 0.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 9,
+              "legacy_tp": 3,
+              "legacy_known_accepted": 9,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.3333333333333333,
+              "known_only_precision": 0.3333333333333333,
+              "strictly_above": 6,
+              "boundary_ties": 3,
+              "exact_budget_uniform_tie_expected_accepted": 7.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 7,
+              "legacy_tp": 3,
+              "legacy_known_accepted": 7,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.42857142857142855,
+              "known_only_precision": 0.42857142857142855,
+              "strictly_above": 7,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 7.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 36,
+              "legacy_tp": 6,
+              "legacy_known_accepted": 36,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.16666666666666666,
+              "known_only_precision": 0.16666666666666666,
+              "strictly_above": 36,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 36.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 20,
+          "target_total": 100,
+          "tau": 342.0,
+          "strictly_above_total": 97,
+          "boundary_tie_total": 4,
+          "needed_from_boundary_tie": 3,
+          "boundary_inclusion_fraction_for_exact_budget": 0.75,
+          "actual_legacy_total": 101,
+          "legacy_macro_precision_lower_bound": 0.1097716894977169,
+          "legacy_macro_recall_known": 0.005757604606309346,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 0,
+              "legacy_tp": 0,
+              "legacy_known_accepted": 0,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.0,
+              "known_only_precision": null,
+              "strictly_above": 0,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 0.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "32": {
+              "legacy_accepted": 0,
+              "legacy_tp": 0,
+              "legacy_known_accepted": 0,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.0,
+              "known_only_precision": null,
+              "strictly_above": 0,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 0.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 18,
+              "legacy_tp": 3,
+              "legacy_known_accepted": 18,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.16666666666666666,
+              "known_only_precision": 0.16666666666666666,
+              "strictly_above": 16,
+              "boundary_ties": 2,
+              "exact_budget_uniform_tie_expected_accepted": 17.5,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 10,
+              "legacy_tp": 3,
+              "legacy_known_accepted": 10,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.3,
+              "known_only_precision": 0.3,
+              "strictly_above": 10,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 10.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 73,
+              "legacy_tp": 6,
+              "legacy_known_accepted": 73,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.0821917808219178,
+              "known_only_precision": 0.0821917808219178,
+              "strictly_above": 71,
+              "boundary_ties": 2,
+              "exact_budget_uniform_tie_expected_accepted": 72.5,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 50,
+          "target_total": 250,
+          "tau": 307.0,
+          "strictly_above_total": 242,
+          "boundary_tie_total": 13,
+          "needed_from_boundary_tie": 8,
+          "boundary_inclusion_fraction_for_exact_budget": 0.6153846153846154,
+          "actual_legacy_total": 255,
+          "legacy_macro_precision_lower_bound": 0.13285861713106295,
+          "legacy_macro_recall_known": 0.008843350717860275,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 24,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 20,
+              "legacy_unknown_accepted": 4,
+              "legacy_reported_precision_lower_bound": 0.16666666666666666,
+              "known_only_precision": 0.2,
+              "strictly_above": 24,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 24.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 4.0
+            },
+            "32": {
+              "legacy_accepted": 0,
+              "legacy_tp": 0,
+              "legacy_known_accepted": 0,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.0,
+              "known_only_precision": null,
+              "strictly_above": 0,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 0.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "42": {
+              "legacy_accepted": 24,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 24,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.16666666666666666,
+              "known_only_precision": 0.16666666666666666,
+              "strictly_above": 20,
+              "boundary_ties": 4,
+              "exact_budget_uniform_tie_expected_accepted": 22.46153846153846,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 17,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 17,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.29411764705882354,
+              "known_only_precision": 0.29411764705882354,
+              "strictly_above": 17,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 17.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 190,
+              "legacy_tp": 7,
+              "legacy_known_accepted": 162,
+              "legacy_unknown_accepted": 28,
+              "legacy_reported_precision_lower_bound": 0.03684210526315789,
+              "known_only_precision": 0.043209876543209874,
+              "strictly_above": 181,
+              "boundary_ties": 9,
+              "exact_budget_uniform_tie_expected_accepted": 186.53846153846155,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 24.923076923076923
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 100,
+          "target_total": 500,
+          "tau": 292.0,
+          "strictly_above_total": 495,
+          "boundary_tie_total": 7,
+          "needed_from_boundary_tie": 5,
+          "boundary_inclusion_fraction_for_exact_budget": 0.7142857142857143,
+          "actual_legacy_total": 502,
+          "legacy_macro_precision_lower_bound": 0.13651747958970065,
+          "legacy_macro_recall_known": 0.01693726483587078,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 24,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 20,
+              "legacy_unknown_accepted": 4,
+              "legacy_reported_precision_lower_bound": 0.16666666666666666,
+              "known_only_precision": 0.2,
+              "strictly_above": 24,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 24.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 4.0
+            },
+            "32": {
+              "legacy_accepted": 150,
+              "legacy_tp": 9,
+              "legacy_known_accepted": 145,
+              "legacy_unknown_accepted": 5,
+              "legacy_reported_precision_lower_bound": 0.06,
+              "known_only_precision": 0.06206896551724138,
+              "strictly_above": 150,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 150.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 5.0
+            },
+            "42": {
+              "legacy_accepted": 30,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 30,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.13333333333333333,
+              "known_only_precision": 0.13333333333333333,
+              "strictly_above": 30,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 30.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 17,
+              "legacy_tp": 5,
+              "legacy_known_accepted": 17,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.29411764705882354,
+              "known_only_precision": 0.29411764705882354,
+              "strictly_above": 17,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 17.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 281,
+              "legacy_tp": 8,
+              "legacy_known_accepted": 248,
+              "legacy_unknown_accepted": 33,
+              "legacy_reported_precision_lower_bound": 0.028469750889679714,
+              "known_only_precision": 0.03225806451612903,
+              "strictly_above": 274,
+              "boundary_ties": 7,
+              "exact_budget_uniform_tie_expected_accepted": 279.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 32.714285714285715
+            }
+          }
+        },
+        {
+          "nominal_N_per_pair": 200,
+          "target_total": 1000,
+          "tau": 257.0,
+          "strictly_above_total": 986,
+          "boundary_tie_total": 18,
+          "needed_from_boundary_tie": 14,
+          "boundary_inclusion_fraction_for_exact_budget": 0.7777777777777778,
+          "actual_legacy_total": 1004,
+          "legacy_macro_precision_lower_bound": 0.09285442810646252,
+          "legacy_macro_recall_known": 0.02527220609569859,
+          "per_pair": {
+            "27": {
+              "legacy_accepted": 116,
+              "legacy_tp": 4,
+              "legacy_known_accepted": 112,
+              "legacy_unknown_accepted": 4,
+              "legacy_reported_precision_lower_bound": 0.034482758620689655,
+              "known_only_precision": 0.03571428571428571,
+              "strictly_above": 108,
+              "boundary_ties": 8,
+              "exact_budget_uniform_tie_expected_accepted": 114.22222222222223,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 4.0
+            },
+            "32": {
+              "legacy_accepted": 228,
+              "legacy_tp": 12,
+              "legacy_known_accepted": 214,
+              "legacy_unknown_accepted": 14,
+              "legacy_reported_precision_lower_bound": 0.05263157894736842,
+              "known_only_precision": 0.056074766355140186,
+              "strictly_above": 228,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 228.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 14.0
+            },
+            "42": {
+              "legacy_accepted": 74,
+              "legacy_tp": 10,
+              "legacy_known_accepted": 74,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.13513513513513514,
+              "known_only_precision": 0.13513513513513514,
+              "strictly_above": 72,
+              "boundary_ties": 2,
+              "exact_budget_uniform_tie_expected_accepted": 73.55555555555556,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "64": {
+              "legacy_accepted": 31,
+              "legacy_tp": 7,
+              "legacy_known_accepted": 31,
+              "legacy_unknown_accepted": 0,
+              "legacy_reported_precision_lower_bound": 0.22580645161290322,
+              "known_only_precision": 0.22580645161290322,
+              "strictly_above": 31,
+              "boundary_ties": 0,
+              "exact_budget_uniform_tie_expected_accepted": 31.0,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 0.0
+            },
+            "65": {
+              "legacy_accepted": 555,
+              "legacy_tp": 9,
+              "legacy_known_accepted": 481,
+              "legacy_unknown_accepted": 74,
+              "legacy_reported_precision_lower_bound": 0.016216216216216217,
+              "known_only_precision": 0.018711018711018712,
+              "strictly_above": 547,
+              "boundary_ties": 8,
+              "exact_budget_uniform_tie_expected_accepted": 553.2222222222222,
+              "exact_budget_uniform_tie_expected_unknown_accepted": 73.55555555555556
+            }
+          }
+        }
+      ]
+    },
+    "original_nontrained_arm_reproduction": {
+      "cnt_ge0.7": {
+        "precision_max_abs_error": 0.0,
+        "recall_max_abs_error": 0.0
+      },
+      "host_maxcos": {
+        "precision_max_abs_error": 0.0,
+        "recall_max_abs_error": 0.0
+      },
+      "mean_cos": {
+        "precision_max_abs_error": 0.0,
+        "recall_max_abs_error": 0.0
+      },
+      "n_co_only": {
+        "precision_max_abs_error": 0.0,
+        "recall_max_abs_error": 0.0
+      }
+    },
+    "reported_cosine_geometry_minus_cosine_only_precision_pp": [
+      3.857142857142848,
+      4.759721702446152,
+      2.784983406500441,
+      4.859984504801579,
+      3.7089726840706105,
+      1.1049837904420379
+    ],
+    "calibration_track_label_purity_totals": {
+      "tracks": 10466,
+      "known_tracks": 5405,
+      "mixed_pid_tracks": 181,
+      "vote_ties": 22,
+      "majority_purity_below_0p9": 149,
+      "unknown_rows_in_majority_labeled_tracks": 6012,
+      "present_rows_in_majority_labeled_tracks": 163389,
+      "multi_class_majority_labeled_tracks": 18
+    },
+    "calibration_track_label_purity_per_pair_view": {
+      "27": {
+        "1": {
+          "tracks": 1060,
+          "known_tracks": 433,
+          "mixed_pid_tracks": 40,
+          "vote_ties": 0,
+          "majority_purity_below_0p9": 27,
+          "unknown_rows_in_majority_labeled_tracks": 1109,
+          "present_rows_in_majority_labeled_tracks": 21001,
+          "multi_class_majority_labeled_tracks": 3,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/27-1.npz",
+              "sha256": "d509fce60295838bab42483dc8c05acdaf3c67a09be03c5af001d593d13e1d20"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/27-1.npz",
+              "sha256": "b4d4c4e92cb271fdb64c79c47df3642fd2dad4dc370f4b2d5899dece00fcdc82"
+            }
+          ]
+        },
+        "2": {
+          "tracks": 1192,
+          "known_tracks": 487,
+          "mixed_pid_tracks": 8,
+          "vote_ties": 6,
+          "majority_purity_below_0p9": 8,
+          "unknown_rows_in_majority_labeled_tracks": 592,
+          "present_rows_in_majority_labeled_tracks": 12877,
+          "multi_class_majority_labeled_tracks": 4,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/27-2.npz",
+              "sha256": "1a9b56ac3fa958b86b97b6221dbde64aa83dfd503955bf11b13cac7404c906a3"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/27-2.npz",
+              "sha256": "89467e2f4544ee17164880ea955de9412ee537ebe9082999e5b8d50e7cf14989"
+            }
+          ]
+        }
+      },
+      "32": {
+        "1": {
+          "tracks": 830,
+          "known_tracks": 500,
+          "mixed_pid_tracks": 0,
+          "vote_ties": 0,
+          "majority_purity_below_0p9": 0,
+          "unknown_rows_in_majority_labeled_tracks": 62,
+          "present_rows_in_majority_labeled_tracks": 14071,
+          "multi_class_majority_labeled_tracks": 0,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/32-1.npz",
+              "sha256": "2ef091468547db7a175e7cd634c4ca1900bd1579655124f0caf20dd377d0bb3b"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/32-1.npz",
+              "sha256": "f8ef6ed37c34be2cdb763ac99b3590e70877e2382dc37ba220ea15ee3dfebde8"
+            }
+          ]
+        },
+        "2": {
+          "tracks": 196,
+          "known_tracks": 128,
+          "mixed_pid_tracks": 2,
+          "vote_ties": 0,
+          "majority_purity_below_0p9": 2,
+          "unknown_rows_in_majority_labeled_tracks": 126,
+          "present_rows_in_majority_labeled_tracks": 17860,
+          "multi_class_majority_labeled_tracks": 1,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/32-2.npz",
+              "sha256": "d07bb617a1718b971b34c01113d5f8f21107e3631ac9235bc8a7b813f23dac09"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/32-2.npz",
+              "sha256": "2a7ed85c3e0de1ea0e597b1fa2c8dac88adf7c770c15f106f2546933ef391330"
+            }
+          ]
+        }
+      },
+      "42": {
+        "1": {
+          "tracks": 292,
+          "known_tracks": 119,
+          "mixed_pid_tracks": 5,
+          "vote_ties": 1,
+          "majority_purity_below_0p9": 4,
+          "unknown_rows_in_majority_labeled_tracks": 421,
+          "present_rows_in_majority_labeled_tracks": 14226,
+          "multi_class_majority_labeled_tracks": 0,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/42-1.npz",
+              "sha256": "3669a090a0d080e5a952360d154ad697f8e211e6eb3183ffc8c98ed9746ea475"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/42-1.npz",
+              "sha256": "79b0ab26c0e8dc6c35103bc63b8e4bed421f5d613c78afa22ab544cecbf2dfb5"
+            }
+          ]
+        },
+        "2": {
+          "tracks": 647,
+          "known_tracks": 363,
+          "mixed_pid_tracks": 2,
+          "vote_ties": 0,
+          "majority_purity_below_0p9": 0,
+          "unknown_rows_in_majority_labeled_tracks": 180,
+          "present_rows_in_majority_labeled_tracks": 15164,
+          "multi_class_majority_labeled_tracks": 1,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/42-2.npz",
+              "sha256": "b3dcf572ec29e2e20f6a93298f32a62ee6f4b60a0e341ac8bf4ac2ff41ae636a"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/42-2.npz",
+              "sha256": "6647332feaad8cf23885153e07fb840299aebade8de1acf0f2b1129c9aff2435"
+            }
+          ]
+        }
+      },
+      "64": {
+        "1": {
+          "tracks": 1282,
+          "known_tracks": 669,
+          "mixed_pid_tracks": 10,
+          "vote_ties": 2,
+          "majority_purity_below_0p9": 6,
+          "unknown_rows_in_majority_labeled_tracks": 749,
+          "present_rows_in_majority_labeled_tracks": 10506,
+          "multi_class_majority_labeled_tracks": 0,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/64-1.npz",
+              "sha256": "93ed8fe12858f18771693db1f8d3efece61422f4f88a1adc40b913cecf9ac35a"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/64-1.npz",
+              "sha256": "d29f14abb718c3e03b7ebb4463517fb30137357f53fcb8603901acbdecb793d9"
+            }
+          ]
+        },
+        "2": {
+          "tracks": 660,
+          "known_tracks": 344,
+          "mixed_pid_tracks": 0,
+          "vote_ties": 0,
+          "majority_purity_below_0p9": 0,
+          "unknown_rows_in_majority_labeled_tracks": 645,
+          "present_rows_in_majority_labeled_tracks": 11720,
+          "multi_class_majority_labeled_tracks": 2,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/64-2.npz",
+              "sha256": "5015a15e8232bbd675b7ad787d6abea4396e5efada6d4a3806927bcbda3e9d97"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/64-2.npz",
+              "sha256": "5f28908df81799341eee5ce37a5162681fa1434bfea86fad6543e148eaf1870e"
+            }
+          ]
+        }
+      },
+      "65": {
+        "1": {
+          "tracks": 2285,
+          "known_tracks": 779,
+          "mixed_pid_tracks": 5,
+          "vote_ties": 1,
+          "majority_purity_below_0p9": 3,
+          "unknown_rows_in_majority_labeled_tracks": 573,
+          "present_rows_in_majority_labeled_tracks": 13129,
+          "multi_class_majority_labeled_tracks": 0,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/65-1.npz",
+              "sha256": "acddd4ce00e834d7e247a28072607eb9ecfcbac8f51e65f634fdcf7b7f036fad"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/65-1.npz",
+              "sha256": "8a4b4d830b11375c054fc818b191e74f6f3647520e08fe7d5125d30a4da9e259"
+            }
+          ]
+        },
+        "2": {
+          "tracks": 2022,
+          "known_tracks": 1583,
+          "mixed_pid_tracks": 109,
+          "vote_ties": 12,
+          "majority_purity_below_0p9": 99,
+          "unknown_rows_in_majority_labeled_tracks": 1555,
+          "present_rows_in_majority_labeled_tracks": 32835,
+          "multi_class_majority_labeled_tracks": 7,
+          "sources": [
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/65-2.npz",
+              "sha256": "78b542cea3535c2e6d0f5bf68561db4e3d462f45c2a316ec397bea0476052033"
+            },
+            {
+              "path": "/home/chenhc/mdmot_research_20261002/p2/cache/labels/65-2.npz",
+              "sha256": "1136e9c853fa5ee0d3fecacaf3bdb41ff91e3cbc892d4812eb59497520ea9928"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "source_evidence": {
+    "motion_placeholder": {
+      "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/build_tracklet_geometry.py",
+      "sha256": "1a6bba112f92fddbda53c1d9644769cc5fcdfb46865364bb02098f390a413e29",
+      "line_start": 69,
+      "line_end": 90,
+      "excerpt": "                        # n_co, sum_cos, max_cos, ge..., last_frame,\n                        # ratio_sum, ratio_sq, dx_sum, dx_sq, dy_sum, dy_sq,\n                        # speed_l_sum, speed_r_sum, n_step, gap_sum, gap_sq\n                        s = stats[k] = [0, 0.0, -2.0] + [0] * len(GRID) + [0] + [0.0] * 6 + [0.0, 0.0, 0, 0.0, 0.0]\n                    s[0] += 1\n                    s[1] += e\n                    s[2] = max(s[2], e)\n                    for gi, g in enumerate(GRID):\n                        if e >= g:\n                            s[3 + gi] += 1\n                    r = sa / sb\n                    s[9] += r\n                    s[10] += r * r\n                    sc = (sa + sb) / 2.0\n                    dx, dy = (ca[0] - cb[0]) / sc, (ca[1] - cb[1]) / sc\n                    s[11] += dx; s[12] += dx * dx; s[13] += dy; s[14] += dy * dy\n                    idx = s[8]\n                    if idx > 0 and t == s[8] + 1:\n                        pass\n                    s[17] += 1\n                    s[18] += abs(r - 1.0)\n                    s[8] = t"
+    },
+    "raw_unregistered_coordinate_difference": {
+      "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/build_tracklet_geometry.py",
+      "sha256": "1a6bba112f92fddbda53c1d9644769cc5fcdfb46865364bb02098f390a413e29",
+      "line_start": 79,
+      "line_end": 84,
+      "excerpt": "                    r = sa / sb\n                    s[9] += r\n                    s[10] += r * r\n                    sc = (sa + sb) / 2.0\n                    dx, dy = (ca[0] - cb[0]) / sc, (ca[1] - cb[1]) / sc\n                    s[11] += dx; s[12] += dx * dx; s[13] += dy; s[14] += dy * dy"
+    },
+    "whole_sequence_loop_and_majority_votes": {
+      "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/build_tracklet_geometry.py",
+      "sha256": "1a6bba112f92fddbda53c1d9644769cc5fcdfb46865364bb02098f390a413e29",
+      "line_start": 31,
+      "line_end": 50,
+      "excerpt": "def build(pair):\n    d = PairData(pair, with_labels=True)\n    stats, votes = {}, {}\n    tl = {}  # (view, local) -> [first, last, n_present]\n    for t in range(1, d.frames + 1):\n        f = d.frame(t)\n        emb, view, cls, pid = f['emb'], f['view'], f['cls'], f['pid']\n        bbox = np.array([r['bbox'] for r in f['rows']], dtype=np.float64)\n        local = np.array([r['local_track_id_index'] for r in f['rows']], dtype=np.int64)\n        present = np.array([r['feature_present'] for r in f['rows']], dtype=bool)\n        for v in (0, 1):\n            for li in local[(view == v) & present]:\n                e = tl.setdefault((v, int(li)), [t, t, 0])\n                e[1] = t\n                e[2] += 1\n        for v in (0, 1):\n            m = present & (view == v) & (pid >= 0)\n            for li, pi in zip(local[m], pid[m]):\n                votes.setdefault((v, int(li)), {})\n                votes[(v, int(li))][int(pi)] = votes[(v, int(li))].get(int(pi), 0) + 1"
+    },
+    "majority_labels_and_future_extent": {
+      "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/build_tracklet_geometry.py",
+      "sha256": "1a6bba112f92fddbda53c1d9644769cc5fcdfb46865364bb02098f390a413e29",
+      "line_start": 94,
+      "line_end": 115,
+      "excerpt": "    doc = {k: max(v, key=v.get) for k, v in votes.items()}\n    arr = np.array([stats[k] for k in keys], dtype=np.float64)\n    kl = np.array([k[0] for k in keys], dtype=np.int64)\n    kr = np.array([k[1] for k in keys], dtype=np.int64)\n    kc = np.array([k[2] for k in keys], dtype=np.int64)\n    pl = np.array([doc.get((0, int(a)), -1) for a in kl], dtype=np.int64)\n    pr = np.array([doc.get((1, int(b)), -1) for b in kr], dtype=np.int64)\n    known = (pl >= 0) & (pr >= 0)\n    y = (known & (pl == pr)).astype(np.uint8)\n    first_l = np.array([tl.get((0, int(a)), [0, 0, 0])[0] for a in kl], np.float64)\n    last_l = np.array([tl.get((0, int(a)), [0, 0, 0])[1] for a in kl], np.float64)\n    n_l = np.array([tl.get((0, int(a)), [0, 0, 0])[2] for a in kl], np.float64)\n    first_r = np.array([tl.get((1, int(b)), [0, 0, 0])[0] for b in kr], np.float64)\n    last_r = np.array([tl.get((1, int(b)), [0, 0, 0])[1] for b in kr], np.float64)\n    n_r = np.array([tl.get((1, int(b)), [0, 0, 0])[2] for b in kr], np.float64)\n    return {'n_co': arr[:, 0], 'sum_cos': arr[:, 1], 'max_cos': arr[:, 2], 'ge': arr[:, 3:8],\n            'last_co_frame': arr[:, 8], 'ratio_sum': arr[:, 9], 'ratio_sq': arr[:, 10],\n            'dx_sum': arr[:, 11], 'dx_sq': arr[:, 12], 'dy_sum': arr[:, 13], 'dy_sq': arr[:, 14],\n            'absdrift_sum': arr[:, 18],\n            'first_l': first_l, 'last_l': last_l, 'n_l': n_l,\n            'first_r': first_r, 'last_r': last_r, 'n_r': n_r,\n            'class': kc, 'known': known.astype(np.uint8), 'y': y}"
+    },
+    "feature_definition": {
+      "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/p19a_screen.py",
+      "sha256": "b92c294f8f56a06121555d871afa06a01aa217eeb3c168b3eb4b5ab7c3b9d9c2",
+      "line_start": 34,
+      "line_end": 52,
+      "excerpt": "def geo_feats(d):\n    n = np.maximum(d['n_co'], 1.0)\n    nl = np.maximum(d['n_l'], 1.0)\n    nr = np.maximum(d['n_r'], 1.0)\n    span_l = np.maximum(d['last_l'] - d['first_l'] + 1, 1.0)\n    span_r = np.maximum(d['last_r'] - d['first_r'] + 1, 1.0)\n    span_min = np.minimum(span_l, span_r)\n    overlap = np.maximum(np.minimum(d['last_l'], d['last_r']) - np.maximum(d['first_l'], d['first_r']) + 1, 0.0)\n    ratio_mean = d['ratio_sum'] / n\n    ratio_var = np.maximum(d['ratio_sq'] / n - ratio_mean ** 2, 0.0)\n    dx_mean = d['dx_sum'] / n\n    dx_var = np.maximum(d['dx_sq'] / n - dx_mean ** 2, 0.0)\n    dy_mean = d['dy_sum'] / n\n    dy_var = np.maximum(d['dy_sq'] / n - dy_mean ** 2, 0.0)\n    cols = [d['n_co'], d['n_co'] / nl, d['n_co'] / nr, span_l, span_r, span_min,\n            overlap / span_min, d['last_co_frame'], ratio_mean, np.sqrt(ratio_var) / np.maximum(ratio_mean, 1e-6),\n            dx_mean, np.sqrt(dx_var), dy_mean, np.sqrt(dy_var), d['absdrift_sum'] / n,\n            d['class']]\n    return np.stack(cols, 1).astype(np.float32)"
+    },
+    "threshold_tie_policy": {
+      "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/p19a_screen.py",
+      "sha256": "b92c294f8f56a06121555d871afa06a01aa217eeb3c168b3eb4b5ab7c3b9d9c2",
+      "line_start": 55,
+      "line_end": 59,
+      "excerpt": "def tau_for(s, n_target):\n    s = np.sort(s)[::-1]\n    if n_target >= len(s):\n        return float(s[-1]) - 1e-9\n    return float(s[n_target - 1])"
+    },
+    "unknown_denominator": {
+      "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/p19a_screen.py",
+      "sha256": "b92c294f8f56a06121555d871afa06a01aa217eeb3c168b3eb4b5ab7c3b9d9c2",
+      "line_start": 99,
+      "line_end": 109,
+      "excerpt": "    for nm in names:\n        precs, recs = [], []\n        for N in NS:\n            tau = tau_for(pooled[nm], N * len(cal))\n            pr, rc = [], []\n            for p in cal:\n                d = cal[p]; acc = d['scores'][nm] >= tau\n                tp = int((acc & d['k'] & (d['y'] == 1)).sum())\n                pr.append(tp / max(int(acc.sum()), 1)); rc.append(tp / max(int((d['k'] & (d['y'] == 1)).sum()), 1))\n            precs.append(float(np.mean(pr))); recs.append(float(np.mean(rc)))\n        out['curve'][nm] = {'precision': precs, 'recall': recs}"
+    },
+    "cached_without_source_fingerprint": {
+      "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/build_tracklet_geometry.py",
+      "sha256": "1a6bba112f92fddbda53c1d9644769cc5fcdfb46865364bb02098f390a413e29",
+      "line_start": 118,
+      "line_end": 129,
+      "excerpt": "def main():\n    s = split_assignments()\n    OUT.mkdir(parents=True, exist_ok=True)\n    for role in ('fit', 'calibration'):\n        for pair in sorted(s[role], key=int):\n            p = OUT / ('%s_%s.npz' % (role, pair))\n            if p.exists():\n                print(json.dumps({'pair': pair, 'cached': True})); continue\n            r = build(pair)\n            if r is None:\n                print(json.dumps({'pair': pair, 'empty': True})); continue\n            np.savez(p, grid=np.array(GRID), **r)"
+    },
+    "linear_pooled_fit": {
+      "path": "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/p19a_screen.py",
+      "sha256": "b92c294f8f56a06121555d871afa06a01aa217eeb3c168b3eb4b5ab7c3b9d9c2",
+      "line_start": 64,
+      "line_end": 78,
+      "excerpt": "    Xf_c, Xf_g, yf, kf = [], [], [], []\n    for p in sorted(s['fit'], key=int):\n        d = load('fit', p)\n        Xf_c.append(cos_feats(d)); Xf_g.append(geo_feats(d))\n        yf.append(d['y'].astype(np.int64)); kf.append(d['known'].astype(bool))\n    Xf_c, Xf_g = np.concatenate(Xf_c), np.concatenate(Xf_g)\n    yf, kf = np.concatenate(yf), np.concatenate(kf)\n    scg = StandardScaler().fit(Xf_g[kf])\n    scc = StandardScaler().fit(Xf_c[kf])\n    sccg = StandardScaler().fit(np.concatenate([Xf_c[kf], Xf_g[kf]], 1))\n    clf_c = LogisticRegression(C=1.0, max_iter=400, class_weight='balanced').fit(scc.transform(Xf_c[kf]), yf[kf])\n    clf_g = LogisticRegression(C=1.0, max_iter=600, class_weight='balanced').fit(scg.transform(Xf_g[kf]), yf[kf])\n    clf_cg = LogisticRegression(C=1.0, max_iter=600, class_weight='balanced').fit(sccg.transform(np.concatenate([Xf_c[kf], Xf_g[kf]], 1)), yf[kf])\n    rng = np.random.default_rng(42); ys = yf[kf].copy(); rng.shuffle(ys)\n    clf_p = LogisticRegression(C=1.0, max_iter=600, class_weight='balanced').fit(sccg.transform(np.concatenate([Xf_c[kf], Xf_g[kf]], 1)), ys)"
+    },
+    "declared_unknown_policy": {
+      "path": "/home/chenhc/mdmot_research_20261002/p0/data/ASSOCIATION_DIAGNOSTIC_SPLIT.json",
+      "sha256": "7fd620378f79d99bbf1346d47a07ffea5b733bf915cf22481498b9f5c7b4771f",
+      "line_start": 89,
+      "line_end": 91,
+      "excerpt": "  \"training_executed_in_p0\": false,\n  \"unknown_policy\": \"mask conflict/unsupported/ambiguous/unmapped identities; never force unknown to negative/no-match/new; keep observation counts and report coverage\",\n  \"whole_system_unseen_scene_claim_allowed\": false"
+    },
+    "split_and_identity_truth_boundary": {
+      "path": "/home/chenhc/mdmot_research_20261002/p0/data/ASSOCIATION_DIAGNOSTIC_SPLIT.json",
+      "sha256": "7fd620378f79d99bbf1346d47a07ffea5b733bf915cf22481498b9f5c7b4771f",
+      "line_start": 35,
+      "line_end": 50,
+      "excerpt": "  \"atomic_unit\": \"complete pair including both views and all its frames; no crop/frame/random-ID splitting\",\n  \"calibration_allowed\": \"choose declared no-match/score settings on calibration only; no fitting encoder/decoder weights\",\n  \"dev_allowed\": \"evaluate the declared mechanism and complete-output gate; no gradient updates, threshold fitting, or detector refit\",\n  \"fit_allowed\": \"learn only the new association/identity module parameters from fit pairs\",\n  \"frozen_detector_exposure\": \"FULL_MDMT train checkpoint/config lineage; calibration/dev cannot be called unseen to the detector without further provenance.\",\n  \"gt_use\": \"full fit GT may define offline pseudo identity supervision; prediction path remains GT-free and respects declared time boundary\",\n  \"history\": \"All 25 pairs were previously analyzed; isolation is for this newly fitted association module only.\",\n  \"label_mode\": \"same_label_equal_id\",\n  \"label_truth_level\": \"pseudo-pair evaluator convention, not verified physical global identity\",\n  \"ordering\": \"ascending SHA256(UTF8(seed + NUL + pair)); first 15 fit, next 5 calibration, last 5 dev\",\n  \"physical_global_id_verified\": false,\n  \"restricted_diagnostic_branch_authorized\": true,\n  \"scene_independence_verified\": false,\n  \"schema\": \"mdmt_association_diagnostic_split_v1\",\n  \"seed\": \"mdmt_p0_association_diagnostic_seed42\",\n  \"status\": \"FROZEN_FOR_RESTRICTED_ASSOCIATION_DIAGNOSTIC\","
+    }
+  },
+  "interpretations": [
+    "Motion updating is a pass statement. absdrift_sum equals accumulated abs(scale_ratio - 1), not target or camera motion.",
+    "Raw cross-view center subtraction is not calibrated geometry; no camera compensation or shared coordinate mapping is implemented.",
+    "All six reported cosine_geometry macro precision values exceed cosine_only, but this is not proof of useful conditional information or online gain because per-pair coverage and recall differ and uncertainty was not assessed.",
+    "Legacy precision counts unknown accepted candidates in the denominator. Interpret it as a conservative lower bound unless unknown negatives are verified; known precision and unknown acceptance must be reported separately.",
+    "The count score N=200 accepts the complete calibration pool because kth score is zero; its recall=1 is not matched-coverage evidence.",
+    "Whole-sequence features and majority labels are legitimate for a declared retrospective task but cannot support prefix-only online claims. No direct PID feature input or fit/cal pair overlap was found.",
+    "Known-vote majorities ignore purity and ties; their meaning is whole-track majority-label compatibility, not instantaneous identity truth or verified physical cross-view identity.",
+    "The split is internal official-train diagnostic isolation, with scene independence and physical global identities unverified. It is not untouched whole-system generalization.",
+    "Most candidate tracklet pairs, including most positive pairs, have only one co-observation. No conclusion about multi-step target motion follows.",
+    "P19_PREREG.json describes a memory-threshold sweep, not this geometry screen.",
+    "Exact-budget uniform boundary sampling quantities above are expected counts only. They are not new model scores, expected macro precision, or evidence of improved tracking.",
+    "P17/P18 tracklet builder and coverage curve share the majority-label and threshold-tie conventions; concerns are inherited rather than uniquely created by P19."
+  ],
+  "retracted_prior_recommendation": {
+    "reason": "The proposed four-observation patch path gate was already executed in P10; the earlier suggestion mistakenly relied on a stale source assessment.",
+    "source": "/home/chenhc/mdmot_research_20261002/p10_falsification/DECISION.json",
+    "source_sha256": "876e862fbe3985c3ec136b7cab60694dae9266148cc1e72a1246db0118db613f",
+    "decision": "REJECT_PATH_CONSISTENCY_TEMPORAL_TRANSPORT_V1",
+    "cal5_pair_macro": {
+      "disc_baseline": 0.6682752013206482,
+      "disc_temporal": 0.5738783717155457,
+      "disc_temporal_wrong": 0.20258018672466277,
+      "lift_temporal_minus_baseline": -0.09439682960510254,
+      "pairs_temporal_gt_baseline": 0
+    },
+    "implementation_findings": [
+      "Fixed shared-buffer aliasing (base_t/base_d and temp_* were the same np.zeros array); before the fix every arm reported identical scores.",
+      "Fixed P1 normalization to P4 semantics (unit over common-support rows only); a calibration pair contains a zero/nonzero-invalid row that crashed the full-array normalization.",
+      "Determinism: three independent fit5 passes (including across script revisions) produced bit-identical aggregates."
+    ],
+    "do_not_repeat": "Do not relaunch patch route overlap / partial transport / wrong-history gating or entropy-temperature-null-bin-threshold rescue as an untested axis.",
+    "runner_read_but_not_rerun": "/home/chenhc/mdmot_research_20261002/p10_falsification/run_minimal_falsification_v1.py"
+  },
+  "bounded_next_direction": "See NEW_DIRECTION.md: only assess observability of target motion after causal camera-motion removal with target-excluded local differential transfer; no method or novelty claim.",
+  "verification": {
+    "historical_sources_unchanged_during_audit": true,
+    "source_file_count": 50,
+    "historical_source_sha256": {
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_23.npz": "529a0f0ef820d300edff581791387469e03bd2f6ab9b8d87ed5963bf837d1094",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_25.npz": "bffa48f4493bafd63df2b22790becdab0397721b2649a334104e59f2276d8509",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_28.npz": "674a709a377cd49bf91a709f39a6c35bb774e614a75f8b789b35b2749eb09dea",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_29.npz": "00087a7cc5ce05c6db4beae86bd0ca3aa2356adf341345850535fe9bb8e9bf65",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_39.npz": "2e22d4976da6c4e2740032c6939bce1646c58d73c6e6f2d4bcab55150e9766bc",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_44.npz": "8495741fe4a88b30755705fb30ca1b53cc7e2eff7b237232040f5731431ec641",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_45.npz": "1a4374ed4a799d124e1620dd2dc23b2164d6059eabd446f8edcd254050541b74",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_51.npz": "42ea17951dcc85c51b296951f37e2eb841330120e1c16865712e5246165b4baf",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_53.npz": "f8f54f5e5a3c0b08170a154bfe0eb809b8411316d415a43d955eef16d03501c2",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_63.npz": "f3d7e8acb799a18112510ff64ca6cdfa3db5c9e2be4792c8ea19d1ad2f58af06",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_66.npz": "e4684414662a44002e142700c8b2438195c17b2214a72fa5f6b80d9798e2ea7f",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_69.npz": "da8b0889d4085db21b40d9918cc8f5f0d58f0306e0b5888432be3018a9a1adce",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_70.npz": "02016bd8eec0a3a543bc07898d14a16703f14dd89398182d975eef21f654ddfa",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_74.npz": "e59a09196e8ee04728ff5d2ba28d9210bd4e2ce4d22c0546b501d816ea43b56a",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/fit_78.npz": "aea0a2f7a028d6e224720e8ad2d8d08dbbef01dd50c12819ae185476a7cfba60",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/calibration_27.npz": "04b58d2efbb408c2c114ef6da905784004a7b977b8919e07cd88e9f13af3d862",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/calibration_32.npz": "a270b9a829d19a1ce9b4157f4df821cef4287d170e96e4bdf56df24e02104d3e",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/calibration_42.npz": "4b48c56b61cb29371e8f74c36134a86050b4ad26830cb5543979c886735581f0",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/calibration_64.npz": "f5bcf95fcc7962f1066596b25b2b86de93a95f688af102136857d72fc3b40a6f",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/tracklet_geometry/calibration_65.npz": "fe43d5366ef85906c86abc69a14674bb6eda7c398a86ed7beaee3857677ce92f",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/build_tracklet_geometry.py": "1a6bba112f92fddbda53c1d9644769cc5fcdfb46865364bb02098f390a413e29",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/p19a_screen.py": "b92c294f8f56a06121555d871afa06a01aa217eeb3c168b3eb4b5ab7c3b9d9c2",
+      "/home/chenhc/mdmot_research_20261002/p0/data/ASSOCIATION_DIAGNOSTIC_SPLIT.json": "7fd620378f79d99bbf1346d47a07ffea5b733bf915cf22481498b9f5c7b4771f",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/P19A_SCREEN.json": "0999b9ac9e99953735964fc4b8ddcfa752b83de84960a9800b119f05d80e4449",
+      "/home/chenhc/mdmot_research_20261002/p10_falsification/DECISION.json": "876e862fbe3985c3ec136b7cab60694dae9266148cc1e72a1246db0118db613f",
+      "/home/chenhc/mdmot_research_20261002/p19_merge_geometry/P19_PREREG.json": "a2f601723149e021c292afed4dcec239c8d0c34a71bac74cd5f71b97c2119eb0",
+      "/home/chenhc/mdmot_research_20261002/p10_falsification/run_minimal_falsification_v1.py": "ae2ccd796f75b4ec9c852773b1486cac89980bc61066e608ec198d16d5adcc9d",
+      "/home/chenhc/mdmot_research_20261002/p17_link_verifier/build_tracklet_pairs.py": "0890fbae62cc6c5f4ba681b681b22615db2106be5d5cb684980a7f2d7b8149ed",
+      "/home/chenhc/mdmot_research_20261002/p18_merge_verifier/coverage_curve.py": "971284d3e4a2f048511776d2cb369b6ea8bff549310d8b3d534b14eb3127e172",
+      "/home/chenhc/mdmot_research_20261002/p2/src/data.py": "98ebdcee3c7e4b322acaedd1dc1c388c08b351ccb00604f44e0a77399e866a04",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/27-1.npz": "d509fce60295838bab42483dc8c05acdaf3c67a09be03c5af001d593d13e1d20",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/27-1.npz": "b4d4c4e92cb271fdb64c79c47df3642fd2dad4dc370f4b2d5899dece00fcdc82",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/27-2.npz": "1a9b56ac3fa958b86b97b6221dbde64aa83dfd503955bf11b13cac7404c906a3",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/27-2.npz": "89467e2f4544ee17164880ea955de9412ee537ebe9082999e5b8d50e7cf14989",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/32-1.npz": "2ef091468547db7a175e7cd634c4ca1900bd1579655124f0caf20dd377d0bb3b",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/32-1.npz": "f8ef6ed37c34be2cdb763ac99b3590e70877e2382dc37ba220ea15ee3dfebde8",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/32-2.npz": "d07bb617a1718b971b34c01113d5f8f21107e3631ac9235bc8a7b813f23dac09",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/32-2.npz": "2a7ed85c3e0de1ea0e597b1fa2c8dac88adf7c770c15f106f2546933ef391330",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/42-1.npz": "3669a090a0d080e5a952360d154ad697f8e211e6eb3183ffc8c98ed9746ea475",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/42-1.npz": "79b0ab26c0e8dc6c35103bc63b8e4bed421f5d613c78afa22ab544cecbf2dfb5",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/42-2.npz": "b3dcf572ec29e2e20f6a93298f32a62ee6f4b60a0e341ac8bf4ac2ff41ae636a",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/42-2.npz": "6647332feaad8cf23885153e07fb840299aebade8de1acf0f2b1129c9aff2435",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/64-1.npz": "93ed8fe12858f18771693db1f8d3efece61422f4f88a1adc40b913cecf9ac35a",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/64-1.npz": "d29f14abb718c3e03b7ebb4463517fb30137357f53fcb8603901acbdecb793d9",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/64-2.npz": "5015a15e8232bbd675b7ad787d6abea4396e5efada6d4a3806927bcbda3e9d97",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/64-2.npz": "5f28908df81799341eee5ce37a5162681fa1434bfea86fad6543e148eaf1870e",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/65-1.npz": "acddd4ce00e834d7e247a28072607eb9ecfcbac8f51e65f634fdcf7b7f036fad",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/65-1.npz": "8a4b4d830b11375c054fc818b191e74f6f3647520e08fe7d5125d30a4da9e259",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/inputs/65-2.npz": "78b542cea3535c2e6d0f5bf68561db4e3d462f45c2a316ec397bea0476052033",
+      "/home/chenhc/mdmot_research_20261002/p2/cache/labels/65-2.npz": "1136e9c853fa5ee0d3fecacaf3bdb41ff91e3cbc892d4812eb59497520ea9928"
+    }
+  }
+}

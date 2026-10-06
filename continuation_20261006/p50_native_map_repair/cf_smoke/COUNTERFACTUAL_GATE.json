@@ -1,0 +1,643 @@
+{
+  "status": "COUNTERFACTUAL_GATE_COMPLETE",
+  "version": "2026-10-06-v1",
+  "device": "cuda",
+  "steps_per_arm": 2,
+  "seeds": [
+    7,
+    17
+  ],
+  "fit_pairs": [
+    "23",
+    "25",
+    "27",
+    "28",
+    "29",
+    "30",
+    "32",
+    "39",
+    "42",
+    "44",
+    "45",
+    "50",
+    "51",
+    "53",
+    "54"
+  ],
+  "eval_pairs": [
+    "69",
+    "70",
+    "74",
+    "76",
+    "78"
+  ],
+  "fit_events": 5234,
+  "pair_audit": {
+    "23": {
+      "pair": "23",
+      "counts": {
+        "events": 213,
+        "zero_candidate": 8,
+        "positive": 111,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "25": {
+      "pair": "25",
+      "counts": {
+        "events": 338,
+        "zero_candidate": 5,
+        "positive": 120,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "27": {
+      "pair": "27",
+      "counts": {
+        "events": 269,
+        "zero_candidate": 0,
+        "positive": 120,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "28": {
+      "pair": "28",
+      "counts": {
+        "events": 513,
+        "zero_candidate": 57,
+        "positive": 138,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "29": {
+      "pair": "29",
+      "counts": {
+        "events": 884,
+        "zero_candidate": 0,
+        "positive": 414,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "30": {
+      "pair": "30",
+      "counts": {
+        "events": 695,
+        "zero_candidate": 81,
+        "positive": 175,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "32": {
+      "pair": "32",
+      "counts": {
+        "events": 204,
+        "zero_candidate": 0,
+        "positive": 128,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "39": {
+      "pair": "39",
+      "counts": {
+        "events": 85,
+        "zero_candidate": 7,
+        "positive": 35,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "42": {
+      "pair": "42",
+      "counts": {
+        "events": 176,
+        "zero_candidate": 0,
+        "positive": 76,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "44": {
+      "pair": "44",
+      "counts": {
+        "events": 159,
+        "zero_candidate": 0,
+        "positive": 103,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "45": {
+      "pair": "45",
+      "counts": {
+        "events": 599,
+        "zero_candidate": 0,
+        "positive": 286,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "50": {
+      "pair": "50",
+      "counts": {
+        "events": 293,
+        "zero_candidate": 7,
+        "positive": 99,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "51": {
+      "pair": "51",
+      "counts": {
+        "events": 281,
+        "zero_candidate": 2,
+        "positive": 85,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "53": {
+      "pair": "53",
+      "counts": {
+        "events": 216,
+        "zero_candidate": 4,
+        "positive": 114,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "54": {
+      "pair": "54",
+      "counts": {
+        "events": 309,
+        "zero_candidate": 3,
+        "positive": 130,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "69": {
+      "pair": "69",
+      "counts": {
+        "events": 566,
+        "zero_candidate": 0,
+        "positive": 239,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "70": {
+      "pair": "70",
+      "counts": {
+        "events": 312,
+        "zero_candidate": 10,
+        "positive": 150,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "74": {
+      "pair": "74",
+      "counts": {
+        "events": 561,
+        "zero_candidate": 0,
+        "positive": 190,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "76": {
+      "pair": "76",
+      "counts": {
+        "events": 147,
+        "zero_candidate": 0,
+        "positive": 89,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "78": {
+      "pair": "78",
+      "counts": {
+        "events": 259,
+        "zero_candidate": 0,
+        "positive": 160,
+        "teacher": 0
+      },
+      "dropped": []
+    }
+  },
+  "arms": {
+    "cf_off": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.7040271759033203,
+            "assign": 2.025092601776123,
+            "control": 1.9398127794265747,
+            "cf": 2.247230291366577
+          },
+          {
+            "step": 2,
+            "loss": 2.659548044204712,
+            "assign": 1.994369626045227,
+            "control": 1.9005098342895508,
+            "cf": 2.2346980571746826
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.30958745610545224,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601,
+            "positive_events": 239,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.2719665271966527,
+            "original_r1_positive_subset": 0.16317991631799164
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.08,
+            "base_recall1": 0.08,
+            "student_mrr": 0.22196287873508497,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.5576923076923077,
+            "dustbin_rate": 0.07692307692307693,
+            "dustbin_label_rate": 0.5192307692307693,
+            "positive_events": 150,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.18666666666666668,
+            "original_r1_positive_subset": 0.08
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.08421052631578947,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.19251805258720678,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.33868092691622104,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.661319073083779,
+            "positive_events": 190,
+            "positive_removal_dustbin_rate": 0.005263157894736842,
+            "negative_removal_retain_r1": 0.1368421052631579,
+            "original_r1_positive_subset": 0.08421052631578947
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.0898876404494382,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.2171811578481788,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6054421768707483,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.3945578231292517,
+            "positive_events": 89,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.12359550561797752,
+            "original_r1_positive_subset": 0.0898876404494382
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.1625,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.27992071429063714,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.6177606177606177,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.38223938223938225,
+            "positive_events": 160,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.24375,
+            "original_r1_positive_subset": 0.1625
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/counterfactual_cf_off_seed7.pt",
+        "checkpoint_sha256": "1b34f4701e8920d597cd28ac77481a841411c7aa20cbf0450d23533a9b83fcbc"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.685263156890869,
+            "assign": 2.0110769271850586,
+            "control": 1.9262466430664062,
+            "cf": 2.2157740592956543
+          },
+          {
+            "step": 2,
+            "loss": 2.6489200592041016,
+            "assign": 1.986366629600525,
+            "control": 1.893009901046753,
+            "cf": 2.2034544944763184
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.3096754391466996,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601,
+            "positive_events": 239,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.2719665271966527,
+            "original_r1_positive_subset": 0.16317991631799164
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.08,
+            "base_recall1": 0.08,
+            "student_mrr": 0.22226446603667227,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.5608974358974359,
+            "dustbin_rate": 0.08012820512820513,
+            "dustbin_label_rate": 0.5192307692307693,
+            "positive_events": 150,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.18666666666666668,
+            "original_r1_positive_subset": 0.08
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.08421052631578947,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.1922023246338749,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.33868092691622104,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.661319073083779,
+            "positive_events": 190,
+            "positive_removal_dustbin_rate": 0.005263157894736842,
+            "negative_removal_retain_r1": 0.1368421052631579,
+            "original_r1_positive_subset": 0.08421052631578947
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.0898876404494382,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.21798131692352815,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6054421768707483,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.3945578231292517,
+            "positive_events": 89,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.12359550561797752,
+            "original_r1_positive_subset": 0.0898876404494382
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.1625,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.27990106234170886,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.6177606177606177,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.38223938223938225,
+            "positive_events": 160,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.24375,
+            "original_r1_positive_subset": 0.1625
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/counterfactual_cf_off_seed17.pt",
+        "checkpoint_sha256": "fe56b800fdb600877d43047d16f14eb1fce774d9e88c618c536de64a66b20f03"
+      }
+    ],
+    "cf_on": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 3.4905576705932617,
+            "assign": 2.025092601776123,
+            "control": 1.9398127794265747,
+            "cf": 2.247230291366577
+          },
+          {
+            "step": 2,
+            "loss": 3.441047430038452,
+            "assign": 1.993932843208313,
+            "control": 1.900078296661377,
+            "cf": 2.234534502029419
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.3095967370770763,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601,
+            "positive_events": 239,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.2719665271966527,
+            "original_r1_positive_subset": 0.16317991631799164
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.08,
+            "base_recall1": 0.08,
+            "student_mrr": 0.22193113270333897,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.5576923076923077,
+            "dustbin_rate": 0.07692307692307693,
+            "dustbin_label_rate": 0.5192307692307693,
+            "positive_events": 150,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.18666666666666668,
+            "original_r1_positive_subset": 0.08
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.08421052631578947,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.19243315512935108,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.33868092691622104,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.661319073083779,
+            "positive_events": 190,
+            "positive_removal_dustbin_rate": 0.005263157894736842,
+            "negative_removal_retain_r1": 0.1368421052631579,
+            "original_r1_positive_subset": 0.08421052631578947
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.0898876404494382,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.21705631390311014,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6054421768707483,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.3945578231292517,
+            "positive_events": 89,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.12359550561797752,
+            "original_r1_positive_subset": 0.0898876404494382
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.1625,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.279856230163653,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.6177606177606177,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.38223938223938225,
+            "positive_events": 160,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.24375,
+            "original_r1_positive_subset": 0.1625
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/counterfactual_cf_on_seed7.pt",
+        "checkpoint_sha256": "c01258d156fcd06f64ba740734551ae3be279639bf01a54f04d7d55078060786"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 3.4607839584350586,
+            "assign": 2.0110769271850586,
+            "control": 1.9262466430664062,
+            "cf": 2.2157740592956543
+          },
+          {
+            "step": 2,
+            "loss": 3.419398784637451,
+            "assign": 1.9858930110931396,
+            "control": 1.892545223236084,
+            "cf": 2.2031850814819336
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.3096941425834438,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601,
+            "positive_events": 239,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.2719665271966527,
+            "original_r1_positive_subset": 0.16317991631799164
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.08,
+            "base_recall1": 0.08,
+            "student_mrr": 0.22229027029777068,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.5641025641025641,
+            "dustbin_rate": 0.08333333333333333,
+            "dustbin_label_rate": 0.5192307692307693,
+            "positive_events": 150,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.18666666666666668,
+            "original_r1_positive_subset": 0.08
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.08421052631578947,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.1922358493715327,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.33868092691622104,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.661319073083779,
+            "positive_events": 190,
+            "positive_removal_dustbin_rate": 0.005263157894736842,
+            "negative_removal_retain_r1": 0.1368421052631579,
+            "original_r1_positive_subset": 0.08421052631578947
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.0898876404494382,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.21789619605189042,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6054421768707483,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.3945578231292517,
+            "positive_events": 89,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.12359550561797752,
+            "original_r1_positive_subset": 0.0898876404494382
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.1625,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.2794233054494783,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.6177606177606177,
+            "dustbin_rate": 0.0,
+            "dustbin_label_rate": 0.38223938223938225,
+            "positive_events": 160,
+            "positive_removal_dustbin_rate": 0.0,
+            "negative_removal_retain_r1": 0.24375,
+            "original_r1_positive_subset": 0.1625
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/counterfactual_cf_on_seed17.pt",
+        "checkpoint_sha256": "1c04f3ff15ffd1fb3c1c607def369721e0ee43418cfc4aabd2cb25296d1e086d"
+      }
+    ]
+  },
+  "controls": {
+    "native_features_frozen": true,
+    "teacher_in_inference": false,
+    "official_val_test_access": false,
+    "negative_removal_cardinality_matched": true,
+    "cf_loss_only_difference": "positive-removal dustbin term"
+  },
+  "elapsed_seconds": 73.75806093215942
+}

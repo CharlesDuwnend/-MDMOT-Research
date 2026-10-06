@@ -1,0 +1,1022 @@
+{
+  "GT_scope": "existing evaluation TXT snapshots only; no raw XML/image reads or new inference",
+  "dependencies": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/26-1.txt": "7071a23a99044754d035feaeb4a2db3bdb4390c60d663b00f013f963cc9a4cd7",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/26-2.txt": "aa3fbc4cdd3d09b4a1b5c15a9b2822f9b182c392031ceafbe0dd9ee441fedf67",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/31-1.txt": "6e71fd413ebb24d493deaad377cdc4fe01e7784bceb68b2aa74b497d72ce99b4",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/31-2.txt": "ba562b949b0a63b8bf4aaadf1904048c57789cfb23842250a880d421c34a7d6e",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/34-1.txt": "4b4382e7c8eb8395af0b6c7d2f9b2bdd4bc32450f4461a9a59bf2bc1eeaf7412",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/34-2.txt": "265bf10e98829241d585e4284d39bb34f1cb0f2e882f53921dbd669c74856901",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/48-1.txt": "8ffb776c96a9ca125b28f06cefb861c2ea298a2dc64236823c2c34a0db99d647",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/48-2.txt": "2d652bddf40f7acc284e2b7add061df9ba516aaffa9d8148c8907c35d4ec6e3c",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/52-1.txt": "2722b1704ee5280fca622ba9b455e5e0b52de62e1e83a0df9a1e72b9407b4c3b",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/52-2.txt": "342b161dc393f0c5f15cf32826961734b2cdb5500f35768e5cf5991181536c8c",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/55-1.txt": "95e02cd99cb2d5bf2e252f4c8f9ac368f4ca973d27f5bc6021792c86777eb2d0",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/55-2.txt": "9a0bce94636c442a7b6f366c7175d6207870d2514ef17b9bb5788f0c9681166d",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/56-1.txt": "c88e9338c814b2c5966a5f543f16422bba760d07a385cf0e254eedd5b86f4640",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/56-2.txt": "8974dc320e4bd966dfdc685464a84f23aff872da52e002e4136265fe3b14f40b",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/57-1.txt": "3c9b3b12034bdb11d60d5d3e0be5184ad496ca7be5b94349e92f2d7fad38a14a",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/57-2.txt": "6a7b534244b482623ae37ba2e0b0ac06851b40a6736c909008c6aa362c2de9e6",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/59-1.txt": "13764dcc72b718cc21b94c3361c36b6c40541fa88f1d2cc446718ee7915ca347",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/59-2.txt": "6731734117c2aa5854e79a4bdfa1d23569201bcb430b2a2392e85d1d13802119",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/61-1.txt": "b2d2dd146fda2cb6afe99ac67809b231a8008295d33f524ecdbf661280319eb5",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/61-2.txt": "0bdb41f450cb0ba996807cf1d8f57810a5eaee1df464118ab79ac6318024df4c",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/62-1.txt": "03f0480518efab097904a5fcab0fef8097c4c1a39bcda928cbe76afbe06e629c",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/62-2.txt": "e81ed012d9169830fbfae64fbfa0a5f0c2ef9bc4c7add1285c7be1fb87fbaa55",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/68-1.txt": "b62cf7efaa1f8a215e255d90b9d57a99a5da62cfe8acb5806dcd34f6e795542f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/68-2.txt": "85a250fab7b0420206d55aede969d6ab31f817aef4002ad7663084e97e1e2292",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/71-1.txt": "bd14618a2f3d3b69c6c69d41349095cf6b95f0af0f693c0769823f75babda5c5",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/71-2.txt": "04a659dfae4bb28b1e303a8da80e07243bf65a00cd36820910e586ed38feb696",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/73-1.txt": "032afe535e935d5a6a470bacff75b91d95898ea39dc8c6ffd0bcf5f8ea896c70",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/73-2.txt": "66354cae6b3b519fd853066a6be1699e6e477eb5b320620546e01384eadd58d1",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/README.md": "5e746b5298382fd9e8023f7074184fa22c28fd46fd4e43d4d78700219a53f23e",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/SEAL_mia_net_full_20261005.json": "d27431fbe205c355bbcd441c44fbac58bc9cf9880d88d7315756f4cac04bae59",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/STCA_primary_text.txt": "4aed8853d35d65c468a806bfed19d0a9bf762158bc1ec54d5d89504e007fbade",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/mango_eval.py": "2b9f36a6951b0aad9b2e1e03f5d10273d8c6d99171b1895e8735ad48a69c5fcd",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/official_suppl_test6_summary.json": "d29ed769e0dab10de883736507e9b86a4b64133bbb23109b4ae384206e1d3706",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/official_suppl_test_summary.json": "7d6942a02baf36eb6847fbb94e68749f06f58d8296e35b49e9c5e0d939174541",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/reference_score_wrapper.py": "49ffb73762d522458f36c174f0b1bd202e5752ac1f0334f9a95537dbe8d475eb",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/reference_stage15_helper.py": "3541d3c66cc6c0640c4dad2772f613d1a141d9ef744292e9c237c052879cbbd8",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/26-1.json": "5459a53bf921cb04be4e63f623a4048d144c7370c0de8f728406db0e59ddc560",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/26-2.json": "edd498e6f239e9b1e841f00b6ab232feec54c9c1d83f693e38df96c33267cf87",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/31-1.json": "c6362718ee7e4d377e8fb785415c039f6d64dcce538e39f57148bc24101f5491",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/31-2.json": "f56ac250d163fd0d3f839a0f2398efc18e5d225337d3f68da0d536b53b06914d",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/34-1.json": "d9be5f32f15ef2aaa0872f173ff54e462c20919a39eda38d7bb15a0a04621431",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/34-2.json": "05df0c857cc6b80fa78b1898c2ed43158e8ea03ad9cdc137cdea720b153c0de5",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/48-1.json": "7c426cd882f33693fcff0535ebca338fc574f03fc4c9b8071ab68c188839b738",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/48-2.json": "535700778b4d332e64e895717768d7e17ff38de81d8178bf16d49b593cf3ae75",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/52-1.json": "0f9056bbe5af4e14fb496138e29f38fdd686007ad653fe23b1cec8dd12cf07d6",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/52-2.json": "38063dc6bc4777c9a752deed7b554bf78a5b513fc3366566d9762adf9d426d57",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/55-1.json": "1f5dc52be9dd74cc9c8241057a70f6b683bddc4cb47a97eb73e48204d53bea58",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/55-2.json": "f1acf8fbc725b97bc09eb984659fba9acbd988cb869eaa58a48cc69e56d555b1",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/56-1.json": "7bcd14506c24c19c03fb6e261ba58e8ea716bba5abbe7f4fc78007383f3f4aa0",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/56-2.json": "30d72cbc881e2161a822f8e62db8de950992f9b03b773e6f831267cea5d41288",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/57-1.json": "b7cc395bd349fb6aa2845e2125d3acfd7ab0b2f98232f633081532aa4d13330b",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/57-2.json": "a91da689ea2d5dbc7e466832f0c63f53240faac2572091ce1aa9af288e7386cb",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/59-1.json": "835e60da7ae4c97338ef5080722dbeeea8c8c47c3a159680a0d44f5c2ced33c0",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/59-2.json": "18bee203e93c0df44d495a28b0bf79e0c60be072adb861e04e829d4d9c2e38e8",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/61-1.json": "f20daf7cc87fab14615260bfb02fd61037a0293e3eb81b44e53bd3d53c56c9ea",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/61-2.json": "a44b81d83ccba4df5eaf839530dcbb33eb052da56d3769a24bfba3ca5fb3efd6",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/62-1.json": "214a9dddfb520743445cefa304bf1dafea95930740fd3ba28c737694f3143457",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/62-2.json": "afef98e14f2071385b45e9f981c70f94d193babcdb09543f3124f631bf365731",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/68-1.json": "528bf9b62d1c48f11b751956b4b8010d0627e5c3d070a52b2c1cca6cdb152101",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/68-2.json": "fab5d768b3f3b4af1cef4bdc3d578439f2ceed37ec0e2197b2c2e89e496c3819",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/71-1.json": "d2f8cfd280939289bc454a69a2cd0ccdc0c011011f79041b460f7417f0e30b0e",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/71-2.json": "1df0b444c8adcb9a3eb1558980f16e3296fa4fe8476813a1000b1f33dc4074b4",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/73-1.json": "c40ab7b74efc9c6750371deabd7d3431b4392b99768d7f9f62955e7810d50424",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/73-2.json": "7c95e1a9e4527d3a4b0e8da1c2a96edb37380b4b368217ff418ec4798c2af85e",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/26-1.txt": "eb973451e262b2b2629e6087f4dc84aa0de15c626ef958ad9599e4c6995ff8a0",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/26-2.txt": "d377783dfc1de84c75d41989fd160799ddac369deb928628822519230123ae08",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/31-1.txt": "31839e25f243ba89d2dc924f43f3c72638ee8aa4a4c4654d169e43c5a869f80a",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/31-2.txt": "8d866254a0c529b6cedb8facd46a98055746991c3047005e3dd68a0bcb821e6a",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/34-1.txt": "b0fb1d626ba08b208c58891e1d3e1a7e93a8c9c6aeab404b5181ed5752af1ee3",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/34-2.txt": "7cc6566e14a96c45a760e831aadbe228b542a388540c4be9153e73324e805175",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/48-1.txt": "56e91b7080cf1b4b601d9e8606eea180ec5811026e42109558e507f0b45d243a",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/48-2.txt": "bca7791e0472233ccd26a412a93e3406c38d011ad10485d8fc980c3537fcbea8",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/52-1.txt": "6b56e628ecf088bc3fba680bd06edfb879c6fc5327521ff90d646d019cb40291",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/52-2.txt": "f7b31f09a76eba709fb95394256a87b0aebb0c2b8411dfcc4e5e2aa208b0cd97",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/55-1.txt": "ef9fcad8766f0fac84329f970309ab67903331ec3bc1b135b4e210cdbb0286d5",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/55-2.txt": "0b42212f920ff7a8baca028826cf9b7b23350fb8c9a4caec0b722032aec696f4",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/56-1.txt": "4613d6e092d71d114b82c2033026e93c9e67bdc7277bd8d8b063521f49264fc6",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/56-2.txt": "455552acaff42928e942cd62c733eaa59a1bfba163903530f8b64e9073a7434f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/57-1.txt": "8abd00c3f7f0a4231988b13dd51986930d87d2d97ad0a1d9aa4dcae413ee911b",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/57-2.txt": "318901702ddae2ad8c8484c20ee613337b57da5ea95c8ad0f4ed40e5bc3d3c17",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/59-1.txt": "d11670efc46c0fa1d706990fb86aec43b27fe8d496d4bccb1a16524b277640f8",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/59-2.txt": "5f0a936155f0a107d21da51c7b906e982af9e2e20424f0a299857a59aa4632a0",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/61-1.txt": "2e76155281f66aad6443d9bcdc3b1bd3c5739318e250652df192c8b27f44422f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/61-2.txt": "77ed50c2fdd51db4a3df7df6552ada7d79a33f9af0f9f2b2bc35d06d7d704517",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/62-1.txt": "267d39995de4fe25ae93ba95ee467e72749580b77ad36ff1078dc67664bdd7a9",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/62-2.txt": "76c313b94064589d9e01282494bf021049a8cc1a62f48cd1de053465a6f0fcaf",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/68-1.txt": "3c9662c71be07a8972fe2322f42f918234417b6d1130b6492c7cf1a08bcdad0f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/68-2.txt": "90630cf4529c15f809b30d2fa0c7f4816ac1308a11e1195107cdd3e36ee44be3",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/71-1.txt": "d4b8856aaa0f69d5e1f49637041efb11f03938450e00f69bc2fa9b328809593d",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/71-2.txt": "bf104eab11271b0b2c0030e2740b2562fb63aa0044ed78a2056a1ee7362fc95f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/73-1.txt": "599fb934fdfd2089cb5171f911105ed6ee8542f59a0db0828d7dcca14f2b94c5",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/73-2.txt": "4492a0c94d7919fb38cca81677251d7104d90fae359e22b2e191869d7ee0ee98"
+  },
+  "existing_GT_TXT_count": 28,
+  "files": [
+    {
+      "bytes": 2325,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/official_suppl_test_summary.json",
+      "kind": "previous_summary",
+      "original_seal_bound": false,
+      "sha256": "7d6942a02baf36eb6847fbb94e68749f06f58d8296e35b49e9c5e0d939174541",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/summary.json"
+    },
+    {
+      "bytes": 804673,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/56-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "7bcd14506c24c19c03fb6e261ba58e8ea716bba5abbe7f4fc78007383f3f4aa0",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/56-1.json"
+    },
+    {
+      "bytes": 205795,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/56-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "c88e9338c814b2c5966a5f543f16422bba760d07a385cf0e254eedd5b86f4640",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-56-1.txt"
+    },
+    {
+      "bytes": 408952,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/56-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "4613d6e092d71d114b82c2033026e93c9e67bdc7277bd8d8b063521f49264fc6",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/56-1.txt"
+    },
+    {
+      "bytes": 1524069,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/56-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "30d72cbc881e2161a822f8e62db8de950992f9b03b773e6f831267cea5d41288",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/56-2.json"
+    },
+    {
+      "bytes": 328636,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/56-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "8974dc320e4bd966dfdc685464a84f23aff872da52e002e4136265fe3b14f40b",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-56-2.txt"
+    },
+    {
+      "bytes": 781892,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/56-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "455552acaff42928e942cd62c733eaa59a1bfba163903530f8b64e9073a7434f",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/56-2.txt"
+    },
+    {
+      "bytes": 1419196,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/57-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "b7cc395bd349fb6aa2845e2125d3acfd7ab0b2f98232f633081532aa4d13330b",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/57-1.json"
+    },
+    {
+      "bytes": 247475,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/57-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "3c9b3b12034bdb11d60d5d3e0be5184ad496ca7be5b94349e92f2d7fad38a14a",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-57-1.txt"
+    },
+    {
+      "bytes": 717817,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/57-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "8abd00c3f7f0a4231988b13dd51986930d87d2d97ad0a1d9aa4dcae413ee911b",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/57-1.txt"
+    },
+    {
+      "bytes": 1839058,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/57-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "a91da689ea2d5dbc7e466832f0c63f53240faac2572091ce1aa9af288e7386cb",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/57-2.json"
+    },
+    {
+      "bytes": 322870,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/57-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "6a7b534244b482623ae37ba2e0b0ac06851b40a6736c909008c6aa362c2de9e6",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-57-2.txt"
+    },
+    {
+      "bytes": 936622,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/57-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "318901702ddae2ad8c8484c20ee613337b57da5ea95c8ad0f4ed40e5bc3d3c17",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/57-2.txt"
+    },
+    {
+      "bytes": 2132093,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/59-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "835e60da7ae4c97338ef5080722dbeeea8c8c47c3a159680a0d44f5c2ced33c0",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/59-1.json"
+    },
+    {
+      "bytes": 470891,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/59-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "13764dcc72b718cc21b94c3361c36b6c40541fa88f1d2cc446718ee7915ca347",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-59-1.txt"
+    },
+    {
+      "bytes": 1085853,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/59-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "d11670efc46c0fa1d706990fb86aec43b27fe8d496d4bccb1a16524b277640f8",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/59-1.txt"
+    },
+    {
+      "bytes": 1893253,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/59-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "18bee203e93c0df44d495a28b0bf79e0c60be072adb861e04e829d4d9c2e38e8",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/59-2.json"
+    },
+    {
+      "bytes": 376127,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/59-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "6731734117c2aa5854e79a4bdfa1d23569201bcb430b2a2392e85d1d13802119",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-59-2.txt"
+    },
+    {
+      "bytes": 968416,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/59-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "5f0a936155f0a107d21da51c7b906e982af9e2e20424f0a299857a59aa4632a0",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/59-2.txt"
+    },
+    {
+      "bytes": 1522498,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/61-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "f20daf7cc87fab14615260bfb02fd61037a0293e3eb81b44e53bd3d53c56c9ea",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/61-1.json"
+    },
+    {
+      "bytes": 285840,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/61-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "b2d2dd146fda2cb6afe99ac67809b231a8008295d33f524ecdbf661280319eb5",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-61-1.txt"
+    },
+    {
+      "bytes": 783222,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/61-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "2e76155281f66aad6443d9bcdc3b1bd3c5739318e250652df192c8b27f44422f",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/61-1.txt"
+    },
+    {
+      "bytes": 3350912,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/61-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "a44b81d83ccba4df5eaf839530dcbb33eb052da56d3769a24bfba3ca5fb3efd6",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/61-2.json"
+    },
+    {
+      "bytes": 850831,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/61-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "0bdb41f450cb0ba996807cf1d8f57810a5eaee1df464118ab79ac6318024df4c",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-61-2.txt"
+    },
+    {
+      "bytes": 1731279,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/61-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "77ed50c2fdd51db4a3df7df6552ada7d79a33f9af0f9f2b2bc35d06d7d704517",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/61-2.txt"
+    },
+    {
+      "bytes": 2548788,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/62-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "214a9dddfb520743445cefa304bf1dafea95930740fd3ba28c737694f3143457",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/62-1.json"
+    },
+    {
+      "bytes": 464467,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/62-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "03f0480518efab097904a5fcab0fef8097c4c1a39bcda928cbe76afbe06e629c",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-62-1.txt"
+    },
+    {
+      "bytes": 1314306,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/62-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "267d39995de4fe25ae93ba95ee467e72749580b77ad36ff1078dc67664bdd7a9",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/62-1.txt"
+    },
+    {
+      "bytes": 3038235,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/62-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "afef98e14f2071385b45e9f981c70f94d193babcdb09543f3124f631bf365731",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/62-2.json"
+    },
+    {
+      "bytes": 601477,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/62-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "e81ed012d9169830fbfae64fbfa0a5f0c2ef9bc4c7add1285c7be1fb87fbaa55",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-62-2.txt"
+    },
+    {
+      "bytes": 1558993,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/62-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "76c313b94064589d9e01282494bf021049a8cc1a62f48cd1de053465a6f0fcaf",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/62-2.txt"
+    },
+    {
+      "bytes": 3555754,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/68-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "528bf9b62d1c48f11b751956b4b8010d0627e5c3d070a52b2c1cca6cdb152101",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/68-1.json"
+    },
+    {
+      "bytes": 653265,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/68-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "b62cf7efaa1f8a215e255d90b9d57a99a5da62cfe8acb5806dcd34f6e795542f",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-68-1.txt"
+    },
+    {
+      "bytes": 1821665,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/68-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "3c9662c71be07a8972fe2322f42f918234417b6d1130b6492c7cf1a08bcdad0f",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/68-1.txt"
+    },
+    {
+      "bytes": 4699062,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/68-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "fab5d768b3f3b4af1cef4bdc3d578439f2ceed37ec0e2197b2c2e89e496c3819",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/68-2.json"
+    },
+    {
+      "bytes": 1427326,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/68-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "85a250fab7b0420206d55aede969d6ab31f817aef4002ad7663084e97e1e2292",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-68-2.txt"
+    },
+    {
+      "bytes": 2407291,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/68-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "90630cf4529c15f809b30d2fa0c7f4816ac1308a11e1195107cdd3e36ee44be3",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/68-2.txt"
+    },
+    {
+      "bytes": 1705782,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/71-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "d2f8cfd280939289bc454a69a2cd0ccdc0c011011f79041b460f7417f0e30b0e",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/71-1.json"
+    },
+    {
+      "bytes": 370365,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/71-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "bd14618a2f3d3b69c6c69d41349095cf6b95f0af0f693c0769823f75babda5c5",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-71-1.txt"
+    },
+    {
+      "bytes": 873001,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/71-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "d4b8856aaa0f69d5e1f49637041efb11f03938450e00f69bc2fa9b328809593d",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/71-1.txt"
+    },
+    {
+      "bytes": 3237502,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/71-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "1df0b444c8adcb9a3eb1558980f16e3296fa4fe8476813a1000b1f33dc4074b4",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/71-2.json"
+    },
+    {
+      "bytes": 751782,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/71-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "04a659dfae4bb28b1e303a8da80e07243bf65a00cd36820910e586ed38feb696",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-71-2.txt"
+    },
+    {
+      "bytes": 1665844,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/71-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "bf104eab11271b0b2c0030e2740b2562fb63aa0044ed78a2056a1ee7362fc95f",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/71-2.txt"
+    },
+    {
+      "bytes": 4167309,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/73-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "c40ab7b74efc9c6750371deabd7d3431b4392b99768d7f9f62955e7810d50424",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/73-1.json"
+    },
+    {
+      "bytes": 815245,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/73-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "032afe535e935d5a6a470bacff75b91d95898ea39dc8c6ffd0bcf5f8ea896c70",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-73-1.txt"
+    },
+    {
+      "bytes": 2132832,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/73-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "599fb934fdfd2089cb5171f911105ed6ee8542f59a0db0828d7dcca14f2b94c5",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/73-1.txt"
+    },
+    {
+      "bytes": 4172830,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/73-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "7c95e1a9e4527d3a4b0e8da1c2a96edb37380b4b368217ff418ec4798c2af85e",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test/73-2.json"
+    },
+    {
+      "bytes": 830822,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/73-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "66354cae6b3b519fd853066a6be1699e6e477eb5b320620546e01384eadd58d1",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/gt-73-2.txt"
+    },
+    {
+      "bytes": 2148060,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/73-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "4492a0c94d7919fb38cca81677251d7104d90fae359e22b2e191869d7ee0ee98",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test/73-2.txt"
+    },
+    {
+      "bytes": 1785,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/official_suppl_test6_summary.json",
+      "kind": "previous_summary",
+      "original_seal_bound": false,
+      "sha256": "d29ed769e0dab10de883736507e9b86a4b64133bbb23109b4ae384206e1d3706",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/summary.json"
+    },
+    {
+      "bytes": 3850966,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/26-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "5459a53bf921cb04be4e63f623a4048d144c7370c0de8f728406db0e59ddc560",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/26-1.json"
+    },
+    {
+      "bytes": 1128147,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/26-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "7071a23a99044754d035feaeb4a2db3bdb4390c60d663b00f013f963cc9a4cd7",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-26-1.txt"
+    },
+    {
+      "bytes": 1982933,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/26-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "eb973451e262b2b2629e6087f4dc84aa0de15c626ef958ad9599e4c6995ff8a0",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/26-1.txt"
+    },
+    {
+      "bytes": 1659397,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/26-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "edd498e6f239e9b1e841f00b6ab232feec54c9c1d83f693e38df96c33267cf87",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/26-2.json"
+    },
+    {
+      "bytes": 293046,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/26-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "aa3fbc4cdd3d09b4a1b5c15a9b2822f9b182c392031ceafbe0dd9ee441fedf67",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-26-2.txt"
+    },
+    {
+      "bytes": 850753,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/26-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "d377783dfc1de84c75d41989fd160799ddac369deb928628822519230123ae08",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/26-2.txt"
+    },
+    {
+      "bytes": 4459095,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/31-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "c6362718ee7e4d377e8fb785415c039f6d64dcce538e39f57148bc24101f5491",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/31-1.json"
+    },
+    {
+      "bytes": 937942,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/31-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "6e71fd413ebb24d493deaad377cdc4fe01e7784bceb68b2aa74b497d72ce99b4",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-31-1.txt"
+    },
+    {
+      "bytes": 2291021,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/31-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "31839e25f243ba89d2dc924f43f3c72638ee8aa4a4c4654d169e43c5a869f80a",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/31-1.txt"
+    },
+    {
+      "bytes": 5308043,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/31-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "f56ac250d163fd0d3f839a0f2398efc18e5d225337d3f68da0d536b53b06914d",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/31-2.json"
+    },
+    {
+      "bytes": 956874,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/31-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "ba562b949b0a63b8bf4aaadf1904048c57789cfb23842250a880d421c34a7d6e",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-31-2.txt"
+    },
+    {
+      "bytes": 2727907,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/31-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "8d866254a0c529b6cedb8facd46a98055746991c3047005e3dd68a0bcb821e6a",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/31-2.txt"
+    },
+    {
+      "bytes": 1005962,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/34-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "d9be5f32f15ef2aaa0872f173ff54e462c20919a39eda38d7bb15a0a04621431",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/34-1.json"
+    },
+    {
+      "bytes": 193344,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/34-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "4b4382e7c8eb8395af0b6c7d2f9b2bdd4bc32450f4461a9a59bf2bc1eeaf7412",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-34-1.txt"
+    },
+    {
+      "bytes": 508757,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/34-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "b0fb1d626ba08b208c58891e1d3e1a7e93a8c9c6aeab404b5181ed5752af1ee3",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/34-1.txt"
+    },
+    {
+      "bytes": 3007633,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/34-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "05df0c857cc6b80fa78b1898c2ed43158e8ea03ad9cdc137cdea720b153c0de5",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/34-2.json"
+    },
+    {
+      "bytes": 594507,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/34-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "265bf10e98829241d585e4284d39bb34f1cb0f2e882f53921dbd669c74856901",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-34-2.txt"
+    },
+    {
+      "bytes": 1556105,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/34-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "7cc6566e14a96c45a760e831aadbe228b542a388540c4be9153e73324e805175",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/34-2.txt"
+    },
+    {
+      "bytes": 2816200,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/48-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "7c426cd882f33693fcff0535ebca338fc574f03fc4c9b8071ab68c188839b738",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/48-1.json"
+    },
+    {
+      "bytes": 523307,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/48-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "8ffb776c96a9ca125b28f06cefb861c2ea298a2dc64236823c2c34a0db99d647",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-48-1.txt"
+    },
+    {
+      "bytes": 1447347,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/48-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "56e91b7080cf1b4b601d9e8606eea180ec5811026e42109558e507f0b45d243a",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/48-1.txt"
+    },
+    {
+      "bytes": 1796754,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/48-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "535700778b4d332e64e895717768d7e17ff38de81d8178bf16d49b593cf3ae75",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/48-2.json"
+    },
+    {
+      "bytes": 310902,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/48-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "2d652bddf40f7acc284e2b7add061df9ba516aaffa9d8148c8907c35d4ec6e3c",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-48-2.txt"
+    },
+    {
+      "bytes": 924908,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/48-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "bca7791e0472233ccd26a412a93e3406c38d011ad10485d8fc980c3537fcbea8",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/48-2.txt"
+    },
+    {
+      "bytes": 2816597,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/52-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "0f9056bbe5af4e14fb496138e29f38fdd686007ad653fe23b1cec8dd12cf07d6",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/52-1.json"
+    },
+    {
+      "bytes": 553361,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/52-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "2722b1704ee5280fca622ba9b455e5e0b52de62e1e83a0df9a1e72b9407b4c3b",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-52-1.txt"
+    },
+    {
+      "bytes": 1447022,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/52-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "6b56e628ecf088bc3fba680bd06edfb879c6fc5327521ff90d646d019cb40291",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/52-1.txt"
+    },
+    {
+      "bytes": 5046022,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/52-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "38063dc6bc4777c9a752deed7b554bf78a5b513fc3366566d9762adf9d426d57",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/52-2.json"
+    },
+    {
+      "bytes": 1042323,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/52-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "342b161dc393f0c5f15cf32826961734b2cdb5500f35768e5cf5991181536c8c",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-52-2.txt"
+    },
+    {
+      "bytes": 2592566,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/52-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "f7b31f09a76eba709fb95394256a87b0aebb0c2b8411dfcc4e5e2aa208b0cd97",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/52-2.txt"
+    },
+    {
+      "bytes": 1389629,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/55-1.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "1f5dc52be9dd74cc9c8241057a70f6b683bddc4cb47a97eb73e48204d53bea58",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/55-1.json"
+    },
+    {
+      "bytes": 262921,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/55-1.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "95e02cd99cb2d5bf2e252f4c8f9ac368f4ca973d27f5bc6021792c86777eb2d0",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-55-1.txt"
+    },
+    {
+      "bytes": 707636,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/55-1.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "ef9fcad8766f0fac84329f970309ab67903331ec3bc1b135b4e210cdbb0286d5",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/55-1.txt"
+    },
+    {
+      "bytes": 2356773,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/predictions/55-2.json",
+      "kind": "prediction_json",
+      "original_seal_bound": true,
+      "sha256": "f1acf8fbc725b97bc09eb984659fba9acbd988cb869eaa58a48cc69e56d555b1",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/json/official_suppl_test6/55-2.json"
+    },
+    {
+      "bytes": 518012,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/gt/55-2.txt",
+      "kind": "existing_GT_TXT_snapshot",
+      "original_seal_bound": false,
+      "sha256": "9a0bce94636c442a7b6f366c7175d6207870d2514ef17b9bb5788f0c9681166d",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/gt-55-2.txt"
+    },
+    {
+      "bytes": 1204571,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/reference_mot/55-2.txt",
+      "kind": "previous_prediction_MOT_conversion",
+      "original_seal_bound": false,
+      "sha256": "0b42212f920ff7a8baca028826cf9b7b23350fb8c9a4caec0b722032aec696f4",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/score/official_suppl_test6/55-2.txt"
+    },
+    {
+      "bytes": 7579,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/mango_eval.py",
+      "kind": "official_evaluator",
+      "original_seal_bound": false,
+      "sha256": "2b9f36a6951b0aad9b2e1e03f5d10273d8c6d99171b1895e8735ad48a69c5fcd",
+      "source": "/home/chenhc/mdmot_strong_host_stage1_20260905/source_compat/demo/eval/mango_eval.py"
+    },
+    {
+      "bytes": 2676,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/README.md",
+      "kind": "repository_primary_source",
+      "original_seal_bound": false,
+      "sha256": "5e746b5298382fd9e8023f7074184fa22c28fd46fd4e43d4d78700219a53f23e",
+      "source": "/home/chenhc/mdmot_strong_host_stage1_20260905/source_compat/README.md"
+    },
+    {
+      "bytes": 93436,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/STCA_primary_text.txt",
+      "kind": "published_comparison_primary_source",
+      "original_seal_bound": false,
+      "sha256": "4aed8853d35d65c468a806bfed19d0a9bf762158bc1ec54d5d89504e007fbade",
+      "source": "/home/chenhc/mdmot_research_20261002/sources/direct_stca_pdf.txt"
+    },
+    {
+      "bytes": 2526,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/reference_score_wrapper.py",
+      "kind": "previous_evaluation_wrapper",
+      "original_seal_bound": false,
+      "sha256": "49ffb73762d522458f36c174f0b1bd202e5752ac1f0334f9a95537dbe8d475eb",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/scripts/score_official_demo.py"
+    },
+    {
+      "bytes": 60935,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/reference_stage15_helper.py",
+      "kind": "previous_GT_conversion_helper",
+      "original_seal_bound": false,
+      "sha256": "3541d3c66cc6c0640c4dad2772f613d1a141d9ef744292e9c237c052879cbbd8",
+      "source": "/home/chenhc/mdmot_global_host_stage15_20260905/scripts/stage15_global_host.py"
+    },
+    {
+      "bytes": 13460,
+      "copy": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/reference_outputs/metadata/SEAL_mia_net_full_20261005.json",
+      "kind": "original_reference_seal",
+      "original_seal_bound": false,
+      "sha256": "d27431fbe205c355bbcd441c44fbac58bc9cf9880d88d7315756f4cac04bae59",
+      "source": "/home/chenhc/mdmot_p24_test_20261004/official_demo/SEAL_mia_net_full_20261005.json"
+    }
+  ],
+  "method_pairs": {
+    "official_suppl_test": [
+      "56",
+      "57",
+      "59",
+      "61",
+      "62",
+      "68",
+      "71",
+      "73"
+    ],
+    "official_suppl_test6": [
+      "26",
+      "31",
+      "34",
+      "48",
+      "52",
+      "55"
+    ]
+  },
+  "original_scores_by_pair": {
+    "26": {
+      "MDA": 0.437901772503205,
+      "idf1": 0.7102197593841204,
+      "idp": 0.8254884340590345,
+      "idr": 0.6396541987179298,
+      "mota": 0.563241286826782,
+      "motp": 0.25247708415001685,
+      "num_switches": 785.0,
+      "pair_id": "26"
+    },
+    "31": {
+      "MDA": 0.3297761110036053,
+      "idf1": 0.6105210741414813,
+      "idp": 0.6618081471754365,
+      "idr": 0.5683860768606559,
+      "mota": 0.3339425015407555,
+      "motp": 0.21808844700224791,
+      "num_switches": 1426.0,
+      "pair_id": "31"
+    },
+    "34": {
+      "MDA": 0.3873012264980324,
+      "idf1": 0.7091024312247637,
+      "idp": 0.7808801219568933,
+      "idr": 0.6496068045133887,
+      "mota": 0.5144905613647729,
+      "motp": 0.2907848875806674,
+      "num_switches": 239.0,
+      "pair_id": "34"
+    },
+    "48": {
+      "MDA": 0.5871687239240242,
+      "idf1": 0.7112180688408234,
+      "idp": 0.7336131717358914,
+      "idr": 0.6905739021733714,
+      "mota": 0.5869991933302838,
+      "motp": 0.21670273526406542,
+      "num_switches": 1763.0,
+      "pair_id": "48"
+    },
+    "52": {
+      "MDA": 0.6125809133141696,
+      "idf1": 0.8268417685354243,
+      "idp": 0.9046980400144395,
+      "idr": 0.7616166835058159,
+      "mota": 0.702885642635644,
+      "motp": 0.19367701212571686,
+      "num_switches": 509.0,
+      "pair_id": "52"
+    },
+    "55": {
+      "MDA": 0.34664821952710395,
+      "idf1": 0.726511607826297,
+      "idp": 0.8141726788313567,
+      "idr": 0.6570825444488052,
+      "mota": 0.5512306112193922,
+      "motp": 0.27034013296802367,
+      "num_switches": 653.0,
+      "pair_id": "55"
+    },
+    "56": {
+      "MDA": 0.4960392522666944,
+      "idf1": 0.7189260784814052,
+      "idp": 0.8701558890283071,
+      "idr": 0.6141592998585856,
+      "mota": 0.553720531104341,
+      "motp": 0.19108350026402698,
+      "num_switches": 113.0,
+      "pair_id": "56"
+    },
+    "57": {
+      "MDA": 0.8307398493104392,
+      "idf1": 0.9004826946483027,
+      "idp": 0.9232611661799053,
+      "idr": 0.8789931504330057,
+      "mota": 0.8112204806667098,
+      "motp": 0.16901122368737637,
+      "num_switches": 49.0,
+      "pair_id": "57"
+    },
+    "59": {
+      "MDA": 0.04398901385043489,
+      "idf1": 0.24851568108475097,
+      "idp": 0.28133421485234045,
+      "idr": 0.2227608380014661,
+      "mota": -0.12724311483252837,
+      "motp": 0.3470869101799905,
+      "num_switches": 818.0,
+      "pair_id": "59"
+    },
+    "61": {
+      "MDA": 0.341001149978927,
+      "idf1": 0.6476763704685755,
+      "idp": 0.7503754355587184,
+      "idr": 0.5757010229808015,
+      "mota": 0.46031692607088465,
+      "motp": 0.21205343322127607,
+      "num_switches": 989.0,
+      "pair_id": "61"
+    },
+    "62": {
+      "MDA": 0.5715905773427168,
+      "idf1": 0.7915339077369272,
+      "idp": 0.8373648596802842,
+      "idr": 0.7513110055513894,
+      "mota": 0.6465243712418511,
+      "motp": 0.18833334305775618,
+      "num_switches": 771.0,
+      "pair_id": "62"
+    },
+    "68": {
+      "MDA": 0.20996459443841117,
+      "idf1": 0.5781117532584823,
+      "idp": 0.6881429327348964,
+      "idr": 0.5116643544129001,
+      "mota": 0.347595915996187,
+      "motp": 0.24098708015518977,
+      "num_switches": 1463.0,
+      "pair_id": "68"
+    },
+    "71": {
+      "MDA": 0.3515705778113789,
+      "idf1": 0.6705241168229693,
+      "idp": 0.7940883962909862,
+      "idr": 0.5805815531644469,
+      "mota": 0.49544251630741976,
+      "motp": 0.22025139902330132,
+      "num_switches": 551.0,
+      "pair_id": "71"
+    },
+    "73": {
+      "MDA": 0.2960533589864091,
+      "idf1": 0.7175580108415248,
+      "idp": 0.7819280285457455,
+      "idr": 0.6630424859723116,
+      "mota": 0.5172361077186569,
+      "motp": 0.24777738126132498,
+      "num_switches": 608.0,
+      "pair_id": "73"
+    }
+  },
+  "original_seal_mismatches": [
+    "/home/chenhc/mdmot_p24_test_20261004/official_demo/suppl_compat.py"
+  ],
+  "pair_count": 14,
+  "pairs": [
+    "26",
+    "31",
+    "34",
+    "48",
+    "52",
+    "55",
+    "56",
+    "57",
+    "59",
+    "61",
+    "62",
+    "68",
+    "71",
+    "73"
+  ],
+  "reference_prediction_JSON_count": 28,
+  "script_sha256": "0f8b774b1ba919022539c37e82d8dbecdad70f50cf4c9e7f25dd353e942a7236",
+  "snapshot_gt_previously_sealed": false,
+  "status": "FROZEN_REFERENCE_SCORE_INPUTS"
+}

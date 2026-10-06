@@ -1,0 +1,120 @@
+{
+  "status": "PASS_CCSI_FULL_FAILURE_AUDIT_3X3",
+  "classification": "METHOD_GENERALIZATION_FAILURE_CROSS_PAIR_OVERFIT",
+  "decision": "STOP_CCSI_AFTER_FULL_COVERAGE",
+  "rounds": {
+    "R1_training_integrity": [
+      {
+        "name": "R1_full_schedule_contract",
+        "pass": true,
+        "detail": {
+          "steps": 55236,
+          "eligible_groups": 18412,
+          "epochs": 3
+        }
+      },
+      {
+        "name": "R1_full_checkpoint_hash",
+        "pass": true,
+        "detail": "c719bcf300f168a4c9fbf9bbda0ecc64d82b01e4215bb3220b57625459ca381f"
+      },
+      {
+        "name": "R1_full_receipt_gpu_and_status",
+        "pass": true,
+        "detail": {
+          "status": "PASS_CCSI_FULL_COVERAGE_TRAINING",
+          "gpu_name": "NVIDIA A100-SXM4-40GB",
+          "gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a"
+        }
+      }
+    ],
+    "R2_evaluation_integrity": [
+      {
+        "name": "R2_label_freeze",
+        "pass": true,
+        "detail": {
+          "status": "PASS_CCSI_LABEL_FREEZE",
+          "pairs": 20
+        }
+      },
+      {
+        "name": "R2_all_outputs_finite",
+        "pass": true,
+        "detail": {
+          "pairs": 20,
+          "finite_values": 20
+        }
+      },
+      {
+        "name": "R2_no_forbidden_split",
+        "pass": true,
+        "detail": {
+          "dev_read": false,
+          "official_val_test_read": false,
+          "receipt_calibration_read": false,
+          "receipt_dev_read": false
+        }
+      }
+    ],
+    "R3_failure_cause": [
+      {
+        "name": "R3_full_calibration_gate_failure",
+        "pass": true,
+        "detail": {
+          "calibration_r1_vs_p38": -0.011222582888565646,
+          "fit_drop_vs_p1": 0.06195176200934549,
+          "pass": false,
+          "wins_vs_p38": 1,
+          "calibration_r1_vs_p1": -0.0039240467161645864
+        }
+      },
+      {
+        "name": "R3_short_to_full_regression",
+        "pass": true,
+        "detail": {
+          "short": {
+            "calibration_r1_vs_p38": 0.0020646207114942694,
+            "fit_drop_vs_p1": 0.018841808866011167,
+            "pass": false,
+            "wins_vs_p38": 4,
+            "calibration_r1_vs_p1": 0.00936315688389533
+          },
+          "full": {
+            "calibration_r1_vs_p38": -0.011222582888565646,
+            "fit_drop_vs_p1": 0.06195176200934549,
+            "pass": false,
+            "wins_vs_p38": 1,
+            "calibration_r1_vs_p1": -0.0039240467161645864
+          }
+        }
+      },
+      {
+        "name": "R3_fit_calibration_gap_exposes_overfit",
+        "pass": true,
+        "detail": {
+          "fit_drop_vs_p1": 0.06195176200934549,
+          "calibration_r1_vs_p1": -0.0039240467161645864
+        }
+      }
+    ]
+  },
+  "all_checks_pass": true,
+  "evidence": {
+    "short_gate": {
+      "calibration_r1_vs_p38": 0.0020646207114942694,
+      "fit_drop_vs_p1": 0.018841808866011167,
+      "pass": false,
+      "wins_vs_p38": 4,
+      "calibration_r1_vs_p1": 0.00936315688389533
+    },
+    "full_gate": {
+      "calibration_r1_vs_p38": -0.011222582888565646,
+      "fit_drop_vs_p1": 0.06195176200934549,
+      "pass": false,
+      "wins_vs_p38": 1,
+      "calibration_r1_vs_p1": -0.0039240467161645864
+    },
+    "checkpoint_sha256": "c719bcf300f168a4c9fbf9bbda0ecc64d82b01e4215bb3220b57625459ca381f",
+    "p38_checkpoint_sha256": "411f1c908f3bca6263ad53994a94b7c2f23268f62b23f41aff785a2af97d9127"
+  }
+}

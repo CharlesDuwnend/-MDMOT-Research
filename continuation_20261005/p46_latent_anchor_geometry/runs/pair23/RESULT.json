@@ -1,0 +1,50 @@
+{
+  "status": "COMPLETE_P46_PAIR23_GEOMETRY_DIAGNOSTIC",
+  "iou_gate": 0.3,
+  "alpha_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.15000000000000002,
+    0.2,
+    0.25,
+    0.30000000000000004,
+    0.35000000000000003,
+    0.4
+  ],
+  "initial_shared_ids": 8,
+  "rows_with_cross_view_gt_pair": 14482,
+  "frames_with_cross_view_gt_pair": 700,
+  "read": {
+    "p26_json": true,
+    "fit_xml": true,
+    "official_test": false
+  },
+  "summary": {
+    "center": {
+      "n": 14482,
+      "rank1": 0.9337798646595774,
+      "median_rank": 1.0,
+      "median_margin_wrong_minus_true": 0.6593003348212674,
+      "positive_margin_rate": 0.9337798646595774
+    },
+    "bottom": {
+      "n": 14482,
+      "rank1": 0.7467200662891865,
+      "median_rank": 1.0,
+      "median_margin_wrong_minus_true": 0.1763966468140116,
+      "positive_margin_rate": 0.7467200662891865
+    },
+    "line": {
+      "n": 14482,
+      "rank1": 0.9290843806104129,
+      "median_rank": 1.0,
+      "median_margin_wrong_minus_true": 0.490904867984458,
+      "positive_margin_rate": 0.9290843806104129
+    }
+  },
+  "inputs_sha256": {
+    "p26_1": "c2988c6c1c42ae15c84616c3d701f958662fad98bc3e51e9c07b79c72045bf58",
+    "p26_2": "6c7f3add80ddaba8d065627975125070619febf0b858372e3ec41ff3f9e4707e"
+  }
+}

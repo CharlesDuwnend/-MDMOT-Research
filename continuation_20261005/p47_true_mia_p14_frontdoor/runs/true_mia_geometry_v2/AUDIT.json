@@ -1,0 +1,252 @@
+{
+  "method": "geometry_frontdoor",
+  "receipt": {
+    "alignment": {
+      "view1": {
+        "coverage_lt_0_99": 365,
+        "coverage_lt_1": 365,
+        "coverage_mean": 0.9632718407700784,
+        "coverage_min": 0.7333333333333333,
+        "frames": 700,
+        "mean_iou_min": 0.9583333333333334,
+        "min_iou_min": 0.0
+      },
+      "view2": {
+        "coverage_lt_0_99": 370,
+        "coverage_lt_1": 370,
+        "coverage_mean": 0.9648179707322356,
+        "coverage_min": 0.7894736842105263,
+        "frames": 700,
+        "mean_iou_min": 0.875,
+        "min_iou_min": 0.0
+      }
+    },
+    "event_total_accepted": 307,
+    "event_total_proposals": 1447,
+    "event_total_skipped": 1140,
+    "events": {
+      "A_new": {
+        "accepted_count": 162,
+        "accepted_unique_new_ids": 106,
+        "accepted_unique_target_indices": 162,
+        "cost_max": 0.9977986471185941,
+        "cost_min": 0.0027386554726619005,
+        "frames": 699,
+        "proposal_count": 446,
+        "skipped_count": 284
+      },
+      "A_old": {
+        "accepted_count": 24,
+        "accepted_unique_new_ids": 15,
+        "accepted_unique_target_indices": 24,
+        "cost_max": 0.9978769482804061,
+        "cost_min": 0.016707827483273163,
+        "frames": 699,
+        "proposal_count": 399,
+        "skipped_count": 375
+      },
+      "B_new": {
+        "accepted_count": 121,
+        "accepted_unique_new_ids": 51,
+        "accepted_unique_target_indices": 121,
+        "cost_max": 0.9992973963309048,
+        "cost_min": 0.0010619010789269176,
+        "frames": 699,
+        "proposal_count": 602,
+        "skipped_count": 481
+      }
+    },
+    "labels_read": false,
+    "mode": "geometry",
+    "official_test_read": false,
+    "sequences": [],
+    "status": "COMPLETE_P47_TRUE_MIA_FRONTDOOR_REPLAY"
+  },
+  "variant_dir": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p47_true_mia_p14_frontdoor/runs/true_mia_geometry_v2",
+  "view1": {
+    "bad_rows": [],
+    "duplicate_ids": [],
+    "frames": 700,
+    "row_count_max": 45,
+    "row_count_min": 5,
+    "rows": 16642
+  },
+  "view2": {
+    "bad_rows": [],
+    "duplicate_ids": [],
+    "frames": 700,
+    "row_count_max": 39,
+    "row_count_min": 8,
+    "rows": 17194
+  },
+  "vs_p26": {
+    "first_changes": [
+      {
+        "frame": "frame=55",
+        "geometry_changed": 0,
+        "id_changed": 1,
+        "kind": "rows",
+        "p26_rows": 10,
+        "p47_rows": 10
+      },
+      {
+        "frame": "frame=56",
+        "geometry_changed": 0,
+        "id_changed": 1,
+        "kind": "rows",
+        "p26_rows": 11,
+        "p47_rows": 11
+      },
+      {
+        "frame": "frame=57",
+        "geometry_changed": 0,
+        "id_changed": 2,
+        "kind": "rows",
+        "p26_rows": 11,
+        "p47_rows": 11
+      },
+      {
+        "frame": "frame=58",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 13,
+        "p47_rows": 13
+      },
+      {
+        "frame": "frame=59",
+        "geometry_changed": 0,
+        "id_changed": 3,
+        "kind": "rows",
+        "p26_rows": 13,
+        "p47_rows": 13
+      },
+      {
+        "frame": "frame=60",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 14,
+        "p47_rows": 14
+      },
+      {
+        "frame": "frame=61",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 15,
+        "p47_rows": 15
+      },
+      {
+        "frame": "frame=62",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 15,
+        "p47_rows": 15
+      },
+      {
+        "frame": "frame=63",
+        "geometry_changed": 0,
+        "id_changed": 3,
+        "kind": "rows",
+        "p26_rows": 15,
+        "p47_rows": 15
+      },
+      {
+        "frame": "frame=64",
+        "geometry_changed": 0,
+        "id_changed": 5,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=65",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=66",
+        "geometry_changed": 0,
+        "id_changed": 3,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=67",
+        "geometry_changed": 0,
+        "id_changed": 3,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=68",
+        "geometry_changed": 0,
+        "id_changed": 3,
+        "kind": "rows",
+        "p26_rows": 16,
+        "p47_rows": 16
+      },
+      {
+        "frame": "frame=69",
+        "geometry_changed": 0,
+        "id_changed": 6,
+        "kind": "rows",
+        "p26_rows": 18,
+        "p47_rows": 18
+      },
+      {
+        "frame": "frame=70",
+        "geometry_changed": 0,
+        "id_changed": 5,
+        "kind": "rows",
+        "p26_rows": 18,
+        "p47_rows": 18
+      },
+      {
+        "frame": "frame=71",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 17,
+        "p47_rows": 17
+      },
+      {
+        "frame": "frame=72",
+        "geometry_changed": 0,
+        "id_changed": 4,
+        "kind": "rows",
+        "p26_rows": 19,
+        "p47_rows": 19
+      },
+      {
+        "frame": "frame=73",
+        "geometry_changed": 0,
+        "id_changed": 5,
+        "kind": "rows",
+        "p26_rows": 19,
+        "p47_rows": 19
+      },
+      {
+        "frame": "frame=74",
+        "geometry_changed": 2,
+        "id_changed": 5,
+        "kind": "rows",
+        "p26_rows": 19,
+        "p47_rows": 19
+      }
+    ],
+    "frames_with_any_change": 645,
+    "frames_with_geometry_change": 19,
+    "frames_with_id_change": 643,
+    "row_count_change_frames": 2,
+    "rows_geometry_changed": 56,
+    "rows_id_changed": 12780
+  }
+}

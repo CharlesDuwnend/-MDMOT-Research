@@ -1,0 +1,10 @@
+{
+  "status": "STOP_CCFI_AFTER_FULL_COVERAGE",
+  "candidate": "Causal Cross-View Factorized Identity",
+  "short_gate": {"calibration_r1": 0.4540345329959523, "vs_p38_delta": 0.0026682250481561143, "wins_vs_p38": 4},
+  "full_coverage": {"steps": 55236, "epochs": 3, "calibration_r1": 0.43694843466512817, "vs_p38_delta": -0.014417873282668026, "wins_vs_p38": 0, "fit_r1": 0.9128761061750432},
+  "decision": "停止继续训练、停止 host attachment 和 official val/test；短门改善被完整 fit 训练后的跨 pair 回归否定。",
+  "failure_audit": "FULL_FAILURE_AUDIT.json",
+  "interpretation": "实现、有限性、冻结顺序和 key 对齐通过；主要问题是跨 pair 泛化/过拟合，不是 GPU、步数不足或评估 wiring。",
+  "retain": ["短门 checkpoint 作为诊断控制", "全覆盖 checkpoint 作为失败证据", "CCFI method spec and audit trail"]
+}

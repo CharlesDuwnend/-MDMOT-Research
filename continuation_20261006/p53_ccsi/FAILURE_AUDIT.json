@@ -1,0 +1,117 @@
+{
+  "status": "PASS_CCSI_SHORT_GATE_AUDIT_3X3",
+  "classification": "METHOD_GATE_BELOW_ABSOLUTE_THRESHOLD",
+  "decision": "HOLD_FOR_FULL_COVERAGE_SUFFICIENCY",
+  "rounds": {
+    "R1_training": [
+      {
+        "name": "R1_receipt",
+        "pass": true,
+        "detail": "PASS_CCSI_FIXED_TRAINING"
+      },
+      {
+        "name": "R1_cpu_contract",
+        "pass": true,
+        "detail": true
+      },
+      {
+        "name": "R1_p38_lineage",
+        "pass": true,
+        "detail": "411f1c908f3bca6263ad53994a94b7c2f23268f62b23f41aff785a2af97d9127"
+      }
+    ],
+    "R2_evaluation": [
+      {
+        "name": "R2_label_freeze",
+        "pass": true,
+        "detail": 20
+      },
+      {
+        "name": "R2_finite_metrics",
+        "pass": true,
+        "detail": 20
+      },
+      {
+        "name": "R2_no_forbidden_read",
+        "pass": true,
+        "detail": true
+      }
+    ],
+    "R3_gate": [
+      {
+        "name": "R3_relative_signal",
+        "pass": true,
+        "detail": {
+          "calibration_r1_vs_p38": 0.0020646207114942694,
+          "fit_drop_vs_p1": 0.018841808866011167,
+          "pass": false,
+          "wins_vs_p38": 4
+        }
+      },
+      {
+        "name": "R3_absolute_gate_explicit",
+        "pass": true,
+        "detail": {
+          "calibration_r1_vs_p38": 0.0020646207114942694,
+          "fit_drop_vs_p1": 0.018841808866011167,
+          "pass": false,
+          "wins_vs_p38": 4
+        }
+      },
+      {
+        "name": "R3_no_host_attachment",
+        "pass": true,
+        "detail": true
+      }
+    ]
+  },
+  "all_checks_pass": true,
+  "evidence": {
+    "gate": {
+      "calibration_r1_vs_p38": 0.0020646207114942694,
+      "fit_drop_vs_p1": 0.018841808866011167,
+      "pass": false,
+      "wins_vs_p38": 4
+    },
+    "calibration": {
+      "pair_macro_r1": {
+        "ccsi128": 0.45343092865929047,
+        "p1_independent128": 0.44406777177539514,
+        "temporal128": 0.4513663079477962
+      },
+      "pairs": [
+        "27",
+        "32",
+        "42",
+        "64",
+        "65"
+      ],
+      "wins_vs_p38": 4
+    },
+    "fit": {
+      "pair_macro_r1": {
+        "ccsi128": 0.8664678253622963,
+        "p1_independent128": 0.8476260164962851,
+        "temporal128": 0.8592144082265776
+      },
+      "pairs": [
+        "23",
+        "25",
+        "28",
+        "29",
+        "39",
+        "44",
+        "45",
+        "51",
+        "53",
+        "63",
+        "66",
+        "69",
+        "70",
+        "74",
+        "78"
+      ],
+      "wins_vs_p38": 15
+    }
+  }
+}

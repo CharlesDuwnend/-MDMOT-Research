@@ -1,0 +1,24 @@
+{
+  "status": "STOP_LCSCF_AS_PAPER_METHOD",
+  "mechanism_contract": "PASS_LCSCF_CONTRACT_AUDIT_V3",
+  "implementation_audits": [
+    "PASS_LCSCF_V1_IMPLEMENTATION_FAILURE_AUDIT_3X3",
+    "PASS_LCSCF_NAN_FAILURE_AUDIT_3X3_AND_REPAIR"
+  ],
+  "clean_gate": "runs/block1_600_v3",
+  "result": {
+    "B4": {"recall1": 0.15450698757763975, "mrr": 0.29156393619820925, "margin": -0.7758511385579324, "dustbin_brier": 0.3260688071566842},
+    "LCSCF_B4": {"recall1": 0.14462786835748792, "mrr": 0.27804304485966147, "margin": -0.9299753602632154, "dustbin_brier": 0.32476593608303994},
+    "pair_recall1_wins": 1,
+    "pair_count": 4
+  },
+  "disposition": {
+    "paper_method": "STOP",
+    "additional_training": "STOP",
+    "second_block": "NOT_AUTHORIZED",
+    "tracker_integration": "STOP",
+    "official_val_test": false,
+    "retain_as_negative_control": true,
+    "next": "audit a temporal evidence representation using the existing Stage-15 support-frame contract; no code until observability and collision screen passes"
+  }
+}

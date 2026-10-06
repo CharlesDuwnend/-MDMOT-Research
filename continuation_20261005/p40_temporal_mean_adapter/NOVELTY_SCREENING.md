@@ -1,0 +1,3 @@
+# P40 scope and collision screen
+
+This is not claimed as novel from the name. Temporal track-conditioned identity learning has close precedents (MOTIP, MCTR, FusionTrack, and the local P2/TEC family). The testable boundary is narrower: a causal FIFO-mean anchor over P1's local-track history followed by a zero-initialized identity residual adapter, trained under the existing cross-view masked objective. P39 fixed mean is the required control; P40 can be retained only as a validated representation direction and must still pass implementation, transport, and complete-output audits before any paper claim.

@@ -1,0 +1,58 @@
+{
+  "status": "STOP_LCSCF_NOT_INCREMENTAL_AFTER_REPAIRED_RUN",
+  "method": "LCSCF-B4",
+  "rounds": [
+    {
+      "round": "R1_V1_SEMANTIC_IMPLEMENTATION",
+      "checks": [
+        "channel normalization and local-neighbour normalization were wrong",
+        "cycle statistic was not a round-trip transport probability",
+        "unknown candidates and 256x448 anisotropic preprocessing were not contracted"
+      ],
+      "result": "ARCHIVE_INVALID_V1"
+    },
+    {
+      "round": "R2_V2_NUMERICAL_IMPLEMENTATION",
+      "checks": [
+        "finfo.min divided by learnable temperature caused overflow",
+        "fresh same-seed replay isolated the only non-finite gradient to log_temperature",
+        "finite-sentinel-after-division repair plus clamp/gradient clip produced finite backward"
+      ],
+      "result": "PASS_NUMERICAL_REPAIR"
+    },
+    {
+      "round": "R3_V3_METHOD_GATE",
+      "checks": [
+        "600 LCSCF-B4 train steps had 0 NaN/Inf and native 800x1333 contract",
+        "same B4/LCSCF pair event denominators and locked official val/test",
+        "LCSCF-B4 improved only 1/4 pairs; macro Recall@1 0.14463 < B4 0.15451 and macro margin decreased"
+      ],
+      "result": "STOP_LCSCF_NOT_INCREMENTAL"
+    }
+  ],
+  "v3_results": {
+    "B4": {
+      "recall1": 0.15450698757763975,
+      "mrr": 0.29156393619820925,
+      "margin": -0.7758511385579324,
+      "dustbin_brier": 0.3260688071566842
+    },
+    "LCSCF_B4": {
+      "recall1": 0.14462786835748792,
+      "mrr": 0.27804304485966147,
+      "margin": -0.9299753602632154,
+      "dustbin_brier": 0.32476593608303994
+    },
+    "pair_recall1_wins": 1,
+    "pair_count": 4,
+    "events_per_pair": {"29": 866, "30": 692, "32": 203, "39": 83}
+  },
+  "decision": {
+    "paper_method": "STOP",
+    "additional_training": "STOP",
+    "second_block": "NOT_AUTHORIZED",
+    "official_val_test": false,
+    "keep_artifacts": true,
+    "reason": "After three implementation rounds, the repaired operator is numerically valid but not incrementally better than the strong B4 baseline."
+  }
+}

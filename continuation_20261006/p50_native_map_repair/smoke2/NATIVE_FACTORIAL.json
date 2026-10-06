@@ -1,0 +1,319 @@
+{
+  "status": "NATIVE_SET_RESIDUAL_FACTORIAL_COMPLETE",
+  "version": "2026-10-06-v1",
+  "device": "cuda",
+  "steps_per_arm": 2,
+  "seeds": [
+    7,
+    17
+  ],
+  "fit_pairs": [
+    "23"
+  ],
+  "eval_pairs": [
+    "69"
+  ],
+  "fit_events": 213,
+  "eval_events": {
+    "69": 566
+  },
+  "pair_audit": {
+    "23": {
+      "pair": "23",
+      "counts": {
+        "events": 213,
+        "zero_candidate": 8,
+        "positive": 111,
+        "teacher": 125
+      },
+      "dropped": []
+    },
+    "69": {
+      "pair": "69",
+      "counts": {
+        "events": 566,
+        "zero_candidate": 0,
+        "positive": 239,
+        "teacher": 0
+      },
+      "dropped": []
+    }
+  },
+  "arms": {
+    "rel_on_teacher_off": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.025092601776123,
+            "assign": 2.025092601776123,
+            "teacher_rows": 24
+          },
+          {
+            "step": 2,
+            "loss": 1.994356393814087,
+            "assign": 1.994356393814087,
+            "teacher_rows": 46
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.30958745610545224,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/rel_on_teacher_off_seed7.pt",
+        "checkpoint_sha256": "51cc1eb52069e54ca8938501a26436b9c579c138d340e5c71003c80eb814faf7"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0110769271850586,
+            "assign": 2.0110769271850586,
+            "teacher_rows": 24
+          },
+          {
+            "step": 2,
+            "loss": 1.9863746166229248,
+            "assign": 1.9863746166229248,
+            "teacher_rows": 46
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.3096754391466996,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/rel_on_teacher_off_seed17.pt",
+        "checkpoint_sha256": "a3c0cd39dd155bfeb6390e0bcc7374008cf428d18099b1b7d107df0e7f33dfda"
+      }
+    ],
+    "rel_on_teacher_on": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0395901203155518,
+            "assign": 2.025092601776123,
+            "teacher_rows": 24
+          },
+          {
+            "step": 2,
+            "loss": 2.027423858642578,
+            "assign": 1.9943621158599854,
+            "teacher_rows": 46
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.30958745610545224,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/rel_on_teacher_on_seed7.pt",
+        "checkpoint_sha256": "e38141976f0b3438758816a4e72026ca6b872cf1533f388fedfc3ed7d67a61c3"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0255744457244873,
+            "assign": 2.0110769271850586,
+            "teacher_rows": 24
+          },
+          {
+            "step": 2,
+            "loss": 2.019437074661255,
+            "assign": 1.9863780736923218,
+            "teacher_rows": 46
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.3096754391466996,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/rel_on_teacher_on_seed17.pt",
+        "checkpoint_sha256": "7331165bb5bd7c784ef97587e72ca8e5e4078cad1f90982e6ec71d42b9e52314"
+      }
+    ],
+    "pooled_teacher_off": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.025092601776123,
+            "assign": 2.025092601776123,
+            "teacher_rows": 24
+          },
+          {
+            "step": 2,
+            "loss": 1.9943785667419434,
+            "assign": 1.9943785667419434,
+            "teacher_rows": 46
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.3096345365580212,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/pooled_teacher_off_seed7.pt",
+        "checkpoint_sha256": "a4ca0523909124419d5deb324b3c71b628d0efba3d70aff636d44821b7c885ee"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0110769271850586,
+            "assign": 2.0110769271850586,
+            "teacher_rows": 24
+          },
+          {
+            "step": 2,
+            "loss": 1.9862887859344482,
+            "assign": 1.9862887859344482,
+            "teacher_rows": 46
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.3097634029264273,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/pooled_teacher_off_seed17.pt",
+        "checkpoint_sha256": "2f5042c982d1ca80e833c6d2edf204666ad6476b49b471174942da9e7e01a36b"
+      }
+    ],
+    "pooled_teacher_on": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0395901203155518,
+            "assign": 2.025092601776123,
+            "teacher_rows": 24
+          },
+          {
+            "step": 2,
+            "loss": 2.027447462081909,
+            "assign": 1.9943864345550537,
+            "teacher_rows": 46
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.3096345365580212,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/pooled_teacher_on_seed7.pt",
+        "checkpoint_sha256": "35e2da341e7dfa2529794cc662afa140024393165990a5fd8636c4fea73e2a57"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0255744457244873,
+            "assign": 2.0110769271850586,
+            "teacher_rows": 24
+          },
+          {
+            "step": 2,
+            "loss": 2.019352674484253,
+            "assign": 1.9862923622131348,
+            "teacher_rows": 46
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.3097673651427326,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.42402826855123676,
+            "dustbin_rate": 0.0017667844522968198,
+            "dustbin_label_rate": 0.5777385159010601
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/pooled_teacher_on_seed17.pt",
+        "checkpoint_sha256": "611cf2a6b3807bc49689bd05f9b48158ba56379472386a52245ca813a3fd4cd7"
+      }
+    ]
+  },
+  "controls": {
+    "native_features_frozen": true,
+    "native_detector_preprocessing_preserved": true,
+    "teacher_projection_trainable": false,
+    "teacher_in_inference": false,
+    "zero_candidate_rows_retained": true,
+    "official_val_test_access": false,
+    "model_selection_on_eval": false,
+    "baseline": "frozen native 256-D stage3 cosine, evaluated on exact same rows"
+  },
+  "elapsed_seconds": 58.77666473388672
+}

@@ -1,0 +1,377 @@
+{
+  "status": "PASS_POST_RUN_IMPLEMENTATION_AUDIT",
+  "checks": [
+    {
+      "name": "all_arms_and_seeds",
+      "status": "PASS",
+      "evidence": [
+        "rel_on_teacher_off",
+        "rel_on_teacher_on",
+        "pooled_teacher_off",
+        "pooled_teacher_on"
+      ]
+    },
+    {
+      "name": "equal_event_denominator_69",
+      "status": "PASS",
+      "evidence": [
+        [
+          "rel_on_teacher_off",
+          7,
+          566,
+          239
+        ],
+        [
+          "rel_on_teacher_off",
+          17,
+          566,
+          239
+        ],
+        [
+          "rel_on_teacher_on",
+          7,
+          566,
+          239
+        ],
+        [
+          "rel_on_teacher_on",
+          17,
+          566,
+          239
+        ],
+        [
+          "pooled_teacher_off",
+          7,
+          566,
+          239
+        ],
+        [
+          "pooled_teacher_off",
+          17,
+          566,
+          239
+        ],
+        [
+          "pooled_teacher_on",
+          7,
+          566,
+          239
+        ],
+        [
+          "pooled_teacher_on",
+          17,
+          566,
+          239
+        ]
+      ]
+    },
+    {
+      "name": "equal_event_denominator_70",
+      "status": "PASS",
+      "evidence": [
+        [
+          "rel_on_teacher_off",
+          7,
+          312,
+          150
+        ],
+        [
+          "rel_on_teacher_off",
+          17,
+          312,
+          150
+        ],
+        [
+          "rel_on_teacher_on",
+          7,
+          312,
+          150
+        ],
+        [
+          "rel_on_teacher_on",
+          17,
+          312,
+          150
+        ],
+        [
+          "pooled_teacher_off",
+          7,
+          312,
+          150
+        ],
+        [
+          "pooled_teacher_off",
+          17,
+          312,
+          150
+        ],
+        [
+          "pooled_teacher_on",
+          7,
+          312,
+          150
+        ],
+        [
+          "pooled_teacher_on",
+          17,
+          312,
+          150
+        ]
+      ]
+    },
+    {
+      "name": "equal_event_denominator_74",
+      "status": "PASS",
+      "evidence": [
+        [
+          "rel_on_teacher_off",
+          7,
+          561,
+          190
+        ],
+        [
+          "rel_on_teacher_off",
+          17,
+          561,
+          190
+        ],
+        [
+          "rel_on_teacher_on",
+          7,
+          561,
+          190
+        ],
+        [
+          "rel_on_teacher_on",
+          17,
+          561,
+          190
+        ],
+        [
+          "pooled_teacher_off",
+          7,
+          561,
+          190
+        ],
+        [
+          "pooled_teacher_off",
+          17,
+          561,
+          190
+        ],
+        [
+          "pooled_teacher_on",
+          7,
+          561,
+          190
+        ],
+        [
+          "pooled_teacher_on",
+          17,
+          561,
+          190
+        ]
+      ]
+    },
+    {
+      "name": "equal_event_denominator_76",
+      "status": "PASS",
+      "evidence": [
+        [
+          "rel_on_teacher_off",
+          7,
+          147,
+          89
+        ],
+        [
+          "rel_on_teacher_off",
+          17,
+          147,
+          89
+        ],
+        [
+          "rel_on_teacher_on",
+          7,
+          147,
+          89
+        ],
+        [
+          "rel_on_teacher_on",
+          17,
+          147,
+          89
+        ],
+        [
+          "pooled_teacher_off",
+          7,
+          147,
+          89
+        ],
+        [
+          "pooled_teacher_off",
+          17,
+          147,
+          89
+        ],
+        [
+          "pooled_teacher_on",
+          7,
+          147,
+          89
+        ],
+        [
+          "pooled_teacher_on",
+          17,
+          147,
+          89
+        ]
+      ]
+    },
+    {
+      "name": "equal_event_denominator_78",
+      "status": "PASS",
+      "evidence": [
+        [
+          "rel_on_teacher_off",
+          7,
+          259,
+          160
+        ],
+        [
+          "rel_on_teacher_off",
+          17,
+          259,
+          160
+        ],
+        [
+          "rel_on_teacher_on",
+          7,
+          259,
+          160
+        ],
+        [
+          "rel_on_teacher_on",
+          17,
+          259,
+          160
+        ],
+        [
+          "pooled_teacher_off",
+          7,
+          259,
+          160
+        ],
+        [
+          "pooled_teacher_off",
+          17,
+          259,
+          160
+        ],
+        [
+          "pooled_teacher_on",
+          7,
+          259,
+          160
+        ],
+        [
+          "pooled_teacher_on",
+          17,
+          259,
+          160
+        ]
+      ]
+    },
+    {
+      "name": "checkpoint_hash_and_finite",
+      "status": "PASS",
+      "evidence": [
+        {
+          "arm": "rel_on_teacher_off",
+          "seed": 7,
+          "hash_ok": true,
+          "finite": true,
+          "parameters": 18
+        },
+        {
+          "arm": "rel_on_teacher_off",
+          "seed": 17,
+          "hash_ok": true,
+          "finite": true,
+          "parameters": 18
+        },
+        {
+          "arm": "rel_on_teacher_on",
+          "seed": 7,
+          "hash_ok": true,
+          "finite": true,
+          "parameters": 18
+        },
+        {
+          "arm": "rel_on_teacher_on",
+          "seed": 17,
+          "hash_ok": true,
+          "finite": true,
+          "parameters": 18
+        },
+        {
+          "arm": "pooled_teacher_off",
+          "seed": 7,
+          "hash_ok": true,
+          "finite": true,
+          "parameters": 18
+        },
+        {
+          "arm": "pooled_teacher_off",
+          "seed": 17,
+          "hash_ok": true,
+          "finite": true,
+          "parameters": 18
+        },
+        {
+          "arm": "pooled_teacher_on",
+          "seed": 7,
+          "hash_ok": true,
+          "finite": true,
+          "parameters": 18
+        },
+        {
+          "arm": "pooled_teacher_on",
+          "seed": 17,
+          "hash_ok": true,
+          "finite": true,
+          "parameters": 18
+        }
+      ]
+    },
+    {
+      "name": "step_zero_native_cosine",
+      "status": "PASS",
+      "evidence": {
+        "max_abs_error": 9.313225746154785e-09
+      }
+    },
+    {
+      "name": "teacher_absent_from_forward",
+      "status": "PASS",
+      "evidence": {
+        "model_region_has_teacher": false
+      }
+    },
+    {
+      "name": "official_val_test_locked",
+      "status": "PASS",
+      "evidence": {
+        "native_features_frozen": true,
+        "native_detector_preprocessing_preserved": true,
+        "teacher_projection_trainable": false,
+        "teacher_in_inference": false,
+        "zero_candidate_rows_retained": true,
+        "official_val_test_access": false,
+        "model_selection_on_eval": false,
+        "baseline": "frozen native 256-D stage3 cosine, evaluated on exact same rows"
+      }
+    }
+  ],
+  "source_sha256": "1bee77852107ca786688d2cbf694adaa66708ce3c6fa6521cdea70619f53598d",
+  "result_sha256": "890d43b053d0e8b11ceb4e68ce8813046bf6c67c6319c554fdb9dab95ee69aa9"
+}

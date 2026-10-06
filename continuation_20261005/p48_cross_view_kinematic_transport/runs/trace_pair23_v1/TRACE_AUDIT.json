@@ -1,0 +1,89 @@
+{
+  "A_to_B": {
+    "dropped": {
+      "source_no_gt": 17,
+      "source_no_history": 823,
+      "target_unusable": 1973
+    },
+    "hard_geometry_kinematic_rank1": 0.023579849946409433,
+    "hard_geometry_position_rank1": 0.0,
+    "hard_geometry_queries": 933,
+    "kinematic_only": {
+      "median_rank": 9.0,
+      "queries": 14393,
+      "rank1": 0.13256444104773155,
+      "rank_le_3": 0.26860279302438683,
+      "true_median_cost": 0.034429695235029326,
+      "wrong_median_cost": 0.0779624773497381,
+      "wrong_minus_true": 0.043532782114708776
+    },
+    "position": {
+      "median_rank": 1.0,
+      "queries": 14393,
+      "rank1": 0.9351768220662822,
+      "rank_le_3": 0.9675536719238519,
+      "true_median_cost": 0.04752077513265326,
+      "wrong_median_cost": 6.351105431194014,
+      "wrong_minus_true": 6.303584656061361
+    },
+    "position_plus_kinematic": {
+      "median_rank": 1.0,
+      "queries": 14393,
+      "rank1": 0.9273257833669145,
+      "rank_le_3": 0.965538803585076,
+      "true_median_cost": 0.051470025966644586,
+      "wrong_median_cost": 4.1840315678927364,
+      "wrong_minus_true": 4.1325615419260915
+    },
+    "rank1_delta": -0.007851038699367652,
+    "rank_changes": 240,
+    "stage": "before_A_new"
+  },
+  "B_to_A": {
+    "dropped": {
+      "source_no_gt": 61,
+      "source_no_history": 917,
+      "target_unusable": 2290
+    },
+    "hard_geometry_kinematic_rank1": 0.03908045977011494,
+    "hard_geometry_position_rank1": 0.0,
+    "hard_geometry_queries": 870,
+    "kinematic_only": {
+      "median_rank": 8.0,
+      "queries": 14474,
+      "rank1": 0.14342959789968218,
+      "rank_le_3": 0.3020588641702363,
+      "true_median_cost": 0.03769144122309181,
+      "wrong_median_cost": 0.07851062002248263,
+      "wrong_minus_true": 0.04081917879939082
+    },
+    "position": {
+      "median_rank": 1.0,
+      "queries": 14474,
+      "rank1": 0.9398922205333702,
+      "rank_le_3": 0.9659389249689098,
+      "true_median_cost": 0.0526051952641937,
+      "wrong_median_cost": 6.359827379848981,
+      "wrong_minus_true": 6.307222184584787
+    },
+    "position_plus_kinematic": {
+      "median_rank": 1.0,
+      "queries": 14474,
+      "rank1": 0.9304960619041039,
+      "rank_le_3": 0.9644189581318225,
+      "true_median_cost": 0.05493187454110546,
+      "wrong_median_cost": 4.188804222408299,
+      "wrong_minus_true": 4.133872347867194
+    },
+    "rank1_delta": -0.009396158629266238,
+    "rank_changes": 276,
+    "stage": "before_B_new"
+  },
+  "stage_counts": {
+    "before_A_new": 699,
+    "before_B_new": 699,
+    "initial_H": 1,
+    "pre_mia": 700
+  },
+  "trace_lines": 2099
+}

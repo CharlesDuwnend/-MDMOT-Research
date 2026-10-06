@@ -1,0 +1,9 @@
+{
+  "implementation_checks": "label-free freeze for all 20 pairs before offline score, exact P4 row keys, finite unit common features, missing features stay zero",
+  "official_val_test_read": false,
+  "paper_novelty_claim": false,
+  "prior_start_failure": "Output folder already existed; failed before feature or label loading; empty folder removed before successful run.",
+  "source_rule": "P1C WINDOW=8 MAX_GAP=30, same-view local-track metadata pointer",
+  "status": "PASS_P39_FIXED_MEAN_DIAGNOSTIC",
+  "trained": false
+}

@@ -1,0 +1,11 @@
+{
+  "candidate": "P40_CAUSAL_MEAN8_ANCHORED_ADAPTER",
+  "parent_control": "P39_FIXED_CAUSAL_MEAN8",
+  "scope": "fit15-only training, then one label-free freeze plus one P4 crop32 fit15/cal5 score pass",
+  "schedule": "sealed P7R SCHEDULE.json, exactly 1200 updates, seed42",
+  "operator": "zero-initialized residual delta on current embedding and causal FIFO8 mean anchor; no-history rows remain current embedding",
+  "objective": "P7R masked cross-view identity CE + 0.2 anchor consistency",
+  "gate": {"calibration_pair_macro_r1_min": 0.4641, "relative_lift_min": 0.01, "calibration_pair_wins_min": 3, "fit_drop_max": 0.05},
+  "no_search": true,
+  "authorization": "If all gates pass, retain as representation direction only; no P26 host transfer until a separate complete-output transport audit. If any gate fails, stop P40."
+}

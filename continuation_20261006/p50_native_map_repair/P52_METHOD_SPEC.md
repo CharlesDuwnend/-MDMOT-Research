@@ -1,0 +1,7 @@
+# P52 Counterfactual Positive-Removal Assignment (provisional)
+
+P52 keeps the corrected native candidate residual from P50 and changes only the training objective. For a supervised event with at least one positive candidate, it constructs two counterfactual masks: (i) remove all positives and require the dustbin/no-match class to win; (ii) remove the same number of highest-scoring nonpositive candidates and retain the positive assignment. The second mask is a cardinality-matched control for the mere reduction in candidate count. Neither mask is used at inference; inference receives the observed candidate set and emits candidate logits plus dustbin.
+
+The experimental arm adds the positive-removal dustbin loss. The control arm receives the same ordinary assignment and negative-removal control loss, so the only planned difference is the counterfactual positive-removal term. This targets an observable failure mode in cross-view MDMT association: a candidate can look plausible under appearance, but removing the only identity-compatible candidate should create calibrated no-match evidence rather than force a wrong candidate.
+
+This is a mechanism gate on held-out train calibration pairs, not a formal MOT result. The direct-task novelty audit remains open: KeepTrack and event-aware MOT learning already study candidate association and missing/false candidate events, and the claim will remain narrow unless a same-task collision audit passes.

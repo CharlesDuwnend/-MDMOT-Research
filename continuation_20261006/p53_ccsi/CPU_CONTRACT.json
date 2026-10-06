@@ -1,0 +1,26 @@
+{
+  "all_checks_pass": true,
+  "rounds": {
+    "R1_data_legal": {
+      "fit_pair": true,
+      "shared_label_group": true,
+      "swap_has_history_rows": true
+    },
+    "R2_swap_operator": {
+      "finite_swap_loss": true,
+      "no_label_input_to_swap": true,
+      "real_swap_rows": true
+    },
+    "R3_gradient": {
+      "finite_gradients": true,
+      "finite_loss": true,
+      "zero_history_is_legal": true
+    }
+  },
+  "selected_group": [
+    2,
+    1
+  ],
+  "status": "PASS_CCSI_CPU_CONTRACT_3X3",
+  "swap_rows": 2
+}

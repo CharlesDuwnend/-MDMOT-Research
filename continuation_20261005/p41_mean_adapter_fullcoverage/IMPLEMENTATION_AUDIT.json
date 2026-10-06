@@ -1,0 +1,53 @@
+{
+  "all_common_outputs_unit": true,
+  "all_outputs_finite": true,
+  "all_p4_keys_verified": true,
+  "checkpoint_state_changed": true,
+  "cpu_gate": {
+    "finite_gradients": true,
+    "parameters": 115457,
+    "selected_group": [
+      1,
+      1
+    ],
+    "status": "PASS_P40_CPU_GATE",
+    "unknown_label_invariant": true,
+    "zero_init_max_error": 0.0
+  },
+  "dev_read": false,
+  "future_prefix_invariant": true,
+  "history_age_violations": 0,
+  "history_changes_output_fraction": 1.0,
+  "interpretation": "No implementation defect found; P41 is causally active; its below-fixed-mean calibration result is not explained by an implementation defect.",
+  "labels_read_after_label_freeze": true,
+  "max_gap": 30,
+  "max_history_age_observed": 24,
+  "official_val_test_read": false,
+  "p4_key_order_verified": {
+    "23": true,
+    "25": true,
+    "27": true,
+    "28": true,
+    "29": true,
+    "32": true,
+    "39": true,
+    "42": true,
+    "44": true,
+    "45": true,
+    "51": true,
+    "53": true,
+    "63": true,
+    "64": true,
+    "65": true,
+    "66": true,
+    "69": true,
+    "70": true,
+    "74": true,
+    "78": true
+  },
+  "pair23_history_rows": 33394,
+  "permuted_history_changes_output_fraction": 1.0,
+  "status": "PASS_P41_IMPLEMENTATION_AUDIT",
+  "unknown_labels_in_eval_input": false,
+  "window": 8
+}

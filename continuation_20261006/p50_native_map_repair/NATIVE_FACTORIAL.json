@@ -1,0 +1,1017 @@
+{
+  "status": "NATIVE_SET_RESIDUAL_FACTORIAL_COMPLETE",
+  "version": "2026-10-06-v1",
+  "device": "cuda",
+  "steps_per_arm": 2400,
+  "seeds": [
+    7,
+    17
+  ],
+  "fit_pairs": [
+    "23",
+    "25",
+    "27",
+    "28",
+    "29",
+    "30",
+    "32",
+    "39",
+    "42",
+    "44",
+    "45",
+    "50",
+    "51",
+    "53",
+    "54"
+  ],
+  "eval_pairs": [
+    "69",
+    "70",
+    "74",
+    "76",
+    "78"
+  ],
+  "fit_events": 5234,
+  "eval_events": {
+    "69": 566,
+    "70": 312,
+    "74": 561,
+    "76": 147,
+    "78": 259
+  },
+  "pair_audit": {
+    "23": {
+      "pair": "23",
+      "counts": {
+        "events": 213,
+        "zero_candidate": 8,
+        "positive": 111,
+        "teacher": 125
+      },
+      "dropped": []
+    },
+    "25": {
+      "pair": "25",
+      "counts": {
+        "events": 338,
+        "zero_candidate": 5,
+        "positive": 120,
+        "teacher": 86
+      },
+      "dropped": []
+    },
+    "27": {
+      "pair": "27",
+      "counts": {
+        "events": 269,
+        "zero_candidate": 0,
+        "positive": 120,
+        "teacher": 81
+      },
+      "dropped": []
+    },
+    "28": {
+      "pair": "28",
+      "counts": {
+        "events": 513,
+        "zero_candidate": 57,
+        "positive": 138,
+        "teacher": 165
+      },
+      "dropped": []
+    },
+    "29": {
+      "pair": "29",
+      "counts": {
+        "events": 884,
+        "zero_candidate": 0,
+        "positive": 414,
+        "teacher": 521
+      },
+      "dropped": []
+    },
+    "30": {
+      "pair": "30",
+      "counts": {
+        "events": 695,
+        "zero_candidate": 81,
+        "positive": 175,
+        "teacher": 361
+      },
+      "dropped": []
+    },
+    "32": {
+      "pair": "32",
+      "counts": {
+        "events": 204,
+        "zero_candidate": 0,
+        "positive": 128,
+        "teacher": 43
+      },
+      "dropped": []
+    },
+    "39": {
+      "pair": "39",
+      "counts": {
+        "events": 85,
+        "zero_candidate": 7,
+        "positive": 35,
+        "teacher": 28
+      },
+      "dropped": []
+    },
+    "42": {
+      "pair": "42",
+      "counts": {
+        "events": 176,
+        "zero_candidate": 0,
+        "positive": 76,
+        "teacher": 49
+      },
+      "dropped": []
+    },
+    "44": {
+      "pair": "44",
+      "counts": {
+        "events": 159,
+        "zero_candidate": 0,
+        "positive": 103,
+        "teacher": 16
+      },
+      "dropped": []
+    },
+    "45": {
+      "pair": "45",
+      "counts": {
+        "events": 599,
+        "zero_candidate": 0,
+        "positive": 286,
+        "teacher": 282
+      },
+      "dropped": []
+    },
+    "50": {
+      "pair": "50",
+      "counts": {
+        "events": 293,
+        "zero_candidate": 7,
+        "positive": 99,
+        "teacher": 50
+      },
+      "dropped": []
+    },
+    "51": {
+      "pair": "51",
+      "counts": {
+        "events": 281,
+        "zero_candidate": 2,
+        "positive": 85,
+        "teacher": 76
+      },
+      "dropped": []
+    },
+    "53": {
+      "pair": "53",
+      "counts": {
+        "events": 216,
+        "zero_candidate": 4,
+        "positive": 114,
+        "teacher": 49
+      },
+      "dropped": []
+    },
+    "54": {
+      "pair": "54",
+      "counts": {
+        "events": 309,
+        "zero_candidate": 3,
+        "positive": 130,
+        "teacher": 93
+      },
+      "dropped": []
+    },
+    "69": {
+      "pair": "69",
+      "counts": {
+        "events": 566,
+        "zero_candidate": 0,
+        "positive": 239,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "70": {
+      "pair": "70",
+      "counts": {
+        "events": 312,
+        "zero_candidate": 10,
+        "positive": 150,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "74": {
+      "pair": "74",
+      "counts": {
+        "events": 561,
+        "zero_candidate": 0,
+        "positive": 190,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "76": {
+      "pair": "76",
+      "counts": {
+        "events": 147,
+        "zero_candidate": 0,
+        "positive": 89,
+        "teacher": 0
+      },
+      "dropped": []
+    },
+    "78": {
+      "pair": "78",
+      "counts": {
+        "events": 259,
+        "zero_candidate": 0,
+        "positive": 160,
+        "teacher": 0
+      },
+      "dropped": []
+    }
+  },
+  "arms": {
+    "rel_on_teacher_off": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.025092601776123,
+            "assign": 2.025092601776123,
+            "teacher_rows": 24
+          },
+          {
+            "step": 601,
+            "loss": 1.2437458038330078,
+            "assign": 1.2437458038330078,
+            "teacher_rows": 48
+          },
+          {
+            "step": 1201,
+            "loss": 1.7929593324661255,
+            "assign": 1.7929593324661255,
+            "teacher_rows": 2
+          },
+          {
+            "step": 1801,
+            "loss": 0.9787416458129883,
+            "assign": 0.9787416458129883,
+            "teacher_rows": 46
+          },
+          {
+            "step": 2400,
+            "loss": 0.6119630336761475,
+            "assign": 0.6119630336761475,
+            "teacher_rows": 52
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.1506276150627615,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.2986031547649223,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.6148409893992933,
+            "dustbin_rate": 0.8003533568904594,
+            "dustbin_label_rate": 0.5777385159010601
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.21333333333333335,
+            "base_recall1": 0.08,
+            "student_mrr": 0.39681719404666976,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.7307692307692307,
+            "dustbin_rate": 0.7756410256410257,
+            "dustbin_label_rate": 0.5192307692307693
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.15789473684210525,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.31808383104920496,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.679144385026738,
+            "dustbin_rate": 0.8110516934046346,
+            "dustbin_label_rate": 0.661319073083779
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.3258426966292135,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.5116841733975696,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.7006802721088435,
+            "dustbin_rate": 0.6530612244897959,
+            "dustbin_label_rate": 0.3945578231292517
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.26875,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.42729104804699336,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.583011583011583,
+            "dustbin_rate": 0.722007722007722,
+            "dustbin_label_rate": 0.38223938223938225
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/rel_on_teacher_off_seed7.pt",
+        "checkpoint_sha256": "03294b0fb89c4569f7af66d2f79d37fc7568a1d3d7267597a4d4a66d8614380e"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0110769271850586,
+            "assign": 2.0110769271850586,
+            "teacher_rows": 24
+          },
+          {
+            "step": 601,
+            "loss": 1.251122236251831,
+            "assign": 1.251122236251831,
+            "teacher_rows": 48
+          },
+          {
+            "step": 1201,
+            "loss": 1.792475700378418,
+            "assign": 1.792475700378418,
+            "teacher_rows": 2
+          },
+          {
+            "step": 1801,
+            "loss": 1.0189181566238403,
+            "assign": 1.0189181566238403,
+            "teacher_rows": 46
+          },
+          {
+            "step": 2400,
+            "loss": 0.6177553534507751,
+            "assign": 0.6177553534507751,
+            "teacher_rows": 52
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.14225941422594143,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.2886974033591622,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.6060070671378092,
+            "dustbin_rate": 0.8021201413427562,
+            "dustbin_label_rate": 0.5777385159010601
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.19333333333333333,
+            "base_recall1": 0.08,
+            "student_mrr": 0.3804126411370994,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.7307692307692307,
+            "dustbin_rate": 0.7692307692307693,
+            "dustbin_label_rate": 0.5192307692307693
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.1368421052631579,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.30731759962867505,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.6684491978609626,
+            "dustbin_rate": 0.8003565062388592,
+            "dustbin_label_rate": 0.661319073083779
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.3595505617977528,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.5266008179515349,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6870748299319728,
+            "dustbin_rate": 0.6666666666666666,
+            "dustbin_label_rate": 0.3945578231292517
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.25,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.41607231218230895,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.5675675675675675,
+            "dustbin_rate": 0.7374517374517374,
+            "dustbin_label_rate": 0.38223938223938225
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/rel_on_teacher_off_seed17.pt",
+        "checkpoint_sha256": "97a96c70839026513edb70e147a550199fa35481df8b05c7f91c1852a7a73c96"
+      }
+    ],
+    "rel_on_teacher_on": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0395901203155518,
+            "assign": 2.025092601776123,
+            "teacher_rows": 24
+          },
+          {
+            "step": 601,
+            "loss": 1.2830158472061157,
+            "assign": 1.238121747970581,
+            "teacher_rows": 48
+          },
+          {
+            "step": 1201,
+            "loss": 1.8159794807434082,
+            "assign": 1.797568440437317,
+            "teacher_rows": 2
+          },
+          {
+            "step": 1801,
+            "loss": 1.0152205228805542,
+            "assign": 0.9731734395027161,
+            "teacher_rows": 46
+          },
+          {
+            "step": 2400,
+            "loss": 0.6585111021995544,
+            "assign": 0.6125715970993042,
+            "teacher_rows": 52
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.14225941422594143,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.29316142799953737,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.6024734982332155,
+            "dustbin_rate": 0.7879858657243817,
+            "dustbin_label_rate": 0.5777385159010601
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.22666666666666666,
+            "base_recall1": 0.08,
+            "student_mrr": 0.4045460609696224,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.7435897435897436,
+            "dustbin_rate": 0.7628205128205128,
+            "dustbin_label_rate": 0.5192307692307693
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.15789473684210525,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.31533143176036743,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.6809269162210339,
+            "dustbin_rate": 0.7950089126559715,
+            "dustbin_label_rate": 0.661319073083779
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.33707865168539325,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.5254178899134003,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6938775510204082,
+            "dustbin_rate": 0.6598639455782312,
+            "dustbin_label_rate": 0.3945578231292517
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.24375,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.4186943081294894,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.5637065637065637,
+            "dustbin_rate": 0.7335907335907336,
+            "dustbin_label_rate": 0.38223938223938225
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/rel_on_teacher_on_seed7.pt",
+        "checkpoint_sha256": "cb2d342db4619733c67347bb5f063889f5884c9a2e36070024f2b33f0c29f3c1"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0255744457244873,
+            "assign": 2.0110769271850586,
+            "teacher_rows": 24
+          },
+          {
+            "step": 601,
+            "loss": 1.297548532485962,
+            "assign": 1.2472193241119385,
+            "teacher_rows": 48
+          },
+          {
+            "step": 1201,
+            "loss": 1.8086682558059692,
+            "assign": 1.793902039527893,
+            "teacher_rows": 2
+          },
+          {
+            "step": 1801,
+            "loss": 1.044754981994629,
+            "assign": 0.9988792538642883,
+            "teacher_rows": 46
+          },
+          {
+            "step": 2400,
+            "loss": 0.661450207233429,
+            "assign": 0.616172730922699,
+            "teacher_rows": 52
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.14644351464435146,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.2893462531310983,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.598939929328622,
+            "dustbin_rate": 0.8056537102473498,
+            "dustbin_label_rate": 0.5777385159010601
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.21333333333333335,
+            "base_recall1": 0.08,
+            "student_mrr": 0.38982483413007546,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.7339743589743589,
+            "dustbin_rate": 0.7660256410256411,
+            "dustbin_label_rate": 0.5192307692307693
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.1368421052631579,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.30197333864352904,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.6720142602495544,
+            "dustbin_rate": 0.786096256684492,
+            "dustbin_label_rate": 0.661319073083779
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.3258426966292135,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.5014781040795602,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6666666666666666,
+            "dustbin_rate": 0.6870748299319728,
+            "dustbin_label_rate": 0.3945578231292517
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.2625,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.42394038735651146,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.5791505791505791,
+            "dustbin_rate": 0.7181467181467182,
+            "dustbin_label_rate": 0.38223938223938225
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/rel_on_teacher_on_seed17.pt",
+        "checkpoint_sha256": "d548154d81e0ec0ffbbd8514b43ce8b6c1f68916f37ca75f5b653521e91736ed"
+      }
+    ],
+    "pooled_teacher_off": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.025092601776123,
+            "assign": 2.025092601776123,
+            "teacher_rows": 24
+          },
+          {
+            "step": 601,
+            "loss": 1.2803401947021484,
+            "assign": 1.2803401947021484,
+            "teacher_rows": 48
+          },
+          {
+            "step": 1201,
+            "loss": 1.9668177366256714,
+            "assign": 1.9668177366256714,
+            "teacher_rows": 2
+          },
+          {
+            "step": 1801,
+            "loss": 1.1017591953277588,
+            "assign": 1.1017591953277588,
+            "teacher_rows": 46
+          },
+          {
+            "step": 2400,
+            "loss": 0.6734706163406372,
+            "assign": 0.6734706163406372,
+            "teacher_rows": 52
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.15481171548117154,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.29369499101475316,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.6042402826855123,
+            "dustbin_rate": 0.7791519434628975,
+            "dustbin_label_rate": 0.5777385159010601
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.2,
+            "base_recall1": 0.08,
+            "student_mrr": 0.3732217486356525,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.7307692307692307,
+            "dustbin_rate": 0.7692307692307693,
+            "dustbin_label_rate": 0.5192307692307693
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.16842105263157894,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.31578121290916933,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.6755793226381461,
+            "dustbin_rate": 0.8538324420677362,
+            "dustbin_label_rate": 0.661319073083779
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.3258426966292135,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.5017312508093039,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6598639455782312,
+            "dustbin_rate": 0.7074829931972789,
+            "dustbin_label_rate": 0.3945578231292517
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.2125,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.3782373649814048,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.5521235521235521,
+            "dustbin_rate": 0.7606177606177607,
+            "dustbin_label_rate": 0.38223938223938225
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/pooled_teacher_off_seed7.pt",
+        "checkpoint_sha256": "54a84952336f8b49ea9088f57b1bbcb0553715825034c9b57873b13d7787f458"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0110769271850586,
+            "assign": 2.0110769271850586,
+            "teacher_rows": 24
+          },
+          {
+            "step": 601,
+            "loss": 1.270089864730835,
+            "assign": 1.270089864730835,
+            "teacher_rows": 48
+          },
+          {
+            "step": 1201,
+            "loss": 1.932247519493103,
+            "assign": 1.932247519493103,
+            "teacher_rows": 2
+          },
+          {
+            "step": 1801,
+            "loss": 1.1046116352081299,
+            "assign": 1.1046116352081299,
+            "teacher_rows": 46
+          },
+          {
+            "step": 2400,
+            "loss": 0.6576772928237915,
+            "assign": 0.6576772928237915,
+            "teacher_rows": 52
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.13389121338912133,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.2759074324716762,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.5954063604240283,
+            "dustbin_rate": 0.7809187279151943,
+            "dustbin_label_rate": 0.5777385159010601
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.15333333333333332,
+            "base_recall1": 0.08,
+            "student_mrr": 0.3434910747049343,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.7275641025641025,
+            "dustbin_rate": 0.7724358974358975,
+            "dustbin_label_rate": 0.5192307692307693
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.1368421052631579,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.2966233117664768,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.6524064171122995,
+            "dustbin_rate": 0.8556149732620321,
+            "dustbin_label_rate": 0.661319073083779
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.3146067415730337,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.49509727545452636,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6258503401360545,
+            "dustbin_rate": 0.7414965986394558,
+            "dustbin_label_rate": 0.3945578231292517
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.225,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.3913054338667328,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.5482625482625483,
+            "dustbin_rate": 0.7644787644787645,
+            "dustbin_label_rate": 0.38223938223938225
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/pooled_teacher_off_seed17.pt",
+        "checkpoint_sha256": "1faab425edf069d802ccd02d4429d41039018c56d7a369b5dfaa8607389e6ab8"
+      }
+    ],
+    "pooled_teacher_on": [
+      {
+        "seed": 7,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0395901203155518,
+            "assign": 2.025092601776123,
+            "teacher_rows": 24
+          },
+          {
+            "step": 601,
+            "loss": 1.3288956880569458,
+            "assign": 1.2840662002563477,
+            "teacher_rows": 48
+          },
+          {
+            "step": 1201,
+            "loss": 1.9787064790725708,
+            "assign": 1.9567053318023682,
+            "teacher_rows": 2
+          },
+          {
+            "step": 1801,
+            "loss": 1.1190470457077026,
+            "assign": 1.0742450952529907,
+            "teacher_rows": 46
+          },
+          {
+            "step": 2400,
+            "loss": 0.7401624321937561,
+            "assign": 0.6968070864677429,
+            "teacher_rows": 52
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.16317991631799164,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.2974179339185178,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.6007067137809188,
+            "dustbin_rate": 0.7756183745583038,
+            "dustbin_label_rate": 0.5777385159010601
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.19333333333333333,
+            "base_recall1": 0.08,
+            "student_mrr": 0.3666856226714648,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.7307692307692307,
+            "dustbin_rate": 0.7692307692307693,
+            "dustbin_label_rate": 0.5192307692307693
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.15789473684210525,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.3140273052209149,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.6809269162210339,
+            "dustbin_rate": 0.8556149732620321,
+            "dustbin_label_rate": 0.661319073083779
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.34831460674157305,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.5175487520337134,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6666666666666666,
+            "dustbin_rate": 0.7006802721088435,
+            "dustbin_label_rate": 0.3945578231292517
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.23125,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.38804788234612386,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.5521235521235521,
+            "dustbin_rate": 0.7606177606177607,
+            "dustbin_label_rate": 0.38223938223938225
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/pooled_teacher_on_seed7.pt",
+        "checkpoint_sha256": "55b8bd21de130160b74055655cc175b7496068a22a36993f1941cb9e8e8804b4"
+      },
+      {
+        "seed": 17,
+        "history": [
+          {
+            "step": 1,
+            "loss": 2.0255744457244873,
+            "assign": 2.0110769271850586,
+            "teacher_rows": 24
+          },
+          {
+            "step": 601,
+            "loss": 1.325869083404541,
+            "assign": 1.277390718460083,
+            "teacher_rows": 48
+          },
+          {
+            "step": 1201,
+            "loss": 1.9401215314865112,
+            "assign": 1.923052191734314,
+            "teacher_rows": 2
+          },
+          {
+            "step": 1801,
+            "loss": 1.1397209167480469,
+            "assign": 1.0955369472503662,
+            "teacher_rows": 46
+          },
+          {
+            "step": 2400,
+            "loss": 0.7431332468986511,
+            "assign": 0.6946143507957458,
+            "teacher_rows": 52
+          }
+        ],
+        "per_pair": {
+          "69": {
+            "events": 566,
+            "matched_events": 239,
+            "student_recall1": 0.14644351464435146,
+            "base_recall1": 0.16317991631799164,
+            "student_mrr": 0.2825921978988078,
+            "base_mrr": 0.30978503862521045,
+            "dustbin_accuracy": 0.5936395759717314,
+            "dustbin_rate": 0.7756183745583038,
+            "dustbin_label_rate": 0.5777385159010601
+          },
+          "70": {
+            "events": 312,
+            "matched_events": 150,
+            "student_recall1": 0.15333333333333332,
+            "base_recall1": 0.08,
+            "student_mrr": 0.34512930987633106,
+            "base_mrr": 0.2213120378123646,
+            "dustbin_accuracy": 0.7371794871794872,
+            "dustbin_rate": 0.7628205128205128,
+            "dustbin_label_rate": 0.5192307692307693
+          },
+          "74": {
+            "events": 561,
+            "matched_events": 190,
+            "student_recall1": 0.15263157894736842,
+            "base_recall1": 0.08421052631578947,
+            "student_mrr": 0.30527022836115836,
+            "base_mrr": 0.19260686072529729,
+            "dustbin_accuracy": 0.6524064171122995,
+            "dustbin_rate": 0.8520499108734403,
+            "dustbin_label_rate": 0.661319073083779
+          },
+          "76": {
+            "events": 147,
+            "matched_events": 89,
+            "student_recall1": 0.29213483146067415,
+            "base_recall1": 0.0898876404494382,
+            "student_mrr": 0.48786884991810353,
+            "base_mrr": 0.21814024740475316,
+            "dustbin_accuracy": 0.6462585034013606,
+            "dustbin_rate": 0.7210884353741497,
+            "dustbin_label_rate": 0.3945578231292517
+          },
+          "78": {
+            "events": 259,
+            "matched_events": 160,
+            "student_recall1": 0.225,
+            "base_recall1": 0.1625,
+            "student_mrr": 0.3918429891113256,
+            "base_mrr": 0.27946737304713254,
+            "dustbin_accuracy": 0.555984555984556,
+            "dustbin_rate": 0.7644787644787645,
+            "dustbin_label_rate": 0.38223938223938225
+          }
+        },
+        "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261006/p50_native_map_repair/pooled_teacher_on_seed17.pt",
+        "checkpoint_sha256": "dc98e4c505ea100fa8c205efdd67f7ff44d05f62334d8e09065aec8a3a196145"
+      }
+    ]
+  },
+  "controls": {
+    "native_features_frozen": true,
+    "native_detector_preprocessing_preserved": true,
+    "teacher_projection_trainable": false,
+    "teacher_in_inference": false,
+    "zero_candidate_rows_retained": true,
+    "official_val_test_access": false,
+    "model_selection_on_eval": false,
+    "baseline": "frozen native 256-D stage3 cosine, evaluated on exact same rows"
+  },
+  "elapsed_seconds": 948.5491580963135
+}

@@ -1,0 +1,23 @@
+{
+  "GT_or_labels_read": false,
+  "code_sha256": "8d7c5af2a22e796d8dcc5ce797289a416ce72ed10931e19d5cc51839f25e709b",
+  "config_sha256": "d82b5f4d9af0339e864ab9ce1f944b5c317bc37be6b4d435716c7c7825e92ee6",
+  "direction": "current image -> past image; past feature backward sampling",
+  "flow_image": "full RGB image resized per-axis to rounded multiple8, maximum side about640; no padding or letterbox",
+  "frames_sha256": "6d7d294852cf3038e110aacef61954e4f8e68b8cbc585ace1fa39dfcab1434b7",
+  "gpu": "3, GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a, NVIDIA A100-SXM4-40GB, 40960",
+  "groups": 40,
+  "groups_sha256": "2574e33643165f52b7b45486c6426a8493d9427aab97539a6daa846341964f97",
+  "lags": [
+    1,
+    4,
+    8
+  ],
+  "normalization": "RGB float32 /127.5 -1",
+  "raft_updates": 12,
+  "resize_interpolation": "cv2.INTER_AREA",
+  "role": "calibration",
+  "torch": "2.2.0+cu121",
+  "torchvision": "0.17.0+cu121",
+  "weights_sha256": "ff5fadd56d26b40647388883af1547351ea17868b765c05b27231e72dd16a322"
+}

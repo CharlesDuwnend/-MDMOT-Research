@@ -1,0 +1,37 @@
+{
+  "checkpoint_paths": {
+    "current_residual": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/current_residual/final.pth",
+    "native": "/raid/datasets/chc_data/MDMT/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt/epoch_60.pth",
+    "past_fixed_offsets": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/past_fixed_offsets/final.pth",
+    "past_learned_offsets": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/past_learned_offsets/final.pth"
+  },
+  "gated_at": "2026-10-05T04:58:37.453920+00:00",
+  "labels_read": false,
+  "prediction_paths": {
+    "current_residual": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/current_residual.json",
+    "native": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/native.json",
+    "past_fixed_offsets": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/past_fixed_offsets.json",
+    "past_learned_offsets": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/past_learned_offsets.json"
+  },
+  "receipt_path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/PREDICTION_RECEIPT.json",
+  "receipt_sha256": "3c5359cbebe6a33c83d98fb0833f647e1d045bd6a3f3f1c63195ecd681c67222",
+  "scorer_sha256": "3393eca39566708154bd2fd43a04bc9e1a28247b4ef845ebe3e4a910c9081382",
+  "status": "PASS_FOUR_ARM_PREDICTION_FREEZE_GATE",
+  "verified_bindings": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/CONFIG.json": "12a16a5e88b5f854f66517f4615d0e9f9a5cb0b4e757b7046bd15f003f1e144f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/GROUPS.json": "2574e33643165f52b7b45486c6426a8493d9427aab97539a6daa846341964f97",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/TRAIN_PROTOCOL.json": "74a16b2a6bdb21d56e076e862724d6855bef020c3146d47895a64e70de553b95",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predict_calibration.py": "c6490621b10423bb018c586d1456688f24b371f8b2e732f8d088169c0c5b07d8",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/current_residual.json": "1348a3ccc339bde5c219ca905c5b7ee7c97715c41d034f6f7f0d2d476b0710b7",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/native.json": "d656226f791c9d133b2d69b729b3e4a980f2c82de6e307d24d3f7db5d41df6f9",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/past_fixed_offsets.json": "9e1ca0f391178d45c0e3bed57972daef14b82553e0c92ebaf2770a2710ff6828",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/predictions/past_learned_offsets.json": "75e5560d5cab4bc997b93a82174d23926d504efdaabc1ce58178447860496d6a",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/residual_deformable.py": "4b5cda3d8405b3113c75b2b89006e8ef7bc24c92c5fc8906ed4b67b459cdfe5f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/train_residual.py": "98b4a0f17311acaa1cfa432a7d6caab09aa9d3be325f058a19d779695c2d8e52",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/TRAIN_RECEIPT.json": "17bfa3e3190610d0af701f27b3320ddecaff9b9c9798637011c803a0be1a60b0",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/current_residual/final.pth": "901d917187ca78c09d33602e07ecde90f32134eae18417e982c459ac74ab96de",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/past_fixed_offsets/final.pth": "2895fa240884fe4b7bf783696adcd9d27c9cc1fa87589a7ad843a2fb732f7677",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/past_learned_offsets/final.pth": "e768dc8d159b2d13d51fdee7ad0a23dd59bdd370eee7b589b7e21585ecc914a0",
+    "/raid/datasets/chc_data/MDMT/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt/epoch_60.pth": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901"
+  }
+}

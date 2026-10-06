@@ -1,0 +1,18 @@
+{
+  "status": "PASS_P31_CPU_MECHANISM_CONTRACT",
+  "tests": [
+    "finite_forward",
+    "permutation_invariance",
+    "masked_garbage_invariance",
+    "empty_support_finite",
+    "future_age_rejected",
+    "finite_backward",
+    "dustbin_assignment_finite"
+  ],
+  "parameter_count": 8873,
+  "torch": "1.10.1+cu113",
+  "seed": 31,
+  "elapsed_seconds": 0.0,
+  "official_metric_authorized": false,
+  "dataset_or_labels_read": false
+}

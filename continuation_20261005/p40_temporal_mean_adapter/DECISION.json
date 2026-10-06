@@ -1,0 +1,43 @@
+{
+  "fixed_mean_comparison": {
+    "calibration": {
+      "macro_delta_vs_fixed_mean": -0.0005600044251633629,
+      "pair_wins_vs_fixed_mean": 1,
+      "per_pair_delta": {
+        "27": -0.0004921259842519676,
+        "32": -0.003244120032441178,
+        "42": -0.0023999999999999577,
+        "64": 0.008946322067594381,
+        "65": -0.005610098176718092
+      }
+    },
+    "fit": {
+      "macro_delta_vs_fixed_mean": 0.00849432123628419,
+      "pair_wins_vs_fixed_mean": 15,
+      "per_pair_delta": {
+        "23": 0.009287925696594423,
+        "25": 0.007831325301204783,
+        "28": 0.007411067193675902,
+        "29": 0.011363636363636354,
+        "39": 0.0031847133757961776,
+        "44": 0.005899705014749235,
+        "45": 0.002039627039627012,
+        "51": 0.013986013986013957,
+        "53": 0.021276595744680882,
+        "63": 0.01898734177215189,
+        "66": 0.002435629784272808,
+        "69": 0.005042668735453892,
+        "70": 0.006424792139077873,
+        "74": 0.009368836291913207,
+        "78": 0.0028749401054144474
+      }
+    }
+  },
+  "implementation_audit_pass": true,
+  "learned_contribution_validated": false,
+  "next_boundary": "One preregistered full-coverage training sufficiency experiment.",
+  "no_host_transfer": true,
+  "no_paper_effectiveness_claim": true,
+  "representation_gate_pass": true,
+  "verdict": "HOLD_P40_NO_CALIBRATION_GAIN_OVER_FIXED_MEAN"
+}

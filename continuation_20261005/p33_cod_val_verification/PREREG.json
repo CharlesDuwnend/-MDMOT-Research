@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN_BEFORE_VAL_STATE_REPAIR_READOUT",
+  "purpose": "held-out protocol verification and descriptive P32 transfer check",
+  "pairs": ["22", "36", "46", "49", "72"],
+  "split": "official_val",
+  "window_W": 4,
+  "window_origin": "P32 primary W=4, inherited from frozen decision lag; no val selection",
+  "inputs": {
+    "candidate_cache": "/home/chenhc/mdmot_global_host_stage15_20260905/cache/val",
+    "frozen_replay": "/home/chenhc/mdmot_global_host_stage15_20260905/association_ledger/B0",
+    "stage1_streams": "/home/chenhc/mdmot_strong_host_stage1_20260905/streams/val",
+    "xml": "/raid/datasets/chc_data/MDMT/new_xml",
+    "settings": "/home/chenhc/mdmot_global_host_stage15_20260905/calibration/frozen_settings.json"
+  },
+  "runtime_contract": "candidate/replay/state transition sees frozen cache and ready-ordered proposals only; XML is read after state replay solely for diagnostics",
+  "selection": "no threshold, pair, checkpoint, or method choice is selected from this readout",
+  "metrics": ["candidate recall", "given-candidate top1/mrr where labels are observable", "false/correct/unknown final edges", "future wrong co-observed frames", "repair-vs-same-information-delay structural change"],
+  "not_run": ["training", "official test", "new threshold search", "formal MOT metric selection"],
+  "decision_boundary": "held-out verification only; P32 method remains HOLD unless an independent method gate is pre-registered later"
+}

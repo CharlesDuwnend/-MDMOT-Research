@@ -1,0 +1,125 @@
+{
+  "all_residual_arrays_finite": true,
+  "all_shapes_keys_aligned": true,
+  "cal_dev_val_test_read_by_review": false,
+  "camera_affine_pullback_mathematically_correct": true,
+  "common_path_common_std_counts_ge20_pairs": [
+    "29",
+    "69",
+    "78"
+  ],
+  "foreground_test_visibility_failure": {
+    "allowed_pixels": 1.1414213562373094,
+    "forward_backward_error_pixels": 5.0,
+    "returned_valid_mask_ignored_by_test": true
+  },
+  "frozen_files_hash_checked": 45,
+  "frozen_files_hash_failures": 0,
+  "frozen_files_modified": false,
+  "gpu_used_by_review": false,
+  "issues": [
+    "Historical mask omits current-to-previous edge validity; average support is not composed-path support",
+    "ROI spatial std and background error p90 are not matched signal-null statistics",
+    "Camera intervention includes reflected synthetic borders without original-support mask",
+    "Altered H, residual field and common masks are not archived",
+    "No matched interpolation control or model uncertainty calibration",
+    "Temporal grid alignment does not align residual vector endpoint coordinate bases",
+    "Synthetic foreground test recovers arithmetic on pixels rejected by visibility",
+    "Imported P21/P2 code not directly frozen in P22 receipt"
+  ],
+  "labels_read_by_review": false,
+  "mean_camera_intervention_not_an_invariance_gate": true,
+  "new_extraction": false,
+  "npz_json_pairs_checked": 20,
+  "numeric_minimum_three_pair_gate_survives_mask_correction": true,
+  "object_observations": 1356,
+  "original_gate_counts_ge20_pairs": [
+    "23",
+    "25",
+    "29",
+    "69",
+    "78"
+  ],
+  "per_pair_mask_audit": [
+    {
+      "common_path_common_std_count": 17,
+      "common_path_original_std_count": 18,
+      "common_path_supported": 99,
+      "historical_valid_current_invalid_pixels": 982,
+      "object_observations": 102,
+      "original_average_supported": 102,
+      "original_variation_count": 20,
+      "pair": "23"
+    },
+    {
+      "common_path_common_std_count": 19,
+      "common_path_original_std_count": 20,
+      "common_path_supported": 199,
+      "historical_valid_current_invalid_pixels": 1206,
+      "object_observations": 207,
+      "original_average_supported": 204,
+      "original_variation_count": 25,
+      "pair": "25"
+    },
+    {
+      "common_path_common_std_count": 36,
+      "common_path_original_std_count": 36,
+      "common_path_supported": 338,
+      "historical_valid_current_invalid_pixels": 1597,
+      "object_observations": 342,
+      "original_average_supported": 342,
+      "original_variation_count": 39,
+      "pair": "29"
+    },
+    {
+      "common_path_common_std_count": 53,
+      "common_path_original_std_count": 54,
+      "common_path_supported": 298,
+      "historical_valid_current_invalid_pixels": 3261,
+      "object_observations": 317,
+      "original_average_supported": 311,
+      "original_variation_count": 66,
+      "pair": "69"
+    },
+    {
+      "common_path_common_std_count": 142,
+      "common_path_original_std_count": 142,
+      "common_path_supported": 386,
+      "historical_valid_current_invalid_pixels": 958,
+      "object_observations": 388,
+      "original_average_supported": 387,
+      "original_variation_count": 143,
+      "pair": "78"
+    }
+  ],
+  "raft_source_sha256_matches_protocol": true,
+  "real_image_camera_invariance_confirmed": false,
+  "review_markdown_sha256": "f53bc9a59cddefd709f0fbac085d8a77b3d7651682256f40c1141548993b4b67",
+  "sources": [
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_dense_motion/extract_dense.py",
+      "sha256": "c7fda7df82dfabb626ae0b9114029febb5f03ba14aa5204dd0707169a9f67ff5"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_dense_motion/PROTOCOL.json",
+      "sha256": "2c969d322e58748320e2dce67455e49f5c092512c53fe19b60e2131e235b7b2c"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_dense_motion/FEATURE_RECEIPT.json",
+      "sha256": "08f11a1322d89510dc1b6d6acba0b4cf068ecd0e62bbfbd23e7696f7ce2f1782"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_dense_motion/test_contract.py",
+      "sha256": "216ba83d9f38bad3b9652fdab00d2d74854b94c38a767d2a2e4c58d7c082e34b"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_dense_motion/TESTS.json",
+      "sha256": "a241ec455ef8ba0f7b8487ee4149df864a71a76253cdcd9c48d445b78f0fbf0c"
+    }
+  ],
+  "status": "REVIEW_COMPLETE_INPUT_ENGINEERING_KEEP_CLAIMS_LIMITED",
+  "stream_image_mapping_mismatches": 0,
+  "stream_image_mappings_checked": 10,
+  "surviving_claim": "Finite native-resolution frozen RAFT residual tensors exist on the fixed fit pairs; path-supported variation remains available in at least three pairs as an engineering diagnostic. No identity information, neural module, novelty or MOT performance claim is established.",
+  "weight_sha256_matches_protocol": true
+}

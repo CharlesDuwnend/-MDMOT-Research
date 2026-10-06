@@ -1,0 +1,39 @@
+--- /home/chenhc/mdmot_p24_test_20261004/official_demo/suppl_compat.py
++++ /home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/wrappers/supplement_mia.py
+@@ -186,16 +186,10 @@
+             #             track_bboxes=track_results['bbox_results'])
+             det_bboxes = result['det_bboxes'][0]
+             track_bboxes = result['track_bboxes'][0]
+-            _DUMP = os.environ.get('SUPPL_DUMP')
+-            if _DUMP:
+-                _dd = os.path.join(_DUMP, img.split('/')[-2]); os.makedirs(_dd, exist_ok=True)
+-                np.savez(os.path.join(_dd, '%06d.npz' % i), det=det_bboxes, track=track_bboxes)
+             result2, max_id = inference_mot(model2, img2, frame_id=i, bboxes1=bboxes2, ids1=ids2, labels1=labels2,
+                                             max_id=max_id)
+             det_bboxes2 = result2['det_bboxes'][0]
+             track_bboxes2 = result2['track_bboxes'][0]
+-            if os.environ.get('SUPPL_DUMP'):
+-                np.savez(os.path.join(_dd, '%06d_b.npz' % i), det=det_bboxes2, track=track_bboxes2)
+ 
+             # ############NMS##########################NMS##########################NMS##########
+             # thresh = 0.3
+@@ -228,10 +222,6 @@
+                     # print(f1, f2)
+                     f1_last = f1
+                     f2_last = f2
+-                    _DUMP0 = os.environ.get('SUPPL_DUMP')
+-                    if _DUMP0:
+-                        _dd = os.path.join(_DUMP0, img.split('/')[-2]); os.makedirs(_dd, exist_ok=True)
+-                        np.save(os.path.join(_dd, '%06d_H.npy' % i), np.asarray(f1, dtype=np.float64))
+                     # 图像融合可视化
+                     '''
+                     leftImage = image1
+@@ -293,8 +283,6 @@
+             # 计算变换矩阵f
+             # print(len(pts_src))
+             f1, f1_last = compute_transf_matrix(pts_src, pts_dst, f1_last, image1, image2)
+-            if os.environ.get('SUPPL_DUMP') and f1 is not None:
+-                np.save(os.path.join(_dd, '%06d_H.npy' % i), np.asarray(f1, dtype=np.float64))
+             # '''
+             if os.environ.get('SUPPL_NO_VIS') != '1':
+                 # 图像融合可视化

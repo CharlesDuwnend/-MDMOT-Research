@@ -1,0 +1,58 @@
+{
+  "status": "COMPLETE",
+  "classification": "initialization_diagnostic_not_confirmatory",
+  "created_utc": "2026-10-05T23:10:51.215596+00:00",
+  "train_pairs": [
+    "23"
+  ],
+  "eval_pairs": [
+    "29"
+  ],
+  "steps_per_arm": 1,
+  "batch_size": 2,
+  "image_size": [
+    800,
+    1333
+  ],
+  "channels": 8,
+  "prototypes": 2,
+  "roi_size": 3,
+  "device": "cuda:0",
+  "arms": [
+    "B4",
+    "LCSCF_B4"
+  ],
+  "backbone_init": "/home/chenhc/cross_uav_query_mamba_20260830/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt_epoch_60.pth",
+  "backbone_init_sha256": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901",
+  "mean": [
+    102.9801,
+    115.9465,
+    122.7717
+  ],
+  "std": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "value_scale": 1.0,
+  "channel_order": "bgr",
+  "official_val_access": false,
+  "test_access": false,
+  "seed_offset": 0,
+  "transport_loss_weight": 0.2,
+  "preprocess_contract": "Caffe BGR mean [102.9801,115.9465,122.7717], std 1, keep_ratio resize max (1333,800), normalized zero-pad to canvas, no flip",
+  "random_init_comparator_is_completed": true,
+  "pair_is_independent_unit": true,
+  "gpu": {
+    "cuda_visible_devices": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+    "logical_index": 0,
+    "name": "NVIDIA A100-SXM4-40GB",
+    "total_memory_bytes": 42298834944
+  },
+  "completed_utc": "2026-10-05T23:11:01.020927+00:00",
+  "event_log_sha256": "400568d06d6afd52e834151ec49f07c87ab97fcc8474af10f43a950b2c8d3ac9",
+  "metric_files": {
+    "B4": "0445977e263a4ea1b3593d655e2b159d930218504380504b14abb77c40d9526a",
+    "LCSCF_B4": "ad0088805dadf0be15e7ba7dbfd011ba6f879d47f7ed78aca576c9c804efd76e"
+  }
+}

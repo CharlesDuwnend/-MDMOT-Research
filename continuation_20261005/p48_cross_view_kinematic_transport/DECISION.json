@@ -1,0 +1,29 @@
+{
+  "status": "STOP_P48_KINEMATIC_SIGNAL_GATE",
+  "candidate": "cross-view kinematic transport with Jacobian-projected velocity/acceleration and heteroscedastic residual likelihood",
+  "paper_claim": false,
+  "official_val_test_read": false,
+  "training_authorized": false,
+  "baseline": "P47 geometry front-door control",
+  "direct_collision_screen": "no Tier-1 collision identified in the initial mechanism screen; Tier-2 motion/trajectory association risk remains",
+  "implementation_audit": {
+    "status": "PASS_FORMULA_LEVEL_AUDIT",
+    "trace": "runs/trace_pair23_v1/trace.jsonl",
+    "frames": 700,
+    "directions": {
+      "A_to_B": {
+        "position_rank1": 0.9351768220662822,
+        "position_plus_kinematic_rank1": 0.9273257833669145,
+        "delta": -0.007851038699367652
+      },
+      "B_to_A": {
+        "position_rank1": 0.9398922205333702,
+        "position_plus_kinematic_rank1": 0.9304960619041039,
+        "delta": -0.009396158629266238
+      }
+    },
+    "formula_fix": "previous source point is projected with H_{t-1}; corrected replay remains negative",
+    "interpretation": "not an implementation failure; kinematic-only rank1 is 0.1325644/0.1434296 and fixed fusion degrades the strong geometry baseline"
+  },
+  "next_gate": "do not train or attach P48; select a new representation candidate after collision audit"
+}

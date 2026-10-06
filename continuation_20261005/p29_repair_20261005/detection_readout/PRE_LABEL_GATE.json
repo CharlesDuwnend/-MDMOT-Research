@@ -1,0 +1,37 @@
+{
+  "checkpoint_paths": {
+    "current_residual": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/training/current_residual/final.pth",
+    "native": "/raid/datasets/chc_data/MDMT/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt/epoch_60.pth",
+    "past_fixed_offsets": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/training/past_fixed_offsets/final.pth",
+    "past_learned_offsets": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/training/past_learned_offsets/final.pth"
+  },
+  "gated_at": "2026-10-05T08:46:18.044319+00:00",
+  "labels_read": false,
+  "prediction_paths": {
+    "current_residual": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/predictions/current_residual.json",
+    "native": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/predictions/native.json",
+    "past_fixed_offsets": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/predictions/past_fixed_offsets.json",
+    "past_learned_offsets": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/predictions/past_learned_offsets.json"
+  },
+  "receipt_path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/PREDICTION_RECEIPT.json",
+  "receipt_sha256": "6ec760c44ee4978352e7c0f4694d38e803078429a8560eca5e1e116079557080",
+  "scorer_sha256": "3393eca39566708154bd2fd43a04bc9e1a28247b4ef845ebe3e4a910c9081382",
+  "status": "PASS_FOUR_ARM_PREDICTION_FREEZE_GATE",
+  "verified_bindings": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/CONFIG.json": "d82b5f4d9af0339e864ab9ce1f944b5c317bc37be6b4d435716c7c7825e92ee6",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/GROUPS.json": "2574e33643165f52b7b45486c6426a8493d9427aab97539a6daa846341964f97",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/TRAIN_PROTOCOL.json": "db3abf674e777a59fd287fbcadaa639de0de8eac84385e0e0565ce66dfb45a87",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/predict_calibration.py": "c6490621b10423bb018c586d1456688f24b371f8b2e732f8d088169c0c5b07d8",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/predictions/current_residual.json": "6d8d2940bc74ff73fe7e829e07209cbf19cdacf91f388de0babe966c3d6ea1c0",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/predictions/native.json": "d656226f791c9d133b2d69b729b3e4a980f2c82de6e307d24d3f7db5d41df6f9",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/predictions/past_fixed_offsets.json": "4fe26b911ae69aace64554470d0751f59544b9fcf3b28dcfb6431fbdf01c04de",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/predictions/past_learned_offsets.json": "487649e7fb1ddb4703055032c19c5d0d77698b4a8fe340a5cf19d1f7a81256cf",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/residual_deformable.py": "1c597803d5ba1e60b9276eab8b66404726b636909e8d488b1c9be14ed5e3cd80",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/train_residual.py": "e9f38369dc20ceba660bc7435ee08733d22285c6c7f355b72ff2216151b8c29b",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/training/TRAIN_RECEIPT.json": "1162a4502f80b8218659924183698a6ee734d6ec57bd2edb8abbe1d2e7f46e26",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/training/current_residual/final.pth": "edc5b63833478dc89382ffb2e786aa350b7610321275561b7f102a008193b6ad",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/training/past_fixed_offsets/final.pth": "cc698b1f73f278e0d5ce0447a1ed5f62b408c075c27d6ea7665f65e54cf02ae7",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_repair_20261005/training/past_learned_offsets/final.pth": "8d94362d1a7e17b4a4895814ea49f2738686684df0bdf2dd245350e92f5d22a7",
+    "/raid/datasets/chc_data/MDMT/checkpoints/autoassign_r50_fpn_8x2_1x_full_mdmt/epoch_60.pth": "8894ea5ffe8309017d78e2dac359d405b38aa66725e1b465a8dce30beb12c901"
+  }
+}

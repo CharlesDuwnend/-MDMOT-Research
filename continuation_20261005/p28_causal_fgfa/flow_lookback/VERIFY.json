@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "finite_rows_unique_same_view_identity_and_lag_contract",
+    "saved_geometry_errors_and_both_size_normalizations_recomputed",
+    "size_occlusion_and_image_domain_flags_consistent",
+    "all_240_group_counts_and_exclusions_conserved",
+    "all_published_strata_recomputed_independently",
+    "producer_tests_direction_and_completed_run_log_pass",
+    "every_bound_input_sha256_unchanged"
+  ],
+  "current_supported_annotations": 13663,
+  "elapsed_seconds": 1.31,
+  "groups": 240,
+  "input_hashes_rechecked": 286,
+  "max_abs_recompute_errors": {
+    "current_plus_flow_projection": 0.0,
+    "halfpixel_raster_index": 0.0,
+    "per_axis_displacement_scale": 0.0,
+    "raft_error_over_current_sqrt_area": 1.7763568394002505e-15,
+    "raft_error_over_past_sqrt_area": 8.881784197001252e-16,
+    "raft_error_px": 5.684341886080802e-14,
+    "zero_error_over_current_sqrt_area": 0.0,
+    "zero_error_over_past_sqrt_area": 0.0,
+    "zero_error_px": 0.0
+  },
+  "rows": 40420,
+  "scope": "saved rows and FIT input hashes only; no images, model, GPU or non-FIT GT",
+  "source_sha256": "3b4b665352f2e6cee919dbce55d0a8375872e796d30e7001729da5ad72de5c79",
+  "status": "PASS_INDEPENDENT_SAVED_ROW_VERIFICATION",
+  "strata_checked": 112
+}

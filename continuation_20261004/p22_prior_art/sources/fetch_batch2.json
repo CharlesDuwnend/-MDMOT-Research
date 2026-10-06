@@ -1,0 +1,47 @@
+[
+  {
+    "name": "homview_arxiv_html",
+    "url": "https://arxiv.org/html/2403.10830v1",
+    "final_url": "https://arxiv.org/html/2403.10830v1",
+    "status": 200,
+    "bytes": 172401,
+    "type": "text/html; charset=utf-8",
+    "file": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_prior_art/sources/homview_arxiv_html.txt"
+  },
+  {
+    "name": "homview_arxiv_pdf",
+    "url": "https://arxiv.org/pdf/2403.10830",
+    "final_url": "https://arxiv.org/pdf/2403.10830",
+    "status": 200,
+    "bytes": 9957901,
+    "type": "application/pdf",
+    "file": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_prior_art/sources/homview_arxiv_pdf.pdf"
+  },
+  {
+    "name": "same_openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1109/CAC67268.2025.11486840",
+    "final_url": "https://api.openalex.org/works/https://doi.org/10.1109/CAC67268.2025.11486840",
+    "status": 200,
+    "bytes": 9256,
+    "type": "application/json",
+    "file": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_prior_art/sources/same_openalex.txt"
+  },
+  {
+    "name": "same_semantic",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/CAC67268.2025.11486840?fields=title,authors,openAccessPdf,url,externalIds",
+    "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/CAC67268.2025.11486840?fields=title,authors,openAccessPdf,url,externalIds",
+    "status": 200,
+    "bytes": 542,
+    "type": "application/json",
+    "file": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_prior_art/sources/same_semantic.txt"
+  },
+  {
+    "name": "same_crossref_doi",
+    "url": "https://doi.org/10.1109/CAC67268.2025.11486840",
+    "final_url": "https://ieeexplore.ieee.org/document/11486840/",
+    "status": 202,
+    "bytes": 0,
+    "type": "text/html; charset=UTF-8",
+    "file": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p22_prior_art/sources/same_crossref_doi.txt"
+  }
+]

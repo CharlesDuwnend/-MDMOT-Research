@@ -1,0 +1,56 @@
+{
+  "assignment_changed": 2150,
+  "baseline": {
+    "IDF1": 0.9087675268817306,
+    "MDA": 0.6431315772400862,
+    "MOTA": 0.9474145050991436,
+    "method": "P26_baseline",
+    "num_switches": 770.0,
+    "views": [
+      {
+        "idf1": 0.9026395757611869,
+        "mota": 0.9447530134719925,
+        "num_switches": 407.0
+      },
+      {
+        "idf1": 0.9148954780022741,
+        "mota": 0.9500759967262948,
+        "num_switches": 363.0
+      }
+    ]
+  },
+  "deltas": {
+    "IDF1": -0.017376599900871814,
+    "MDA": -0.009467603425466153,
+    "MOTA": -0.02241903425698577,
+    "num_switches": 767.0
+  },
+  "duplicate_ids": {
+    "geometry": 0,
+    "mean8": 0
+  },
+  "labels_read": false,
+  "mean8": {
+    "IDF1": 0.8913909269808588,
+    "MDA": 0.63366397381462,
+    "MOTA": 0.9249954708421578,
+    "method": "P42_mean8",
+    "num_switches": 1537.0,
+    "views": [
+      {
+        "idf1": 0.9026395757611869,
+        "mota": 0.9447530134719925,
+        "num_switches": 407.0
+      },
+      {
+        "idf1": 0.8801422782005306,
+        "mota": 0.9052379282123232,
+        "num_switches": 1130.0
+      }
+    ]
+  },
+  "no_multi_pair_expansion": true,
+  "official_val_test_read": false,
+  "reason": "Temporal mean is causally active but worsens all three endpoint metrics and increases switches on the mature P26 host.",
+  "verdict": "STOP_P42_TEMPORAL_MEAN_HOST_TRANSFER"
+}

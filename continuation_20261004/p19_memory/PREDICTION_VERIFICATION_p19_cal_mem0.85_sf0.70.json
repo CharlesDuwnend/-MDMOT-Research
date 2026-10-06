@@ -1,0 +1,78 @@
+{
+  "arms": [
+    "current_future_merge"
+  ],
+  "encoder_arm": "anchor_p1",
+  "files": [
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair27/current_future_merge/clocks.jsonl",
+      "sha256": "ea74bdfbc47ff912974426ebdcc9abe80e57a84246293b27baeb80d6618bbe8f"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair27/current_future_merge/predictions/27-1.jsonl",
+      "sha256": "5f875727e5d2faf9bf346f872b515fc361983bbbc747dc3035fccc9d6af8bebb"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair27/current_future_merge/predictions/27-2.jsonl",
+      "sha256": "97b6f573646a694f7719d80fc170bbf98b73f28e800c84ae4357e3595d516234"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair32/current_future_merge/clocks.jsonl",
+      "sha256": "0231185f01c666f0ea9bd82bc8e2d57c471f06507bb58fe7a8d796e36a51ad1b"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair32/current_future_merge/predictions/32-1.jsonl",
+      "sha256": "6a3ba9676ab76ad59b25013135667d61555db5ceee5fb12bfe02d2dbda7776f3"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair32/current_future_merge/predictions/32-2.jsonl",
+      "sha256": "c95a5151d6aa1cb8f0791b0f8cee15ee0d7f1688abd5a0137ff32b538f9a0f98"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair42/current_future_merge/clocks.jsonl",
+      "sha256": "366b60d712d57a98d2e84047c31dea80b2565069be574e85650e9eed2294e42d"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair42/current_future_merge/predictions/42-1.jsonl",
+      "sha256": "71b99c0db2327c56c5f90b77f040af9243ce98c40b2670e7347fa1247b9307cd"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair42/current_future_merge/predictions/42-2.jsonl",
+      "sha256": "611da0cbb809e23b19c4198cc3a3c53b27c76da4485a909558fa05104d93bf45"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair64/current_future_merge/clocks.jsonl",
+      "sha256": "7b4eecc54de481af4bb564cf26007dbed7f0c8d6365355165ccd9a5677072b5e"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair64/current_future_merge/predictions/64-1.jsonl",
+      "sha256": "364aedbbc1982406328ef9c7ea61b0e411928648e2d8e2b2df793ec29508dc8c"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair64/current_future_merge/predictions/64-2.jsonl",
+      "sha256": "53dc3f0ff2ba7faa93141dcebb13af99587ea6e703e1336a1eb3f9d667babc9a"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair65/current_future_merge/clocks.jsonl",
+      "sha256": "89e635203f7939896849ff9efff146da3295808b037e0c96f9c0fdb567c9d888"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair65/current_future_merge/predictions/65-1.jsonl",
+      "sha256": "78e30950207e2047fc7b4657b70e5e0d676cfe1fd3a29457d5fd5c2c92627387"
+    },
+    {
+      "path": "/raid/datasets/chc_data/mdmot_research_cache_20261004/p18_runs/p19_cal_mem0.85_sf0.70/pair65/current_future_merge/predictions/65-2.jsonl",
+      "sha256": "302a20e5ebfcf017929f0cc8ae4f288827d1f40747fb9f35b36564314aa74597"
+    }
+  ],
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "prediction_freeze_sha256": "562b28b0833e49ab88abde3854123994bce9aa23b3fffb6575d82feccb380311",
+  "raw_GT_read": false,
+  "status": "PASS_ALL_REQUIRED_PREDICTION_AND_CLOCK_HASHES"
+}

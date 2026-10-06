@@ -1,0 +1,131 @@
+{
+  "status": "PASS_CCFI_FULL_FAILURE_AUDIT_3X3",
+  "classification": "METHOD_GENERALIZATION_FAILURE_CROSS_PAIR_OVERFIT",
+  "decision": "STOP_CCFI_AFTER_FULL_COVERAGE",
+  "rounds": {
+    "R1_training_integrity": [
+      {
+        "name": "R1_full_schedule_contract",
+        "pass": true,
+        "detail": {
+          "steps": 55236,
+          "groups": 18412,
+          "epochs": 3
+        }
+      },
+      {
+        "name": "R1_full_checkpoint_hash",
+        "pass": true,
+        "detail": "8ff3a1642cbb7d40cb19fe6571793b62b33d8834097c1ea95f84d65020b6bbe3"
+      },
+      {
+        "name": "R1_full_finite_training_receipt",
+        "pass": true,
+        "detail": "PASS_CCFI_FULL_COVERAGE_TRAINING"
+      }
+    ],
+    "R2_evaluation_integrity": [
+      {
+        "name": "R2_label_freeze",
+        "pass": true,
+        "detail": {
+          "status": "PASS_CCFI_LABEL_FREEZE",
+          "pairs": 20
+        }
+      },
+      {
+        "name": "R2_all_outputs_finite",
+        "pass": true,
+        "detail": 20
+      },
+      {
+        "name": "R2_no_forbidden_split",
+        "pass": true,
+        "detail": true
+      }
+    ],
+    "R3_failure_cause": [
+      {
+        "name": "R3_calibration_gate_failure",
+        "pass": true,
+        "detail": {
+          "calibration_min": 0.4641,
+          "calibration_r1_vs_p1": -0.007119337110266966,
+          "calibration_r1_vs_p38": -0.014417873282668026,
+          "fit_drop_max": 0.05,
+          "fit_drop_vs_p1": 0.06525008967875812,
+          "pair_wins_vs_p1_min": 3,
+          "pair_wins_vs_p38_min": 3,
+          "pass": false,
+          "wins_vs_p1": 1,
+          "wins_vs_p38": 0
+        }
+      },
+      {
+        "name": "R3_short_to_full_regression",
+        "pass": true,
+        "detail": {
+          "short": {
+            "calibration_min": 0.4641,
+            "calibration_r1_vs_p1": 0.009966761220557174,
+            "calibration_r1_vs_p38": 0.0026682250481561143,
+            "fit_drop_max": 0.05,
+            "fit_drop_vs_p1": 0.01947338813834365,
+            "pair_wins_vs_p1_min": 3,
+            "pair_wins_vs_p38_min": 3,
+            "pass": false,
+            "wins_vs_p1": 4,
+            "wins_vs_p38": 4
+          },
+          "full": {
+            "calibration_min": 0.4641,
+            "calibration_r1_vs_p1": -0.007119337110266966,
+            "calibration_r1_vs_p38": -0.014417873282668026,
+            "fit_drop_max": 0.05,
+            "fit_drop_vs_p1": 0.06525008967875812,
+            "pair_wins_vs_p1_min": 3,
+            "pair_wins_vs_p38_min": 3,
+            "pass": false,
+            "wins_vs_p1": 1,
+            "wins_vs_p38": 0
+          }
+        }
+      },
+      {
+        "name": "R3_fit_calibration_gap_exposes_overfit",
+        "pass": true,
+        "detail": {
+          "fit_delta": 0.06525008967875812,
+          "cal_delta": -0.007119337110266966
+        }
+      }
+    ]
+  },
+  "all_checks_pass": true,
+  "evidence": {
+    "short_gate": {
+      "calibration_min": 0.4641,
+      "calibration_r1_vs_p1": 0.009966761220557174,
+      "calibration_r1_vs_p38": 0.0026682250481561143,
+      "fit_drop_max": 0.05,
+      "fit_drop_vs_p1": 0.01947338813834365,
+      "pair_wins_vs_p1_min": 3,
+      "pair_wins_vs_p38_min": 3,
+      "pass": false,
+      "wins_vs_p1": 4,
+      "wins_vs_p38": 4
+    },
+    "full_gate": {
+      "calibration_min": 0.4641,
+      "calibration_r1_vs_p1": -0.007119337110266966,
+      "calibration_r1_vs_p38": -0.014417873282668026,
+      "fit_drop_max": 0.05,
+      "fit_drop_vs_p1": 0.06525008967875812,
+      "pair_wins_vs_p1_min": 3,
+      "pair_wins_vs_p38_min": 3,
+      "pass": false,
+      "wins_vs_p1": 1,
+      "wins_vs_p38": 0
+    }
+  }
+}

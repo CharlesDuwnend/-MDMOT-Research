@@ -1,0 +1,39 @@
+{
+  "status": "PASS_LCSCF_NAN_FAILURE_AUDIT_3X3_AND_REPAIR",
+  "failed_run": "runs/block1_600_v2",
+  "first_nan": "LCSCF_B4 step 2; B4 control finite",
+  "rounds": [
+    {
+      "round": "R1_STATIC_NUMERICAL",
+      "checks": [
+        "masked logits used torch.finfo.min before division by learnable temperature",
+        "finfo.min / temperature can overflow to -inf and produce undefined temperature gradient",
+        "only lcscf.log_temperature gradient was non-finite in a fresh step-1 replay"
+      ],
+      "result": "FAIL_TEMPERATURE_MASK_OVERFLOW"
+    },
+    {
+      "round": "R2_FRESH_REPLAY",
+      "checks": [
+        "same seed/pairs/native 800x1333 batch reproduced finite loss at step 1",
+        "same replay reproduced NaN only in log_temperature gradient before repair",
+        "B4 control and all map/stat tensors were finite, isolating the failure to LCSCF temperature path"
+      ],
+      "result": "PASS_FAILURE_LOCALIZATION"
+    },
+    {
+      "round": "R3_REPAIRED_CONTRACT",
+      "checks": [
+        "mask is applied after correlation/temperature division with finite -1e4 sentinel",
+        "fresh backward has finite gradients for every parameter including log_temperature",
+        "loss, transport terms and backbone/residual gradients remain finite"
+      ],
+      "result": "PASS_NUMERICAL_REPAIR"
+    }
+  ],
+  "disposition": {
+    "block1_600_v2": "ARCHIVE_INVALID_NAN",
+    "official_val_test": false,
+    "next": "fresh smoke then new short gate; no resume from NaN checkpoint"
+  }
+}

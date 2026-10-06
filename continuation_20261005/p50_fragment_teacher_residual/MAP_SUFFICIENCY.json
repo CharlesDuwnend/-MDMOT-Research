@@ -1,0 +1,77 @@
+{
+  "status": "PASS_P50_MAP_TRAINING_SUFFICIENCY_AUDIT_COMPLETE",
+  "device": "cuda",
+  "fit_rows": 2124,
+  "start_step": 1200,
+  "total_steps": 3200,
+  "effective_epochs": 3.0131826741996233,
+  "history": [
+    {
+      "step": 1600,
+      "loss": 0.3711937665939331,
+      "grad_l1": 50.62721252441406
+    },
+    {
+      "step": 2000,
+      "loss": 0.23230277001857758,
+      "grad_l1": 16.859928131103516
+    },
+    {
+      "step": 2400,
+      "loss": 0.3471134603023529,
+      "grad_l1": 23.784589767456055
+    },
+    {
+      "step": 2800,
+      "loss": 0.33789458870887756,
+      "grad_l1": 20.003568649291992
+    },
+    {
+      "step": 3200,
+      "loss": 0.3283478319644928,
+      "grad_l1": 21.36452865600586
+    }
+  ],
+  "per_pair": {
+    "69": {
+      "events": 238,
+      "student_recall1": 0.08823529411764706,
+      "baseline_recall1": 0.1638655462184874,
+      "student_mrr": 0.21950593099774215,
+      "baseline_mrr": 0.3109250533317805
+    },
+    "70": {
+      "events": 150,
+      "student_recall1": 0.013333333333333334,
+      "baseline_recall1": 0.08,
+      "student_mrr": 0.1148233740216421,
+      "baseline_mrr": 0.2213120378123646
+    },
+    "74": {
+      "events": 186,
+      "student_recall1": 0.06451612903225806,
+      "baseline_recall1": 0.08602150537634409,
+      "student_mrr": 0.16316286525887314,
+      "baseline_mrr": 0.1931617417469169
+    },
+    "76": {
+      "events": 89,
+      "student_recall1": 0.033707865168539325,
+      "baseline_recall1": 0.0898876404494382,
+      "student_mrr": 0.15612883253807358,
+      "baseline_mrr": 0.21814024740475316
+    },
+    "78": {
+      "events": 160,
+      "student_recall1": 0.0375,
+      "baseline_recall1": 0.1625,
+      "student_mrr": 0.13659046963640248,
+      "baseline_mrr": 0.27946737304713254
+    }
+  },
+  "teacher_in_inference": false,
+  "official_val_test_access": false,
+  "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p50_fragment_teacher_residual/MAP_SUFFICIENCY_MODEL.pt",
+  "checkpoint_sha256": "ef675580291dbb7683b2832998b425617107bc60812a749948601ee7c361618e",
+  "interpretation": "3-epoch train-only sufficiency audit; still no formal MOT result"
+}

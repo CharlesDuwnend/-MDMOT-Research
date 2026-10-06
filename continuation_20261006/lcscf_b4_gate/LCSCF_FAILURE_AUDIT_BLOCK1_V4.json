@@ -1,0 +1,11 @@
+{
+  "status": "PASS_LCSCF_V4_METHOD_GATE_AUDIT_3X3",
+  "audit": "LCSCF_GATE_AUDIT_V4.json",
+  "rounds": [
+    "R1 exact 600 updates, finite train scalars, complete train-only receipt",
+    "R2 independent event-to-metric replay, identical per-pair denominators and present counts",
+    "R3 recomputed strict pair wins and predeclared macro tradeoff gate"
+  ],
+  "decision": "STOP_LCSCF_AFTER_CORRECTED_BLOCK1",
+  "official_val_test_access": false
+}

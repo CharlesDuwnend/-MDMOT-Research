@@ -1,0 +1,40 @@
+{
+  "status": "PASS_LCSCF_V1_IMPLEMENTATION_FAILURE_AUDIT_3X3",
+  "failed_artifact": "runs/block1_600_v1",
+  "scope": "implementation diagnosis only; v1 result invalid and not a method rejection",
+  "rounds": [
+    {
+      "round": "R1_STATIC_OPERATOR",
+      "checks": [
+        "target map normalization used dim=2 instead of channel dim=1",
+        "candidate local neighbours entered correlation unnormalized, allowing feature norm to drive transport",
+        "cycle metric compared one-step transported maps and was not a round-trip plan composition"
+      ],
+      "result": "FAIL_V1_OPERATOR_SEMANTICS"
+    },
+    {
+      "round": "R2_DATA_AND_SUPERVISION",
+      "checks": [
+        "unmapped candidate indices were absent from collated batch and legacy assignment denominator",
+        "runner used anisotropic 256x448 resize instead of native keep-ratio 1333x800 normalized padding",
+        "method spec claimed pre-RoI bounded offset field while code implemented post-RoI scalar residual mixture"
+      ],
+      "result": "FAIL_V1_DATA_CONTRACT"
+    },
+    {
+      "round": "R3_FRESH_CORRECTION",
+      "checks": [
+        "corrected v2 K=1 zero-valid and K=64 step-zero max error 0",
+        "corrected v2 gradient reaches AutoAssign-initialized backbone and residual scale",
+        "corrected v2 transport stats/parameters finite and native collator emits 800x1333 canvas plus unmapped mask"
+      ],
+      "result": "PASS_V2_CONTRACT_REPAIR"
+    }
+  ],
+  "disposition": {
+    "v1_training_result": "ARCHIVE_INVALID",
+    "v1_method_claim": "NONE",
+    "v2_training_authorization": "SHORT_GATE_ONLY_AFTER_FRESH_REPAIR",
+    "official_val_test": false
+  }
+}

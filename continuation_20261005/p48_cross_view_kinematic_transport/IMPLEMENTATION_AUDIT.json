@@ -1,0 +1,34 @@
+{
+  "stage": "P48_cross_view_kinematic_transport",
+  "status": "PASS_FORMULA_LEVEL_AUDIT_STOP",
+  "purpose": "Check whether the negative CPU signal was caused by implementation rather than the proposed mechanism.",
+  "trace_wrapper": {
+    "path": "trace_baseline.py",
+    "receipt": "TRACE_WRAPPER_RECEIPT.json",
+    "changes": "read-only native pre_mia/initial_H/before_A_new/before_B_new logging; no association or output mutation",
+    "frames": 700,
+    "exit_code": 0
+  },
+  "initial_issue": {
+    "description": "first offline diagnostic used a single frame-zero homography for a moving UAV",
+    "action": "replaced by native H_t and H_{t-1} prefix transport",
+    "resolved": true
+  },
+  "corrected_formula": "project(H_t, p_t) - project(H_{t-1}, p_{t-1})",
+  "corrected_results": {
+    "A_to_B": {
+      "position_rank1": 0.9351768220662822,
+      "position_plus_kinematic_rank1": 0.9273257833669145,
+      "rank1_delta": -0.007851038699367652,
+      "kinematic_only_rank1": 0.13256444104773155
+    },
+    "B_to_A": {
+      "position_rank1": 0.9398922205333702,
+      "position_plus_kinematic_rank1": 0.9304960619041039,
+      "rank1_delta": -0.009396158629266238,
+      "kinematic_only_rank1": 0.14342959789968218
+    }
+  },
+  "conclusion": "the corrected prefix transport remains below the geometry-only control in both directions; stop before GPU training",
+  "audit_artifact": "runs/trace_pair23_v1/TRACE_AUDIT.json"
+}

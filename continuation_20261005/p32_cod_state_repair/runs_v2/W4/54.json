@@ -1,0 +1,5930 @@
+{
+  "summary": {
+    "pair": "54",
+    "W": 4,
+    "proposal_count": 68,
+    "baseline_selected_owner_accept": 35,
+    "delay_final_edges": 32,
+    "repair_final_edges": 32,
+    "b0_edges": 35,
+    "repair_ops": {
+      "provisional_publish": 32,
+      "repair_reject": 33,
+      "revoke": 3,
+      "revision_publish": 3
+    },
+    "repair_revokes": 3,
+    "repair_revisions": 3,
+    "repair_rejections": 33,
+    "repair_changes_vs_delay": 2,
+    "repair_changes_vs_b0": 5,
+    "delay_diagnostics": {
+      "correct_edges": 2,
+      "false_edges": 28,
+      "unknown_edges": 2,
+      "future_coobserved_frames": 1822,
+      "future_wrong_coobserved_frames": 1755
+    },
+    "repair_diagnostics": {
+      "correct_edges": 2,
+      "false_edges": 28,
+      "unknown_edges": 2,
+      "future_coobserved_frames": 1944,
+      "future_wrong_coobserved_frames": 1865
+    },
+    "b0_diagnostics": {
+      "correct_edges": 2,
+      "false_edges": 31,
+      "unknown_edges": 2,
+      "future_coobserved_frames": 1997,
+      "future_wrong_coobserved_frames": 1918
+    },
+    "repair_edge_rows": [
+      {
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            43
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.3005810273172133,
+        "label": "false",
+        "left_gid": 67,
+        "right_gid": 36,
+        "future_coobserved_frames": 196,
+        "future_wrong_coobserved_frames": 196
+      },
+      {
+        "edge": [
+          [
+            "1",
+            9
+          ],
+          [
+            "2",
+            4
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.30696352822882367,
+        "label": "false",
+        "left_gid": 47,
+        "right_gid": 128,
+        "future_coobserved_frames": 45,
+        "future_wrong_coobserved_frames": 45
+      },
+      {
+        "edge": [
+          [
+            "1",
+            32
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.31552333910004127,
+        "label": "false",
+        "left_gid": 25,
+        "right_gid": 97,
+        "future_coobserved_frames": 117,
+        "future_wrong_coobserved_frames": 117
+      },
+      {
+        "edge": [
+          [
+            "1",
+            26
+          ],
+          [
+            "2",
+            64
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.31780360768874477,
+        "label": "false",
+        "left_gid": 29,
+        "right_gid": 4,
+        "future_coobserved_frames": 44,
+        "future_wrong_coobserved_frames": 44
+      },
+      {
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            7
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.3375044697479739,
+        "label": "false",
+        "left_gid": 46,
+        "right_gid": 126,
+        "future_coobserved_frames": 3,
+        "future_wrong_coobserved_frames": 3
+      },
+      {
+        "edge": [
+          [
+            "1",
+            19
+          ],
+          [
+            "2",
+            55
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.33878387510066793,
+        "label": "false",
+        "left_gid": 30,
+        "right_gid": 29,
+        "future_coobserved_frames": 58,
+        "future_wrong_coobserved_frames": 58
+      },
+      {
+        "edge": [
+          [
+            "1",
+            7
+          ],
+          [
+            "2",
+            11
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.3397928591877918,
+        "label": "false",
+        "left_gid": 48,
+        "right_gid": 123,
+        "future_coobserved_frames": 5,
+        "future_wrong_coobserved_frames": 5
+      },
+      {
+        "edge": [
+          [
+            "1",
+            30
+          ],
+          [
+            "2",
+            44
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.34004360407383366,
+        "label": "false",
+        "left_gid": 28,
+        "right_gid": 3,
+        "future_coobserved_frames": 55,
+        "future_wrong_coobserved_frames": 55
+      },
+      {
+        "edge": [
+          [
+            "1",
+            28
+          ],
+          [
+            "2",
+            79
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.3479440951175178,
+        "label": "false",
+        "left_gid": 31,
+        "right_gid": 60,
+        "future_coobserved_frames": 48,
+        "future_wrong_coobserved_frames": 48
+      },
+      {
+        "edge": [
+          [
+            "1",
+            21
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.3486567120698527,
+        "label": "false",
+        "left_gid": 8,
+        "right_gid": 96,
+        "future_coobserved_frames": 186,
+        "future_wrong_coobserved_frames": 186
+      },
+      {
+        "edge": [
+          [
+            "1",
+            15
+          ],
+          [
+            "2",
+            26
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.34906953247841693,
+        "label": "false",
+        "left_gid": 60,
+        "right_gid": 26,
+        "future_coobserved_frames": 215,
+        "future_wrong_coobserved_frames": 215
+      },
+      {
+        "edge": [
+          [
+            "1",
+            35
+          ],
+          [
+            "2",
+            42
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.3614110715704232,
+        "label": "false",
+        "left_gid": 26,
+        "right_gid": 90,
+        "future_coobserved_frames": 70,
+        "future_wrong_coobserved_frames": 70
+      },
+      {
+        "edge": [
+          [
+            "1",
+            13
+          ],
+          [
+            "2",
+            25
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.3635758118272356,
+        "label": "correct",
+        "left_gid": 32,
+        "right_gid": 32,
+        "future_coobserved_frames": 71,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            31
+          ],
+          [
+            "2",
+            51
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.3636270324979263,
+        "label": "false",
+        "left_gid": 6,
+        "right_gid": 100,
+        "future_coobserved_frames": 166,
+        "future_wrong_coobserved_frames": 166
+      },
+      {
+        "edge": [
+          [
+            "1",
+            36
+          ],
+          [
+            "2",
+            72
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.36797072233656825,
+        "label": "false",
+        "left_gid": 4,
+        "right_gid": 33,
+        "future_coobserved_frames": 42,
+        "future_wrong_coobserved_frames": 42
+      },
+      {
+        "edge": [
+          [
+            "1",
+            33
+          ],
+          [
+            "2",
+            69
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.3683227003222624,
+        "label": "false",
+        "left_gid": 3,
+        "right_gid": 6,
+        "future_coobserved_frames": 65,
+        "future_wrong_coobserved_frames": 65
+      },
+      {
+        "edge": [
+          [
+            "1",
+            22
+          ],
+          [
+            "2",
+            47
+          ]
+        ],
+        "ready": 5,
+        "effective": 5,
+        "cutoff_frame": 5,
+        "cost": 0.36912668322850567,
+        "label": "false",
+        "left_gid": 36,
+        "right_gid": 148,
+        "future_coobserved_frames": 158,
+        "future_wrong_coobserved_frames": 158
+      },
+      {
+        "edge": [
+          [
+            "1",
+            56
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 14,
+        "effective": 14,
+        "cutoff_frame": 14,
+        "cost": 0.31702809845873664,
+        "label": "false",
+        "left_gid": 62,
+        "right_gid": 54,
+        "future_coobserved_frames": 14,
+        "future_wrong_coobserved_frames": 14
+      },
+      {
+        "edge": [
+          [
+            "1",
+            66
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 17,
+        "effective": 17,
+        "cutoff_frame": 17,
+        "cost": 0.36056787569118104,
+        "label": "false",
+        "left_gid": 9,
+        "right_gid": 95,
+        "future_coobserved_frames": 178,
+        "future_wrong_coobserved_frames": 178
+      },
+      {
+        "edge": [
+          [
+            "1",
+            118
+          ],
+          [
+            "2",
+            6
+          ]
+        ],
+        "ready": 46,
+        "effective": 46,
+        "cutoff_frame": 46,
+        "cost": 0.3090218348464332,
+        "label": "unknown",
+        "left_gid": null,
+        "right_gid": 158,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            150
+          ],
+          [
+            "2",
+            142
+          ]
+        ],
+        "ready": 66,
+        "effective": 66,
+        "cutoff_frame": 66,
+        "cost": 0.3627386679966971,
+        "label": "false",
+        "left_gid": 65,
+        "right_gid": 52,
+        "future_coobserved_frames": 28,
+        "future_wrong_coobserved_frames": 28
+      },
+      {
+        "edge": [
+          [
+            "1",
+            98
+          ],
+          [
+            "2",
+            180
+          ]
+        ],
+        "ready": 88,
+        "effective": 88,
+        "cutoff_frame": 88,
+        "cost": 0.3640118141844381,
+        "label": "correct",
+        "left_gid": 58,
+        "right_gid": 58,
+        "future_coobserved_frames": 7,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            162
+          ],
+          [
+            "2",
+            199
+          ]
+        ],
+        "ready": 99,
+        "effective": 99,
+        "cutoff_frame": 99,
+        "cost": 0.32803208317446875,
+        "label": "false",
+        "left_gid": 59,
+        "right_gid": 58,
+        "future_coobserved_frames": 34,
+        "future_wrong_coobserved_frames": 34
+      },
+      {
+        "edge": [
+          [
+            "1",
+            10
+          ],
+          [
+            "2",
+            208
+          ]
+        ],
+        "ready": 106,
+        "effective": 106,
+        "cutoff_frame": 106,
+        "cost": 0.3678025160490877,
+        "label": "false",
+        "left_gid": 51,
+        "right_gid": 62,
+        "future_coobserved_frames": 3,
+        "future_wrong_coobserved_frames": 3
+      },
+      {
+        "edge": [
+          [
+            "1",
+            139
+          ],
+          [
+            "2",
+            227
+          ]
+        ],
+        "ready": 118,
+        "effective": 118,
+        "cutoff_frame": 118,
+        "cost": 0.36573598621269277,
+        "label": "unknown",
+        "left_gid": 12,
+        "right_gid": null,
+        "future_coobserved_frames": 1,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            239
+          ],
+          [
+            "2",
+            88
+          ]
+        ],
+        "ready": 125,
+        "effective": 125,
+        "cutoff_frame": 125,
+        "cost": 0.3696844352503598,
+        "label": "false",
+        "left_gid": 17,
+        "right_gid": 94,
+        "future_coobserved_frames": 71,
+        "future_wrong_coobserved_frames": 71
+      },
+      {
+        "edge": [
+          [
+            "1",
+            269
+          ],
+          [
+            "2",
+            109
+          ]
+        ],
+        "ready": 135,
+        "effective": 135,
+        "cutoff_frame": 135,
+        "cost": 0.36264848511609415,
+        "label": "false",
+        "left_gid": 52,
+        "right_gid": 64,
+        "future_coobserved_frames": 31,
+        "future_wrong_coobserved_frames": 31
+      },
+      {
+        "edge": [
+          [
+            "1",
+            408
+          ],
+          [
+            "2",
+            350
+          ]
+        ],
+        "ready": 202,
+        "effective": 202,
+        "cutoff_frame": 202,
+        "cost": 0.36108620130779834,
+        "label": "false",
+        "left_gid": 66,
+        "right_gid": 155,
+        "future_coobserved_frames": 0,
+        "future_wrong_coobserved_frames": 0
+      },
+      {
+        "edge": [
+          [
+            "1",
+            189
+          ],
+          [
+            "2",
+            371
+          ]
+        ],
+        "ready": 206,
+        "effective": 206,
+        "cutoff_frame": 206,
+        "cost": 0.36824568394216145,
+        "label": "false",
+        "left_gid": 42,
+        "right_gid": 67,
+        "future_coobserved_frames": 14,
+        "future_wrong_coobserved_frames": 14
+      },
+      {
+        "edge": [
+          [
+            "1",
+            605
+          ],
+          [
+            "2",
+            60
+          ]
+        ],
+        "ready": 209,
+        "effective": 209,
+        "cutoff_frame": 209,
+        "cost": 0.34583892150372614,
+        "label": "false",
+        "left_gid": 21,
+        "right_gid": 101,
+        "future_coobserved_frames": 11,
+        "future_wrong_coobserved_frames": 11
+      },
+      {
+        "edge": [
+          [
+            "1",
+            356
+          ],
+          [
+            "2",
+            411
+          ]
+        ],
+        "ready": 214,
+        "effective": 214,
+        "cutoff_frame": 214,
+        "cost": 0.34222101456948506,
+        "label": "false",
+        "left_gid": 54,
+        "right_gid": 109,
+        "future_coobserved_frames": 4,
+        "future_wrong_coobserved_frames": 4
+      },
+      {
+        "edge": [
+          [
+            "1",
+            649
+          ],
+          [
+            "2",
+            61
+          ]
+        ],
+        "ready": 216,
+        "effective": 216,
+        "cutoff_frame": 216,
+        "cost": 0.3157853063671743,
+        "label": "false",
+        "left_gid": 23,
+        "right_gid": 103,
+        "future_coobserved_frames": 4,
+        "future_wrong_coobserved_frames": 4
+      }
+    ]
+  },
+  "detail": {
+    "proposals": [
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          38
+        ],
+        "b": [
+          "2",
+          43
+        ],
+        "cost": 0.3005810273172133,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          9
+        ],
+        "b": [
+          "2",
+          4
+        ],
+        "cost": 0.30696352822882367,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          32
+        ],
+        "b": [
+          "2",
+          28
+        ],
+        "cost": 0.31552333910004127,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          26
+        ],
+        "b": [
+          "2",
+          64
+        ],
+        "cost": 0.31780360768874477,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          5
+        ],
+        "b": [
+          "2",
+          7
+        ],
+        "cost": 0.3375044697479739,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          19
+        ],
+        "b": [
+          "2",
+          55
+        ],
+        "cost": 0.33878387510066793,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          7
+        ],
+        "b": [
+          "2",
+          11
+        ],
+        "cost": 0.3397928591877918,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          30
+        ],
+        "b": [
+          "2",
+          44
+        ],
+        "cost": 0.34004360407383366,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          28
+        ],
+        "b": [
+          "2",
+          79
+        ],
+        "cost": 0.3479440951175178,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          21
+        ],
+        "b": [
+          "2",
+          56
+        ],
+        "cost": 0.3486567120698527,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          15
+        ],
+        "b": [
+          "2",
+          26
+        ],
+        "cost": 0.34906953247841693,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          4
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.35400043126516817,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          35
+        ],
+        "b": [
+          "2",
+          42
+        ],
+        "cost": 0.3614110715704232,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          13
+        ],
+        "b": [
+          "2",
+          25
+        ],
+        "cost": 0.3635758118272356,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          31
+        ],
+        "b": [
+          "2",
+          51
+        ],
+        "cost": 0.3636270324979263,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          36
+        ],
+        "b": [
+          "2",
+          72
+        ],
+        "cost": 0.36797072233656825,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          33
+        ],
+        "b": [
+          "2",
+          69
+        ],
+        "cost": 0.3683227003222624,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 5,
+        "a": [
+          "1",
+          22
+        ],
+        "b": [
+          "2",
+          47
+        ],
+        "cost": 0.36912668322850567,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 0,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 8,
+        "a": [
+          "1",
+          9
+        ],
+        "b": [
+          "2",
+          103
+        ],
+        "cost": 0.3389145781116958,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 1,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 8,
+        "a": [
+          "1",
+          39
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.3414416906316649,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 1,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 8,
+        "a": [
+          "1",
+          5
+        ],
+        "b": [
+          "2",
+          101
+        ],
+        "cost": 0.3501115370237535,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 1,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 9,
+        "a": [
+          "1",
+          9
+        ],
+        "b": [
+          "2",
+          108
+        ],
+        "cost": 0.3419747246286167,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 2,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 11,
+        "a": [
+          "1",
+          47
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.33001448924933824,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 4,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 14,
+        "a": [
+          "1",
+          56
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.31702809845873664,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 7,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 17,
+        "a": [
+          "1",
+          66
+        ],
+        "b": [
+          "2",
+          54
+        ],
+        "cost": 0.36056787569118104,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 9,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 28,
+        "a": [
+          "1",
+          77
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.3607682906449285,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 13,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 29,
+        "a": [
+          "1",
+          79
+        ],
+        "b": [
+          "2",
+          28
+        ],
+        "cost": 0.29418353432265604,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 14,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 32,
+        "a": [
+          "1",
+          38
+        ],
+        "b": [
+          "2",
+          132
+        ],
+        "cost": 0.33456568626189565,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 15,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 33,
+        "a": [
+          "1",
+          5
+        ],
+        "b": [
+          "2",
+          135
+        ],
+        "cost": 0.32853727844690434,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_fragment_not_closed",
+        "batch_index": 16,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 37,
+        "a": [
+          "1",
+          9
+        ],
+        "b": [
+          "2",
+          137
+        ],
+        "cost": 0.3069092482125045,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 18,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 46,
+        "a": [
+          "1",
+          118
+        ],
+        "b": [
+          "2",
+          6
+        ],
+        "cost": 0.3090218348464332,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 26,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 57,
+        "a": [
+          "1",
+          135
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.34215869489943,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 28,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 60,
+        "a": [
+          "1",
+          141
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.3468629033869351,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_fragment_not_closed",
+        "batch_index": 31,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 66,
+        "a": [
+          "1",
+          150
+        ],
+        "b": [
+          "2",
+          142
+        ],
+        "cost": 0.3627386679966971,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 33,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 67,
+        "a": [
+          "1",
+          152
+        ],
+        "b": [
+          "2",
+          28
+        ],
+        "cost": 0.2951068530823829,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 34,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 67,
+        "a": [
+          "1",
+          38
+        ],
+        "b": [
+          "2",
+          160
+        ],
+        "cost": 0.34414277795238873,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 34,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 75,
+        "a": [
+          "1",
+          160
+        ],
+        "b": [
+          "2",
+          28
+        ],
+        "cost": 0.2699187466286903,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 36,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 77,
+        "a": [
+          "1",
+          38
+        ],
+        "b": [
+          "2",
+          167
+        ],
+        "cost": 0.30065055595421286,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 38,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 83,
+        "a": [
+          "1",
+          173
+        ],
+        "b": [
+          "2",
+          56
+        ],
+        "cost": 0.3689919054173601,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 41,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 88,
+        "a": [
+          "1",
+          182
+        ],
+        "b": [
+          "2",
+          54
+        ],
+        "cost": 0.35951323586740963,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 43,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 88,
+        "a": [
+          "1",
+          98
+        ],
+        "b": [
+          "2",
+          180
+        ],
+        "cost": 0.3640118141844381,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 43,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 96,
+        "a": [
+          "1",
+          189
+        ],
+        "b": [
+          "2",
+          28
+        ],
+        "cost": 0.29135264146647677,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 47,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 96,
+        "a": [
+          "1",
+          38
+        ],
+        "b": [
+          "2",
+          195
+        ],
+        "cost": 0.321522515571261,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 47,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 99,
+        "a": [
+          "1",
+          162
+        ],
+        "b": [
+          "2",
+          199
+        ],
+        "cost": 0.32803208317446875,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 50,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 106,
+        "a": [
+          "1",
+          10
+        ],
+        "b": [
+          "2",
+          208
+        ],
+        "cost": 0.3678025160490877,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 51,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 116,
+        "a": [
+          "1",
+          162
+        ],
+        "b": [
+          "2",
+          223
+        ],
+        "cost": 0.3248203566949571,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 57,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 116,
+        "a": [
+          "1",
+          203
+        ],
+        "b": [
+          "2",
+          56
+        ],
+        "cost": 0.3699482787726714,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 57,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 117,
+        "a": [
+          "1",
+          162
+        ],
+        "b": [
+          "2",
+          225
+        ],
+        "cost": 0.328356569646436,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 58,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 118,
+        "a": [
+          "1",
+          139
+        ],
+        "b": [
+          "2",
+          227
+        ],
+        "cost": 0.36573598621269277,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 59,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 125,
+        "a": [
+          "1",
+          239
+        ],
+        "b": [
+          "2",
+          88
+        ],
+        "cost": 0.3696844352503598,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 63,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 134,
+        "a": [
+          "1",
+          265
+        ],
+        "b": [
+          "2",
+          199
+        ],
+        "cost": 0.3483662101379019,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 69,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 135,
+        "a": [
+          "1",
+          269
+        ],
+        "b": [
+          "2",
+          109
+        ],
+        "cost": 0.36264848511609415,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 70,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 138,
+        "a": [
+          "1",
+          277
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.33825878250776203,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 73,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 138,
+        "a": [
+          "1",
+          162
+        ],
+        "b": [
+          "2",
+          252
+        ],
+        "cost": 0.34385226099085303,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 73,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 138,
+        "a": [
+          "1",
+          275
+        ],
+        "b": [
+          "2",
+          109
+        ],
+        "cost": 0.3640981110167461,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 73,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 139,
+        "a": [
+          "1",
+          279
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.3520185782406032,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 74,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 156,
+        "a": [
+          "1",
+          342
+        ],
+        "b": [
+          "2",
+          208
+        ],
+        "cost": 0.34960259276300987,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 79,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 159,
+        "a": [
+          "1",
+          360
+        ],
+        "b": [
+          "2",
+          208
+        ],
+        "cost": 0.3500938966090013,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_fragment_not_closed",
+        "batch_index": 80,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 159,
+        "a": [
+          "1",
+          363
+        ],
+        "b": [
+          "2",
+          54
+        ],
+        "cost": 0.3669506718095212,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 80,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 168,
+        "a": [
+          "1",
+          408
+        ],
+        "b": [
+          "2",
+          208
+        ],
+        "cost": 0.3610151394359524,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_fragment_not_closed",
+        "batch_index": 86,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 168,
+        "a": [
+          "1",
+          406
+        ],
+        "b": [
+          "2",
+          18
+        ],
+        "cost": 0.36507302545798487,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_fragment_not_closed",
+        "batch_index": 86,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 202,
+        "a": [
+          "1",
+          408
+        ],
+        "b": [
+          "2",
+          350
+        ],
+        "cost": 0.36108620130779834,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 98,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 206,
+        "a": [
+          "1",
+          189
+        ],
+        "b": [
+          "2",
+          371
+        ],
+        "cost": 0.36824568394216145,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 99,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 209,
+        "a": [
+          "1",
+          605
+        ],
+        "b": [
+          "2",
+          60
+        ],
+        "cost": 0.34583892150372614,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 100,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 214,
+        "a": [
+          "1",
+          356
+        ],
+        "b": [
+          "2",
+          411
+        ],
+        "cost": 0.34222101456948506,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 103,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 216,
+        "a": [
+          "1",
+          649
+        ],
+        "b": [
+          "2",
+          61
+        ],
+        "cost": 0.3157853063671743,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 105,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 218,
+        "a": [
+          "1",
+          655
+        ],
+        "b": [
+          "2",
+          4
+        ],
+        "cost": 0.35609281259712344,
+        "baseline_accept": true,
+        "owner_reason": "accepted",
+        "batch_index": 106,
+        "source": "frozen_hungarian_real_assignment"
+      },
+      {
+        "pair": "54",
+        "ready": 219,
+        "a": [
+          "1",
+          661
+        ],
+        "b": [
+          "2",
+          4
+        ],
+        "cost": 0.3320058934968007,
+        "baseline_accept": false,
+        "owner_reason": "same_camera_same_frame_conflict",
+        "batch_index": 107,
+        "source": "frozen_hungarian_real_assignment"
+      }
+    ],
+    "delay_log": [
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            43
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            9
+          ],
+          [
+            "2",
+            4
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            32
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            26
+          ],
+          [
+            "2",
+            64
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            7
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            19
+          ],
+          [
+            "2",
+            55
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            7
+          ],
+          [
+            "2",
+            11
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            30
+          ],
+          [
+            "2",
+            44
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            28
+          ],
+          [
+            "2",
+            79
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            21
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            15
+          ],
+          [
+            "2",
+            26
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            4
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            35
+          ],
+          [
+            "2",
+            42
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            13
+          ],
+          [
+            "2",
+            25
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            31
+          ],
+          [
+            "2",
+            51
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            36
+          ],
+          [
+            "2",
+            72
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            33
+          ],
+          [
+            "2",
+            69
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            22
+          ],
+          [
+            "2",
+            47
+          ]
+        ],
+        "ready": 5,
+        "commit_frame": 9
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            9
+          ],
+          [
+            "2",
+            103
+          ]
+        ],
+        "ready": 8,
+        "commit_frame": 14,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            39
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 8,
+        "commit_frame": 14,
+        "conflicts": [
+          [
+            [
+              "1",
+              4
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            101
+          ]
+        ],
+        "ready": 8,
+        "commit_frame": 14,
+        "conflicts": [
+          [
+            [
+              "1",
+              5
+            ],
+            [
+              "2",
+              7
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            9
+          ],
+          [
+            "2",
+            108
+          ]
+        ],
+        "ready": 9,
+        "commit_frame": 14,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            47
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 11,
+        "commit_frame": 17,
+        "conflicts": [
+          [
+            [
+              "1",
+              4
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            56
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 14,
+        "commit_frame": 28,
+        "conflicts": [
+          [
+            [
+              "1",
+              4
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            66
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 17,
+        "commit_frame": 28
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            77
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 28,
+        "commit_frame": 32,
+        "conflicts": [
+          [
+            [
+              "1",
+              4
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            79
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 29,
+        "commit_frame": 33,
+        "conflicts": [
+          [
+            [
+              "1",
+              32
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            132
+          ]
+        ],
+        "ready": 32,
+        "commit_frame": 37,
+        "conflicts": [
+          [
+            [
+              "1",
+              38
+            ],
+            [
+              "2",
+              43
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            135
+          ]
+        ],
+        "ready": 33,
+        "commit_frame": 37,
+        "conflicts": [
+          [
+            [
+              "1",
+              5
+            ],
+            [
+              "2",
+              7
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            9
+          ],
+          [
+            "2",
+            137
+          ]
+        ],
+        "ready": 37,
+        "commit_frame": 46,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            118
+          ],
+          [
+            "2",
+            6
+          ]
+        ],
+        "ready": 46,
+        "commit_frame": 57
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            135
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 57,
+        "commit_frame": 66,
+        "conflicts": [
+          [
+            [
+              "1",
+              4
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            141
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 60,
+        "commit_frame": 66,
+        "conflicts": [
+          [
+            [
+              "1",
+              4
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            150
+          ],
+          [
+            "2",
+            142
+          ]
+        ],
+        "ready": 66,
+        "commit_frame": 75
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            152
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 67,
+        "commit_frame": 75,
+        "conflicts": [
+          [
+            [
+              "1",
+              32
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            160
+          ]
+        ],
+        "ready": 67,
+        "commit_frame": 75,
+        "conflicts": [
+          [
+            [
+              "1",
+              38
+            ],
+            [
+              "2",
+              43
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            160
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 75,
+        "commit_frame": 83,
+        "conflicts": [
+          [
+            [
+              "1",
+              32
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            167
+          ]
+        ],
+        "ready": 77,
+        "commit_frame": 83,
+        "conflicts": [
+          [
+            [
+              "1",
+              38
+            ],
+            [
+              "2",
+              43
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            173
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 83,
+        "commit_frame": 88,
+        "conflicts": [
+          [
+            [
+              "1",
+              21
+            ],
+            [
+              "2",
+              56
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            182
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 88,
+        "commit_frame": 96,
+        "conflicts": [
+          [
+            [
+              "1",
+              66
+            ],
+            [
+              "2",
+              54
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            98
+          ],
+          [
+            "2",
+            180
+          ]
+        ],
+        "ready": 88,
+        "commit_frame": 96
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            189
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 96,
+        "commit_frame": 106,
+        "conflicts": [
+          [
+            [
+              "1",
+              32
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            195
+          ]
+        ],
+        "ready": 96,
+        "commit_frame": 106,
+        "conflicts": [
+          [
+            [
+              "1",
+              38
+            ],
+            [
+              "2",
+              43
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            162
+          ],
+          [
+            "2",
+            199
+          ]
+        ],
+        "ready": 99,
+        "commit_frame": 106
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            10
+          ],
+          [
+            "2",
+            208
+          ]
+        ],
+        "ready": 106,
+        "commit_frame": 116
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            162
+          ],
+          [
+            "2",
+            223
+          ]
+        ],
+        "ready": 116,
+        "commit_frame": 125,
+        "conflicts": [
+          [
+            [
+              "1",
+              162
+            ],
+            [
+              "2",
+              199
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            203
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 116,
+        "commit_frame": 125,
+        "conflicts": [
+          [
+            [
+              "1",
+              21
+            ],
+            [
+              "2",
+              56
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            162
+          ],
+          [
+            "2",
+            225
+          ]
+        ],
+        "ready": 117,
+        "commit_frame": 125,
+        "conflicts": [
+          [
+            [
+              "1",
+              162
+            ],
+            [
+              "2",
+              199
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            139
+          ],
+          [
+            "2",
+            227
+          ]
+        ],
+        "ready": 118,
+        "commit_frame": 125
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            239
+          ],
+          [
+            "2",
+            88
+          ]
+        ],
+        "ready": 125,
+        "commit_frame": 134
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            265
+          ],
+          [
+            "2",
+            199
+          ]
+        ],
+        "ready": 134,
+        "commit_frame": 138,
+        "conflicts": [
+          [
+            [
+              "1",
+              162
+            ],
+            [
+              "2",
+              199
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            269
+          ],
+          [
+            "2",
+            109
+          ]
+        ],
+        "ready": 135,
+        "commit_frame": 139
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            277
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 138,
+        "commit_frame": 156,
+        "conflicts": [
+          [
+            [
+              "1",
+              4
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            162
+          ],
+          [
+            "2",
+            252
+          ]
+        ],
+        "ready": 138,
+        "commit_frame": 156,
+        "conflicts": [
+          [
+            [
+              "1",
+              162
+            ],
+            [
+              "2",
+              199
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            275
+          ],
+          [
+            "2",
+            109
+          ]
+        ],
+        "ready": 138,
+        "commit_frame": 156,
+        "conflicts": [
+          [
+            [
+              "1",
+              269
+            ],
+            [
+              "2",
+              109
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            279
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 139,
+        "commit_frame": 156,
+        "conflicts": [
+          [
+            [
+              "1",
+              4
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            342
+          ],
+          [
+            "2",
+            208
+          ]
+        ],
+        "ready": 156,
+        "commit_frame": 168,
+        "conflicts": [
+          [
+            [
+              "1",
+              10
+            ],
+            [
+              "2",
+              208
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            360
+          ],
+          [
+            "2",
+            208
+          ]
+        ],
+        "ready": 159,
+        "commit_frame": 168,
+        "conflicts": [
+          [
+            [
+              "1",
+              10
+            ],
+            [
+              "2",
+              208
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            363
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 159,
+        "commit_frame": 168,
+        "conflicts": [
+          [
+            [
+              "1",
+              66
+            ],
+            [
+              "2",
+              54
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            408
+          ],
+          [
+            "2",
+            208
+          ]
+        ],
+        "ready": 168,
+        "commit_frame": 202,
+        "conflicts": [
+          [
+            [
+              "1",
+              10
+            ],
+            [
+              "2",
+              208
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            406
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 168,
+        "commit_frame": 202,
+        "conflicts": [
+          [
+            [
+              "1",
+              4
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            408
+          ],
+          [
+            "2",
+            350
+          ]
+        ],
+        "ready": 202,
+        "commit_frame": 206
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            189
+          ],
+          [
+            "2",
+            371
+          ]
+        ],
+        "ready": 206,
+        "commit_frame": 214
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            605
+          ],
+          [
+            "2",
+            60
+          ]
+        ],
+        "ready": 209,
+        "commit_frame": 214
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            356
+          ],
+          [
+            "2",
+            411
+          ]
+        ],
+        "ready": 214,
+        "commit_frame": 218
+      },
+      {
+        "op": "delay_finalize",
+        "edge": [
+          [
+            "1",
+            649
+          ],
+          [
+            "2",
+            61
+          ]
+        ],
+        "ready": 216,
+        "commit_frame": 223
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            655
+          ],
+          [
+            "2",
+            4
+          ]
+        ],
+        "ready": 218,
+        "commit_frame": 223,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ]
+      },
+      {
+        "op": "delay_reject_conflict",
+        "edge": [
+          [
+            "1",
+            661
+          ],
+          [
+            "2",
+            4
+          ]
+        ],
+        "ready": 219,
+        "commit_frame": 223,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ]
+      }
+    ],
+    "repair_log": [
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            43
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3005810273172133
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            9
+          ],
+          [
+            "2",
+            4
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.30696352822882367
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            32
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.31552333910004127
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            26
+          ],
+          [
+            "2",
+            64
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.31780360768874477
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            7
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3375044697479739
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            19
+          ],
+          [
+            "2",
+            55
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.33878387510066793
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            7
+          ],
+          [
+            "2",
+            11
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3397928591877918
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            30
+          ],
+          [
+            "2",
+            44
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.34004360407383366
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            28
+          ],
+          [
+            "2",
+            79
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3479440951175178
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            21
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3486567120698527
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            15
+          ],
+          [
+            "2",
+            26
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.34906953247841693
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            4
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.35400043126516817
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            35
+          ],
+          [
+            "2",
+            42
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3614110715704232
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            13
+          ],
+          [
+            "2",
+            25
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3635758118272356
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            31
+          ],
+          [
+            "2",
+            51
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3636270324979263
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            36
+          ],
+          [
+            "2",
+            72
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.36797072233656825
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            33
+          ],
+          [
+            "2",
+            69
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.3683227003222624
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            22
+          ],
+          [
+            "2",
+            47
+          ]
+        ],
+        "ready": 5,
+        "frame": 5,
+        "cost": 0.36912668322850567
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            9
+          ],
+          [
+            "2",
+            103
+          ]
+        ],
+        "ready": 8,
+        "frame": 8,
+        "cost": 0.3389145781116958,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ],
+        "open_conflicts": 1
+      },
+      {
+        "op": "revoke",
+        "edge": [
+          [
+            "1",
+            4
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 5,
+        "frame": 8,
+        "reason": "lower_cost_conflict",
+        "replacement": [
+          [
+            "1",
+            39
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "old_cost": 0.35400043126516817,
+        "new_cost": 0.3414416906316649
+      },
+      {
+        "op": "revision_publish",
+        "edge": [
+          [
+            "1",
+            39
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 8,
+        "frame": 8,
+        "cost": 0.3414416906316649
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            101
+          ]
+        ],
+        "ready": 8,
+        "frame": 8,
+        "cost": 0.3501115370237535,
+        "conflicts": [
+          [
+            [
+              "1",
+              5
+            ],
+            [
+              "2",
+              7
+            ]
+          ]
+        ],
+        "open_conflicts": 1
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            9
+          ],
+          [
+            "2",
+            108
+          ]
+        ],
+        "ready": 9,
+        "frame": 9,
+        "cost": 0.3419747246286167,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ],
+        "open_conflicts": 1
+      },
+      {
+        "op": "revoke",
+        "edge": [
+          [
+            "1",
+            39
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 8,
+        "frame": 11,
+        "reason": "lower_cost_conflict",
+        "replacement": [
+          [
+            "1",
+            47
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "old_cost": 0.3414416906316649,
+        "new_cost": 0.33001448924933824
+      },
+      {
+        "op": "revision_publish",
+        "edge": [
+          [
+            "1",
+            47
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 11,
+        "frame": 11,
+        "cost": 0.33001448924933824
+      },
+      {
+        "op": "revoke",
+        "edge": [
+          [
+            "1",
+            47
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 11,
+        "frame": 14,
+        "reason": "lower_cost_conflict",
+        "replacement": [
+          [
+            "1",
+            56
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "old_cost": 0.33001448924933824,
+        "new_cost": 0.31702809845873664
+      },
+      {
+        "op": "revision_publish",
+        "edge": [
+          [
+            "1",
+            56
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 14,
+        "frame": 14,
+        "cost": 0.31702809845873664
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            66
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 17,
+        "frame": 17,
+        "cost": 0.36056787569118104
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            77
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 28,
+        "frame": 28,
+        "cost": 0.3607682906449285,
+        "conflicts": [
+          [
+            [
+              "1",
+              56
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            79
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 29,
+        "frame": 29,
+        "cost": 0.29418353432265604,
+        "conflicts": [
+          [
+            [
+              "1",
+              32
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            132
+          ]
+        ],
+        "ready": 32,
+        "frame": 32,
+        "cost": 0.33456568626189565,
+        "conflicts": [
+          [
+            [
+              "1",
+              38
+            ],
+            [
+              "2",
+              43
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            5
+          ],
+          [
+            "2",
+            135
+          ]
+        ],
+        "ready": 33,
+        "frame": 33,
+        "cost": 0.32853727844690434,
+        "conflicts": [
+          [
+            [
+              "1",
+              5
+            ],
+            [
+              "2",
+              7
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            9
+          ],
+          [
+            "2",
+            137
+          ]
+        ],
+        "ready": 37,
+        "frame": 37,
+        "cost": 0.3069092482125045,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            118
+          ],
+          [
+            "2",
+            6
+          ]
+        ],
+        "ready": 46,
+        "frame": 46,
+        "cost": 0.3090218348464332
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            135
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 57,
+        "frame": 57,
+        "cost": 0.34215869489943,
+        "conflicts": [
+          [
+            [
+              "1",
+              56
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            141
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 60,
+        "frame": 60,
+        "cost": 0.3468629033869351,
+        "conflicts": [
+          [
+            [
+              "1",
+              56
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            150
+          ],
+          [
+            "2",
+            142
+          ]
+        ],
+        "ready": 66,
+        "frame": 66,
+        "cost": 0.3627386679966971
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            152
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 67,
+        "frame": 67,
+        "cost": 0.2951068530823829,
+        "conflicts": [
+          [
+            [
+              "1",
+              32
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            160
+          ]
+        ],
+        "ready": 67,
+        "frame": 67,
+        "cost": 0.34414277795238873,
+        "conflicts": [
+          [
+            [
+              "1",
+              38
+            ],
+            [
+              "2",
+              43
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            160
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 75,
+        "frame": 75,
+        "cost": 0.2699187466286903,
+        "conflicts": [
+          [
+            [
+              "1",
+              32
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            167
+          ]
+        ],
+        "ready": 77,
+        "frame": 77,
+        "cost": 0.30065055595421286,
+        "conflicts": [
+          [
+            [
+              "1",
+              38
+            ],
+            [
+              "2",
+              43
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            173
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 83,
+        "frame": 83,
+        "cost": 0.3689919054173601,
+        "conflicts": [
+          [
+            [
+              "1",
+              21
+            ],
+            [
+              "2",
+              56
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            182
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 88,
+        "frame": 88,
+        "cost": 0.35951323586740963,
+        "conflicts": [
+          [
+            [
+              "1",
+              66
+            ],
+            [
+              "2",
+              54
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            98
+          ],
+          [
+            "2",
+            180
+          ]
+        ],
+        "ready": 88,
+        "frame": 88,
+        "cost": 0.3640118141844381
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            189
+          ],
+          [
+            "2",
+            28
+          ]
+        ],
+        "ready": 96,
+        "frame": 96,
+        "cost": 0.29135264146647677,
+        "conflicts": [
+          [
+            [
+              "1",
+              32
+            ],
+            [
+              "2",
+              28
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            38
+          ],
+          [
+            "2",
+            195
+          ]
+        ],
+        "ready": 96,
+        "frame": 96,
+        "cost": 0.321522515571261,
+        "conflicts": [
+          [
+            [
+              "1",
+              38
+            ],
+            [
+              "2",
+              43
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            162
+          ],
+          [
+            "2",
+            199
+          ]
+        ],
+        "ready": 99,
+        "frame": 99,
+        "cost": 0.32803208317446875
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            10
+          ],
+          [
+            "2",
+            208
+          ]
+        ],
+        "ready": 106,
+        "frame": 106,
+        "cost": 0.3678025160490877
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            162
+          ],
+          [
+            "2",
+            223
+          ]
+        ],
+        "ready": 116,
+        "frame": 116,
+        "cost": 0.3248203566949571,
+        "conflicts": [
+          [
+            [
+              "1",
+              162
+            ],
+            [
+              "2",
+              199
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            203
+          ],
+          [
+            "2",
+            56
+          ]
+        ],
+        "ready": 116,
+        "frame": 116,
+        "cost": 0.3699482787726714,
+        "conflicts": [
+          [
+            [
+              "1",
+              21
+            ],
+            [
+              "2",
+              56
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            162
+          ],
+          [
+            "2",
+            225
+          ]
+        ],
+        "ready": 117,
+        "frame": 117,
+        "cost": 0.328356569646436,
+        "conflicts": [
+          [
+            [
+              "1",
+              162
+            ],
+            [
+              "2",
+              199
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            139
+          ],
+          [
+            "2",
+            227
+          ]
+        ],
+        "ready": 118,
+        "frame": 118,
+        "cost": 0.36573598621269277
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            239
+          ],
+          [
+            "2",
+            88
+          ]
+        ],
+        "ready": 125,
+        "frame": 125,
+        "cost": 0.3696844352503598
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            265
+          ],
+          [
+            "2",
+            199
+          ]
+        ],
+        "ready": 134,
+        "frame": 134,
+        "cost": 0.3483662101379019,
+        "conflicts": [
+          [
+            [
+              "1",
+              162
+            ],
+            [
+              "2",
+              199
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            269
+          ],
+          [
+            "2",
+            109
+          ]
+        ],
+        "ready": 135,
+        "frame": 135,
+        "cost": 0.36264848511609415
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            277
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 138,
+        "frame": 138,
+        "cost": 0.33825878250776203,
+        "conflicts": [
+          [
+            [
+              "1",
+              56
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            162
+          ],
+          [
+            "2",
+            252
+          ]
+        ],
+        "ready": 138,
+        "frame": 138,
+        "cost": 0.34385226099085303,
+        "conflicts": [
+          [
+            [
+              "1",
+              162
+            ],
+            [
+              "2",
+              199
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            275
+          ],
+          [
+            "2",
+            109
+          ]
+        ],
+        "ready": 138,
+        "frame": 138,
+        "cost": 0.3640981110167461,
+        "conflicts": [
+          [
+            [
+              "1",
+              269
+            ],
+            [
+              "2",
+              109
+            ]
+          ]
+        ],
+        "open_conflicts": 1
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            279
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 139,
+        "frame": 139,
+        "cost": 0.3520185782406032,
+        "conflicts": [
+          [
+            [
+              "1",
+              56
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            342
+          ],
+          [
+            "2",
+            208
+          ]
+        ],
+        "ready": 156,
+        "frame": 156,
+        "cost": 0.34960259276300987,
+        "conflicts": [
+          [
+            [
+              "1",
+              10
+            ],
+            [
+              "2",
+              208
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            360
+          ],
+          [
+            "2",
+            208
+          ]
+        ],
+        "ready": 159,
+        "frame": 159,
+        "cost": 0.3500938966090013,
+        "conflicts": [
+          [
+            [
+              "1",
+              10
+            ],
+            [
+              "2",
+              208
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            363
+          ],
+          [
+            "2",
+            54
+          ]
+        ],
+        "ready": 159,
+        "frame": 159,
+        "cost": 0.3669506718095212,
+        "conflicts": [
+          [
+            [
+              "1",
+              66
+            ],
+            [
+              "2",
+              54
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            408
+          ],
+          [
+            "2",
+            208
+          ]
+        ],
+        "ready": 168,
+        "frame": 168,
+        "cost": 0.3610151394359524,
+        "conflicts": [
+          [
+            [
+              "1",
+              10
+            ],
+            [
+              "2",
+              208
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            406
+          ],
+          [
+            "2",
+            18
+          ]
+        ],
+        "ready": 168,
+        "frame": 168,
+        "cost": 0.36507302545798487,
+        "conflicts": [
+          [
+            [
+              "1",
+              56
+            ],
+            [
+              "2",
+              18
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            408
+          ],
+          [
+            "2",
+            350
+          ]
+        ],
+        "ready": 202,
+        "frame": 202,
+        "cost": 0.36108620130779834
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            189
+          ],
+          [
+            "2",
+            371
+          ]
+        ],
+        "ready": 206,
+        "frame": 206,
+        "cost": 0.36824568394216145
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            605
+          ],
+          [
+            "2",
+            60
+          ]
+        ],
+        "ready": 209,
+        "frame": 209,
+        "cost": 0.34583892150372614
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            356
+          ],
+          [
+            "2",
+            411
+          ]
+        ],
+        "ready": 214,
+        "frame": 214,
+        "cost": 0.34222101456948506
+      },
+      {
+        "op": "provisional_publish",
+        "edge": [
+          [
+            "1",
+            649
+          ],
+          [
+            "2",
+            61
+          ]
+        ],
+        "ready": 216,
+        "frame": 216,
+        "cost": 0.3157853063671743
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            655
+          ],
+          [
+            "2",
+            4
+          ]
+        ],
+        "ready": 218,
+        "frame": 218,
+        "cost": 0.35609281259712344,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      },
+      {
+        "op": "repair_reject",
+        "edge": [
+          [
+            "1",
+            661
+          ],
+          [
+            "2",
+            4
+          ]
+        ],
+        "ready": 219,
+        "frame": 219,
+        "cost": 0.3320058934968007,
+        "conflicts": [
+          [
+            [
+              "1",
+              9
+            ],
+            [
+              "2",
+              4
+            ]
+          ]
+        ],
+        "open_conflicts": 0
+      }
+    ],
+    "delay_edges": {
+      "c9d884d9b80c58091a751e5c6930752a32eba5bd244808fa0e08c1f401b9adc8": [
+        [
+          "1",
+          38
+        ],
+        [
+          "2",
+          43
+        ]
+      ],
+      "7f43c0576ed604d316d5bb017f3066edd83f764e56fd3a8446e75af20a8f9b2e": [
+        [
+          "1",
+          9
+        ],
+        [
+          "2",
+          4
+        ]
+      ],
+      "29c0dcecd970a33523774b85b5e622f8a9e1d9f762741034ae776a7d038d30f4": [
+        [
+          "1",
+          32
+        ],
+        [
+          "2",
+          28
+        ]
+      ],
+      "565d6b28147a91418d75c94f3e539c5127f5114b2ab577b366be32c3b82e6719": [
+        [
+          "1",
+          26
+        ],
+        [
+          "2",
+          64
+        ]
+      ],
+      "42d64ca3c84c07b55dd5a93f79a1a48c22de6b5fee71d6968eddd5af70f0cac4": [
+        [
+          "1",
+          5
+        ],
+        [
+          "2",
+          7
+        ]
+      ],
+      "6d485b3adb4f9e7d5426d27b4a551fc9f15da823a515a14702fc54f0e58b7344": [
+        [
+          "1",
+          19
+        ],
+        [
+          "2",
+          55
+        ]
+      ],
+      "73f8d2b73115cba2d1d9bfe500cda5487bd508f4b1d0483e792d56189368c074": [
+        [
+          "1",
+          7
+        ],
+        [
+          "2",
+          11
+        ]
+      ],
+      "02aa005fcce1b4e8b7a2803bfff68bcf9485869b0131d9e0341695df23893254": [
+        [
+          "1",
+          30
+        ],
+        [
+          "2",
+          44
+        ]
+      ],
+      "b3b44acc76b29f291203525a720a876ee522b78f94187c414992d7a392099ed3": [
+        [
+          "1",
+          28
+        ],
+        [
+          "2",
+          79
+        ]
+      ],
+      "a41dfa96f0057df993c189acc8226dccae054b24117995962a27be3bb7c2059c": [
+        [
+          "1",
+          21
+        ],
+        [
+          "2",
+          56
+        ]
+      ],
+      "5db349958890e0a38572ece26233295453ff4efb9ce106066feab59cf1985868": [
+        [
+          "1",
+          15
+        ],
+        [
+          "2",
+          26
+        ]
+      ],
+      "52c9808ad8ed42851ffcab8eafae9dc025ab2ad78715b875e088536ede9903aa": [
+        [
+          "1",
+          4
+        ],
+        [
+          "2",
+          18
+        ]
+      ],
+      "df7c2e593bfb347edc39c259545868c1be9ebf1f666e102326677d85a62fbe79": [
+        [
+          "1",
+          35
+        ],
+        [
+          "2",
+          42
+        ]
+      ],
+      "a31b5276240723654cc33b1b02cbdf4b3aa1f4368b317a4d285b87568c4d2f48": [
+        [
+          "1",
+          13
+        ],
+        [
+          "2",
+          25
+        ]
+      ],
+      "de15e9909ab023a96686838449453b355b50e9b35fb58cacdbf04cb0e9ec4d1f": [
+        [
+          "1",
+          31
+        ],
+        [
+          "2",
+          51
+        ]
+      ],
+      "d779b47eb36c7cdcdb457ff20cdd2a71b08a0ac3c0ed7eb4564f950a30ea56ec": [
+        [
+          "1",
+          36
+        ],
+        [
+          "2",
+          72
+        ]
+      ],
+      "20e3c8057577e13f241d1646156a1093282e65f112226f6cf231d0179102b192": [
+        [
+          "1",
+          33
+        ],
+        [
+          "2",
+          69
+        ]
+      ],
+      "9627b8d02e5712823ad7eb85874651602d2acf0ce1678ee3f72b9f4b7c21027c": [
+        [
+          "1",
+          22
+        ],
+        [
+          "2",
+          47
+        ]
+      ],
+      "5d613d439a747f39041eadaa1851a95135935942251761e55a3b3635685359b7": [
+        [
+          "1",
+          66
+        ],
+        [
+          "2",
+          54
+        ]
+      ],
+      "949903cc7ab4a7367b676a5324a282772086ef84f9e9de12267c8e85e07327c3": [
+        [
+          "1",
+          118
+        ],
+        [
+          "2",
+          6
+        ]
+      ],
+      "31f3f1cb2591756bbf3f0bc77ad23a640bae5f88b850bac4d8edd31c034134c8": [
+        [
+          "1",
+          150
+        ],
+        [
+          "2",
+          142
+        ]
+      ],
+      "7cb117f65b548a1500d060320eff751dad5953527dc4487498e27067df492f15": [
+        [
+          "1",
+          98
+        ],
+        [
+          "2",
+          180
+        ]
+      ],
+      "98f086df8c21d3d3f3849a8052c640e83088a46334b1e8f62e0ea7f11a122072": [
+        [
+          "1",
+          162
+        ],
+        [
+          "2",
+          199
+        ]
+      ],
+      "8d81330791130cf5a29b68bb33cb0f15b5227b929914380cbbb4062b6794e3d5": [
+        [
+          "1",
+          10
+        ],
+        [
+          "2",
+          208
+        ]
+      ],
+      "a1ebd61efe2d1701f5791ef1f83c4798081fadf0bd6044cfeb759b8781a2d7a2": [
+        [
+          "1",
+          139
+        ],
+        [
+          "2",
+          227
+        ]
+      ],
+      "5d14ecbf4bc9e09e81de5839f12f8186c2ba048c4e75aa6fea4184aa77afb5e7": [
+        [
+          "1",
+          239
+        ],
+        [
+          "2",
+          88
+        ]
+      ],
+      "50869fce5f81d9b6c24d6dff88aa1145b69e936271510c99ef1dcf9e95a9645a": [
+        [
+          "1",
+          269
+        ],
+        [
+          "2",
+          109
+        ]
+      ],
+      "05db59916fac54cc72fa6ab8be835935ceede29b48f95da5eedf01948a91a0d3": [
+        [
+          "1",
+          408
+        ],
+        [
+          "2",
+          350
+        ]
+      ],
+      "ec0e34118434ff63ff5d188381cd200278227db929741e13ace612e4b8a46fd7": [
+        [
+          "1",
+          189
+        ],
+        [
+          "2",
+          371
+        ]
+      ],
+      "1c49d1539765e9afcf44de38f379b369e18b9ca0abf2ebcd2c2fb0d77a334ed0": [
+        [
+          "1",
+          605
+        ],
+        [
+          "2",
+          60
+        ]
+      ],
+      "4c1469b6809965d431dc9350ee7f2f19c61fb00a419e01d4fbad8d34a5337238": [
+        [
+          "1",
+          356
+        ],
+        [
+          "2",
+          411
+        ]
+      ],
+      "c02a9ad4533db1c809ecc9655ef56e24f248eac185f6b699afd81bb741f95c8e": [
+        [
+          "1",
+          649
+        ],
+        [
+          "2",
+          61
+        ]
+      ]
+    },
+    "repair_edges": {
+      "c9d884d9b80c58091a751e5c6930752a32eba5bd244808fa0e08c1f401b9adc8": [
+        [
+          "1",
+          38
+        ],
+        [
+          "2",
+          43
+        ]
+      ],
+      "7f43c0576ed604d316d5bb017f3066edd83f764e56fd3a8446e75af20a8f9b2e": [
+        [
+          "1",
+          9
+        ],
+        [
+          "2",
+          4
+        ]
+      ],
+      "29c0dcecd970a33523774b85b5e622f8a9e1d9f762741034ae776a7d038d30f4": [
+        [
+          "1",
+          32
+        ],
+        [
+          "2",
+          28
+        ]
+      ],
+      "565d6b28147a91418d75c94f3e539c5127f5114b2ab577b366be32c3b82e6719": [
+        [
+          "1",
+          26
+        ],
+        [
+          "2",
+          64
+        ]
+      ],
+      "42d64ca3c84c07b55dd5a93f79a1a48c22de6b5fee71d6968eddd5af70f0cac4": [
+        [
+          "1",
+          5
+        ],
+        [
+          "2",
+          7
+        ]
+      ],
+      "6d485b3adb4f9e7d5426d27b4a551fc9f15da823a515a14702fc54f0e58b7344": [
+        [
+          "1",
+          19
+        ],
+        [
+          "2",
+          55
+        ]
+      ],
+      "73f8d2b73115cba2d1d9bfe500cda5487bd508f4b1d0483e792d56189368c074": [
+        [
+          "1",
+          7
+        ],
+        [
+          "2",
+          11
+        ]
+      ],
+      "02aa005fcce1b4e8b7a2803bfff68bcf9485869b0131d9e0341695df23893254": [
+        [
+          "1",
+          30
+        ],
+        [
+          "2",
+          44
+        ]
+      ],
+      "b3b44acc76b29f291203525a720a876ee522b78f94187c414992d7a392099ed3": [
+        [
+          "1",
+          28
+        ],
+        [
+          "2",
+          79
+        ]
+      ],
+      "a41dfa96f0057df993c189acc8226dccae054b24117995962a27be3bb7c2059c": [
+        [
+          "1",
+          21
+        ],
+        [
+          "2",
+          56
+        ]
+      ],
+      "5db349958890e0a38572ece26233295453ff4efb9ce106066feab59cf1985868": [
+        [
+          "1",
+          15
+        ],
+        [
+          "2",
+          26
+        ]
+      ],
+      "df7c2e593bfb347edc39c259545868c1be9ebf1f666e102326677d85a62fbe79": [
+        [
+          "1",
+          35
+        ],
+        [
+          "2",
+          42
+        ]
+      ],
+      "a31b5276240723654cc33b1b02cbdf4b3aa1f4368b317a4d285b87568c4d2f48": [
+        [
+          "1",
+          13
+        ],
+        [
+          "2",
+          25
+        ]
+      ],
+      "de15e9909ab023a96686838449453b355b50e9b35fb58cacdbf04cb0e9ec4d1f": [
+        [
+          "1",
+          31
+        ],
+        [
+          "2",
+          51
+        ]
+      ],
+      "d779b47eb36c7cdcdb457ff20cdd2a71b08a0ac3c0ed7eb4564f950a30ea56ec": [
+        [
+          "1",
+          36
+        ],
+        [
+          "2",
+          72
+        ]
+      ],
+      "20e3c8057577e13f241d1646156a1093282e65f112226f6cf231d0179102b192": [
+        [
+          "1",
+          33
+        ],
+        [
+          "2",
+          69
+        ]
+      ],
+      "9627b8d02e5712823ad7eb85874651602d2acf0ce1678ee3f72b9f4b7c21027c": [
+        [
+          "1",
+          22
+        ],
+        [
+          "2",
+          47
+        ]
+      ],
+      "1d524c80ff934709341c2a3ce2a93a0e1abce3830d76e62f9ca01d5d3c3fd981": [
+        [
+          "1",
+          56
+        ],
+        [
+          "2",
+          18
+        ]
+      ],
+      "5d613d439a747f39041eadaa1851a95135935942251761e55a3b3635685359b7": [
+        [
+          "1",
+          66
+        ],
+        [
+          "2",
+          54
+        ]
+      ],
+      "949903cc7ab4a7367b676a5324a282772086ef84f9e9de12267c8e85e07327c3": [
+        [
+          "1",
+          118
+        ],
+        [
+          "2",
+          6
+        ]
+      ],
+      "31f3f1cb2591756bbf3f0bc77ad23a640bae5f88b850bac4d8edd31c034134c8": [
+        [
+          "1",
+          150
+        ],
+        [
+          "2",
+          142
+        ]
+      ],
+      "7cb117f65b548a1500d060320eff751dad5953527dc4487498e27067df492f15": [
+        [
+          "1",
+          98
+        ],
+        [
+          "2",
+          180
+        ]
+      ],
+      "98f086df8c21d3d3f3849a8052c640e83088a46334b1e8f62e0ea7f11a122072": [
+        [
+          "1",
+          162
+        ],
+        [
+          "2",
+          199
+        ]
+      ],
+      "8d81330791130cf5a29b68bb33cb0f15b5227b929914380cbbb4062b6794e3d5": [
+        [
+          "1",
+          10
+        ],
+        [
+          "2",
+          208
+        ]
+      ],
+      "a1ebd61efe2d1701f5791ef1f83c4798081fadf0bd6044cfeb759b8781a2d7a2": [
+        [
+          "1",
+          139
+        ],
+        [
+          "2",
+          227
+        ]
+      ],
+      "5d14ecbf4bc9e09e81de5839f12f8186c2ba048c4e75aa6fea4184aa77afb5e7": [
+        [
+          "1",
+          239
+        ],
+        [
+          "2",
+          88
+        ]
+      ],
+      "50869fce5f81d9b6c24d6dff88aa1145b69e936271510c99ef1dcf9e95a9645a": [
+        [
+          "1",
+          269
+        ],
+        [
+          "2",
+          109
+        ]
+      ],
+      "05db59916fac54cc72fa6ab8be835935ceede29b48f95da5eedf01948a91a0d3": [
+        [
+          "1",
+          408
+        ],
+        [
+          "2",
+          350
+        ]
+      ],
+      "ec0e34118434ff63ff5d188381cd200278227db929741e13ace612e4b8a46fd7": [
+        [
+          "1",
+          189
+        ],
+        [
+          "2",
+          371
+        ]
+      ],
+      "1c49d1539765e9afcf44de38f379b369e18b9ca0abf2ebcd2c2fb0d77a334ed0": [
+        [
+          "1",
+          605
+        ],
+        [
+          "2",
+          60
+        ]
+      ],
+      "4c1469b6809965d431dc9350ee7f2f19c61fb00a419e01d4fbad8d34a5337238": [
+        [
+          "1",
+          356
+        ],
+        [
+          "2",
+          411
+        ]
+      ],
+      "c02a9ad4533db1c809ecc9655ef56e24f248eac185f6b699afd81bb741f95c8e": [
+        [
+          "1",
+          649
+        ],
+        [
+          "2",
+          61
+        ]
+      ]
+    },
+    "b0_edges": {
+      "c9d884d9b80c58091a751e5c6930752a32eba5bd244808fa0e08c1f401b9adc8": [
+        [
+          "1",
+          38
+        ],
+        [
+          "2",
+          43
+        ]
+      ],
+      "7f43c0576ed604d316d5bb017f3066edd83f764e56fd3a8446e75af20a8f9b2e": [
+        [
+          "1",
+          9
+        ],
+        [
+          "2",
+          4
+        ]
+      ],
+      "29c0dcecd970a33523774b85b5e622f8a9e1d9f762741034ae776a7d038d30f4": [
+        [
+          "1",
+          32
+        ],
+        [
+          "2",
+          28
+        ]
+      ],
+      "565d6b28147a91418d75c94f3e539c5127f5114b2ab577b366be32c3b82e6719": [
+        [
+          "1",
+          26
+        ],
+        [
+          "2",
+          64
+        ]
+      ],
+      "42d64ca3c84c07b55dd5a93f79a1a48c22de6b5fee71d6968eddd5af70f0cac4": [
+        [
+          "1",
+          5
+        ],
+        [
+          "2",
+          7
+        ]
+      ],
+      "6d485b3adb4f9e7d5426d27b4a551fc9f15da823a515a14702fc54f0e58b7344": [
+        [
+          "1",
+          19
+        ],
+        [
+          "2",
+          55
+        ]
+      ],
+      "73f8d2b73115cba2d1d9bfe500cda5487bd508f4b1d0483e792d56189368c074": [
+        [
+          "1",
+          7
+        ],
+        [
+          "2",
+          11
+        ]
+      ],
+      "02aa005fcce1b4e8b7a2803bfff68bcf9485869b0131d9e0341695df23893254": [
+        [
+          "1",
+          30
+        ],
+        [
+          "2",
+          44
+        ]
+      ],
+      "b3b44acc76b29f291203525a720a876ee522b78f94187c414992d7a392099ed3": [
+        [
+          "1",
+          28
+        ],
+        [
+          "2",
+          79
+        ]
+      ],
+      "a41dfa96f0057df993c189acc8226dccae054b24117995962a27be3bb7c2059c": [
+        [
+          "1",
+          21
+        ],
+        [
+          "2",
+          56
+        ]
+      ],
+      "5db349958890e0a38572ece26233295453ff4efb9ce106066feab59cf1985868": [
+        [
+          "1",
+          15
+        ],
+        [
+          "2",
+          26
+        ]
+      ],
+      "52c9808ad8ed42851ffcab8eafae9dc025ab2ad78715b875e088536ede9903aa": [
+        [
+          "1",
+          4
+        ],
+        [
+          "2",
+          18
+        ]
+      ],
+      "df7c2e593bfb347edc39c259545868c1be9ebf1f666e102326677d85a62fbe79": [
+        [
+          "1",
+          35
+        ],
+        [
+          "2",
+          42
+        ]
+      ],
+      "a31b5276240723654cc33b1b02cbdf4b3aa1f4368b317a4d285b87568c4d2f48": [
+        [
+          "1",
+          13
+        ],
+        [
+          "2",
+          25
+        ]
+      ],
+      "de15e9909ab023a96686838449453b355b50e9b35fb58cacdbf04cb0e9ec4d1f": [
+        [
+          "1",
+          31
+        ],
+        [
+          "2",
+          51
+        ]
+      ],
+      "d779b47eb36c7cdcdb457ff20cdd2a71b08a0ac3c0ed7eb4564f950a30ea56ec": [
+        [
+          "1",
+          36
+        ],
+        [
+          "2",
+          72
+        ]
+      ],
+      "20e3c8057577e13f241d1646156a1093282e65f112226f6cf231d0179102b192": [
+        [
+          "1",
+          33
+        ],
+        [
+          "2",
+          69
+        ]
+      ],
+      "9627b8d02e5712823ad7eb85874651602d2acf0ce1678ee3f72b9f4b7c21027c": [
+        [
+          "1",
+          22
+        ],
+        [
+          "2",
+          47
+        ]
+      ],
+      "5d613d439a747f39041eadaa1851a95135935942251761e55a3b3635685359b7": [
+        [
+          "1",
+          66
+        ],
+        [
+          "2",
+          54
+        ]
+      ],
+      "949903cc7ab4a7367b676a5324a282772086ef84f9e9de12267c8e85e07327c3": [
+        [
+          "1",
+          118
+        ],
+        [
+          "2",
+          6
+        ]
+      ],
+      "31f3f1cb2591756bbf3f0bc77ad23a640bae5f88b850bac4d8edd31c034134c8": [
+        [
+          "1",
+          150
+        ],
+        [
+          "2",
+          142
+        ]
+      ],
+      "7cb117f65b548a1500d060320eff751dad5953527dc4487498e27067df492f15": [
+        [
+          "1",
+          98
+        ],
+        [
+          "2",
+          180
+        ]
+      ],
+      "98f086df8c21d3d3f3849a8052c640e83088a46334b1e8f62e0ea7f11a122072": [
+        [
+          "1",
+          162
+        ],
+        [
+          "2",
+          199
+        ]
+      ],
+      "8d81330791130cf5a29b68bb33cb0f15b5227b929914380cbbb4062b6794e3d5": [
+        [
+          "1",
+          10
+        ],
+        [
+          "2",
+          208
+        ]
+      ],
+      "a1ebd61efe2d1701f5791ef1f83c4798081fadf0bd6044cfeb759b8781a2d7a2": [
+        [
+          "1",
+          139
+        ],
+        [
+          "2",
+          227
+        ]
+      ],
+      "5d14ecbf4bc9e09e81de5839f12f8186c2ba048c4e75aa6fea4184aa77afb5e7": [
+        [
+          "1",
+          239
+        ],
+        [
+          "2",
+          88
+        ]
+      ],
+      "50869fce5f81d9b6c24d6dff88aa1145b69e936271510c99ef1dcf9e95a9645a": [
+        [
+          "1",
+          269
+        ],
+        [
+          "2",
+          109
+        ]
+      ],
+      "dc2b1f45fac093c901f64deeb34ba2362229a14eeadcc112ce8137d08757901e": [
+        [
+          "1",
+          277
+        ],
+        [
+          "2",
+          18
+        ]
+      ],
+      "acb521fd0f9ef9206c9bd77cb803b572d82c2f1e8c3ffa398a9499c028afcc60": [
+        [
+          "1",
+          342
+        ],
+        [
+          "2",
+          208
+        ]
+      ],
+      "05db59916fac54cc72fa6ab8be835935ceede29b48f95da5eedf01948a91a0d3": [
+        [
+          "1",
+          408
+        ],
+        [
+          "2",
+          350
+        ]
+      ],
+      "ec0e34118434ff63ff5d188381cd200278227db929741e13ace612e4b8a46fd7": [
+        [
+          "1",
+          189
+        ],
+        [
+          "2",
+          371
+        ]
+      ],
+      "1c49d1539765e9afcf44de38f379b369e18b9ca0abf2ebcd2c2fb0d77a334ed0": [
+        [
+          "1",
+          605
+        ],
+        [
+          "2",
+          60
+        ]
+      ],
+      "4c1469b6809965d431dc9350ee7f2f19c61fb00a419e01d4fbad8d34a5337238": [
+        [
+          "1",
+          356
+        ],
+        [
+          "2",
+          411
+        ]
+      ],
+      "c02a9ad4533db1c809ecc9655ef56e24f248eac185f6b699afd81bb741f95c8e": [
+        [
+          "1",
+          649
+        ],
+        [
+          "2",
+          61
+        ]
+      ],
+      "c64f3cb0159edafeaf7d90b623e766d1b9e5387247ef16dd7ff6f38d9dbf30d3": [
+        [
+          "1",
+          655
+        ],
+        [
+          "2",
+          4
+        ]
+      ]
+    }
+  }
+}

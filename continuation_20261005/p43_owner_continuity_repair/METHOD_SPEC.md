@@ -1,0 +1,3 @@
+# P43 causal owner-continuity repair
+
+P42/P37 framewise ID writes add hundreds of discontinuities inside continuous native P26 owners. P43 repairs the output application only: commit each new native-view2 owner to its first currently unreserved proposed view1 label, then preserve that label throughout its lifetime. Existing owners ignore future proposals. Labels are reserved injectively; a later birth whose native ID is already reserved receives a fresh positive ID in a disjoint integer namespace. Frame0 GT-initialized baseline rows are retained exactly. This is an integration control, not an innovation claim, and may be overly conservative for interrupted tracklets. Descriptors, geometric gate, appearance weight, and homography update remain those of P42/P37.

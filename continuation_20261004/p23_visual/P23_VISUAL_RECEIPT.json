@@ -1,0 +1,109 @@
+{
+  "status": "P23_VISUAL_MATCHED_CONTINUATION_COMPLETE",
+  "scope": "fit15 visual adaptation of the frozen DINOv2 crop encoder + held-out cal5 P4 readout",
+  "arms": [
+    "head_only",
+    "visual_ft"
+  ],
+  "what_is_not_claimed": [
+    "not a novel method",
+    "not an official MDMT metric",
+    "no dev/val/test read",
+    "no MOT/IDFA claim from this readout"
+  ],
+  "fit15_training": {
+    "head_only": {
+      "status": "FIXED_TRAINING_COMPLETE",
+      "arm": "head_only",
+      "steps": 1200,
+      "rows_seen": 56647,
+      "supervised_queries": 32854,
+      "first50_mean_loss": 0.31847409020763734,
+      "last50_mean_loss": 0.23823862404140528,
+      "initial_head_sha256": "4e1f4f39dd6ff654afafdff917f987078703f7e372cf759e9fdecce8c60dd03a",
+      "final_head_sha256": "0ba5c978a100d7cc6e037412a1a0347e01f8daa84958f21a640f2339a8ed8215",
+      "initial_backbone_sha256": null,
+      "final_backbone_sha256": null,
+      "trainable_parameters": 50048,
+      "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p23_visual/runs/head_only/fixed_step_001200.pt",
+      "checkpoint_sha256": "904d19c7913c23c3e851e77bf0139c39ff2e17f2eaced2fd81a31c183593c043",
+      "protocol_sha256": "63c922870eecf57d553653ded26c941f71b5d81a90a97befaf325fa383a5c8b3",
+      "elapsed_seconds": 6.662013640161604,
+      "peak_cuda_allocated_bytes": 70258176,
+      "cal_dev_val_test_read": false,
+      "GPU2_used": false
+    },
+    "visual_ft": {
+      "status": "FIXED_TRAINING_COMPLETE",
+      "arm": "visual_ft",
+      "steps": 1200,
+      "rows_seen": 56647,
+      "supervised_queries": 32854,
+      "first50_mean_loss": 0.32356969139415015,
+      "last50_mean_loss": 0.2156467447223258,
+      "initial_head_sha256": "4e1f4f39dd6ff654afafdff917f987078703f7e372cf759e9fdecce8c60dd03a",
+      "final_head_sha256": "5cc8b4327b70b36de404ea98f646dec45c69ac3e27ceafcdedc811dd45342023",
+      "initial_backbone_sha256": "190859844203f530e178165b42ed96c811144b0c1945d8b8e8306e68e468ab48",
+      "final_backbone_sha256": "6bf7ce643289be2a2b0725eb34dcd7bddab654b847062c21c0e78c154a27c3c8",
+      "trainable_parameters": 22106240,
+      "checkpoint": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p23_visual/runs/visual_ft/fixed_step_001200.pt",
+      "checkpoint_sha256": "5b48db9db2d30e836455e271736aa5d6634670ea87b658068376cad7a7e75450",
+      "protocol_sha256": "63c922870eecf57d553653ded26c941f71b5d81a90a97befaf325fa383a5c8b3",
+      "elapsed_seconds": 261.8774583642371,
+      "peak_cuda_allocated_bytes": 2575568896,
+      "cal_dev_val_test_read": false,
+      "GPU2_used": false
+    }
+  },
+  "cal5_readout": {
+    "pair_macro_r1": {
+      "frozen_adapter": 0.4759154376000505,
+      "head_only": 0.4790261369209695,
+      "visual_ft": 0.5020281123081564
+    },
+    "visual_ft_vs_head_only_lift": 0.023001975387186846,
+    "visual_ft_vs_head_only_pair_wins_of_5": 5,
+    "progression_rule": "visual_ft >= head_only+0.01 and >=3/5 wins -> keep; else HOLD+look-back",
+    "progression_verdict": "KEEP_STRONGER_VISUAL_BASELINE"
+  },
+  "dino_reproduction_probe": {
+    "27": {
+      "min_cos": 0.9999853372573853,
+      "mean_cos": 0.9999992847442627,
+      "n": 3363
+    },
+    "32": {
+      "min_cos": 0.9999927878379822,
+      "mean_cos": 0.9999993443489075,
+      "n": 3608
+    },
+    "42": {
+      "min_cos": 0.999984085559845,
+      "mean_cos": 0.9999993443489075,
+      "n": 2149
+    },
+    "64": {
+      "min_cos": 0.9999427199363708,
+      "mean_cos": 0.9999985098838806,
+      "n": 1504
+    },
+    "65": {
+      "min_cos": 0.9999129772186279,
+      "mean_cos": 0.9999988079071045,
+      "n": 4551
+    }
+  },
+  "frozen_adapter_reference": "sealed P14 evaluation_v2 row cache (reproduces 0.475915 exactly)",
+  "cal_dev_val_test_read": false,
+  "GPU2_used": false,
+  "cal5_readout_sha256": "3a4984d46233af2a268bf4304511756f092bafe9995fae0c05e42fb050080f84",
+  "file_sha256": {
+    "train_visual.py": "ba7446bb511f5ed834f3f2db077cc25cf1ad89cb863b6c50ff63b7490a90342c",
+    "data_prepare.py": "74730d7519b3169e05c253045338a01a0653ed098999271bc2fd9c920cf1d739",
+    "eval_cal5_readout.py": "7b9aa03104050a49091dae1da5f5e511b6ddd7c25d5880791676baa7104a6c42",
+    "FROZEN.json": "63c922870eecf57d553653ded26c941f71b5d81a90a97befaf325fa383a5c8b3",
+    "SMOKE.json": "56ff924aba2df37f7b444d574609a7b4f4ca38c8ceedecf308daf182e4fc72eb",
+    "runs/head_only/RECEIPT.json": "e05921a1eff886c2f6b42fc56734731af640b5bacf34a99bdd28be275c139e50",
+    "runs/visual_ft/RECEIPT.json": "ef6db44da7bd050de6e9aa72a536106e3de64fb09c398d1deb4fe0cc6803db01"
+  }
+}

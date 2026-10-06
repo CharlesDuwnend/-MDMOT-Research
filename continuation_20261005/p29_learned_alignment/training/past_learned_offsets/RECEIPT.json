@@ -1,0 +1,37 @@
+{
+  "final_state_sha256": "c437d442cde9b1040a0650cf46ef9b52923629184d3c560e97db39ab86c619de",
+  "fresh_reset_after_smoke": true,
+  "frozen_model_state_sha256": "39e5ec506b13592708fc2fd129a68383c7b87411da2daacf1dc353f32bcaa737",
+  "group_parameter_delta_l2": {
+    "attention_weights": 0.8695634662236366,
+    "output_projection": 1.0234226470440984,
+    "query_conditioner": 2.5867624431359895,
+    "sampling_offsets": 0.9327629900600634,
+    "value_projection": 1.3098097384725822
+  },
+  "initial_state_sha256": "a7bbab3837bde7c074f08a38cdf0f53cbbdf6790a340f5dc282d28cd8cbc4d1c",
+  "losses_sha256": "f6e2cafffb96a99a0af663caad7f64684c455ea8b698a9f22077c32d308bee46",
+  "mean_first30": 0.6691341872016588,
+  "mean_last30": 0.8630885432163874,
+  "mode": "past_learned_offsets",
+  "native_detection_config": {
+    "max_per_img": 300,
+    "nms_iou": 0.6,
+    "nms_pre": 2000,
+    "score_thr": 0.05
+  },
+  "parameter_counts": {
+    "active": 641220,
+    "attention_weights": 27756,
+    "output_projection": 65792,
+    "query_conditioner": 426368,
+    "sampling_offsets": 55512,
+    "total": 641220,
+    "value_projection": 65792
+  },
+  "path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/training/past_learned_offsets/final.pth",
+  "seconds": 207.0344573929906,
+  "sha256": "e768dc8d159b2d13d51fdee7ad0a23dd59bdd370eee7b589b7e21585ecc914a0",
+  "status": "COMPLETE_FIXED_FINAL",
+  "steps": 1200
+}

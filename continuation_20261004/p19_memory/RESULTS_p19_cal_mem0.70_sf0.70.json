@@ -1,0 +1,73 @@
+{
+  "anchor_reproduction": {
+    "crosslink_fp": 9481,
+    "crosslink_tp": 16865,
+    "idfn": 62625,
+    "idfp": 52871,
+    "idtp": 113632,
+    "matches_p1e": null,
+    "micro_CA_IDF1": 0.6630411950052515,
+    "pair_macro_CA_IDF1": 0.6703837308448328
+  },
+  "arm": "anchor_p1",
+  "attribution_limit": "Observed response of the existing joint implementation: the memory threshold and the same-frame score shift both change. Same-frame admissibility stays at cosine >= 0.70, but a varying shift can change Hungarian assignment cardinality. This is not an isolated causal estimate of memory-threshold effects.",
+  "dev5_read_this_evaluation": false,
+  "elapsed_seconds": 26.946,
+  "encoder_checkpoint": {
+    "path": "/home/chenhc/mdmot_research_20261002/p1/runs/independent_s42_4000/fixed_step_004000.pt",
+    "sha256": "100f7879f8a8c3230e22001ef14bd220d76500f72387b48e11766c055762c8ae"
+  },
+  "evaluation_passes": 1,
+  "historical_prediction_IDs_rewritten_for_scoring": false,
+  "identity_input": "immutable per-row emitted global_id; no final alias or parents table read",
+  "inherited_scope_text_correction": "previously used official-train internal dev5 research evaluation; no weight/threshold/checkpoint selection",
+  "metric": "CA_IDF1_conventional_pseudo",
+  "official_mdmt_metric": false,
+  "pairs": [
+    "27",
+    "32",
+    "42",
+    "64",
+    "65"
+  ],
+  "prediction_freeze_sha256": "86da0b377c1e5e2231d9ec7f3b83239f8bd67f3ccccf4a417dec97309bcd9932",
+  "raw_official_val_or_test_access": false,
+  "rules_sha256": "147f903178bb20131cd8014d95403c7487822917f8f6d06678cf975d8b6e6f2c",
+  "same_frame_score_shift": 0.0,
+  "same_frame_threshold": 0.7,
+  "same_frame_threshold_provenance": "historical launch command and run_p19_mem.sh; not bound by original freeze schema",
+  "scope": "previously used official-train internal cal5; evaluation of an existing five-threshold calibration grid",
+  "status": "PASS_FIXED_ONE_PASS_CAL5_COMPLETE_OUTPUT_EVALUATION",
+  "summary": {
+    "current_future_merge": {
+      "crosslinks_micro": {
+        "f1": 0.4249502355935193,
+        "fn": 36163,
+        "fp": 9481,
+        "gt_links": 53028,
+        "precision": 0.6401351248766416,
+        "pred_links": 26346,
+        "recall": 0.3180395262879988,
+        "tp": 16865
+      },
+      "idfn": 62625,
+      "idfp": 52871,
+      "idtp": 113632,
+      "micro_CA_IDF1": 0.6630411950052515,
+      "pair_count": 5,
+      "pair_macro_CA_IDF1": 0.6703837308448328,
+      "shared_gid_count_sum_over_pairs": 235,
+      "shared_gid_sameframe_slot_count_sum": 26607,
+      "spatial_micro": {
+        "f1": 0.9218403547671841,
+        "fn": 18272,
+        "fp": 8518,
+        "precision": 0.9488417626108839,
+        "recall": 0.8963331952773507,
+        "tp": 157985
+      }
+    }
+  },
+  "tag": "p19_cal_mem0.70_sf0.70",
+  "threshold": 0.7
+}

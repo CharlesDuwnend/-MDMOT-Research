@@ -1,0 +1,153 @@
+{
+  "status": "PASS_CVTDCF_SIGNAL_FAILURE_AUDIT_3X3",
+  "candidate": "Cross-View Temporal Differential Co-Movement Field",
+  "decision": "STOP_CVTDCF_BEFORE_TRAINING_WEAK_DIFFERENTIAL_SIGNAL",
+  "rounds": [
+    {
+      "round": "R1_FROZEN_DATA_AND_LEGAL_INPUT",
+      "checks": [
+        {
+          "check": "exact_primary_pair_set",
+          "status": "PASS",
+          "evidence": {
+            "pairs": [
+              "23",
+              "25",
+              "27",
+              "28",
+              "29",
+              "30",
+              "32",
+              "39"
+            ]
+          }
+        },
+        {
+          "check": "feature_rows_are_aligned_by_frozen_stage15_audit",
+          "status": "PASS",
+          "evidence": {
+            "rows_by_pair": {
+              "23": 1953,
+              "25": 8911,
+              "27": 6624,
+              "28": 14170,
+              "29": 18623,
+              "30": 22729,
+              "32": 7067,
+              "39": 330
+            }
+          }
+        },
+        {
+          "check": "no_official_access_or_parameter_updates",
+          "status": "PASS",
+          "evidence": {
+            "protocol": "train-only frozen detector/query features; labels used only for diagnostic partition; no parameter updates; no val/test"
+          }
+        }
+      ]
+    },
+    {
+      "round": "R2_INDEPENDENT_SIGNAL_REPLAY",
+      "checks": [
+        {
+          "check": "all_pair_signal_deltas_finite",
+          "status": "PASS",
+          "evidence": {
+            "static_cos": {
+              "mean": 0.07743268602308051,
+              "positive": 8,
+              "finite": true
+            },
+            "delta_cos": {
+              "mean": -0.0015705405783812412,
+              "positive": 3,
+              "finite": true
+            },
+            "delta_discrepancy": {
+              "mean": 0.0010800518106301171,
+              "positive": 5,
+              "finite": true
+            }
+          }
+        },
+        {
+          "check": "static_control_is_positive_on_all_pairs",
+          "status": "PASS",
+          "evidence": {
+            "mean": 0.07743268602308051,
+            "positive": 8,
+            "finite": true
+          }
+        },
+        {
+          "check": "differential_signal_replay_matches_file",
+          "status": "PASS",
+          "evidence": {
+            "static_cos": {
+              "mean": 0.07743268602308051,
+              "positive": 8,
+              "finite": true
+            },
+            "delta_cos": {
+              "mean": -0.0015705405783812412,
+              "positive": 3,
+              "finite": true
+            },
+            "delta_discrepancy": {
+              "mean": 0.0010800518106301171,
+              "positive": 5,
+              "finite": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "round": "R3_PRETRAIN_DECISION",
+      "checks": [
+        {
+          "check": "cpu_mechanism_contract_passed",
+          "status": "PASS",
+          "evidence": {
+            "cpu_status": "PASS_CVTDCF_CPU_MECHANISM_CONTRACT"
+          }
+        },
+        {
+          "check": "differential_gate_fails",
+          "status": "PASS",
+          "evidence": {
+            "delta_cos": {
+              "pairs": 8,
+              "mean_delta": -0.0015705405783812414,
+              "pair_positive": 3,
+              "pair_nonnegative": 3
+            }
+          }
+        },
+        {
+          "check": "static_does_not_authorize_differential_claim",
+          "status": "PASS",
+          "evidence": {
+            "static": {
+              "pairs": 8,
+              "mean_delta": 0.07743268602308051,
+              "pair_positive": 8,
+              "pair_nonnegative": 8
+            },
+            "differential": {
+              "pairs": 8,
+              "mean_delta": -0.0015705405783812414,
+              "pair_positive": 3,
+              "pair_nonnegative": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "signal_sha256": "a9337a788cb38c0360fe417517ab50446c5899910da83a6e597e71df16d190ff",
+  "cpu_contract_sha256": "ceaa3593cb66aa2baf6a83a47566ea5d0087ed039aaa0a748f599845c4454d97",
+  "official_val_test_access": false,
+  "next": "do not build/train this candidate; retain static-similarity result as diagnostic and screen a different representation objective"
+}

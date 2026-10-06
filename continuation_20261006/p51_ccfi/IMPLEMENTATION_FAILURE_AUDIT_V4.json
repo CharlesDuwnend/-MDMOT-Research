@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CCFI_IMPLEMENTATION_FAILURE_AUDIT_V4_3X3",
+  "failure": "Evaluation checked unit norm on missing/unsupported rows that are contractually required to remain zero; pair65 was rejected after 19 valid pair caches had already been frozen.",
+  "classification": "EVALUATION_MASK_SCOPE_FAILURE",
+  "rounds": {
+    "R1_data_mask": {
+      "checks": {
+        "missing_rows_are_explicitly_masked": true,
+        "common_support_is_available_in_frozen_crop_cache": true,
+        "pair65_is_the_first_rejected_pair": true
+      }
+    },
+    "R2_output_contract": {
+      "checks": {
+        "all_outputs_finite": true,
+        "common_support_rows_unit_norm": true,
+        "unsupported_rows_zero_or_masked": true
+      }
+    },
+    "R3_scope_replay": {
+      "checks": {
+        "label_freeze_completed_before_metric_read": true,
+        "no_dev_or_official_split_read": true,
+        "checkpoint_and_training_receipt_unchanged": true
+      }
+    }
+  },
+  "repair": "Apply the unit-norm invariant only on common_support rows and require unsupported rows to remain finite zero outputs; resume the frozen-output audit.",
+  "host_transfer_authorized": false
+}

@@ -1,0 +1,196 @@
+#!/usr/bin/env python3
+"""AutoAssign-initialized SCI-ID diagnostic on the frozen N4 holdouts.
+
+This is a diagnostic comparison against the already completed random-init N4
+run.  It keeps the original optimizer, pair holdouts, image contract, and
+metrics, but runs only the three relevant arms (B1/B4/P1) with the strictly
+compatible AutoAssign Caffe-BGR backbone initialization.
+"""
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import hashlib
+import json
+import os
+import random
+import sys
+from pathlib import Path
+
+import numpy as np
+import torch
+
+ROOT = Path(__file__).resolve().parent
+SCRIPT_DIR = ROOT / "scripts"
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+import run_n4_holdout as base  # noqa: E402
+from sci_id.losses.composition_intervention import CompositionInterventionLoss  # noqa: E402
+
+
+ARMS = ("B1", "B4", "CVSGM")
+CONFIGURED = base.CONFIGURED_TRAIN_PAIRS
+ORIGINAL_ARM_INDEX = {"B1": 0, "B4": 3, "CVSGM": 0}
+SEED_ARM = {"B1": "B1", "B4": "B4", "CVSGM": "CVSGM", "CVSGM_B4": "B4"}
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(8 * 1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def atomic_save(payload, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    torch.save(payload, temporary)
+    os.replace(str(temporary), str(path))
+
+
+def verify_gpu(device: torch.device):
+    if device.type != "cuda":
+        return None
+    binding = os.environ.get("CUDA_VISIBLE_DEVICES", "")
+    if not binding.startswith("GPU-"):
+        raise RuntimeError("CUDA_VISIBLE_DEVICES must be a physical GPU UUID")
+    properties = torch.cuda.get_device_properties(device)
+    if "A100" not in properties.name or properties.total_memory < 40000000000:
+        raise RuntimeError("refusing non-40GB-A100 GPU")
+    return {
+        "cuda_visible_devices": binding,
+        "logical_index": device.index,
+        "name": properties.name,
+        "total_memory_bytes": properties.total_memory,
+    }
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--train-pairs", nargs="+", required=True)
+    parser.add_argument("--eval-pairs", nargs="+", required=True)
+    parser.add_argument("--steps-per-arm", type=int, default=600)
+    parser.add_argument("--batch-size", type=int, default=4)
+    parser.add_argument("--image-height", type=int, default=256)
+    parser.add_argument("--image-width", type=int, default=448)
+    parser.add_argument("--channels", type=int, default=32)
+    parser.add_argument("--prototypes", type=int, default=2)
+    parser.add_argument("--roi-size", type=int, default=7)
+    parser.add_argument("--device", default="cuda:0")
+    parser.add_argument("--run-dir", type=Path, required=True)
+    parser.add_argument("--backbone-init", type=Path, required=True)
+    parser.add_argument("--checkpoint-every", type=int, default=100)
+    parser.add_argument("--max-eval-events", type=int, default=None)
+    parser.add_argument("--seed-offset", type=int, default=0)
+    parser.add_argument("--mean", nargs=3, type=float, default=[102.9801, 115.9465, 122.7717])
+    parser.add_argument("--std", nargs=3, type=float, default=[1.0, 1.0, 1.0])
+    parser.add_argument("--value-scale", type=float, default=1.0)
+    parser.add_argument("--channel-order", choices=("rgb", "bgr"), default="bgr")
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
+    train_pairs, eval_pairs = set(args.train_pairs), set(args.eval_pairs)
+    if not train_pairs or not eval_pairs or train_pairs & eval_pairs:
+        raise ValueError("train/eval pairs must be non-empty and disjoint")
+    if (train_pairs | eval_pairs) - CONFIGURED:
+        raise ValueError("pairs outside frozen configured train set")
+    args.backbone_init = args.backbone_init.expanduser().resolve()
+    if not args.backbone_init.is_file():
+        raise FileNotFoundError(args.backbone_init)
+    if args.steps_per_arm < 1 or args.batch_size < 1:
+        raise ValueError("steps-per-arm and batch-size must be positive")
+
+    # The imported helper functions read this module-global list.
+    base.ARMS = ARMS
+    run_dir = args.run_dir.expanduser().resolve()
+    if run_dir.exists() and any(run_dir.iterdir()):
+        raise FileExistsError("diagnostic run directory is non-empty: %s" % run_dir)
+    run_dir.mkdir(parents=True, exist_ok=True)
+    device = torch.device(args.device)
+    if device.type == "cuda":
+        if not torch.cuda.is_available():
+            raise RuntimeError("CUDA requested but unavailable")
+        torch.cuda.set_device(device)
+    gpu = verify_gpu(device)
+
+    image_size = (args.image_height, args.image_width)
+    train_dataset = base.PackedFrameEpisodeDataset(base.DATA_ROOT, pairs=sorted(train_pairs))
+    eval_dataset = base.PackedFrameEpisodeDataset(base.DATA_ROOT, pairs=sorted(eval_pairs))
+    meta = {
+        "status": "RUNNING",
+        "classification": "initialization_diagnostic_not_confirmatory",
+        "created_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "train_pairs": sorted(train_pairs), "eval_pairs": sorted(eval_pairs),
+        "steps_per_arm": args.steps_per_arm, "batch_size": args.batch_size,
+        "image_size": list(image_size), "channels": args.channels,
+        "prototypes": args.prototypes, "roi_size": args.roi_size,
+        "device": str(device), "arms": list(ARMS),
+        "backbone_init": str(args.backbone_init),
+        "backbone_init_sha256": sha256_file(args.backbone_init),
+        "mean": list(args.mean), "std": list(args.std),
+        "value_scale": args.value_scale, "channel_order": args.channel_order,
+        "official_val_access": False, "test_access": False,
+        "seed_offset": args.seed_offset,
+        "random_init_comparator": str(ROOT / "logs/n4_retrain_formal_20260906_v1"),
+        "random_init_comparator_is_completed": True,
+        "pair_is_independent_unit": True,
+        "gpu": gpu,
+    }
+    (run_dir / "run_meta.json").write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+    criterion = CompositionInterventionLoss()
+    event_log = run_dir / "events.jsonl"
+
+    with event_log.open("w", encoding="utf-8") as log_handle:
+        for arm in ARMS:
+            base._set_seed(9000 + args.seed_offset + sum(ord(char) for char in SEED_ARM.get(arm, arm)))
+            order = list(range(len(train_dataset)))
+            random.Random(12000 + ORIGINAL_ARM_INDEX[arm]).shuffle(order)
+            model = base.build_arm_model(
+                arm, channels=args.channels, prototypes=args.prototypes,
+                output_size=args.roi_size, backbone_init=args.backbone_init,
+            ).to(device).train()
+            optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-4)
+            cursor = 0
+            for step in range(args.steps_per_arm):
+                batch = base._to_device(base._batch(
+                    train_dataset, order, cursor, args.batch_size, image_size,
+                    args.mean, args.std, args.value_scale, args.channel_order,
+                ), device)
+                cursor = (cursor + args.batch_size) % len(train_dataset)
+                _output, loss, terms, gradient_l1 = base._train_step(model, optimizer, criterion, batch)
+                log_handle.write(json.dumps({
+                    "event": "train", "arm": arm, "step": step + 1,
+                    "loss": loss, "terms": terms, "gradient_l1": gradient_l1,
+                    "valid_events": int(batch["supervision_valid"].sum()),
+                    "unique_frames": int(batch["frame_images"].shape[0]),
+                    "tensor_k": int(batch["mask"].shape[1]),
+                }, ensure_ascii=False) + "\n")
+                if (step + 1) % args.checkpoint_every == 0 or step + 1 == args.steps_per_arm:
+                    atomic_save({"arm": arm, "step": step + 1, "model": model.state_dict(), "optimizer": optimizer.state_dict()}, run_dir / "checkpoints" / (arm + "_latest.pt"))
+                log_handle.flush()
+            metrics = base._evaluate(
+                model, eval_dataset, device, image_size, args.batch_size,
+                args.max_eval_events, log_handle, args.mean, args.std,
+                args.value_scale, args.channel_order,
+            )
+            (run_dir / ("metrics_%s.json" % arm)).write_text(json.dumps(metrics, indent=2) + "\n", encoding="utf-8")
+            log_handle.write(json.dumps({"event": "eval_summary", "arm": arm, **metrics}, ensure_ascii=False) + "\n")
+            log_handle.flush()
+            del model, optimizer
+            if device.type == "cuda":
+                torch.cuda.empty_cache()
+    meta["status"] = "COMPLETE"
+    meta["completed_utc"] = dt.datetime.now(dt.timezone.utc).isoformat()
+    meta["event_log_sha256"] = sha256_file(event_log)
+    meta["metric_files"] = {arm: sha256_file(run_dir / ("metrics_%s.json" % arm)) for arm in ARMS}
+    (run_dir / "run_meta.json").write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({"status": meta["status"], "run_dir": str(run_dir), "arms": list(ARMS), "eval_pairs": sorted(eval_pairs)}))
+
+
+if __name__ == "__main__":
+    main()

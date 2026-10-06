@@ -1,0 +1,72 @@
+{
+  "status": "PASS_REAL_VISUAL_GRADIENT_CONTRACT",
+  "fresh_vs_cached_dino_cosine_min": 0.9999980926513672,
+  "initial_fused_output_max_abs_error": 9.862333536148071e-05,
+  "microbatch_vjp_relative_errors": {
+    "head.adapter.1.weight": 1.4677034414489754e-06,
+    "backbone.patch_embed.proj.weight": 7.327116236410802e-06,
+    "backbone.blocks.11.attn.qkv.weight": 1.3867559118807549e-06
+  },
+  "unknown_label_mask_invariance": true,
+  "backbone_gradient_norm": 20.194211959838867,
+  "actual_backbone_updated_in_discarded_smoke": true,
+  "group": {
+    "class": 0,
+    "frame": 58,
+    "pair": "66",
+    "step": 1,
+    "sides": [
+      [
+        31457,
+        31458,
+        31459,
+        31460,
+        31461,
+        31462,
+        31463,
+        31464,
+        31465,
+        31466,
+        31467,
+        31468,
+        31469,
+        31470,
+        31471,
+        31472,
+        31473
+      ],
+      [
+        33579,
+        33580,
+        33581,
+        33582,
+        33583,
+        33584,
+        33585,
+        33586,
+        33587,
+        33588,
+        33589,
+        33590,
+        33591,
+        33592,
+        33593,
+        33594,
+        33595,
+        33596,
+        33597,
+        33598,
+        33599,
+        33600,
+        33601,
+        33602
+      ]
+    ]
+  },
+  "loss": 0.1307080090045929,
+  "queries": 16,
+  "peak_cuda_allocated_bytes": 2309136896,
+  "gpu_snapshot": "0, GPU-2a55197e-2c19-45ff-cf33-13031951f9d0, NVIDIA A100-SXM4-40GB, 40960 MiB, 24458 MiB\n1, GPU-1b297aba-ae7e-e326-5903-476f1bb683d7, NVIDIA A100-SXM4-40GB, 40960 MiB, 17 MiB\n2, GPU-6f385048-7771-5048-9c46-067bf301ea27, NVIDIA DGX Display, 4096 MiB, 8 MiB\n3, GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a, NVIDIA A100-SXM4-40GB, 40960 MiB, 761 MiB\n",
+  "source_sha256": "ba7446bb511f5ed834f3f2db077cc25cf1ad89cb863b6c50ff63b7490a90342c",
+  "data_receipt_sha256": "7c858cc1ce12ef4820698036aa3cc707f630edccafd1d20c09893856b03bcfb7"
+}

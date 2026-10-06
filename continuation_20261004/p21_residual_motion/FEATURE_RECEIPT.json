@@ -1,0 +1,133 @@
+{
+  "PID_read": false,
+  "cal_dev_val_test_read": false,
+  "completed_utc": "2026-10-04T11:46:37.304393+00:00",
+  "config": {
+    "bbox_mask_expansion_fraction": 0.1,
+    "foreground_position": "bbox bottom center",
+    "frames_per_pair": 8,
+    "lag": 8,
+    "max_cycle_error_pixels": 3.0,
+    "max_image_side": 960,
+    "min_hull_fraction": 0.02,
+    "min_inlier_fraction": 0.25,
+    "min_inliers": 12,
+    "no_GPU": true,
+    "no_dev_calibration_val_test": true,
+    "no_tuning": true,
+    "pairs": [
+      "23",
+      "25",
+      "29",
+      "69",
+      "78"
+    ],
+    "ransac_pixels": 3.0,
+    "ratio": 0.75,
+    "seed": 20261004,
+    "sift_features": 2000
+  },
+  "counts": {
+    "feature_edges": 7261,
+    "frames": 40,
+    "image_reads": 160,
+    "stage_support_frames": {
+      "cross_now": 12,
+      "cross_old": 11,
+      "time1": 40,
+      "time2": 40
+    },
+    "supported_frames": 9,
+    "supported_left_targets": 281,
+    "supported_pairs": [
+      "23",
+      "69",
+      "78"
+    ]
+  },
+  "elapsed_seconds": 26.206477391067892,
+  "files": [
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/PROTOCOL.json",
+      "sha256": "4a6ee97b7517488e235302478274dfc07468bd8354d76ee1f099cb201fdb07d2"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/TESTS.json",
+      "sha256": "c15e287cae87fcb7abb597d02b5e74445e3f62cc7c86dab0e0f243409e58a470"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair23/EVENTS.json",
+      "sha256": "6f19803109b327a69f74900ca51219111a03fb50078666c8a8208e64cc3fb1db"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair23/features_0009.json",
+      "sha256": "358b4cfb3740103aba0e9fdcccba61cb82ed458571a985c7924930a0a79b5d09"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair25/EVENTS.json",
+      "sha256": "c7bcab31c6f115aec49867a36ed4252a7b9284da6b08f324698c17614c300dbe"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair29/EVENTS.json",
+      "sha256": "f8eafcaafcd4c2e41de571ad2f25943fd47b36dd5eddc6b1488e7610d53abd5f"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair69/EVENTS.json",
+      "sha256": "10016b9a2e7600166a1c1a6df012ea9b2f654ca7e33e1eecd4117f2f149b4707"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair69/features_0009.json",
+      "sha256": "bf1622d1b89bbdf0422d9de9e34dfb823efd85429f2121a5161f4243517fc59b"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair69/features_0107.json",
+      "sha256": "928fd7d8701ee3b2312e47f8bc16fb6d98053b838037d01e73d67d2e3f542c18"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair69/features_0206.json",
+      "sha256": "04a8cca88d0cee3c3a226be55c2d4e80890a34b43ecc811b7775736289a2fb97"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair69/features_0305.json",
+      "sha256": "a58bb30eb900f39b33bc663b77600a6db4990289644f91dcb0df3f483ca7e4ef"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair69/features_0403.json",
+      "sha256": "f66d9da4f58e76f585c2d7e6903745f8d2db63d436cbcc455090ef8bf6d730fe"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair78/EVENTS.json",
+      "sha256": "9e5198b4753d9babb1f9e7acb869c53f8333a9581c95c8c5dc4e618a60ec334b"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair78/features_0057.json",
+      "sha256": "15911c1fac41f8b74eb45c764493febc7333df6bfd7daef5ae8b4ebfd3b02025"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair78/features_0154.json",
+      "sha256": "7a537839044e5401d9a186b8b1468d3952e039e2815158c387437942764ab05a"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/pair78/features_0348.json",
+      "sha256": "c874279e41fb4f432a491840386c55659e0b75b1fb11ab3a51266de655031307"
+    },
+    {
+      "path": "/home/chenhc/claude_try_MDMOT/continuation_20261004/p21_residual_motion/probe.py",
+      "sha256": "247e5de3af8cd0d82759b50ac6ab950286c329b65a874fec848dc3fe231f7ae8"
+    }
+  ],
+  "geometry_gate_pass": true,
+  "gpu_used": false,
+  "raw_XML_read": false,
+  "sources": [
+    {
+      "path": "/home/chenhc/mdmot_research_20261002/p2/src/data.py",
+      "sha256": "98ebdcee3c7e4b322acaedd1dc1c388c08b351ccb00604f44e0a77399e866a04"
+    },
+    {
+      "path": "/home/chenhc/mdmot_research_20261002/p2/cache/MANIFEST.json",
+      "sha256": "fd6d990b165dea9f41aa6844c3bde6275a7c2322ca131b9487ccd02d90740960"
+    }
+  ],
+  "status": "FEATURES_FROZEN_BEFORE_LABELS"
+}

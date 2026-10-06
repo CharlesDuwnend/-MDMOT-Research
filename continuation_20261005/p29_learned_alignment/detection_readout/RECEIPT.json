@@ -1,0 +1,34 @@
+{
+  "completed_at": "2026-10-05T04:58:40.737243+00:00",
+  "gpu_used": false,
+  "group_count": 40,
+  "label_bindings": {
+    "/home/chenhc/mdmot_research_20261002/p0/data/build_detection_labels.py": "914d466cd4e6f48e0c9f23ff6f0a498923ec2269262288ec686b01e521b1b7df",
+    "/home/chenhc/mdmot_research_20261002/p0/data/sequences_train.json": "fc881493e1b8f6ac1fe569cc02653d06fe4a584f16153e19272802abe81b9a23",
+    "/raid/datasets/chc_data/MDMT/new_xml/1/27-1.xml": "d76767b69f7548fbbce6baba581b2f4adf86acfb48c0874a4e618b8f64811f9c",
+    "/raid/datasets/chc_data/MDMT/new_xml/1/32-1.xml": "8b36b5b018a9d1e78f3b7c7eda7a5d30034f1441bc32583e3b7b9c53852a64c6",
+    "/raid/datasets/chc_data/MDMT/new_xml/1/42-1.xml": "2c07e7b5f81ef53243a5f017bef97819657ff4a41c251cdc3d3d31d02cecbf54",
+    "/raid/datasets/chc_data/MDMT/new_xml/1/64-1.xml": "7b26bd76ac8df057286468686866ca213c7887814decc8ec19ce75de362d3759",
+    "/raid/datasets/chc_data/MDMT/new_xml/1/65-1.xml": "c814178d205a8f223ed3f67f13364208fed97d25fd632148fd29be144a9ad0a2",
+    "/raid/datasets/chc_data/MDMT/new_xml/2/27-2.xml": "dbaf97416487646a5e10fe4f39fa163757e21fcbab822a48fc5be0bbe0a8a5ce",
+    "/raid/datasets/chc_data/MDMT/new_xml/2/32-2.xml": "e65b6e2081dfbd06542d07c6fbfea686ac8be82ce136f1dc31888f0a42cfead9",
+    "/raid/datasets/chc_data/MDMT/new_xml/2/42-2.xml": "d73d490329a7ba3017c70a6ac8782e75d2e49a355b427757e59d7aaaed814f47",
+    "/raid/datasets/chc_data/MDMT/new_xml/2/64-2.xml": "32c0437ec2890d7642d141c1f1b524cd331cbccf17b9f63cd5f1b0d94a59e85a",
+    "/raid/datasets/chc_data/MDMT/new_xml/2/65-2.xml": "918680e06ad6e7d848ae1f608706a8d24d18c6d4bac258e1a5428c7a8041369d"
+  },
+  "labels_read_by_evaluator": true,
+  "labels_read_by_prediction_producer": false,
+  "model_or_threshold_selection_performed": false,
+  "official_val_or_test_read": false,
+  "outputs": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/detection_readout/DEFAULT_MATCHES.json": "327912beeb42e615eaa1c8fa2e7388e139f2ce38c72f6847bcb8215ca06ba754",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/detection_readout/LABEL_ACCESS_STARTED.json": "3d4fd7a24317c70d3401d54ad17403f8994b053290c026c53cd109f3cd23df54",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/detection_readout/PRE_LABEL_GATE.json": "c0475f8c5d91db846748ed117422ee609f0dd54f1881b7aed56478b9f3b19739",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/detection_readout/SUMMARY.json": "684b8f91ab2e1b2017ae279482d22338d4d97675a55c5856e8f087364e8700a2"
+  },
+  "prediction_receipt_path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/PREDICTION_RECEIPT.json",
+  "prediction_receipt_sha256": "3c5359cbebe6a33c83d98fb0833f647e1d045bd6a3f3f1c63195ecd681c67222",
+  "scorer_path": "/home/chenhc/claude_try_MDMOT/continuation_20261005/p29_learned_alignment/score_detection.py",
+  "scorer_sha256": "3393eca39566708154bd2fd43a04bc9e1a28247b4ef845ebe3e4a910c9081382",
+  "status": "COMPLETE_FROZEN_CALIBRATION_DETECTION_READOUT"
+}
