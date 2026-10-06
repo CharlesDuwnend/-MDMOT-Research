@@ -1,0 +1,13 @@
+{
+  "status": "P61_PRETRAIN_IMPLEMENTATION_AUDIT_OPEN",
+  "initial_defects": [
+    {
+      "defect": "CPU fit-domain summary indexed the original candidate positions after filtering to known candidates",
+      "impact": "the support diagnostic raised IndexError before any model contract or training run",
+      "repair": "map the positive index into the filtered known-candidate array and rerun py_compile plus CPU contract"
+    }
+  ],
+  "repair_verified": true,
+  "scientific_result_from_failed_run": false,
+  "training_authorized_after_repair": true
+}
