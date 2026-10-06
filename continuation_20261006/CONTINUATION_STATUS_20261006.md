@@ -128,6 +128,30 @@ checks passed for artifact hashes, split/causal labels, finite checkpoint and
 deterministic independent replay. This is a method/training negative gate, so P62
 is stopped before P26 host attachment; no official-val/test or MOT claim follows.
 
+
+## P63 support-reliability projective owner transition (2026-10-06)
+
+The mature P26 fit23 trace localized an actionable failure: among evaluable
+new-ID refresh events, native geometry top1 was 68.69% A-to-B and 85.78% B-to-A,
+while 10.08% of known native support correspondences were false. The trace replay
+was byte-identical to the protected P26 JSON output. P63 therefore replaces the
+support-to-homography part of refresh with a causal support-reliability head,
+weighted DLT, and conflict-free set owner transition; it does not claim a new
+generic homography or graph solver.
+
+On pair23 only, a strict frame 0-489 fit / 490-699 held-out diagnostic gave
+native 68/99 new-ID candidate top1, fixed residual-weighted DLT 77/99, and
+learned reliability-weighted DLT 78/99. This is a mechanism signal, not formal
+MOT. Three audit rounds with three checks each passed for split/source/future
+closure, weighted-DLT permutation and finite contracts, and checkpoint/replay
+attribution. The fixed operator explains most of the gain, so P63 must expand
+to at least five real P26 fit traces and exceed the fixed control before any GPU
+training or host attachment.
+
+The authorized temporary cleanup removed 5.06 GB of stale, user-owned `/tmp`
+intermediates listed in `CLEANUP_ALLOWLIST_20261006.txt`; unrelated-owner files,
+P26, datasets, checkpoints, and workspace artifacts were preserved.
+
 ## Git phase archival
 
 The workspace is initialized on branch `main` with the authorized remote `git@github.com:CharlesDuwnend/-MDMOT-Research.git`. Each major phase is archived with `scripts/stage_snapshot.py`; it records local large-artifact paths and checkpoint hashes, commits compact source/spec/audit/result evidence, pushes `origin/main`, and verifies the exact remote commit. The initial phase will include the screened CCFI/CCSI evidence and the stop decisions above.

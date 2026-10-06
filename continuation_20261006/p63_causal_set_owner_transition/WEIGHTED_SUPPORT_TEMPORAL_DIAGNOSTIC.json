@@ -1,0 +1,38 @@
+{
+  "fit_frames": 490,
+  "formal_mot_result": false,
+  "future_features_used": false,
+  "heldout_frames": 210,
+  "loss_first": 0.189859539270401,
+  "loss_last": 0.044500961899757385,
+  "methods": {
+    "fixed_residual": {
+      "correct": 77,
+      "median_distance": 13.669941013229856,
+      "queries": 99,
+      "top1": 0.7777777777777778
+    },
+    "learned_weight": {
+      "correct": 78,
+      "median_distance": 13.42608182094508,
+      "queries": 99,
+      "top1": 0.7878787878787878
+    },
+    "native": {
+      "correct": 68,
+      "median_distance": 14.719103493091536,
+      "queries": 99,
+      "top1": 0.6868686868686869
+    }
+  },
+  "model_parameters": 241,
+  "official_val_test_read": false,
+  "script_sha256": "dfe52c435cf19ee36707b388e7195a90eff894007e9a016273972944e355de50",
+  "source_sha256": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p48_cross_view_kinematic_transport/runs/trace_pair23_v1/trace.jsonl": "e6439e923fab6a9bc14fe2249d5c36dcf8533f7af659971486e2e30d7cd6ee6a",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261006/p63_causal_set_owner_transition/support_rows.jsonl": "fc76c2b855be820f096f58fee961188bc9a85683e28db37dc463fbac99294937"
+  },
+  "status": "PASS_P63_WEIGHTED_SUPPORT_TEMPORAL_DIAGNOSTIC",
+  "train_positive": 5962,
+  "train_rows": 6916
+}

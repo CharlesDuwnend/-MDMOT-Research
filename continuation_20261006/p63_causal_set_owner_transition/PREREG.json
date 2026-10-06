@@ -1,0 +1,15 @@
+{
+  "stage": "P63_CSR_POT",
+  "fit_trace": "pair23 P26 fit trace for mechanism gate; expand to >=5 fit pairs before GPU",
+  "split": "frames 0-489 fit, 490-699 held-out diagnostic; no official val/test",
+  "problem": "false native support correspondences corrupt homography and new-ID owner refresh",
+  "input": ["support source/target coordinates", "box center/scale", "current-H symmetric residual", "track confidence", "strict prefix history"],
+  "operator": "support reliability head -> weighted normalized DLT -> partial set assignment with dustbin -> conflict-free owner transition",
+  "objective": ["support correctness BCE", "symmetric projective NLL", "set assignment loss", "owner conflict penalty"],
+  "controls": ["native H", "fixed residual-weighted DLT", "learned reliability-weighted DLT", "descriptor-only", "oracle clean-support diagnostic"],
+  "stop_conditions": ["future/GT feature leakage", "learned <= fixed control on pair-level held-out", "candidate coverage collapse", "less than 4/5 pair wins", "host MDA or IDF1 loss"],
+  "official_val_test_read": false,
+  "formal_mot_metrics": false,
+  "novelty_claim": false,
+  "gpu_authorization": "only after pair-level CPU and held-out gates; physical GPU2 forbidden"
+}

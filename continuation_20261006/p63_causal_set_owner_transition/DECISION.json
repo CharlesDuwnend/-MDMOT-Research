@@ -1,0 +1,29 @@
+{
+  "status": "KEEP_P63_AS_VALIDATED_MECHANISM_CANDIDATE",
+  "candidate": "causal support-reliability weighted DLT with set-level owner transition",
+  "problem_evidence": {
+    "p26_trace_output_equal": true,
+    "native_support_false_rate_known": 0.10080312241987541,
+    "native_new_id_top1_A_to_B": 0.6868686868686869,
+    "native_new_id_top1_B_to_A": 0.8577586206896551
+  },
+  "pair23_temporal_holdout": {
+    "split": "frames 0-489 fit / 490-699 held-out",
+    "queries": 99,
+    "native_correct": 68,
+    "fixed_residual_correct": 77,
+    "learned_weight_correct": 78,
+    "native_top1": 0.6868686868686869,
+    "fixed_residual_top1": 0.7777777777777778,
+    "learned_weight_top1": 0.7878787878787878
+  },
+  "attribution": "fixed residual operator supplies most gain; learned head adds one held-out correct event",
+  "implementation_audit": "IMPLEMENTATION_AUDIT_SUPPORT.json; 3 rounds x 3 checks PASS",
+  "decision": "HOLD_FOR_PAIR_LEVEL_EXPANSION",
+  "training_authorized": false,
+  "p26_host_attachment_authorized": false,
+  "official_val_test_read": false,
+  "formal_mot_result": false,
+  "novelty_claim": false,
+  "next_gate": "obtain at least five actual P26 fit traces, then compare learned versus fixed operator before GPU"
+}

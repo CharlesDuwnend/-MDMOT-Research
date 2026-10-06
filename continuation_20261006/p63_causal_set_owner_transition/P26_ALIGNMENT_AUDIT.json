@@ -1,0 +1,65 @@
+{
+  "baseline_trace_output_equal": {
+    "1": true,
+    "2": true
+  },
+  "directions": {
+    "before_A_new": {
+      "chosen_unknown": 10,
+      "correct_top1": 192,
+      "counterpart_not_matched_in_tracks": 5,
+      "counterpart_not_visible": 120,
+      "evaluable_new_events": 275,
+      "new_source_events": 763,
+      "projected_box_inside": 230,
+      "source_label_unknown": 363,
+      "top1_rate": 0.6981818181818182,
+      "true_gate_recall": 0.8363636363636363,
+      "true_in_gate": 230
+    },
+    "before_B_new": {
+      "chosen_unknown": 7,
+      "correct_top1": 199,
+      "counterpart_not_matched_in_tracks": 14,
+      "counterpart_not_visible": 133,
+      "evaluable_new_events": 232,
+      "new_source_events": 822,
+      "projected_box_inside": 208,
+      "source_label_unknown": 443,
+      "top1_rate": 0.8577586206896551,
+      "true_gate_recall": 0.9698275862068966,
+      "true_in_gate": 225
+    }
+  },
+  "formal_MOT_result": false,
+  "identity_protocol": "P26 paired XML protocol, one-to-one IoU >= 0.5; prefix class-conflict and ambiguous overlaps masked",
+  "native_H_supports": {
+    "known_correct": 11980,
+    "known_false": 1343,
+    "unknown": 348
+  },
+  "official_val_test_read": false,
+  "oracle_clean_support_input_intervention": {
+    "baseline_correct_top1": 191,
+    "events_evaluable_both_H": 274,
+    "fixed_wrong_top1": 8,
+    "frames_eligible_clean_support": 695,
+    "lost_correct_top1": 17,
+    "oracle_correct_top1": 182
+  },
+  "oracle_supervision_is_policy_input": false,
+  "scope": "pair23 fit diagnostic, actual new-ID refresh events only; static geometry, not complete owner replay",
+  "script_sha256": "2447e4bb54e93ad0416b6b1818c428a3090f26545c75d07621abb5179cc3d7ae",
+  "source_hashes": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/runs/fit23/json/mia_baseline/23-1.json": "c2988c6c1c42ae15c84616c3d701f958662fad98bc3e51e9c07b79c72045bf58",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/runs/fit23/json/mia_baseline/23-2.json": "6c7f3add80ddaba8d065627975125070619febf0b858372e3ec41ff3f9e4707e",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/xml/23-1.xml": "282a2099ddecd8b77d4f13f879e1c0a024970a9cf96ce9301b49c95ed5b1a4ce",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p26_mia_baseline/xml/23-2.xml": "5bd42006e58b648c7665e6128a7611b824ab756fbba2e8409061eac1761e01db",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p48_cross_view_kinematic_transport/runs/trace_pair23_v1/json/traced_baseline/23-1.json": "c2988c6c1c42ae15c84616c3d701f958662fad98bc3e51e9c07b79c72045bf58",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p48_cross_view_kinematic_transport/runs/trace_pair23_v1/json/traced_baseline/23-2.json": "6c7f3add80ddaba8d065627975125070619febf0b858372e3ec41ff3f9e4707e",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261005/p48_cross_view_kinematic_transport/runs/trace_pair23_v1/trace.jsonl": "e6439e923fab6a9bc14fe2249d5c36dcf8533f7af659971486e2e30d7cd6ee6a"
+  },
+  "status": "COMPLETE_P26_FIT23_ALIGNMENT_AUDIT",
+  "support_false_rate_among_known": 0.10080312241987541,
+  "training_run": false
+}

@@ -1,0 +1,54 @@
+{
+  "all_checks_pass": true,
+  "checks": [
+    {
+      "check": "temporal_fit_holdout_split_closed",
+      "pass": true,
+      "round": 1
+    },
+    {
+      "check": "source_receipts_match",
+      "pass": true,
+      "round": 1
+    },
+    {
+      "check": "official_and_future_closed",
+      "pass": true,
+      "round": 1
+    },
+    {
+      "check": "weighted_dlt_permutation_invariant",
+      "pass": true,
+      "round": 2
+    },
+    {
+      "check": "support_features_finite",
+      "pass": true,
+      "round": 2
+    },
+    {
+      "check": "labels_are_support_only",
+      "pass": true,
+      "round": 2
+    },
+    {
+      "check": "checkpoint_finite_and_split_receipt",
+      "pass": true,
+      "round": 3
+    },
+    {
+      "check": "learned_gain_replayable_and_nonzero",
+      "pass": true,
+      "round": 3
+    },
+    {
+      "check": "fixed_operator_attribution_kept",
+      "pass": true,
+      "round": 3
+    }
+  ],
+  "checks_per_round": 3,
+  "rounds": 3,
+  "scientific_status": "candidate mechanism only; no P26 host attachment or official MOT result",
+  "status": "PASS_P63_SUPPORT_IMPLEMENTATION_AUDIT"
+}
