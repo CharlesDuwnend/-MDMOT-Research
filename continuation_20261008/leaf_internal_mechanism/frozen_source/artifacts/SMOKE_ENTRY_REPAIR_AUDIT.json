@@ -1,0 +1,32 @@
+{
+  "status": "PASS_THREE_ROUND_ENTRY_REPAIR_AND_LIVE_SMOKE_AUDIT",
+  "failure": "single frame directory supplied where canonical runner requires sequence root",
+  "rounds": [
+    {
+      "round": 1,
+      "checks": {
+        "terminal_launcher_exit_1": true,
+        "traceback_wrong_GMC_sequence_verified": true,
+        "no_prediction_files_created": true
+      }
+    },
+    {
+      "round": 2,
+      "checks": {
+        "actual_host_sequence_iteration_inspected": true,
+        "one_sequence_read_only_index_matches_full_original_clip": true,
+        "all_17_GMC_files_exist_and_hash_sealed": true
+      }
+    },
+    {
+      "round": 3,
+      "checks": {
+        "six_actual_mode_smokes_complete_80_frames_same_GPU": true,
+        "golden_80_frame_predictions_and_all_inputs_match": true,
+        "frozen_source_and_zero_guard_attempts_verified": true
+      }
+    }
+  ],
+  "archived_attempt": "/home/chenhc/leaf_internal_mechanism_20261008_v1/artifacts/smoke_attempt1_failure",
+  "original_inputs_modified": false
+}

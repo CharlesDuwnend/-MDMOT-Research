@@ -1,0 +1,18 @@
+{
+  "GPU_inference_started": false,
+  "cause": "HierarchicalActionAnchor casts input to float64; training/manual StandardScaler transform originally stayed float32.",
+  "failed_assertion": "paired hierarchy posterior vs direct estimator manual product, absolute tolerance 1e-15",
+  "formal_metrics": false,
+  "models_exist": {
+    "Paired_Flat": false,
+    "Paired_Hierarchical": false
+  },
+  "observed_max_absolute_error": 9.37465855e-09,
+  "observed_max_relative_error": 7.50681592e-08,
+  "original_preregistration_sha256": "ca9032207a5d76a82de0a7bfa87645073ea017284d89d61b8c4d1ca9f8ce5145",
+  "original_source_sha256": "88e4959af5cb79c4b47800a3df2c1d3aa3b711beb405b6f8e07f607b539a1900",
+  "paired_models_serialized": false,
+  "recorded_utc": "2026-10-07T16:21:42.515337+00:00",
+  "repair": "Compute fit/calibration feature arrays in float64 for both paired heads and all comparator paths; preserve tolerance, data labels, sample weights, coefficients recipe and downstream policies.",
+  "status": "STOP_FLOAT32_FLOAT64_POSTERIOR_PARITY_BEFORE_SERIALIZATION"
+}

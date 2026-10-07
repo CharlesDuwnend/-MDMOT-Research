@@ -1,0 +1,153 @@
+{
+  "code_parity": {
+    "belief/coherence.py": {
+      "current_sha256": "6e8e9a42980fcf70018f5f453cc361b086c7c57f03b295fbd4bb27a3d1880b9f",
+      "identical": true,
+      "old_sha256": "6e8e9a42980fcf70018f5f453cc361b086c7c57f03b295fbd4bb27a3d1880b9f"
+    },
+    "belief/features.py": {
+      "current_sha256": "816bd3591e8905a26a63fc8616c7095f4721e0c9e67377ed63a4479a87a38e52",
+      "identical": true,
+      "old_sha256": "816bd3591e8905a26a63fc8616c7095f4721e0c9e67377ed63a4479a87a38e52"
+    },
+    "belief/hierarchical.py": {
+      "current_sha256": "822df95298fab8dd7d2f9dd409cefbf886d5198d3226451d3565fe70166acab3",
+      "identical": true,
+      "old_sha256": "822df95298fab8dd7d2f9dd409cefbf886d5198d3226451d3565fe70166acab3"
+    },
+    "belief/online.py": {
+      "current_sha256": "493d08db4a420f9801f2f8d74091ba8e4b9c708ff95d9371ee22623b2a57b7c1",
+      "identical": true,
+      "old_sha256": "493d08db4a420f9801f2f8d74091ba8e4b9c708ff95d9371ee22623b2a57b7c1"
+    },
+    "host/tools/track.py": {
+      "current_sha256": "9945dd3593bcd4c2ac72e34f7e907ea2a2f6638439f1c33bdf97e6ddbece9411",
+      "identical": true,
+      "old_sha256": "9945dd3593bcd4c2ac72e34f7e907ea2a2f6638439f1c33bdf97e6ddbece9411"
+    },
+    "host/tools/utils/eval_visdrone.py": {
+      "current_sha256": "0834a94f3190532ad9f2c64600c3e2518d5c36b4f0788cd356607b97c53d71b5",
+      "identical": true,
+      "old_sha256": "0834a94f3190532ad9f2c64600c3e2518d5c36b4f0788cd356607b97c53d71b5"
+    },
+    "host/yolox/tracker/u2mot_tracker.py": {
+      "current_sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6",
+      "identical": true,
+      "old_sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6"
+    },
+    "tools/track_dynamic_online.py": {
+      "current_sha256": "e32bd55c97990f28c64330c0f212aca797b9ec4cbf5c7bcc1c84aa49f2ffd4b8",
+      "identical": true,
+      "old_sha256": "e32bd55c97990f28c64330c0f212aca797b9ec4cbf5c7bcc1c84aa49f2ffd4b8"
+    }
+  },
+  "controls": [
+    {
+      "canonical_prediction_parity_with_current_F00": false,
+      "frames_seen": 6635,
+      "fusion_policy": false,
+      "groundtruth_hashes_match_current_F00": true,
+      "metrics": {
+        "idf1": 0.7092705766387383,
+        "mota": 0.5762943016740303,
+        "num_false_positives": 21723,
+        "num_fragmentations": 2074,
+        "num_misses": 74935,
+        "num_objects": 229506,
+        "num_switches": 585
+      },
+      "model_fields_differ_from_current_F00": [
+        "egia_fusion_policy",
+        "selective_birth_policy"
+      ],
+      "model_path": "/home/chenhc/leaf_ablation_20260930_v1/models/A04_coherence.pkl",
+      "model_sha256": "bbd97ac63539083accaf655d93cd3dd3ca442330af89b411ecfc0162d0f8cd21",
+      "name": "A04_coherence",
+      "prediction_hash_manifest_sha256": "9198f621d5a4bde811cb9e39cc87c2bfe92ec6bff526d6e56282316ab9c8da78",
+      "prediction_hashes_recomputed_match": true,
+      "receipt_path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A04_coherence/receipt.json",
+      "receipt_sha256": "5788f25eff9ea10625e00811033ba1392f12a7f4c9c0d8df3ffa1acc42c616fe",
+      "selective_policy": false,
+      "sequence_count": 17,
+      "source_estimator_and_gamma_identical_to_F00": true,
+      "tracking_metrics_path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A04_coherence/tracking_metrics.json",
+      "tracking_metrics_sha256": "f48ad3b6b7250ddf0dae13d5c66453b17c636283ee9f09613572564ace1824fd"
+    },
+    {
+      "canonical_prediction_parity_with_current_F00": false,
+      "frames_seen": 6635,
+      "fusion_policy": false,
+      "groundtruth_hashes_match_current_F00": true,
+      "metrics": {
+        "idf1": 0.7133094946652145,
+        "mota": 0.5795534757261248,
+        "num_false_positives": 25865,
+        "num_fragmentations": 2344,
+        "num_misses": 69865,
+        "num_objects": 229506,
+        "num_switches": 765
+      },
+      "model_fields_differ_from_current_F00": [
+        "egia_fusion_policy"
+      ],
+      "model_path": "/home/chenhc/leaf_ablation_20260930_v1/models/A05_selective.pkl",
+      "model_sha256": "4165da0896b5246d7a0c494b17c38625fbbb8e55fdee10c6fb0c848e3887ddd9",
+      "name": "A05_selective",
+      "prediction_hash_manifest_sha256": "31966b0d7a03190fe1701963bbd6b4c28e46ac4ee2feaec2b4fc2977af8b5878",
+      "prediction_hashes_recomputed_match": true,
+      "receipt_path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A05_selective/receipt.json",
+      "receipt_sha256": "63afd41a80505427289d6bb08054e73a1c0f1826a8e49664e8aace18f97dfba3",
+      "selective_policy": true,
+      "sequence_count": 17,
+      "source_estimator_and_gamma_identical_to_F00": true,
+      "tracking_metrics_path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A05_selective/tracking_metrics.json",
+      "tracking_metrics_sha256": "05d4a48c3d397d7a1cd59745476489689b0dde1e3dfbfc5ab4cff686720ac3dc"
+    },
+    {
+      "canonical_prediction_parity_with_current_F00": true,
+      "frames_seen": 6635,
+      "fusion_policy": true,
+      "groundtruth_hashes_match_current_F00": true,
+      "metrics": {
+        "idf1": 0.7137370596926572,
+        "mota": 0.5802506252559846,
+        "num_false_positives": 26047,
+        "num_fragmentations": 2357,
+        "num_misses": 69497,
+        "num_objects": 229506,
+        "num_switches": 791
+      },
+      "model_fields_differ_from_current_F00": [],
+      "model_path": "/home/chenhc/leaf_ablation_20260930_v1/models/A06_full.pkl",
+      "model_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+      "name": "A06_full",
+      "prediction_hash_manifest_sha256": "b15d48c3617a295e2eebb66832b17c155c676f40bbb774160f02cf1e5156a730",
+      "prediction_hashes_recomputed_match": true,
+      "receipt_path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A06_full/receipt.json",
+      "receipt_sha256": "a29aee6cca16da5fb826ea36deccbc4f4d3ec5700e478cf56e0b5127f2c98fa5",
+      "selective_policy": true,
+      "sequence_count": 17,
+      "source_estimator_and_gamma_identical_to_F00": true,
+      "tracking_metrics_path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A06_full/tracking_metrics.json",
+      "tracking_metrics_sha256": "26c69852b1c914435c8a66085066cd2ebb68764c5c729b8a77b092c4bc9b0ea0"
+    }
+  ],
+  "created_utc": "2026-10-07T16:14:44.998249+00:00",
+  "current_F00_model_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+  "current_F00_tracking_metrics_path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F00_full/tracking_metrics.json",
+  "current_F00_tracking_metrics_sha256": "c4d9021859b12be8b91c41de5c8a677058fbecdd5e5331117bd253e672c1c24c",
+  "existing_family_exit_code": 0,
+  "existing_family_exit_path": "/home/chenhc/leaf_ablation_20260930_v1/artifacts/launcher.exit",
+  "existing_family_receipt_path": "/home/chenhc/leaf_ablation_20260930_v1/artifacts/receipt.json",
+  "existing_family_receipt_sha256": "4a78eafaa97554113807455931f7689dd49d317fde9f9511d671c4c90a3e088a",
+  "interpretation": "Same current F00 estimators and source weight; A04/A05 provide fusion/selective cells. These are not historical H2 method scores.",
+  "limits": [
+    "Descriptive paired flight analysis only; test-dev was previously observed.",
+    "Policy-off changes teacher loading metadata; frozen host has no continuous_semantic_reliability execution branch.",
+    "Existing controls reuse inference artifacts, not fresh inference in this addendum."
+  ],
+  "new_inference_started": false,
+  "new_missing_cell": "fusion ON/selective OFF",
+  "no_testdev_selection": true,
+  "status": "VERIFIED_EXISTING_CURRENT_F00_POLICY_CONTROLS"
+}

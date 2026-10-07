@@ -1,0 +1,147 @@
+{
+  "arms": {
+    "Paired_Flat": {
+      "calibration": {
+        "anchor": {
+          "class_counts": [
+            6309,
+            467,
+            1635
+          ],
+          "flight_weighted_nll": 0.6521299933457956,
+          "per_class_weighted_nll": [
+            0.554334393778976,
+            0.7915709256112932,
+            1.1733835699390172
+          ],
+          "posterior_sha256": "776fed012c68443aa0178bb28fca83d62a5ad2f98fdcb61bc41de729fe797f3f",
+          "rows": 8411,
+          "weighted_accuracy": 0.8635506772634131
+        },
+        "with_frozen_source_gamma": {
+          "class_counts": [
+            6309,
+            467,
+            1635
+          ],
+          "flight_weighted_nll": 0.6198051730287677,
+          "per_class_weighted_nll": [
+            0.5907469448268272,
+            0.14689130747579351,
+            1.1900012601704648
+          ],
+          "posterior_sha256": "a82b9bfbb22b2beec2e8122cae6b0382de51ca265e919d7ea4efab94c7500753",
+          "rows": 8411,
+          "weighted_accuracy": 0.8447067730101474
+        }
+      },
+      "fit": {
+        "anchor": {
+          "class_counts": [
+            3985,
+            2108,
+            1931
+          ],
+          "flight_weighted_nll": 0.5714175228635501,
+          "per_class_weighted_nll": [
+            0.42236650886127614,
+            0.7739687814282148,
+            1.0944500164703643
+          ],
+          "posterior_sha256": "b4e23481019fbb0fdcd2700d5967cb236342bd1421664c64555878b633a2f1d4",
+          "rows": 8024,
+          "weighted_accuracy": 0.8478912469465313
+        },
+        "with_frozen_source_gamma": {
+          "class_counts": [
+            3985,
+            2108,
+            1931
+          ],
+          "flight_weighted_nll": 0.5244841687854429,
+          "per_class_weighted_nll": [
+            0.4701318840219448,
+            0.1598481068485325,
+            1.1552237521301507
+          ],
+          "posterior_sha256": "fc342e007cdce2bf5c4e2f18928629d8a5a210e88829311f7b219d0a78e46baf",
+          "rows": 8024,
+          "weighted_accuracy": 0.8307221864918791
+        }
+      }
+    },
+    "Paired_Hierarchical": {
+      "calibration": {
+        "anchor": {
+          "class_counts": [
+            6309,
+            467,
+            1635
+          ],
+          "flight_weighted_nll": 0.7027593406655224,
+          "per_class_weighted_nll": [
+            0.5822529547043688,
+            0.9751084836744989,
+            1.2638910311904203
+          ],
+          "posterior_sha256": "82aa2b4fac36c23f0b9bb83f47f0697b8738ae86b5f8cb434a8bd5b56c1ec725",
+          "rows": 8411,
+          "weighted_accuracy": 0.8293812975424552
+        },
+        "with_frozen_source_gamma": {
+          "class_counts": [
+            6309,
+            467,
+            1635
+          ],
+          "flight_weighted_nll": 0.6554724716054494,
+          "per_class_weighted_nll": [
+            0.6174131808230908,
+            0.18807725578528878,
+            1.2795514299610213
+          ],
+          "posterior_sha256": "79dab6c00e83dc7eb8de41a6904db00732a5ad14a022f4386ff705e27eddd498",
+          "rows": 8411,
+          "weighted_accuracy": 0.8444566901438924
+        }
+      },
+      "fit": {
+        "anchor": {
+          "class_counts": [
+            3985,
+            2108,
+            1931
+          ],
+          "flight_weighted_nll": 0.6658738041197753,
+          "per_class_weighted_nll": [
+            0.4920586617825251,
+            0.9643631909809319,
+            1.213305269455183
+          ],
+          "posterior_sha256": "c4c74de2f6b2611d1fcd46a22c443cf440d631a0ac3e1224a26447e7216e777b",
+          "rows": 8024,
+          "weighted_accuracy": 0.7926410966014923
+        },
+        "with_frozen_source_gamma": {
+          "class_counts": [
+            3985,
+            2108,
+            1931
+          ],
+          "flight_weighted_nll": 0.595911476721034,
+          "per_class_weighted_nll": [
+            0.5376258357516033,
+            0.2062095590765199,
+            1.2709696779990842
+          ],
+          "posterior_sha256": "579eaaa2c5aad32a7f8049164b7d43bbc67700f5ad251ee82a69b1b95c6f019a",
+          "rows": 8024,
+          "weighted_accuracy": 0.814584233009301
+        }
+      }
+    }
+  },
+  "calibration_data_scope": "Original train cal8 prepared rows; historical current-output source pool, no closed-loop benchmark trajectories",
+  "calibration_used_for_fit_or_selection": false,
+  "formal_metrics": false
+}

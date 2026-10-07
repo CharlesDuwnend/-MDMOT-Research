@@ -1,0 +1,52 @@
+{
+  "all_unchanged_fields_sha256": {
+    "candidate_mean": "2545573aaf24c3759d137bd532ce6c3aed267a965eeda4a6414e2a6cfa7cbf28",
+    "candidate_scale": "8e60166a48d98aa437ac3cf13fd18e51346a703002604608cff79b7aec07efaf",
+    "class_names": "697739d064d82608e527d3f86f9fed94f222c184091d27a92cbf249d7eff44fe",
+    "coverage_render": "9ea076037409386c43984ec8466fc66ed74b2427bf24131caf0a58edd709bf25",
+    "egia_fusion_policy": "b15e5dc2d0858d7d9f2afcad8bf251f5b807810b68219e7ebcc645cb09c2474c",
+    "egia_fusion_selection": "256caaa09a934db6374a8f9c364971b8db506c7b3bde23b5af6a1b17e3e60bdc",
+    "egia_fusion_weight": "794e04b355b41aade495a46976356ab4ca1416885a488cd4021e17407e067403",
+    "epochs": "c6f360637237b116c18f75a621d20980a74135e967e49c9687f999c1fb81aa79",
+    "gate_status": "e0f5b4caea76d9122612cdd22f5ff4391aa6e15dcca3d8f72e4bd83f6a1dbeb8",
+    "group_prior": "cb76f8da88a7f85b8b6ec3afeac572bfb08f744d1ac9b8c0d9db6295ca411105",
+    "observation_model": "991f918af67e803a1e382a91282701f112f8ed7f06d13b2e60ee4150914efc8d",
+    "owner_mean": "0767fea2ab73e856f5f48ebcef6d2d8d8e2e44ceced6bae287be23fd3db04a17",
+    "owner_scale": "7c6bcd12992be2681cedf79318031de4699989633b32450ddf4552f288e39e52",
+    "responsibility_model": "121e1d0e3ccef3c780999e10505ae560723f2521bcb00063eccf238f3f039f7d",
+    "safe_native_incumbent": "38d36ce273c7be1c4d771030a94ce9d9760ca762732855090017581928dacb85",
+    "schema_version": "bfc9d43edb174ee19b59380e31ae1089d7866137ae115f40926e31d10b27def4",
+    "seed": "c13273441e5117b17302ad3ffffce09113bea2f042ccbdcda5bd100944f4ae74",
+    "selective_birth_margin": "02f2506e06a78789d428f0c4127b2f4449118298c7796ff38679e5289633feb0",
+    "source_architecture": "1ca8f49a11825798d97eb87f86456acf1ef028771981fe961e53fb9949ce8b8a",
+    "source_gate_status": "5c78bddb7468876a1d255c06e754d02e89690468346411cb3cc479dc52530aa0",
+    "source_model": "c6f9933dc66743371749637bce3c34cb980da65fd327cc4c40e5dfc52293b164",
+    "vehicle_only_semantics": "38d36ce273c7be1c4d771030a94ce9d9760ca762732855090017581928dacb85"
+  },
+  "base_model": "/home/chenhc/leaf_internal_mechanism_20261008_v1/models/F00_full.pkl",
+  "base_model_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+  "changed_fields": [
+    "selective_birth_policy"
+  ],
+  "cpu_contract_tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/chenhc/leaf_internal_mechanism_20261008_v1 /home/chenhc/.conda/envs/u2mot/bin/python -B -m pytest -q -p no:cacheprovider tests/test_egia_modes.py",
+    "exit_code": 0,
+    "stdout": "3 passed in 2.25s",
+    "test_file_sha256": "db23f5074ffd42e844eb3578c1124854b49dd98a8cedb7504799758a65b1a629",
+    "test_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/tests/test_egia_modes.py",
+    "tests_passed": 3
+  },
+  "created_utc": "2026-10-07T16:14:44.998249+00:00",
+  "derived_model": "/home/chenhc/leaf_internal_mechanism_20261008_v1/models/FusionOn_NoSelective.pkl",
+  "derived_model_sha256": "e58043b014e851b84440851449c5a52e10bf29af900428e56b2567445f72511c",
+  "field_change": {
+    "selective_birth_policy": {
+      "after": false,
+      "before": true
+    }
+  },
+  "fit_performed": false,
+  "formal_metrics": false,
+  "gpu_inference_started": false,
+  "status": "VERIFIED_SINGLE_FIELD_FROZEN_HEAD_INTERVENTION"
+}

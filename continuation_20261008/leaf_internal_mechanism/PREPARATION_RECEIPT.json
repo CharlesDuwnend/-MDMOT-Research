@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED_PREPARATION_AND_SMOKE_FULL_SCORING_RUNNING",
+  "run_root": "/home/chenhc/leaf_internal_mechanism_20261008_v1",
+  "plan_sha256": "4c27ac397c201b470c35a57cdad920ccf8572c0de0199da79d8844755dd5fa53",
+  "manifest_sha256": "c0608e0324511b10de5202684ec19f4993d1f6ff093b80aeb9e3f65e74400e64",
+  "new_configurations": 5,
+  "reference_replays": 2,
+  "online_arms": 7,
+  "per_arm_sequences": 17,
+  "per_arm_frames": 6635,
+  "cpu_tests_independently_run_by_root": {
+    "cost_egia_operator": 20,
+    "paired_anchor_contract": 9
+  },
+  "full_online_scores_ready": false,
+  "paper_result_insertion_performed": false,
+  "smoke_modes": 6,
+  "smoke_frames_per_mode": 80,
+  "smoke_status": "PASS",
+  "tmux_session": "leaf_internal_mechanism_20261008"
+}

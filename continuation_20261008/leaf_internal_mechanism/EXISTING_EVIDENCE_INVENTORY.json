@@ -1,0 +1,1267 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T16:17:16.178440+00:00",
+  "scope": "Existing current LEAF/SRC-belief/hierarchical-EGIA internal mechanism evidence; artifact audit only, no new inference/training/evaluation",
+  "verification_method": "Read actual score metrics; recomputed score/receipt SHA-256 and all 17 prediction-file hashes per arm; matched metrics to receipts and checked MOTA count arithmetic plus IDF1 from IDP/IDR. Not a fresh evaluator run.",
+  "metric_units": {
+    "mota": "fraction",
+    "idf1": "fraction",
+    "error_and_object_fields": "counts",
+    "contrast_MOTA_IDF1": "percentage points"
+  },
+  "prediction_set_sha256_encoding": "SHA-256 of sorted sequence_name + space + prediction_file_sha256 + newline; names omit .txt",
+  "protocol": {
+    "dataset": "VisDrone2019 test-dev",
+    "sequences": 17,
+    "frames": 6635,
+    "num_objects": 229506,
+    "official_server_submission": false,
+    "new_training_performed": false,
+    "new_inference_performed": false,
+    "existing_prediction_streams_copied": false
+  },
+  "families": [
+    {
+      "family": "frozen_SRC_SOE_factorial",
+      "receipt": {
+        "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/artifacts/receipt.json",
+        "sha256": "83e19088cdcbe13d366d9d82c6b0e83fa9d43fcaed8afffc73ec03b2b536f442"
+      },
+      "recorded_status": "PASS_FIVE_PREDECLARED_ARMS_COMPLETE",
+      "arms": [
+        {
+          "arm": "F00_full",
+          "recorded_status": "PASS_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F00_full/tracking_metrics.json",
+            "sha256": "c4d9021859b12be8b91c41de5c8a677058fbecdd5e5331117bd253e672c1c24c"
+          },
+          "metrics": {
+            "mota": 0.5802506252559846,
+            "idf1": 0.7137370596926572,
+            "num_false_positives": 26047,
+            "num_misses": 69497,
+            "num_switches": 791,
+            "num_fragmentations": 2357,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F00_full/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "1006a442c435c3a55ddaaad243d36f446ff821e46289c82d3ebf28be268515f7",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "prediction_files_equal_to_F00": 17
+        },
+        {
+          "arm": "F01_noSOE",
+          "recorded_status": "PASS_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F01_noSOE/tracking_metrics.json",
+            "sha256": "0c1abb28b8dd30a276b67b328977b4cdffde8fc91b3b7fa7c55a8f7ba4b09fb2"
+          },
+          "metrics": {
+            "mota": 0.580246268071423,
+            "idf1": 0.7129554307151948,
+            "num_false_positives": 27210,
+            "num_misses": 68266,
+            "num_switches": 860,
+            "num_fragmentations": 2404,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F01_noSOE/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "191cb33000aa4041a189dbb50ba65d54bfe71d04b1d084d76ded23dd84c9de57",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "193b70aba34b3800523c773f89051383f7938822df60fe653178d447cf79f727",
+          "prediction_files_equal_to_F00": 1
+        },
+        {
+          "arm": "F02_noSRC",
+          "recorded_status": "PASS_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F02_noSRC/tracking_metrics.json",
+            "sha256": "7cf66f566d3107632e87882902c10b2d6819a15f59e2f8e24cd5a58a7aaf7b8c"
+          },
+          "metrics": {
+            "mota": 0.5781766054046518,
+            "idf1": 0.7118566563579259,
+            "num_false_positives": 26252,
+            "num_misses": 69759,
+            "num_switches": 800,
+            "num_fragmentations": 2368,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F02_noSRC/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "232f42940c8483a8e7dbc050c073da1f89a0d7112f54e311556f1b3219d62da6",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "runtime_noSRC_contract": {
+            "receipt_field": "runtime_noSRC_contract",
+            "recorded_status": null,
+            "details_in_family_receipt": true
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "F03_neither",
+          "recorded_status": "PASS_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F03_neither/tracking_metrics.json",
+            "sha256": "6482aa6672f0ee7d195f4f6544b299402a1e55421b8014837f25edb2c07b54df"
+          },
+          "metrics": {
+            "mota": 0.5785164658004585,
+            "idf1": 0.7111665238804041,
+            "num_false_positives": 27360,
+            "num_misses": 68498,
+            "num_switches": 875,
+            "num_fragmentations": 2422,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F03_neither/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "3efa0ee8a67491487966113c01e13b5d544c8547819ed2ac3c08b0ca6b0349b9",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "193b70aba34b3800523c773f89051383f7938822df60fe653178d447cf79f727",
+          "runtime_noSRC_contract": {
+            "receipt_field": "runtime_noSRC_contract",
+            "recorded_status": null,
+            "details_in_family_receipt": true
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "F04_full_sourcepool_current",
+          "recorded_status": "PASS_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F04_full_sourcepool_current/tracking_metrics.json",
+            "sha256": "e2f4b5a381811af41284ae7b4385767c929189343cb55e2260f705bb6e184729"
+          },
+          "metrics": {
+            "mota": 0.5801155525345743,
+            "idf1": 0.7137071838492727,
+            "num_false_positives": 26072,
+            "num_misses": 69499,
+            "num_switches": 795,
+            "num_fragmentations": 2356,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F04_full_sourcepool_current/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "ef8df95d2cf76da6f5f5e4548a5df664fe6cadf3548ef71fb3fe02314dc71f97",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "08958de3e89c4adbd09c73c1fa68644708de66b91be49d0f272ea33f939436fd",
+          "prediction_files_equal_to_F00": 2
+        }
+      ],
+      "manifest": {
+        "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/manifest.json",
+        "sha256": "dfb8efb3458bc9d31daa063551c0864db23f2222f4464ffa6b7afd8772194cba"
+      }
+    },
+    {
+      "family": "operator_controls",
+      "receipt": {
+        "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/operator_ablation_20261007_v1/artifacts/receipt.json",
+        "sha256": "2dcab6e9467562e32f3e11cead4a175eae576c5288fd9d9cc49c2cc19d2127f5"
+      },
+      "recorded_status": "PASS_OPERATOR_ADDENDUM_COMPLETE",
+      "arms": [
+        {
+          "arm": "pair_shuffle",
+          "recorded_status": "PASS_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/operator_ablation_20261007_v1/YOLOX_outputs/OP_pair_shuffle_20261007/tracking_metrics.json",
+            "sha256": "0c843975e75d67e2d77d92a76a4c505a4f3ffea80ccbbe3e3a5f8696e043f09c"
+          },
+          "metrics": {
+            "mota": 0.5795709044643713,
+            "idf1": 0.7128677332746268,
+            "num_false_positives": 27250,
+            "num_misses": 68364,
+            "num_switches": 877,
+            "num_fragmentations": 2405,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/operator_ablation_20261007_v1/YOLOX_outputs/OP_pair_shuffle_20261007/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "bd2c627aea1c2df8dc13298421ba23381a1cd9ee79579cb42529d64c34980cdd",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "operator_contract": {
+            "receipt_field": "operator_contract",
+            "recorded_status": "PASS_OPERATOR_CONTRACT",
+            "details_in_family_receipt": true
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "hard_update",
+          "recorded_status": "PASS_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/operator_ablation_20261007_v1/YOLOX_outputs/OP_hard_update_20261007/tracking_metrics.json",
+            "sha256": "19fd7a04906c9e5f377d68ca54e121e1279ddfc05f005a09fbe589729ffad854"
+          },
+          "metrics": {
+            "mota": 0.5802506252559846,
+            "idf1": 0.7137370596926572,
+            "num_false_positives": 26047,
+            "num_misses": 69497,
+            "num_switches": 791,
+            "num_fragmentations": 2357,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/operator_ablation_20261007_v1/YOLOX_outputs/OP_hard_update_20261007/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "1006a442c435c3a55ddaaad243d36f446ff821e46289c82d3ebf28be268515f7",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "operator_contract": {
+            "receipt_field": "operator_contract",
+            "recorded_status": "PASS_OPERATOR_CONTRACT",
+            "details_in_family_receipt": true
+          },
+          "prediction_files_equal_to_F00": 17
+        }
+      ],
+      "manifest": {
+        "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/operator_ablation_20261007_v1/manifest.json",
+        "sha256": "ae2cd07ec44f91d5df2fc8ae265e94027c8ed3d8f199160ce33f5fb2b429c9ae"
+      }
+    },
+    {
+      "family": "SRC_paths_with_EGIA",
+      "receipt": {
+        "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/artifacts/receipt.json",
+        "sha256": "53dde03b83fad86a12e2b384de217e18103cbccc8a7b2bde7d47ab70e473ab54"
+      },
+      "recorded_status": "PASS_INTERNAL_PATH_ABLATION_COMPLETE",
+      "arms": [
+        {
+          "arm": "F00_replay",
+          "recorded_status": "PASS_PATH_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/YOLOX_outputs/IA_F00_replay_20261007/tracking_metrics.json",
+            "sha256": "57386142d2e5728b47abfaaca661f299a3b2a58ec10ef3d95343cf2b4b54f0b3"
+          },
+          "metrics": {
+            "mota": 0.5802506252559846,
+            "idf1": 0.7137370596926572,
+            "num_false_positives": 26047,
+            "num_misses": 69497,
+            "num_switches": 791,
+            "num_fragmentations": 2357,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/YOLOX_outputs/IA_F00_replay_20261007/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "1006a442c435c3a55ddaaad243d36f446ff821e46289c82d3ebf28be268515f7",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "pathway_contract": {
+            "receipt_field": "pathway_contract",
+            "recorded_status": "PASS_PATH_CONTRACT",
+            "details_in_family_receipt": true
+          },
+          "prediction_files_equal_to_F00": 17
+        },
+        {
+          "arm": "no_src",
+          "recorded_status": "PASS_PATH_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/YOLOX_outputs/IA_no_src_20261007/tracking_metrics.json",
+            "sha256": "25ef25eb3cbb998179208f00b495331469f3f1173391f580862c20a0d89532f0"
+          },
+          "metrics": {
+            "mota": 0.5781766054046518,
+            "idf1": 0.7118566563579259,
+            "num_false_positives": 26252,
+            "num_misses": 69759,
+            "num_switches": 800,
+            "num_fragmentations": 2368,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/YOLOX_outputs/IA_no_src_20261007/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "232f42940c8483a8e7dbc050c073da1f89a0d7112f54e311556f1b3219d62da6",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "pathway_contract": {
+            "receipt_field": "pathway_contract",
+            "recorded_status": "PASS_PATH_CONTRACT",
+            "details_in_family_receipt": true
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "update_only",
+          "recorded_status": "PASS_PATH_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/YOLOX_outputs/IA_update_only_20261007/tracking_metrics.json",
+            "sha256": "102219d9bc0e46917d926ee173cd3c5cd2fd36149b7015020b6a3387e5d17af2"
+          },
+          "metrics": {
+            "mota": 0.5781766054046518,
+            "idf1": 0.7118566563579259,
+            "num_false_positives": 26252,
+            "num_misses": 69759,
+            "num_switches": 800,
+            "num_fragmentations": 2368,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/YOLOX_outputs/IA_update_only_20261007/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "232f42940c8483a8e7dbc050c073da1f89a0d7112f54e311556f1b3219d62da6",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "pathway_contract": {
+            "receipt_field": "pathway_contract",
+            "recorded_status": "PASS_PATH_CONTRACT",
+            "details_in_family_receipt": true
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "cost_only",
+          "recorded_status": "PASS_PATH_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/YOLOX_outputs/IA_cost_only_20261007/tracking_metrics.json",
+            "sha256": "30cf82530fb5c7f98a2fc976186a8574a8711c0643dded5b9c4ccaa59c5bfdbc"
+          },
+          "metrics": {
+            "mota": 0.580246268071423,
+            "idf1": 0.7137353421743514,
+            "num_false_positives": 26048,
+            "num_misses": 69497,
+            "num_switches": 791,
+            "num_fragmentations": 2357,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/YOLOX_outputs/IA_cost_only_20261007/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "0f6daa7b5f667ed70294be8e177aef5bd8500a6df1a92ffe2bca65b0eb2885a2",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "pathway_contract": {
+            "receipt_field": "pathway_contract",
+            "recorded_status": "PASS_PATH_CONTRACT",
+            "details_in_family_receipt": true
+          },
+          "prediction_files_equal_to_F00": 10
+        }
+      ],
+      "manifest": {
+        "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/manifest.json",
+        "sha256": "d0a3255e0af7d31119380712def61a034a14b716888b2e6af4922aec1e0df4d8"
+      }
+    },
+    {
+      "family": "SRC_native_N0_N5",
+      "receipt": {
+        "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/artifacts/receipt.json",
+        "sha256": "d06ad981d29917d1586bf5b4edcefae91bf633779e340d2ee285f0eb1b895e04"
+      },
+      "recorded_status": "PASS_NATIVE_N0_N5_FRESH_ONLINE_ABLATION",
+      "arms": [
+        {
+          "arm": "N0",
+          "recorded_status": "PASS_NATIVE_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N0/tracking_metrics.json",
+            "sha256": "6e5f8d62bf35e1cff388f9febfb7c03366767992ccc2811433bef9d95e3d9435"
+          },
+          "metrics": {
+            "mota": 0.5592751387763283,
+            "idf1": 0.6993606417549573,
+            "num_false_positives": 33216,
+            "num_misses": 66645,
+            "num_switches": 1288,
+            "num_fragmentations": 2692,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N0/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "5587dda7de35149c1184799fb35583f4b37303b288a71f4e8480eab87f2a553e",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "53ab4b5dc5a1b66f03f70f19dd19ef228a1fc87bbdd8b88ed3f8dc391171a180",
+          "arm_config": {
+            "birth_class_gate": 0,
+            "bundle": "native_base",
+            "name": "N0",
+            "runtime_arm": "native_n0",
+            "src_cost_enabled": false,
+            "src_update_enabled": false,
+            "use_egia": false
+          },
+          "recorded_historical_parity": {
+            "all_match": true,
+            "reference": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A00_native/receipt.json"
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "N1",
+          "recorded_status": "PASS_NATIVE_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N1/tracking_metrics.json",
+            "sha256": "20bf9445a798b6c3184d6ea08bfb60547fa89832a7563e48a3025ff61fda3d4d"
+          },
+          "metrics": {
+            "mota": 0.5740372800711093,
+            "idf1": 0.7072068961411614,
+            "num_false_positives": 28840,
+            "num_misses": 67907,
+            "num_switches": 1014,
+            "num_fragmentations": 2514,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N1/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "56fc240e0b46b35f5e0084e3331930572c28c104aa6e4d95db0e5b3f36e901ef",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "53ab4b5dc5a1b66f03f70f19dd19ef228a1fc87bbdd8b88ed3f8dc391171a180",
+          "arm_config": {
+            "birth_class_gate": 0.7,
+            "bundle": "native_base",
+            "name": "N1",
+            "runtime_arm": "native_n1_gate",
+            "src_cost_enabled": false,
+            "src_update_enabled": false,
+            "use_egia": false
+          },
+          "recorded_historical_parity": {
+            "all_match": true,
+            "reference": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A01_gate_control/receipt.json"
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "N2",
+          "recorded_status": "PASS_NATIVE_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N2/tracking_metrics.json",
+            "sha256": "82aa8759e0ac1c0ccee3f93f7fc4499dbc8066a18e3ef8209963e81e7e7e90c9"
+          },
+          "metrics": {
+            "mota": 0.5755753662213624,
+            "idf1": 0.7087137996471337,
+            "num_false_positives": 28699,
+            "num_misses": 67722,
+            "num_switches": 987,
+            "num_fragmentations": 2502,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N2/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "95cdd086a321fcc93eeb08df6687b489e50d165e30d130dc4e8db0e03dba4059",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "arm_config": {
+            "birth_class_gate": 0.7,
+            "bundle": "src_f00",
+            "name": "N2",
+            "runtime_arm": "native_n2_cost_only",
+            "src_cost_enabled": true,
+            "src_update_enabled": false,
+            "use_egia": false
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "N3",
+          "recorded_status": "PASS_NATIVE_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N3/tracking_metrics.json",
+            "sha256": "421f00494ed9ea1befea792b21b9d5959662e565417747566f430ad00fbcb3f0"
+          },
+          "metrics": {
+            "mota": 0.5740372800711093,
+            "idf1": 0.7072068961411614,
+            "num_false_positives": 28840,
+            "num_misses": 67907,
+            "num_switches": 1014,
+            "num_fragmentations": 2514,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N3/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "56fc240e0b46b35f5e0084e3331930572c28c104aa6e4d95db0e5b3f36e901ef",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "arm_config": {
+            "birth_class_gate": 0.7,
+            "bundle": "src_f00",
+            "name": "N3",
+            "runtime_arm": "native_n3_update_only",
+            "src_cost_enabled": false,
+            "src_update_enabled": true,
+            "use_egia": false
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "N4",
+          "recorded_status": "PASS_NATIVE_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N4/tracking_metrics.json",
+            "sha256": "f976d8fc8ad6326f1490e7fcf9dff95eadce8af9f649eff7555b195f1c60fe28"
+          },
+          "metrics": {
+            "mota": 0.5755666518522391,
+            "idf1": 0.7087104247471969,
+            "num_false_positives": 28701,
+            "num_misses": 67722,
+            "num_switches": 987,
+            "num_fragmentations": 2502,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N4/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "8d4b107ca69b4cd9ab87f3ae10d1350dabc14930d4931b6f5ee8c3170ed86336",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "arm_config": {
+            "birth_class_gate": 0.7,
+            "bundle": "src_f00",
+            "name": "N4",
+            "runtime_arm": "native_n4_full_src",
+            "src_cost_enabled": true,
+            "src_update_enabled": true,
+            "use_egia": false
+          },
+          "recorded_historical_parity": {
+            "all_match": true,
+            "reference": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A02_semantic/receipt.json"
+          },
+          "prediction_files_equal_to_F00": 0
+        },
+        {
+          "arm": "N5",
+          "recorded_status": "PASS_NATIVE_ARM_COMPLETE",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N5/tracking_metrics.json",
+            "sha256": "814b413b6844c636579a52fc2bf406d863632b98d032cb5587b7ad169b189eaf"
+          },
+          "metrics": {
+            "mota": 0.5613665873659077,
+            "idf1": 0.7028841249732647,
+            "num_false_positives": 32923,
+            "num_misses": 66468,
+            "num_switches": 1278,
+            "num_fragmentations": 2711,
+            "num_objects": 229506
+          },
+          "sequences": 17,
+          "frames": 6635,
+          "prediction_directory": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/YOLOX_outputs/N5/track_res",
+          "prediction_count": 17,
+          "prediction_set_sha256": "68bb4ef394b9b7e12a04a1a302e97343f52e865f4190a6fb7a723bc9f2bc58ff",
+          "verification": {
+            "metrics_equal_receipt": true,
+            "metrics_SHA_matches_receipt": true,
+            "all_prediction_SHA_match_score_and_receipt": true,
+            "MOTA_count_arithmetic": true,
+            "IDF1_IDP_IDR_arithmetic": true
+          },
+          "bundle_sha256_recorded": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+          "arm_config": {
+            "birth_class_gate": 0,
+            "bundle": "src_f00",
+            "name": "N5",
+            "runtime_arm": "native_n5_full_src_nogate",
+            "src_cost_enabled": true,
+            "src_update_enabled": true,
+            "use_egia": false
+          },
+          "prediction_files_equal_to_F00": 0
+        }
+      ],
+      "manifest": {
+        "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/native_src_factorial_20261007_v1/manifest.json",
+        "sha256": "eca93450840a13609574db69dd1f03c720e61e93b98977eecdb36dec5752aa8b"
+      }
+    }
+  ],
+  "key_descriptive_contrasts": [
+    {
+      "contrast": "F00_full minus F01_noSOE",
+      "families": [
+        "frozen_SRC_SOE_factorial",
+        "frozen_SRC_SOE_factorial"
+      ],
+      "delta_MOTA_pp": 0.0004357184561598615,
+      "delta_IDF1_pp": 0.07816289774623675,
+      "delta_FP": -1163,
+      "delta_FN": 1231,
+      "delta_IDs": -69,
+      "delta_fragmentations": -47,
+      "equal_prediction_files": 1
+    },
+    {
+      "contrast": "F00_full minus F02_noSRC",
+      "families": [
+        "frozen_SRC_SOE_factorial",
+        "frozen_SRC_SOE_factorial"
+      ],
+      "delta_MOTA_pp": 0.207401985133282,
+      "delta_IDF1_pp": 0.18804033347312732,
+      "delta_FP": -205,
+      "delta_FN": -262,
+      "delta_IDs": -9,
+      "delta_fragmentations": -11,
+      "equal_prediction_files": 0
+    },
+    {
+      "contrast": "F00_full minus pair_shuffle",
+      "families": [
+        "frozen_SRC_SOE_factorial",
+        "operator_controls"
+      ],
+      "delta_MOTA_pp": 0.06797207916132697,
+      "delta_IDF1_pp": 0.08693264180303917,
+      "delta_FP": -1203,
+      "delta_FN": 1133,
+      "delta_IDs": -86,
+      "delta_fragmentations": -48,
+      "equal_prediction_files": 0
+    },
+    {
+      "contrast": "F00_full minus hard_update",
+      "families": [
+        "frozen_SRC_SOE_factorial",
+        "operator_controls"
+      ],
+      "delta_MOTA_pp": 0,
+      "delta_IDF1_pp": 0,
+      "delta_FP": 0,
+      "delta_FN": 0,
+      "delta_IDs": 0,
+      "delta_fragmentations": 0,
+      "equal_prediction_files": 17
+    },
+    {
+      "contrast": "F00_replay minus cost_only",
+      "families": [
+        "SRC_paths_with_EGIA",
+        "SRC_paths_with_EGIA"
+      ],
+      "delta_MOTA_pp": 0.0004357184561598615,
+      "delta_IDF1_pp": 0.00017175183057993593,
+      "delta_FP": -1,
+      "delta_FN": 0,
+      "delta_IDs": 0,
+      "delta_fragmentations": 0,
+      "equal_prediction_files": 10
+    },
+    {
+      "contrast": "update_only minus no_src",
+      "families": [
+        "SRC_paths_with_EGIA",
+        "SRC_paths_with_EGIA"
+      ],
+      "delta_MOTA_pp": 0,
+      "delta_IDF1_pp": 0,
+      "delta_FP": 0,
+      "delta_FN": 0,
+      "delta_IDs": 0,
+      "delta_fragmentations": 0,
+      "equal_prediction_files": 17
+    },
+    {
+      "contrast": "N1 minus N0",
+      "families": [
+        "SRC_native_N0_N5",
+        "SRC_native_N0_N5"
+      ],
+      "delta_MOTA_pp": 1.476214129478104,
+      "delta_IDF1_pp": 0.7846254386204121,
+      "delta_FP": -4376,
+      "delta_FN": 1262,
+      "delta_IDs": -274,
+      "delta_fragmentations": -178,
+      "equal_prediction_files": 0
+    },
+    {
+      "contrast": "N4 minus N1",
+      "families": [
+        "SRC_native_N0_N5",
+        "SRC_native_N0_N5"
+      ],
+      "delta_MOTA_pp": 0.15293717811297736,
+      "delta_IDF1_pp": 0.15035286060355313,
+      "delta_FP": -139,
+      "delta_FN": -185,
+      "delta_IDs": -27,
+      "delta_fragmentations": -12,
+      "equal_prediction_files": 0
+    },
+    {
+      "contrast": "N4 minus N2",
+      "families": [
+        "SRC_native_N0_N5",
+        "SRC_native_N0_N5"
+      ],
+      "delta_MOTA_pp": -0.0008714369123308252,
+      "delta_IDF1_pp": -0.0003374899936736675,
+      "delta_FP": 2,
+      "delta_FN": 0,
+      "delta_IDs": 0,
+      "delta_fragmentations": 0,
+      "equal_prediction_files": 9
+    },
+    {
+      "contrast": "N3 minus N1",
+      "families": [
+        "SRC_native_N0_N5",
+        "SRC_native_N0_N5"
+      ],
+      "delta_MOTA_pp": 0,
+      "delta_IDF1_pp": 0,
+      "delta_FP": 0,
+      "delta_FN": 0,
+      "delta_IDs": 0,
+      "delta_fragmentations": 0,
+      "equal_prediction_files": 17
+    },
+    {
+      "contrast": "N5 minus N0",
+      "families": [
+        "SRC_native_N0_N5",
+        "SRC_native_N0_N5"
+      ],
+      "delta_MOTA_pp": 0.20914485895794366,
+      "delta_IDF1_pp": 0.35234832183074216,
+      "delta_FP": -293,
+      "delta_FN": -177,
+      "delta_IDs": -10,
+      "delta_fragmentations": 19,
+      "equal_prediction_files": 0
+    }
+  ],
+  "paper_module_records": {
+    "module_ablation_verified.json": {
+      "record": {
+        "path": "/home/chenhc/src_egia_icme_paper/research/module_ablation_verified.json",
+        "sha256": "edd7f2a0c21be47669e128438b8660a4c534ca6a41ffe13b4b586af4155454b1"
+      },
+      "rows": [
+        {
+          "arm": "A00_native",
+          "SRC": false,
+          "EGIA": false,
+          "birth_class_gate": 0,
+          "summary_fusion": false,
+          "source_family": "frozen_online_ablation",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A00_native/tracking_metrics.json",
+            "sha256": "9fe96b7fad9b23ed5d5bced281ad6e172bfe35ec6cefcc58a14bbf8be711a2df"
+          },
+          "receipt": {
+            "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A00_native/receipt.json",
+            "sha256": "d4e182b5167af3b41f6ff51c30b9dac423a391ba341b7d2820ffad31f57f768c"
+          },
+          "metrics": {
+            "mota": 0.5592751387763283,
+            "idf1": 0.6993606417549573,
+            "num_false_positives": 33216,
+            "num_misses": 66645,
+            "num_switches": 1288,
+            "num_fragmentations": 2692,
+            "num_objects": 229506
+          },
+          "source_metrics_and_SHA_rechecked": true
+        },
+        {
+          "arm": "A02_semantic",
+          "SRC": true,
+          "EGIA": false,
+          "birth_class_gate": 0.7,
+          "summary_fusion": false,
+          "source_family": "frozen_online_ablation",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A02_semantic/tracking_metrics.json",
+            "sha256": "f6b5def4faecdbe83ca4736511e82976e44162d56fc6e1c4878cdc186f23de5e"
+          },
+          "receipt": {
+            "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A02_semantic/receipt.json",
+            "sha256": "0a1e03ef59cc3f997020c7da94e2805a084f011d4a26266280f8313ec5b2f32d"
+          },
+          "metrics": {
+            "mota": 0.5755666518522391,
+            "idf1": 0.7087104247471969,
+            "num_false_positives": 28701,
+            "num_misses": 67722,
+            "num_switches": 987,
+            "num_fragmentations": 2502,
+            "num_objects": 229506
+          },
+          "source_metrics_and_SHA_rechecked": true
+        },
+        {
+          "arm": "egia",
+          "SRC": false,
+          "EGIA": true,
+          "birth_class_gate": 0.7,
+          "summary_fusion": false,
+          "source_family": "native_branch_refit",
+          "metrics_source": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_factorial_20260930_v1/scores/egia.json",
+            "sha256": "35aef851b1e4c1d2d718832f21f25cbf9a608e8d6a13151ccc64a4e0dd2e46ae"
+          },
+          "receipt": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_factorial_20260930_v1/egia_receipt.json",
+            "sha256": "036159901ad55abbb9d5ede760573d6cdfb04ff87259988460a59e38c6e0fdc2"
+          },
+          "metrics": {
+            "mota": 0.5752660061174871,
+            "idf1": 0.7106783640421647,
+            "num_false_positives": 25849,
+            "num_misses": 70865,
+            "num_switches": 765,
+            "num_fragmentations": 2347,
+            "num_objects": 229506
+          },
+          "source_metrics_and_SHA_rechecked": true
+        },
+        {
+          "arm": "A06_full",
+          "SRC": true,
+          "EGIA": true,
+          "birth_class_gate": 0.7,
+          "summary_fusion": true,
+          "source_family": "frozen_online_ablation",
+          "metrics_source": {
+            "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A06_full/tracking_metrics.json",
+            "sha256": "26c69852b1c914435c8a66085066cd2ebb68764c5c729b8a77b092c4bc9b0ea0"
+          },
+          "receipt": {
+            "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A06_full/receipt.json",
+            "sha256": "a29aee6cca16da5fb826ea36deccbc4f4d3ec5700e478cf56e0b5127f2c98fa5"
+          },
+          "metrics": {
+            "mota": 0.5802506252559846,
+            "idf1": 0.7137370596926572,
+            "num_false_positives": 26047,
+            "num_misses": 69497,
+            "num_switches": 791,
+            "num_fragmentations": 2357,
+            "num_objects": 229506
+          },
+          "source_metrics_and_SHA_rechecked": true
+        }
+      ],
+      "selection": {
+        "metric_priority": [
+          "mota",
+          "idf1"
+        ],
+        "selected_gate": 0.7,
+        "evaluation_split": "test-dev",
+        "models_refit_for_each_gate": true
+      },
+      "protocol": {
+        "SRC_includes_gate": 0.7,
+        "EGIA_refit": "native residuals without SRC; SRC-conditioned residuals with SRC; fit39/cal8 training split",
+        "summary_fusion": "off in EGIA-only; frozen weight 0.40 in full configuration",
+        "scope": "deployment configuration comparison; different EGIA fitting and fusion settings; not independent module main effects or interactions",
+        "primary_full_result_unchanged": true,
+        "source_only": "A02 uses birth-time belief initialization consistent with the full online adapter"
+      }
+    },
+    "module_ablation_refit_comparison.json": {
+      "record": {
+        "path": "/home/chenhc/src_egia_icme_paper/research/module_ablation_refit_comparison.json",
+        "sha256": "67ee91c8fdc13393889777477cb3287fedd9806f65c5713d1817eac5f7e425f6"
+      },
+      "rows": [
+        {
+          "arm": "native_nogate",
+          "SRC": false,
+          "EGIA": false,
+          "birth_class_gate": 0,
+          "summary_fusion": false,
+          "source_family": "branch_refit",
+          "metrics_source": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_nogate_20260930_v1/scores/native_nogate.json",
+            "sha256": "40d93540b192645ab7d4ed3e737aaf15b739675b7446fabcc956d7004ac83b02"
+          },
+          "receipt": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_nogate_20260930_v1/native_nogate_receipt.json",
+            "sha256": "0d4f5f25325f11c487bad3c86ac0f4ff272332cb28272569c7a063325ecc7eb8"
+          },
+          "metrics": {
+            "mota": 0.5592751387763283,
+            "idf1": 0.6993606417549573,
+            "num_false_positives": 33216,
+            "num_misses": 66645,
+            "num_switches": 1288,
+            "num_fragmentations": 2692,
+            "num_objects": 229506
+          },
+          "source_metrics_and_SHA_rechecked": true
+        },
+        {
+          "arm": "src",
+          "SRC": true,
+          "EGIA": false,
+          "birth_class_gate": 0.7,
+          "summary_fusion": false,
+          "source_family": "branch_refit",
+          "metrics_source": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_factorial_20260930_v1/scores/src.json",
+            "sha256": "5ef3903b38d45018af0c5e2ac54b4f1a52b5c21f6e3a38da94210626f11abebd"
+          },
+          "receipt": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_factorial_20260930_v1/src_receipt.json",
+            "sha256": "b8c3300f21b810c173d7017d0b8374c4961514039dc69497712f9fab38d9c274"
+          },
+          "metrics": {
+            "mota": 0.5756668670971565,
+            "idf1": 0.7087250559603753,
+            "num_false_positives": 28658,
+            "num_misses": 67730,
+            "num_switches": 999,
+            "num_fragmentations": 2506,
+            "num_objects": 229506
+          },
+          "source_metrics_and_SHA_rechecked": true
+        },
+        {
+          "arm": "egia",
+          "SRC": false,
+          "EGIA": true,
+          "birth_class_gate": 0.7,
+          "summary_fusion": false,
+          "source_family": "branch_refit",
+          "metrics_source": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_factorial_20260930_v1/scores/egia.json",
+            "sha256": "35aef851b1e4c1d2d718832f21f25cbf9a608e8d6a13151ccc64a4e0dd2e46ae"
+          },
+          "receipt": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_factorial_20260930_v1/egia_receipt.json",
+            "sha256": "036159901ad55abbb9d5ede760573d6cdfb04ff87259988460a59e38c6e0fdc2"
+          },
+          "metrics": {
+            "mota": 0.5752660061174871,
+            "idf1": 0.7106783640421647,
+            "num_false_positives": 25849,
+            "num_misses": 70865,
+            "num_switches": 765,
+            "num_fragmentations": 2347,
+            "num_objects": 229506
+          },
+          "source_metrics_and_SHA_rechecked": true
+        },
+        {
+          "arm": "both",
+          "SRC": true,
+          "EGIA": true,
+          "birth_class_gate": 0.7,
+          "summary_fusion": false,
+          "source_family": "branch_refit",
+          "metrics_source": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_factorial_20260930_v1/scores/both.json",
+            "sha256": "52d2ce8ff107ca412695ac641e8fcb95575bf5f3a734e6a828cdd6367f7062b6"
+          },
+          "receipt": {
+            "path": "/home/chenhc/src_egia_belief_20260923/artifacts/visdrone_u2mot_v5_factorial_20260930_v1/both_receipt.json",
+            "sha256": "016a4e01d9f7ed7aafd26c10be1e6cde8521770c9fb41e59264da91dc5591d9f"
+          },
+          "metrics": {
+            "mota": 0.5780023180221867,
+            "idf1": 0.7123253932801313,
+            "num_false_positives": 25614,
+            "num_misses": 70481,
+            "num_switches": 756,
+            "num_fragmentations": 2337,
+            "num_objects": 229506
+          },
+          "source_metrics_and_SHA_rechecked": true
+        }
+      ],
+      "selection": {
+        "metric_priority": [
+          "mota",
+          "idf1"
+        ],
+        "selected_gate": 0.7,
+        "evaluation_split": "test-dev",
+        "models_refit_for_each_gate": true
+      },
+      "protocol": {
+        "SRC_includes_gate": 0.7,
+        "EGIA_refit": "native residuals without SRC; SRC-conditioned residuals with SRC; fit39/cal8 training split",
+        "summary_fusion": false,
+        "scope": "module-configuration comparison; not fixed-head gate-only effect",
+        "primary_full_result_unchanged": true
+      }
+    }
+  },
+  "existing_admission_policy_controls": [
+    {
+      "arm": "A04_coherence",
+      "recorded_status": "PASS_ABLATION_ARM_COMPLETE",
+      "metrics_source": {
+        "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A04_coherence/tracking_metrics.json",
+        "sha256": "f48ad3b6b7250ddf0dae13d5c66453b17c636283ee9f09613572564ace1824fd"
+      },
+      "receipt": {
+        "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A04_coherence/receipt.json",
+        "sha256": "5788f25eff9ea10625e00811033ba1392f12a7f4c9c0d8df3ffa1acc42c616fe"
+      },
+      "metrics": {
+        "mota": 0.5762943016740303,
+        "idf1": 0.7092705766387383,
+        "num_false_positives": 21723,
+        "num_misses": 74935,
+        "num_switches": 585,
+        "num_fragmentations": 2074,
+        "num_objects": 229506
+      },
+      "metrics_equal_receipt": true,
+      "all_prediction_SHA_match_score": true,
+      "prediction_count": 17,
+      "prediction_files_equal_to_current_F00": 0
+    },
+    {
+      "arm": "A05_selective",
+      "recorded_status": "PASS_ABLATION_ARM_COMPLETE",
+      "metrics_source": {
+        "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A05_selective/tracking_metrics.json",
+        "sha256": "05d4a48c3d397d7a1cd59745476489689b0dde1e3dfbfc5ab4cff686720ac3dc"
+      },
+      "receipt": {
+        "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A05_selective/receipt.json",
+        "sha256": "63afd41a80505427289d6bb08054e73a1c0f1826a8e49664e8aace18f97dfba3"
+      },
+      "metrics": {
+        "mota": 0.5795534757261248,
+        "idf1": 0.7133094946652145,
+        "num_false_positives": 25865,
+        "num_misses": 69865,
+        "num_switches": 765,
+        "num_fragmentations": 2344,
+        "num_objects": 229506
+      },
+      "metrics_equal_receipt": true,
+      "all_prediction_SHA_match_score": true,
+      "prediction_count": 17,
+      "prediction_files_equal_to_current_F00": 0
+    },
+    {
+      "arm": "A06_full",
+      "recorded_status": "PASS_ABLATION_ARM_COMPLETE",
+      "metrics_source": {
+        "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A06_full/tracking_metrics.json",
+        "sha256": "26c69852b1c914435c8a66085066cd2ebb68764c5c729b8a77b092c4bc9b0ea0"
+      },
+      "receipt": {
+        "path": "/home/chenhc/leaf_ablation_20260930_v1/YOLOX_outputs/A06_full/receipt.json",
+        "sha256": "a29aee6cca16da5fb826ea36deccbc4f4d3ec5700e478cf56e0b5127f2c98fa5"
+      },
+      "metrics": {
+        "mota": 0.5802506252559846,
+        "idf1": 0.7137370596926572,
+        "num_false_positives": 26047,
+        "num_misses": 69497,
+        "num_switches": 791,
+        "num_fragmentations": 2357,
+        "num_objects": 229506
+      },
+      "metrics_equal_receipt": true,
+      "all_prediction_SHA_match_score": true,
+      "prediction_count": 17,
+      "prediction_files_equal_to_current_F00": 17
+    }
+  ],
+  "evidence_boundaries": [
+    "Manuscript four-row module table compares deployed configurations: SRC contains birth class-confidence gate 0.70; EGIA-only uses a native-branch refit without summary fusion; full uses frozen full fusion. It does not establish independent module main effects or additive interactions.",
+    "Pure-v5 refit comparison is separate: its SRC birth initialization differs from A02 and its refitted both lacks full fusion. It cannot replace manuscript A02/A06 or current F00 scores.",
+    "Frozen SRC cost includes coarse-class appearance mask plus learned semantic_penalty. Existing cost contrasts cannot attribute the full effect solely to learned semantic_penalty.",
+    "Hard-update and F00 have identical 17 prediction files and metrics; incremental MOT benefit of learned responsibility over hard update is not demonstrated.",
+    "With EGIA enabled, update_only and no_src predictions are identical. Frozen EGIA source/coherence and summary scorers ignore SRC belief fields; belief reaches trajectories through subsequent association cost.",
+    "F00 versus cost_only differs by one FP and has near-zero recurrent-update gain. Native N4 versus N2 differs by two FP and is slightly worse. Recurrent update is not established as necessary for current performance.",
+    "noSOE and pair_shuffle online controls are completed; they are distinct from the 8411 fixed-development-event NLL diagnostic.",
+    "Gated EGIA-only was retrospectively selected on test-dev with branch refits, not untouched calibration or a fixed-model gate-only effect.",
+    "A04/A05/A06 are existing selective/fusion controls in the current method development lineage; A06 matches current F00 predictions. Teacher-loading fields differ at fusion enablement. Reuse depends on declaring the actual deployment configuration, not claiming a generic host-independent effect.",
+    "These are local-evaluator test-dev diagnostics, not a new official-server score, independent replication, or significance claim. No legacy H2 score substitutes for current F00.",
+    "PLAN ONLY, cancellation and startup STOP files are preserved historical lineage; actual score files, receipts and prediction hashes establish N0-N5 completion.",
+    "The historical pure-v5 source audit records runner manifest drift and detector original-training provenance not independently re-established. Rechecking score/prediction hashes does not resolve those lineage limitations."
+  ],
+  "boundary_source_artifacts": [
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/artifacts/egia_existing_controls_audit.json",
+      "sha256": "28458ac2e6b2a89a1fa2c16e83dea90852792c1e99a3d63a512fb1725ea1eb22"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/main.tex",
+      "sha256": "86573478387d2ffeeb9e22617bda519fef3fbc2686d1717a72e15a6d7605d4d1"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/table_ablation.tex",
+      "sha256": "235cfedc7b361b4030dd4219ce31eee18b7dd64a29d50ec143c62a1b03443b0c"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/table_policy.tex",
+      "sha256": "25a67544b22f38be24800964ffc8c3efe0e57d736c3748798f8cfe4b8be0e115"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/research/module_ablation_source_audit.json",
+      "sha256": "9f3f836e620d61a8d400615badc318e25a6fbf274c40a328bf7ad33413d165de"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/research/source_pairing_verified.json",
+      "sha256": "f24e703a7b8f24c8fc4b3f7639df1eb29de35f4d6b8c1d113cfdbabcc650c982"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/research/policy_analysis.json",
+      "sha256": "010271ff8577078222fd190ba8190e7d99e0662869ca6cd40f31decc5922b901"
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/recovery_20261007_v1/COST_PATH_SCOPE_AUDIT.md",
+      "sha256": "d2fef815257f6dec986899a9cff7b166ddce390d9000bf562a0bad2b77224aac"
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/recovery_20261007_v1/STATE_CONSUMPTION_AUDIT.json",
+      "sha256": "a7ebb91b1d1cedd1cb7b084c2c4e5cc781c14dd3d9daf23ca543c74eb5e81346"
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/recovery_20261007_v1/FINAL_AUDIT.json",
+      "sha256": "6ce483e3e57494ec8aee0e30cdb28fc4d8a6c4f2026c1ae84dc4c0dbfe5a1589"
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/recovery_20261007_v1/RESULTS_FOR_AUTHOR.md",
+      "sha256": "ad33235fe976d321cd0e9e86b62e3dca0d42db317b3cfa0c7f3641d3318e7368"
+    }
+  ],
+  "status": "PASS_EXISTING_SOURCE_METRICS_AND_PREDICTION_HASHES_RECHECKED"
+}

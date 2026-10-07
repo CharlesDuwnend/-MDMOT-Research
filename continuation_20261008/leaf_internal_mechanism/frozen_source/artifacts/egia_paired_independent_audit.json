@@ -1,0 +1,24 @@
+{
+  "GPU_inference_started": false,
+  "created_utc": "2026-10-07T16:25:34.047195+00:00",
+  "exit_code": 0,
+  "fit_only_transforms_and_weights_verified": true,
+  "formal_metrics": false,
+  "gt_free_predict_event_verified": true,
+  "independent_paired_checks": 9,
+  "models_sha256": {
+    "Paired_Flat": "1d1435a22ef953824aff5b00770df543e4d7129d4ffec52d40000eaf667952e5",
+    "Paired_Hierarchical": "ea9398d740472d45ee51dc5052624427c38d7e8948c98f573bbf103bbbe394f8"
+  },
+  "preregistration_sha256": "16850f7ac1d9e5844299a3e864425fd7353419d8cde1ea245184bbda8ee751fe",
+  "revision1_failure_preserved": "/home/chenhc/leaf_internal_mechanism_20261008_v1/artifacts/phase2_failed_attempt1/failure.json",
+  "status": "PASS_THREE_ROUNDS_THREE_INDEPENDENT_PAIRED_CHECKS",
+  "stdout": "12 passed in 4.05s",
+  "test_command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONPATH=/home/chenhc/leaf_internal_mechanism_20261008_v1 /home/chenhc/.conda/envs/u2mot/bin/python -B -m pytest -q -p no:cacheprovider tests/test_egia_modes.py tests/test_paired_anchor_contract.py",
+  "test_files_sha256": {
+    "/home/chenhc/leaf_internal_mechanism_20261008_v1/tests/test_egia_modes.py": "db23f5074ffd42e844eb3578c1124854b49dd98a8cedb7504799758a65b1a629",
+    "/home/chenhc/leaf_internal_mechanism_20261008_v1/tests/test_paired_anchor_contract.py": "a3b390e58b1ee2dc49b68ff8c627bcb725a1cd6537ccce096eb0ef56090aff17"
+  },
+  "tests_passed": 12,
+  "train_receipt_sha256": "ad3cd772895568b1eaff1cc5d5768ed29e2eb1d5960d613d50a280641960e58c"
+}

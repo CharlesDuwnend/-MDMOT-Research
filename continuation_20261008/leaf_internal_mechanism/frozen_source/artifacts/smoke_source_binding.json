@@ -1,0 +1,12 @@
+{
+  "status": "VERIFIED_CURRENT_SMOKE_MANIFEST_CODE_BINDING",
+  "manifest_sha256": "c0608e0324511b10de5202684ec19f4993d1f6ff093b80aeb9e3f65e74400e64",
+  "smoke_receipt_sha256": "b95aeac34b73e54524d58d9a173f71c26edca9f4a5adaf516199998de3d82c67",
+  "smoke_arm_count": 6,
+  "per_arm_frames": 80,
+  "full_reference_80_frame_prediction_prefix_identical": true,
+  "all_six_input_stream_hashes_identical": true,
+  "all_frozen_files_current": true,
+  "gpu_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+  "gt_guard_scope": "specified test-dev annotation root through Python builtins.open, io.open and os.open; combined with static source review, not a universal native-file-IO monitor"
+}

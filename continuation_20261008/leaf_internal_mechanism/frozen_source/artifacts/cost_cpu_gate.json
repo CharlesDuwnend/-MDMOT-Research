@@ -1,0 +1,461 @@
+{
+  "completed_utc": "2026-10-07T16:21:26.095952+00:00",
+  "counter_contract": {
+    "all_cells": [
+      "factorial_assignment_verified_seams == association_seams",
+      "factorial_native_assignment_calls == association_seams",
+      "factorial_eligible_seams + factorial_empty_seams == association_seams"
+    ],
+    "fc_control": [
+      "native_assignment_control_seams == association_seams",
+      "src_semantic_penalty_calls == 0",
+      "src_cost_evaluation_calls == 0",
+      "factorial_mask_changed_edges == 0"
+    ],
+    "fc_full": [
+      "src_semantic_penalty_calls == factorial_eligible_seams",
+      "src_cost_evaluation_calls == factorial_eligible_seams",
+      "factorial_mask_on_seams == factorial_eligible_seams"
+    ],
+    "fc_mask_only": [
+      "src_semantic_penalty_calls == 0",
+      "src_cost_evaluation_calls == 0",
+      "factorial_mask_on_seams == factorial_eligible_seams"
+    ],
+    "fc_penalty_only": [
+      "src_semantic_penalty_calls == factorial_eligible_seams",
+      "src_cost_evaluation_calls == factorial_eligible_seams",
+      "factorial_mask_changed_edges == 0"
+    ],
+    "threshold": "factorial_illegal_edge_recoveries == 0; committed edges finite and cost <= unchanged seam threshold"
+  },
+  "formal_MOT_metrics": false,
+  "gpu_started_by_this_agent": false,
+  "initial_test_fixture_correction": {
+    "checks": [
+      "actual native iou_distance reads tlbr even with one empty side",
+      "embedding_distance returns empty matrix before feature reads",
+      "empty seam native/verified/model-call counters inspected"
+    ],
+    "detail": "Synthetic empty-seam namespaces lacked tlbr; corrected fixture to provide host geometry contract"
+  },
+  "input_audit": {
+    "fields": [
+      "input_stream_sha256",
+      "input_frames_hashed",
+      "input_records"
+    ],
+    "raw_array_dump_enabled": false,
+    "records": "per-frame exact dtype/shape/value/order SHA, image size and frame metadata, rolling SHA",
+    "schema": "leaf-online-input-v1"
+  },
+  "legacy_fixture_compatibility": {
+    "classified_as_new_operator_failure": false,
+    "detail": "Mock patches continuous_human_vehicle_semantic_cost without create=True; this attribute is absent in both copied and original src_cost_factorial host matching.py",
+    "implementation_checks": [
+      "copied test byte-identical to original source",
+      "missing attribute confirmed in original and new matching.py",
+      "belief/models.py SHA identical to original"
+    ],
+    "passed_tests": 4,
+    "status": "INHERITED_FIXTURE_INCOMPATIBLE_WITH_CANONICAL_HOST",
+    "subtest_errors": 4,
+    "test_file": "tests/test_internal_path_contract.py",
+    "tests_run": 5
+  },
+  "online_F00_prediction_parity": "PENDING_PARENT_RUNNER",
+  "sample_contracts": {
+    "fc_control": {
+      "assignment_mask_enabled": false,
+      "committed_assignment_cost": [
+        [
+          0.05,
+          0.01
+        ],
+        [
+          0.01,
+          0.05
+        ]
+      ],
+      "committed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "counts_after_commit": {
+        "association_added_vs_native_pairs": 0,
+        "association_changed_vs_native_seams": 0,
+        "association_edges": 4,
+        "association_finite_edges": 4,
+        "association_removed_vs_native_pairs": 0,
+        "association_seams": 1,
+        "belief_updates": 2,
+        "committed_changed_vs_native_seams": 0,
+        "committed_observations": 2,
+        "egia_source_probability_calls": 0,
+        "factorial_assignment_verified_seams": 1,
+        "factorial_eligible_seams": 1,
+        "factorial_empty_seams": 0,
+        "factorial_illegal_edge_recoveries": 0,
+        "factorial_mask_changed_edges": 0,
+        "factorial_mask_on_seams": 0,
+        "factorial_native_assignment_calls": 1,
+        "factorial_penalty_off_seams": 1,
+        "factorial_penalty_on_seams": 0,
+        "native_assignment_control_seams": 1,
+        "src_applied_edges": 0,
+        "src_cost_changed_vs_local_h2_edges": 0,
+        "src_cost_evaluation_calls": 0,
+        "src_nonzero_penalty_edges": 0,
+        "src_observation_probability_calls": 1,
+        "src_observation_probability_rows": 2,
+        "src_responsibility_calls": 1,
+        "src_responsibility_rows": 2,
+        "src_semantic_penalty_calls": 0
+      },
+      "native_assignment_cost": [
+        [
+          0.05,
+          0.01
+        ],
+        [
+          0.01,
+          0.05
+        ]
+      ],
+      "responsibility_features_from_original_masked_reference": [
+        [
+          0.2,
+          0.2,
+          0.01,
+          -0.15000000000000002,
+          -0.15000000000000002,
+          0.6000000000000001,
+          1.0986122886681096,
+          1.0986122886681096,
+          0.0
+        ],
+        [
+          0.2,
+          0.2,
+          0.01,
+          -0.15000000000000002,
+          -0.15000000000000002,
+          0.6000000000000001,
+          1.0986122886681096,
+          1.0986122886681096,
+          0.0
+        ]
+      ],
+      "semantic_penalty_enabled": false
+    },
+    "fc_full": {
+      "assignment_mask_enabled": true,
+      "committed_assignment_cost": [
+        [
+          0.05,
+          0.776
+        ],
+        [
+          0.776,
+          0.05
+        ]
+      ],
+      "committed_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "counts_after_commit": {
+        "association_added_vs_native_pairs": 2,
+        "association_changed_vs_native_seams": 1,
+        "association_edges": 4,
+        "association_finite_edges": 4,
+        "association_removed_vs_native_pairs": 2,
+        "association_seams": 1,
+        "belief_updates": 2,
+        "committed_changed_vs_native_seams": 1,
+        "committed_observations": 2,
+        "egia_source_probability_calls": 0,
+        "factorial_assignment_verified_seams": 1,
+        "factorial_eligible_seams": 1,
+        "factorial_empty_seams": 0,
+        "factorial_illegal_edge_recoveries": 0,
+        "factorial_mask_changed_edges": 2,
+        "factorial_mask_on_seams": 1,
+        "factorial_native_assignment_calls": 1,
+        "factorial_penalty_off_seams": 0,
+        "factorial_penalty_on_seams": 1,
+        "src_applied_edges": 4,
+        "src_cost_changed_vs_local_h2_edges": 2,
+        "src_cost_evaluation_calls": 1,
+        "src_nonzero_penalty_edges": 2,
+        "src_observation_probability_calls": 1,
+        "src_observation_probability_rows": 2,
+        "src_responsibility_calls": 1,
+        "src_responsibility_rows": 2,
+        "src_semantic_penalty_calls": 1
+      },
+      "native_assignment_cost": [
+        [
+          0.05,
+          0.01
+        ],
+        [
+          0.01,
+          0.05
+        ]
+      ],
+      "responsibility_features_from_original_masked_reference": [
+        [
+          0.05,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.75,
+          1.0986122886681096,
+          1.0986122886681096,
+          0.0
+        ],
+        [
+          0.05,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.75,
+          1.0986122886681096,
+          1.0986122886681096,
+          0.0
+        ]
+      ],
+      "semantic_penalty_enabled": true
+    },
+    "fc_mask_only": {
+      "assignment_mask_enabled": true,
+      "committed_assignment_cost": [
+        [
+          0.05,
+          0.2
+        ],
+        [
+          0.2,
+          0.05
+        ]
+      ],
+      "committed_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "counts_after_commit": {
+        "association_added_vs_native_pairs": 2,
+        "association_changed_vs_native_seams": 1,
+        "association_edges": 4,
+        "association_finite_edges": 4,
+        "association_removed_vs_native_pairs": 2,
+        "association_seams": 1,
+        "belief_updates": 2,
+        "committed_changed_vs_native_seams": 1,
+        "committed_observations": 2,
+        "egia_source_probability_calls": 0,
+        "factorial_assignment_verified_seams": 1,
+        "factorial_eligible_seams": 1,
+        "factorial_empty_seams": 0,
+        "factorial_illegal_edge_recoveries": 0,
+        "factorial_mask_changed_edges": 2,
+        "factorial_mask_on_seams": 1,
+        "factorial_native_assignment_calls": 1,
+        "factorial_penalty_off_seams": 1,
+        "factorial_penalty_on_seams": 0,
+        "src_applied_edges": 4,
+        "src_cost_changed_vs_local_h2_edges": 2,
+        "src_cost_evaluation_calls": 0,
+        "src_nonzero_penalty_edges": 0,
+        "src_observation_probability_calls": 1,
+        "src_observation_probability_rows": 2,
+        "src_responsibility_calls": 1,
+        "src_responsibility_rows": 2,
+        "src_semantic_penalty_calls": 0
+      },
+      "native_assignment_cost": [
+        [
+          0.05,
+          0.01
+        ],
+        [
+          0.01,
+          0.05
+        ]
+      ],
+      "responsibility_features_from_original_masked_reference": [
+        [
+          0.05,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.75,
+          1.0986122886681096,
+          1.0986122886681096,
+          0.0
+        ],
+        [
+          0.05,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.75,
+          1.0986122886681096,
+          1.0986122886681096,
+          0.0
+        ]
+      ],
+      "semantic_penalty_enabled": false
+    },
+    "fc_penalty_only": {
+      "assignment_mask_enabled": false,
+      "committed_assignment_cost": [
+        [
+          0.05,
+          0.7228
+        ],
+        [
+          0.7228,
+          0.05
+        ]
+      ],
+      "committed_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "counts_after_commit": {
+        "association_added_vs_native_pairs": 2,
+        "association_changed_vs_native_seams": 1,
+        "association_edges": 4,
+        "association_finite_edges": 4,
+        "association_removed_vs_native_pairs": 2,
+        "association_seams": 1,
+        "belief_updates": 2,
+        "committed_changed_vs_native_seams": 1,
+        "committed_observations": 2,
+        "egia_source_probability_calls": 0,
+        "factorial_assignment_verified_seams": 1,
+        "factorial_eligible_seams": 1,
+        "factorial_empty_seams": 0,
+        "factorial_illegal_edge_recoveries": 0,
+        "factorial_mask_changed_edges": 0,
+        "factorial_mask_on_seams": 0,
+        "factorial_native_assignment_calls": 1,
+        "factorial_penalty_off_seams": 0,
+        "factorial_penalty_on_seams": 1,
+        "src_applied_edges": 4,
+        "src_cost_changed_vs_local_h2_edges": 2,
+        "src_cost_evaluation_calls": 1,
+        "src_nonzero_penalty_edges": 2,
+        "src_observation_probability_calls": 1,
+        "src_observation_probability_rows": 2,
+        "src_responsibility_calls": 1,
+        "src_responsibility_rows": 2,
+        "src_semantic_penalty_calls": 1
+      },
+      "native_assignment_cost": [
+        [
+          0.05,
+          0.01
+        ],
+        [
+          0.01,
+          0.05
+        ]
+      ],
+      "responsibility_features_from_original_masked_reference": [
+        [
+          0.05,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.75,
+          1.0986122886681096,
+          1.0986122886681096,
+          0.0
+        ],
+        [
+          0.05,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.75,
+          1.0986122886681096,
+          1.0986122886681096,
+          0.0
+        ]
+      ],
+      "semantic_penalty_enabled": true
+    }
+  },
+  "scope": "Synthetic CPU mask/penalty factorial contracts only",
+  "source_sha256": {
+    "belief/online.py": "67c97ea1128b8ac0fbfcc50331e831b2f555c010cb2f974f96c757b12e28dbe0",
+    "belief/runtime.py": "f2aebe07daf9a65ae5a771a8574e8962ea5b7edcafca5fc8b422fb8ffba5f12f",
+    "tests/test_cost_factors.py": "dd0ef5a77f2a2b79b32ee847c13e873206acdbf57573e011b0f28d8af3261a36"
+  },
+  "status": "CPU_GATE_PASS",
+  "test_results": {
+    "cost_factor_tests": {
+      "command": "/home/chenhc/.conda/envs/u2mot/bin/python -m unittest discover -s tests -p test_cost_factors.py -v",
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "test_names": [
+        "test_all_cells_use_original_masked_reference_for_responsibility",
+        "test_birth_initialization_and_report_are_preserved_in_all_four_cells",
+        "test_digest_is_order_dtype_shape_and_value_sensitive",
+        "test_each_factor_only_changes_its_assignment_operator",
+        "test_empty_seams_are_native_and_never_call_semantic_models",
+        "test_hash_ledger_leaves_host_inputs_and_output_order_unchanged",
+        "test_invalid_negative_penalty_is_stopped",
+        "test_iou_only_has_no_mask_effect_and_retains_reference_features",
+        "test_mismatched_native_seam_stops_instead_of_faking_a_control",
+        "test_off_off_returns_actual_native_assignment_and_counts_real_seam",
+        "test_penalty_can_reject_but_never_create_a_threshold_illegal_edge",
+        "test_per_frame_ledger_is_serializable_and_rejects_repeated_frames",
+        "test_real_constructor_preserves_state_and_frozen_context_in_every_cell",
+        "test_unresolved_detection_ordinal_stops_before_model_or_assignment",
+        "test_update_waits_for_host_commit_and_preserves_frozen_formula"
+      ],
+      "tests_run": 15
+    },
+    "existing_operator_audit": {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "tests_run": 2
+    }
+  }
+}

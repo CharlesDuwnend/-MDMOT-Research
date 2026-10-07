@@ -1,0 +1,154 @@
+{
+  "GPU_inference_started": false,
+  "base_model_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+  "calibration_metrics_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/artifacts/phase2_head_calibration_metrics.json",
+  "calibration_metrics_sha256": "8b089b5d406e9fac4cd492fd9447aa36b028ff4a3ceb00cdd45f4ade785e036e",
+  "calibration_rows": 8411,
+  "calibration_used_for_fit_or_selection": false,
+  "checks": [
+    {
+      "detail": {
+        "prereg_sha256": "16850f7ac1d9e5844299a3e864425fd7353419d8cde1ea245184bbda8ee751fe",
+        "sources": 13
+      },
+      "name": "source_hashes_sealed_before_fit",
+      "round": 1,
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "calibration_rows": 8411,
+        "calibration_sequences": 8,
+        "fit_rows": 8024,
+        "fit_sequences": 39,
+        "flight_overlap": []
+      },
+      "name": "actual_membership_and_label_support",
+      "round": 1,
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "common_weight_sha256": "d6af4359f85caeb4ab704bd0b33e08f173c4d9fd1e1d2e25bc49d02dae482c56",
+        "no_subset_normalization": true
+      },
+      "name": "independent_weight_reconstruction",
+      "round": 1,
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "fit_rows": 8024,
+        "scaler_object_sha256": "026e1e343cfd2e4164490acb9e4a9510ea8675083e1adc3d836df83b215fc4e0"
+      },
+      "name": "shared_fit_only_scaler_in_all_three_pipelines",
+      "round": 2,
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "n_iter": [
+          [
+            11
+          ],
+          [
+            8
+          ],
+          [
+            7
+          ]
+        ],
+        "parameters": {
+          "C": 1.0,
+          "class_weight": null,
+          "fit_intercept": true,
+          "max_iter": 2000,
+          "penalty": "l2",
+          "random_state": 20260923,
+          "solver": "lbfgs",
+          "tol": 0.0001
+        }
+      },
+      "name": "fixed_estimator_parameters_and_convergence",
+      "round": 2,
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "flat_max_error": 0.0,
+        "hierarchical_absolute_tolerance": 1e-15
+      },
+      "name": "posterior_matches_independent_transformed_estimator_path",
+      "round": 2,
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "models": [
+          {
+            "anchor_sha256": "0f4991a0da8542ffc6f7684225069eec601b0a82d8d30792441ef575b766f3f7",
+            "name": "Paired_Flat",
+            "only_changed_nested_field": "source_model.anchor",
+            "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/models/Paired_Flat.pkl",
+            "sha256": "1d1435a22ef953824aff5b00770df543e4d7129d4ffec52d40000eaf667952e5"
+          },
+          {
+            "anchor_sha256": "d9139cdc7fce4a2c117d1ba570bcbe7c757a2ee85bf4adfddf5e7bae4c71eb89",
+            "name": "Paired_Hierarchical",
+            "only_changed_nested_field": "source_model.anchor",
+            "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/models/Paired_Hierarchical.pkl",
+            "sha256": "ea9398d740472d45ee51dc5052624427c38d7e8948c98f573bbf103bbbe394f8"
+          }
+        ]
+      },
+      "name": "serialized_bundle_only_changes_source_anchor",
+      "round": 3,
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "calibration_rows": 8411,
+        "selection_performed": false
+      },
+      "name": "fit_and_calibration_posteriors_valid_without_selection",
+      "round": 3,
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "prereg_sha256": "16850f7ac1d9e5844299a3e864425fd7353419d8cde1ea245184bbda8ee751fe"
+      },
+      "name": "preregistration_and_protected_sources_unchanged",
+      "round": 3,
+      "status": "PASS"
+    }
+  ],
+  "completed_utc": "2026-10-07T16:22:49.709754+00:00",
+  "coverage_fit_rows": 6093,
+  "detector_or_ReID_training": false,
+  "fit_rows": 8024,
+  "formal_metrics": false,
+  "models": [
+    {
+      "anchor_sha256": "0f4991a0da8542ffc6f7684225069eec601b0a82d8d30792441ef575b766f3f7",
+      "name": "Paired_Flat",
+      "only_changed_nested_field": "source_model.anchor",
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/models/Paired_Flat.pkl",
+      "sha256": "1d1435a22ef953824aff5b00770df543e4d7129d4ffec52d40000eaf667952e5"
+    },
+    {
+      "anchor_sha256": "d9139cdc7fce4a2c117d1ba570bcbe7c757a2ee85bf4adfddf5e7bae4c71eb89",
+      "name": "Paired_Hierarchical",
+      "only_changed_nested_field": "source_model.anchor",
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/models/Paired_Hierarchical.pkl",
+      "sha256": "ea9398d740472d45ee51dc5052624427c38d7e8948c98f573bbf103bbbe394f8"
+    }
+  ],
+  "prepared_sha256": "e126f0ebcbb284985eb8bfd43c6bcaec4dc401fe7e507960518ea59fafde055d",
+  "preregistration_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/PHASE2_HEAD_PREREGISTRATION.json",
+  "preregistration_sha256": "16850f7ac1d9e5844299a3e864425fd7353419d8cde1ea245184bbda8ee751fe",
+  "status": "COMPLETE_PAIRED_ANCHOR_FIT_AND_NINE_CPU_CONTRACTS",
+  "testdev_used_for_fit_or_selection": false,
+  "training_data_only": true,
+  "training_program_sha256": "9bb4590b37032fb5ccc7570e7839216c12fc4f32cea0c9ca75f092088af600f2"
+}
