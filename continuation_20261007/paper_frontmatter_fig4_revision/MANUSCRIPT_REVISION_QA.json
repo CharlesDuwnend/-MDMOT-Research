@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "work_root": "/home/chenhc/src_egia_icme_paper/output/pdf/paper_frontmatter_fig4_revision_20261007",
+  "backup_sha256": {
+    "main.tex": "94fb16a94f8be8b299df4d3fb137b2dd68be790e5b521d7b7b9f18209bd256ea",
+    "main.pdf": "9f7d1eaa911a04c37748d7cd7dbe819dc46e0dd9931f3aef7ac800b2a387c3fb",
+    "main.aux": "e03a69b0affd909b65a375278bba94de2e48e765980422820620a3cfb54a5f35",
+    "main.log": "99cc54c175fb3d59bc9e50e82a8b06184e562b989ea2faaa0fbb32c88527520b",
+    "main.bbl": "114d8f5df8bd5b3d2f3a3aaa600188dea542acd4de77cccce5dec75d63881fe3",
+    "scripts/build_intro_bubble.py": "083992756e95c7bcb4a7e3ad148ad9e4627faa9c2e58dcb429bdced942c94331",
+    "figures/intro_bubble/v4single/figure_caption.txt": "88b960b81619186e64658d0d3e1b3cd2443f3e0e0014771284f1b7dd93b8772f",
+    "research/figure_case_audit.json": "c3a11d2fe9436f079d19be84f1583b24e1bef1687ac38a55c3c9bd35e5466120",
+    "research/figure_case_audit.md": "359e5c9e4973f6cd78e7759f9b0c454bca4c949086e45467c4223a6815b0f1f2"
+  },
+  "protected_sha256": {
+    "/home/chenhc/src_egia_icme_paper/table1.tex": "e7f81f990e6a348a823bdbee8b8f6916e82e36b7e8eaebe8ef4da8ab707b0528",
+    "/home/chenhc/src_egia_icme_paper/table_ablation.tex": "235cfedc7b361b4030dd4219ce31eee18b7dd64a29d50ec143c62a1b03443b0c",
+    "/home/chenhc/src_egia_icme_paper/table_transfer.tex": "8230aad51805e66092503d1b3d20e22b87f40d04f39a174f1654f5c86da7bf7f",
+    "/home/chenhc/src_egia_icme_paper/table_policy.tex": "25a67544b22f38be24800964ffc8c3efe0e57d736c3748798f8cfe4b8be0e115",
+    "/home/chenhc/src_egia_icme_paper/references.bib": "d60f06a8a4d25a80679ed2bde2e0d44043f6282fcc67b732f3da260e497cb1ad",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation.pdf": "a0e064576638a1b56368ec8f88309b1696c6ba624916d5d73d41bd16a6e834df",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v8/src_semantic_response_triptych.pdf": "936f9eca7db0df235b867acf2c200d2001fd964a635104c91d9cbd28d922ab92",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases.pdf": "cbdfe31b520da6c6bd12437841cf0b2e64b2c36b1c8055e7ada808be68c2f7c1",
+    "/home/chenhc/src_egia_icme_paper/scripts/build_paper_case_figures.py": "514e4119fcd9e5906d2f2a0d509ac1e371d565b53fd94fd3609a073dc666e85c",
+    "/home/chenhc/src_egia_icme_paper/figures/intro_bubble/v4single/qa.json": "95200fd4ad7f1985fb537e42df1568367df5e84cbf49fccfc3b2abc089603a7d",
+    "/home/chenhc/src_egia_icme_paper/figures/intro_bubble/v4single/publication_audit.json": "7bcf5e3eb72932c4f0666884193b995d64d4cd853d63ac91fafc40bb8abdb6d5",
+    "/home/chenhc/src_egia_icme_paper/figures/intro_bubble/v4single/intro_bubble.svg": "92dede55bce5f74f76ae19961f19e7beef9f9adaae11b0ee5077db058471bac1",
+    "/home/chenhc/src_egia_icme_paper/figures/intro_bubble/v4single/intro_bubble.pdf": "9fae7f9397038aff7ad2b187928dba0c25778bf9ed4686b9cf1b2c3054dfde82",
+    "/home/chenhc/src_egia_icme_paper/figures/intro_bubble/v4single/preview_grayscale.png": "44327ace3844b4b1ccb8b68454b7f10a87e18c8e902a20c61e88b22551edc904",
+    "/home/chenhc/src_egia_icme_paper/figures/intro_bubble/v4single/intro_bubble_data.csv": "40375a0fc296da4db1b15f7328e5558ee9e62ba8c6eb822f04f7f32ea625160b",
+    "/home/chenhc/src_egia_icme_paper/figures/intro_bubble/v4single/actual_size_150dpi.png": "d864f401e74d59851e6147865830c52c1d475023b9619063cb7845b7571e277a",
+    "/home/chenhc/src_egia_icme_paper/figures/intro_bubble/v4single/preview.png": "a20dd426e2aad7af4804b7fd79f2bf0a5dc46919d40fdcdcec69be2a2ec2bb6f"
+  },
+  "experiment_section_unchanged": true,
+  "experiment_section_sha256": "78e2e971ea02fa3bfa25c07af260d1927e09af4fc6f919ebd09bdab63a5fe1d7",
+  "figure_graphics_and_benchmark_data_unchanged": true,
+  "abstract_metrics_preserved": [
+    "58.03% MOTA",
+    "71.37% IDF1",
+    "+2.10 MOTA",
+    "+1.44 IDF1",
+    "-21.5% FP",
+    "-38.6% IDs",
+    "+0.61 UAVDT MOTA"
+  ],
+  "new_claims_of_baseline_independence": false,
+  "fig4_evidence_boundary": {
+    "a": "illustrative five classes; actual state has two groups",
+    "b": "analytic response using fixed pre-assignment beliefs",
+    "c": "selected closed frozen-calibration component on a fixed state",
+    "base_optimal_assignment_count": 2,
+    "src_optimal_assignment_count": 1,
+    "threshold_unchanged": 0.8,
+    "formal_metrics_or_new_online_inference": false,
+    "reported_conflicting_cost_changes": [
+      [
+        0.013,
+        0.989
+      ],
+      [
+        0.031,
+        0.992
+      ]
+    ]
+  },
+  "completed_asia_shanghai": "2026-10-07T23:48:35.567182+08:00",
+  "final_main_pdf_sha256": "ed6b2164ae8c577244046c7813fc26a5a7e87b1604ead8ee753025575364b225",
+  "final_main_tex_sha256": "86573478387d2ffeeb9e22617bda519fef3fbc2686d1717a72e15a6d7605d4d1",
+  "pages": 9,
+  "figure_labels": {
+    "fig:motivation": {
+      "figure_number": 1,
+      "page": 2
+    },
+    "fig:bubble": {
+      "figure_number": 2,
+      "page": 2
+    },
+    "fig:overview": {
+      "figure_number": 3,
+      "page": 3
+    },
+    "fig:semantic_analysis": {
+      "figure_number": 4,
+      "page": 5
+    },
+    "fig:qualitative": {
+      "figure_number": 5,
+      "page": 8
+    }
+  },
+  "latex_qa": {
+    "passes": 2,
+    "unresolved_references_or_citations": false,
+    "overfull_boxes": false,
+    "underfull_vbox_badness": [
+      "10000",
+      "1430",
+      "10000"
+    ],
+    "underfull_layout_visually_reviewed": true,
+    "all_fonts_embedded": true
+  },
+  "visual_review": {
+    "all_nine_pages": true,
+    "pages_1_2_5_8_at_120dpi": true,
+    "fig5_96dpi_grayscale": true
+  },
+  "independent_frontmatter_review": "PASS: paired comparisons and host-specific adaptations supported by tables and settings",
+  "fig4_independent_case_audit_path": "/home/chenhc/claude_try_MDMOT/continuation_20261007/src_assignment_visuals/INDEPENDENT_CASE_AUDIT.json",
+  "fig4_independent_case_audit_sha256": "e6ae05ef4ce3886bb079f1a281125b846c7656937305795b0bcebc21ab5c79ae",
+  "modified_file_sha256": {
+    "main.tex": "86573478387d2ffeeb9e22617bda519fef3fbc2686d1717a72e15a6d7605d4d1",
+    "scripts/build_intro_bubble.py": "677c04bbc6b758fd79359ab2719f301c4d1822b98373ace105f5ac28085db5a6",
+    "figures/intro_bubble/v4single/figure_caption.txt": "e748073395aaabc699fa3e23d32ac6f5511816b0b85c7779032a993d189f1469"
+  }
+}

@@ -1,0 +1,106 @@
+--- main.tex.before
++++ main.tex
+@@ -37,10 +37,10 @@
+ the pairing of geometric and appearance evidence with individual tracks,
+ thereby distinguishing agreement on one source from unrelated strong cues.
+ A selective decision rule balances duplicate suppression and target
+-coverage. On VisDrone2019 test-dev, \method{} with U2MOT reaches 58.03\%
+-MOTA and 71.37\% IDF1, improving the native tracker by 2.10 and 1.44
+-percentage points while reducing false positives by 21.5\% and identity
+-switches by 38.6\%. In the vehicle-centric UAVDT setting, MOTA improves by
++coverage. On VisDrone2019 test-dev, \method{} improves the native tracker by
++2.10 MOTA and 1.44 IDF1 percentage points, reaching 58.03\% and 71.37\%,
++respectively, with 21.5\% fewer false positives and 38.6\% fewer identity
++switches. In the vehicle-centric UAVDT setting, MOTA improves by
+ 0.61 points while false positives and identity switches also decrease.
+ \end{abstract}
+ 
+@@ -67,10 +67,10 @@
+ \centering
+ \vspace{-3pt}
+ \includegraphics[width=\textwidth]{motivation/motivation.pdf}
+-\caption{Illustrative redundant outputs on VisDrone2019 test-dev. (a) Native
+-U2MOT produces two overlapping tracks for a pedestrian, whereas Ours retains
+-one. (b) Native again produces two tracks for a vehicle, whereas Ours retains
+-one. Each pair shows the same crop under the two tracking outputs.}
++\caption{Illustrative redundant outputs on VisDrone2019 test-dev.
++Native produces two overlapping tracks for (a) a pedestrian and (b) a vehicle,
++whereas Ours retains one. Each pair shows the same crop under both tracking
++outputs.}
+ \label{fig:motivation}
+ \end{figure*}
+ 
+@@ -105,8 +105,10 @@
+ Semantic Reliability Control (SRC) and the admission intervention as
+ Evidence-Guided Identity Admission (EGIA).
+ 
+-For context, Fig.~\ref{fig:bubble} places the paired VisDrone result among
+-the reported methods using the same MOTA--IDF1 axes as Table~\ref{tab:main}.
++We assess \method{} through paired comparisons with each native tracker,
++including host-specific adaptations to ByteTrack and BoT-SORT
++(Table~\ref{tab:transfer}). Fig.~\ref{fig:bubble} places the VisDrone result
++among reported methods on the same MOTA--IDF1 axes as Table~\ref{tab:main}.
+ 
+ \begin{figure}[!t]
+ \centering
+@@ -114,8 +116,8 @@
+ \includegraphics[width=\columnwidth]{intro_bubble/v4single/intro_bubble.pdf}
+ \caption{MOTA, IDF1, and identity switches (IDs) on VisDrone2019 test-dev.
+ Bubble area is inversely proportional to IDs, so larger bubbles indicate
+-fewer switches. The displayed literature methods use their reported
+-configurations, while Ours is evaluated with the U2MOT host.}
++fewer switches. Displayed literature results follow their reported
++configurations.}
+ \label{fig:bubble}
+ \end{figure}
+ 
+@@ -284,17 +286,16 @@
+ \label{fig:semantic_analysis}
+ \end{figure*}
+ 
+-Fig.~\ref{fig:semantic_analysis} connects stored semantic evidence to candidate
+-cost refinement. Panel (a) illustrates how historical track evidence can
+-differ from an incoming detection; SRC aggregates this evidence into human
+-and vehicle groups. In (b), disagreement increases as the observation
+-contradicts the pre-assignment belief. Weaker beliefs incur smaller
+-penalties, while a prior-like belief is neutral. In the real calibration
+-component of (c), refinement raises the conflicting cross-owner costs above
+-the unchanged host threshold, resolving two tied base assignments into a
+-unique same-owner assignment. Reliability updates memory after a committed
+-match; disagreement and cost modulation use the beliefs available before
+-assignment.
++Fig.~\ref{fig:semantic_analysis} illustrates how stored semantic belief shapes
++candidate costs. Panel (a) presents schematic five-class evidence, aggregated
++into human and vehicle groups in the implementation. Panel (b) holds
++pre-assignment beliefs fixed: contradictory observations produce larger
++$u_{ij}$, halfway-to-prior beliefs halve the penalty, and prior-like belief is
++neutral. Panel (c) uses a closed $3\times3$ component from frozen calibration,
++where conflicting costs rise from $0.013$ to $0.989$ and from $0.031$ to
++$0.992$. At the unchanged $0.80$ threshold, two tied base optima become a
++unique same-owner optimum. Reliability controls the subsequent committed-match
++memory update. This example demonstrates cost refinement on a fixed state.
+ 
+ \subsection{Foreground and Coverage Factorization}
+ \label{sec:hierarchy}
+--- scripts/build_intro_bubble.py.before
++++ scripts/build_intro_bubble.py
+@@ -233,11 +233,9 @@
+         fig.savefig(OUT/'intro_bubble.pdf', facecolor='white')
+         fig.savefig(OUT/'intro_bubble.svg', facecolor='white')
+     plt.close(fig)
+-    caption = ('MOTA, IDF1, and identity switches on VisDrone2019 test-dev for 11 displayed methods. '
+-               'Bubble area is proportional to 1/IDs; larger bubbles indicate fewer switches. '
+-               'Every displayed method is labeled at its unchanged coordinates. '
+-               'MOTR, ByteTrack, and native U2MOT are omitted from this compact view; Table I is unchanged. '
+-               'MM-Tracker has no reported IDs. Other methods retain their reported configurations in Table I.\n')
++    caption = ('MOTA, IDF1, and identity switches (IDs) on VisDrone2019 test-dev. '
++               'Bubble area is inversely proportional to IDs, so larger bubbles indicate fewer switches. '
++               'Displayed literature results follow their reported configurations.\n')
+     (OUT/'figure_caption.txt').write_text(caption)
+     print(json.dumps(qa, indent=2))
+ 
+--- figures/intro_bubble/v4single/figure_caption.txt.before
++++ figures/intro_bubble/v4single/figure_caption.txt
+@@ -1 +1 @@
+-MOTA, IDF1, and identity switches on VisDrone2019 test-dev for 11 displayed methods. Bubble area is proportional to 1/IDs; larger bubbles indicate fewer switches. Every displayed method is labeled at its unchanged coordinates. MOTR, ByteTrack, and native U2MOT are omitted from this compact view; Table I is unchanged. MM-Tracker has no reported IDs. Other methods retain their reported configurations in Table I.
++MOTA, IDF1, and identity switches (IDs) on VisDrone2019 test-dev. Bubble area is inversely proportional to IDs, so larger bubbles indicate fewer switches. Displayed literature results follow their reported configurations.

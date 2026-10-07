@@ -1,0 +1,7 @@
+# Figure 5 bottom group labels
+
+Added centered `(a)` and `(b)` in 8 pt font beneath the left and right three-frame groups. The previously removed Vehicle/Pedestrian descriptive headings and Colored boxes footer remain absent. Frame numbers, Native/LEAF labels, all twelve original scene crops, predicted boxes and IDs are pixel-identical above the footer-marker band; all qualitative-case data remain exact.
+
+The renderer and standalone/manuscript captions use consistent a/b references. `add_labels.py` records the one-time change, backups and pixel/data checks; `paper_changes.patch` records the exact source difference. `FIG5_PANEL_LABEL_QA.json` stores actual vector marker bounds and final unified paper receipt. The pending label-phase main.tex hash is distinguished from the final hash after the authorized frontmatter/Figure 4 prose revision.
+
+The final nine-page manuscript embeds Figure 5 on page 8. Full-color figure, 180 mm / 96 dpi grayscale preview and actual manuscript page 8 were visually reviewed. All PDF words remain inside the canvas. Figure 1 and accepted Figure 4 graphics remain hash-identical. Backups are under `/home/chenhc/src_egia_icme_paper/output/pdf/fig5_bottom_panel_labels_20261007/`; final unified build/review files are under `/home/chenhc/src_egia_icme_paper/output/pdf/paper_frontmatter_fig4_revision_20261007/`. Source, patch and compact evidence are archived; full PDFs/images remain local.

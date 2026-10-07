@@ -1,0 +1,35 @@
+--- scripts/build_paper_case_figures.py.before
++++ scripts/build_paper_case_figures.py
+@@ -158,10 +158,13 @@
+             nr,ni=visible_predictions(n,gt,f);orr,oi=visible_predictions(o,gt,f)
+             window.append(dict(frame=f,native=[dict(id=int(r[1]),iou=float(v)) for r,v in zip(nr,ni)],leaf=[dict(id=int(r[1]),iou=float(v)) for r,v in zip(orr,oi)]))
+         case.update(checks=checks,continuous_window=window)
++    for idx,x0 in enumerate(origins):
++        group_center=x0+(3*pw+2*gap)/2
++        text(c,group_center,10,'(a)' if idx==0 else '(b)',8.0,center=True)
+     c.showPage();c.save();render_pdf(OUT/'qualitative_cases.pdf')
+     caption=('Qualitative tracking examples on VisDrone2019 test-dev. '
+-      'Left: Native maintains two overlapping tracks on a moving vehicle while Ours keeps one. '
+-      'Right: the Native identity changes during pedestrian motion whereas Ours preserves one identity. '
++      '(a) On a moving vehicle, Native maintains two overlapping tracks while Ours keeps one. '
++      '(b) On a pedestrian, the Native identity changes during motion whereas Ours preserves one identity. '
+       'Each column uses the same crop for both methods.\n')
+     (OUT/'figure_caption.txt').write_text(caption)
+     audit['qualitative_cases']=cases;audit['sources']=[dict(path=p,sha256=h) for p,h in sorted(all_sources.items())]
+--- main.tex.before
++++ main.tex
+@@ -546,10 +546,10 @@
+ \begin{figure*}[t]
+ \centering
+ \includegraphics[width=\textwidth]{qualitative/qualitative_cases.pdf}
+-\caption{Qualitative tracking examples on VisDrone2019 test-dev. Left:
+-Native maintains two overlapping tracks on a moving vehicle while Ours keeps
+-one. Right: the Native identity changes during pedestrian motion whereas
+-Ours preserves one identity. Each column uses the same crop for both methods.}
++\caption{Qualitative tracking examples on VisDrone2019 test-dev. (a) On a
++moving vehicle, Native maintains two overlapping tracks while Ours keeps one.
++(b) On a pedestrian, the Native identity changes during motion whereas Ours
++preserves one identity. Each column uses the same crop for both methods.}
+ \label{fig:qualitative}
+ \end{figure*}
+ 
