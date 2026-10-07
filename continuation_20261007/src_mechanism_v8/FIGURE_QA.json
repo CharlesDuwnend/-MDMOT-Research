@@ -1,0 +1,176 @@
+{
+  "status": "PASS_FINAL_CLEAN_LAYOUT_EXPORT_AND_PDF_REVIEW",
+  "script_sha256": "b7487634bf95221ad4953b90065bc65a94b97ce766350df71763c5a590d886c6",
+  "source_sha256": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261007/src_assignment_visuals/SELECTED_CASE.json": "c33cc794e42084191f759887f5e2ae7be9f609468f3b4d0ad630f950ec1a5b04",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261007/src_assignment_visuals/INDEPENDENT_CASE_AUDIT.json": "e6ae05ef4ce3886bb079f1a281125b846c7656937305795b0bcebc21ab5c79ae",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261007/src_assignment_visuals/plot_case.py": "d045be20e1d0881edd5775d5f7ccb2c941f01a8c177b74ce03300340af127a3c",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261007/src_mechanism_v6/build_semantic_response.py": "9ed289b654cfee639a28a80265d961908d0e925a068f029dc3483f9ad1d88c7b",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261007/src_fig4_palette/build_palette_variant.py": "8f2a36826bc68a67642189bece44fd66d13e757e8ec7a66818b25e4ba36250bf"
+  },
+  "previous_v7_receipt_sha256": "e5370d4aa9e773556aef420114979700550adc65dcf97a09b765632efde805ee",
+  "historical_semantics": {
+    "classes": [
+      "car",
+      "van",
+      "truck",
+      "pedestrian",
+      "other"
+    ],
+    "specified_track_probabilities": [
+      0.7,
+      0.08,
+      0.12,
+      0.05,
+      0.05
+    ],
+    "specified_detection_probabilities": [
+      0.08,
+      0.04,
+      0.08,
+      0.74,
+      0.06
+    ],
+    "evidence_type": "illustrative five-class evidence, not measured probabilities or an implemented five-class belief head",
+    "bars_exactly_match_specified_inputs": true,
+    "probability_normalization": "PASS",
+    "source_encoding": "Solid blue track bars and solid golden-orange detection bars.",
+    "used_as_input_to_panels_b_or_c": false,
+    "actual_SRC_groups": [
+      "Human",
+      "Vehicle"
+    ],
+    "colors": {
+      "track": "#0072B2",
+      "detection": "#E69F00"
+    }
+  },
+  "response": {
+    "prior": [
+      0.33216119257787574,
+      0.667838802394794
+    ],
+    "grid_points": 1001,
+    "weak_beliefs": [
+      {
+        "belief": [
+          0.6660805962889379,
+          0.333919401197397
+        ],
+        "half_penalty_check": "PASS"
+      },
+      {
+        "belief": [
+          0.16608059628893787,
+          0.8339194011973969
+        ],
+        "half_penalty_check": "PASS"
+      }
+    ],
+    "neutral_belief": "PASS",
+    "real_markers": [
+      {
+        "track": 2,
+        "detection": 3,
+        "observation_H": 0.9924830797353256,
+        "penalty": 0.9887444092231245
+      },
+      {
+        "track": 3,
+        "detection": 2,
+        "observation_H": 0.0027900368202321557,
+        "penalty": 0.9916003528329758
+      }
+    ],
+    "nine_pair_replay_max_error": 1.1102230246251565e-16
+  },
+  "real_cost_data_unchanged": true,
+  "legend_explanations_and_formula": "moved to external caption",
+  "layout_qa": {
+    "outside_canvas": [],
+    "overlapping_text": [],
+    "minimum_visible_font_pt": 6.8,
+    "text_count": 62,
+    "skill_audit": []
+  },
+  "visible_text_count": 62,
+  "user_requested_text_removals": "PASS",
+  "dimensions_inches": [
+    7.16,
+    2.4
+  ],
+  "output_root": "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v8",
+  "protected_artifacts_sha256": {
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v7/src_semantic_response_triptych_preview.png": "797df676fa09a3d635bbbf3a61aa61c5869548162c138ed6cbfd75e1258c14df",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v7/src_semantic_response_triptych_grayscale.png": "6a5be7f08486ace29dc6061f081e3aca26c2201a314df8e810ef900e5a27d7a5",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v7/src_semantic_response_triptych.pdf": "c0a89d50897a504bfb25a4ff44b40a083b5a11c923af250edf7c002ee9be8adb",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v7/src_semantic_response_triptych.svg": "f3e69ec12f08c62634ec251377bc651d90a255cae243ff4878001a46cc8ab507",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v7/src_semantic_response_triptych.png": "18c038db6fc9ff1ca3a01fedb389972613eb0e10a31f4631241106c6e1dae822",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v7/src_semantic_response_triptych_pdf_render.png": "2982ea8f3db3baf96f2e6f7415905c0d4d932629e7cc37f9d3b32149fbd494fa",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v7/src_semantic_response_triptych_pdf_render_gray.png": "b0cd256042af154325aa17151f1c9396dfef84da44a71c63c11a6823c1de2bf6",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v7/FIGURE_CAPTION.md": "a21126a9cbe541bd9bde860d3dd08a83a61e2d10b6e578036a60ef4f6490bc25",
+    "/home/chenhc/src_egia_icme_paper/main.pdf": "c9f18b573fd13ba99de0d80497cc290f1bd2f835a76a096f17eba9ebe26be6f1",
+    "/home/chenhc/src_egia_icme_paper/main.tex": "da2f49d09aba2b5dd6876a3e1e88482ab1165c0b6d01adecaf7fecf965553f8e"
+  },
+  "artifact_sha256": {
+    "FIGURE_CAPTION.md": "55f2af9c58c99c315bd83022b293ed365ab88344e08fabdd4b6918ca0d47e32f",
+    "FIGURE_CAPTION.tex": "d12ae44f58b07e61b77e087a8a759592c10afee1081d9b08467ed7d5c2060fd5",
+    "pdf_render.png": "3442368eb6525db8bd85bef018068465653905842af62694814e3a3608055397",
+    "pdf_render_grayscale.png": "ef06afc27cfbe754432b18594a57880576a05d442eb1e263678d8e5d1ecdd57d",
+    "src_semantic_response_triptych.pdf": "936f9eca7db0df235b867acf2c200d2001fd964a635104c91d9cbd28d922ab92",
+    "src_semantic_response_triptych.png": "47a93a889b05ea6e8f92de4ebe126650a2d522699455e1ad58b589070ce4760b",
+    "src_semantic_response_triptych.svg": "d864f5f6ecac007e91c0c2a9eaa5a3bc33d293556d5512545ea1c6dc82d79ec8",
+    "src_semantic_response_triptych_grayscale.png": "677ba9e853dd0332b189a800d8a803603adf6df589be5a9bbe7c1d6db79b01d5",
+    "src_semantic_response_triptych_preview.png": "f5c5ddfad347c7eee41dde84d6e2cd26909bb2b376e3e056764b910fe0fcbdde"
+  },
+  "final_pdf_review": {
+    "color": "PASS",
+    "grayscale": "PASS",
+    "all_fonts_embedded": true,
+    "embedded_font_count": 3,
+    "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGCWXDV+DejaVuSans-Oblique            CID TrueType      Identity-H       yes yes yes     16  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     23  0\nGYKUUQ+STIXSizeTwoSym-Regular        CID TrueType      Identity-H       yes yes yes     30  0\n",
+    "pdf_extracted_text_removals": "PASS",
+    "minimum_visible_font_pt": 6.8,
+    "600dpi_png_pixels": [
+      4296,
+      1440
+    ]
+  },
+  "verified_cost_matrices": {
+    "base_cost": [
+      [
+        0.015457428314476163,
+        0.6908016209098284,
+        0.7837377174729196
+      ],
+      [
+        0.6771590873946627,
+        0.01347347398481824,
+        0.01347347398481824
+      ],
+      [
+        0.7825213882965052,
+        0.030749081078744966,
+        0.030749081078744966
+      ]
+    ],
+    "src_cost": [
+      [
+        0.015457428314476163,
+        0.9974028427110267,
+        0.7837377174729196
+      ],
+      [
+        0.9996258372262122,
+        0.01347347398481824,
+        0.9888960611326405
+      ],
+      [
+        0.7825213882965052,
+        0.9918586342647474,
+        0.030749081078744966
+      ]
+    ]
+  },
+  "archive_scope": "Python source, README, caption Markdown including exact LaTeX template, and compact QA JSON; standalone LaTeX and image exports remain local under existing ignore policy."
+}
