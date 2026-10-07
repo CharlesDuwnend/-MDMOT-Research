@@ -1,0 +1,5 @@
+{
+  "error": "COMMAND_FAILED_-15: /home/chenhc/leaf_internal_mechanism_20261008_v1/logs/C11_full_reference.log",
+  "status": "STOP",
+  "traceback": "Traceback (most recent call last):\n  File \"tools/run_mechanism.py\", line 257, in <module>\n    main()\n  File \"tools/run_mechanism.py\", line 241, in main\n    record = run_arm(manifest, arm, env)\n  File \"tools/run_mechanism.py\", line 150, in run_arm\n    run(cmd, env, log)\n  File \"tools/run_mechanism.py\", line 39, in run\n    raise RuntimeError('COMMAND_FAILED_%d: %s' % (rc, log))\nRuntimeError: COMMAND_FAILED_-15: /home/chenhc/leaf_internal_mechanism_20261008_v1/logs/C11_full_reference.log\n"
+}

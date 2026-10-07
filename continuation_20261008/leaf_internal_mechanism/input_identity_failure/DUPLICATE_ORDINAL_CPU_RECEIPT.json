@@ -1,0 +1,307 @@
+{
+  "actual_methods": {
+    "canonical_capture": {
+      "duplicate_high_before_low": [
+        {
+          "actual_class": 3,
+          "actual_class_confidence": 0.7998046875,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 0,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 3,
+          "bound_class_confidence": 0.7998046875,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 0
+        },
+        {
+          "actual_class": 0,
+          "actual_class_confidence": 0.89990234375,
+          "actual_objectness": 0.39990234375,
+          "actual_ordinal": 1,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 0,
+          "bound_class_confidence": 0.89990234375,
+          "bound_objectness": 0.39990234375,
+          "bound_ordinal": 1
+        }
+      ],
+      "duplicate_low_before_high": [
+        {
+          "actual_class": 3,
+          "actual_class_confidence": 0.7998046875,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 1,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 0,
+          "bound_class_confidence": 0.89990234375,
+          "bound_objectness": 0.39990234375,
+          "bound_ordinal": 0
+        },
+        {
+          "actual_class": 0,
+          "actual_class_confidence": 0.89990234375,
+          "actual_objectness": 0.39990234375,
+          "actual_ordinal": 0,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 3,
+          "bound_class_confidence": 0.7998046875,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 1
+        }
+      ],
+      "duplicate_same_pool_stable_order": [
+        {
+          "actual_class": 0,
+          "actual_class_confidence": 0.89990234375,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 0,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 0,
+          "bound_class_confidence": 0.89990234375,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 0
+        },
+        {
+          "actual_class": 3,
+          "actual_class_confidence": 0.7998046875,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 1,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 3,
+          "bound_class_confidence": 0.7998046875,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 1
+        }
+      ]
+    },
+    "copied_capture": {
+      "duplicate_high_before_low": [
+        {
+          "actual_class": 3,
+          "actual_class_confidence": 0.7998046875,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 0,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 3,
+          "bound_class_confidence": 0.7998046875,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 0
+        },
+        {
+          "actual_class": 0,
+          "actual_class_confidence": 0.89990234375,
+          "actual_objectness": 0.39990234375,
+          "actual_ordinal": 1,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 0,
+          "bound_class_confidence": 0.89990234375,
+          "bound_objectness": 0.39990234375,
+          "bound_ordinal": 1
+        }
+      ],
+      "duplicate_low_before_high": [
+        {
+          "actual_class": 3,
+          "actual_class_confidence": 0.7998046875,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 1,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 0,
+          "bound_class_confidence": 0.89990234375,
+          "bound_objectness": 0.39990234375,
+          "bound_ordinal": 0
+        },
+        {
+          "actual_class": 0,
+          "actual_class_confidence": 0.89990234375,
+          "actual_objectness": 0.39990234375,
+          "actual_ordinal": 0,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 3,
+          "bound_class_confidence": 0.7998046875,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 1
+        }
+      ],
+      "duplicate_same_pool_stable_order": [
+        {
+          "actual_class": 0,
+          "actual_class_confidence": 0.89990234375,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 0,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 0,
+          "bound_class_confidence": 0.89990234375,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 0
+        },
+        {
+          "actual_class": 3,
+          "actual_class_confidence": 0.7998046875,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 1,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 3,
+          "bound_class_confidence": 0.7998046875,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 1
+        }
+      ]
+    },
+    "current_frozen_belief": {
+      "duplicate_high_before_low": [
+        {
+          "actual_class": 3,
+          "actual_class_confidence": 0.7998046875,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 0,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 3,
+          "bound_class_confidence": 0.7998046875,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 0
+        },
+        {
+          "actual_class": 0,
+          "actual_class_confidence": 0.89990234375,
+          "actual_objectness": 0.39990234375,
+          "actual_ordinal": 1,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 0,
+          "bound_class_confidence": 0.89990234375,
+          "bound_objectness": 0.39990234375,
+          "bound_ordinal": 1
+        }
+      ],
+      "duplicate_low_before_high": [
+        {
+          "actual_class": 3,
+          "actual_class_confidence": 0.7998046875,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 1,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 0,
+          "bound_class_confidence": 0.89990234375,
+          "bound_objectness": 0.39990234375,
+          "bound_ordinal": 0
+        },
+        {
+          "actual_class": 0,
+          "actual_class_confidence": 0.89990234375,
+          "actual_objectness": 0.39990234375,
+          "actual_ordinal": 0,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 3,
+          "bound_class_confidence": 0.7998046875,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 1
+        }
+      ],
+      "duplicate_same_pool_stable_order": [
+        {
+          "actual_class": 0,
+          "actual_class_confidence": 0.89990234375,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 0,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 0,
+          "bound_class_confidence": 0.89990234375,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 0
+        },
+        {
+          "actual_class": 3,
+          "actual_class_confidence": 0.7998046875,
+          "actual_objectness": 0.89990234375,
+          "actual_ordinal": 1,
+          "bbox_exact_assertion_passed": true,
+          "bound_class": 3,
+          "bound_class_confidence": 0.7998046875,
+          "bound_objectness": 0.89990234375,
+          "bound_ordinal": 1
+        }
+      ]
+    }
+  },
+  "correct_observation_probabilities": [
+    0.05,
+    0.95
+  ],
+  "full_tuple_duplicate_remains_ambiguous": [
+    0,
+    1
+  ],
+  "metadata_reference_proof": [
+    {
+      "actual_ordinal": 1,
+      "unique_metadata_candidates": [
+        1
+      ]
+    },
+    {
+      "actual_ordinal": 0,
+      "unique_metadata_candidates": [
+        0
+      ]
+    },
+    {
+      "actual_ordinal": 1,
+      "unique_metadata_candidates": [
+        1
+      ]
+    },
+    {
+      "actual_ordinal": 0,
+      "unique_metadata_candidates": [
+        0
+      ]
+    },
+    {
+      "actual_ordinal": 1,
+      "unique_metadata_candidates": [
+        1
+      ]
+    },
+    {
+      "actual_ordinal": 0,
+      "unique_metadata_candidates": [
+        0
+      ]
+    }
+  ],
+  "raw_dtype": "float16",
+  "raw_rows_low_first": [
+    [
+      1.0,
+      2.0,
+      11.0,
+      12.0,
+      0.39990234375,
+      0.89990234375,
+      0.0
+    ],
+    [
+      1.0,
+      2.0,
+      11.0,
+      12.0,
+      0.89990234375,
+      0.7998046875,
+      3.0
+    ]
+  ],
+  "scope": "Actual frozen/canonical associate and det_record methods, real STrack, synthetic FP16 rows, CPU; no inference, GPU, frozen edits or live-stream claim",
+  "source_sha256": {
+    "/home/chenhc/leaf_internal_mechanism_20261008_v1/belief/online.py": "67c97ea1128b8ac0fbfcc50331e831b2f555c010cb2f974f96c757b12e28dbe0",
+    "/home/chenhc/leaf_internal_mechanism_20261008_v1/belief/runtime.py": "f2aebe07daf9a65ae5a771a8574e8962ea5b7edcafca5fc8b422fb8ffba5f12f",
+    "/home/chenhc/leaf_internal_mechanism_20261008_v1/host/yolox/tracker/u2mot_tracker.py": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6",
+    "/home/chenhc/leaf_internal_mechanism_20261008_v1/tools/capture_belief_evidence.py": "d4aa6c0c85ca579c02c90e311f194e2ebc1f6b7b47ce0a1eeb91dcf32dd0cbeb",
+    "/home/chenhc/src_egia_belief_20260923/tools/capture_belief_evidence.py": "8cfd099ef7e892c52887c158fff6f36aa51269481baf0fdd02daf3d1567279d9"
+  },
+  "status": "SYNTHETIC_CURRENT_SOURCE_CORRUPTION_REPRODUCED",
+  "synthetic_observation_model_only": true,
+  "wrong_observation_probabilities": [
+    0.95,
+    0.05
+  ]
+}

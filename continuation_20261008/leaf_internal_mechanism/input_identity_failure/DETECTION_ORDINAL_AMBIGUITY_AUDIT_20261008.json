@@ -1,0 +1,1355 @@
+{
+  "observed_utc": "2026-10-07T16:52:06.013920+00:00",
+  "status": "CONFIRMED_CPU_OPERATOR_METADATA_MISMATCH_ON_REAL_CURRENT_BYTE_VERIFIED_INPUT_PARTIAL_AUDIT",
+  "scope": "CPU reconstruction from existing NPZ, exact SHA matching to completed current C11 runtime detector inputs, first-unused registration analysis and execution of frozen associate-prefix/det_record AST on all nine affected real frames. No GPU, solver replay or modified runtime.",
+  "reconstruction": "original-image float32 boxes times original scale, FP16 round trip to float32, FP16 obj*cls >= float16(.09), np.argsort(network x1). Only exact current detector-SHA matches enter ambiguity counts.",
+  "aggregate": {
+    "completed_frames": 3114,
+    "fp16_filter_shapes_equal": 3114,
+    "byte_identical_reconstructed_detector_frames": 3055,
+    "duplicate_pairs_in_byte_identical_frames": 63,
+    "high_low_duplicate_pairs_in_byte_identical_frames": 19,
+    "wrong_score_or_class_mapped_detections": 18,
+    "frames_with_wrong_score_or_class_mapping": 9,
+    "wrong_predicted_class_mapped_detections": 18
+  },
+  "sequences": [
+    {
+      "sequence": "uav0000009_03358_v",
+      "completed_frames": 219,
+      "fp16_filter_shapes_equal": 219,
+      "byte_identical_reconstructed_detector_frames": 218,
+      "unmatched_frames": [
+        39
+      ],
+      "duplicate_pairs_in_byte_identical_frames": 4,
+      "high_low_duplicate_pairs_in_byte_identical_frames": 2,
+      "wrong_score_or_class_mapped_detections": 0,
+      "frames_with_wrong_score_or_class_mapping": 0,
+      "wrong_predicted_class_mapped_detections": 0
+    },
+    {
+      "sequence": "uav0000073_00600_v",
+      "completed_frames": 328,
+      "fp16_filter_shapes_equal": 328,
+      "byte_identical_reconstructed_detector_frames": 326,
+      "unmatched_frames": [
+        148,
+        306
+      ],
+      "duplicate_pairs_in_byte_identical_frames": 6,
+      "high_low_duplicate_pairs_in_byte_identical_frames": 1,
+      "wrong_score_or_class_mapped_detections": 2,
+      "frames_with_wrong_score_or_class_mapping": 1,
+      "wrong_predicted_class_mapped_detections": 2
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "completed_frames": 312,
+      "fp16_filter_shapes_equal": 312,
+      "byte_identical_reconstructed_detector_frames": 303,
+      "unmatched_frames": [
+        17,
+        45,
+        76,
+        104,
+        105,
+        118,
+        234,
+        240,
+        242
+      ],
+      "duplicate_pairs_in_byte_identical_frames": 4,
+      "high_low_duplicate_pairs_in_byte_identical_frames": 2,
+      "wrong_score_or_class_mapped_detections": 2,
+      "frames_with_wrong_score_or_class_mapping": 1,
+      "wrong_predicted_class_mapped_detections": 2
+    },
+    {
+      "sequence": "uav0000077_00720_v",
+      "completed_frames": 780,
+      "fp16_filter_shapes_equal": 780,
+      "byte_identical_reconstructed_detector_frames": 766,
+      "unmatched_frames": [
+        69,
+        73,
+        92,
+        99,
+        101,
+        106,
+        127,
+        165,
+        291,
+        385,
+        447,
+        565,
+        602,
+        732
+      ],
+      "duplicate_pairs_in_byte_identical_frames": 17,
+      "high_low_duplicate_pairs_in_byte_identical_frames": 3,
+      "wrong_score_or_class_mapped_detections": 4,
+      "frames_with_wrong_score_or_class_mapping": 2,
+      "wrong_predicted_class_mapped_detections": 4
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "completed_frames": 296,
+      "fp16_filter_shapes_equal": 296,
+      "byte_identical_reconstructed_detector_frames": 292,
+      "unmatched_frames": [
+        33,
+        93,
+        94,
+        285
+      ],
+      "duplicate_pairs_in_byte_identical_frames": 20,
+      "high_low_duplicate_pairs_in_byte_identical_frames": 6,
+      "wrong_score_or_class_mapped_detections": 8,
+      "frames_with_wrong_score_or_class_mapping": 4,
+      "wrong_predicted_class_mapped_detections": 8
+    },
+    {
+      "sequence": "uav0000119_02301_v",
+      "completed_frames": 179,
+      "fp16_filter_shapes_equal": 179,
+      "byte_identical_reconstructed_detector_frames": 177,
+      "unmatched_frames": [
+        102,
+        144
+      ],
+      "duplicate_pairs_in_byte_identical_frames": 5,
+      "high_low_duplicate_pairs_in_byte_identical_frames": 4,
+      "wrong_score_or_class_mapped_detections": 2,
+      "frames_with_wrong_score_or_class_mapping": 1,
+      "wrong_predicted_class_mapped_detections": 2
+    },
+    {
+      "sequence": "uav0000120_04775_v",
+      "completed_frames": 1000,
+      "fp16_filter_shapes_equal": 1000,
+      "byte_identical_reconstructed_detector_frames": 973,
+      "unmatched_frames": [
+        47,
+        53,
+        68,
+        104,
+        135,
+        148,
+        157,
+        166,
+        216,
+        219,
+        249,
+        280,
+        376,
+        377,
+        384,
+        390,
+        448,
+        489,
+        498,
+        514,
+        544,
+        554,
+        656,
+        781,
+        958,
+        990,
+        991
+      ],
+      "duplicate_pairs_in_byte_identical_frames": 7,
+      "high_low_duplicate_pairs_in_byte_identical_frames": 1,
+      "wrong_score_or_class_mapped_detections": 0,
+      "frames_with_wrong_score_or_class_mapping": 0,
+      "wrong_predicted_class_mapped_detections": 0
+    }
+  ],
+  "examples": [
+    {
+      "sequence": "uav0000073_00600_v",
+      "frame": 186,
+      "actual_input_detector_SHA256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_00600_v.txt.runtime.json",
+      "host_detection_ordinal": 39,
+      "first_unused_mapped_ordinal": 38,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        1060,
+        783,
+        1116,
+        874,
+        0.673828125,
+        0.229248046875,
+        3
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        1060,
+        783,
+        1116,
+        874,
+        0.435791015625,
+        0.59912109375,
+        9
+      ],
+      "original_tlwh_host": [
+        1277.6785888671875,
+        943.794677734375,
+        67.5,
+        109.6875
+      ],
+      "original_tlwh_mapped": [
+        1277.6785888671875,
+        943.794677734375,
+        67.5,
+        109.6875
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000073_00600_v",
+      "frame": 186,
+      "actual_input_detector_SHA256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_00600_v.txt.runtime.json",
+      "host_detection_ordinal": 38,
+      "first_unused_mapped_ordinal": 39,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        1060,
+        783,
+        1116,
+        874,
+        0.435791015625,
+        0.59912109375,
+        9
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        1060,
+        783,
+        1116,
+        874,
+        0.673828125,
+        0.229248046875,
+        3
+      ],
+      "original_tlwh_host": [
+        1277.6785888671875,
+        943.794677734375,
+        67.5,
+        109.6875
+      ],
+      "original_tlwh_mapped": [
+        1277.6785888671875,
+        943.794677734375,
+        67.5,
+        109.6875
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "frame": 42,
+      "actual_input_detector_SHA256": "af9f22140a6971f9b1a8710ad9247238a0402042526980222274df7ffb21556a",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_04464_v.txt.runtime.json",
+      "host_detection_ordinal": 12,
+      "first_unused_mapped_ordinal": 11,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        348.75,
+        594,
+        381.75,
+        654,
+        0.7412109375,
+        0.70751953125,
+        1
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        348.75,
+        594,
+        381.75,
+        654,
+        0.456787109375,
+        0.325927734375,
+        0
+      ],
+      "original_tlwh_host": [
+        420.3683166503906,
+        715.982177734375,
+        39.77679443359375,
+        72.3214111328125
+      ],
+      "original_tlwh_mapped": [
+        420.3683166503906,
+        715.982177734375,
+        39.77679443359375,
+        72.3214111328125
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "frame": 42,
+      "actual_input_detector_SHA256": "af9f22140a6971f9b1a8710ad9247238a0402042526980222274df7ffb21556a",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_04464_v.txt.runtime.json",
+      "host_detection_ordinal": 11,
+      "first_unused_mapped_ordinal": 12,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        348.75,
+        594,
+        381.75,
+        654,
+        0.456787109375,
+        0.325927734375,
+        0
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        348.75,
+        594,
+        381.75,
+        654,
+        0.7412109375,
+        0.70751953125,
+        1
+      ],
+      "original_tlwh_host": [
+        420.3683166503906,
+        715.982177734375,
+        39.77679443359375,
+        72.3214111328125
+      ],
+      "original_tlwh_mapped": [
+        420.3683166503906,
+        715.982177734375,
+        39.77679443359375,
+        72.3214111328125
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000077_00720_v",
+      "frame": 189,
+      "actual_input_detector_SHA256": "2652487f6f12fd58880eb307d00066ca0343cccffaf9ec8c24248d709d9ae729",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json",
+      "host_detection_ordinal": 9,
+      "first_unused_mapped_ordinal": 8,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        678.5,
+        355.25,
+        723.5,
+        406.75,
+        0.5859375,
+        0.6279296875,
+        5
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        678.5,
+        355.25,
+        723.5,
+        406.75,
+        0.409423828125,
+        0.5078125,
+        3
+      ],
+      "original_tlwh_host": [
+        579.2996215820312,
+        303.310546875,
+        38.4207763671875,
+        43.97039794921875
+      ],
+      "original_tlwh_mapped": [
+        579.2996215820312,
+        303.310546875,
+        38.4207763671875,
+        43.97039794921875
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000077_00720_v",
+      "frame": 189,
+      "actual_input_detector_SHA256": "2652487f6f12fd58880eb307d00066ca0343cccffaf9ec8c24248d709d9ae729",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json",
+      "host_detection_ordinal": 8,
+      "first_unused_mapped_ordinal": 9,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        678.5,
+        355.25,
+        723.5,
+        406.75,
+        0.409423828125,
+        0.5078125,
+        3
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        678.5,
+        355.25,
+        723.5,
+        406.75,
+        0.5859375,
+        0.6279296875,
+        5
+      ],
+      "original_tlwh_host": [
+        579.2996215820312,
+        303.310546875,
+        38.4207763671875,
+        43.97039794921875
+      ],
+      "original_tlwh_mapped": [
+        579.2996215820312,
+        303.310546875,
+        38.4207763671875,
+        43.97039794921875
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000077_00720_v",
+      "frame": 200,
+      "actual_input_detector_SHA256": "08a1fb612fa4ff86d0bbe913f1a87cea5f873120ec7fa7e62f2121436d3a162a",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json",
+      "host_detection_ordinal": 23,
+      "first_unused_mapped_ordinal": 22,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        963,
+        658,
+        1075,
+        812,
+        0.65869140625,
+        0.89013671875,
+        4
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        963,
+        658,
+        1075,
+        812,
+        0.218017578125,
+        0.7470703125,
+        3
+      ],
+      "original_tlwh_host": [
+        822.2042236328125,
+        561.796875,
+        95.625,
+        131.484375
+      ],
+      "original_tlwh_mapped": [
+        822.2042236328125,
+        561.796875,
+        95.625,
+        131.484375
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000077_00720_v",
+      "frame": 200,
+      "actual_input_detector_SHA256": "08a1fb612fa4ff86d0bbe913f1a87cea5f873120ec7fa7e62f2121436d3a162a",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json",
+      "host_detection_ordinal": 22,
+      "first_unused_mapped_ordinal": 23,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        963,
+        658,
+        1075,
+        812,
+        0.218017578125,
+        0.7470703125,
+        3
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        963,
+        658,
+        1075,
+        812,
+        0.65869140625,
+        0.89013671875,
+        4
+      ],
+      "original_tlwh_host": [
+        822.2042236328125,
+        561.796875,
+        95.625,
+        131.484375
+      ],
+      "original_tlwh_mapped": [
+        822.2042236328125,
+        561.796875,
+        95.625,
+        131.484375
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "frame": 18,
+      "actual_input_detector_SHA256": "1ead83db39c1f9fbb0ee00d6d3f6a64cde0d01268da9217a5fb12dc037cb5040",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json",
+      "host_detection_ordinal": 82,
+      "first_unused_mapped_ordinal": 81,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        1412,
+        286.25,
+        1436,
+        349.75,
+        0.89208984375,
+        0.72705078125,
+        0
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        1412,
+        286.25,
+        1436,
+        349.75,
+        0.450439453125,
+        0.43505859375,
+        1
+      ],
+      "original_tlwh_host": [
+        850.982177734375,
+        172.51675415039062,
+        14.46429443359375,
+        38.27008056640625
+      ],
+      "original_tlwh_mapped": [
+        850.982177734375,
+        172.51675415039062,
+        14.46429443359375,
+        38.27008056640625
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "frame": 18,
+      "actual_input_detector_SHA256": "1ead83db39c1f9fbb0ee00d6d3f6a64cde0d01268da9217a5fb12dc037cb5040",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json",
+      "host_detection_ordinal": 81,
+      "first_unused_mapped_ordinal": 82,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        1412,
+        286.25,
+        1436,
+        349.75,
+        0.450439453125,
+        0.43505859375,
+        1
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        1412,
+        286.25,
+        1436,
+        349.75,
+        0.89208984375,
+        0.72705078125,
+        0
+      ],
+      "original_tlwh_host": [
+        850.982177734375,
+        172.51675415039062,
+        14.46429443359375,
+        38.27008056640625
+      ],
+      "original_tlwh_mapped": [
+        850.982177734375,
+        172.51675415039062,
+        14.46429443359375,
+        38.27008056640625
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "frame": 74,
+      "actual_input_detector_SHA256": "722060923dbe4489ebcc5114e81ba73e56c92adf449a65e98e91f5d05d4b54c2",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json",
+      "host_detection_ordinal": 67,
+      "first_unused_mapped_ordinal": 66,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        1391,
+        269.5,
+        1417,
+        325,
+        0.9658203125,
+        0.74072265625,
+        0
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        1391,
+        269.5,
+        1417,
+        325,
+        0.28076171875,
+        0.394287109375,
+        1
+      ],
+      "original_tlwh_host": [
+        838.325927734375,
+        162.421875,
+        15.66961669921875,
+        33.44866943359375
+      ],
+      "original_tlwh_mapped": [
+        838.325927734375,
+        162.421875,
+        15.66961669921875,
+        33.44866943359375
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "frame": 74,
+      "actual_input_detector_SHA256": "722060923dbe4489ebcc5114e81ba73e56c92adf449a65e98e91f5d05d4b54c2",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json",
+      "host_detection_ordinal": 66,
+      "first_unused_mapped_ordinal": 67,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        1391,
+        269.5,
+        1417,
+        325,
+        0.28076171875,
+        0.394287109375,
+        1
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        1391,
+        269.5,
+        1417,
+        325,
+        0.9658203125,
+        0.74072265625,
+        0
+      ],
+      "original_tlwh_host": [
+        838.325927734375,
+        162.421875,
+        15.66961669921875,
+        33.44866943359375
+      ],
+      "original_tlwh_mapped": [
+        838.325927734375,
+        162.421875,
+        15.66961669921875,
+        33.44866943359375
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "frame": 124,
+      "actual_input_detector_SHA256": "78180d1fba6fe22d0c9b30362d3e46351b23b73408503ee42255c902b6eb376a",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json",
+      "host_detection_ordinal": 38,
+      "first_unused_mapped_ordinal": 37,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        796,
+        361.5,
+        827,
+        406.5,
+        0.5859375,
+        0.59375,
+        0
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        796,
+        361.5,
+        827,
+        406.5,
+        0.46337890625,
+        0.37939453125,
+        1
+      ],
+      "original_tlwh_host": [
+        479.7321472167969,
+        217.86831665039062,
+        18.68304443359375,
+        27.120529174804688
+      ],
+      "original_tlwh_mapped": [
+        479.7321472167969,
+        217.86831665039062,
+        18.68304443359375,
+        27.120529174804688
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "frame": 124,
+      "actual_input_detector_SHA256": "78180d1fba6fe22d0c9b30362d3e46351b23b73408503ee42255c902b6eb376a",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json",
+      "host_detection_ordinal": 37,
+      "first_unused_mapped_ordinal": 38,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        796,
+        361.5,
+        827,
+        406.5,
+        0.46337890625,
+        0.37939453125,
+        1
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        796,
+        361.5,
+        827,
+        406.5,
+        0.5859375,
+        0.59375,
+        0
+      ],
+      "original_tlwh_host": [
+        479.7321472167969,
+        217.86831665039062,
+        18.68304443359375,
+        27.120529174804688
+      ],
+      "original_tlwh_mapped": [
+        479.7321472167969,
+        217.86831665039062,
+        18.68304443359375,
+        27.120529174804688
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "frame": 175,
+      "actual_input_detector_SHA256": "debe904bdfed83f01660aa2cbcce149bd9ee928c0df0cb99e8614d60b7b260a3",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json",
+      "host_detection_ordinal": 31,
+      "first_unused_mapped_ordinal": 30,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        695.5,
+        321.5,
+        724.5,
+        364,
+        0.76171875,
+        0.63623046875,
+        1
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        695.5,
+        321.5,
+        724.5,
+        364,
+        0.316162109375,
+        0.3720703125,
+        0
+      ],
+      "original_tlwh_host": [
+        419.1629638671875,
+        193.76116943359375,
+        17.477691650390625,
+        25.613845825195312
+      ],
+      "original_tlwh_mapped": [
+        419.1629638671875,
+        193.76116943359375,
+        17.477691650390625,
+        25.613845825195312
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "frame": 175,
+      "actual_input_detector_SHA256": "debe904bdfed83f01660aa2cbcce149bd9ee928c0df0cb99e8614d60b7b260a3",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json",
+      "host_detection_ordinal": 30,
+      "first_unused_mapped_ordinal": 31,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        695.5,
+        321.5,
+        724.5,
+        364,
+        0.316162109375,
+        0.3720703125,
+        0
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        695.5,
+        321.5,
+        724.5,
+        364,
+        0.76171875,
+        0.63623046875,
+        1
+      ],
+      "original_tlwh_host": [
+        419.1629638671875,
+        193.76116943359375,
+        17.477691650390625,
+        25.613845825195312
+      ],
+      "original_tlwh_mapped": [
+        419.1629638671875,
+        193.76116943359375,
+        17.477691650390625,
+        25.613845825195312
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000119_02301_v",
+      "frame": 178,
+      "actual_input_detector_SHA256": "113232be226ffc179fae09e82128b7e631b2621bf14367062d7300f682009753",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000119_02301_v.txt.runtime.json",
+      "host_detection_ordinal": 21,
+      "first_unused_mapped_ordinal": 20,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        1141,
+        780,
+        1285,
+        893,
+        0.6025390625,
+        0.442626953125,
+        6
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        1141,
+        780,
+        1285,
+        893,
+        0.420654296875,
+        0.615234375,
+        4
+      ],
+      "original_tlwh_host": [
+        974.1796264648438,
+        665.9597778320312,
+        122.94647216796875,
+        96.47882080078125
+      ],
+      "original_tlwh_mapped": [
+        974.1796264648438,
+        665.9597778320312,
+        122.94647216796875,
+        96.47882080078125
+      ],
+      "byte_identical_current_live_detector_hash": true
+    },
+    {
+      "sequence": "uav0000119_02301_v",
+      "frame": 178,
+      "actual_input_detector_SHA256": "113232be226ffc179fae09e82128b7e631b2621bf14367062d7300f682009753",
+      "runtime_source": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000119_02301_v.txt.runtime.json",
+      "host_detection_ordinal": 20,
+      "first_unused_mapped_ordinal": 21,
+      "actual_host_detection_network_xyxy_obj_clsconf_class": [
+        1141,
+        780,
+        1285,
+        893,
+        0.420654296875,
+        0.615234375,
+        4
+      ],
+      "assigned_observation_network_xyxy_obj_clsconf_class": [
+        1141,
+        780,
+        1285,
+        893,
+        0.6025390625,
+        0.442626953125,
+        6
+      ],
+      "original_tlwh_host": [
+        974.1796264648438,
+        665.9597778320312,
+        122.94647216796875,
+        96.47882080078125
+      ],
+      "original_tlwh_mapped": [
+        974.1796264648438,
+        665.9597778320312,
+        122.94647216796875,
+        96.47882080078125
+      ],
+      "byte_identical_current_live_detector_hash": true
+    }
+  ],
+  "source_artifacts": [
+    {
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000009_03358_v.txt.runtime.json",
+      "runtime_SHA256": "3b41ecc7d26dd64f85b7144a4f000d82a601d0e7051908146d9eb7ba7e739110",
+      "npz_path": "/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927/npz/uav0000009_03358_v.npz",
+      "npz_SHA256": "e839227bd79c3bf5433529bf2d6705c8e67021df12510cbeef9a00b359bdda9d"
+    },
+    {
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_SHA256": "e8348397fb7c0a2b5a673b078de4f465cc88f4523f99c194aae91ce90f22272c",
+      "npz_path": "/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927/npz/uav0000073_00600_v.npz",
+      "npz_SHA256": "518268929b201b2d7777fc0c8cb62757e8e2ce7bd60a478263696a30665af68a"
+    },
+    {
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_04464_v.txt.runtime.json",
+      "runtime_SHA256": "d9feaea70e50f27581c0cfcc58543f47ee7b6fe4b5ae13d39ec9817e2a5adf18",
+      "npz_path": "/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927/npz/uav0000073_04464_v.npz",
+      "npz_SHA256": "acb5f385ea997588b83c85eef211e167a70ed9bea857395c54cc540631cf9af1"
+    },
+    {
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json",
+      "runtime_SHA256": "8cf922949c95bcb7c17a42a245547bfde2602b8acb7430bb717ebf4d6ff68eda",
+      "npz_path": "/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927/npz/uav0000077_00720_v.npz",
+      "npz_SHA256": "51e734b69b07441bfa8c156825bb1fd5c6d9d0636e311c0742de24c3cfb1d425"
+    },
+    {
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json",
+      "runtime_SHA256": "b14516397240b70851fe6ad89fea70fdca9a112cf7ec50cc47f8b82a7da837f4",
+      "npz_path": "/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927/npz/uav0000088_00290_v.npz",
+      "npz_SHA256": "9542d3a8e1f67ccabf73ced331b1784e324fcb684558dbeb9c080bdaad398463"
+    },
+    {
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000119_02301_v.txt.runtime.json",
+      "runtime_SHA256": "30b24792a6bca0a6047959fadbe118f502116c6c7e3e5d94acff3b683f7167ee",
+      "npz_path": "/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927/npz/uav0000119_02301_v.npz",
+      "npz_SHA256": "62ce1edd210c39ac2c5d6acd61cc9130f3a030ad54b8e056d70a2fa443c7de1d"
+    },
+    {
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000120_04775_v.txt.runtime.json",
+      "runtime_SHA256": "ce7c919dfa57a621fdc3ad8b58bc03b2644ada52fd17b67ac87be711214d82b0",
+      "npz_path": "/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927/npz/uav0000120_04775_v.npz",
+      "npz_SHA256": "799b2bcf71fd09700acbd6a550a8b10f404b3748bd5b264ef611c4f2e2126c3e"
+    }
+  ],
+  "limits": [
+    "Actual unchanged frozen registration-prefix and det_record AST reproduced all eighteen wrong score/class metadata mappings on the nine byte-verified current frames. The active full tracker process did not log internal det_ordinals, and no trajectory or score replay is claimed.",
+    "Nonmatching frames are excluded. Historical NPZ is not a replacement for current detector/ReID streams.",
+    "No MOT score impact or correction is computed. Golden prediction parity cannot exclude an inherited metadata mismatch.",
+    "Geometry-first-unused logic predates the seven-arm runner in current SRC/EGIA runtime and capture scripts.",
+    "Native baseline without SRC observation metadata may be unaffected; training/inference lineage needs separate impact investigation."
+  ],
+  "historical_capture_full17_diagnostic": {
+    "source_capture_manifest": {
+      "path": "/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927/capture_manifest.json",
+      "sha256": "f9a9e10416f625038e961e8b8a25dfb2775d6f509fafb1014fda0ab3a7ff459e"
+    },
+    "aggregate": {
+      "frames": 6635,
+      "raw_detection_rows": 1447099,
+      "conf009_detection_rows": 302837,
+      "all_rows_tlwh_pairs_within_1e_4": 802,
+      "conf009_tlwh_pairs_within_1e_4": 361,
+      "conf009_cross_class_pairs": 361,
+      "conf009_different_score_or_class_pairs": 361,
+      "conf009_cross_high_low_pairs": 96,
+      "conf009_low_or_excluded_before_high_ordinal_risk_pairs": 50
+    },
+    "limit": "historical original-image capture filtered with float32 cutoff; do not equate its 50 potential-risk pairs with current actual mappings; current byte-verified counts use FP16 cutoff and exclude unmatched frames"
+  },
+  "exact_frozen_code_CPU_operator_reproduction": {
+    "method": "Compiled only the unchanged associate prefix from source AST (684-708), with a stub for _flush_committed and real per-frame geometry/order, plus unchanged CaptureTracker.det_record AST; no host trajectory replay or GPU.",
+    "sequence": "uav0000073_00600_v",
+    "frame": 186,
+    "detector_SHA256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+    "results": [
+      {
+        "host_ordinal": 38,
+        "actual_code_registered_ordinal": 39,
+        "host_class": 9,
+        "returned_observation_class": 3,
+        "host_score": 0.435791015625,
+        "returned_observation_score": 0.673828125,
+        "existing_bbox_assertion_passes": true
+      },
+      {
+        "host_ordinal": 39,
+        "actual_code_registered_ordinal": 38,
+        "host_class": 3,
+        "returned_observation_class": 9,
+        "host_score": 0.673828125,
+        "returned_observation_score": 0.435791015625,
+        "existing_bbox_assertion_passes": true
+      }
+    ],
+    "executed_source": {
+      "associate_prefix_statements": [
+        "self._flush_committed()",
+        "stage = self.stage",
+        "self.stage += 1",
+        "if dets:\n            used = set(self.det_ordinals.values())\n            rows = getattr(self, 'frame_observations', {})\n            for det in dets:\n                if id(det) in self.det_ordinals:\n                    continue\n                box = np.asarray(getattr(det, 'tlwh', ()), dtype=float)\n                candidates = [int(i) for i, row in rows.items()\n                              if int(i) not in used and np.allclose(\n                                  box, np.asarray(row['bbox_tlwh'], dtype=float),\n                                  rtol=0., atol=1e-4)]\n                if not candidates:\n                    raise AssertionError('DETECTION_ORDINAL_UNRESOLVED')\n                ordinal = candidates[0]\n                self.det_ordinals[id(det)] = ordinal\n                used.add(ordinal)"
+      ],
+      "det_record_source": "def det_record(self, det):\n        ordinal = self.det_ordinals[id(det)]\n        row = dict(self.frame_observations[ordinal])\n        assert np.array_equal(np.asarray(row['bbox_tlwh']), det._tlwh), 'DETECTION_ORDINAL_GEOMETRY_MISMATCH'\n        row['semantic_evidence'] = finite_list(\n            getattr(det, 'semantic_group_evidence', [0.0, 1.0]))\n        return row",
+      "implementation_boundary": "Only the source AST before association counters was compiled and run for ordinal registration; det_record was compiled unchanged. No association solver, model or GPU execution."
+    },
+    "all_nine_frames_actual_code_reproduction": {
+      "checked_byte_verified_real_frames": [
+        {
+          "sequence": "uav0000073_00600_v",
+          "frame": 186,
+          "detector_SHA256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585"
+        },
+        {
+          "sequence": "uav0000073_04464_v",
+          "frame": 42,
+          "detector_SHA256": "af9f22140a6971f9b1a8710ad9247238a0402042526980222274df7ffb21556a"
+        },
+        {
+          "sequence": "uav0000077_00720_v",
+          "frame": 189,
+          "detector_SHA256": "2652487f6f12fd58880eb307d00066ca0343cccffaf9ec8c24248d709d9ae729"
+        },
+        {
+          "sequence": "uav0000077_00720_v",
+          "frame": 200,
+          "detector_SHA256": "08a1fb612fa4ff86d0bbe913f1a87cea5f873120ec7fa7e62f2121436d3a162a"
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 18,
+          "detector_SHA256": "1ead83db39c1f9fbb0ee00d6d3f6a64cde0d01268da9217a5fb12dc037cb5040"
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 74,
+          "detector_SHA256": "722060923dbe4489ebcc5114e81ba73e56c92adf449a65e98e91f5d05d4b54c2"
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 124,
+          "detector_SHA256": "78180d1fba6fe22d0c9b30362d3e46351b23b73408503ee42255c902b6eb376a"
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 175,
+          "detector_SHA256": "debe904bdfed83f01660aa2cbcce149bd9ee928c0df0cb99e8614d60b7b260a3"
+        },
+        {
+          "sequence": "uav0000119_02301_v",
+          "frame": 178,
+          "detector_SHA256": "113232be226ffc179fae09e82128b7e631b2621bf14367062d7300f682009753"
+        }
+      ],
+      "results": [
+        {
+          "sequence": "uav0000073_00600_v",
+          "frame": 186,
+          "host_ordinal": 39,
+          "actual_code_registered_ordinal": 38,
+          "host_class": 3,
+          "returned_observation_class": 9,
+          "host_score": 0.673828125,
+          "returned_observation_score": 0.435791015625,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000073_00600_v",
+          "frame": 186,
+          "host_ordinal": 38,
+          "actual_code_registered_ordinal": 39,
+          "host_class": 9,
+          "returned_observation_class": 3,
+          "host_score": 0.435791015625,
+          "returned_observation_score": 0.673828125,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000073_04464_v",
+          "frame": 42,
+          "host_ordinal": 12,
+          "actual_code_registered_ordinal": 11,
+          "host_class": 1,
+          "returned_observation_class": 0,
+          "host_score": 0.7412109375,
+          "returned_observation_score": 0.456787109375,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000073_04464_v",
+          "frame": 42,
+          "host_ordinal": 11,
+          "actual_code_registered_ordinal": 12,
+          "host_class": 0,
+          "returned_observation_class": 1,
+          "host_score": 0.456787109375,
+          "returned_observation_score": 0.7412109375,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000077_00720_v",
+          "frame": 189,
+          "host_ordinal": 9,
+          "actual_code_registered_ordinal": 8,
+          "host_class": 5,
+          "returned_observation_class": 3,
+          "host_score": 0.5859375,
+          "returned_observation_score": 0.409423828125,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000077_00720_v",
+          "frame": 189,
+          "host_ordinal": 8,
+          "actual_code_registered_ordinal": 9,
+          "host_class": 3,
+          "returned_observation_class": 5,
+          "host_score": 0.409423828125,
+          "returned_observation_score": 0.5859375,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000077_00720_v",
+          "frame": 200,
+          "host_ordinal": 23,
+          "actual_code_registered_ordinal": 22,
+          "host_class": 4,
+          "returned_observation_class": 3,
+          "host_score": 0.65869140625,
+          "returned_observation_score": 0.218017578125,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000077_00720_v",
+          "frame": 200,
+          "host_ordinal": 22,
+          "actual_code_registered_ordinal": 23,
+          "host_class": 3,
+          "returned_observation_class": 4,
+          "host_score": 0.218017578125,
+          "returned_observation_score": 0.65869140625,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 18,
+          "host_ordinal": 82,
+          "actual_code_registered_ordinal": 81,
+          "host_class": 0,
+          "returned_observation_class": 1,
+          "host_score": 0.89208984375,
+          "returned_observation_score": 0.450439453125,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 18,
+          "host_ordinal": 81,
+          "actual_code_registered_ordinal": 82,
+          "host_class": 1,
+          "returned_observation_class": 0,
+          "host_score": 0.450439453125,
+          "returned_observation_score": 0.89208984375,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 74,
+          "host_ordinal": 67,
+          "actual_code_registered_ordinal": 66,
+          "host_class": 0,
+          "returned_observation_class": 1,
+          "host_score": 0.9658203125,
+          "returned_observation_score": 0.28076171875,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 74,
+          "host_ordinal": 66,
+          "actual_code_registered_ordinal": 67,
+          "host_class": 1,
+          "returned_observation_class": 0,
+          "host_score": 0.28076171875,
+          "returned_observation_score": 0.9658203125,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 124,
+          "host_ordinal": 38,
+          "actual_code_registered_ordinal": 37,
+          "host_class": 0,
+          "returned_observation_class": 1,
+          "host_score": 0.5859375,
+          "returned_observation_score": 0.46337890625,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 124,
+          "host_ordinal": 37,
+          "actual_code_registered_ordinal": 38,
+          "host_class": 1,
+          "returned_observation_class": 0,
+          "host_score": 0.46337890625,
+          "returned_observation_score": 0.5859375,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 175,
+          "host_ordinal": 31,
+          "actual_code_registered_ordinal": 30,
+          "host_class": 1,
+          "returned_observation_class": 0,
+          "host_score": 0.76171875,
+          "returned_observation_score": 0.316162109375,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000088_00290_v",
+          "frame": 175,
+          "host_ordinal": 30,
+          "actual_code_registered_ordinal": 31,
+          "host_class": 0,
+          "returned_observation_class": 1,
+          "host_score": 0.316162109375,
+          "returned_observation_score": 0.76171875,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000119_02301_v",
+          "frame": 178,
+          "host_ordinal": 21,
+          "actual_code_registered_ordinal": 20,
+          "host_class": 6,
+          "returned_observation_class": 4,
+          "host_score": 0.6025390625,
+          "returned_observation_score": 0.420654296875,
+          "existing_bbox_assertion_passes": true
+        },
+        {
+          "sequence": "uav0000119_02301_v",
+          "frame": 178,
+          "host_ordinal": 20,
+          "actual_code_registered_ordinal": 21,
+          "host_class": 4,
+          "returned_observation_class": 6,
+          "host_score": 0.420654296875,
+          "returned_observation_score": 0.6025390625,
+          "existing_bbox_assertion_passes": true
+        }
+      ],
+      "all_saved_wrong_mappings_reproduced_with_actual_frozen_source": true
+    },
+    "CPU_verifier_source": "import ast, copy, json, pathlib, hashlib\nfrom types import SimpleNamespace\nimport numpy as np\nroot=pathlib.Path('/home/chenhc/leaf_internal_mechanism_20261008_v1')\nwanted=json.loads(\"[{\\\"sequence\\\":\\\"uav0000073_00600_v\\\",\\\"frame\\\":186,\\\"actual_input_detector_SHA256\\\":\\\"15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_00600_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":39,\\\"first_unused_mapped_ordinal\\\":38,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[1060,783,1116,874,0.673828125,0.229248046875,3],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[1060,783,1116,874,0.435791015625,0.59912109375,9],\\\"original_tlwh_host\\\":[1277.6785888671875,943.794677734375,67.5,109.6875],\\\"original_tlwh_mapped\\\":[1277.6785888671875,943.794677734375,67.5,109.6875],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000073_00600_v\\\",\\\"frame\\\":186,\\\"actual_input_detector_SHA256\\\":\\\"15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_00600_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":38,\\\"first_unused_mapped_ordinal\\\":39,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[1060,783,1116,874,0.435791015625,0.59912109375,9],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[1060,783,1116,874,0.673828125,0.229248046875,3],\\\"original_tlwh_host\\\":[1277.6785888671875,943.794677734375,67.5,109.6875],\\\"original_tlwh_mapped\\\":[1277.6785888671875,943.794677734375,67.5,109.6875],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000073_04464_v\\\",\\\"frame\\\":42,\\\"actual_input_detector_SHA256\\\":\\\"af9f22140a6971f9b1a8710ad9247238a0402042526980222274df7ffb21556a\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_04464_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":12,\\\"first_unused_mapped_ordinal\\\":11,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[348.75,594,381.75,654,0.7412109375,0.70751953125,1],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[348.75,594,381.75,654,0.456787109375,0.325927734375,0],\\\"original_tlwh_host\\\":[420.3683166503906,715.982177734375,39.77679443359375,72.3214111328125],\\\"original_tlwh_mapped\\\":[420.3683166503906,715.982177734375,39.77679443359375,72.3214111328125],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000073_04464_v\\\",\\\"frame\\\":42,\\\"actual_input_detector_SHA256\\\":\\\"af9f22140a6971f9b1a8710ad9247238a0402042526980222274df7ffb21556a\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_04464_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":11,\\\"first_unused_mapped_ordinal\\\":12,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[348.75,594,381.75,654,0.456787109375,0.325927734375,0],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[348.75,594,381.75,654,0.7412109375,0.70751953125,1],\\\"original_tlwh_host\\\":[420.3683166503906,715.982177734375,39.77679443359375,72.3214111328125],\\\"original_tlwh_mapped\\\":[420.3683166503906,715.982177734375,39.77679443359375,72.3214111328125],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000077_00720_v\\\",\\\"frame\\\":189,\\\"actual_input_detector_SHA256\\\":\\\"2652487f6f12fd58880eb307d00066ca0343cccffaf9ec8c24248d709d9ae729\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":9,\\\"first_unused_mapped_ordinal\\\":8,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[678.5,355.25,723.5,406.75,0.5859375,0.6279296875,5],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[678.5,355.25,723.5,406.75,0.409423828125,0.5078125,3],\\\"original_tlwh_host\\\":[579.2996215820312,303.310546875,38.4207763671875,43.97039794921875],\\\"original_tlwh_mapped\\\":[579.2996215820312,303.310546875,38.4207763671875,43.97039794921875],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000077_00720_v\\\",\\\"frame\\\":189,\\\"actual_input_detector_SHA256\\\":\\\"2652487f6f12fd58880eb307d00066ca0343cccffaf9ec8c24248d709d9ae729\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":8,\\\"first_unused_mapped_ordinal\\\":9,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[678.5,355.25,723.5,406.75,0.409423828125,0.5078125,3],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[678.5,355.25,723.5,406.75,0.5859375,0.6279296875,5],\\\"original_tlwh_host\\\":[579.2996215820312,303.310546875,38.4207763671875,43.97039794921875],\\\"original_tlwh_mapped\\\":[579.2996215820312,303.310546875,38.4207763671875,43.97039794921875],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000077_00720_v\\\",\\\"frame\\\":200,\\\"actual_input_detector_SHA256\\\":\\\"08a1fb612fa4ff86d0bbe913f1a87cea5f873120ec7fa7e62f2121436d3a162a\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":23,\\\"first_unused_mapped_ordinal\\\":22,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[963,658,1075,812,0.65869140625,0.89013671875,4],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[963,658,1075,812,0.218017578125,0.7470703125,3],\\\"original_tlwh_host\\\":[822.2042236328125,561.796875,95.625,131.484375],\\\"original_tlwh_mapped\\\":[822.2042236328125,561.796875,95.625,131.484375],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000077_00720_v\\\",\\\"frame\\\":200,\\\"actual_input_detector_SHA256\\\":\\\"08a1fb612fa4ff86d0bbe913f1a87cea5f873120ec7fa7e62f2121436d3a162a\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":22,\\\"first_unused_mapped_ordinal\\\":23,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[963,658,1075,812,0.218017578125,0.7470703125,3],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[963,658,1075,812,0.65869140625,0.89013671875,4],\\\"original_tlwh_host\\\":[822.2042236328125,561.796875,95.625,131.484375],\\\"original_tlwh_mapped\\\":[822.2042236328125,561.796875,95.625,131.484375],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000088_00290_v\\\",\\\"frame\\\":18,\\\"actual_input_detector_SHA256\\\":\\\"1ead83db39c1f9fbb0ee00d6d3f6a64cde0d01268da9217a5fb12dc037cb5040\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":82,\\\"first_unused_mapped_ordinal\\\":81,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[1412,286.25,1436,349.75,0.89208984375,0.72705078125,0],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[1412,286.25,1436,349.75,0.450439453125,0.43505859375,1],\\\"original_tlwh_host\\\":[850.982177734375,172.51675415039062,14.46429443359375,38.27008056640625],\\\"original_tlwh_mapped\\\":[850.982177734375,172.51675415039062,14.46429443359375,38.27008056640625],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000088_00290_v\\\",\\\"frame\\\":18,\\\"actual_input_detector_SHA256\\\":\\\"1ead83db39c1f9fbb0ee00d6d3f6a64cde0d01268da9217a5fb12dc037cb5040\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":81,\\\"first_unused_mapped_ordinal\\\":82,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[1412,286.25,1436,349.75,0.450439453125,0.43505859375,1],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[1412,286.25,1436,349.75,0.89208984375,0.72705078125,0],\\\"original_tlwh_host\\\":[850.982177734375,172.51675415039062,14.46429443359375,38.27008056640625],\\\"original_tlwh_mapped\\\":[850.982177734375,172.51675415039062,14.46429443359375,38.27008056640625],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000088_00290_v\\\",\\\"frame\\\":74,\\\"actual_input_detector_SHA256\\\":\\\"722060923dbe4489ebcc5114e81ba73e56c92adf449a65e98e91f5d05d4b54c2\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":67,\\\"first_unused_mapped_ordinal\\\":66,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[1391,269.5,1417,325,0.9658203125,0.74072265625,0],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[1391,269.5,1417,325,0.28076171875,0.394287109375,1],\\\"original_tlwh_host\\\":[838.325927734375,162.421875,15.66961669921875,33.44866943359375],\\\"original_tlwh_mapped\\\":[838.325927734375,162.421875,15.66961669921875,33.44866943359375],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000088_00290_v\\\",\\\"frame\\\":74,\\\"actual_input_detector_SHA256\\\":\\\"722060923dbe4489ebcc5114e81ba73e56c92adf449a65e98e91f5d05d4b54c2\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":66,\\\"first_unused_mapped_ordinal\\\":67,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[1391,269.5,1417,325,0.28076171875,0.394287109375,1],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[1391,269.5,1417,325,0.9658203125,0.74072265625,0],\\\"original_tlwh_host\\\":[838.325927734375,162.421875,15.66961669921875,33.44866943359375],\\\"original_tlwh_mapped\\\":[838.325927734375,162.421875,15.66961669921875,33.44866943359375],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000088_00290_v\\\",\\\"frame\\\":124,\\\"actual_input_detector_SHA256\\\":\\\"78180d1fba6fe22d0c9b30362d3e46351b23b73408503ee42255c902b6eb376a\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":38,\\\"first_unused_mapped_ordinal\\\":37,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[796,361.5,827,406.5,0.5859375,0.59375,0],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[796,361.5,827,406.5,0.46337890625,0.37939453125,1],\\\"original_tlwh_host\\\":[479.7321472167969,217.86831665039062,18.68304443359375,27.120529174804688],\\\"original_tlwh_mapped\\\":[479.7321472167969,217.86831665039062,18.68304443359375,27.120529174804688],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000088_00290_v\\\",\\\"frame\\\":124,\\\"actual_input_detector_SHA256\\\":\\\"78180d1fba6fe22d0c9b30362d3e46351b23b73408503ee42255c902b6eb376a\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":37,\\\"first_unused_mapped_ordinal\\\":38,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[796,361.5,827,406.5,0.46337890625,0.37939453125,1],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[796,361.5,827,406.5,0.5859375,0.59375,0],\\\"original_tlwh_host\\\":[479.7321472167969,217.86831665039062,18.68304443359375,27.120529174804688],\\\"original_tlwh_mapped\\\":[479.7321472167969,217.86831665039062,18.68304443359375,27.120529174804688],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000088_00290_v\\\",\\\"frame\\\":175,\\\"actual_input_detector_SHA256\\\":\\\"debe904bdfed83f01660aa2cbcce149bd9ee928c0df0cb99e8614d60b7b260a3\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":31,\\\"first_unused_mapped_ordinal\\\":30,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[695.5,321.5,724.5,364,0.76171875,0.63623046875,1],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[695.5,321.5,724.5,364,0.316162109375,0.3720703125,0],\\\"original_tlwh_host\\\":[419.1629638671875,193.76116943359375,17.477691650390625,25.613845825195312],\\\"original_tlwh_mapped\\\":[419.1629638671875,193.76116943359375,17.477691650390625,25.613845825195312],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000088_00290_v\\\",\\\"frame\\\":175,\\\"actual_input_detector_SHA256\\\":\\\"debe904bdfed83f01660aa2cbcce149bd9ee928c0df0cb99e8614d60b7b260a3\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":30,\\\"first_unused_mapped_ordinal\\\":31,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[695.5,321.5,724.5,364,0.316162109375,0.3720703125,0],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[695.5,321.5,724.5,364,0.76171875,0.63623046875,1],\\\"original_tlwh_host\\\":[419.1629638671875,193.76116943359375,17.477691650390625,25.613845825195312],\\\"original_tlwh_mapped\\\":[419.1629638671875,193.76116943359375,17.477691650390625,25.613845825195312],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000119_02301_v\\\",\\\"frame\\\":178,\\\"actual_input_detector_SHA256\\\":\\\"113232be226ffc179fae09e82128b7e631b2621bf14367062d7300f682009753\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000119_02301_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":21,\\\"first_unused_mapped_ordinal\\\":20,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[1141,780,1285,893,0.6025390625,0.442626953125,6],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[1141,780,1285,893,0.420654296875,0.615234375,4],\\\"original_tlwh_host\\\":[974.1796264648438,665.9597778320312,122.94647216796875,96.47882080078125],\\\"original_tlwh_mapped\\\":[974.1796264648438,665.9597778320312,122.94647216796875,96.47882080078125],\\\"byte_identical_current_live_detector_hash\\\":true},{\\\"sequence\\\":\\\"uav0000119_02301_v\\\",\\\"frame\\\":178,\\\"actual_input_detector_SHA256\\\":\\\"113232be226ffc179fae09e82128b7e631b2621bf14367062d7300f682009753\\\",\\\"runtime_source\\\":\\\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000119_02301_v.txt.runtime.json\\\",\\\"host_detection_ordinal\\\":20,\\\"first_unused_mapped_ordinal\\\":21,\\\"actual_host_detection_network_xyxy_obj_clsconf_class\\\":[1141,780,1285,893,0.420654296875,0.615234375,4],\\\"assigned_observation_network_xyxy_obj_clsconf_class\\\":[1141,780,1285,893,0.6025390625,0.442626953125,6],\\\"original_tlwh_host\\\":[974.1796264648438,665.9597778320312,122.94647216796875,96.47882080078125],\\\"original_tlwh_mapped\\\":[974.1796264648438,665.9597778320312,122.94647216796875,96.47882080078125],\\\"byte_identical_current_live_detector_hash\\\":true}]\")\ndef digest(a):\n hdr=json.dumps({'dtype':a.dtype.str,'shape':list(a.shape)},sort_keys=True,separators=(',',':')).encode()\n h=hashlib.sha256();h.update(len(hdr).to_bytes(8,'little'));h.update(hdr);h.update(a.tobytes(order='C'));return h.hexdigest()\nrs=(root/'belief/runtime.py').read_text();rt=ast.parse(rs)\ncls=next(n for n in rt.body if isinstance(n,ast.ClassDef) and n.name=='BeliefTracker')\nassociate=copy.deepcopy(next(n for n in cls.body if isinstance(n,ast.FunctionDef) and n.name=='associate'))\nassociate.body=[n for n in associate.body if n.lineno<709]\ncs=(root/'tools/capture_belief_evidence.py').read_text();ct=ast.parse(cs)\nccls=next(n for n in ct.body if isinstance(n,ast.ClassDef) and n.name=='CaptureTracker')\ndet_record=copy.deepcopy(next(n for n in ccls.body if isinstance(n,ast.FunctionDef) and n.name=='det_record'))\nfinite_list=copy.deepcopy(next(n for n in ct.body if isinstance(n,ast.FunctionDef) and n.name=='finite_list'))\nns={'np':np}\nmod=ast.fix_missing_locations(ast.Module(body=[associate,finite_list,det_record],type_ignores=[]))\nexec(compile(mod,'unchanged_frozen_ordinal_methods','exec'),ns)\nresults=[];checked=[]\nfor seq,frame in sorted({(w['sequence'],w['frame']) for w in wanted}):\n path=pathlib.Path('/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927/npz')/(seq+'.npz')\n x=np.load(path);off=x['offsets'];a=x['detections'][off[frame-1]:off[frame]].copy()\n scale=min(896/float(x['frame_height'][0]),1600/float(x['frame_width'][0]))\n a=a[a[:,4].astype(np.float16)*a[:,5].astype(np.float16)>=np.float16(.09)]\n a[:,:4]*=scale;a=a.astype(np.float16).astype(np.float32);a=a[np.argsort(a[:,0])]\n expected=next(w['actual_input_detector_SHA256'] for w in wanted if w['sequence']==seq and w['frame']==frame)\n assert digest(a)==expected\n b=a[:,:4].copy();b/=scale;b[:,2:]-=b[:,:2];b=b.astype(np.float64)\n rows={i:{'detection_ordinal':i,'bbox_tlwh':b[i].tolist(),'score':float(row[4]),'class_confidence':float(row[5]),'predicted_class':int(row[6])} for i,row in enumerate(a)}\n objects=[SimpleNamespace(tlwh=b[i],_tlwh=b[i],score=float(row[4]),cls=int(row[6])) for i,row in enumerate(a)]\n tracker=SimpleNamespace(_flush_committed=lambda:None,stage=0,det_ordinals={},frame_observations=rows)\n high=np.flatnonzero(a[:,4]>.5);low=np.flatnonzero((a[:,4]>.1)&~(a[:,4]>.5))\n ns['associate'](tracker,[],[objects[i] for i in high],.8)\n ns['associate'](tracker,[],[objects[i] for i in low],.5)\n for w in wanted:\n  if w['sequence']!=seq or w['frame']!=frame:continue\n  i=w['host_detection_ordinal'];obj=objects[i];row=ns['det_record'](tracker,obj)\n  assert row['detection_ordinal']==w['first_unused_mapped_ordinal']\n  assert (obj.score,obj.cls)!=(row['score'],row['predicted_class'])\n  results.append({'sequence':seq,'frame':frame,'host_ordinal':i,'actual_code_registered_ordinal':row['detection_ordinal'],'host_class':obj.cls,'returned_observation_class':row['predicted_class'],'host_score':obj.score,'returned_observation_score':row['score'],'existing_bbox_assertion_passes':True})\n checked.append({'sequence':seq,'frame':frame,'detector_SHA256':expected})\nassert len(results)==18 and len(checked)==9\nprint(json.dumps({'checked_byte_verified_real_frames':checked,'results':results,'all_saved_wrong_mappings_reproduced_with_actual_frozen_source':True}))\n",
+    "CPU_verifier_source_sha256": "ac66409a25344dad41a3264adb2aa078173900391a9a1e120828603ab2dbff9c"
+  },
+  "source_locations": {
+    "original_ordinal_definition": "tools/capture_belief_evidence.py:195-202 and belief/online.py:101-114 define detection_ordinal as ordered input-row index.",
+    "registration": "belief/runtime.py:684-708 finds first unused row by tlwh only; score/class are not considered.",
+    "observation_return": "BeliefTracker.det_record = CaptureTracker.det_record at belief/runtime.py:187; tools/capture_belief_evidence.py:56-62 checks exact bbox only.",
+    "host_partition_order": "host/yolox/tracker/u2mot_tracker.py:1572-1584,1687-1697,1817-1828,1888-1897 retain input order within high and low partitions; high is registered first.",
+    "NMS_scope": "host/yolox/utils/boxes.py:70-74 uses class-aware batched_nms, which permits equal boxes from different classes.",
+    "inherited_origin": "parent experiment/belief/runtime.py:500-520 and parent tools/capture_belief_evidence.py:79-103 already use geometry-first-unused; current src_egia_belief_20260923/belief/runtime.py:538-555 preserves first-unused semantics with a geometry index."
+  },
+  "nine_checks": [
+    {
+      "round": 1,
+      "check": "historical_real_testdev_sources",
+      "status": "VERIFIED",
+      "evidence": "All 17 NPZ SHA values rehashed against capture manifest, 6635 frames, 1447099 original rows; same checkpoint SHA as current."
+    },
+    {
+      "round": 1,
+      "check": "NMS_and_ordinal_source_contracts",
+      "status": "VERIFIED_RISK",
+      "evidence": "Class-aware batched_nms permits cross-class same boxes; ordinal is input-row index, recovered by bbox-only first-unused."
+    },
+    {
+      "round": 1,
+      "check": "FP16_confidence_and_array_shape",
+      "status": "VERIFIED",
+      "evidence": "FP16 obj*cls>=float16(.09) reconstruction has same detector shape in all 3114 completed-frame records; float32 threshold differs on at least one reviewed frame."
+    },
+    {
+      "round": 2,
+      "check": "current_input_byte_identity",
+      "status": "VERIFIED_PARTIAL",
+      "evidence": "3055/3114 completed current frames have exactly matching detector ndarray SHA after documented reconstruction; 59 excluded."
+    },
+    {
+      "round": 2,
+      "check": "real_duplicate_geometry",
+      "status": "OBSERVED",
+      "evidence": "Byte-identical frames contain63 duplicate pairs,19 high/low duplicate pairs; geometry-first-unused simulation produces18 different score/class metadata mappings in9 frames."
+    },
+    {
+      "round": 2,
+      "check": "actual_frozen_registration_operator",
+      "status": "REPRODUCED_BUG",
+      "evidence": "Unchanged associate-prefix and det_record AST on all nine affected real frames reproduces all eighteen score/class mappings; existing bbox assertion passes in every case."
+    },
+    {
+      "round": 3,
+      "check": "historical_or_new_source",
+      "status": "INHERITED",
+      "evidence": "Same ambiguity exists in parent full runtime and original capture. Newly strict unmatched-bbox handling does not address multiple equal-bbox candidates."
+    },
+    {
+      "round": 3,
+      "check": "metadata_assertion_boundary",
+      "status": "VERIFIED_INSUFFICIENT",
+      "evidence": "Actual det_record assertion checks geometry; score/class mismatch remains accepted. Golden output parity therefore does not independently validate observation ownership."
+    },
+    {
+      "round": 3,
+      "check": "score_and_active_process_boundary",
+      "status": "UNRESOLVED_IMPACT",
+      "evidence": "No solver replay, score correction or active det_ordinals trace performed. Auditor did not touch active C11 process or frozen code; parent later stopped v1 inference. Current gain attribution requires separate investigation."
+    }
+  ],
+  "all_wrong_mapping_pairs_saved": true,
+  "inference_stop_decision": "Root reports v1 inference and its workers stopped after this finding; auditor did not stop or modify v1 inference.",
+  "source_code_artifacts": [
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/belief/runtime.py",
+      "sha256": "f2aebe07daf9a65ae5a771a8574e8962ea5b7edcafca5fc8b422fb8ffba5f12f",
+      "bytes": 66334
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/belief/online.py",
+      "sha256": "67c97ea1128b8ac0fbfcc50331e831b2f555c010cb2f974f96c757b12e28dbe0",
+      "bytes": 7083
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/tools/capture_belief_evidence.py",
+      "sha256": "d4aa6c0c85ca579c02c90e311f194e2ebc1f6b7b47ce0a1eeb91dcf32dd0cbeb",
+      "bytes": 16857
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/host/yolox/tracker/u2mot_tracker.py",
+      "sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6",
+      "bytes": 108082
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/host/yolox/utils/boxes.py",
+      "sha256": "bf7294cbd872041706db7174a0d7025ef6191278b4d27f45a31997fcb356663d",
+      "bytes": 7215
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/belief/runtime.py",
+      "sha256": "731f6be2e71fa1ec8b537da7e8b13966d527492889fa474b7e67e2f3569ac200",
+      "bytes": 49756
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/tools/capture_belief_evidence.py",
+      "sha256": "d4aa6c0c85ca579c02c90e311f194e2ebc1f6b7b47ce0a1eeb91dcf32dd0cbeb",
+      "bytes": 16857
+    },
+    {
+      "path": "/home/chenhc/src_egia_belief_20260923/belief/runtime.py",
+      "sha256": "7467bd67dcd49ad4b4a278024492f2899d7170c0214d837812c724a1355d5a9d",
+      "bytes": 53648
+    },
+    {
+      "path": "/home/chenhc/uav_mot_scra_20260908/tools/capture_detector_outputs.py",
+      "sha256": "254939c64a2302d8be759ae7871ecf103b4b80376f356238ba5ea8733d0f30ff",
+      "bytes": 12990
+    }
+  ],
+  "audit_boundary": "These nine checks document discovery and reproduction; they do not satisfy a repaired implementation's three-round validation gate.",
+  "evidence_reverified_utc": "2026-10-07T16:58:03.486186+00:00",
+  "exact_reconstruction_and_simulation_CPU_verifier_source": "import json,pathlib,hashlib,datetime\nimport numpy as np\nfrom scipy.spatial import cKDTree\nroot=pathlib.Path('/home/chenhc/leaf_internal_mechanism_20261008_v1')\ncache=pathlib.Path('/raid/datasets/chc_data/visdrone_u2mot_detector_capture_20260927')\ndef sha(p):return hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()\ndef digest(a):\n hdr=json.dumps({'dtype':a.dtype.str,'shape':list(a.shape)},sort_keys=True,separators=(',',':')).encode();h=hashlib.sha256();h.update(len(hdr).to_bytes(8,'little'));h.update(hdr);h.update(a.tobytes(order='C'));return h.hexdigest()\nsummary=[];examples=[];sources=[]\nfor rp in [pathlib.Path(p) for p in [\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000009_03358_v.txt.runtime.json\",\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_00600_v.txt.runtime.json\",\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000073_04464_v.txt.runtime.json\",\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000077_00720_v.txt.runtime.json\",\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000088_00290_v.txt.runtime.json\",\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000119_02301_v.txt.runtime.json\",\"/home/chenhc/leaf_internal_mechanism_20261008_v1/YOLOX_outputs/C11_full_reference/track_res/uav0000120_04775_v.txt.runtime.json\"]]:\n r=json.loads(rp.read_text());seq=r['sequence'];p=cache/'npz'/(seq+'.npz');x=np.load(p);ds=x['detections'];off=x['offsets'];scale=min(896/float(x['frame_height'][0]),1600/float(x['frame_width'][0]))\n s={'sequence':seq,'completed_frames':len(r['input_records']),'fp16_filter_shapes_equal':0,'byte_identical_reconstructed_detector_frames':0,'unmatched_frames':[],'duplicate_pairs_in_byte_identical_frames':0,'high_low_duplicate_pairs_in_byte_identical_frames':0,'wrong_score_or_class_mapped_detections':0,'frames_with_wrong_score_or_class_mapping':0,'wrong_predicted_class_mapped_detections':0}\n for it in r['input_records']:\n  frame=it['frame'];a=ds[off[frame-1]:off[frame]].copy();keep=a[:,4].astype(np.float16)*a[:,5].astype(np.float16)>=np.float16(.09);a=a[keep];a[:,:4]*=scale;a=a.astype(np.float16).astype(np.float32);a=a[np.argsort(a[:,0])]\n  s['fp16_filter_shapes_equal']+=int(list(a.shape)==it['detector_shape'])\n  if digest(a)!=it['detector_sha256']:s['unmatched_frames'].append(frame);continue\n  s['byte_identical_reconstructed_detector_frames']+=1\n  boxes=a[:,:4].copy();boxes/=scale;boxes[:,2:]-=boxes[:,:2];b=boxes.astype(float)\n  pairs=cKDTree(b).query_pairs(1e-4,p=np.inf);s['duplicate_pairs_in_byte_identical_frames']+=len(pairs)\n  s['high_low_duplicate_pairs_in_byte_identical_frames']+=sum(bool((a[i,4]>.5) != (a[j,4]>.5)) for i,j in pairs)\n  high=np.flatnonzero(a[:,4]>.5);low=np.flatnonzero((a[:,4]>.1)&~(a[:,4]>.5));used=np.zeros(len(a),dtype=bool);wrong=[]\n  # This vectorized condition is exactly np.allclose(..., rtol=0, atol=1e-4).\n  for ordinal in np.concatenate([high,low]):\n   candidates=np.flatnonzero(~used & (np.abs(b-b[ordinal])<=1e-4).all(axis=1))\n   assert len(candidates),(seq,frame,int(ordinal))\n   mapped=int(candidates[0]);used[mapped]=True\n   if np.any(a[ordinal,4:]!=a[mapped,4:]):\n    wrong.append((int(ordinal),mapped));s['wrong_score_or_class_mapped_detections']+=1;s['wrong_predicted_class_mapped_detections']+=int(a[ordinal,6]!=a[mapped,6])\n    if len(examples)<1000:examples.append({'sequence':seq,'frame':frame,'actual_input_detector_SHA256':it['detector_sha256'],'runtime_source':str(rp),'host_detection_ordinal':int(ordinal),'first_unused_mapped_ordinal':mapped,'actual_host_detection_network_xyxy_obj_clsconf_class':a[ordinal].tolist(),'assigned_observation_network_xyxy_obj_clsconf_class':a[mapped].tolist(),'original_tlwh_host':b[ordinal].tolist(),'original_tlwh_mapped':b[mapped].tolist(),'byte_identical_current_live_detector_hash':True})\n  s['frames_with_wrong_score_or_class_mapping']+=int(bool(wrong))\n summary.append(s);sources.append({'runtime_path':str(rp),'runtime_SHA256':sha(rp),'npz_path':str(p),'npz_SHA256':sha(p)})\ntotals={k:sum(s[k] for s in summary) for k in summary[0] if isinstance(summary[0][k],int)}\nobj={'observed_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'OBSERVED_GEOMETRY_ONLY_ORDINAL_AMBIGUITY_IN_CURRENT_BYTE_VERIFIED_DETECTOR_INPUTS','scope':'CPU reconstruction from existing NPZ, exact SHA matching to completed current C11 runtime detector inputs, and independent simulation of frozen geometry-first-unused registration. No GPU, solver replay or modified runtime.','reconstruction':'original-image float32 boxes times original scale, FP16 round trip to float32, FP16 obj*cls >= float16(.09), np.argsort(network x1). Only exact current detector-SHA matches enter ambiguity counts.','aggregate':totals,'sequences':summary,'examples':examples,'source_artifacts':sources,'limits':['Simulation proves geometry-only registration would map a different score/class row for these byte-verified current inputs; active process internal det_ordinals were not logged and not inspected.','Nonmatching frames are excluded. Historical NPZ is not a replacement for current detector/ReID streams.','No MOT score impact or correction is computed. Golden prediction parity cannot exclude an inherited metadata mismatch.','Geometry-first-unused logic predates the seven-arm runner in current SRC/EGIA runtime and capture scripts.','Native baseline without SRC observation metadata may be unaffected; training/inference lineage needs separate impact investigation.']}\nprint(json.dumps(obj,separators=(',',':')))",
+  "evidence_scope_counts": {
+    "pinned_sequences": 7,
+    "completed_frames": 3114,
+    "exact_input_sha_matches": 3055,
+    "excluded_input_sha_mismatches": 59,
+    "saved_wrong_mappings": 18,
+    "saved_wrong_mapping_unique_frames": 9
+  },
+  "exact_reconstruction_and_simulation_CPU_verifier_source_sha256": "edce216ba6ba892edd5565a542fcc3b64468ca555f44b4f1292fcf1fc5692bee"
+}
+

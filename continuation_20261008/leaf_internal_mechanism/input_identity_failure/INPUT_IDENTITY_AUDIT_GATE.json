@@ -1,0 +1,8 @@
+{
+  "status": "HOLD_IDENTICAL_BOX_METADATA_BINDING",
+  "created_at": "2026-10-08T00:52:25.327745",
+  "finding": "Current and canonical ordinal resolution uses first unused geometry match without class/objectness/class-confidence identity. Historical same-checkpoint detector inputs contain duplicate-box conditions. Current input-byte correspondence is under independent audit.",
+  "online_score_validity": "Pending input identity audit; a runner PASS alone does not establish mechanism validity",
+  "runtime_modified": false,
+  "evidence_sha256": {}
+}

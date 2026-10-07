@@ -1,0 +1,57 @@
+{
+  "all_reviewed_sources_match_frozen_evidence": true,
+  "arms": [
+    {
+      "bundle_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+      "mask": true,
+      "name": "C11_full_reference",
+      "penalty": true,
+      "runtime_arm": "fc_full"
+    },
+    {
+      "bundle_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+      "mask": false,
+      "name": "C00_nativecost_reference",
+      "penalty": false,
+      "runtime_arm": "fc_control"
+    },
+    {
+      "bundle_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+      "mask": true,
+      "name": "C10_mask_only",
+      "penalty": false,
+      "runtime_arm": "fc_mask_only"
+    },
+    {
+      "bundle_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+      "mask": false,
+      "name": "C01_penalty_only",
+      "penalty": true,
+      "runtime_arm": "fc_penalty_only"
+    }
+  ],
+  "cpu_tests": {
+    "exit_code": 0,
+    "output": "test_all_cells_use_original_masked_reference_for_responsibility (test_cost_factors.CostFactorContracts) ... ok\ntest_each_factor_only_changes_its_assignment_operator (test_cost_factors.CostFactorContracts) ... ok\ntest_empty_seams_are_native_and_never_call_semantic_models (test_cost_factors.CostFactorContracts) ... ok\ntest_invalid_negative_penalty_is_stopped (test_cost_factors.CostFactorContracts) ... ok\ntest_iou_only_has_no_mask_effect_and_retains_reference_features (test_cost_factors.CostFactorContracts) ... ok\ntest_mismatched_native_seam_stops_instead_of_faking_a_control (test_cost_factors.CostFactorContracts) ... ok\ntest_off_off_returns_actual_native_assignment_and_counts_real_seam (test_cost_factors.CostFactorContracts) ... ok\ntest_penalty_can_reject_but_never_create_a_threshold_illegal_edge (test_cost_factors.CostFactorContracts) ... ok\ntest_real_constructor_preserves_state_and_frozen_context_in_every_cell (test_cost_factors.CostFactorContracts) ... ok\ntest_unresolved_detection_ordinal_stops_before_model_or_assignment (test_cost_factors.CostFactorContracts) ... ok\ntest_update_waits_for_host_commit_and_preserves_frozen_formula (test_cost_factors.CostFactorContracts) ... ok\ntest_birth_initialization_and_report_are_preserved_in_all_four_cells (test_cost_factors.OnlineInputLedgerContracts) ... ok\ntest_digest_is_order_dtype_shape_and_value_sensitive (test_cost_factors.OnlineInputLedgerContracts) ... ok\ntest_hash_ledger_leaves_host_inputs_and_output_order_unchanged (test_cost_factors.OnlineInputLedgerContracts) ... ok\ntest_per_frame_ledger_is_serializable_and_rejects_repeated_frames (test_cost_factors.OnlineInputLedgerContracts) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.167s\n\nOK\n",
+    "tests_run": 15
+  },
+  "formal_effectiveness_or_full_parity_claim": false,
+  "four_cost_bundle_hashes_equal": true,
+  "freeze_verification": {
+    "belief/online.py": "direct frozen manifest hash",
+    "belief/runtime.py": "direct frozen manifest hash",
+    "tests/test_cost_factors.py": "source hash in CPU gate whose SHA is frozen in manifest",
+    "tools/run_mechanism.py": "direct frozen manifest hash",
+    "tools/track_dynamic_online.py": "direct frozen manifest hash"
+  },
+  "scope": "Read-only source and synthetic CPU audit; no GPU, tracking replay, inference or frozen-file edits",
+  "source_sha256": {
+    "belief/online.py": "67c97ea1128b8ac0fbfcc50331e831b2f555c010cb2f974f96c757b12e28dbe0",
+    "belief/runtime.py": "f2aebe07daf9a65ae5a771a8574e8962ea5b7edcafca5fc8b422fb8ffba5f12f",
+    "tests/test_cost_factors.py": "dd0ef5a77f2a2b79b32ee847c13e873206acdbf57573e011b0f28d8af3261a36",
+    "tools/run_mechanism.py": "f54ad842ac88f96b9c79253aade2f96f8a53c8ebc3622bf69c27261438d3b7da",
+    "tools/track_dynamic_online.py": "105cbd36fb1146891768cbd4d8eaa0446cb8ff16da2a5f385aaf45c024500240"
+  },
+  "status": "FROZEN_SOURCE_COST_CONTRACT_REVIEW_COMPLETE",
+  "utc": "2026-10-07T16:45:27.354400+00:00"
+}
