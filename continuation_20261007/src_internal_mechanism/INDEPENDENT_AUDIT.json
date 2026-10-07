@@ -1,0 +1,70 @@
+{
+  "status": "PASS_INDEPENDENT_INTERNAL_MECHANISM_AUDIT",
+  "checks": {
+    "source_hashes_unchanged": true,
+    "all_eight_calibration_sequences_included": true,
+    "all_saved_association_records_consumed": true,
+    "all_beliefs_have_recorded_birth_state": true,
+    "current_annotation_hashes_match_frozen_labels": true,
+    "systematic_label_spot_check_against_current_original_gt": true,
+    "independent_manual_head_probability_reconstruction": true,
+    "independent_scalar_cost_reconstruction": true,
+    "empirical_cdf_and_threshold_counts_consistent": true
+  },
+  "systematic_sample_n": 264,
+  "per_sequence": {
+    "uav0000076_00720_v": {
+      "systematic_observation_samples": 33,
+      "gt_sha256": "344275c629c7f7d808f0a1658139c7c7293ba11e2c0163104508a514606d0f2a",
+      "complete_association_records": 1083,
+      "left_censored_states": 0
+    },
+    "uav0000145_00000_v": {
+      "systematic_observation_samples": 33,
+      "gt_sha256": "6f68ad881294f73a3a699faf561bf1e1b3ae0a07f3eed75d3edd11d614ee9cc3",
+      "complete_association_records": 921,
+      "left_censored_states": 0
+    },
+    "uav0000150_02310_v": {
+      "systematic_observation_samples": 33,
+      "gt_sha256": "da09601682ea5203a00fc85f1045615d3d43da53875471e8e9de4ae4380dff4b",
+      "complete_association_records": 1044,
+      "left_censored_states": 0
+    },
+    "uav0000222_03150_v": {
+      "systematic_observation_samples": 33,
+      "gt_sha256": "c1e332ec0a1cea3af7086ce9e11cc493882ca10229b51ec44cf4280f6cca024b",
+      "complete_association_records": 1263,
+      "left_censored_states": 0
+    },
+    "uav0000244_01440_v": {
+      "systematic_observation_samples": 33,
+      "gt_sha256": "f027de86332f041e08c9d7f746a5294b14b9f49aa061241717ffbfbf8741ee89",
+      "complete_association_records": 2163,
+      "left_censored_states": 0
+    },
+    "uav0000315_00000_v": {
+      "systematic_observation_samples": 33,
+      "gt_sha256": "5e9b4f88f290421f694c839a06fb30957e5823e44f15853d9dff78d92dc315c7",
+      "complete_association_records": 1896,
+      "left_censored_states": 0
+    },
+    "uav0000342_04692_v": {
+      "systematic_observation_samples": 33,
+      "gt_sha256": "72d4a9a48d71ed9240e16def93a045d1309da82921a18be15974da606bd16175",
+      "complete_association_records": 831,
+      "left_censored_states": 0
+    },
+    "uav0000357_00920_v": {
+      "systematic_observation_samples": 33,
+      "gt_sha256": "9b1f3431923162efc47eb09a998f1a8122d412570d5822a1b53ff1b5554965a3",
+      "complete_association_records": 2073,
+      "left_censored_states": 0
+    }
+  },
+  "label_source_sha256": "88a2b8e41518dd0cfb98ccf0658730bd8b53e33cdd61d83d142cb491d51ee336",
+  "analysis_receipt_sha256": "af309b5987ea3d0a89e82fdb03a2a1454705f0209091a720bc444a6f4baafed8",
+  "audit_script_sha256": "99966b5f8bb51109fa7aeccf4efd861f0b9e5b0aed7163ba156933a1fff5517a",
+  "formal_mot_metrics": false,
+  "gpu_used": false
+}

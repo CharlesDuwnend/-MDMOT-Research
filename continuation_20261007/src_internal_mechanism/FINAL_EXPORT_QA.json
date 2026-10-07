@@ -1,0 +1,65 @@
+{
+  "status": "PASS_FINAL_EXPORT_AND_PDF_VISUAL_REVIEW",
+  "files": {
+    "src_cost_selectivity": {
+      "fixed_inches": [
+        3.5,
+        5.3
+      ],
+      "pdf_font_embedding": "PASS_POPPLER",
+      "raster_images": 0,
+      "png_pixels": [
+        2100,
+        3180
+      ],
+      "png_dpi": 600,
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     15  0\nGCWXDV+DejaVuSans-Oblique            CID TrueType      Identity-H       yes yes yes     22  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     29  0\n",
+      "pdfinfo": "Creator:        Matplotlib v3.7.5, https://matplotlib.org\nProducer:       Matplotlib pdf backend v3.7.5\nCreationDate:   Wed Oct  7 19:47:35 2026 CST\nTagged:         no\nUserProperties: no\nSuspects:       no\nForm:           none\nJavaScript:     no\nPages:          1\nEncrypted:      no\nPage size:      252 x 381.6 pts\nPage rot:       0\nFile size:      30604 bytes\nOptimized:      no\nPDF version:    1.4\n"
+    },
+    "src_semantic_evidence_reliability": {
+      "fixed_inches": [
+        3.5,
+        3.7
+      ],
+      "pdf_font_embedding": "PASS_POPPLER",
+      "raster_images": 0,
+      "png_pixels": [
+        2100,
+        2220
+      ],
+      "png_dpi": 600,
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     15  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     22  0\n",
+      "pdfinfo": "Creator:        Matplotlib v3.7.5, https://matplotlib.org\nProducer:       Matplotlib pdf backend v3.7.5\nCreationDate:   Wed Oct  7 19:47:36 2026 CST\nTagged:         no\nUserProperties: no\nSuspects:       no\nForm:           none\nJavaScript:     no\nPages:          1\nEncrypted:      no\nPage size:      252 x 266.4 pts\nPage rot:       0\nFile size:      24906 bytes\nOptimized:      no\nPDF version:    1.4\n"
+    }
+  },
+  "artifact_sha256": {
+    "FIGURE_CAPTIONS.md": "55fc5fb8f50b8f0875cbacaece7665e24af49872062fb510839cbc66b9b834d7",
+    "FIGURE_CAPTIONS.tex": "c52872d9c656c82723075ad22b1d0ffcfb06a70d14b26055eec8205fd4a2e86c",
+    "src_cost_selectivity.pdf": "74ce1a071bd7f439aa0a3a50b30f9f60b8ddcbde8f63fe2a5a646883c9951fee",
+    "src_cost_selectivity.png": "d72d3468f537e2cf75295467f35a379ff7502bd7f4597310ca3642b41a2e9e8c",
+    "src_cost_selectivity.svg": "4b9f935107d6c49538f345efebf1d6fce6cb23d4d0a8262083dc5b573b910489",
+    "src_cost_selectivity_grayscale.png": "11a27e68177d3165ab7a8a9dcbb512424272ed93c531baaf6d18860e5e30ebf2",
+    "src_cost_selectivity_pdf_render.png": "189c76ba88eb9a39a736a1af328f9f3533a633165a8543a249a25af6f227c671",
+    "src_cost_selectivity_pdf_render_gray.png": "32c9b63378895eee4fa69d4a42ae36c984f6e7cf9542184cfdfab8b1ce2ad89c",
+    "src_cost_selectivity_preview.png": "d5f03b9b260c51291c4db4270957ffa6db60d3bccf4db89d0d6d8ff6dbc32c93",
+    "src_semantic_evidence_reliability.pdf": "08522fe22290c52b35970c1e7deb3c7d84c3de3505a8fcba8fe011ebbf6cf809",
+    "src_semantic_evidence_reliability.png": "e203b9714109098e507e375022185a987f57fa61851a390f18cffb38e42881d5",
+    "src_semantic_evidence_reliability.svg": "fdc222afef7506164e12de7a77bd8b4b70e7c3b23bcfd6ee5e1680153e193653",
+    "src_semantic_evidence_reliability_grayscale.png": "93d35a58f452adc2135075df3e063d6a76f593edb54a003dabd712da58b04391",
+    "src_semantic_evidence_reliability_pdf_render.png": "d3c3848a69a533edf0312cd6eeeeda7e7eb108b3d76fb382365a6c8de390a3ff",
+    "src_semantic_evidence_reliability_pdf_render_gray.png": "f2f8a2a464aa16a20ebb4be4e7343a07a6bdbaf7a6bc7be28e5c0f2b023ed7e5",
+    "src_semantic_evidence_reliability_preview.png": "dce1de56f4893015ab70b509649c8a28c5fd8d729ae5de17c882ab6e69ae7d3c"
+  },
+  "main_tex_sha256_unchanged": "da2f49d09aba2b5dd6876a3e1e88482ab1165c0b6d01adecaf7fecf965553f8e",
+  "color_and_gray_previews": "PASS",
+  "overlap_and_clipping": "NONE",
+  "visual_review": {
+    "pdf_color": "PASS",
+    "pdf_grayscale": "PASS",
+    "legends_clear_of_panels": "PASS",
+    "all_nonempty_probability_bins_retained": "PASS",
+    "matching_axes_and_scales": "PASS",
+    "no_overlap_or_clipping": "PASS"
+  },
+  "strict_checker": "Both figures: exit 0 for PDF/PNG dimensions and DPI. PDF font warning resolved by Poppler pdffonts; all embedded, subset and Unicode."
+}

@@ -1,0 +1,208 @@
+{
+  "source": "continuation_20261007/src_internal_mechanism/SEMANTIC_RELIABILITY.csv",
+  "n_rows": 20,
+  "n_cols": 5,
+  "columns": {
+    "model": {
+      "type": "categorical",
+      "n_total": 20,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 20,
+      "n_unique": 2,
+      "categories": [
+        [
+          "raw",
+          10
+        ],
+        [
+          "learned",
+          10
+        ]
+      ],
+      "min_group_n": 10,
+      "max_group_n": 10,
+      "small_groups_flag": false
+    },
+    "bin": {
+      "type": "continuous",
+      "n_total": 20,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 20,
+      "mean": 4.5,
+      "median": 4.5,
+      "sd": 2.946898458772509,
+      "min": 0.0,
+      "max": 9.0,
+      "skewness": 2.2204460492503132e-17,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -5.5,
+      "outlier_hi": 14.5,
+      "needs_log_axis": false
+    },
+    "n": {
+      "type": "continuous",
+      "n_total": 20,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 20,
+      "mean": 2608.8,
+      "median": 89.5,
+      "sd": 5420.569863225201,
+      "min": 1.0,
+      "max": 19318.0,
+      "skewness": 2.1186054279610262,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 3,
+      "outlier_lo": -3372.5,
+      "outlier_hi": 5711.5,
+      "needs_log_axis": true
+    },
+    "mean_predicted_human": {
+      "type": "continuous",
+      "n_total": 20,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 20,
+      "mean": 0.4991973478789811,
+      "median": 0.5054063293413673,
+      "sd": 0.30618662417047626,
+      "min": 0.0051843364267182,
+      "max": 0.9931700468206686,
+      "skewness": -0.014320841298024689,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -0.5321043748853184,
+      "outlier_hi": 1.5364806682008783,
+      "needs_log_axis": true
+    },
+    "observed_human_fraction": {
+      "type": "continuous",
+      "n_total": 20,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 20,
+      "mean": 0.45481790306301945,
+      "median": 0.36936936936936937,
+      "sd": 0.3479699931732228,
+      "min": 0.0,
+      "max": 0.9916883116883116,
+      "skewness": 0.17030236415325,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -0.5490459787988751,
+      "outlier_hi": 1.449081151569798,
+      "needs_log_axis": false
+    }
+  },
+  "correlation": {
+    "columns": [
+      "bin",
+      "n",
+      "mean_predicted_human",
+      "observed_human_fraction"
+    ],
+    "matrix": {
+      "bin": {
+        "bin": 1.0,
+        "n": -0.389,
+        "mean_predicted_human": 0.998,
+        "observed_human_fraction": 0.906
+      },
+      "n": {
+        "bin": -0.389,
+        "n": 1.0,
+        "mean_predicted_human": -0.388,
+        "observed_human_fraction": -0.299
+      },
+      "mean_predicted_human": {
+        "bin": 0.998,
+        "n": -0.388,
+        "mean_predicted_human": 1.0,
+        "observed_human_fraction": 0.901
+      },
+      "observed_human_fraction": {
+        "bin": 0.906,
+        "n": -0.299,
+        "mean_predicted_human": 0.901,
+        "observed_human_fraction": 1.0
+      }
+    },
+    "pairs_sorted": [
+      {
+        "a": "bin",
+        "b": "mean_predicted_human",
+        "r": 0.9975159986390704,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "bin",
+        "b": "observed_human_fraction",
+        "r": 0.905995385878646,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "mean_predicted_human",
+        "b": "observed_human_fraction",
+        "r": 0.9013862976409777,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "bin",
+        "b": "n",
+        "r": -0.3887137904647027,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "n",
+        "b": "mean_predicted_human",
+        "r": -0.38802606013700774,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "n",
+        "b": "observed_human_fraction",
+        "r": -0.29897492517222307,
+        "magnitude": "weak"
+      }
+    ]
+  },
+  "group_summary": {
+    "by": [
+      "model"
+    ],
+    "n_groups": 2,
+    "min_n_per_group": 10,
+    "max_n_per_group": 10,
+    "median_n_per_group": 10,
+    "small_groups_flag": false,
+    "tiny_groups_flag": false,
+    "per_group_counts": [
+      [
+        "learned",
+        10
+      ],
+      [
+        "raw",
+        10
+      ]
+    ]
+  },
+  "warnings": [],
+  "suggestions": [
+    "分类 vs 连续，样本量充足 → 箱线图 / 小提琴图，或带误差棒的柱状图（误差棒说明 SD/SEM/CI）",
+    "≥3 个连续变量 → 相关性热力图（['bin', 'n', 'mean_predicted_human', 'observed_human_fraction']）或 pairplot 散点矩阵",
+    "n 跨数个量级（1 ~ 1.93e+04）→ 用对数 y 轴",
+    "mean_predicted_human 跨数个量级（0.00518 ~ 0.993）→ 用对数 y 轴"
+  ],
+  "interpretation": {
+    "unit": "probability bin, not independent observation",
+    "bin": "fixed ordinal index",
+    "n": "correlated observation support per bin",
+    "plot_choice": "calibration scatter; all bins shown and support encoded by marker size",
+    "axis": "linear probabilities on [0,1]",
+    "error_intervals": "not estimated; no IID or significance claim"
+  }
+}

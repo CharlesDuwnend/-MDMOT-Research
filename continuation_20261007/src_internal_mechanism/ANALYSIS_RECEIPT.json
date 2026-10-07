@@ -1,0 +1,351 @@
+{
+  "status": "COMPLETE_FROZEN_CALIBRATION_INTERNAL_DIAGNOSTIC",
+  "model_parameter_identity": "Current F00 SRC heads equal frozen train_belief_v2 heads exactly",
+  "group_prior": [
+    0.33216119257787574,
+    0.667838802394794
+  ],
+  "calibration_observation_metrics": {
+    "raw": {
+      "n": 26088,
+      "nll": 0.10845236098191482,
+      "brier_two_class": 0.03210100151452229,
+      "accuracy": 0.9893820913830114
+    },
+    "learned": {
+      "n": 26088,
+      "nll": 0.038011416085912915,
+      "brier_two_class": 0.018089840896595526,
+      "accuracy": 0.989458754983134
+    }
+  },
+  "semantic_calibration_rows": 26088,
+  "fit_calibration_flights_disjoint": true,
+  "sequences": [
+    "uav0000076_00720_v",
+    "uav0000145_00000_v",
+    "uav0000150_02310_v",
+    "uav0000222_03150_v",
+    "uav0000244_01440_v",
+    "uav0000315_00000_v",
+    "uav0000342_04692_v",
+    "uav0000357_00920_v"
+  ],
+  "cost_summary": {
+    "same_owner": {
+      "n": 191731,
+      "base_median": 0.04852074021735753,
+      "src_median": 0.04857248329687536,
+      "mean_added_cost": 0.003684950245471233,
+      "unchanged_fraction": 0.9935221742962796,
+      "remaining_eligible_fraction": 0.9949721224006551,
+      "ineligible_fraction": 0.005027877599344916,
+      "penalty_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9998301464305798
+      ]
+    },
+    "different_owner_same_group": {
+      "n": 18330,
+      "base_median": 0.7283297103970889,
+      "src_median": 0.7292507160041605,
+      "mean_added_cost": 0.0029500231268322296,
+      "unchanged_fraction": 0.99012547735952,
+      "remaining_eligible_fraction": 0.9906164757228587,
+      "ineligible_fraction": 0.009383524277141298,
+      "penalty_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9980995342173573
+      ]
+    },
+    "different_owner_cross_group": {
+      "n": 23950,
+      "base_median": 0.6365759581800082,
+      "src_median": 0.9930777295702873,
+      "mean_added_cost": 0.37303443387934193,
+      "unchanged_fraction": 0.014237995824634656,
+      "remaining_eligible_fraction": 0.018288100208768268,
+      "ineligible_fraction": 0.9817118997912317,
+      "penalty_quantiles": [
+        0.0,
+        0.9686579773584609,
+        0.9818256323996041,
+        0.9888815712725507,
+        0.9999735163959984
+      ]
+    }
+  },
+  "counts": {
+    "association_records": 11274,
+    "birth_states_reconstructed": 1390,
+    "first_stage_calls": 3750,
+    "first_stage_edges_from_known_owner": 14046013,
+    "same_owner": 191731,
+    "already_ineligible_base_edges_excluded": 12967144,
+    "unknown_or_clutter_detections_excluded": 844858,
+    "different_owner_cross_group": 23950,
+    "recorded_committed_updates_replayed": 203758,
+    "different_owner_same_group": 18330
+  },
+  "per_sequence_audit_only": {
+    "uav0000076_00720_v": {
+      "association_records": 1083,
+      "birth_states_reconstructed": 79,
+      "first_stage_calls": 360,
+      "first_stage_edges_from_known_owner": 146317,
+      "same_owner": 6678,
+      "already_ineligible_base_edges_excluded": 131881,
+      "unknown_or_clutter_detections_excluded": 7052,
+      "different_owner_cross_group": 155,
+      "recorded_committed_updates_replayed": 7212,
+      "different_owner_same_group": 551
+    },
+    "uav0000145_00000_v": {
+      "association_records": 921,
+      "birth_states_reconstructed": 35,
+      "first_stage_calls": 306,
+      "first_stage_edges_from_known_owner": 34254,
+      "already_ineligible_base_edges_excluded": 26986,
+      "same_owner": 2762,
+      "unknown_or_clutter_detections_excluded": 4497,
+      "recorded_committed_updates_replayed": 3252,
+      "different_owner_same_group": 9
+    },
+    "uav0000150_02310_v": {
+      "association_records": 1044,
+      "birth_states_reconstructed": 238,
+      "first_stage_calls": 347,
+      "first_stage_edges_from_known_owner": 3888626,
+      "same_owner": 34689,
+      "already_ineligible_base_edges_excluded": 3605002,
+      "unknown_or_clutter_detections_excluded": 242237,
+      "different_owner_same_group": 3403,
+      "different_owner_cross_group": 3295,
+      "recorded_committed_updates_replayed": 36761
+    },
+    "uav0000222_03150_v": {
+      "association_records": 1263,
+      "birth_states_reconstructed": 115,
+      "first_stage_calls": 420,
+      "first_stage_edges_from_known_owner": 829761,
+      "same_owner": 17978,
+      "unknown_or_clutter_detections_excluded": 38754,
+      "already_ineligible_base_edges_excluded": 766046,
+      "different_owner_cross_group": 3441,
+      "different_owner_same_group": 3542,
+      "recorded_committed_updates_replayed": 18167
+    },
+    "uav0000244_01440_v": {
+      "association_records": 2163,
+      "birth_states_reconstructed": 324,
+      "first_stage_calls": 720,
+      "first_stage_edges_from_known_owner": 2406438,
+      "same_owner": 38922,
+      "already_ineligible_base_edges_excluded": 2235435,
+      "unknown_or_clutter_detections_excluded": 128955,
+      "different_owner_same_group": 2659,
+      "recorded_committed_updates_replayed": 40903,
+      "different_owner_cross_group": 467
+    },
+    "uav0000315_00000_v": {
+      "association_records": 1896,
+      "birth_states_reconstructed": 153,
+      "first_stage_calls": 631,
+      "first_stage_edges_from_known_owner": 1077049,
+      "same_owner": 23808,
+      "already_ineligible_base_edges_excluded": 972983,
+      "different_owner_cross_group": 394,
+      "different_owner_same_group": 673,
+      "recorded_committed_updates_replayed": 26082,
+      "unknown_or_clutter_detections_excluded": 79191
+    },
+    "uav0000342_04692_v": {
+      "association_records": 831,
+      "birth_states_reconstructed": 150,
+      "first_stage_calls": 276,
+      "first_stage_edges_from_known_owner": 532729,
+      "already_ineligible_base_edges_excluded": 486027,
+      "same_owner": 10862,
+      "unknown_or_clutter_detections_excluded": 35056,
+      "different_owner_cross_group": 341,
+      "different_owner_same_group": 443,
+      "recorded_committed_updates_replayed": 12029
+    },
+    "uav0000357_00920_v": {
+      "association_records": 2073,
+      "birth_states_reconstructed": 296,
+      "first_stage_calls": 690,
+      "first_stage_edges_from_known_owner": 5130839,
+      "unknown_or_clutter_detections_excluded": 309116,
+      "already_ineligible_base_edges_excluded": 4742784,
+      "same_owner": 56032,
+      "different_owner_cross_group": 15857,
+      "different_owner_same_group": 7050,
+      "recorded_committed_updates_replayed": 59352
+    }
+  },
+  "representative_operator_check": {
+    "sequence": "uav0000076_00720_v",
+    "frame": 2,
+    "track_ids": [
+      1,
+      2
+    ],
+    "detection_ordinals": [
+      0,
+      1
+    ],
+    "beliefs": [
+      [
+        8.79682548893257e-06,
+        0.9999912031745111
+      ],
+      [
+        0.0024050671714621608,
+        0.9975949328285378
+      ]
+    ],
+    "observations": [
+      [
+        7.040996084506368e-06,
+        0.9999929590039155
+      ],
+      [
+        0.0025525563685152575,
+        0.9974474436314847
+      ]
+    ],
+    "base": [
+      [
+        0.05053773589490951,
+        1.0
+      ],
+      [
+        1.0,
+        0.012300830250609351
+      ]
+    ],
+    "src": [
+      [
+        0.05053773589490951,
+        1.0
+      ],
+      [
+        1.0,
+        0.012300830250609351
+      ]
+    ],
+    "penalty": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "source_sha256": {
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/models/F00_full.pkl": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/train_belief_v2/model.pkl": "cccf2523781d773813eb1f24c67687115f53a1ed9dd95db5a40e5d20102814fb",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/train_belief_v2/receipt.json": "e9f4c7f0319d2eaae5f33ef253bb1eec74df2b8606e9ae42d34d1cc7052c1299",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/train_belief_v2/prepare_receipt.json": "7080d7d05c335a953538aadde8d2adcc4bcde0b8daf6443e635c0c3b9caf305e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/receipt.json": "c7ac2bb21ccc494050ddcad33481a1b004544f755952722682fb6b268194a140",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/receipt.json": "383b86fc1bd96a433476a3c3b8ca5c2a94a49b894d732a32893dea38922204f7",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/runtime/belief/features.py": "f8a4de0aeaad77620d3ee16d6aa6709fddf171958acecdb181de745ad02f8547",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/runtime/belief/models.py": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/runtime/belief/runtime.py": "99dd4d8022109bbf25240b351bc4c5c8c6973ab7fe9dcba34f7b3fc4f0bfa2d7",
+    "continuation_20261007/src_internal_mechanism/analyze_internal.py": "607f83e630d644f4f7a9b97b894c2f9bd3e4176816d39eda727fe6611f3b0d8c",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/train_belief_v2/prepared.pkl": "008eba301fe8f9f305eb2cf70c8a173e85a137016a47199a8f6665027f24ad58",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000076_00720_v/receipt.json": "df77cc4158652396aa7fc878d978f9af04c4725fdaf5ae7e0ef9916b3ac04580",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000076_00720_v/association.jsonl.gz": "0bea831ce758c249fcddbdfc7e9667f6f5f93f5cc5536d50402b7411e210bb64",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000076_00720_v/birth.jsonl.gz": "ee1037523dc2695cea17d1d06f595dca3e1411d7f55a56c42a7a791f5c2c0c42",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000076_00720_v/observations.jsonl.gz": "b1058e9d23468e0ba552a263451caf90e0cbf7ef42b9afb2371f4eb629422d12",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000076_00720_v/association_labels.jsonl.gz": "118bb912cfe840abc73c2f499b12700543191cd334d42df9bd38ed40b48f5b27",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000076_00720_v/birth_labels.jsonl.gz": "c712fc3f04ff4f04dcda6b565e9a7c072be2c20032de00619fcefa945afbd8b5",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000076_00720_v/observation_labels.jsonl.gz": "5fd74a1b294b86789d7fb9e1ad946e020d1ba94a1ab1b1e3ac7493e58368d770",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000145_00000_v/receipt.json": "0591fbd2ec0f5d64b4f4760a23ed888820c824cdf50fecad07134e28db8f08f5",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000145_00000_v/association.jsonl.gz": "b60e431b90eaf2da8d37ccea58f22a85f928898b656f2fb0b34b0a3b924f24b1",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000145_00000_v/birth.jsonl.gz": "630d8beb9260f98bfc96bc7738a2d1ad0e9cdb3b32c3a624a83eef241183c090",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000145_00000_v/observations.jsonl.gz": "df5567030efbf64851cb6bbe4eb6210964d32d32cf40978ea16f881543830219",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000145_00000_v/association_labels.jsonl.gz": "288bb18249ee1543db6f30a935a343fdff23f164cf63f73d1ab2e0757c37c1b4",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000145_00000_v/birth_labels.jsonl.gz": "8573cf486c4b0748da54799c2eb5420fb6ef32e1d3edc543195f4626051da928",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000145_00000_v/observation_labels.jsonl.gz": "33fc0f7bdb33b5d8f18120748139592818dfb4855128f032f9fc126f1b7c4f77",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000150_02310_v/receipt.json": "3cc71d3908b17bba936e0b80324cb79414c5b1f7a04d962d0b6187182c0c26b8",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000150_02310_v/association.jsonl.gz": "e4d660e9e97625d776155bcea81b06a885b5b911883dc0885379aae7151327e5",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000150_02310_v/birth.jsonl.gz": "891881a45207386eb30069bf387e0871d917cc98c21758adbe35bf67c0759a81",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000150_02310_v/observations.jsonl.gz": "bedb1e698c2cf84eb715e4df13df650ee9eb438abec4765482dc76faea13abac",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000150_02310_v/association_labels.jsonl.gz": "40eb9c2630473af10b868e9e0ad8ffb79e86e3313dfd0dc5fce06c2f9b28a678",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000150_02310_v/birth_labels.jsonl.gz": "1313aae8d3a73211e47f1bd25440e8ec13519b973bcc24acd17a65292f3158cd",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000150_02310_v/observation_labels.jsonl.gz": "2b311606725ba67aef4f2c961fd374ef8300f41a4ab7fccb0af0ee46111b772a",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000222_03150_v/receipt.json": "ac231af6175afe87d133b0c883fa095ca735e5313e2c6bdedd5ef0c76298cd39",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000222_03150_v/association.jsonl.gz": "4dfda5c82ca294803d47c3e1e166aeb86665cb6e435c9289e39574c858935c4d",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000222_03150_v/birth.jsonl.gz": "fda398a6ab7aebe99c6aee59fd9ca787f6f72f22c3395dfcb1cd8115818f92cd",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000222_03150_v/observations.jsonl.gz": "1e3589c2bae746860c932b3c39f67b083c8ba70f088ff3124d01324e40c4b46e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000222_03150_v/association_labels.jsonl.gz": "1ecdfad2a0027df152b1aa2c26b39d2e42993140ff6ef50c865e4cbf4e7749a3",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000222_03150_v/birth_labels.jsonl.gz": "69fb539d77bae47586c019e59e3e76ccff9f219e0ed4c95a8188c89d007b46af",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000222_03150_v/observation_labels.jsonl.gz": "ffa8e54e794769c4ab96b9f6003b4ec85865b3041144ef9ab21e595eb3bd4117",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000244_01440_v/receipt.json": "015e42f59182cc6c3821482081c10827b5a59440b44aa45cff7bf92cb0574817",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000244_01440_v/association.jsonl.gz": "f6d3569cfc08e4dd8f53dad3f91c7939154711f22bc0977fd65676427b8fc2d0",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000244_01440_v/birth.jsonl.gz": "6b1673744f93edd1061e6f938019f69c3ceee083e1d40b7395dd81b56d437b42",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000244_01440_v/observations.jsonl.gz": "864ff0d5b5d0d1b3a212a8f83885bf2a98feb0940f317cfd79125dfd98d735bf",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000244_01440_v/association_labels.jsonl.gz": "19a19ca6a3357de316758bd08b6dbb768f4b26917088b77f870362c7bb5876de",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000244_01440_v/birth_labels.jsonl.gz": "72fdc30a139d80b9809063c2775b2fe4abff2cb832125353cbdfc237b4e26bc8",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000244_01440_v/observation_labels.jsonl.gz": "f412b7c5d23cd92d6debf3362234eb8b91cb086e019c2433b9fd84e1a38a07bd",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000315_00000_v/receipt.json": "c466dded8858c3e1f7336389cd9e19795b6706c5605c77e74a766746f9012427",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000315_00000_v/association.jsonl.gz": "ad92ee15e3d53ef2b1da07ad96a8ab7defa7937c935f21f85164b842b840dc14",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000315_00000_v/birth.jsonl.gz": "df556d9e5b8e6cadd7287176e304ec6c45eb29b371ca06bc0b340d623023d47c",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000315_00000_v/observations.jsonl.gz": "2057f3c3b6929dae00f82c4bc42dd39e7bdc9fad5a0a5c7cf8e77edef495cd6b",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000315_00000_v/association_labels.jsonl.gz": "7b8e2ad978f3d29f37aadb61a3a32311e50ee9c837e168cc7fa3aaae9a366c3b",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000315_00000_v/birth_labels.jsonl.gz": "44cda888851158340f4d99718c3bb1735adc941d0ea5a3da3d213412b7523a4e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000315_00000_v/observation_labels.jsonl.gz": "337311c709c91b9681b07dcef26c2ceb966ec283fc65ce8eb5bf540762992b6d",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000342_04692_v/receipt.json": "3ccc0fc09964d0651897b7f23fc0bc2f33b5c6df1b351adcfeaa61262471cb82",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000342_04692_v/association.jsonl.gz": "bf80b0cb348bdc3d7405516da5d4c61b0509f162a25a6a1158f84f380c8f9d9b",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000342_04692_v/birth.jsonl.gz": "02cff1509158551ee061f4ae00f14b5817f1de8407cba1e101e49b68db5cd88e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000342_04692_v/observations.jsonl.gz": "b848490d5809a13f45fec82e468235b2a90d6af9fcbac058cc6d143452b39573",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000342_04692_v/association_labels.jsonl.gz": "3c200f83cd34c047581a7e9dd181171a7717a230d1c1f781d11575ba3d29d41c",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000342_04692_v/birth_labels.jsonl.gz": "810972893ebbf9b831703b7430b7ce08d18d37b365abad992908199031f32ed8",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000342_04692_v/observation_labels.jsonl.gz": "e1146fc83797d1b6b53af7636f40a1e5c60e77b358f2bbcb93d40950b842e344",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000357_00920_v/receipt.json": "4cd8cc418e9aef1d43469d5b896cceafcd200bdc5d424bd294a54a1d7f38d0ce",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000357_00920_v/association.jsonl.gz": "a4d19336352e46f10c63e42e925c2a066e455063fce8c9585f2b2cfa8605bbab",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000357_00920_v/birth.jsonl.gz": "c95fbfc0eed8ce36935fe7703adead54603a4eda703b4e53700f69b09c70b8d3",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000357_00920_v/observations.jsonl.gz": "6b39120e3ff2c8d8e27bfc04084d51ad4a3f1b996e5256b33957bda2d4548f6e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000357_00920_v/association_labels.jsonl.gz": "9f224eb2a82361cc5014e3bfa5e177459730306be835a81600a3bc53014fcda5",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000357_00920_v/birth_labels.jsonl.gz": "04dfc2a652fc27b0e246c0f15c230dc8c3ec9b02e996d2fc9c52fc0494435a63",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000357_00920_v/observation_labels.jsonl.gz": "aa3c3818802ed22c92d46b50ee03cfcb29d3fa7400cf49151bf4ffb0dd6e5cc8"
+  },
+  "contracts": {
+    "stage": 0,
+    "association_threshold": 0.8,
+    "base_legal_edges_only": true,
+    "known_foreground_both_endpoints_only": true,
+    "groups": [
+      "human",
+      "vehicle"
+    ],
+    "owner_label": "last committed detection with unique class-agnostic GT geometry match",
+    "belief_initialization": "recorded birth observation only; all left-censored states excluded",
+    "belief_update": "exact current operator on recorded H2 committed edges, before next seam",
+    "cost_evaluation_before_gt_label": true,
+    "bounded_non_decreasing_cost_checked": true,
+    "no_fitting_or_parameter_selection": true,
+    "gpu_used": false,
+    "raw_probability": "confidence mass on predicted coarse group plus uniform residual mass",
+    "cdf_weighting": "each eligible edge once; empirical descriptive CDF, no IID or significance claim"
+  },
+  "limitations": [
+    "Counterfactual SRC operator on frozen H2 visited states; no changed assignment or trajectory is executed.",
+    "Owner correspondence follows last accepted observation; this is not a global identity oracle.",
+    "Eligibility changes do not establish correctness of a global one-to-one assignment.",
+    "Semantic evidence separates coarse human/vehicle groups and is not fine-grained identity evidence.",
+    "Calibration diagnostics establish input/operator behavior, not formal tracking improvement.",
+    "Responsibility-weighted temporal update is used for state reconstruction; its independent effectiveness is not claimed."
+  ]
+}
