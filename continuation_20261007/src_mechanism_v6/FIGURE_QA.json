@@ -1,0 +1,168 @@
+{
+  "status": "PASS_FINAL_FIVE_CLASS_ILLUSTRATION_RESPONSE_AND_REAL_COST_EXPORT",
+  "output_root": "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v6",
+  "script_sha256": "9ed289b654cfee639a28a80265d961908d0e925a068f029dc3483f9ad1d88c7b",
+  "selected_case_sha256": "c33cc794e42084191f759887f5e2ae7be9f609468f3b4d0ad630f950ec1a5b04",
+  "case_audit_sha256": "e6ae05ef4ce3886bb079f1a281125b846c7656937305795b0bcebc21ab5c79ae",
+  "base_plot_script_sha256": "d045be20e1d0881edd5775d5f7ccb2c941f01a8c177b74ce03300340af127a3c",
+  "palette_script_sha256": "8f2a36826bc68a67642189bece44fd66d13e757e8ec7a66818b25e4ba36250bf",
+  "palette": [
+    "#FBF8F4",
+    "#F2DED1",
+    "#DBDCEA",
+    "#B7C6D8",
+    "#90A9C2"
+  ],
+  "historical_semantics": {
+    "classes": [
+      "car",
+      "van",
+      "truck",
+      "pedestrian",
+      "other"
+    ],
+    "specified_track_probabilities": [
+      0.7,
+      0.08,
+      0.12,
+      0.05,
+      0.05
+    ],
+    "specified_detection_probabilities": [
+      0.08,
+      0.04,
+      0.08,
+      0.74,
+      0.06
+    ],
+    "evidence_type": "illustrative five-class evidence, not measured probabilities or an implemented five-class belief head",
+    "bars_exactly_match_specified_inputs": true,
+    "probability_normalization": "PASS",
+    "source_encoding": "solid track bars; hatched detection bars",
+    "used_as_input_to_panels_b_or_c": false,
+    "actual_SRC_groups": [
+      "Human",
+      "Vehicle"
+    ]
+  },
+  "mechanism_response": {
+    "prior_H": 0.33216119257787574,
+    "saved_prior": [
+      0.33216119257787574,
+      0.667838802394794
+    ],
+    "grid_points": 1001,
+    "real_case_markers": [
+      {
+        "track": 2,
+        "detection": 3,
+        "belief_H": 8.4e-323,
+        "observation_H": 0.9924830797353256,
+        "penalty": 0.9887444092231245
+      },
+      {
+        "track": 3,
+        "detection": 2,
+        "belief_H": 1.0,
+        "observation_H": 0.0027900368202321557,
+        "penalty": 0.9916003528329758
+      }
+    ],
+    "maximum_all_nine_pairs_replay_error": 1.1102230246251565e-16,
+    "weaker_belief_curves": [
+      {
+        "group": "H track",
+        "belief": [
+          0.6660805962889379,
+          0.333919401197397
+        ],
+        "interpolation_strength": 0.5
+      },
+      {
+        "group": "V track",
+        "belief": [
+          0.16608059628893787,
+          0.8339194011973969
+        ],
+        "interpolation_strength": 0.5
+      }
+    ],
+    "weaker_belief_halves_penalty": "PASS",
+    "curves": "analytic operator response; the observation axis is swept, not sampled dataset observations",
+    "independent_vectorized_formula": "PASS",
+    "neutral_observation_and_belief": "PASS",
+    "graded_monotonic_response": "PASS"
+  },
+  "layout_qa": {
+    "outside_canvas": [],
+    "overlapping_text": [],
+    "minimum_visible_font_pt": 6.5,
+    "text_count": 77,
+    "skill_audit": []
+  },
+  "panel_c_pixel_identical_to_v5_roi": true,
+  "panel_c_roi_fraction": [
+    0.56,
+    0.07,
+    0.985,
+    0.868
+  ],
+  "protected_artifacts_sha256": {
+    "/home/chenhc/src_egia_icme_paper/main.pdf": "c9f18b573fd13ba99de0d80497cc290f1bd2f835a76a096f17eba9ebe26be6f1",
+    "/home/chenhc/src_egia_icme_paper/main.tex": "da2f49d09aba2b5dd6876a3e1e88482ab1165c0b6d01adecaf7fecf965553f8e",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/FIGURE_CAPTIONS.md": "b8611685ea79e05988cc3b042a6fbe47296af3e3dea3347a7ed0619b8a1cf9ef",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/FIGURE_CAPTIONS.tex": "7b407d382b0e73fc3c0b64052c38d260669c62bc9accca7fbee33e2e9a2ad016",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_assignment_links.pdf": "ea39831016b1c615feb882dd5e1bd66e2fac58f172b756f85cb5cf054e9ff1ed",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_assignment_links.png": "089eca72ecee6b6684ad92ababfc66d1fe21897c7de4bf053be14b37bace99a6",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_assignment_links.svg": "102010d415cbab6dac0e1fb59ce86c94d51f69cd94627930f54c8f14ada14d86",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_assignment_links_grayscale.png": "244e7a8446e1056a3872497a81c80546d7861ad780d08aa4db04ffb611162d2f",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_assignment_links_pdf_render.png": "2d89b03948c6db1afdedece277313efcb2fb2d03e180fc426afad13f03ab0c55",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_assignment_links_pdf_render_gray.png": "aa74f23a7f899f0805e155de6e852d18a2b56b243deb842c8f6c9806159a5744",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_assignment_links_preview.png": "6e4f98748a2ec8941940059cf8c1c90b8f02366da63ff5478f281153743dd4d8",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_cost_refinement_triptych.pdf": "e645249575e53b65204d6ab84b2a19e743c4181c1bea34c96d8761dd53f2eb0a",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_cost_refinement_triptych.png": "69d910a080916a4fcf6f65bd976dfd198c452aa58265b0ce3c0df0aed2339ff4",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_cost_refinement_triptych.svg": "769b72354d41eb3ea52f14a375dd290b4e147ee1884a8b0903e604ab985e1c05",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_cost_refinement_triptych_grayscale.png": "43bf565135544ce09b9282731b9844201c1c428e8d2fc15d53e3a2b216b91436",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_cost_refinement_triptych_pdf_render.png": "970b5df8aa847fdda2b369a7f559a74d967b2d417a4d51440351d94ab683e3b2",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_cost_refinement_triptych_pdf_render_gray.png": "5719fd69fa3c5d1092cb4c23991fecc5a38a8b433db7dec9c37b5c508e5e2474",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v4/src_cost_refinement_triptych_preview.png": "daf89f3dc3e2c06d0d27e912330e7b908a8e429a5899cdc4b47386f9d7cb261f",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v5_fig4_palette/src_cost_refinement_triptych_preview.png": "7e67a645d4a7e98537572ceb1de04a47bec6345fb34bce2cf5aedd233fc497a8",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v5_fig4_palette/src_cost_refinement_triptych_grayscale.png": "1f0b416298386a343d24362279fd16ac0787edcf212a5a2c89af0d4edf69f958",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v5_fig4_palette/src_cost_refinement_triptych.pdf": "45c824959c2fea9977bed109334b2d4d7378c7665aa0e2be60b2c80b3a4b50ef",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v5_fig4_palette/src_cost_refinement_triptych.svg": "7aa27a013d6413d0bed5f7ba6eeaaf0f208a4c3805494420c557a2836d8a7de1",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v5_fig4_palette/src_cost_refinement_triptych.png": "7215598b6839520893c96e4a1aede27bd850524b2f35e9826d0191965411fbdc",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v5_fig4_palette/src_cost_refinement_triptych_pdf_render.png": "350fa91c80fb913979f097a0d5bfd5de9516d72243f8415991c0179b96818c68",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v5_fig4_palette/src_cost_refinement_triptych_pdf_render_gray.png": "a2c5c9c30d685616edd21a0a74a849b6b5d471a22e736cf33dbd689d70f4b894",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v5_fig4_palette/FIGURE_CAPTIONS.md": "b8611685ea79e05988cc3b042a6fbe47296af3e3dea3347a7ed0619b8a1cf9ef"
+  },
+  "dimensions_inches": [
+    7.16,
+    2.95
+  ],
+  "artifact_sha256": {
+    "src_semantic_response_triptych_preview.png": "b47ae5d0c3740b2aada0947b8a5018f47e72b160d91db8cc923c7cfea31c0e7c",
+    "src_semantic_response_triptych_grayscale.png": "1c89167e7c6001c53b5fc3bc1c60ee2f00e1f466ae024e9f7aa9bd82ef90ebdf",
+    "src_semantic_response_triptych.pdf": "38fb97831bd7bb3ac583698caa5700e39ff2e6def3c8c40437ae9e1cf97e7ba2",
+    "src_semantic_response_triptych.svg": "956a9cd42d8c8a61a6ab6784e38cfd55b4b35352dcf061535d997855f84bd566",
+    "src_semantic_response_triptych.png": "a193df33062c0fe72da765266e1e34657954a3c76e4e0d90bba70df9676bac4b",
+    "src_semantic_response_triptych_pdf_render.png": "f8f6cdce36dd9f0227a5cb33e96bab2f40eb60140bd811fc8f0b344e4718e5f0",
+    "src_semantic_response_triptych_pdf_render_gray.png": "dc168f2988722481352696e8fe3b6eedb79afb68fd58908dab4288b21b0c3ef2",
+    "FIGURE_CAPTION.md": "d20486b9fc2af8588041f221dd210764e54e075868e574db85ea7b4ece64e596"
+  },
+  "final_png_pixels": [
+    4296,
+    1770
+  ],
+  "final_png_dpi": 600,
+  "font_embedding": "PASS_ALL_FONTS_EMBEDDED_SUBSET_AND_UNICODE",
+  "font_embedding_details": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     16  0\nGCWXDV+DejaVuSans-Oblique            CID TrueType      Identity-H       yes yes yes     23  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     30  0\nGYKUUQ+STIXSizeTwoSym-Regular        CID TrueType      Identity-H       yes yes yes     37  0\n",
+  "visual_review": {
+    "preview_color_and_grayscale": "PASS",
+    "final_pdf_color_and_grayscale": "PASS",
+    "text_or_graphic_occlusion": "none",
+    "panel_c_body": "unchanged",
+    "five_class_a": "explicitly illustrative",
+    "operator_b": "analytic, exact saved prior",
+    "cost_c": "real selected calibration case"
+  }
+}
