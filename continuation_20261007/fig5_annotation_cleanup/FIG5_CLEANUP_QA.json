@@ -1,0 +1,76 @@
+{
+  "status": "PASS_FIG5_ANNOTATIONS_REMOVED_AND_FINAL_PDF_REVIEWED",
+  "work_root": "/home/chenhc/src_egia_icme_paper/output/pdf/fig5_annotation_cleanup_20261007",
+  "backup_sha256": {
+    "/home/chenhc/src_egia_icme_paper/scripts/build_paper_case_figures.py": "5bf9ac1d047cf6b9fed37c635df9a6d217c27f84b9237ef75b791f0038c3f616",
+    "/home/chenhc/src_egia_icme_paper/main.tex": "94fb16a94f8be8b299df4d3fb137b2dd68be790e5b521d7b7b9f18209bd256ea",
+    "/home/chenhc/src_egia_icme_paper/main.pdf": "345a8ef9b98955080ce64ae2dd631f7f538970e63960ce91fe81fda6416633fb",
+    "/home/chenhc/src_egia_icme_paper/main.aux": "2ca5416497592384a5a4d89b3412de1e48f8ba7efba4ef4ccf3439477f8dba59",
+    "/home/chenhc/src_egia_icme_paper/main.bbl": "114d8f5df8bd5b3d2f3a3aaa600188dea542acd4de77cccce5dec75d63881fe3",
+    "/home/chenhc/src_egia_icme_paper/main.log": "5ee54300d0a6bb5b3b9ffbb4677ed55126499a3da6b45d61a27ca1168763dd9b",
+    "/home/chenhc/src_egia_icme_paper/research/figure_case_audit.json": "b3de1acc285df0e84fa1e7be0a123b9e9f92a183ea8707d2f1d7334eb80a644d",
+    "/home/chenhc/src_egia_icme_paper/research/figure_case_audit.md": "359e5c9e4973f6cd78e7759f9b0c454bca4c949086e45467c4223a6815b0f1f2",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases_grayscale.png": "bab9f305b2a4cb71397c97d884c193ac872161c400fd1962925610e927eecaa3",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases_180mm_96dpi_grayscale.png": "54a8bb08f76c176ad2d572efe6ff6771edd94ddad2c0bc10a93f1195ae301682",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases.png": "061273b07d3c27573ca639a5c6f4b2ddc76889b6fbc98773d86239762238df1b",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases_180mm_96dpi.png": "70028e4df6498c9aa0a230297e1ed3d31788ce470d0ffc5fadf738bae9c63c6c",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases.pdf": "be03cc18bea0ef7f2742b260b170e1e6cf218d2b47122355bc6da5df9ef8132e",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/figure_caption.txt": "8acfac15ab092465c76e9e1aeb938eba5b42319445c6a50775e0eab91031a50b"
+  },
+  "protected_sha256": {
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation.pdf": "a0e064576638a1b56368ec8f88309b1696c6ba624916d5d73d41bd16a6e834df",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation.png": "ef01c6dcf1429e51a1fd0c02f8fd28d650ba96838f33846afd85a52434ea970a",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v8/src_semantic_response_triptych.pdf": "936f9eca7db0df235b867acf2c200d2001fd964a635104c91d9cbd28d922ab92"
+  },
+  "new_script_sha256": "d0ac6237a1bd4cdea009590b4579efed74fa614f586462b47b81b3a50b122956",
+  "new_tex_sha256": "fd8f06d9f42444bda8b199b8e5d498d2d64e7764d1e7cc5e197962711c4558d8",
+  "qualitative_case_data_unchanged": true,
+  "all_twelve_crops_boxes_ids_and_frame_labels_pixel_identical": true,
+  "pixel_change_row_ranges": [
+    20,
+    931
+  ],
+  "unchanged_content_pixel_rows": [
+    65,
+    889
+  ],
+  "removed_annotations": [
+    "(a) Vehicle: duplicate tracks",
+    "(b) Pedestrian: identity change",
+    "Colored boxes: tracking outputs | Track IDs are local to each run"
+  ],
+  "formal_caption": "left/right group references replace removed a/b titles",
+  "new_figure_sha256": "12eab7358602ad873497c352184cc400abdd290a1e8fe8cbd83e1ccea57697ba",
+  "final_pdf_path": "/home/chenhc/src_egia_icme_paper/main.pdf",
+  "final_pdf_sha256": "9f7d1eaa911a04c37748d7cd7dbe819dc46e0dd9931f3aef7ac800b2a387c3fb",
+  "paper_pages": 9,
+  "figure5_page": 8,
+  "only_pdf_text_page_changed": 8,
+  "fonts_embedded": true,
+  "unresolved_references_or_citations": false,
+  "overfull_boxes": 0,
+  "visual_review": {
+    "full_color_figure": "PASS",
+    "96dpi_grayscale": "PASS",
+    "manuscript_page_8": "PASS"
+  },
+  "figure_pdf_words_outside_canvas": [],
+  "figure_pdf_size_pt": [
+    510.2362,
+    232.0
+  ],
+  "figure_pdf_word_count": 30,
+  "final_artifact_sha256": {
+    "/home/chenhc/src_egia_icme_paper/main.tex": "fd8f06d9f42444bda8b199b8e5d498d2d64e7764d1e7cc5e197962711c4558d8",
+    "/home/chenhc/src_egia_icme_paper/main.pdf": "9f7d1eaa911a04c37748d7cd7dbe819dc46e0dd9931f3aef7ac800b2a387c3fb",
+    "/home/chenhc/src_egia_icme_paper/scripts/build_paper_case_figures.py": "d0ac6237a1bd4cdea009590b4579efed74fa614f586462b47b81b3a50b122956",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases.pdf": "12eab7358602ad873497c352184cc400abdd290a1e8fe8cbd83e1ccea57697ba",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases.png": "7c1d7092ae72a9975b143c9d390d6be1edd9af6d72f06a2cb8a2c81245e4c8bd",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases_grayscale.png": "9e8a03b49eb3d61f39d7c511daf18d34330b90ebb75c6bcbc4562be42c732d2f",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases_180mm_96dpi.png": "e1ea2f89db8e75d7444dedb2570c45e0010cd527658425165a2996129c514973",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases_180mm_96dpi_grayscale.png": "a330b1a96416c92f4b9637ac23945a3df0561260ae395747a3fe61cb5846493b",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/fig5_annotation_cleanup_20261007/page_8_review.png": "5d9de0fc3df6b79d95c800419fb58c045a52ba7d630b1712aad4f4b3bce6e417",
+    "/home/chenhc/src_egia_icme_paper/research/figure_case_audit.json": "e0d54b0fa526bd08ee50803427e413d96d8be749009e7cfa89abb6d836eae5f3"
+  },
+  "remote_archive_dependency": "Origin unavailable: ssh could not resolve github.com (Temporary failure in name resolution). Phase snapshot is local-only; no remote backup is claimed."
+}

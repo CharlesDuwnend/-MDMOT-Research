@@ -1,0 +1,41 @@
+--- scripts/build_paper_case_figures.py.before
++++ scripts/build_paper_case_figures.py
+@@ -122,7 +122,6 @@
+         c.saveState();c.translate(9,ys[row]+ph/2);c.rotate(90);text(c,0,0,title,8,True,center=True);c.restoreState()
+     for idx,case in enumerate(cases):
+         o,n,g=map(load,inputs(case['sequence']));x0=origins[idx]
+-        text(c,x0,221,case['title'],8.2,True)
+         checks=[]
+         for j,f in enumerate(case['frames']):
+             gt=g[(g[:,0]==f)&(g[:,1]==case['target_id'])][0]
+@@ -159,11 +158,10 @@
+             nr,ni=visible_predictions(n,gt,f);orr,oi=visible_predictions(o,gt,f)
+             window.append(dict(frame=f,native=[dict(id=int(r[1]),iou=float(v)) for r,v in zip(nr,ni)],leaf=[dict(id=int(r[1]),iou=float(v)) for r,v in zip(orr,oi)]))
+         case.update(checks=checks,continuous_window=window)
+-    text(c,page_w/2,10,'Colored boxes: tracking outputs   |   Track IDs are local to each run',7.0,center=True)
+     c.showPage();c.save();render_pdf(OUT/'qualitative_cases.pdf')
+     caption=('Qualitative tracking examples on VisDrone2019 test-dev. '
+-      '(a) On a moving vehicle, Native maintains two overlapping tracks while Ours keeps one. '
+-      '(b) On a pedestrian, the Native identity changes during motion whereas Ours preserves one identity. '
++      'Left: Native maintains two overlapping tracks on a moving vehicle while Ours keeps one. '
++      'Right: the Native identity changes during pedestrian motion whereas Ours preserves one identity. '
+       'Each column uses the same crop for both methods.\n')
+     (OUT/'figure_caption.txt').write_text(caption)
+     audit['qualitative_cases']=cases;audit['sources']=[dict(path=p,sha256=h) for p,h in sorted(all_sources.items())]
+--- main.tex.before
++++ main.tex
+@@ -546,10 +546,10 @@
+ \begin{figure*}[t]
+ \centering
+ \includegraphics[width=\textwidth]{qualitative/qualitative_cases.pdf}
+-\caption{Qualitative tracking examples on VisDrone2019 test-dev. (a) On a
+-moving vehicle, Native maintains two overlapping tracks while Ours keeps one.
+-(b) On a pedestrian, the Native identity changes during motion whereas Ours
+-preserves one identity. Each column uses the same crop for both methods.}
++\caption{Qualitative tracking examples on VisDrone2019 test-dev. Left:
++Native maintains two overlapping tracks on a moving vehicle while Ours keeps
++one. Right: the Native identity changes during pedestrian motion whereas
++Ours preserves one identity. Each column uses the same crop for both methods.}
+ \label{fig:qualitative}
+ \end{figure*}
+ 

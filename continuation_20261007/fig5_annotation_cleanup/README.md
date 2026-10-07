@@ -1,0 +1,9 @@
+# Figure 5 annotation cleanup
+
+Removed the two in-figure titles `(a) Vehicle: duplicate tracks` and `(b) Pedestrian: identity change`, and the bottom `Colored boxes: tracking outputs | Track IDs are local to each run` line, as explicitly requested. Frame numbers, Native/LEAF row labels, all twelve original crops, prediction geometry, IDs and styles remain pixel-identical outside the removed title/footer text bands. Existing qualitative-case and continuous-window data are unchanged.
+
+The renderer no longer draws those three annotations. The standalone and manuscript captions use left/right references instead of the removed a/b titles. `paper_changes.patch` records this exact source/manuscript change; `cleanup_fig5.py` records backup, regeneration and pixel/data checks. The cleanup script requires the original annotation lines and refuses accidental repeated application. Normal regeneration uses the updated paper renderer.
+
+The paper was rebuilt twice using the unchanged bibliography. Figure 5 remains on page 8 of the nine-page `/home/chenhc/src_egia_icme_paper/main.pdf`. Only page 8's extracted PDF text differs. Figure 1 and the accepted SRC Figure 4 assets are hash-protected and unchanged. Removed strings are absent from the actual figure PDF, all words stay within its canvas, fonts are embedded, and no unresolved citations/references or overfull boxes occur. The full-color figure, 180 mm / 96 dpi grayscale preview, and final manuscript page 8 were visually reviewed.
+
+Original artifacts, source and manuscript backups plus build logs and review renders are under `/home/chenhc/src_egia_icme_paper/output/pdf/fig5_annotation_cleanup_20261007/`. Only source, the exact patch and compact evidence are archived in Git; full paper and image assets remain local under the existing repository policy.
