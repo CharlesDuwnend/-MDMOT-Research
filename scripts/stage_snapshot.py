@@ -45,6 +45,8 @@ def main():
     parser.add_argument('--stage', required=True)
     parser.add_argument('--message', required=True)
     parser.add_argument('--local-only', action='store_true')
+    parser.add_argument('--include', action='append', default=[], metavar='RELATIVE_FILE',
+                        help='Archive only these exact repository files and stage evidence; repeat as needed.')
     args = parser.parse_args()
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_.-]{0,100}', args.stage):
         raise SystemExit('Stage must be a simple ASCII identifier.')
@@ -55,13 +57,29 @@ def main():
     if git('branch', '--show-current').stdout.decode().strip() != 'main':
         raise SystemExit('Expected main; do not change another branch automatically.')
 
+    scope = set()
+    for name in args.include:
+        relative = Path(name)
+        if relative.is_absolute() or '..' in relative.parts or '.git' in relative.parts:
+            raise SystemExit('Include must be an exact repository-relative file: ' + name)
+        path = ROOT / relative
+        if path.resolve() != path.absolute() or not path.is_file():
+            raise SystemExit('Include must be an existing file without symlink traversal: ' + name)
+        normalized = relative.as_posix()
+        eligible = git('ls-files', '--cached', '--others', '--exclude-standard',
+                       '-z', '--', normalized).stdout.split(b'\0')
+        if normalized.encode() not in eligible:
+            raise SystemExit('Include is excluded by the repository policy: ' + normalized)
+        scope.add(normalized)
+
     archive = ROOT/'versioning'/'stages'/args.stage
     if archive.exists():
         raise SystemExit('Stage already archived; use a new stage identifier.')
     now = datetime.datetime.now(ZoneInfo('Asia/Shanghai')).isoformat()
     artifacts = []
     # No external symlinks are followed; checkpoint hashes stay within this root.
-    for path in sorted(ROOT.rglob('*')):
+    scan_paths = sorted(ROOT / name for name in scope) if scope else sorted(ROOT.rglob('*'))
+    for path in scan_paths:
         if '.git' in path.parts or path.is_symlink() or not path.is_file():
             continue
         if path.suffix in {'.pt', '.pth', '.ckpt'} or path.stat().st_size > MAX_TEXT:
@@ -73,12 +91,20 @@ def main():
     json_write(archive/'LOCAL_ARTIFACT_INDEX.json', {
         'stage': args.stage, 'time_asia_shanghai': now, 'local_root': str(ROOT),
         'scope': 'local path/size index; SHA256 for checkpoints only',
+        'included_files': sorted(scope) if scope else 'entire repository',
         'local_files_deleted': False, 'artifacts': artifacts,
     })
     # Compact digests for changed and newly added allowed files, avoiding self-hash.
     candidates = set()
     for cmd in [('ls-files', '-z'), ('ls-files', '--others', '--exclude-standard', '-z')]:
         candidates.update(p.decode() for p in git(*cmd).stdout.split(b'\0') if p)
+    if scope:
+        archive_prefix = str(archive.relative_to(ROOT)) + '/'
+        candidates = {name for name in candidates
+                      if name in scope or name.startswith(archive_prefix)}
+        missing = scope - candidates
+        if missing:
+            raise SystemExit('Included files unavailable to Git: ' + ', '.join(sorted(missing)))
     allowed, excluded, digests = [], [], []
     for name in sorted(candidates):
         path = ROOT/name
@@ -97,6 +123,7 @@ def main():
     json_write(archive/'TRACKED_EVIDENCE_INDEX.json', {
         'stage': args.stage, 'time_asia_shanghai': now, 'files': digests,
         'excluded_large_text': excluded,
+        'included_files': sorted(scope) if scope else 'entire repository',
         'self_index_hash_omitted': True,
     })
     allowed.append(str((archive/'TRACKED_EVIDENCE_INDEX.json').relative_to(ROOT)))
@@ -104,7 +131,10 @@ def main():
         git('add', '--pathspec-from-file=-', '--pathspec-file-nul',
             data=b'\0'.join(s.encode() for s in allowed) + b'\0')
     # Track deletions only for files previously included in this research repo.
-    git('add', '-u')
+    if scope:
+        git('add', '-u', '--', *sorted(scope))
+    else:
+        git('add', '-u')
     oversized = []
     for line in git('ls-files', '-s').stdout.decode().splitlines():
         _, name = line.split('\t', 1)

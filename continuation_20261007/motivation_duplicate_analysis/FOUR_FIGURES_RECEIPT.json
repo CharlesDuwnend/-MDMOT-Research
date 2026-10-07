@@ -1,0 +1,160 @@
+{
+  "source_thread": "01a11542-f887-7631-86c3-689689be96de",
+  "source_audits": {
+    "/home/chenhc/src_egia_icme_paper/research/duplicate_motivation_audit.json": "1632dcb782eb575bbbad48689e650885bc3274f8695b223dcda584b0aa44876f",
+    "/home/chenhc/claude_try_MDMOT/continuation_20261007/motivation_duplicate_analysis/uavdt_duplicate_audit.json": "bd86f8da9f6bd4828bff1989bfa433833badc23e4296dc489d445c4d847cf7cb"
+  },
+  "input_hashes_checked": 115,
+  "input_hash_failures": [],
+  "inference_or_fitting_run": false,
+  "manuscript_modified": false,
+  "visdrone": {
+    "native": 2913,
+    "leaf_total": 415,
+    "paired_absent": 2516,
+    "paired_residual": 397,
+    "leaf_only": 18,
+    "classes": {
+      "pedestrian": 1395,
+      "car": 395,
+      "van": 418,
+      "truck": 636,
+      "bus": 69
+    }
+  },
+  "uavdt": {
+    "native": 1530,
+    "leaf_total": 10,
+    "paired_absent": 1520,
+    "paired_residual": 10,
+    "leaf_only": 0,
+    "outcomes": {
+      "still_duplicate": 10,
+      "one_track": 1516,
+      "no_related_prediction": 4
+    },
+    "top_five": {
+      "M1001": 833,
+      "M1101": 123,
+      "M0701": 94,
+      "M0802": 88,
+      "M1301": 75
+    },
+    "other_fifteen": 317
+  },
+  "limitations": [
+    "Descriptive post-hoc counts; not official MOT performance.",
+    "VisDrone event absence is not audited as single-track resolution.",
+    "UAVDT Other 15 is an aggregate, not a single sequence."
+  ],
+  "layout": {
+    "width_inches": 3.5,
+    "height_inches": 3.6,
+    "png_dpi": 600,
+    "fixed_pdf_media_box": true,
+    "zero_based_linear_y_axes": true,
+    "counts_not_percentages": true,
+    "error_bars": "not applicable to census counts"
+  },
+  "text_layout_checks": {
+    "fig3_visdrone_motivation": {
+      "text_items_checked": 21,
+      "outside_canvas": 0,
+      "overlapping_text_pairs": 0
+    },
+    "fig6_visdrone_resolution": {
+      "text_items_checked": 16,
+      "outside_canvas": 0,
+      "overlapping_text_pairs": 0
+    },
+    "fig3_uavdt_motivation": {
+      "text_items_checked": 23,
+      "outside_canvas": 0,
+      "overlapping_text_pairs": 0
+    },
+    "fig6_uavdt_resolution": {
+      "text_items_checked": 18,
+      "outside_canvas": 0,
+      "overlapping_text_pairs": 0
+    }
+  },
+  "output_directory": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures",
+  "artifacts": [
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/FIGURE_CAPTIONS.tex",
+      "bytes": 2943,
+      "sha256": "4cee371c9698e72ab5945be8a397ef74e592962682b01a41216f80e423b700b8"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/README.md",
+      "bytes": 1372,
+      "sha256": "68326cd7d05624911e8904bf556f5a1a2193cd50c5af24048d645c647401ff83"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig3_uavdt_motivation.pdf",
+      "bytes": 20544,
+      "sha256": "827fbcf3f948857b96fceca30f6e443db263ea9b178749da6eff6f59f2fd28b0"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig3_uavdt_motivation.png",
+      "bytes": 266209,
+      "sha256": "45343bf301682ee7691669af2d8b58d5f49081d9e2d78072e06f4cc41c028780"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig3_uavdt_motivation.svg",
+      "bytes": 11060,
+      "sha256": "c6f86c099e72b291ca760d13d96a9d44cd74af86d23f2c07c5bd86173cdf9207"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig3_visdrone_motivation.pdf",
+      "bytes": 20685,
+      "sha256": "30b69efe309a4c358151d9e52e030df5d9572cfc6265aa59791339939817bafa"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig3_visdrone_motivation.png",
+      "bytes": 239388,
+      "sha256": "89546db2fb51968b62af83e98cf03d31c432e365eef8777ea3c7cac5aa0e1ac1"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig3_visdrone_motivation.svg",
+      "bytes": 9654,
+      "sha256": "184090d86a3a20c4d68255a0f7e0207e6829a3e94b073553c437d3cfcf4e8557"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig6_uavdt_resolution.pdf",
+      "bytes": 44816,
+      "sha256": "6ac888a6c8bb92630451a203d892f4b842dadad3371531429ae6c0215ff8cb83"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig6_uavdt_resolution.png",
+      "bytes": 241572,
+      "sha256": "c23c250aeb7bbaac17bfa0e786400fdd12c82a1c4d2964cfe7a3a2508687c9e2"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig6_uavdt_resolution.svg",
+      "bytes": 158890,
+      "sha256": "f48afe580100bc5d3c65164f04e3a3f315f6e1064684d25fd98ecbcd81761f3c"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig6_visdrone_resolution.pdf",
+      "bytes": 21169,
+      "sha256": "54fde2e3924724e77e5c19c46fcd694785ac0b3d5768087397abb02734710305"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig6_visdrone_resolution.png",
+      "bytes": 247717,
+      "sha256": "3e3dcc44e012d995d13a52e7cd29833d1509ee08184eaec5360d5d87214cdf56"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/fig6_visdrone_resolution.svg",
+      "bytes": 9174,
+      "sha256": "f91ca48b30f6c38ea056aa2a173f9f58b9cb531aaf9652638f0fddeb0927e3cc"
+    },
+    {
+      "path": "/home/chenhc/src_egia_icme_paper/figures/motivation/four_figures/figure_data.csv",
+      "bytes": 685,
+      "sha256": "c4a84bc87af0a2e99694f56468e3acfc7a2fbedf91dfd0618c5eaf25775109ec"
+    }
+  ],
+  "status": "FOUR_INDEPENDENT_SINGLE_COLUMN_FIGURES_EXPORTED"
+}
