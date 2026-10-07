@@ -1,0 +1,20 @@
+{
+  "status": "PASS_INDEPENDENT_CLOSED_COMPONENT_AND_ASSIGNMENT_AUDIT",
+  "checks": {
+    "all_calibration_search_completed": true,
+    "raw_full_matrix_matches_slice_exactly": true,
+    "no_legal_edges_connect_to_omitted_candidates": true,
+    "full_pool_base_assignment_contains_displayed_assignment": true,
+    "scalar_semantic_penalty_and_cost_reconstructed": true,
+    "host_lap_results_reproduced": true,
+    "independent_hungarian_objective_matches_exhaustive_enumeration": true,
+    "base_tie_explicitly_preserved": true,
+    "src_unique_semantic_assignment_verified": true
+  },
+  "base_optimal_count": 2,
+  "src_optimal_count": 1,
+  "case_search_receipt_sha256": "9dc65ea46357ea443b8fb4b80fbb44697a3cd4eadd04ffa076ea7d73599228fc",
+  "selected_case_sha256": "c33cc794e42084191f759887f5e2ae7be9f609468f3b4d0ad630f950ec1a5b04",
+  "script_sha256": "6e6719eda334127d5b4caa99b1e2842129af2e060db8e52b3963921d1800e531",
+  "formal_mot_metrics": false
+}

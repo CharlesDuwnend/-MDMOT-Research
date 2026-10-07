@@ -1,0 +1,2579 @@
+{
+  "status": "COMPLETE_ALL_CALIBRATION_CASE_SEARCH",
+  "sequences": [
+    "uav0000076_00720_v",
+    "uav0000145_00000_v",
+    "uav0000150_02310_v",
+    "uav0000222_03150_v",
+    "uav0000244_01440_v",
+    "uav0000315_00000_v",
+    "uav0000342_04692_v",
+    "uav0000357_00920_v"
+  ],
+  "counts": {
+    "association_records": 11274,
+    "first_stage_calls": 3750,
+    "base_vs_src_assignment_changed_calls": 525,
+    "changed_legal_components": 650,
+    "unknown_or_no_owner_score_change_components": 392,
+    "fully_known_beneficial_components": 105,
+    "fully_known_adverse_or_tradeoff_components": 153
+  },
+  "per_sequence_audit_only": {
+    "uav0000076_00720_v": {
+      "association_records": 1083,
+      "first_stage_calls": 360,
+      "base_vs_src_assignment_changed_calls": 1,
+      "changed_legal_components": 1,
+      "unknown_or_no_owner_score_change_components": 1
+    },
+    "uav0000145_00000_v": {
+      "association_records": 921,
+      "first_stage_calls": 306
+    },
+    "uav0000150_02310_v": {
+      "association_records": 1044,
+      "first_stage_calls": 347,
+      "base_vs_src_assignment_changed_calls": 110,
+      "changed_legal_components": 193,
+      "unknown_or_no_owner_score_change_components": 113,
+      "fully_known_beneficial_components": 25,
+      "fully_known_adverse_or_tradeoff_components": 55
+    },
+    "uav0000222_03150_v": {
+      "association_records": 1263,
+      "first_stage_calls": 420,
+      "base_vs_src_assignment_changed_calls": 130,
+      "changed_legal_components": 144,
+      "unknown_or_no_owner_score_change_components": 59,
+      "fully_known_adverse_or_tradeoff_components": 62,
+      "fully_known_beneficial_components": 23
+    },
+    "uav0000244_01440_v": {
+      "association_records": 2163,
+      "first_stage_calls": 720,
+      "base_vs_src_assignment_changed_calls": 55,
+      "changed_legal_components": 55,
+      "unknown_or_no_owner_score_change_components": 44,
+      "fully_known_adverse_or_tradeoff_components": 5,
+      "fully_known_beneficial_components": 6
+    },
+    "uav0000315_00000_v": {
+      "association_records": 1896,
+      "first_stage_calls": 631,
+      "base_vs_src_assignment_changed_calls": 12,
+      "changed_legal_components": 12,
+      "unknown_or_no_owner_score_change_components": 7,
+      "fully_known_beneficial_components": 5
+    },
+    "uav0000342_04692_v": {
+      "association_records": 831,
+      "first_stage_calls": 276,
+      "base_vs_src_assignment_changed_calls": 16,
+      "changed_legal_components": 16,
+      "unknown_or_no_owner_score_change_components": 1,
+      "fully_known_beneficial_components": 5,
+      "fully_known_adverse_or_tradeoff_components": 10
+    },
+    "uav0000357_00920_v": {
+      "association_records": 2073,
+      "first_stage_calls": 690,
+      "base_vs_src_assignment_changed_calls": 201,
+      "changed_legal_components": 229,
+      "fully_known_beneficial_components": 41,
+      "unknown_or_no_owner_score_change_components": 167,
+      "fully_known_adverse_or_tradeoff_components": 21
+    }
+  },
+  "cases": {
+    "2x2": {
+      "sequence": "uav0000150_02310_v",
+      "frame": 46,
+      "tracker_frame": 46,
+      "stage": 0,
+      "full_pool_shape": [
+        107,
+        102
+      ],
+      "threshold": 0.8,
+      "prior": [
+        0.33216119257787574,
+        0.667838802394794
+      ],
+      "global_row_indices": [
+        39,
+        40
+      ],
+      "global_column_indices": [
+        34,
+        37
+      ],
+      "tracks": [
+        {
+          "track_id": 43,
+          "bbox_tlwh": [
+            1111.8205508904869,
+            678.8185949250284,
+            56.09729647752819,
+            60.81687540305348
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 1,
+          "last_update_frame": 45,
+          "age": 46,
+          "gap": 1,
+          "score": 0.9912109375,
+          "predicted_class": 9,
+          "class_confidence": 0.82177734375,
+          "semantic_evidence": [
+            0.0,
+            37.13330078125
+          ],
+          "last_observation": {
+            "sequence": "uav0000150_02310_v",
+            "frame": 45,
+            "source_frame": 45,
+            "detection_ordinal": 38,
+            "bbox_tlwh": [
+              1117.96875,
+              682.171875,
+              55.6875,
+              60.75
+            ],
+            "score": 0.9912109375,
+            "class_confidence": 0.82177734375,
+            "predicted_class": 9,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.0,
+              0.82177734375
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        },
+        {
+          "track_id": 44,
+          "bbox_tlwh": [
+            1121.0233948402943,
+            670.7750629854902,
+            40.66567362515221,
+            63.47525095129614
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 1,
+          "last_update_frame": 45,
+          "age": 46,
+          "gap": 1,
+          "score": 0.98291015625,
+          "predicted_class": 1,
+          "class_confidence": 0.76904296875,
+          "semantic_evidence": [
+            34.39111328125,
+            0.0
+          ],
+          "last_observation": {
+            "sequence": "uav0000150_02310_v",
+            "frame": 45,
+            "source_frame": 45,
+            "detection_ordinal": 40,
+            "bbox_tlwh": [
+              1127.25,
+              673.734375,
+              40.5,
+              63.28125
+            ],
+            "score": 0.98291015625,
+            "class_confidence": 0.76904296875,
+            "predicted_class": 1,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.76904296875,
+              0.0
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        }
+      ],
+      "detections": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 46,
+          "source_frame": 46,
+          "detection_ordinal": 35,
+          "bbox_tlwh": [
+            1109.53125,
+            678.796875,
+            57.375,
+            62.4375
+          ],
+          "score": 0.98486328125,
+          "class_confidence": 0.822265625,
+          "predicted_class": 9,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.0,
+            0.822265625
+          ]
+        },
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 46,
+          "source_frame": 46,
+          "detection_ordinal": 38,
+          "bbox_tlwh": [
+            1117.96875,
+            671.203125,
+            43.875,
+            65.8125
+          ],
+          "score": 0.96630859375,
+          "class_confidence": 0.78662109375,
+          "predicted_class": 1,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.78662109375,
+            0.0
+          ]
+        }
+      ],
+      "track_labels": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 45,
+          "source_frame": 45,
+          "detection_ordinal": 38,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 57,
+          "gt_class": 10,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.78070255125746,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 45,
+          "source_frame": 45,
+          "detection_ordinal": 40,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 87,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7459710012800568,
+          "predicted_class_error": false
+        }
+      ],
+      "detection_labels": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 46,
+          "source_frame": 46,
+          "detection_ordinal": 35,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 57,
+          "gt_class": 10,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8103288391599852,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 46,
+          "source_frame": 46,
+          "detection_ordinal": 38,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 87,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7578871870429065,
+          "predicted_class_error": false
+        }
+      ],
+      "beliefs": [
+        [
+          7.96320851797178e-68,
+          1.0
+        ],
+        [
+          1.0,
+          4.1893318958441406e-86
+        ]
+      ],
+      "observation_probabilities": [
+        [
+          0.010070170756465324,
+          0.9899298292435347
+        ],
+        [
+          0.9899929245588083,
+          0.010007075441191766
+        ]
+      ],
+      "base_cost": [
+        [
+          0.08740655829424626,
+          0.08740655829424626
+        ],
+        [
+          0.13572866115780913,
+          0.13572866115780913
+        ]
+      ],
+      "semantic_penalty": [
+        [
+          0.0,
+          0.9850157322316291
+        ],
+        [
+          0.9696828799345536,
+          0.0
+        ]
+      ],
+      "src_cost": [
+        [
+          0.08740655829424626,
+          0.9863254555058217
+        ],
+        [
+          0.9737977820511972,
+          0.13572866115780913
+        ]
+      ],
+      "added_cost": [
+        [
+          0.0,
+          0.8989188972115755
+        ],
+        [
+          0.838069120893388,
+          0.0
+        ]
+      ],
+      "base_assignment": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "src_assignment": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_owner_score": {
+        "different_owner_pairs": 2
+      },
+      "src_owner_score": {
+        "same_owner_pairs": 2
+      },
+      "closed_legal_component": true,
+      "standalone_and_full_pool_assignments_identical": true,
+      "selection": "first fully known beneficial closed legal component of this shape in sorted calibration streams"
+    },
+    "1x2": {
+      "sequence": "uav0000150_02310_v",
+      "frame": 231,
+      "tracker_frame": 231,
+      "stage": 0,
+      "full_pool_shape": [
+        103,
+        96
+      ],
+      "threshold": 0.8,
+      "prior": [
+        0.33216119257787574,
+        0.667838802394794
+      ],
+      "global_row_indices": [
+        85
+      ],
+      "global_column_indices": [
+        30,
+        31
+      ],
+      "tracks": [
+        {
+          "track_id": 149,
+          "bbox_tlwh": [
+            852.8556708056313,
+            1236.126058782386,
+            50.66662240138068,
+            86.3842267415221
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 198,
+          "last_update_frame": 230,
+          "age": 34,
+          "gap": 1,
+          "score": 0.986328125,
+          "predicted_class": 9,
+          "class_confidence": 0.77978515625,
+          "semantic_evidence": [
+            0.0,
+            26.09375
+          ],
+          "last_observation": {
+            "sequence": "uav0000150_02310_v",
+            "frame": 230,
+            "source_frame": 230,
+            "detection_ordinal": 30,
+            "bbox_tlwh": [
+              851.34375,
+              1241.15625,
+              50.625,
+              86.0625
+            ],
+            "score": 0.986328125,
+            "class_confidence": 0.77978515625,
+            "predicted_class": 9,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.0,
+              0.77978515625
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        }
+      ],
+      "detections": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 231,
+          "source_frame": 231,
+          "detection_ordinal": 30,
+          "bbox_tlwh": [
+            852.1875,
+            1241.15625,
+            48.9375,
+            82.6875
+          ],
+          "score": 0.93408203125,
+          "class_confidence": 0.82373046875,
+          "predicted_class": 9,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.0,
+            0.82373046875
+          ]
+        },
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 231,
+          "source_frame": 231,
+          "detection_ordinal": 31,
+          "bbox_tlwh": [
+            853.453125,
+            1234.40625,
+            45.140625,
+            69.1875
+          ],
+          "score": 0.9775390625,
+          "class_confidence": 0.8056640625,
+          "predicted_class": 1,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.8056640625,
+            0.0
+          ]
+        }
+      ],
+      "track_labels": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 230,
+          "source_frame": 230,
+          "detection_ordinal": 30,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 159,
+          "gt_class": 10,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8416305419241328,
+          "predicted_class_error": false
+        }
+      ],
+      "detection_labels": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 231,
+          "source_frame": 231,
+          "detection_ordinal": 30,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 159,
+          "gt_class": 10,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8537966514570343,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 231,
+          "source_frame": 231,
+          "detection_ordinal": 31,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 160,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7587833961376443,
+          "predicted_class_error": false
+        }
+      ],
+      "beliefs": [
+        [
+          6.742105466423788e-45,
+          1.0
+        ]
+      ],
+      "observation_probabilities": [
+        [
+          0.009869525352353636,
+          0.9901304746476464
+        ],
+        [
+          0.9920136811664036,
+          0.007986318833596398
+        ]
+      ],
+      "base_cost": [
+        [
+          0.18255294576589065,
+          0.13436663104303426
+        ]
+      ],
+      "semantic_penalty": [
+        [
+          0.0,
+          0.9880415471443732
+        ]
+      ],
+      "src_cost": [
+        [
+          0.18255294576589065,
+          0.9896483641670707
+        ]
+      ],
+      "added_cost": [
+        [
+          0.0,
+          0.8552817331240364
+        ]
+      ],
+      "base_assignment": [
+        [
+          0,
+          1
+        ]
+      ],
+      "src_assignment": [
+        [
+          0,
+          0
+        ]
+      ],
+      "base_owner_score": {
+        "different_owner_pairs": 1
+      },
+      "src_owner_score": {
+        "same_owner_pairs": 1
+      },
+      "closed_legal_component": true,
+      "standalone_and_full_pool_assignments_identical": true,
+      "selection": "first fully known beneficial closed legal component of this shape in sorted calibration streams"
+    },
+    "1x1": {
+      "sequence": "uav0000150_02310_v",
+      "frame": 301,
+      "tracker_frame": 301,
+      "stage": 0,
+      "full_pool_shape": [
+        116,
+        142
+      ],
+      "threshold": 0.8,
+      "prior": [
+        0.33216119257787574,
+        0.667838802394794
+      ],
+      "global_row_indices": [
+        80
+      ],
+      "global_column_indices": [
+        71
+      ],
+      "tracks": [
+        {
+          "track_id": 153,
+          "bbox_tlwh": [
+            1329.685104218781,
+            517.8243420047552,
+            16.861479729905685,
+            48.10442031759402
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 207,
+          "last_update_frame": 300,
+          "age": 95,
+          "gap": 1,
+          "score": 0.82958984375,
+          "predicted_class": 9,
+          "class_confidence": 0.5146484375,
+          "semantic_evidence": [
+            0.0,
+            67.442626953125
+          ],
+          "last_observation": {
+            "sequence": "uav0000150_02310_v",
+            "frame": 300,
+            "source_frame": 300,
+            "detection_ordinal": 73,
+            "bbox_tlwh": [
+              1331.4375,
+              518.0625,
+              16.875,
+              48.09375
+            ],
+            "score": 0.82958984375,
+            "class_confidence": 0.5146484375,
+            "predicted_class": 9,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.0,
+              0.5146484375
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        }
+      ],
+      "detections": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 301,
+          "source_frame": 301,
+          "detection_ordinal": 87,
+          "bbox_tlwh": [
+            1330.59375,
+            518.0625,
+            15.1875,
+            47.25
+          ],
+          "score": 0.9384765625,
+          "class_confidence": 0.73876953125,
+          "predicted_class": 0,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.73876953125,
+            0.0
+          ]
+        }
+      ],
+      "track_labels": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 300,
+          "source_frame": 300,
+          "detection_ordinal": 73,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 91,
+          "gt_class": 10,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7651588065447545,
+          "predicted_class_error": false
+        }
+      ],
+      "detection_labels": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 301,
+          "source_frame": 301,
+          "detection_ordinal": 87,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 209,
+          "gt_class": 1,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7592036907896081,
+          "predicted_class_error": false
+        }
+      ],
+      "beliefs": [
+        [
+          8.03831583060623e-101,
+          1.0
+        ]
+      ],
+      "observation_probabilities": [
+        [
+          0.9974012574083676,
+          0.002598742591632384
+        ]
+      ],
+      "base_cost": [
+        [
+          0.123660124933061
+        ]
+      ],
+      "semantic_penalty": [
+        [
+          0.9961087277613796
+        ]
+      ],
+      "src_cost": [
+        [
+          0.996589922972556
+        ]
+      ],
+      "added_cost": [
+        [
+          0.872929798039495
+        ]
+      ],
+      "base_assignment": [
+        [
+          0,
+          0
+        ]
+      ],
+      "src_assignment": [],
+      "base_owner_score": {
+        "different_owner_pairs": 1
+      },
+      "src_owner_score": {},
+      "closed_legal_component": true,
+      "standalone_and_full_pool_assignments_identical": true,
+      "selection": "first fully known beneficial closed legal component of this shape in sorted calibration streams"
+    },
+    "1x3": {
+      "sequence": "uav0000150_02310_v",
+      "frame": 304,
+      "tracker_frame": 304,
+      "stage": 0,
+      "full_pool_shape": [
+        128,
+        149
+      ],
+      "threshold": 0.8,
+      "prior": [
+        0.33216119257787574,
+        0.667838802394794
+      ],
+      "global_row_indices": [
+        75
+      ],
+      "global_column_indices": [
+        45,
+        46,
+        48
+      ],
+      "tracks": [
+        {
+          "track_id": 149,
+          "bbox_tlwh": [
+            790.415223587562,
+            1039.399126868392,
+            51.65971557220023,
+            66.44204439615255
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 198,
+          "last_update_frame": 303,
+          "age": 107,
+          "gap": 1,
+          "score": 0.90966796875,
+          "predicted_class": 9,
+          "class_confidence": 0.7841796875,
+          "semantic_evidence": [
+            0.0,
+            83.06787109375
+          ],
+          "last_observation": {
+            "sequence": "uav0000150_02310_v",
+            "frame": 303,
+            "source_frame": 303,
+            "detection_ordinal": 50,
+            "bbox_tlwh": [
+              791.859375,
+              1041.1875,
+              51.46875,
+              67.5
+            ],
+            "score": 0.90966796875,
+            "class_confidence": 0.7841796875,
+            "predicted_class": 9,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.0,
+              0.7841796875
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        }
+      ],
+      "detections": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 304,
+          "source_frame": 304,
+          "detection_ordinal": 52,
+          "bbox_tlwh": [
+            788.90625,
+            1037.8125,
+            53.15625,
+            69.1875
+          ],
+          "score": 0.85888671875,
+          "class_confidence": 0.74462890625,
+          "predicted_class": 9,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.0,
+            0.74462890625
+          ]
+        },
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 304,
+          "source_frame": 304,
+          "detection_ordinal": 53,
+          "bbox_tlwh": [
+            790.171875,
+            1038.65625,
+            50.625,
+            67.5
+          ],
+          "score": 0.90380859375,
+          "class_confidence": 0.357666015625,
+          "predicted_class": 2,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.0,
+            0.357666015625
+          ]
+        },
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 304,
+          "source_frame": 304,
+          "detection_ordinal": 55,
+          "bbox_tlwh": [
+            795.65625,
+            1032.75,
+            39.65625,
+            67.5
+          ],
+          "score": 0.95703125,
+          "class_confidence": 0.7705078125,
+          "predicted_class": 1,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.7705078125,
+            0.0
+          ]
+        }
+      ],
+      "track_labels": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 303,
+          "source_frame": 303,
+          "detection_ordinal": 50,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 159,
+          "gt_class": 3,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8634878545385671,
+          "predicted_class_error": true
+        }
+      ],
+      "detection_labels": [
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 304,
+          "source_frame": 304,
+          "detection_ordinal": 52,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 159,
+          "gt_class": 3,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7830879014257515,
+          "predicted_class_error": true
+        },
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 304,
+          "source_frame": 304,
+          "detection_ordinal": 53,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 159,
+          "gt_class": 3,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.842798353909465,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000150_02310_v",
+          "frame": 304,
+          "source_frame": 304,
+          "detection_ordinal": 55,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 160,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8801564369728279,
+          "predicted_class_error": false
+        }
+      ],
+      "beliefs": [
+        [
+          6.067678325013721e-142,
+          1.0
+        ]
+      ],
+      "observation_probabilities": [
+        [
+          0.025212338144760982,
+          0.974787661855239
+        ],
+        [
+          0.3440298471801172,
+          0.6559701528198828
+        ],
+        [
+          0.9880280839751119,
+          0.011971916024888073
+        ]
+      ],
+      "base_cost": [
+        [
+          0.08264792267067533,
+          0.08264792267067533,
+          0.08264792267067533
+        ]
+      ],
+      "semantic_penalty": [
+        [
+          0.0,
+          0.01777172804627636,
+          0.9820736441459255
+        ]
+      ],
+      "src_cost": [
+        [
+          0.08264792267067533,
+          0.09895085431165877,
+          0.98355522021832
+        ]
+      ],
+      "added_cost": [
+        [
+          0.0,
+          0.01630293164098344,
+          0.9009072975476446
+        ]
+      ],
+      "base_assignment": [
+        [
+          0,
+          2
+        ]
+      ],
+      "src_assignment": [
+        [
+          0,
+          0
+        ]
+      ],
+      "base_owner_score": {
+        "different_owner_pairs": 1
+      },
+      "src_owner_score": {
+        "same_owner_pairs": 1
+      },
+      "closed_legal_component": true,
+      "standalone_and_full_pool_assignments_identical": true,
+      "selection": "first fully known beneficial closed legal component of this shape in sorted calibration streams"
+    },
+    "2x3": {
+      "sequence": "uav0000222_03150_v",
+      "frame": 28,
+      "tracker_frame": 28,
+      "stage": 0,
+      "full_pool_shape": [
+        52,
+        52
+      ],
+      "threshold": 0.8,
+      "prior": [
+        0.33216119257787574,
+        0.667838802394794
+      ],
+      "global_row_indices": [
+        17,
+        19
+      ],
+      "global_column_indices": [
+        7,
+        8,
+        9
+      ],
+      "tracks": [
+        {
+          "track_id": 19,
+          "bbox_tlwh": [
+            762.2236336166944,
+            541.5181209241888,
+            45.64332318977211,
+            34.65740433044291
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 1,
+          "last_update_frame": 27,
+          "age": 28,
+          "gap": 1,
+          "score": 0.98193359375,
+          "predicted_class": 9,
+          "class_confidence": 0.82275390625,
+          "semantic_evidence": [
+            0.0,
+            22.36181640625
+          ],
+          "last_observation": {
+            "sequence": "uav0000222_03150_v",
+            "frame": 27,
+            "source_frame": 27,
+            "detection_ordinal": 10,
+            "bbox_tlwh": [
+              771.609375,
+              542.53125,
+              46.40625,
+              35.4375
+            ],
+            "score": 0.98193359375,
+            "class_confidence": 0.82275390625,
+            "predicted_class": 9,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.0,
+              0.82275390625
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        },
+        {
+          "track_id": 21,
+          "bbox_tlwh": [
+            774.1554439743551,
+            526.1532718703129,
+            25.86170283827316,
+            44.289502144299796
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 1,
+          "last_update_frame": 27,
+          "age": 28,
+          "gap": 1,
+          "score": 0.984375,
+          "predicted_class": 1,
+          "class_confidence": 0.79248046875,
+          "semantic_evidence": [
+            20.76904296875,
+            0.0
+          ],
+          "last_observation": {
+            "sequence": "uav0000222_03150_v",
+            "frame": 27,
+            "source_frame": 27,
+            "detection_ordinal": 11,
+            "bbox_tlwh": [
+              784.265625,
+              527.765625,
+              26.15625,
+              44.71875
+            ],
+            "score": 0.984375,
+            "class_confidence": 0.79248046875,
+            "predicted_class": 1,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.79248046875,
+              0.0
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        }
+      ],
+      "detections": [
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 28,
+          "source_frame": 28,
+          "detection_ordinal": 13,
+          "bbox_tlwh": [
+            763.171875,
+            541.265625,
+            45.5625,
+            36.28125
+          ],
+          "score": 0.9560546875,
+          "class_confidence": 0.818359375,
+          "predicted_class": 9,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.0,
+            0.818359375
+          ]
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 28,
+          "source_frame": 28,
+          "detection_ordinal": 14,
+          "bbox_tlwh": [
+            769.078125,
+            534.9375,
+            37.125,
+            39.65625
+          ],
+          "score": 0.888671875,
+          "class_confidence": 0.37109375,
+          "predicted_class": 9,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.0,
+            0.37109375
+          ]
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 28,
+          "source_frame": 28,
+          "detection_ordinal": 15,
+          "bbox_tlwh": [
+            774.140625,
+            527.765625,
+            27.84375,
+            43.03125
+          ],
+          "score": 0.97314453125,
+          "class_confidence": 0.7919921875,
+          "predicted_class": 1,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.7919921875,
+            0.0
+          ]
+        }
+      ],
+      "track_labels": [
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 27,
+          "source_frame": 27,
+          "detection_ordinal": 10,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 4,
+          "gt_class": 10,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.5560292100678356,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 27,
+          "source_frame": 27,
+          "detection_ordinal": 11,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 3,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8259254968829757,
+          "predicted_class_error": false
+        }
+      ],
+      "detection_labels": [
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 28,
+          "source_frame": 28,
+          "detection_ordinal": 13,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 4,
+          "gt_class": 10,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.5686796136555496,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 28,
+          "source_frame": 28,
+          "detection_ordinal": 14,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 3,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.6249530225468433,
+          "predicted_class_error": true
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 28,
+          "source_frame": 28,
+          "detection_ordinal": 15,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 3,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8341826937780739,
+          "predicted_class_error": false
+        }
+      ],
+      "beliefs": [
+        [
+          8.48451388874221e-42,
+          1.0
+        ],
+        [
+          1.0,
+          2.6257239581530674e-49
+        ]
+      ],
+      "observation_probabilities": [
+        [
+          0.010618515442691767,
+          0.9893814845573082
+        ],
+        [
+          0.3953157887110179,
+          0.6046842112889821
+        ],
+        [
+          0.9905946026937945,
+          0.009405397306205454
+        ]
+      ],
+      "base_cost": [
+        [
+          0.08501754676991713,
+          0.08501754676991713,
+          0.587398540885838
+        ],
+        [
+          0.6381695793819133,
+          0.5120736465778641,
+          0.10219440879361008
+        ]
+      ],
+      "semantic_penalty": [
+        [
+          0.0,
+          0.09456562104410038,
+          0.9859166654101577
+        ],
+        [
+          0.9680320408284835,
+          0.0,
+          0.0
+        ]
+      ],
+      "src_cost": [
+        [
+          0.08501754676991713,
+          0.17154343070407446,
+          0.9941891955990381
+        ],
+        [
+          0.9884330198866684,
+          0.5120736465778641,
+          0.10219440879361008
+        ]
+      ],
+      "added_cost": [
+        [
+          0.0,
+          0.08652588393415733,
+          0.4067906547132001
+        ],
+        [
+          0.3502634405047551,
+          0.0,
+          0.0
+        ]
+      ],
+      "base_assignment": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "src_assignment": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "base_owner_score": {
+        "same_owner_pairs": 1,
+        "different_owner_pairs": 1
+      },
+      "src_owner_score": {
+        "same_owner_pairs": 2
+      },
+      "closed_legal_component": true,
+      "standalone_and_full_pool_assignments_identical": true,
+      "selection": "first fully known beneficial closed legal component of this shape in sorted calibration streams"
+    },
+    "3x3": {
+      "sequence": "uav0000222_03150_v",
+      "frame": 177,
+      "tracker_frame": 177,
+      "stage": 0,
+      "full_pool_shape": [
+        41,
+        43
+      ],
+      "threshold": 0.8,
+      "prior": [
+        0.33216119257787574,
+        0.667838802394794
+      ],
+      "global_row_indices": [
+        25,
+        26,
+        27
+      ],
+      "global_column_indices": [
+        39,
+        40,
+        41
+      ],
+      "tracks": [
+        {
+          "track_id": 39,
+          "bbox_tlwh": [
+            2118.198397780129,
+            1362.3082319122109,
+            66.68502363905338,
+            111.37940074555605
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 1,
+          "last_update_frame": 176,
+          "age": 177,
+          "gap": 1,
+          "score": 0.99365234375,
+          "predicted_class": 0,
+          "class_confidence": 0.810546875,
+          "semantic_evidence": [
+            143.23974609375,
+            0.0
+          ],
+          "last_observation": {
+            "sequence": "uav0000222_03150_v",
+            "frame": 176,
+            "source_frame": 176,
+            "detection_ordinal": 45,
+            "bbox_tlwh": [
+              2117.8125,
+              1362.65625,
+              67.5,
+              111.375
+            ],
+            "score": 0.99365234375,
+            "class_confidence": 0.810546875,
+            "predicted_class": 0,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.810546875,
+              0.0
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        },
+        {
+          "track_id": 41,
+          "bbox_tlwh": [
+            2151.2596728366784,
+            1371.406591032615,
+            57.067939771133894,
+            119.62248059759723
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 1,
+          "last_update_frame": 176,
+          "age": 177,
+          "gap": 1,
+          "score": 0.97705078125,
+          "predicted_class": 2,
+          "class_confidence": 0.8798828125,
+          "semantic_evidence": [
+            0.0,
+            153.5244140625
+          ],
+          "last_observation": {
+            "sequence": "uav0000222_03150_v",
+            "frame": 176,
+            "source_frame": 176,
+            "detection_ordinal": 46,
+            "bbox_tlwh": [
+              2151.5625,
+              1371.09375,
+              57.375,
+              119.8125
+            ],
+            "score": 0.97705078125,
+            "class_confidence": 0.8798828125,
+            "predicted_class": 2,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.0,
+              0.8798828125
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        },
+        {
+          "track_id": 42,
+          "bbox_tlwh": [
+            2156.312286843832,
+            1405.2143956114096,
+            53.96757560910258,
+            68.65574812307723
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 1,
+          "last_update_frame": 176,
+          "age": 177,
+          "gap": 1,
+          "score": 0.9873046875,
+          "predicted_class": 1,
+          "class_confidence": 0.80517578125,
+          "semantic_evidence": [
+            141.20556640625,
+            0.0
+          ],
+          "last_observation": {
+            "sequence": "uav0000222_03150_v",
+            "frame": 176,
+            "source_frame": 176,
+            "detection_ordinal": 47,
+            "bbox_tlwh": [
+              2156.625,
+              1404.84375,
+              54.0,
+              69.1875
+            ],
+            "score": 0.9873046875,
+            "class_confidence": 0.80517578125,
+            "predicted_class": 1,
+            "frame_width": 2688,
+            "frame_height": 1512,
+            "semantic_evidence": [
+              0.80517578125,
+              0.0
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        }
+      ],
+      "detections": [
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 177,
+          "source_frame": 177,
+          "detection_ordinal": 51,
+          "bbox_tlwh": [
+            2117.8125,
+            1360.96875,
+            67.5,
+            113.0625
+          ],
+          "score": 0.994140625,
+          "class_confidence": 0.8134765625,
+          "predicted_class": 0,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.8134765625,
+            0.0
+          ]
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 177,
+          "source_frame": 177,
+          "detection_ordinal": 52,
+          "bbox_tlwh": [
+            2151.5625,
+            1371.9375,
+            57.375,
+            119.8125
+          ],
+          "score": 0.97607421875,
+          "class_confidence": 0.8828125,
+          "predicted_class": 2,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.0,
+            0.8828125
+          ]
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 177,
+          "source_frame": 177,
+          "detection_ordinal": 53,
+          "bbox_tlwh": [
+            2156.625,
+            1403.15625,
+            54.0,
+            72.5625
+          ],
+          "score": 0.98779296875,
+          "class_confidence": 0.810546875,
+          "predicted_class": 1,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.810546875,
+            0.0
+          ]
+        }
+      ],
+      "track_labels": [
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 176,
+          "source_frame": 176,
+          "detection_ordinal": 45,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 42,
+          "gt_class": 1,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.816076088176177,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 176,
+          "source_frame": 176,
+          "detection_ordinal": 46,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 43,
+          "gt_class": 3,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.9180958732504799,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 176,
+          "source_frame": 176,
+          "detection_ordinal": 47,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 41,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8331536691712387,
+          "predicted_class_error": false
+        }
+      ],
+      "detection_labels": [
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 177,
+          "source_frame": 177,
+          "detection_ordinal": 51,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 42,
+          "gt_class": 1,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8275952562511822,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 177,
+          "source_frame": 177,
+          "detection_ordinal": 52,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 43,
+          "gt_class": 3,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.9345719635682731,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000222_03150_v",
+          "frame": 177,
+          "source_frame": 177,
+          "detection_ordinal": 53,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 41,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.872868416400135,
+          "predicted_class_error": false
+        }
+      ],
+      "beliefs": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          8.4e-323,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "observation_probabilities": [
+        [
+          0.9992259951914688,
+          0.0007740048085312006
+        ],
+        [
+          0.0027900368202321557,
+          0.9972099631797678
+        ],
+        [
+          0.9924830797353256,
+          0.007516920264674393
+        ]
+      ],
+      "base_cost": [
+        [
+          0.015457428314476163,
+          0.6908016209098284,
+          0.7837377174729196
+        ],
+        [
+          0.6771590873946627,
+          0.01347347398481824,
+          0.01347347398481824
+        ],
+        [
+          0.7825213882965052,
+          0.030749081078744966,
+          0.030749081078744966
+        ]
+      ],
+      "semantic_penalty": [
+        [
+          0.0,
+          0.9916003528329758,
+          0.0
+        ],
+        [
+          0.9988410304915561,
+          0.0,
+          0.9887444092231246
+        ],
+        [
+          0.0,
+          0.9916003528329758,
+          0.0
+        ]
+      ],
+      "src_cost": [
+        [
+          0.015457428314476163,
+          0.9974028427110267,
+          0.7837377174729196
+        ],
+        [
+          0.9996258372262122,
+          0.01347347398481824,
+          0.9888960611326405
+        ],
+        [
+          0.7825213882965052,
+          0.9918586342647474,
+          0.030749081078744966
+        ]
+      ],
+      "added_cost": [
+        [
+          0.0,
+          0.3066012218011983,
+          0.0
+        ],
+        [
+          0.32246674983154955,
+          0.0,
+          0.9754225871478223
+        ],
+        [
+          0.0,
+          0.9611095531860024,
+          0.0
+        ]
+      ],
+      "base_assignment": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "src_assignment": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "base_owner_score": {
+        "same_owner_pairs": 1,
+        "different_owner_pairs": 2
+      },
+      "src_owner_score": {
+        "same_owner_pairs": 3
+      },
+      "closed_legal_component": true,
+      "standalone_and_full_pool_assignments_identical": true,
+      "selection": "first fully known beneficial closed legal component of this shape in sorted calibration streams"
+    },
+    "3x2": {
+      "sequence": "uav0000357_00920_v",
+      "frame": 390,
+      "tracker_frame": 390,
+      "stage": 0,
+      "full_pool_shape": [
+        84,
+        79
+      ],
+      "threshold": 0.8,
+      "prior": [
+        0.33216119257787574,
+        0.667838802394794
+      ],
+      "global_row_indices": [
+        12,
+        13,
+        82
+      ],
+      "global_column_indices": [
+        39,
+        40
+      ],
+      "tracks": [
+        {
+          "track_id": 32,
+          "bbox_tlwh": [
+            903.8088189104413,
+            298.56153409882666,
+            41.77377123494713,
+            50.593746859348116
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 1,
+          "last_update_frame": 389,
+          "age": 390,
+          "gap": 1,
+          "score": 0.98193359375,
+          "predicted_class": 6,
+          "class_confidence": 0.83544921875,
+          "semantic_evidence": [
+            0.0,
+            326.70654296875
+          ],
+          "last_observation": {
+            "sequence": "uav0000357_00920_v",
+            "frame": 389,
+            "source_frame": 389,
+            "detection_ordinal": 42,
+            "bbox_tlwh": [
+              903.65625,
+              298.9775390625,
+              41.8359375,
+              50.0537109375
+            ],
+            "score": 0.98193359375,
+            "class_confidence": 0.83544921875,
+            "predicted_class": 6,
+            "frame_width": 1904,
+            "frame_height": 1071,
+            "semantic_evidence": [
+              0.0,
+              0.83544921875
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        },
+        {
+          "track_id": 34,
+          "bbox_tlwh": [
+            911.238612609754,
+            296.90273601452964,
+            27.526887852133918,
+            42.805747766118714
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 1,
+          "last_update_frame": 389,
+          "age": 390,
+          "gap": 1,
+          "score": 0.994140625,
+          "predicted_class": 1,
+          "class_confidence": 0.83935546875,
+          "semantic_evidence": [
+            308.92333984375,
+            0.0
+          ],
+          "last_observation": {
+            "sequence": "uav0000357_00920_v",
+            "frame": 389,
+            "source_frame": 389,
+            "detection_ordinal": 43,
+            "bbox_tlwh": [
+              911.42578125,
+              296.5869140625,
+              27.4921875,
+              42.8818359375
+            ],
+            "score": 0.994140625,
+            "class_confidence": 0.83935546875,
+            "predicted_class": 1,
+            "frame_width": 1904,
+            "frame_height": 1071,
+            "semantic_evidence": [
+              0.83935546875,
+              0.0
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        },
+        {
+          "track_id": 98,
+          "bbox_tlwh": [
+            913.8476263565806,
+            290.2714801109904,
+            25.363807487639544,
+            43.382295248677636
+          ],
+          "state": 2,
+          "is_activated": true,
+          "start_frame": 57,
+          "last_update_frame": 386,
+          "age": 334,
+          "gap": 4,
+          "score": 0.1834716796875,
+          "predicted_class": 0,
+          "class_confidence": 0.68359375,
+          "semantic_evidence": [
+            236.390869140625,
+            0.0
+          ],
+          "last_observation": {
+            "sequence": "uav0000357_00920_v",
+            "frame": 386,
+            "source_frame": 386,
+            "detection_ordinal": 48,
+            "bbox_tlwh": [
+              912.62109375,
+              288.966796875,
+              26.296875,
+              43.62890625
+            ],
+            "score": 0.1834716796875,
+            "class_confidence": 0.68359375,
+            "predicted_class": 1,
+            "frame_width": 1904,
+            "frame_height": 1071,
+            "semantic_evidence": [
+              0.68359375,
+              0.0
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        }
+      ],
+      "detections": [
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 390,
+          "source_frame": 390,
+          "detection_ordinal": 41,
+          "bbox_tlwh": [
+            904.25390625,
+            299.2763671875,
+            40.640625,
+            49.1572265625
+          ],
+          "score": 0.97802734375,
+          "class_confidence": 0.83154296875,
+          "predicted_class": 6,
+          "frame_width": 1904,
+          "frame_height": 1071,
+          "semantic_evidence": [
+            0.0,
+            0.83154296875
+          ]
+        },
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 390,
+          "source_frame": 390,
+          "detection_ordinal": 42,
+          "bbox_tlwh": [
+            910.828125,
+            297.333984375,
+            27.4921875,
+            41.8359375
+          ],
+          "score": 0.99267578125,
+          "class_confidence": 0.8603515625,
+          "predicted_class": 1,
+          "frame_width": 1904,
+          "frame_height": 1071,
+          "semantic_evidence": [
+            0.8603515625,
+            0.0
+          ]
+        }
+      ],
+      "track_labels": [
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 389,
+          "source_frame": 389,
+          "detection_ordinal": 42,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 148,
+          "gt_class": 7,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8238764626036391,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 389,
+          "source_frame": 389,
+          "detection_ordinal": 43,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 147,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7017923225586116,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 386,
+          "source_frame": 386,
+          "detection_ordinal": 48,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 147,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8692102028917029,
+          "predicted_class_error": false
+        }
+      ],
+      "detection_labels": [
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 390,
+          "source_frame": 390,
+          "detection_ordinal": 41,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 148,
+          "gt_class": 7,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.8623409526065468,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 390,
+          "source_frame": 390,
+          "detection_ordinal": 42,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 147,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7380489311570063,
+          "predicted_class_error": false
+        }
+      ],
+      "beliefs": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "observation_probabilities": [
+        [
+          0.005438666917781054,
+          0.994561333082219
+        ],
+        [
+          0.9962787878342603,
+          0.0037212121657397693
+        ]
+      ],
+      "base_cost": [
+        [
+          0.04379348979118258,
+          0.04379348979118258
+        ],
+        [
+          0.03785331016739535,
+          0.03785331016739535
+        ],
+        [
+          0.6078258997662053,
+          0.17969505137503017
+        ]
+      ],
+      "semantic_penalty": [
+        [
+          0.0,
+          0.9944279784996081
+        ],
+        [
+          0.9836264228353349,
+          0.0
+        ],
+        [
+          0.9836264228353349,
+          0.0
+        ]
+      ],
+      "src_cost": [
+        [
+          0.04379348979118258,
+          0.9946719967663017
+        ],
+        [
+          0.9842462169302987,
+          0.03785331016739535
+        ],
+        [
+          0.9935787071078388,
+          0.17969505137503017
+        ]
+      ],
+      "added_cost": [
+        [
+          0.0,
+          0.9508785069751191
+        ],
+        [
+          0.9463929067629033,
+          0.0
+        ],
+        [
+          0.38575280734163353,
+          0.0
+        ]
+      ],
+      "base_assignment": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "src_assignment": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_owner_score": {
+        "different_owner_pairs": 2
+      },
+      "src_owner_score": {
+        "same_owner_pairs": 2
+      },
+      "closed_legal_component": true,
+      "standalone_and_full_pool_assignments_identical": true,
+      "selection": "first fully known beneficial closed legal component of this shape in sorted calibration streams"
+    },
+    "2x1": {
+      "sequence": "uav0000357_00920_v",
+      "frame": 671,
+      "tracker_frame": 671,
+      "stage": 0,
+      "full_pool_shape": [
+        95,
+        95
+      ],
+      "threshold": 0.8,
+      "prior": [
+        0.33216119257787574,
+        0.667838802394794
+      ],
+      "global_row_indices": [
+        35,
+        36
+      ],
+      "global_column_indices": [
+        40
+      ],
+      "tracks": [
+        {
+          "track_id": 105,
+          "bbox_tlwh": [
+            940.225576427253,
+            2.9749726525397016,
+            19.378137633898888,
+            31.23579518983702
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 76,
+          "last_update_frame": 670,
+          "age": 596,
+          "gap": 1,
+          "score": 0.99072265625,
+          "predicted_class": 9,
+          "class_confidence": 0.8134765625,
+          "semantic_evidence": [
+            0.0,
+            492.38232421875
+          ],
+          "last_observation": {
+            "sequence": "uav0000357_00920_v",
+            "frame": 670,
+            "source_frame": 670,
+            "detection_ordinal": 48,
+            "bbox_tlwh": [
+              940.7109375,
+              5.05206298828125,
+              19.125,
+              31.51702880859375
+            ],
+            "score": 0.99072265625,
+            "class_confidence": 0.8134765625,
+            "predicted_class": 9,
+            "frame_width": 1904,
+            "frame_height": 1071,
+            "semantic_evidence": [
+              0.0,
+              0.8134765625
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        },
+        {
+          "track_id": 174,
+          "bbox_tlwh": [
+            942.3215039605356,
+            -0.8673036196625787,
+            16.328587099139977,
+            26.809228430262095
+          ],
+          "state": 1,
+          "is_activated": true,
+          "start_frame": 313,
+          "last_update_frame": 670,
+          "age": 359,
+          "gap": 1,
+          "score": 0.64501953125,
+          "predicted_class": 1,
+          "class_confidence": 0.6279296875,
+          "semantic_evidence": [
+            265.227783203125,
+            0.0
+          ],
+          "last_observation": {
+            "sequence": "uav0000357_00920_v",
+            "frame": 670,
+            "source_frame": 670,
+            "detection_ordinal": 49,
+            "bbox_tlwh": [
+              942.50390625,
+              1.37274169921875,
+              16.734375,
+              27.01593017578125
+            ],
+            "score": 0.64501953125,
+            "class_confidence": 0.6279296875,
+            "predicted_class": 1,
+            "frame_width": 1904,
+            "frame_height": 1071,
+            "semantic_evidence": [
+              0.6279296875,
+              0.0
+            ]
+          },
+          "missing_observation": false,
+          "missing_appearance": false
+        }
+      ],
+      "detections": [
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 671,
+          "source_frame": 671,
+          "detection_ordinal": 47,
+          "bbox_tlwh": [
+            938.91796875,
+            1.905029296875,
+            20.3203125,
+            32.534912109375
+          ],
+          "score": 0.984375,
+          "class_confidence": 0.80517578125,
+          "predicted_class": 9,
+          "frame_width": 1904,
+          "frame_height": 1071,
+          "semantic_evidence": [
+            0.0,
+            0.80517578125
+          ]
+        }
+      ],
+      "track_labels": [
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 670,
+          "source_frame": 670,
+          "detection_ordinal": 48,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 174,
+          "gt_class": 10,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7306742597896514,
+          "predicted_class_error": false
+        },
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 670,
+          "source_frame": 670,
+          "detection_ordinal": 49,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 173,
+          "gt_class": 2,
+          "group": 0,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7994751073895127,
+          "predicted_class_error": false
+        }
+      ],
+      "detection_labels": [
+        {
+          "sequence": "uav0000357_00920_v",
+          "frame": 671,
+          "source_frame": 671,
+          "detection_ordinal": 47,
+          "known": true,
+          "kind": "foreground",
+          "gt_id": 174,
+          "gt_class": 10,
+          "group": 1,
+          "reason": "UNIQUE_GEOMETRY_MATCH",
+          "gt_iou": 0.7886308193451388,
+          "predicted_class_error": false
+        }
+      ],
+      "beliefs": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "observation_probabilities": [
+        [
+          0.012617142564032124,
+          0.9873828574359679
+        ]
+      ],
+      "base_cost": [
+        [
+          0.12619036232058345
+        ],
+        [
+          0.1070984362149926
+        ]
+      ],
+      "semantic_penalty": [
+        [
+          0.0
+        ],
+        [
+          0.9620150010116729
+        ]
+      ],
+      "src_cost": [
+        [
+          0.12619036232058345
+        ],
+        [
+          0.9660831350029508
+        ]
+      ],
+      "added_cost": [
+        [
+          0.0
+        ],
+        [
+          0.8589846987879582
+        ]
+      ],
+      "base_assignment": [
+        [
+          1,
+          0
+        ]
+      ],
+      "src_assignment": [
+        [
+          0,
+          0
+        ]
+      ],
+      "base_owner_score": {
+        "different_owner_pairs": 1
+      },
+      "src_owner_score": {
+        "same_owner_pairs": 1
+      },
+      "closed_legal_component": true,
+      "standalone_and_full_pool_assignments_identical": true,
+      "selection": "first fully known beneficial closed legal component of this shape in sorted calibration streams"
+    }
+  },
+  "source_receipt_sha256": "af309b5987ea3d0a89e82fdb03a2a1454705f0209091a720bc444a6f4baafed8",
+  "source_sha256": {
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/models/F00_full.pkl": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/train_belief_v2/model.pkl": "cccf2523781d773813eb1f24c67687115f53a1ed9dd95db5a40e5d20102814fb",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/train_belief_v2/receipt.json": "e9f4c7f0319d2eaae5f33ef253bb1eec74df2b8606e9ae42d34d1cc7052c1299",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/train_belief_v2/prepare_receipt.json": "7080d7d05c335a953538aadde8d2adcc4bcde0b8daf6443e635c0c3b9caf305e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/receipt.json": "c7ac2bb21ccc494050ddcad33481a1b004544f755952722682fb6b268194a140",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/receipt.json": "383b86fc1bd96a433476a3c3b8ca5c2a94a49b894d732a32893dea38922204f7",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/runtime/belief/features.py": "f8a4de0aeaad77620d3ee16d6aa6709fddf171958acecdb181de745ad02f8547",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/runtime/belief/models.py": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/runtime/belief/runtime.py": "99dd4d8022109bbf25240b351bc4c5c8c6973ab7fe9dcba34f7b3fc4f0bfa2d7",
+    "continuation_20261007/src_internal_mechanism/analyze_internal.py": "607f83e630d644f4f7a9b97b894c2f9bd3e4176816d39eda727fe6611f3b0d8c",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/train_belief_v2/prepared.pkl": "008eba301fe8f9f305eb2cf70c8a173e85a137016a47199a8f6665027f24ad58",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000076_00720_v/receipt.json": "df77cc4158652396aa7fc878d978f9af04c4725fdaf5ae7e0ef9916b3ac04580",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000076_00720_v/association.jsonl.gz": "0bea831ce758c249fcddbdfc7e9667f6f5f93f5cc5536d50402b7411e210bb64",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000076_00720_v/birth.jsonl.gz": "ee1037523dc2695cea17d1d06f595dca3e1411d7f55a56c42a7a791f5c2c0c42",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000076_00720_v/observations.jsonl.gz": "b1058e9d23468e0ba552a263451caf90e0cbf7ef42b9afb2371f4eb629422d12",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000076_00720_v/association_labels.jsonl.gz": "118bb912cfe840abc73c2f499b12700543191cd334d42df9bd38ed40b48f5b27",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000076_00720_v/birth_labels.jsonl.gz": "c712fc3f04ff4f04dcda6b565e9a7c072be2c20032de00619fcefa945afbd8b5",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000076_00720_v/observation_labels.jsonl.gz": "5fd74a1b294b86789d7fb9e1ad946e020d1ba94a1ab1b1e3ac7493e58368d770",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000145_00000_v/receipt.json": "0591fbd2ec0f5d64b4f4760a23ed888820c824cdf50fecad07134e28db8f08f5",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000145_00000_v/association.jsonl.gz": "b60e431b90eaf2da8d37ccea58f22a85f928898b656f2fb0b34b0a3b924f24b1",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000145_00000_v/birth.jsonl.gz": "630d8beb9260f98bfc96bc7738a2d1ad0e9cdb3b32c3a624a83eef241183c090",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000145_00000_v/observations.jsonl.gz": "df5567030efbf64851cb6bbe4eb6210964d32d32cf40978ea16f881543830219",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000145_00000_v/association_labels.jsonl.gz": "288bb18249ee1543db6f30a935a343fdff23f164cf63f73d1ab2e0757c37c1b4",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000145_00000_v/birth_labels.jsonl.gz": "8573cf486c4b0748da54799c2eb5420fb6ef32e1d3edc543195f4626051da928",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000145_00000_v/observation_labels.jsonl.gz": "33fc0f7bdb33b5d8f18120748139592818dfb4855128f032f9fc126f1b7c4f77",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000150_02310_v/receipt.json": "3cc71d3908b17bba936e0b80324cb79414c5b1f7a04d962d0b6187182c0c26b8",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000150_02310_v/association.jsonl.gz": "e4d660e9e97625d776155bcea81b06a885b5b911883dc0885379aae7151327e5",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000150_02310_v/birth.jsonl.gz": "891881a45207386eb30069bf387e0871d917cc98c21758adbe35bf67c0759a81",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000150_02310_v/observations.jsonl.gz": "bedb1e698c2cf84eb715e4df13df650ee9eb438abec4765482dc76faea13abac",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000150_02310_v/association_labels.jsonl.gz": "40eb9c2630473af10b868e9e0ad8ffb79e86e3313dfd0dc5fce06c2f9b28a678",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000150_02310_v/birth_labels.jsonl.gz": "1313aae8d3a73211e47f1bd25440e8ec13519b973bcc24acd17a65292f3158cd",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000150_02310_v/observation_labels.jsonl.gz": "2b311606725ba67aef4f2c961fd374ef8300f41a4ab7fccb0af0ee46111b772a",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000222_03150_v/receipt.json": "ac231af6175afe87d133b0c883fa095ca735e5313e2c6bdedd5ef0c76298cd39",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000222_03150_v/association.jsonl.gz": "4dfda5c82ca294803d47c3e1e166aeb86665cb6e435c9289e39574c858935c4d",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000222_03150_v/birth.jsonl.gz": "fda398a6ab7aebe99c6aee59fd9ca787f6f72f22c3395dfcb1cd8115818f92cd",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000222_03150_v/observations.jsonl.gz": "1e3589c2bae746860c932b3c39f67b083c8ba70f088ff3124d01324e40c4b46e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000222_03150_v/association_labels.jsonl.gz": "1ecdfad2a0027df152b1aa2c26b39d2e42993140ff6ef50c865e4cbf4e7749a3",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000222_03150_v/birth_labels.jsonl.gz": "69fb539d77bae47586c019e59e3e76ccff9f219e0ed4c95a8188c89d007b46af",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000222_03150_v/observation_labels.jsonl.gz": "ffa8e54e794769c4ab96b9f6003b4ec85865b3041144ef9ab21e595eb3bd4117",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000244_01440_v/receipt.json": "015e42f59182cc6c3821482081c10827b5a59440b44aa45cff7bf92cb0574817",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000244_01440_v/association.jsonl.gz": "f6d3569cfc08e4dd8f53dad3f91c7939154711f22bc0977fd65676427b8fc2d0",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000244_01440_v/birth.jsonl.gz": "6b1673744f93edd1061e6f938019f69c3ceee083e1d40b7395dd81b56d437b42",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000244_01440_v/observations.jsonl.gz": "864ff0d5b5d0d1b3a212a8f83885bf2a98feb0940f317cfd79125dfd98d735bf",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000244_01440_v/association_labels.jsonl.gz": "19a19ca6a3357de316758bd08b6dbb768f4b26917088b77f870362c7bb5876de",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000244_01440_v/birth_labels.jsonl.gz": "72fdc30a139d80b9809063c2775b2fe4abff2cb832125353cbdfc237b4e26bc8",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000244_01440_v/observation_labels.jsonl.gz": "f412b7c5d23cd92d6debf3362234eb8b91cb086e019c2433b9fd84e1a38a07bd",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000315_00000_v/receipt.json": "c466dded8858c3e1f7336389cd9e19795b6706c5605c77e74a766746f9012427",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000315_00000_v/association.jsonl.gz": "ad92ee15e3d53ef2b1da07ad96a8ab7defa7937c935f21f85164b842b840dc14",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000315_00000_v/birth.jsonl.gz": "df556d9e5b8e6cadd7287176e304ec6c45eb29b371ca06bc0b340d623023d47c",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000315_00000_v/observations.jsonl.gz": "2057f3c3b6929dae00f82c4bc42dd39e7bdc9fad5a0a5c7cf8e77edef495cd6b",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000315_00000_v/association_labels.jsonl.gz": "7b8e2ad978f3d29f37aadb61a3a32311e50ee9c837e168cc7fa3aaae9a366c3b",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000315_00000_v/birth_labels.jsonl.gz": "44cda888851158340f4d99718c3bb1735adc941d0ea5a3da3d213412b7523a4e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000315_00000_v/observation_labels.jsonl.gz": "337311c709c91b9681b07dcef26c2ceb966ec283fc65ce8eb5bf540762992b6d",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000342_04692_v/receipt.json": "3ccc0fc09964d0651897b7f23fc0bc2f33b5c6df1b351adcfeaa61262471cb82",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000342_04692_v/association.jsonl.gz": "bf80b0cb348bdc3d7405516da5d4c61b0509f162a25a6a1158f84f380c8f9d9b",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000342_04692_v/birth.jsonl.gz": "02cff1509158551ee061f4ae00f14b5817f1de8407cba1e101e49b68db5cd88e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000342_04692_v/observations.jsonl.gz": "b848490d5809a13f45fec82e468235b2a90d6af9fcbac058cc6d143452b39573",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000342_04692_v/association_labels.jsonl.gz": "3c200f83cd34c047581a7e9dd181171a7717a230d1c1f781d11575ba3d29d41c",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000342_04692_v/birth_labels.jsonl.gz": "810972893ebbf9b831703b7430b7ce08d18d37b365abad992908199031f32ed8",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000342_04692_v/observation_labels.jsonl.gz": "e1146fc83797d1b6b53af7636f40a1e5c60e77b358f2bbcb93d40950b842e344",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000357_00920_v/receipt.json": "4cd8cc418e9aef1d43469d5b896cceafcd200bdc5d424bd294a54a1d7f38d0ce",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000357_00920_v/association.jsonl.gz": "a4d19336352e46f10c63e42e925c2a066e455063fce8c9585f2b2cfa8605bbab",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000357_00920_v/birth.jsonl.gz": "c95fbfc0eed8ce36935fe7703adead54603a4eda703b4e53700f69b09c70b8d3",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/capture_fitcal_v1/uav0000357_00920_v/observations.jsonl.gz": "6b39120e3ff2c8d8e27bfc04084d51ad4a3f1b996e5256b33957bda2d4548f6e",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000357_00920_v/association_labels.jsonl.gz": "9f224eb2a82361cc5014e3bfa5e177459730306be835a81600a3bc53014fcda5",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000357_00920_v/birth_labels.jsonl.gz": "04dfc2a652fc27b0e246c0f15c230dc8c3ec9b02e996d2fc9c52fc0494435a63",
+    "/home/chenhc/src_egia_belief_20260923/artifacts/labels_fitcal_v1/uav0000357_00920_v/observation_labels.jsonl.gz": "aa3c3818802ed22c92d46b50ee03cfcb29d3fa7400cf49151bf4ffb0dd6e5cc8"
+  },
+  "script_sha256": "b60f877b18958a1049859c5924184438d3eebcfe8465b6e2a45470d3950cee9b",
+  "assignment_solver": "same host objective: lap.lapjv, extend_cost=True, cost_limit=0.80",
+  "limits": [
+    "Costs, heads and beliefs follow the frozen calibration operator diagnostic.",
+    "The comparison is pre-semantic base C versus current SRC C_tilde, not the historical native semantic rule.",
+    "Assignments are same-state counterfactuals, not a new online tracking run.",
+    "Case selection explicitly requests a favorable illustrative example; counts retain adverse/tradeoff and unknown components.",
+    "Only closed legal components are eligible: cropping cannot change the displayed assignment."
+  ],
+  "training": false,
+  "gpu_used": false,
+  "formal_metrics": false
+}

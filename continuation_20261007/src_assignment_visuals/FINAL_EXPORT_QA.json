@@ -1,0 +1,71 @@
+{
+  "status": "PASS_FINAL_EXPORT_AND_PDF_VISUAL_REVIEW",
+  "files": {
+    "src_cost_refinement_triptych": {
+      "fixed_inches": [
+        7.16,
+        2.95
+      ],
+      "font_embedding": "PASS_POPPLER",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     17  0\nGCWXDV+DejaVuSans-Oblique            CID TrueType      Identity-H       yes yes yes     24  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     31  0\nGYKUUQ+STIXSizeTwoSym-Regular        CID TrueType      Identity-H       yes yes yes     38  0\n",
+      "pdfinfo": "Creator:        Matplotlib v3.7.5, https://matplotlib.org\nProducer:       Matplotlib pdf backend v3.7.5\nCreationDate:   Wed Oct  7 20:27:56 2026 CST\nTagged:         no\nUserProperties: no\nSuspects:       no\nForm:           none\nJavaScript:     no\nPages:          1\nEncrypted:      no\nPage size:      515.52 x 212.4 pts\nPage rot:       0\nFile size:      36866 bytes\nOptimized:      no\nPDF version:    1.4\n",
+      "png_pixels": [
+        4296,
+        1770
+      ],
+      "png_dpi": 600,
+      "raster_images": "two 600-DPI gradient colorbars; matrix cells and labels are vector"
+    },
+    "src_assignment_links": {
+      "fixed_inches": [
+        3.5,
+        4.75
+      ],
+      "font_embedding": "PASS_POPPLER",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     15  0\nGCWXDV+DejaVuSans-Oblique            CID TrueType      Identity-H       yes yes yes     22  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     29  0\nEGWXSV+DejaVuSansDisplay             CID TrueType      Identity-H       yes yes yes     36  0\n",
+      "pdfinfo": "Creator:        Matplotlib v3.7.5, https://matplotlib.org\nProducer:       Matplotlib pdf backend v3.7.5\nCreationDate:   Wed Oct  7 20:28:00 2026 CST\nTagged:         no\nUserProperties: no\nSuspects:       no\nForm:           none\nJavaScript:     no\nPages:          1\nEncrypted:      no\nPage size:      252 x 342 pts\nPage rot:       0\nFile size:      30233 bytes\nOptimized:      no\nPDF version:    1.4\n",
+      "png_pixels": [
+        2100,
+        2850
+      ],
+      "png_dpi": 600,
+      "raster_images": "none"
+    }
+  },
+  "artifact_sha256": {
+    "FIGURE_CAPTIONS.md": "b8611685ea79e05988cc3b042a6fbe47296af3e3dea3347a7ed0619b8a1cf9ef",
+    "FIGURE_CAPTIONS.tex": "7b407d382b0e73fc3c0b64052c38d260669c62bc9accca7fbee33e2e9a2ad016",
+    "src_assignment_links.pdf": "ea39831016b1c615feb882dd5e1bd66e2fac58f172b756f85cb5cf054e9ff1ed",
+    "src_assignment_links.png": "089eca72ecee6b6684ad92ababfc66d1fe21897c7de4bf053be14b37bace99a6",
+    "src_assignment_links.svg": "102010d415cbab6dac0e1fb59ce86c94d51f69cd94627930f54c8f14ada14d86",
+    "src_assignment_links_grayscale.png": "244e7a8446e1056a3872497a81c80546d7861ad780d08aa4db04ffb611162d2f",
+    "src_assignment_links_pdf_render.png": "2d89b03948c6db1afdedece277313efcb2fb2d03e180fc426afad13f03ab0c55",
+    "src_assignment_links_pdf_render_gray.png": "aa74f23a7f899f0805e155de6e852d18a2b56b243deb842c8f6c9806159a5744",
+    "src_assignment_links_preview.png": "6e4f98748a2ec8941940059cf8c1c90b8f02366da63ff5478f281153743dd4d8",
+    "src_cost_refinement_triptych.pdf": "e645249575e53b65204d6ab84b2a19e743c4181c1bea34c96d8761dd53f2eb0a",
+    "src_cost_refinement_triptych.png": "69d910a080916a4fcf6f65bd976dfd198c452aa58265b0ce3c0df0aed2339ff4",
+    "src_cost_refinement_triptych.svg": "769b72354d41eb3ea52f14a375dd290b4e147ee1884a8b0903e604ab985e1c05",
+    "src_cost_refinement_triptych_grayscale.png": "43bf565135544ce09b9282731b9844201c1c428e8d2fc15d53e3a2b216b91436",
+    "src_cost_refinement_triptych_pdf_render.png": "970b5df8aa847fdda2b369a7f559a74d967b2d417a4d51440351d94ab683e3b2",
+    "src_cost_refinement_triptych_pdf_render_gray.png": "5719fd69fa3c5d1092cb4c23991fecc5a38a8b433db7dec9c37b5c508e5e2474",
+    "src_cost_refinement_triptych_preview.png": "daf89f3dc3e2c06d0d27e912330e7b908a8e429a5899cdc4b47386f9d7cb261f"
+  },
+  "main_tex_sha256_unchanged": "da2f49d09aba2b5dd6876a3e1e88482ab1165c0b6d01adecaf7fecf965553f8e",
+  "preview_color_and_grayscale": "PASS",
+  "all_text_bounds": "PASS",
+  "vector_body_and_fonts": "PASS",
+  "final_pdf_visual_review": {
+    "color": "PASS",
+    "grayscale": "PASS",
+    "both_figures": "PASS",
+    "clipping_or_text_overlap": "none",
+    "matrix_values_and_tie_claim": "verified against independently audited case",
+    "current_SRC_formula": "PASS",
+    "non_color_encodings": "solid and dashed outlines, edge patterns, and numerical labels"
+  },
+  "strict_export_checker": {
+    "both_PDF_and_PNG": "PASS",
+    "font_warning_resolution": "Poppler pdffonts confirms every font embedded and subset; the checker warning is a CID-descendant descriptor detection limitation"
+  },
+  "artifact_hash_verification": "PASS_ALL_16_ARTIFACTS"
+}

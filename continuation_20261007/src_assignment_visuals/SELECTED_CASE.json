@@ -1,0 +1,1173 @@
+{
+  "evidence_type": "real frozen-calibration same-state operator and assignment example",
+  "case": {
+    "sequence": "uav0000222_03150_v",
+    "frame": 177,
+    "tracker_frame": 177,
+    "stage": 0,
+    "full_pool_shape": [
+      41,
+      43
+    ],
+    "threshold": 0.8,
+    "prior": [
+      0.33216119257787574,
+      0.667838802394794
+    ],
+    "global_row_indices": [
+      25,
+      26,
+      27
+    ],
+    "global_column_indices": [
+      39,
+      40,
+      41
+    ],
+    "tracks": [
+      {
+        "track_id": 39,
+        "bbox_tlwh": [
+          2118.198397780129,
+          1362.3082319122109,
+          66.68502363905338,
+          111.37940074555605
+        ],
+        "state": 1,
+        "is_activated": true,
+        "start_frame": 1,
+        "last_update_frame": 176,
+        "age": 177,
+        "gap": 1,
+        "score": 0.99365234375,
+        "predicted_class": 0,
+        "class_confidence": 0.810546875,
+        "semantic_evidence": [
+          143.23974609375,
+          0.0
+        ],
+        "last_observation": {
+          "sequence": "uav0000222_03150_v",
+          "frame": 176,
+          "source_frame": 176,
+          "detection_ordinal": 45,
+          "bbox_tlwh": [
+            2117.8125,
+            1362.65625,
+            67.5,
+            111.375
+          ],
+          "score": 0.99365234375,
+          "class_confidence": 0.810546875,
+          "predicted_class": 0,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.810546875,
+            0.0
+          ]
+        },
+        "missing_observation": false,
+        "missing_appearance": false
+      },
+      {
+        "track_id": 41,
+        "bbox_tlwh": [
+          2151.2596728366784,
+          1371.406591032615,
+          57.067939771133894,
+          119.62248059759723
+        ],
+        "state": 1,
+        "is_activated": true,
+        "start_frame": 1,
+        "last_update_frame": 176,
+        "age": 177,
+        "gap": 1,
+        "score": 0.97705078125,
+        "predicted_class": 2,
+        "class_confidence": 0.8798828125,
+        "semantic_evidence": [
+          0.0,
+          153.5244140625
+        ],
+        "last_observation": {
+          "sequence": "uav0000222_03150_v",
+          "frame": 176,
+          "source_frame": 176,
+          "detection_ordinal": 46,
+          "bbox_tlwh": [
+            2151.5625,
+            1371.09375,
+            57.375,
+            119.8125
+          ],
+          "score": 0.97705078125,
+          "class_confidence": 0.8798828125,
+          "predicted_class": 2,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.0,
+            0.8798828125
+          ]
+        },
+        "missing_observation": false,
+        "missing_appearance": false
+      },
+      {
+        "track_id": 42,
+        "bbox_tlwh": [
+          2156.312286843832,
+          1405.2143956114096,
+          53.96757560910258,
+          68.65574812307723
+        ],
+        "state": 1,
+        "is_activated": true,
+        "start_frame": 1,
+        "last_update_frame": 176,
+        "age": 177,
+        "gap": 1,
+        "score": 0.9873046875,
+        "predicted_class": 1,
+        "class_confidence": 0.80517578125,
+        "semantic_evidence": [
+          141.20556640625,
+          0.0
+        ],
+        "last_observation": {
+          "sequence": "uav0000222_03150_v",
+          "frame": 176,
+          "source_frame": 176,
+          "detection_ordinal": 47,
+          "bbox_tlwh": [
+            2156.625,
+            1404.84375,
+            54.0,
+            69.1875
+          ],
+          "score": 0.9873046875,
+          "class_confidence": 0.80517578125,
+          "predicted_class": 1,
+          "frame_width": 2688,
+          "frame_height": 1512,
+          "semantic_evidence": [
+            0.80517578125,
+            0.0
+          ]
+        },
+        "missing_observation": false,
+        "missing_appearance": false
+      }
+    ],
+    "detections": [
+      {
+        "sequence": "uav0000222_03150_v",
+        "frame": 177,
+        "source_frame": 177,
+        "detection_ordinal": 51,
+        "bbox_tlwh": [
+          2117.8125,
+          1360.96875,
+          67.5,
+          113.0625
+        ],
+        "score": 0.994140625,
+        "class_confidence": 0.8134765625,
+        "predicted_class": 0,
+        "frame_width": 2688,
+        "frame_height": 1512,
+        "semantic_evidence": [
+          0.8134765625,
+          0.0
+        ]
+      },
+      {
+        "sequence": "uav0000222_03150_v",
+        "frame": 177,
+        "source_frame": 177,
+        "detection_ordinal": 52,
+        "bbox_tlwh": [
+          2151.5625,
+          1371.9375,
+          57.375,
+          119.8125
+        ],
+        "score": 0.97607421875,
+        "class_confidence": 0.8828125,
+        "predicted_class": 2,
+        "frame_width": 2688,
+        "frame_height": 1512,
+        "semantic_evidence": [
+          0.0,
+          0.8828125
+        ]
+      },
+      {
+        "sequence": "uav0000222_03150_v",
+        "frame": 177,
+        "source_frame": 177,
+        "detection_ordinal": 53,
+        "bbox_tlwh": [
+          2156.625,
+          1403.15625,
+          54.0,
+          72.5625
+        ],
+        "score": 0.98779296875,
+        "class_confidence": 0.810546875,
+        "predicted_class": 1,
+        "frame_width": 2688,
+        "frame_height": 1512,
+        "semantic_evidence": [
+          0.810546875,
+          0.0
+        ]
+      }
+    ],
+    "track_labels": [
+      {
+        "sequence": "uav0000222_03150_v",
+        "frame": 176,
+        "source_frame": 176,
+        "detection_ordinal": 45,
+        "known": true,
+        "kind": "foreground",
+        "gt_id": 42,
+        "gt_class": 1,
+        "group": 0,
+        "reason": "UNIQUE_GEOMETRY_MATCH",
+        "gt_iou": 0.816076088176177,
+        "predicted_class_error": false
+      },
+      {
+        "sequence": "uav0000222_03150_v",
+        "frame": 176,
+        "source_frame": 176,
+        "detection_ordinal": 46,
+        "known": true,
+        "kind": "foreground",
+        "gt_id": 43,
+        "gt_class": 3,
+        "group": 1,
+        "reason": "UNIQUE_GEOMETRY_MATCH",
+        "gt_iou": 0.9180958732504799,
+        "predicted_class_error": false
+      },
+      {
+        "sequence": "uav0000222_03150_v",
+        "frame": 176,
+        "source_frame": 176,
+        "detection_ordinal": 47,
+        "known": true,
+        "kind": "foreground",
+        "gt_id": 41,
+        "gt_class": 2,
+        "group": 0,
+        "reason": "UNIQUE_GEOMETRY_MATCH",
+        "gt_iou": 0.8331536691712387,
+        "predicted_class_error": false
+      }
+    ],
+    "detection_labels": [
+      {
+        "sequence": "uav0000222_03150_v",
+        "frame": 177,
+        "source_frame": 177,
+        "detection_ordinal": 51,
+        "known": true,
+        "kind": "foreground",
+        "gt_id": 42,
+        "gt_class": 1,
+        "group": 0,
+        "reason": "UNIQUE_GEOMETRY_MATCH",
+        "gt_iou": 0.8275952562511822,
+        "predicted_class_error": false
+      },
+      {
+        "sequence": "uav0000222_03150_v",
+        "frame": 177,
+        "source_frame": 177,
+        "detection_ordinal": 52,
+        "known": true,
+        "kind": "foreground",
+        "gt_id": 43,
+        "gt_class": 3,
+        "group": 1,
+        "reason": "UNIQUE_GEOMETRY_MATCH",
+        "gt_iou": 0.9345719635682731,
+        "predicted_class_error": false
+      },
+      {
+        "sequence": "uav0000222_03150_v",
+        "frame": 177,
+        "source_frame": 177,
+        "detection_ordinal": 53,
+        "known": true,
+        "kind": "foreground",
+        "gt_id": 41,
+        "gt_class": 2,
+        "group": 0,
+        "reason": "UNIQUE_GEOMETRY_MATCH",
+        "gt_iou": 0.872868416400135,
+        "predicted_class_error": false
+      }
+    ],
+    "beliefs": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        8.4e-323,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "observation_probabilities": [
+      [
+        0.9992259951914688,
+        0.0007740048085312006
+      ],
+      [
+        0.0027900368202321557,
+        0.9972099631797678
+      ],
+      [
+        0.9924830797353256,
+        0.007516920264674393
+      ]
+    ],
+    "base_cost": [
+      [
+        0.015457428314476163,
+        0.6908016209098284,
+        0.7837377174729196
+      ],
+      [
+        0.6771590873946627,
+        0.01347347398481824,
+        0.01347347398481824
+      ],
+      [
+        0.7825213882965052,
+        0.030749081078744966,
+        0.030749081078744966
+      ]
+    ],
+    "semantic_penalty": [
+      [
+        0.0,
+        0.9916003528329758,
+        0.0
+      ],
+      [
+        0.9988410304915561,
+        0.0,
+        0.9887444092231246
+      ],
+      [
+        0.0,
+        0.9916003528329758,
+        0.0
+      ]
+    ],
+    "src_cost": [
+      [
+        0.015457428314476163,
+        0.9974028427110267,
+        0.7837377174729196
+      ],
+      [
+        0.9996258372262122,
+        0.01347347398481824,
+        0.9888960611326405
+      ],
+      [
+        0.7825213882965052,
+        0.9918586342647474,
+        0.030749081078744966
+      ]
+    ],
+    "added_cost": [
+      [
+        0.0,
+        0.3066012218011983,
+        0.0
+      ],
+      [
+        0.32246674983154955,
+        0.0,
+        0.9754225871478223
+      ],
+      [
+        0.0,
+        0.9611095531860024,
+        0.0
+      ]
+    ],
+    "base_assignment": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "src_assignment": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "base_owner_score": {
+      "same_owner_pairs": 1,
+      "different_owner_pairs": 2
+    },
+    "src_owner_score": {
+      "same_owner_pairs": 3
+    },
+    "closed_legal_component": true,
+    "standalone_and_full_pool_assignments_identical": true,
+    "selection": "first fully known beneficial closed legal component of this shape in sorted calibration streams"
+  },
+  "assignment_analysis": {
+    "base": {
+      "legal_configuration_count": 34,
+      "optima": [
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 0.05967998337803937
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "objective": 0.05967998337803937
+        }
+      ],
+      "optimal_objective": 0.05967998337803937,
+      "gap_to_next_distinct_objective": 0.7692509189212551,
+      "all_configurations": [
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 0.05967998337803937
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "objective": 0.05967998337803937
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "objective": 0.8289309022992944
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "objective": 0.8289309022992944
+        },
+        {
+          "pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 0.8442225550635633
+        },
+        {
+          "pairs": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "objective": 0.8442225550635633
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "objective": 0.8462065093932212
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 0.8462065093932212
+        },
+        {
+          "pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 1.398709789383236
+        },
+        {
+          "pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 1.486796483191152
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "objective": 1.4916458859463273
+        },
+        {
+          "pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "objective": 1.5042750948946466
+        },
+        {
+          "pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "objective": 1.5079081684734077
+        },
+        {
+          "pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 1.5079081684734077
+        },
+        {
+          "pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 1.5215507019885735
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 1.5797325797542432
+        },
+        {
+          "pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 1.5959948622813234
+        },
+        {
+          "pairs": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 1.5959948622813234
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "objective": 1.5972111914577378
+        },
+        {
+          "pairs": [
+            [
+              1,
+              1
+            ]
+          ],
+          "objective": 1.6134734739848184
+        },
+        {
+          "pairs": [
+            [
+              1,
+              2
+            ]
+          ],
+          "objective": 1.6134734739848184
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "objective": 1.6144867985516647
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ]
+          ],
+          "objective": 1.6154574283144763
+        },
+        {
+          "pairs": [
+            [
+              2,
+              1
+            ]
+          ],
+          "objective": 1.630749081078745
+        },
+        {
+          "pairs": [
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 1.630749081078745
+        },
+        {
+          "pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "objective": 2.1679607083044914
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "objective": 2.260896804867582
+        },
+        {
+          "pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 2.273323009206334
+        },
+        {
+          "pairs": [
+            [
+              1,
+              0
+            ]
+          ],
+          "objective": 2.2771590873946628
+        },
+        {
+          "pairs": [
+            [
+              0,
+              1
+            ]
+          ],
+          "objective": 2.2908016209098285
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 2.3662591057694247
+        },
+        {
+          "pairs": [
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 2.3825213882965053
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ]
+          ],
+          "objective": 2.3837377174729197
+        },
+        {
+          "pairs": [],
+          "objective": 2.4000000000000004
+        }
+      ],
+      "host_selected_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "independent_hungarian_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "src": {
+      "legal_configuration_count": 14,
+      "optima": [
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 0.05967998337803937
+        }
+      ],
+      "optimal_objective": 0.05967998337803937,
+      "gap_to_next_distinct_objective": 0.7692509189212551,
+      "all_configurations": [
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 0.05967998337803937
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "objective": 0.8289309022992944
+        },
+        {
+          "pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 0.8442225550635633
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 0.8462065093932212
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 1.5797325797542432
+        },
+        {
+          "pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 1.5959948622813234
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "objective": 1.5972111914577378
+        },
+        {
+          "pairs": [
+            [
+              1,
+              1
+            ]
+          ],
+          "objective": 1.6134734739848184
+        },
+        {
+          "pairs": [
+            [
+              0,
+              0
+            ]
+          ],
+          "objective": 1.6154574283144763
+        },
+        {
+          "pairs": [
+            [
+              2,
+              2
+            ]
+          ],
+          "objective": 1.630749081078745
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 2.3662591057694247
+        },
+        {
+          "pairs": [
+            [
+              2,
+              0
+            ]
+          ],
+          "objective": 2.3825213882965053
+        },
+        {
+          "pairs": [
+            [
+              0,
+              2
+            ]
+          ],
+          "objective": 2.3837377174729197
+        },
+        {
+          "pairs": [],
+          "objective": 2.4000000000000004
+        }
+      ],
+      "host_selected_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "independent_hungarian_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "interpretation": "SRC resolves two tied base-cost optima into one semantically consistent optimum.",
+  "tie_boundary": "The crossed and owner-consistent base assignments have exactly equal cost; the base solver did not have a unique wrong optimum.",
+  "search_counts": {
+    "association_records": 11274,
+    "first_stage_calls": 3750,
+    "base_vs_src_assignment_changed_calls": 525,
+    "changed_legal_components": 650,
+    "unknown_or_no_owner_score_change_components": 392,
+    "fully_known_beneficial_components": 105,
+    "fully_known_adverse_or_tradeoff_components": 153
+  },
+  "case_search_receipt_sha256": "9dc65ea46357ea443b8fb4b80fbb44697a3cd4eadd04ffa076ea7d73599228fc"
+}
