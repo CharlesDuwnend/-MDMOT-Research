@@ -1,0 +1,59 @@
+{
+  "status": "PASS_FINAL_PDF_EXPORT_AND_VISUAL_REVIEW",
+  "visual_review": {
+    "final_poppler_color": "PASS",
+    "final_poppler_grayscale": "PASS",
+    "text_overlap_and_canvas_clipping": "NONE",
+    "analytic_and_measured_panels_distinguished": true,
+    "all_17_sequences_and_negative_effects_retained": true,
+    "main_paper_recommendation": "src_bounded_intervention.pdf",
+    "supplementary_recommendation": "src_paired_sequence_effects.pdf"
+  },
+  "pdfs": {
+    "src_bounded_intervention": {
+      "fixed_page_size_inches": [
+        3.5,
+        4.8
+      ],
+      "font_embedding": "PASS_POPPLER",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     15  0\nGCWXDV+DejaVuSans-Oblique            CID TrueType      Identity-H       yes yes yes     22  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     29  0\n",
+      "raster_images": 0,
+      "poppler_rendered": true
+    },
+    "src_paired_sequence_effects": {
+      "fixed_page_size_inches": [
+        3.5,
+        5.2
+      ],
+      "font_embedding": "PASS_POPPLER",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     17  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     24  0\n",
+      "raster_images": 0,
+      "poppler_rendered": true
+    }
+  },
+  "pngs": {
+    "src_bounded_intervention": {
+      "pixels": [
+        2100,
+        2880
+      ],
+      "dpi": [
+        600,
+        600
+      ]
+    },
+    "src_paired_sequence_effects": {
+      "pixels": [
+        2100,
+        3120
+      ],
+      "dpi": [
+        600,
+        600
+      ]
+    }
+  },
+  "export_hashes_checked": 13,
+  "main_tex_sha256": "da2f49d09aba2b5dd6876a3e1e88482ab1165c0b6d01adecaf7fecf965553f8e",
+  "skill_font_warning_resolution": "Poppler pdffonts independently verifies embedded CID TrueType descendant fonts."
+}
