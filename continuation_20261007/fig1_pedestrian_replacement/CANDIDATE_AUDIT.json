@@ -1,0 +1,1121 @@
+{
+  "status": "PASS_CANDIDATE_SEARCH_AND_VISUAL_SELECTION_COMPLETE",
+  "existing_catalogue_runs_considered": 265,
+  "qualified_frames": 83,
+  "source_sha256": {
+    "/home/chenhc/claude_try_MDMOT/continuation_20261007/motivation_duplicate_analysis/native_duplicate_candidates.json": "b55c179031b6dfb2651ec793c4dc5d03279b2d85a15b63e9bdb7708f61c3756d",
+    "/home/chenhc/src_egia_icme_paper/scripts/build_paper_case_figures.py": "2d941695fb332b535a9cc52d10936e2402c6b642523ef1a91ba65073eae93097",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000009_03358_v.txt": "7f0b7077fbe0ccc4ede0d6d2f60bdf4193751b254532b71a7950ac40b3d24a3b",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000009_03358_v.txt": "e60f8d4444f0ecffad235d646e7817834fb7354421833bd8bef27b207c36010b",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000009_03358_v.txt": "63bd8e651de8351ec572fd0455404c2dc2cc36294c83df43642eea9fc1567a7b",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000073_04464_v.txt": "e7e9bd27f33a5ea5ef528f8adb45e0534e5b3c4695cbcbd17badcfe2f2d98512",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000073_04464_v.txt": "8b295cff7131a2b22d056dc824aa64b9718a7e590cc5c5107e85c6eba93d6e9e",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000073_04464_v.txt": "b5da4fdd530ffc2801680014b9cfa71d34293894b97d100a72093bab3b7f79fc",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000088_00290_v.txt": "2f44ce2675613349e7afb757bbcdca6cc369fe81d3fef4ce8ca3c22f4a42fa4c",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000088_00290_v.txt": "9cb9718d76727c78af00f4d162bd4a5a3d3fea0182e48eb558f2849729ad2276",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000088_00290_v.txt": "fee3d911edf1f7e841652249699e1647589f2fa40e566d9e4ee245fb81c395e1",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000119_02301_v.txt": "cb2149ff948c67d204ff1c9c8cef51bf64e13ce47061f0cab3799c0d81624972",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000119_02301_v.txt": "5ae085a23ac3de5ab8fa96c6e215f06a75f9c9571e4f474af8a538702531ffa1",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000119_02301_v.txt": "cb87d0028f5a43322aa7a345e5c9f5a00202f021c2c3ddfc2727fa0442d32945",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000161_00000_v.txt": "a8278507ba607c46dfbe5ceb284f4b880c0df5688c7da72c5cfa2bb556d54298",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000161_00000_v.txt": "4d9cd9439e5d082e97908c1126a70f31bc381b5c7bb45bd197a5a000590ff731",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000161_00000_v.txt": "3f430c157e5dff71be23cde05a52630ed206fd0d0c2635d19f56e0f19c859acc",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000188_00000_v.txt": "c2e7598f417a6ebcdfa5be25b7c904ae0a41bae884cb1efbdd25da5f63e69a43",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000188_00000_v.txt": "64d2b766f092e0a726570833b2394873967155dd986eca559e58374cafe6c7ed",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000188_00000_v.txt": "59e6b6e3d6456c333da6c23fb719fd1daba1603aca8e242fc40b92e4f5c405b6",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000201_00000_v.txt": "4034215c0be60c54c55f1bf178bae996f75466ebc296b08c0bd2ca42be7b7a6d",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000201_00000_v.txt": "2b269ce7c7c1fe19d9a4489aef18aff04f908cf2d60d275a56935f6415cddd25",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000201_00000_v.txt": "a3ae82aa9ad04a56c94b440ab390eff657dfac9d81898616d2b710c7d940c333",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000249_00001_v.txt": "d3de3fa76127b7201ff62d305a73ae8f9a9f7d4b6da3c3e3388990259b87f784",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000249_00001_v.txt": "ab0d3eda1c3f3aae40fee284b9b6f069c86d867e4ab8ca3cf89e053ba64b6cd4",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000249_00001_v.txt": "4774478f4c9d2a8c8665b5852f2c6a7531607666294abef76622a855d9e697cb",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000249_02688_v.txt": "119980a4e39c668467a4b49be444faa261c6de734511c8febb618b457527599a",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000249_02688_v.txt": "41cc485efa5a098c5f2963ff2edf09673a6da39fd35747c5d939096067383ce5",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000249_02688_v.txt": "cd2c029a21fd4e4674a681001d35a5466909651b934e68e337c12db59eea4db0",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000306_00230_v.txt": "2d6718e8ec6b97e7ff5f33704172fda173d9dbddd887992920fad81dece59ea5",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000306_00230_v.txt": "7c3a935fc67a475ca9514e514dd88fcd180d487a0a65403ed2bb67ce38a948e7",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000306_00230_v.txt": "7642ffd70923995b76810d1f309985ee40bdd485da28173aa131bca3fa1d3fba",
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000355_00001_v.txt": "f77972bdfc05b797b2b7d1f95a35db3b1a956ed8b8c37ad4e023df7dc65fe927",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000355_00001_v.txt": "a44777adf12d21ccf02d217fb52149f699a12d2cc30e9f498d7288fd61da2954",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000355_00001_v.txt": "a0666d7b7dd140634df7aea3d9e5f5a8891fd6e1d139092aa36184d1e115ac1b"
+  },
+  "preview_candidates": [
+    {
+      "sequence": "uav0000073_04464_v",
+      "gt_id": 18,
+      "category": "pedestrian",
+      "start_frame": 297,
+      "end_frame": 297,
+      "run_frames": 1,
+      "solved_frames": 1,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.650570259766056,
+      "gt_box_at_start": [
+        233.0,
+        885.0,
+        64.0,
+        186.0
+      ],
+      "frame": 297,
+      "target_row": [
+        297.0,
+        18.0,
+        233.0,
+        885.0,
+        64.0,
+        186.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        110,
+        301
+      ],
+      "leaf_ids": [
+        92
+      ],
+      "native_rows": [
+        [
+          297.0,
+          110.0,
+          227.8,
+          885.97,
+          76.7,
+          179.56,
+          0.97,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          297.0,
+          301.0,
+          226.61,
+          923.3,
+          66.6,
+          138.62,
+          0.62,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          297.0,
+          92.0,
+          227.8,
+          885.97,
+          76.7,
+          179.56,
+          0.97,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.6525764341030448,
+      "max_other_object_iou": 0.0,
+      "crop_xyxy": [
+        155,
+        844,
+        375,
+        1080
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000297.jpg",
+      "photo_sha256": "08c8b3fcb2ce6a9e26474716f0466b8a15ce9cb2c93d1cb2e9d5c27c143e6736",
+      "score": 7768.269871562645
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "gt_id": 102,
+      "category": "pedestrian",
+      "start_frame": 66,
+      "end_frame": 67,
+      "run_frames": 2,
+      "solved_frames": 2,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.6977268776057597,
+      "gt_box_at_start": [
+        350.0,
+        849.0,
+        52.0,
+        175.0
+      ],
+      "frame": 66,
+      "target_row": [
+        66.0,
+        102.0,
+        350.0,
+        849.0,
+        52.0,
+        175.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        100,
+        159
+      ],
+      "leaf_ids": [
+        71
+      ],
+      "native_rows": [
+        [
+          66.0,
+          100.0,
+          347.57,
+          855.2,
+          62.56,
+          168.57,
+          0.93,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          66.0,
+          159.0,
+          351.36,
+          890.76,
+          56.05,
+          132.59,
+          0.92,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          66.0,
+          71.0,
+          347.57,
+          855.21,
+          62.56,
+          168.58,
+          0.93,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.6839303536846983,
+      "max_other_object_iou": 0.25318061464247676,
+      "crop_xyxy": [
+        266,
+        818,
+        486,
+        1054
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000066.jpg",
+      "photo_sha256": "45be31cc25c28c52f71e9e48edcde0feaf0489f04ebde1de3a751221ff681362",
+      "score": 6223.7662185307545
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "gt_id": 49,
+      "category": "pedestrian",
+      "start_frame": 70,
+      "end_frame": 72,
+      "run_frames": 3,
+      "solved_frames": 3,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.5744624428054514,
+      "gt_box_at_start": [
+        1244.0,
+        745.0,
+        55.0,
+        148.0
+      ],
+      "frame": 72,
+      "target_row": [
+        72.0,
+        49.0,
+        1248.0,
+        748.0,
+        57.0,
+        149.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        50,
+        161
+      ],
+      "leaf_ids": [
+        49
+      ],
+      "native_rows": [
+        [
+          72.0,
+          50.0,
+          1249.11,
+          783.45,
+          53.95,
+          119.95,
+          0.96,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          72.0,
+          161.0,
+          1248.61,
+          750.65,
+          49.73,
+          123.1,
+          0.56,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          72.0,
+          49.0,
+          1249.11,
+          783.45,
+          53.95,
+          119.95,
+          0.96,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.6931238317862755,
+      "max_other_object_iou": 0.2898443302948285,
+      "crop_xyxy": [
+        1166,
+        704,
+        1386,
+        940
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000072.jpg",
+      "photo_sha256": "f7560a55a0045dad4790db9a81e84e852428ebc0a75815249853cb888c563ec7",
+      "score": 5886.700703360838
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "gt_id": 48,
+      "category": "pedestrian",
+      "start_frame": 80,
+      "end_frame": 82,
+      "run_frames": 3,
+      "solved_frames": 3,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.5245585120201303,
+      "gt_box_at_start": [
+        1238.0,
+        771.0,
+        60.0,
+        151.0
+      ],
+      "frame": 80,
+      "target_row": [
+        80.0,
+        48.0,
+        1238.0,
+        771.0,
+        60.0,
+        151.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        48,
+        165
+      ],
+      "leaf_ids": [
+        47
+      ],
+      "native_rows": [
+        [
+          80.0,
+          48.0,
+          1237.35,
+          787.66,
+          62.59,
+          139.31,
+          0.96,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          80.0,
+          165.0,
+          1237.9,
+          773.24,
+          53.04,
+          110.89,
+          0.89,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          80.0,
+          47.0,
+          1237.35,
+          787.66,
+          62.59,
+          139.31,
+          0.96,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.647167787682384,
+      "max_other_object_iou": 0.24834660533091105,
+      "crop_xyxy": [
+        1158,
+        728,
+        1378,
+        964
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000080.jpg",
+      "photo_sha256": "4d550572791b436e29eb3e92868d0776a577d5dd38c2b7d42e6ced107216b22c",
+      "score": 5863.3401564024
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "gt_id": 77,
+      "category": "pedestrian",
+      "start_frame": 62,
+      "end_frame": 65,
+      "run_frames": 4,
+      "solved_frames": 4,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.6174729804253547,
+      "gt_box_at_start": [
+        883.0,
+        730.0,
+        46.0,
+        134.0
+      ],
+      "frame": 63,
+      "target_row": [
+        63.0,
+        77.0,
+        883.0,
+        732.0,
+        47.0,
+        135.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        34,
+        152
+      ],
+      "leaf_ids": [
+        34
+      ],
+      "native_rows": [
+        [
+          63.0,
+          34.0,
+          883.92,
+          734.45,
+          45.28,
+          124.98,
+          0.98,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          63.0,
+          152.0,
+          888.41,
+          758.5,
+          41.48,
+          111.67,
+          0.79,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          63.0,
+          34.0,
+          883.92,
+          734.45,
+          45.28,
+          124.98,
+          0.98,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.6949101887200785,
+      "max_other_object_iou": 0.046519273936539235,
+      "crop_xyxy": [
+        796,
+        682,
+        1016,
+        918
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000063.jpg",
+      "photo_sha256": "91c86b742c8dad0d81a87fffee5c9c55adf222692f3af9eee1e593f6d1526175",
+      "score": 4409.205147428898
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "gt_id": 112,
+      "category": "pedestrian",
+      "start_frame": 120,
+      "end_frame": 121,
+      "run_frames": 2,
+      "solved_frames": 2,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.6766335484494406,
+      "gt_box_at_start": [
+        539.0,
+        765.0,
+        34.0,
+        131.0
+      ],
+      "frame": 120,
+      "target_row": [
+        120.0,
+        112.0,
+        539.0,
+        765.0,
+        34.0,
+        131.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        18,
+        199
+      ],
+      "leaf_ids": [
+        18
+      ],
+      "native_rows": [
+        [
+          120.0,
+          18.0,
+          533.98,
+          760.39,
+          49.12,
+          137.8,
+          0.97,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          120.0,
+          199.0,
+          536.38,
+          796.14,
+          45.2,
+          98.84,
+          0.68,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          120.0,
+          18.0,
+          533.98,
+          760.39,
+          49.12,
+          137.8,
+          0.97,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.6043077082428225,
+      "max_other_object_iou": 0.005282431397215021,
+      "crop_xyxy": [
+        446,
+        712,
+        666,
+        948
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000120.jpg",
+      "photo_sha256": "6bbd9fa04fb2e7fdd38805e4706b0bedc3b87a2ede7d91e7c735de08ec018619",
+      "score": 2691.5865325135314
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "gt_id": 3,
+      "category": "pedestrian",
+      "start_frame": 282,
+      "end_frame": 283,
+      "run_frames": 2,
+      "solved_frames": 2,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.6216329002601312,
+      "gt_box_at_start": [
+        1345.0,
+        669.0,
+        31.0,
+        97.0
+      ],
+      "frame": 282,
+      "target_row": [
+        282.0,
+        3.0,
+        1345.0,
+        669.0,
+        31.0,
+        97.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        237,
+        290
+      ],
+      "leaf_ids": [
+        141
+      ],
+      "native_rows": [
+        [
+          282.0,
+          237.0,
+          1341.98,
+          677.12,
+          32.15,
+          88.24,
+          0.99,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          282.0,
+          290.0,
+          1345.42,
+          669.25,
+          31.2,
+          76.78,
+          0.77,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          282.0,
+          141.0,
+          1344.37,
+          669.19,
+          32.15,
+          83.48,
+          0.77,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.7686537133656192,
+      "max_other_object_iou": 0.0928741159903109,
+      "crop_xyxy": [
+        1250,
+        600,
+        1470,
+        836
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000282.jpg",
+      "photo_sha256": "91ce00fc5dfb62ef889e2b67717a28ad8f3ef03986f8d3f29ae6be354ea84d6e",
+      "score": 2311.341716090417
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "gt_id": 94,
+      "category": "pedestrian",
+      "start_frame": 234,
+      "end_frame": 236,
+      "run_frames": 3,
+      "solved_frames": 3,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.9567385178872434,
+      "gt_box_at_start": [
+        92.0,
+        770.0,
+        41.0,
+        66.0
+      ],
+      "frame": 236,
+      "target_row": [
+        236.0,
+        94.0,
+        89.0,
+        771.0,
+        41.0,
+        66.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        182,
+        255
+      ],
+      "leaf_ids": [
+        130
+      ],
+      "native_rows": [
+        [
+          236.0,
+          182.0,
+          88.29,
+          773.52,
+          50.7,
+          71.02,
+          0.54,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          236.0,
+          255.0,
+          88.69,
+          773.64,
+          50.04,
+          71.31,
+          0.62,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          236.0,
+          130.0,
+          88.29,
+          773.52,
+          50.69,
+          71.12,
+          0.54,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.7018350375397128,
+      "max_other_object_iou": 0.0,
+      "crop_xyxy": [
+        0,
+        686,
+        220,
+        922
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000236.jpg",
+      "photo_sha256": "173fe374e005c308853e7152b598bcd7fa240f23dc3cc68e73cfa0afd5ebcd67",
+      "score": 1899.1656115824628
+    },
+    {
+      "sequence": "uav0000249_00001_v",
+      "gt_id": 128,
+      "category": "pedestrian",
+      "start_frame": 272,
+      "end_frame": 274,
+      "run_frames": 3,
+      "solved_frames": 3,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.9191684120897553,
+      "gt_box_at_start": [
+        1114.0,
+        979.0,
+        27.0,
+        71.0
+      ],
+      "frame": 272,
+      "target_row": [
+        272.0,
+        128.0,
+        1114.0,
+        979.0,
+        27.0,
+        71.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        247,
+        295
+      ],
+      "leaf_ids": [
+        184
+      ],
+      "native_rows": [
+        [
+          272.0,
+          247.0,
+          1116.59,
+          975.04,
+          30.47,
+          77.58,
+          0.77,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          272.0,
+          295.0,
+          1115.56,
+          977.54,
+          31.34,
+          77.14,
+          0.92,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          272.0,
+          184.0,
+          1116.59,
+          975.04,
+          30.47,
+          77.58,
+          0.77,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.6802505078397365,
+      "max_other_object_iou": 0.0,
+      "crop_xyxy": [
+        1018,
+        844,
+        1238,
+        1080
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000249_00001_v/0000272.jpg",
+      "photo_sha256": "ff024a3b3aa59a45c2cbff0c676715a044666a1abc89093691a21f86959cdecc",
+      "score": 1304.040223528775
+    },
+    {
+      "sequence": "uav0000073_04464_v",
+      "gt_id": 118,
+      "category": "pedestrian",
+      "start_frame": 237,
+      "end_frame": 237,
+      "run_frames": 1,
+      "solved_frames": 1,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.7135464556826688,
+      "gt_box_at_start": [
+        740.0,
+        589.0,
+        19.0,
+        51.0
+      ],
+      "frame": 237,
+      "target_row": [
+        237.0,
+        118.0,
+        740.0,
+        589.0,
+        19.0,
+        51.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        206,
+        261
+      ],
+      "leaf_ids": [
+        129
+      ],
+      "native_rows": [
+        [
+          237.0,
+          206.0,
+          736.53,
+          592.24,
+          20.86,
+          52.22,
+          0.83,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          237.0,
+          261.0,
+          738.28,
+          589.12,
+          20.49,
+          48.52,
+          0.64,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          237.0,
+          129.0,
+          736.53,
+          592.24,
+          20.86,
+          52.22,
+          0.83,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.6764713835604061,
+      "max_other_object_iou": 0.2501271891365652,
+      "crop_xyxy": [
+        640,
+        496,
+        860,
+        732
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000237.jpg",
+      "photo_sha256": "cedf495f286277fbd2040d42ed14a81b378a0032e6a93737b1d09a06a7a825ab",
+      "score": 655.5007706700336
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "gt_id": 116,
+      "category": "pedestrian",
+      "start_frame": 268,
+      "end_frame": 275,
+      "run_frames": 8,
+      "solved_frames": 8,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.9587541453632886,
+      "gt_box_at_start": [
+        82.0,
+        208.0,
+        18.0,
+        45.0
+      ],
+      "frame": 271,
+      "target_row": [
+        271.0,
+        116.0,
+        93.0,
+        208.0,
+        18.0,
+        45.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        167,
+        515
+      ],
+      "leaf_ids": [
+        111
+      ],
+      "native_rows": [
+        [
+          271.0,
+          167.0,
+          92.78,
+          208.4,
+          20.23,
+          49.61,
+          0.89,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          271.0,
+          515.0,
+          93.22,
+          208.42,
+          20.22,
+          49.47,
+          0.91,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          271.0,
+          111.0,
+          93.01,
+          208.52,
+          20.16,
+          49.58,
+          0.91,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.7788843129913889,
+      "max_other_object_iou": 0.10640963239716614,
+      "crop_xyxy": [
+        0,
+        112,
+        220,
+        348
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000088_00290_v/0000271.jpg",
+      "photo_sha256": "327d163b62f34f5dfcae3fd954d14b7e448c4dfd6d2a539ed55e1d8b0c98fc41",
+      "score": 630.8962935230251
+    },
+    {
+      "sequence": "uav0000088_00290_v",
+      "gt_id": 30,
+      "category": "pedestrian",
+      "start_frame": 284,
+      "end_frame": 284,
+      "run_frames": 1,
+      "solved_frames": 1,
+      "max_predictions": 2,
+      "mean_pair_iou": 0.6412407078481718,
+      "gt_box_at_start": [
+        546.0,
+        170.0,
+        20.0,
+        44.0
+      ],
+      "frame": 284,
+      "target_row": [
+        284.0,
+        30.0,
+        546.0,
+        170.0,
+        20.0,
+        44.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_ids": [
+        80,
+        543
+      ],
+      "leaf_ids": [
+        77
+      ],
+      "native_rows": [
+        [
+          284.0,
+          80.0,
+          550.55,
+          171.5,
+          16.14,
+          39.4,
+          0.79,
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          284.0,
+          543.0,
+          547.83,
+          171.91,
+          15.67,
+          41.89,
+          0.72,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "leaf_rows": [
+        [
+          284.0,
+          77.0,
+          550.55,
+          171.5,
+          16.14,
+          39.4,
+          0.79,
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "minimum_target_iou": 0.6710090323263391,
+      "max_other_object_iou": 0.23401545220648087,
+      "crop_xyxy": [
+        446,
+        74,
+        666,
+        310
+      ],
+      "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000088_00290_v/0000284.jpg",
+      "photo_sha256": "bd067273ca463aff6644098593d671e22e39a88b5dc8cf55d9ac42d0d0800d6b",
+      "score": 590.4879484471784
+    }
+  ],
+  "selection_contract": "Real test-dev outputs: Native two / Ours one, pedestrian class, all target IoUs >= 0.6, other-object IoU < 0.3, same original crop, boxes fully contained. Visual selection checks background text.",
+  "selected_case": {
+    "sequence": "uav0000073_04464_v",
+    "frame": 272,
+    "target_id": 18,
+    "native_ids": [
+      110,
+      289
+    ],
+    "leaf_ids": [
+      92
+    ],
+    "interval": [
+      272,
+      273
+    ],
+    "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000272.jpg",
+    "photo_sha256": "a7c516a03853e3c155347ab25b46498773c8067c7435f2c370603c4f7ef143c1"
+  },
+  "selection_reason": "Frame 272 has clean original plaza background, isolated target, both Native box IoUs above 0.73, and the same verified two-versus-one pattern in frame 273; preferred over the single-frame highest-area candidate.",
+  "additional_selected_target_window_visual_review": "/home/chenhc/src_egia_icme_paper/output/pdf/fig1_pedestrian_replacement_20261007/pedestrian_window_review.png"
+}

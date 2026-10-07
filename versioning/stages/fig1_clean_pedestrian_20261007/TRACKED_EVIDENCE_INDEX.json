@@ -1,0 +1,51 @@
+{
+  "stage": "fig1_clean_pedestrian_20261007",
+  "time_asia_shanghai": "2026-10-07T23:09:28.143292+08:00",
+  "files": [
+    {
+      "path": "continuation_20261007/fig1_pedestrian_replacement/CANDIDATE_AUDIT.json",
+      "bytes": 28315,
+      "sha256": "d5b416db113ead320931d716b7b4f24323c92952846d24a8d2655ade4ee9802a"
+    },
+    {
+      "path": "continuation_20261007/fig1_pedestrian_replacement/FIG1_REPLACEMENT_QA.json",
+      "bytes": 12589,
+      "sha256": "1464d883ccde3adc57595dbd9fb43b2ae062917dfab6b41af1dc3ecdec263b6b"
+    },
+    {
+      "path": "continuation_20261007/fig1_pedestrian_replacement/README.md",
+      "bytes": 2686,
+      "sha256": "dcaeeb8daef6d32e6ca5326cf5290e0e0f19d74703db032c9ef04130a5c65ced"
+    },
+    {
+      "path": "continuation_20261007/fig1_pedestrian_replacement/build_replacement.py",
+      "bytes": 6320,
+      "sha256": "1598656a5500bca8d0deafc3f3340dba03e1ed65a2924423f82261a0f5ec7b53"
+    },
+    {
+      "path": "continuation_20261007/fig1_pedestrian_replacement/figure_case_script.patch",
+      "bytes": 935,
+      "sha256": "3970e7d902cde303f1b985675fded12160b3c272d742de08c63f290628a1480b"
+    },
+    {
+      "path": "continuation_20261007/fig1_pedestrian_replacement/find_replacement.py",
+      "bytes": 5883,
+      "sha256": "60d4f3eaaed815de69e04552c4637c59ec8fa41cc28f78837062037baa325f0a"
+    },
+    {
+      "path": "versioning/stages/fig1_clean_pedestrian_20261007/LOCAL_ARTIFACT_INDEX.json",
+      "bytes": 763,
+      "sha256": "33724dbb871129003dd203856eec7c7c4267aa726e5338d7601af8b79a4f65e0"
+    }
+  ],
+  "excluded_large_text": [],
+  "included_files": [
+    "continuation_20261007/fig1_pedestrian_replacement/CANDIDATE_AUDIT.json",
+    "continuation_20261007/fig1_pedestrian_replacement/FIG1_REPLACEMENT_QA.json",
+    "continuation_20261007/fig1_pedestrian_replacement/README.md",
+    "continuation_20261007/fig1_pedestrian_replacement/build_replacement.py",
+    "continuation_20261007/fig1_pedestrian_replacement/figure_case_script.patch",
+    "continuation_20261007/fig1_pedestrian_replacement/find_replacement.py"
+  ],
+  "self_index_hash_omitted": true
+}

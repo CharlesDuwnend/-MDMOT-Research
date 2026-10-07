@@ -1,0 +1,341 @@
+{
+  "status": "PASS_NEW_FIG1_CASE_INSTALLED_AND_FINAL_PDF_REVIEWED",
+  "new_pedestrian_case": {
+    "key": "pedestrian_redundancy",
+    "title": "(a) Pedestrian",
+    "sequence": "uav0000073_04464_v",
+    "frame": 272,
+    "target_id": 18,
+    "native_ids": [
+      110,
+      289
+    ],
+    "leaf_ids": [
+      92
+    ],
+    "interval": [
+      272,
+      273
+    ],
+    "gt_row": [
+      272.0,
+      18.0,
+      360.0,
+      818.0,
+      56.0,
+      159.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "detail_crop_xyxy": [
+      278,
+      780,
+      498,
+      1016
+    ],
+    "photo": "/raid/datasets/chc_data/VisDrone2019/test_dev/sequences/uav0000073_04464_v/0000272.jpg",
+    "photo_sha256": "a7c516a03853e3c155347ab25b46498773c8067c7435f2c370603c4f7ef143c1",
+    "checks": [
+      {
+        "method": "Native",
+        "predictions": [
+          {
+            "track_id": 110,
+            "raw_row": [
+              272.0,
+              110.0,
+              363.68,
+              817.58,
+              59.06,
+              144.13,
+              0.99,
+              1.0,
+              -1.0,
+              -1.0
+            ],
+            "bbox_xywh": [
+              363.68,
+              817.58,
+              59.06,
+              144.13
+            ],
+            "target_iou": 0.7596842754002748,
+            "max_other_annotated_object_iou": 0.0
+          },
+          {
+            "track_id": 289,
+            "raw_row": [
+              272.0,
+              289.0,
+              361.91,
+              847.97,
+              52.43,
+              125.36,
+              0.92,
+              1.0,
+              -1.0,
+              -1.0
+            ],
+            "bbox_xywh": [
+              361.91,
+              847.97,
+              52.43,
+              125.36
+            ],
+            "target_iou": 0.7381654088050316,
+            "max_other_annotated_object_iou": 0.0
+          }
+        ]
+      },
+      {
+        "method": "LEAF",
+        "predictions": [
+          {
+            "track_id": 92,
+            "raw_row": [
+              272.0,
+              92.0,
+              363.68,
+              817.58,
+              59.06,
+              144.13,
+              0.99,
+              1.0,
+              -1.0,
+              -1.0
+            ],
+            "bbox_xywh": [
+              363.68,
+              817.58,
+              59.06,
+              144.13
+            ],
+            "target_iou": 0.7596842754002748,
+            "max_other_annotated_object_iou": 0.0
+          }
+        ]
+      }
+    ],
+    "continuous_window": [
+      {
+        "frame": 272,
+        "gt_row": [
+          272.0,
+          18.0,
+          360.0,
+          818.0,
+          56.0,
+          159.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "native": [
+          {
+            "id": 110,
+            "iou": 0.7596842754002748,
+            "raw_row": [
+              272.0,
+              110.0,
+              363.68,
+              817.58,
+              59.06,
+              144.13,
+              0.99,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "id": 289,
+            "iou": 0.7381654088050316,
+            "raw_row": [
+              272.0,
+              289.0,
+              361.91,
+              847.97,
+              52.43,
+              125.36,
+              0.92,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          }
+        ],
+        "leaf": [
+          {
+            "id": 92,
+            "iou": 0.7596842754002748,
+            "raw_row": [
+              272.0,
+              92.0,
+              363.68,
+              817.58,
+              59.06,
+              144.13,
+              0.99,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 273,
+        "gt_row": [
+          273.0,
+          18.0,
+          355.0,
+          820.0,
+          56.0,
+          160.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "native": [
+          {
+            "id": 110,
+            "iou": 0.711805059745088,
+            "raw_row": [
+              273.0,
+              110.0,
+              359.75,
+              818.81,
+              59.46,
+              142.76,
+              0.96,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "id": 289,
+            "iou": 0.770374526772609,
+            "raw_row": [
+              273.0,
+              289.0,
+              357.0,
+              841.36,
+              57.27,
+              134.08,
+              0.94,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          }
+        ],
+        "leaf": [
+          {
+            "id": 92,
+            "iou": 0.711805059745088,
+            "raw_row": [
+              273.0,
+              92.0,
+              359.75,
+              818.81,
+              59.46,
+              142.76,
+              0.96,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "input_source_sha256": {
+    "/home/chenhc/online_u2mot_run/YOLOX_outputs/canonical_hierarchical_beta05_egiafusion_a040_selective_m020_online_testdev_20260926_v1/track_res/uav0000073_04464_v.txt": "e7e9bd27f33a5ea5ef528f8adb45e0534e5b3c4695cbcbd17badcfe2f2d98512",
+    "/home/chenhc/visdrone_b8_src_egia_run/YOLOX_outputs/original_u2mot_testdev_factorial_20260820_A00/track_res/uav0000073_04464_v.txt": "8b295cff7131a2b22d056dc824aa64b9718a7e590cc5c5107e85c6eba93d6e9e",
+    "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations/uav0000073_04464_v.txt": "b5da4fdd530ffc2801680014b9cfa71d34293894b97d100a72093bab3b7f79fc"
+  },
+  "photo_sha256": "a7c516a03853e3c155347ab25b46498773c8067c7435f2c370603c4f7ef143c1",
+  "source_script_before_sha256": "2d941695fb332b535a9cc52d10936e2402c6b642523ef1a91ba65073eae93097",
+  "source_script_after_sha256": "5bf9ac1d047cf6b9fed37c635df9a6d217c27f84b9237ef75b791f0038c3f616",
+  "protected_sha256": {
+    "/home/chenhc/src_egia_icme_paper/main.tex": "94fb16a94f8be8b299df4d3fb137b2dd68be790e5b521d7b7b9f18209bd256ea",
+    "/home/chenhc/src_egia_icme_paper/main.pdf": "e72a00c87814050b76174e4888f83ca606cb6deeae372f13282994268fe6bc00",
+    "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v8/src_semantic_response_triptych.pdf": "936f9eca7db0df235b867acf2c200d2001fd964a635104c91d9cbd28d922ab92",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases.pdf": "be03cc18bea0ef7f2742b260b170e1e6cf218d2b47122355bc6da5df9ef8132e",
+    "/home/chenhc/src_egia_icme_paper/figures/qualitative/qualitative_cases.png": "061273b07d3c27573ca639a5c6f4b2ddc76889b6fbc98773d86239762238df1b"
+  },
+  "vehicle_group_pixel_identical": true,
+  "preview_root": "/home/chenhc/src_egia_icme_paper/output/pdf/fig1_pedestrian_replacement_20261007/preview/figures/motivation",
+  "work_root": "/home/chenhc/src_egia_icme_paper/output/pdf/fig1_pedestrian_replacement_20261007",
+  "selected_case_reason": "Original crop shows an isolated pedestrian on a plaza without the previous banner; the displayed Native duplicate boxes both have target IoU above 0.73 and no overlap with another annotated object.",
+  "no_training_inference_or_prediction_rewriting": true,
+  "publication_scope": "Illustrative local output comparison; two adjacent frames verified, without claiming long-duration persistence or module-specific attribution.",
+  "preview_artifact_sha256": {
+    "figure_caption.txt": "eb0d388af1ab8afd4344524c3b08335f7cdd3fbdee04bcc1bf06de9ee02bdfbc",
+    "motivation.pdf": "a0e064576638a1b56368ec8f88309b1696c6ba624916d5d73d41bd16a6e834df",
+    "motivation.png": "ef01c6dcf1429e51a1fd0c02f8fd28d650ba96838f33846afd85a52434ea970a",
+    "motivation_grayscale.png": "43a48f753d6b8aa9d6e06893cc9e88735b990690b2e9ab187e8b7323caab6f6b"
+  },
+  "before_artifact_sha256": {
+    "/home/chenhc/src_egia_icme_paper/scripts/build_paper_case_figures.py": "2d941695fb332b535a9cc52d10936e2402c6b642523ef1a91ba65073eae93097",
+    "/home/chenhc/src_egia_icme_paper/research/figure_case_audit.json": "08495d82ed773803cd855883ee6735ea85141c84ed92ebe8a4ed4679e278776b",
+    "/home/chenhc/src_egia_icme_paper/research/figure_case_audit.md": "ee0cdfdf8d0997958118a1709598fe4d148b45d477856c2efaaf0774c49bd868",
+    "/home/chenhc/src_egia_icme_paper/main.pdf": "e72a00c87814050b76174e4888f83ca606cb6deeae372f13282994268fe6bc00",
+    "/home/chenhc/src_egia_icme_paper/main.tex": "94fb16a94f8be8b299df4d3fb137b2dd68be790e5b521d7b7b9f18209bd256ea",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation.png": "c4bc6ea4cddb0f1c58cf0bcf41d0dc26de7bab048423b4ff1ca3858cc0f457a3",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation_180mm_96dpi_grayscale.png": "c577591bc54722faff85fa55a8f848be05188508aa4d743664684339b3b0e2cc",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation.pdf": "623e3148f581a0ea09a54ce47e6d1920da3b526c88709eba851a37f3d9759c5d",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation_180mm_96dpi.png": "3abd2d720a0e3d973f9198beb4876faac67a49cf2694bdf7f01e8f1ebe932b9d",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/figure_caption.txt": "eb0d388af1ab8afd4344524c3b08335f7cdd3fbdee04bcc1bf06de9ee02bdfbc",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation_grayscale.png": "9169fe6a58f20541052d07473d0e7df81c32b41c2067d87285d3d3e4456c3cb9"
+  },
+  "installed_figure_sha256": "a0e064576638a1b56368ec8f88309b1696c6ba624916d5d73d41bd16a6e834df",
+  "installed_figure_path": "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation.pdf",
+  "script_patch_path": "/home/chenhc/claude_try_MDMOT/continuation_20261007/fig1_pedestrian_replacement/figure_case_script.patch",
+  "visual_review": {
+    "clean_crop_without_previous_banner": "PASS_MANUAL_VISUAL_INSPECTION",
+    "same_raw_source_pixels_for_native_and_ours": "PASS",
+    "color_and_grayscale_figure": "PASS",
+    "manuscript_page_2": "PASS"
+  },
+  "figure_pdf_words_outside_canvas": [],
+  "figure_pdf_size_pt": [
+    510.2362,
+    176.0
+  ],
+  "figure_pdf_word_count": 18,
+  "figure_fonts_embedded": true,
+  "final_pdf_path": "/home/chenhc/src_egia_icme_paper/main.pdf",
+  "final_pdf_sha256": "345a8ef9b98955080ce64ae2dd631f7f538970e63960ce91fe81fda6416633fb",
+  "final_pdf_page_count": 9,
+  "final_fig1_number": 1,
+  "final_fig1_page": 2,
+  "fig4_number": 4,
+  "fig4_page": 5,
+  "fig4_page_pixel_identical_to_approved_v8": true,
+  "non_fig1_pages_text_identical": true,
+  "latex_build_passes": 2,
+  "unresolved_references_or_citations": false,
+  "overfull_boxes": 0,
+  "final_artifact_sha256": {
+    "/home/chenhc/src_egia_icme_paper/main.tex": "94fb16a94f8be8b299df4d3fb137b2dd68be790e5b521d7b7b9f18209bd256ea",
+    "/home/chenhc/src_egia_icme_paper/main.pdf": "345a8ef9b98955080ce64ae2dd631f7f538970e63960ce91fe81fda6416633fb",
+    "/home/chenhc/src_egia_icme_paper/scripts/build_paper_case_figures.py": "5bf9ac1d047cf6b9fed37c635df9a6d217c27f84b9237ef75b791f0038c3f616",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation.pdf": "a0e064576638a1b56368ec8f88309b1696c6ba624916d5d73d41bd16a6e834df",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation.png": "ef01c6dcf1429e51a1fd0c02f8fd28d650ba96838f33846afd85a52434ea970a",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation_grayscale.png": "43a48f753d6b8aa9d6e06893cc9e88735b990690b2e9ab187e8b7323caab6f6b",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation_180mm_96dpi.png": "a8f088ccdd92ddad6548fec41c945ae37917f256b92686d2bf876bd185a2bab4",
+    "/home/chenhc/src_egia_icme_paper/figures/motivation/motivation_180mm_96dpi_grayscale.png": "59a744f4e1c88c318f9b443e81801a808d08b35f80c36e1fdff1060f88bd7f0a",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/fig1_pedestrian_replacement_20261007/page_2_review.png": "30adaab158c1402b78423a1b2509338718e77e070bf78a54a36fedf48d7cf6c2",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/fig1_pedestrian_replacement_20261007/page_5_review.png": "1830342df24cad0f8afd5d00600f6cd061ab4a590d1700b290b2fd8fb22c7a1f",
+    "/home/chenhc/src_egia_icme_paper/research/figure_case_audit.json": "b3de1acc285df0e84fa1e7be0a123b9e9f92a183ea8707d2f1d7334eb80a644d"
+  },
+  "prior_fig4_manuscript_qa": "/home/chenhc/claude_try_MDMOT/continuation_20261007/src_mechanism_v8_paper_replacement/PAPER_REPLACEMENT_QA.json",
+  "prior_fig4_remote_main_verified_before_this_phase": "bab7de6d6c7814d12788d24cfff3ae1ccbdfb607"
+}

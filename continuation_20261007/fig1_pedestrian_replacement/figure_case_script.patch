@@ -1,0 +1,11 @@
+--- scripts/build_paper_case_figures.py.before
++++ scripts/build_paper_case_figures.py
+@@ -174,7 +174,7 @@
+ def motivation():
+     dest=ROOT/'figures/motivation';audit=json.loads(AUDIT.read_text());sources={z['path']:z['sha256'] for z in audit['sources']}
+     cases=[
+-      dict(key='pedestrian_redundancy',title='(a) Pedestrian',sequence='uav0000297_02761_v',frame=256,target_id=40,native_ids=[167,232],leaf_ids=[118],interval=[248,264]),
++      dict(key='pedestrian_redundancy',title='(a) Pedestrian',sequence='uav0000073_04464_v',frame=272,target_id=18,native_ids=[110,289],leaf_ids=[92],interval=[272,273]),
+       dict(key='vehicle_redundancy',title='(b) Vehicle',sequence='uav0000355_00001_v',frame=89,target_id=11,native_ids=[50,58],leaf_ids=[30],interval=[78,100])]
+     assert {z['sequence'] for z in cases}.isdisjoint(z['sequence'] for z in audit['qualitative_cases'])
+     page_w=180*72/25.4;page_h=176;gap=5;group_gap=17

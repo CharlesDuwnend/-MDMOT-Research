@@ -1,0 +1,13 @@
+# Figure 1 pedestrian replacement
+
+The user requested a different pedestrian example because the previous crop contained prominent Chinese political text. The final figure uses an unretouched original plaza crop from VisDrone test-dev `uav0000073_04464_v`, frame 272, target 18. Both method panels use the same source pixels. Native displays original IDs 110 and 289; Ours displays ID 92.
+
+Displayed target IoUs are 0.760 and 0.738 for Native, and 0.760 for Ours. All displayed predictions have zero IoU with other annotated objects. Frames 272 and 273 are independently checked for the same two-versus-one output pattern. This is a local illustration, with no claim of long-duration persistence, module-specific attribution, or new benchmark performance.
+
+Search considered 265 existing pedestrian duplicate runs outside both `uav0000297_*` clips and the two qualitative-example sequences. A total of 83 frames passed the Native-two/Ours-one, class, containment, target-IoU and neighbor-overlap checks; twelve distinct target alternatives were visually reviewed. Input streams are verified against the evaluated Native/current LEAF receipts. No inference, fitting or prediction rewriting occurs. The selected crop and final manuscript page 2 were inspected for the unwanted text and for clear boxes/labels.
+
+The original rendering function is reused with one case-line replacement. The vehicle half of Figure 1 remains pixel-identical. `figure_case_script.patch` records the exact source change. `find_replacement.py` records the selection procedure; `build_replacement.py` records preview generation, validation, backup and installation. Its install step requires the original pre-replacement case line and therefore deliberately refuses accidental repeated installation; normal regeneration uses the updated paper script.
+
+Final manuscript: `/home/chenhc/src_egia_icme_paper/main.pdf`, nine pages, Figure 1 on page 2. The previously accepted SRC mechanism remains Figure 4 on page 5; its rendered page is pixel-identical to the approved manuscript version. All other PDF pages have identical extracted text. Both figures and their paper references are verified in the final PDF, and all fonts are embedded. No unresolved citations/references or overfull boxes occur.
+
+Before-state backups, reviewed candidate sheets, preview figures, build logs and paper page renders are under `/home/chenhc/src_egia_icme_paper/output/pdf/fig1_pedestrian_replacement_20261007/`. Source and compact evidence are archived in Git; large image/PDF assets and original prediction streams remain local. The existing five P63 staged changes are preserved with an isolated Git index for the phase snapshot.
