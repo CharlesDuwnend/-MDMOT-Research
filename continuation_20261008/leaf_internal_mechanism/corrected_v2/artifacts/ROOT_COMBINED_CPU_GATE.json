@@ -1,0 +1,39 @@
+{
+  "status": "PASS_CURRENT_HOST_47_CPU_AND_ENVIRONMENT_PROVIDER_AUDIT",
+  "at": "2026-10-08T01:25:48.956165",
+  "tests_passed": 47,
+  "tests_failed": 0,
+  "initial_combined_attempt": {
+    "explicit_host_environment": false,
+    "tests_passed": 17,
+    "tests_failed": 30,
+    "cause": "BELIEF_HOST missing before module collection selected leaf_joint_consequence_20260922/host, not production host",
+    "default_provider_sha256": "512a9e6394e9de4e015b95160f9640e3145263677ea1fa344720c516eee8121e"
+  },
+  "three_rounds_three_checks": [
+    [
+      "read actual HOST default source",
+      "inspect actual default provider path and SHA",
+      "compare canonical provider SHA and identify mismatch"
+    ],
+    [
+      "repeat full 47 contracts with production environment",
+      "inspect actual configured provider path and SHA",
+      "verify configured provider bytes equal immutable host"
+    ],
+    [
+      "9 actual reference provider and whole-seam contracts in combined run",
+      "verify runner sets BELIEF_HOST and UAVDT_ONLINE_HOST before subprocess imports",
+      "preserve terminal v1 failure and protect original source/models/paper"
+    ]
+  ],
+  "environment": {
+    "BELIEF_HOST": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host",
+    "UAVDT_ONLINE_HOST": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "actual_provider_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/u2mot_tracker.py",
+  "actual_provider_sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6",
+  "log_sha256": "499385ee1d1813ca990646f0954b3804a20e7087de1b8c80dbf858eb71db4632",
+  "new_formal_MOT_scores": 0
+}

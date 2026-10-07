@@ -1,0 +1,7 @@
+# Current-paper internal mechanism addendum (2026-10-08)
+
+The user authorized a gap plan and actual internal mechanism scoring. Preserve canonical code, frozen models, datasets, P26 and all historical outputs. Work only in this fresh root and the scoped evidence folder in the shared research repository. Root owns GPU launches. Never use physical GPU2 or a 4GB device. Pin an eligible physical UUID and record same-process hardware verification.
+
+First phase: inference-only cost mask/penalty factorial and the missing fusion-on/selective-off cell, under frozen current F00 heads. No threshold sweep or test-dev selection. Second phase: only the predeclared flat-versus-hierarchical EGIA head comparison may refit the existing small head on the same fit/calibration data; no detector/ReID retraining. Formal benchmark results require complete predictions, scoring, provenance and mechanism contracts. Report zero/negative results. Failed contracts require three audit rounds with three independent checks per round, and must not be reported as method evidence.
+
+The corrected metadata amendment in PROTOCOL.md takes precedence for this isolated v2. Nine shared-runtime cells include fresh fusion-off controls. Before importing runtime in CPU commands, explicitly set BELIEF_HOST and UAVDT_ONLINE_HOST to this root/host; the historical default selects a different host. Identity tests, reference tests and smoke are separate validity checks, and original prediction parity is diagnostic after identity correction. No production edits after manifest sealing.

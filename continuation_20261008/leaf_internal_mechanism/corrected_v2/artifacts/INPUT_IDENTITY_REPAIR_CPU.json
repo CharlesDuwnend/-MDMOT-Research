@@ -1,0 +1,171 @@
+{
+  "context_contract": {
+    "fc_full_fusion_on_allowed": true,
+    "fc_full_non_pure_v5_fusion_off_rejected": true,
+    "fc_full_pure_v5_fusion_off_allowed": true,
+    "full_fusion_on_off_assignment_costs_and_responsibility_inputs_equal_on_same_synthetic_state": true,
+    "legacy_teacher_loading": "Existing pure-v5 fusion-off branch, no new source-model or policy behavior",
+    "other_three_factorial_cells_fusion_off_rejected": true
+  },
+  "existing_cpu_contracts": {
+    "exit_code": 0,
+    "files": [
+      "tests/test_cost_factors.py",
+      "tests/test_operator_audit.py",
+      "tests/test_egia_modes.py",
+      "tests/test_paired_anchor_contract.py"
+    ],
+    "fixture_changes": "Only realistic detection identity fields and matching observation rows; unchanged original operator assertions. Added permitted pure-v5 full-cell context and equal cost/reference features subchecks.",
+    "matrix_operator_tests_reference_oracle_patched_to_None": true,
+    "output": ".............................                                            [100%]\n29 passed in 5.94s\n",
+    "tests_run": 29
+  },
+  "final_owned_source_editing_stopped": true,
+  "formal_online_pass_or_effectiveness_claim": false,
+  "frozen_by_this_agent": false,
+  "input_identity_contract": {
+    "birth_and_direct_record_protection": true,
+    "cached_object_id_checked": true,
+    "comparison": "finite, exact immutable coordinate equality and exact lossless scalar equality",
+    "detection_fields": [
+      "det._tlwh",
+      "det.cls",
+      "det.score",
+      "det.semantic_score"
+    ],
+    "distinct_ids_cannot_share_ordinal": true,
+    "exact_all_metadata_duplicates": "minimum unused original ordinal, deterministic",
+    "fields": [
+      "bbox_tlwh",
+      "predicted_class",
+      "raw_objectness",
+      "class_confidence"
+    ],
+    "unresolved_identity": "AssertionError; no geometry-only or arbitrary fallback"
+  },
+  "legacy_fixture_check": {
+    "classification": "Inherited optional matching API fixture incompatible with canonical host, fails entering mock before runtime execution",
+    "error": "AttributeError: matching has no attribute continuous_human_vehicle_semantic_cost; old patch.object does not use create=True",
+    "exit_code": 1,
+    "failed": 1,
+    "file": "tests/test_internal_path_contract.py",
+    "identity_fields_enriched": true,
+    "not_counted_as_new_identity_or_factorial_failure_or_pass": true,
+    "passed": 4
+  },
+  "metadata_contracts": {
+    "command": "/home/chenhc/.conda/envs/u2mot/bin/python -m pytest -q -p no:cacheprovider tests/test_input_identity.py",
+    "exit_code": 0,
+    "output": ".........                                                                [100%]\n9 passed in 4.63s\n",
+    "reference_gate_validated_here": false,
+    "reference_oracle_patched_to_None": true,
+    "tests_run": 9,
+    "three_rounds_each_three_actual_tests": [
+      "test_round1_1_cross_class_same_box_high_low_raw_order",
+      "test_round1_2_same_class_scores_confidences_and_threshold_boundary",
+      "test_round1_3_exact_metadata_duplicates_are_deterministic_unused_ordinals",
+      "test_round2_1_cached_identity_is_checked_by_seam_and_record",
+      "test_round2_2_unresolved_identity_has_no_geometry_or_arbitrary_fallback",
+      "test_round2_3_bijection_reused_seam_and_online_frame_reset",
+      "test_round3_1_real_online_birth_source_and_postcommit_memory",
+      "test_round3_2_all_factorial_cells_keep_hashes_and_native_control",
+      "test_round3_3_nine_byte_verified_real_frames_all_detection_records"
+    ]
+  },
+  "online_source_unchanged_from_v1": true,
+  "protected_v1_hashes_unchanged": true,
+  "protected_v1_source_sha256": {
+    "belief/online.py": "67c97ea1128b8ac0fbfcc50331e831b2f555c010cb2f974f96c757b12e28dbe0",
+    "belief/runtime.py": "f2aebe07daf9a65ae5a771a8574e8962ea5b7edcafca5fc8b422fb8ffba5f12f",
+    "tests/test_cost_factors.py": "dd0ef5a77f2a2b79b32ee847c13e873206acdbf57573e011b0f28d8af3261a36",
+    "tools/capture_belief_evidence.py": "d4aa6c0c85ca579c02c90e311f194e2ebc1f6b7b47ce0a1eeb91dcf32dd0cbeb"
+  },
+  "real_frame_identity_recheck": {
+    "actual_frozen_embedding_stream_or_head_probabilities_replayed": false,
+    "actual_online_and_host_high_low_residual_seams_used": true,
+    "all_track_low_threshold_eligible_detection_records_checked": true,
+    "dummy_embeddings_and_small_heads": true,
+    "frames_checked": 9,
+    "original_audit_path": "/home/chenhc/leaf_internal_mechanism_20261008_v1/review/DETECTION_ORDINAL_AMBIGUITY_AUDIT_20261008.json",
+    "original_audit_sha256": "e9d895097b4e0d1ffda63becd3bedc0daba878f8362021682ccafe16ab827ce3",
+    "previously_demonstrated_wrong_metadata_detections": 18,
+    "real_frames": [
+      {
+        "detector_SHA256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+        "frame": 186,
+        "sequence": "uav0000073_00600_v"
+      },
+      {
+        "detector_SHA256": "af9f22140a6971f9b1a8710ad9247238a0402042526980222274df7ffb21556a",
+        "frame": 42,
+        "sequence": "uav0000073_04464_v"
+      },
+      {
+        "detector_SHA256": "2652487f6f12fd58880eb307d00066ca0343cccffaf9ec8c24248d709d9ae729",
+        "frame": 189,
+        "sequence": "uav0000077_00720_v"
+      },
+      {
+        "detector_SHA256": "08a1fb612fa4ff86d0bbe913f1a87cea5f873120ec7fa7e62f2121436d3a162a",
+        "frame": 200,
+        "sequence": "uav0000077_00720_v"
+      },
+      {
+        "detector_SHA256": "1ead83db39c1f9fbb0ee00d6d3f6a64cde0d01268da9217a5fb12dc037cb5040",
+        "frame": 18,
+        "sequence": "uav0000088_00290_v"
+      },
+      {
+        "detector_SHA256": "722060923dbe4489ebcc5114e81ba73e56c92adf449a65e98e91f5d05d4b54c2",
+        "frame": 74,
+        "sequence": "uav0000088_00290_v"
+      },
+      {
+        "detector_SHA256": "78180d1fba6fe22d0c9b30362d3e46351b23b73408503ee42255c902b6eb376a",
+        "frame": 124,
+        "sequence": "uav0000088_00290_v"
+      },
+      {
+        "detector_SHA256": "debe904bdfed83f01660aa2cbcce149bd9ee928c0df0cb99e8614d60b7b260a3",
+        "frame": 175,
+        "sequence": "uav0000088_00290_v"
+      },
+      {
+        "detector_SHA256": "113232be226ffc179fae09e82128b7e631b2621bf14367062d7300f682009753",
+        "frame": 178,
+        "sequence": "uav0000119_02301_v"
+      }
+    ],
+    "reconstructed_detector_sha_matches_each_original_input": true,
+    "trajectory_or_MOT_effect_computed": false,
+    "v2_wrong_metadata_detections": 0
+  },
+  "reference_oracle_hooks": {
+    "cells": "mask equals penalty: C11, C00 and permitted pure-v5 fc_full; empty and nonempty seams",
+    "hook_after": "after all pending updates appended, before return",
+    "hook_before": "after flush/stage advance and correct ordinal resolution; before probability/assignment calls",
+    "module_owned_by_parent": "belief/reference_oracle.py",
+    "reference_source_hash_observed_only_not_validated": "fc746cf4907ee4a47c1b44dd2d29a4924f0cd1a6642b5040b2a1a41b308818a3",
+    "verified_in_this_receipt": false
+  },
+  "scope": "Isolated v2 source repair and independent CPU contracts; no GPU inference, training, tracking-score evaluation, freeze, or v1 frozen-file changes",
+  "source_sha256": {
+    "belief/online.py": "67c97ea1128b8ac0fbfcc50331e831b2f555c010cb2f974f96c757b12e28dbe0",
+    "belief/reference_oracle.py": "fc746cf4907ee4a47c1b44dd2d29a4924f0cd1a6642b5040b2a1a41b308818a3",
+    "belief/runtime.py": "c9c45a934f1474c95809562559a6bcbbe1f96c80cd6c965de066bc2fb8a16e5b",
+    "tests/test_cost_factors.py": "c8a8608c0a7b878e7f967c4bce381e03afc527f8b8f76bfa20b44eb5159cb530",
+    "tests/test_input_identity.py": "f23e23d78fff29f29aa5f8367e1ac31f8a18fd0c9e72a9050ad9c711b83e470a",
+    "tests/test_internal_path_contract.py": "1c7be286e61dbafa79a5f1d1a1416a2e60047998f04ac1e997b1f3ceb6f65c8d",
+    "tools/capture_belief_evidence.py": "e0ca29499d1e3d6f3a602b1429f0603275d19818933648aedbe56696e6e288f3"
+  },
+  "status": "CPU_INPUT_IDENTITY_REPAIR_GATE_PASS",
+  "utc": "2026-10-07T17:09:03.418656+00:00",
+  "v2_original_model_sha256": {
+    "F00_full.pkl": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+    "FusionOn_NoSelective.pkl": "e58043b014e851b84440851449c5a52e10bf29af900428e56b2567445f72511c",
+    "Paired_Flat.pkl": "1d1435a22ef953824aff5b00770df543e4d7129d4ffec52d40000eaf667952e5",
+    "Paired_Hierarchical.pkl": "ea9398d740472d45ee51dc5052624427c38d7e8948c98f573bbf103bbbe394f8",
+    "summary_frozen.pkl": "aa48c972a3ddbe4c5e4b82c5f2a64f9032978d7c15a863a5a3caefe67ac04ce8"
+  },
+  "v2_original_models_byte_identical_to_v1": true
+}
