@@ -1,0 +1,45 @@
+--- main.tex.before
++++ main.tex
+@@ -279,29 +279,22 @@
+ 
+ \begin{figure*}[t]
+ \centering
+-\includegraphics[width=\textwidth]{semantic_analysis/semantic_analysis.pdf}
+-\caption{Analytic responses of the semantic-belief operators under
+-specified illustrative inputs. (a) Match reliability controls how a
+-committed observation updates the belief; prior-like evidence preserves
+-the previous belief. (b) Given pre-assignment beliefs, contradictory
+-observations increase semantic disagreement while compatible observations
+-have zero penalty. (c) Semantic modulation changes the assignment in the
+-same host-cost example; boxes mark minimum-cost assignments under an
+-illustrative eligibility threshold of 0.80. These are equation-based
+-examples, not dataset measurements. Reliability controls the post-match
+-update; disagreement controls the candidate cost. The entries listed in (c)
+-are per-track scalar values, not a probability vector.}
++\includegraphics[width=\textwidth]{src_assignment_mechanism_v8/src_semantic_response_triptych.pdf}
++\caption{SRC mechanism. (a) Illustrative five-class track and detection evidence; the implementation aggregates evidence into human and vehicle groups. (b) Analytic responses of Eq.~\eqref{eq:penalty} with $\pi(H)=0.332$. Dark curves represent certain H/V beliefs; faint curves move those beliefs halfway toward the prior. Prior-like belief yields zero penalty. Circles locate the conflicting real-case pairs from (c). (c) The same closed calibration candidate component before and after cost refinement, on a shared $[0,1]$ scale. Solid and dashed boxes mark selected same-owner and different-owner pairs; crosses mark costs above the unchanged threshold of $0.80$. Two tied base optima become one unique compatible optimum.}
+ \label{fig:semantic_analysis}
+ \end{figure*}
+ 
+-Fig.~\ref{fig:semantic_analysis} shows three complementary responses. In (a), low match
+-reliability limits the effect of contradictory class evidence on memory.
+-In (b), the given track belief and observation jointly determine whether
+-semantic evidence conflicts: compatible evidence and neutral beliefs
+-incur zero penalty. In (c), this disagreement changes the illustrative
+-assignment by increasing incompatible costs while preserving compatible
+-costs. The update occurs after a committed match, whereas disagreement and
+-cost modulation use the beliefs available before assignment.
++Fig.~\ref{fig:semantic_analysis} connects stored semantic evidence to candidate
++cost refinement. Panel (a) illustrates how historical track evidence can
++differ from an incoming detection; SRC aggregates this evidence into human
++and vehicle groups. In (b), disagreement increases as the observation
++contradicts the pre-assignment belief. Weaker beliefs incur smaller
++penalties, while a prior-like belief is neutral. In the real calibration
++component of (c), refinement raises the conflicting cross-owner costs above
++the unchanged host threshold, resolving two tied base assignments into a
++unique same-owner assignment. Reliability updates memory after a committed
++match; disagreement and cost modulation use the beliefs available before
++assignment.
+ 
+ \subsection{Foreground and Coverage Factorization}
+ \label{sec:hierarchy}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS_PAPER_FIG4_REPLACED_BUILT_AND_VISUALLY_REVIEWED",
+  "paper_root": "/home/chenhc/src_egia_icme_paper",
+  "work_root": "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007",
+  "original_tex_sha256": "da2f49d09aba2b5dd6876a3e1e88482ab1165c0b6d01adecaf7fecf965553f8e",
+  "original_pdf_sha256": "c9f18b573fd13ba99de0d80497cc290f1bd2f835a76a096f17eba9ebe26be6f1",
+  "updated_tex_sha256": "94fb16a94f8be8b299df4d3fb137b2dd68be790e5b521d7b7b9f18209bd256ea",
+  "accepted_figure_path": "/home/chenhc/src_egia_icme_paper/figures/src_assignment_mechanism_v8/src_semantic_response_triptych.pdf",
+  "accepted_figure_sha256": "936f9eca7db0df235b867acf2c200d2001fd964a635104c91d9cbd28d922ab92",
+  "accepted_figure_qa_sha256": "89649da46c13a92b9f0bde4321b88dc0054c468c3abc43c5104640ecd523f275",
+  "figure_label": "fig:semantic_analysis",
+  "expected_figure_number": 4,
+  "caption_source": "/home/chenhc/claude_try_MDMOT/continuation_20261007/src_mechanism_v8/FIGURE_CAPTION.tex",
+  "backup_path": "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007/before",
+  "scope": [
+    "figure include path",
+    "matching caption",
+    "immediately following interpretation paragraph"
+  ],
+  "other_paper_sections_preserved": true,
+  "final_pdf_sha256": "e72a00c87814050b76174e4888f83ca606cb6deeae372f13282994268fe6bc00",
+  "final_pdf_path": "/home/chenhc/src_egia_icme_paper/main.pdf",
+  "final_tex_path": "/home/chenhc/src_egia_icme_paper/main.tex",
+  "final_pdf_pages": 9,
+  "final_figure_number": 4,
+  "final_figure_page": 5,
+  "latex_and_bibtex_build": "PASS",
+  "unresolved_references": false,
+  "unresolved_citations": false,
+  "overfull_boxes": 0,
+  "underfull_vboxes": {
+    "before": 2,
+    "after": 2,
+    "locations": "existing full-width figure float pages 3 and 7"
+  },
+  "all_pdf_fonts_embedded": true,
+  "pdf_font_count": 29,
+  "visual_review": {
+    "figure_page_5": "PASS",
+    "neighbor_pages_4_and_6": "PASS",
+    "nine_page_contact_sheet": "PASS"
+  },
+  "asset_sha256": {
+    "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007/build/main.pdf": "e72a00c87814050b76174e4888f83ca606cb6deeae372f13282994268fe6bc00",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007/build/main.aux": "2ca5416497592384a5a4d89b3412de1e48f8ba7efba4ef4ccf3439477f8dba59",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007/build/main.bbl": "114d8f5df8bd5b3d2f3a3aaa600188dea542acd4de77cccce5dec75d63881fe3",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007/build/main.log": "19334e3dd0759dab1c68c8a7a1040ea348575d1a0d17aeaa920bd525a2f93e85",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007/paper_contact_sheet.png": "2c2d8c89681b350a55505d132bccf46bce6509ac5c622dbfe74d1c69592b4597",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007/review/detail-4.png": "76d394605d87dd1f4d854ff43a2360b130fc696ac1018f2f8c1e03888ef2038d",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007/review/detail-5.png": "1830342df24cad0f8afd5d00600f6cd061ab4a590d1700b290b2fd8fb22c7a1f",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/src_mechanism_v8_replacement_20261007/review/detail-6.png": "69fdb06b239e0c7abd5115fc37b2b9b6a361beca8a6bd50fdfa36fc5420af119"
+  },
+  "build_note": "BibTeX invoked inside build directory with paper search paths, respecting openout_any=p."
+}
