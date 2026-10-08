@@ -1,0 +1,1461 @@
+{
+  "status": "PARTIAL_PROTOCOL_AUDIT_NINE_ENGINEERING_SMOKES_VERIFIED_FULL_BENCHMARK_UNVERIFIED",
+  "observed_utc": "2026-10-07T17:38:52.576636+00:00",
+  "scope": "All nine completed 200-frame smoke arms; independent actual-file hash and input-ledger verification. Formal benchmark scope remains partial: no 17-sequence scores are established by this audit. No GPU, source mutation or evaluation.",
+  "root": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata",
+  "manifest_sha256": "071e1bfa2530ef9b7f79884c3264f5969b19db2f842903732e509d7fa81c965b",
+  "frozen_source_artifacts_rehashed": 210,
+  "frozen_source_checks": [
+    {
+      "path": "/home/chenhc/20250715/u2mot/visdrone.pth.tar",
+      "sha256": "8cb39ca273dbe620a8551a247b72865ad4f870225351d0937e306980c594c939"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/AGENTS.md",
+      "sha256": "3c9497f4b7adbb4580414bb78598e8c8a2232a1c13114cfb8f305b0a39283294"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/PHASE2_HEAD_PREREGISTRATION.json",
+      "sha256": "16850f7ac1d9e5844299a3e864425fd7353419d8cde1ea245184bbda8ee751fe"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/PROTOCOL.md",
+      "sha256": "c65adf029d6c1b86cf0e92bfa45dd2a5b69f8bdd24ccd0146832e07dbeba5575"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/PROTOCOL_AMENDMENT.json",
+      "sha256": "c970d7f99f7153d9df1e3dc6d8f525e4df28bde541a1531ff7d689ae95baa560"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/analyze_completed.py",
+      "sha256": "cddb4d9f1fd9b4aa67ce2d1723fc0a312590f7f6b83787a67110f3dcf6b7ba06"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/analyze_mechanisms.py",
+      "sha256": "e6c1542ffcf2c27125037d46904676cc9dc92b9e7730997d88e9f6e8baf7540e"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "sha256": "440293b64ef8bf898cf001a36201d6cb8c5a6a0219d5852c9c0789f65b5c9031"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/INPUT_IDENTITY_REPAIR_CPU.json",
+      "sha256": "ffbe424065ee35f270b6855b9f5b32a9444b4499dee5d93e94459a023fa05b27"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/PHASE2_HEAD_TRAIN_RECEIPT.json",
+      "sha256": "ad3cd772895568b1eaff1cc5d5768ed29e2eb1d5960d613d50a280641960e58c"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/ROOT_COMBINED_CPU_GATE.json",
+      "sha256": "6807597b779ec24c9deda3646573a1ed7f5da74867e3bba7f66e7fa874a9f80e"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/ROOT_COMBINED_CPU_GATE.log",
+      "sha256": "499385ee1d1813ca990646f0954b3804a20e7087de1b8c80dbf858eb71db4632"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/__init__.py",
+      "sha256": "c80004c539a4e9e94865c34e9e5c8754c908159474339ea45f12220cb6975714"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/association.py",
+      "sha256": "eaf02153ad348a1c8e19ab389e891c8eaf15bbc430e2d24d1ba40cd93f76248e"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/coherence.py",
+      "sha256": "47d17972d064ddfb7dc6c0cd3e6d8165b93259dc9276216fb66c4525474c36c4"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/features.py",
+      "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/hierarchical.py",
+      "sha256": "822df95298fab8dd7d2f9dd409cefbf886d5198d3226451d3565fe70166acab3"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/models.py",
+      "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/online.py",
+      "sha256": "67c97ea1128b8ac0fbfcc50331e831b2f555c010cb2f974f96c757b12e28dbe0"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/reference_oracle.py",
+      "sha256": "fc746cf4907ee4a47c1b44dd2d29a4924f0cd1a6642b5040b2a1a41b308818a3"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/runtime.py",
+      "sha256": "c9c45a934f1474c95809562559a6bcbbe1f96c80cd6c965de066bc2fb8a16e5b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/default/nano.py",
+      "sha256": "80565a14257cab12bcc64dae17f4a74acf10b41afe7b63e47c2cb5ad7a844cf0"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/default/yolov3.py",
+      "sha256": "ff695bcb42950d007f7e358850a15a991a69ac3be31cc6f587d9b7ac54801c3e"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/default/yolox_l.py",
+      "sha256": "419000efe9ee9b7a6dd5f4c2374b790b1d67d727264eb1df252c6138ce7cf322"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/default/yolox_m.py",
+      "sha256": "2ce0921be3652f6dfc9836148846f4763be5e661641c2e897cd8c78e8e4ebb38"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/default/yolox_s.py",
+      "sha256": "f184ccc218142ef8a65edade911f45235c3330dae7f874a8593e9e6877bb9549"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/default/yolox_tiny.py",
+      "sha256": "dac6ae0d1b45a68eca71a76340cba1087bfd632a66c46771116899b6b9082977"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/default/yolox_x.py",
+      "sha256": "f03bfc123de79517d948a72d3c279cb71f6b719b7a2010d89cdd2260701ae45b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_l_mix_det.py",
+      "sha256": "e93405f82fdaa645c1c7d5a5087bc1f76efc7e378f56e6163b7107e441c05aa6"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_m_mix_det.py",
+      "sha256": "d104d3256fb98c65be8d849680c13bd6af43a49c7507a6b12409065e3cd73464"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_nano_mix_det.py",
+      "sha256": "b96b1fcd17fb947af77706c72278cb8cfd16c8860c33740ab4a4ce79c5c4fa34"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_s_mix_det.py",
+      "sha256": "5859f4427de09e2066abf7af2bf7885bba81297254de89817752e4a1b90a3d8c"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_s_mot17_half.py",
+      "sha256": "1d79fdf539202766929c51b9a121c9798ae17a044747fd43b110bf08e8dc8feb"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_tiny_mix_det.py",
+      "sha256": "8944caf7a6aca7cd1ac6a453061c618d6feec14f4c4c8bbb86ce753ec25288bc"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_x_ablation.py",
+      "sha256": "f0ff17863ae2ff96dda6fc461ddad100d939351d1c976d56a73c1948ef422372"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_x_ch.py",
+      "sha256": "794592d90a3667f12e9b682a000e2ad9e2e1ad90ef7a2b77491bc37efc1c2149"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_x_mix_det.py",
+      "sha256": "df2b15e67fa5a0c3d3f01bfc78be20f0d3201ae561c42b53f07b63e79c9f8786"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_x_mix_mot20_ch.py",
+      "sha256": "6cb2af7856011adfab222cc376d77ca66e6388ebe4c48cc6ece48872233aaf27"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/mot/yolox_x_mot17_half.py",
+      "sha256": "949531fcc95e550ba9ea69217842756f32653e9e742dd38c7cb89e4c2cfcebee"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_ablation_u2mot17.py",
+      "sha256": "5be9cf9538d71c5132e5f879df1f54058ccc1d4fce69ed46737391aaf080c2c4"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_mix_u2mot17.py",
+      "sha256": "20d070b5041c8149b07576fc8c9fb7f73549a96656b649a734998fc7bead78f0"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_mix_u2mot20.py",
+      "sha256": "8e9069c1fff597747b5af47e08a58eb4cdfeee28fd89c21a2b964442c4c2b6ec"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_strongsort_visdrone_det_2gpu.py",
+      "sha256": "9d402708b0ad5efa068daa8d73be903b8d4ac413c60e8a9091847b0951a47f60"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_bdd100k.py",
+      "sha256": "3bc414903a65d181428e7985dad441ad22b61f5f15304ea9178058d38281a40a"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_uavdt.py",
+      "sha256": "9602e40c4fbfceecd2db24770ce8b1f6031e94eeb8a94aab50d60fd8ef2a6cab"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone.py",
+      "sha256": "a7f017c40e19c273fa0502e398b7bc80000bc58668a8e45adf6291831ce06305"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b0.py",
+      "sha256": "dc1a25c69a5464f0ec9aadd1639712f0c1d8562d8f89bbe32729bec1df3aabe9"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b1_public_tail.py",
+      "sha256": "cddc5a8fa9c352e29c397e75eb328dfc4684440843b22837a5bed769b535a3d1"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b2_public_tail_hires.py",
+      "sha256": "590543802e753186feb7a44800a45b3f2034e65bfb730179d3dca498283f2652"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b2_public_tail_hires_bs4.py",
+      "sha256": "e23eeb6c35dd4bddf6ed9f788b7bb20debc18f1f040fb233b92a7b83c1c04b6d"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b3_public_tail_detmix.py",
+      "sha256": "a5a57ea6ff6cb00c08b0360160edbdbeae94cf00b6936f8f59dc9472555741ec"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b4_posobj_tail.py",
+      "sha256": "528518629f543ca0a2c36a1cc1c93f973d9ef87c0bca488bb5bd2543323c9e5e"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b5_smallobj_tail.py",
+      "sha256": "3cff9f26cf3372060660877daf77ea25690770eb2c2e4b2ff3125fd06acd0357"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b6_smallobj_epoch42.py",
+      "sha256": "cda157bc6741ffe48cc8a0c7be3766027d192cbf35cf9795ffa8a0f847567561"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b7_sacr_adapter.py",
+      "sha256": "b0cbf139ec2e86714d135e8e46b9a221364e82a51d172278b7ac48943c4844c1"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b8_sacr_foreground.py",
+      "sha256": "3480645ba9e4255bfcf6cba53e75e40d47f6c010aa8626f8948a3a2d909df356"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_b9_sacr_foreground_epoch1.py",
+      "sha256": "4ca3b1abba4860a5e560f27c81e01f4038ce71fa890ef27470b596dd003c6944"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_h1.py",
+      "sha256": "e557effd4b63ab1a1c62bb8fc7b2902a6d7bdafd531d4873fba3a6db34a844c0"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/exps/example/u2mot/yolox_x_u2mot_visdrone_m1.py",
+      "sha256": "7e29038bd90474203b2740a54f3a937fcb66b2d744a12e1912c1e74677bbc7c5"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/tools/track.py",
+      "sha256": "9945dd3593bcd4c2ac72e34f7e907ea2a2f6638439f1c33bdf97e6ddbece9411"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/tools/utils/eval_visdrone.py",
+      "sha256": "0834a94f3190532ad9f2c64600c3e2518d5c36b4f0788cd356607b97c53d71b5"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/__init__.py",
+      "sha256": "f79515998c3300a208bce26490e5f73d94e5ee2d8e9bbac58c37bd75292c0963"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/core/__init__.py",
+      "sha256": "7b226003925eb9de1e79ad0e06f34f21cb4c0fc7c2c7583bd284ca1d13e90ed8"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/core/launch.py",
+      "sha256": "1fd4e14d34c171b39eb55e5a0c791222f2b253e8f97e68f61fc6fe4f9a324f26"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/core/trainer.py",
+      "sha256": "087e6fc9724bfc7ee5c49eec1b67ef39dac30a6a730cc9e6579b5372b03f84eb"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/data/__init__.py",
+      "sha256": "99ceb5e673cfe69a1a9a4ee48ed758f2c4c0d67afcf1eb99d71e51963317a4f2"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/data/data_augment.py",
+      "sha256": "82e8c2fd671a6c0fd880d425cc8cbdcf2a9026613905863e7fbd44481e0a49bc"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/data/data_prefetcher.py",
+      "sha256": "01a96db0e18350b200aa4971b0ec95a5f206faeb0242963db95c91c8ad8e89d3"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/data/dataloading.py",
+      "sha256": "26184dac9680bc7bf23dc89d1d49f6deba45f55934e11ede01ed6e5886d6771b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/data/datasets/__init__.py",
+      "sha256": "3297b98ac0ef96b710651613565720087d813c790a2d173b2f63c55161fae26b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/data/datasets/datasets_wrapper.py",
+      "sha256": "d43256aee73e3154e742c5c6aaedab62249271ed46a8a74a454b33cd35a940e0"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/data/datasets/mosaicdetection.py",
+      "sha256": "fc82cb1bec1432e659e481e24ba358c4fad292d5a54541797c2568813ad0db27"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/data/datasets/mot.py",
+      "sha256": "e7068202247b515e00bb38c058e18fb5eefd2b307a53c1f5a748cb9b638ace0c"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/data/samplers.py",
+      "sha256": "95e9ef84182ce201ec394c506b77f0b4dd8047313e527d15730370412dc70694"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/evaluators/__init__.py",
+      "sha256": "f94f1741c2713ed0c6efb898d6dda39bb67c836f5b090e5fb5aeec89ce56b608"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/evaluators/coco_evaluator.py",
+      "sha256": "9eadb331af45c27541c3a1d4e97510d379bfb67115361bf54940c6cc25e0efef"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/evaluators/evaluation.py",
+      "sha256": "fa40dc52baaa102bf9a53fdc7aedfef712e0d0bf7a1b8dfeec0f55bcbc8d54c5"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/evaluators/mot_evaluator.py",
+      "sha256": "34d57885a0e6c2bf53ebdd0c015588d6a8a78ce4b06254221bc57157faa5c4d2"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/exp/__init__.py",
+      "sha256": "ef3440672903039353e3e1b09bff794f3eac68c6f3b66ff6aa0580b5a6098e30"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/exp/base_exp.py",
+      "sha256": "2e169b5ef3413a01257f5a006391c73054e0f83ba423da899eb6ae49a02aca20"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/exp/build.py",
+      "sha256": "82b957b6c25f866f14547d3f1673c50f99cb9493e342f383fcc90bf6cc54893e"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/exp/yolox_base.py",
+      "sha256": "be3b8529ebc2900fe98db49b342a5fc0b7ec274af116ab37dde79d3fdd4aa5c7"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/layers/__init__.py",
+      "sha256": "ea0804b4f29b1426a8dc4482c4e218eaa068c89d7b90135bc84483304726ec49"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/layers/fast_coco_eval_api.py",
+      "sha256": "15d45bfa204d831245595c61094a17010e647fbe6335d9c874872db2b4e5e8a8"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/__init__.py",
+      "sha256": "d345c4360c4354db573c1a55a6046284b6dfc36abbcd13e0cf006aef207c25a1"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/br_reid.py",
+      "sha256": "aeab44092228b3f7d7d804ad969fefe28b0f6d5dad396408346c6d667badeec4"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/darknet.py",
+      "sha256": "22cb99d40abdf2d1b4184f05b70d9581264efeb6aa1eb4dd5be09ee140ca0192"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/losses.py",
+      "sha256": "cb1ba42dda7d7382d8eccfe5de32c9c66fc245c20ba395d174eb8f10630cb980"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/moco.py",
+      "sha256": "22626c41c9db4fc6573120dd266f5d7f1132eb40bb14490512cfaffbd0e7437d"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/network_blocks.py",
+      "sha256": "99ff62baa9490906d42b751db38820efdb6a5cdf42090931e8730441cf4498d0"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/sgr_reid.py",
+      "sha256": "5957dd01c92dcaec78724c16dd534710b1f3d568707f5ebe6e0d3ba938bb2011"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/sgr_v2_reid.py",
+      "sha256": "506d99abc330635b9e3bc54e0e0c78e29571a1839edc0a836e32e18e6d63c9d7"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/yolo_fpn.py",
+      "sha256": "67b127a8841e3fb5ab8b66b1e61269156eb47cc840d200ba7f64975775a92a52"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/yolo_head.py",
+      "sha256": "1e4b1cd82cf0447806ff284d91cd91098bebf52cf8519facf2b7963554fd3005"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/yolo_pafpn.py",
+      "sha256": "af2e988bf0669437b100cc2c698ea28de73b0e6ac968c52f7311067a2826bc1b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/models/yolox.py",
+      "sha256": "acba6d295b9381036c9c67e51f6717b0cd009afde12c67d82bc37db43e2dce02"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/basetrack.py",
+      "sha256": "8e28b57bc1f42bc0129dfae31e709ee8f82f1bf15c422f349e837ce164c0b2f7"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/gmc.py",
+      "sha256": "140a557ed1fc133de57eb18bae676447cb319ec47d3c2da71ba625e307d6474d"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/kalman_filter.py",
+      "sha256": "7b82c583571eb8192b54649e8b9fa2294472962f7ffc57fb012a04907450b58c"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/matching.py",
+      "sha256": "54098ea68ae30d79e4ec80d2b1db4296a3d713e491b3998627d274855a301444"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/motion_guidance.py",
+      "sha256": "9955b58a190558a9996f13b014ac5f15024b11e5435ae64b432142aa2c8d687b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/u2mot_tracker.py",
+      "sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracking_utils/evaluation.py",
+      "sha256": "86b49775bd3d916c4a63206bd46f0783cee4c2dd74949a0fc242f35a337389ca"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracking_utils/io.py",
+      "sha256": "36883e1aa02bc6ddd71fb1ad59fe399a3193cae0fd12806b68017f5af19b2694"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracking_utils/timer.py",
+      "sha256": "790ad9b093ae2be687afbdb08dbe38769f499c968646396b647b2749aad492e2"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/__init__.py",
+      "sha256": "14c628c46da58c3669977b096948532e5c2bc597441145c0381f1116326d1a22"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/allreduce_norm.py",
+      "sha256": "7ffd90e142600e1904765768cd90f94918773b1ded34a10e071ddbb4faa9b138"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/boxes.py",
+      "sha256": "bf7294cbd872041706db7174a0d7025ef6191278b4d27f45a31997fcb356663d"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/checkpoint.py",
+      "sha256": "a99fa07c8f63b0eaf97776aa12e8e62b3db23b584084103f4c112f9a3e9b4365"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/demo_utils.py",
+      "sha256": "465402bc1c89f9304249e596b5d5edce79849ae83d1ca988a13ce88fc2b84aec"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/detector_checkpoint.py",
+      "sha256": "68dd012f452a33c329576e3f549295ecafcfaedde7c007fcda8d9271d8a0d6c4"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/detector_interpolation.py",
+      "sha256": "05b96f6c5c8514f5d8359a0b91b0fece9214ea542f729262027bfc55ea5491d9"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/dist.py",
+      "sha256": "1045e48e0a2c317f8480290a11e4f97bdd6c04c6a8800051a389311a68706770"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/ema.py",
+      "sha256": "15bb0fcb54b093a99f7588b523ddf766bcf8e7d9bdcd8f47591e43d65139d0c3"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/hires_rescue.py",
+      "sha256": "ebef6e01db912d754c4aa3cdcfd8d1ab85751d168060df6eda67c4ab2c3572b6"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/logger.py",
+      "sha256": "f735c5ba1728cf3afac87727f1b914172928f14ab6b10f6e53270fa8873d28cd"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/lr_scheduler.py",
+      "sha256": "9803af0188d40e31938d9c551a47a281bdb34a91f067577b73b02dd3cf2ad49b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/metric.py",
+      "sha256": "14ac5287982201bdcea90558fab84bf827ffb7867062c90894f13e8718813a82"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/model_utils.py",
+      "sha256": "5d3ee9e30239ba944ee305b1794cbb45ffcc79baf338d8a71120cc583181261b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/setup_env.py",
+      "sha256": "58a719e1e2029ddd54b95844f81ac03affc3d159ce67d88b1f41496e37625b95"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/trajectory_endpoint.py",
+      "sha256": "295bf5150cc7b26dedacb51cab12c3bfd1cf2593fb5ceedef72a93bd690b0995"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/trajectory_quality.py",
+      "sha256": "2736b765e9f3f6b4f1476a40cd3182d5c3f5ff5a877666a0e829f47345c1bc06"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/visdrone_ignore.py",
+      "sha256": "75ee7c3798bd60a5926f813323d3522c3e667944df4c5158b60bfd2d4278ef5a"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/utils/visualize.py",
+      "sha256": "031c9026453727023d5eb06bff11a9598a065607f7374218cf4d5b52e98fe6d6"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/F00_full.pkl",
+      "sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/FusionOff_NoSelective.pkl",
+      "sha256": "bbd97ac63539083accaf655d93cd3dd3ca442330af89b411ecfc0162d0f8cd21"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/FusionOff_Selective.pkl",
+      "sha256": "4165da0896b5246d7a0c494b17c38625fbbb8e55fdee10c6fb0c848e3887ddd9"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/FusionOn_NoSelective.pkl",
+      "sha256": "e58043b014e851b84440851449c5a52e10bf29af900428e56b2567445f72511c"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/Paired_Flat.pkl",
+      "sha256": "1d1435a22ef953824aff5b00770df543e4d7129d4ffec52d40000eaf667952e5"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/Paired_Hierarchical.pkl",
+      "sha256": "ea9398d740472d45ee51dc5052624427c38d7e8948c98f573bbf103bbbe394f8"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/summary_frozen.pkl",
+      "sha256": "aa48c972a3ddbe4c5e4b82c5f2a64f9032978d7c15a863a5a3caefe67ac04ce8"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_corrected_reference.py",
+      "sha256": "b6aae94f06a51e203a98ceaec639a618fae514bfb4e533713239d208f0c77656"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_cost_factors.py",
+      "sha256": "c8a8608c0a7b878e7f967c4bce381e03afc527f8b8f76bfa20b44eb5159cb530"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_egia_modes.py",
+      "sha256": "db23f5074ffd42e844eb3578c1124854b49dd98a8cedb7504799758a65b1a629"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_input_identity.py",
+      "sha256": "f23e23d78fff29f29aa5f8367e1ac31f8a18fd0c9e72a9050ad9c711b83e470a"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_internal_path_contract.py",
+      "sha256": "1c7be286e61dbafa79a5f1d1a1416a2e60047998f04ac1e997b1f3ceb6f65c8d"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_operator_audit.py",
+      "sha256": "e994452847904398c44eda07eedd546a797cfa4c073e793e15cd450b8b7e914c"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_paired_anchor_contract.py",
+      "sha256": "a3b390e58b1ee2dc49b68ff8c627bcb725a1cd6537ccce096eb0ef56090aff17"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/analyze_policy_diagnostic.py",
+      "sha256": "303819c2567ffee4e48a99f8ca181d04753812323bed57d3b631c4d17e1b1781"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/audit_semantic_filter.py",
+      "sha256": "e82fea428660ae2cd941da19eeb6c7287c63833eba08adfb5447b99483b596e5"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/belief_data_common.py",
+      "sha256": "aa1a233b8579675f8c8a6884f8e28544debb08d5b0d7f36d1cc8085fe1d47771"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/capture_belief_evidence.py",
+      "sha256": "e0ca29499d1e3d6f3a602b1429f0603275d19818933648aedbe56696e6e288f3"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/capture_policy_diagnostic.py",
+      "sha256": "449e657c0f1771c97f0bd47302b2e4991f036863ecf36bf557b704080fefbdb8"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/capture_uavdt_belief_online.py",
+      "sha256": "1a443149aedbb62224db5ad737558ca72d0499069a26d687b1c37e11ee6edb85"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/evaluate_belief_replay.py",
+      "sha256": "39b5a9ff7685575973842bfc3eb27f7ad227a0f533162adb71bf7df691bea2fc"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/evaluate_native_u2mot_calibration.py",
+      "sha256": "401c0aab7de7bcf88a484cd27615f91d1d34dc17bae389a07e987c3e27d2e7a2"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/fit_paired_anchor.py",
+      "sha256": "9bb4590b37032fb5ccc7570e7839216c12fc4f32cea0c9ca75f092088af600f2"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/inference_without_gt.py",
+      "sha256": "2313513419a3f257e3dd38f47afc34d0d9eb8b93e8e1098073ee171d4378cb48"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/label_belief_evidence.py",
+      "sha256": "88a2b8e41518dd0cfb98ccf0658730bd8b53e33cdd61d83d142cb491d51ee336"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/label_uavdt_belief_evidence.py",
+      "sha256": "c718b8b09daddbb8363524ae07504ccb51f5a014eadf93652313da83ce6c0699"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/launch_all.sh",
+      "sha256": "a03b4db54b64665354e9aa9283a7582919392bb7431f511178feb1b1533497ad"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/launch_corrected_pipeline.sh",
+      "sha256": "776d888552f9b4a1ffc3933cc9bcc752d2db3068328fb05c08b05cf18e77ade2"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/launch_once.sh",
+      "sha256": "03aa2712c906692e174daaf6e0bdba3a372605e0ecf2eccfa5cd43f996ad47fe"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/launch_smoke.sh",
+      "sha256": "a46f58d95b2722edf2860d72e37e9003970ba7b02a71eb609414c0993188286b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/make_clutter_match_candidate.py",
+      "sha256": "a599f016e7ae1cbb477ff9910389efc0cdf74eb463bca0d62da0556e0412096f"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/make_hierarchical_asymmetric_selective.py",
+      "sha256": "7ea353529b62d866f9d506e755a1f41d68ed48fd517b510f8f6c1c283d7d624c"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/make_hierarchical_decision_specific.py",
+      "sha256": "895bb93eeba5f2a718d4b39213b9d66665acb230bba2331382b8e1a28e4709fe"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/make_hierarchical_egia_fusion.py",
+      "sha256": "c663ab18ead1a53af86b17458c40555a12cbcc1611c5ce97a57878f918d8205c"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/make_hierarchical_safe_incumbent.py",
+      "sha256": "cc33bd02b87e56bc6aeb55ec4fc614133910f0b3802d0f3e035fc0aacb5d29ea"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/make_hierarchical_selective.py",
+      "sha256": "e6a588fc94262efe253ce18cd09f66e4b6c9b9e14ec30f87a2aa79b3ed27d221"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/make_uavdt_base_bundle.py",
+      "sha256": "8e5877a1c7763d55129442ea694bc293d897ae84ee55b3760ee662166318ba7f"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/prepare_coverage_egia.py",
+      "sha256": "688070c7a6757a8d514217f3519055fcc04fbac8a35973626d942ffca59a554b"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/prepare_uavdt_coverage_egia.py",
+      "sha256": "eac24e642cf1ad1b84105455b81466826e45fb184403586bbc57db0998d35b54"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/replay_belief.py",
+      "sha256": "3a0efef2c6aa54aa479eca8e918f6c592df310939004d39f91a195f7a0264454"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/replay_native_belief_arm.py",
+      "sha256": "f22a5fdc5004e403ceeb5c6eca0b35a56852ce3e0127777622fc0f54834df3fd"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/replay_u2mot_native.py",
+      "sha256": "aba90bdc13027c1bb8a24b88f7049ceb2b23367ccd0f3d28eadf39f9ef90de91"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_ablation.py",
+      "sha256": "37b51bf6e8617e127776a9024cec38498eaccd0bd986167dfc8e7fd5a37c673a"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_calibration_policy_capture_v3.sh",
+      "sha256": "bdb3955d021121e204d2f8573fffea9e4ebb9fd5489cbbfe7e064900b0202cdf"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_calibration_v3.py",
+      "sha256": "9bef68cda16e2176c9e314e840666b5195832eeb3d1ec35678616243a13cf241"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_capture_label_fitcal_v1.sh",
+      "sha256": "75468a3721e4322365c453c19439efe34b829abca9002a5a41186239f67fbfe9"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_evidence.py",
+      "sha256": "dc3c144f706e11aa4251faeaf19251a437ab934f2a4cae0358c03ff0b286bc46"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_mechanism.py",
+      "sha256": "95d63a0a154382cc1d50f2e9c6211f237239b8c0da05bf1b0fc8eccde90739ac"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_operator_ablation.py",
+      "sha256": "eb47e6033b8b5b6b6a0542244d5ee654eb724aafdddf45fa80a320702597111a"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_policy_analysis_v3.py",
+      "sha256": "e2709eee95037b6e1d1fc2ffcc8f8a6483d141c38cfdbb17e4a472d6d99b5f75"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_policy_diagnostic_v3.sh",
+      "sha256": "08f513d6a6ca65bb9bdd83ab90ba834a2ffa3beb0307ccd59ad92ef25b387cf9"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_train_belief_v1.sh",
+      "sha256": "d2a914ced3d3fce6d97a7ec1db828091b006f38abb05be65d2c49baef94e4ee2"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/run_train_belief_v2.sh",
+      "sha256": "7c9cbaee438309f1e83b373b08f573d6133f1b8689c136e85f229cc2e725835e"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/seal_corrected_smoke.py",
+      "sha256": "32005e8485db9e0911395ba9418cf64a058feacd6c268adea99fa6b6d47f8405"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/setup_ablation.py",
+      "sha256": "0de09f3d809f39246d6781a0e8991900bb8cf72f097f64f5b9b360c727e977f0"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/setup_evidence.py",
+      "sha256": "9a1bbcb507f35e128f3c9bf856a73aece09af56761202688fa1dadc0a3b83da0"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/track_dynamic_online.py",
+      "sha256": "105cbd36fb1146891768cbd4d8eaa0446cb8ff16da2a5f385aaf45c024500240"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/train_association_foreground_head.py",
+      "sha256": "16f4c631f1a4dd3fde94586b3e101790bcc0de0e46c1cb25af7d6a2e83006009"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/train_belief.py",
+      "sha256": "eece540d3e6c2d89279343b5feaf27cbdbd76cf41d5ffa6896a02521f6c372ab"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/train_coherent_source.py",
+      "sha256": "7106905e09d45a697f745da680b018d9303a2cc9235ee8997d9497f2b6160423"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/train_coverage_egia_v4.py",
+      "sha256": "6190986ea21d054c516cad7b74cb075ea2d92953dde6522e32d45b34b0341f14"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/train_uavdt_hierarchical_v5.py",
+      "sha256": "3a48093d24e2cd06d855e004c3da90f6ba3fe3e9f58efde66dff71619425211c"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/verified_gpu.py",
+      "sha256": "f7b170571ca5c0cc90794d4cf514ab25e7dfcc56f29a9b4efd15349ae8ca3f5f"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/verify_runtime_feature_parity.py",
+      "sha256": "b96a8ee0459f164b05e789b83883adfdba67510e41c9016c99b9c9742f2775e9"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000009_03358_v.txt",
+      "sha256": "21adde7aa6a0555fc9825081a167cd107b74f04ba5a0fb798d331a3f76205bd2"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000073_00600_v.txt",
+      "sha256": "20783f2dc3e54d02e0cad806cd64a947422defa5366a7a9dfcd1fa045596a8ab"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000073_04464_v.txt",
+      "sha256": "dcb6b3322470cb55a2344c57c344f25b45ca8e24f7e4768548a684f2f4847bd7"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000077_00720_v.txt",
+      "sha256": "34e61d84f3dcc05863c0a76e184df66582d67111bdbcd6f0820ebee626010789"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000088_00290_v.txt",
+      "sha256": "8dc6b22ba207a75c10b0c5065f2a76f7e6c5798dc5c7ba7754e4abafa3699327"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000119_02301_v.txt",
+      "sha256": "79459bd033d68f2979d1e24f94d15e14c7190cc53f994ab0ad5f45338eeed321"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000120_04775_v.txt",
+      "sha256": "ffcc2cfdfbbd3ef277633b7253aded4ce933cce4f6e129c650606caca2ace934"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000161_00000_v.txt",
+      "sha256": "69dfb5d2f646f6f70094f04be22ca792d3561fed5e47fd4dd4f4370308cbdd89"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000188_00000_v.txt",
+      "sha256": "8b6000b0aa6262c22fc1979378c443d7bba5f3c475ce5b30caafbaf08156f5c4"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000201_00000_v.txt",
+      "sha256": "73309f502ebf1b378d4684f61507d7febfed9b3d10c9d5f02cc8ed95a7491cfa"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000249_00001_v.txt",
+      "sha256": "ba28958e6778a59afc7862736c15ff1faa0da9261d30f124a6fc4a58448477c8"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000249_02688_v.txt",
+      "sha256": "e3196a5642348767e4077a058448f2fbf9c36d6f237a65b81535e4791102c2eb"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000297_00000_v.txt",
+      "sha256": "401935420d80f1db39d9491f390f9be8faffced8bc1803205f23b06093807139"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000297_02761_v.txt",
+      "sha256": "bd3b9652155715c1d16f21f25d63c7d488a84b05e1acf8dcedb2b3c6d7bb51a7"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000306_00230_v.txt",
+      "sha256": "d7d6525b3c253b0b1def7f5e3eeb51184a59c7d56245eb8b73664351fca950be"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000355_00001_v.txt",
+      "sha256": "fd70e87abb7f92df70f8767f6da45c0d78ec5815e6b794cc26ef153a716a7110"
+    },
+    {
+      "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/yolox/tracker/GMC_files/VisDrone/test-dev/GMC-uav0000370_00001_v.txt",
+      "sha256": "a277a4e39e46cb3f9c0110491fb2043b16a2efa27f6b77ab7f9ff2384c69c07a"
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/YOLOX_outputs/F00_full/tracking_metrics.json",
+      "sha256": "c4d9021859b12be8b91c41de5c8a677058fbecdd5e5331117bd253e672c1c24c"
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/belief/runtime.py",
+      "sha256": "731f6be2e71fa1ec8b537da7e8b13966d527492889fa474b7e67e2f3569ac200"
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/host/yolox/tracker/u2mot_tracker.py",
+      "sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6"
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/YOLOX_outputs/IA_update_only_20261007/tracking_metrics.json",
+      "sha256": "102219d9bc0e46917d926ee173cd3c5cd2fd36149b7015020b6a3387e5d17af2"
+    },
+    {
+      "path": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/belief/runtime.py",
+      "sha256": "619b4f354c475c117d09f769c0fa2968abd7bd05ed1b9a981831f352332c4d28"
+    }
+  ],
+  "pinned_closed_arms": [
+    {
+      "name": "SMOKE_C11_full_reference",
+      "status": "VERIFIED_PARTIAL_ENGINEERING_SMOKE_ONLY",
+      "frames": 200,
+      "receipt_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C11_full_reference/receipt.json",
+      "receipt_sha256": "0cc4b0e77b4b5ddfd5a3f77e1c98954c617c363c2843f81d965ec78052388b9e",
+      "prediction_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C11_full_reference/track_res/uav0000073_00600_v.txt",
+      "prediction_sha256": "eb0f07a202756170a2c16410b81e23932c2a405ca7e90ad850240568b01d2fab",
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C11_full_reference/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_sha256": "deab8c1f123ce7e6b7a6d62d4d08566241867569e5d8975942ff9531d953ca20",
+      "guard_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/SMOKE_C11_full_reference_gt_guard.json",
+      "guard_sha256": "aca2bfbc1e736a547b8b9c87cc874d6ba711d1f039f31d5b5f76f12e211b79fd",
+      "log_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/logs/SMOKE_C11_full_reference.log",
+      "log_sha256": "2682c85391aceb7b993319cc8964e8659fb0e77236fcfdd277db0cf991fa6325",
+      "command_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/configs/SMOKE_C11_full_reference_command.json",
+      "command_sha256": "7cca90cbfb58ab16ac78720c357f07f4a5a7621e1f7e692115c0bc0997d8eb6a",
+      "model_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/F00_full.pkl",
+      "model_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+      "input_stream_sha256": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38",
+      "input_records_rehashed": 200,
+      "problem_frame186_detector_sha256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "association_seams": 600,
+      "corrected_reference_seams_verified": 600,
+      "native_assignment_calls": 600,
+      "candidate_legal_verified_seams": 600,
+      "illegal_edge_recoveries": 0,
+      "observed_gt_guard": {
+        "status": "PASS_NO_GT_READ",
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "checked_file_open_calls": 42,
+        "blocked_gt_attempts": 0
+      },
+      "gpu_record": {
+        "status": "VERIFIED_PHYSICAL_GPU",
+        "selected": {
+          "index": 1,
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "memory_mib": 40960,
+          "pci_bus_id": "00000000:81:00.0"
+        },
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+      }
+    },
+    {
+      "name": "SMOKE_C00_nativecost_reference",
+      "status": "VERIFIED_PARTIAL_ENGINEERING_SMOKE_ONLY",
+      "frames": 200,
+      "receipt_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C00_nativecost_reference/receipt.json",
+      "receipt_sha256": "4f84a00952e42470bcf3ba1e8ec5f5de358fbfee84ce62dd3a0bf1929337ebe1",
+      "prediction_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C00_nativecost_reference/track_res/uav0000073_00600_v.txt",
+      "prediction_sha256": "c31984ac7f2bb0e5aba9077dad9074870552ef55304f6eeda4abd1a500746bf4",
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C00_nativecost_reference/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_sha256": "03018eac446b849384c6d55c690cd20bfc22a255c353a41f5e4b24818d352020",
+      "guard_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/SMOKE_C00_nativecost_reference_gt_guard.json",
+      "guard_sha256": "aca2bfbc1e736a547b8b9c87cc874d6ba711d1f039f31d5b5f76f12e211b79fd",
+      "log_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/logs/SMOKE_C00_nativecost_reference.log",
+      "log_sha256": "803252a8b91de09e261c2e4a3a2b898b5815eec3712b19d8837d17f44a17f9c1",
+      "command_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/configs/SMOKE_C00_nativecost_reference_command.json",
+      "command_sha256": "286898863068ebdfb4ba6f123f146e0e11ec32e003db792f6a5cf28fdaa60701",
+      "model_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/F00_full.pkl",
+      "model_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+      "input_stream_sha256": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38",
+      "input_records_rehashed": 200,
+      "problem_frame186_detector_sha256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "association_seams": 600,
+      "corrected_reference_seams_verified": 600,
+      "native_assignment_calls": 600,
+      "candidate_legal_verified_seams": 600,
+      "illegal_edge_recoveries": 0,
+      "observed_gt_guard": {
+        "status": "PASS_NO_GT_READ",
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "checked_file_open_calls": 42,
+        "blocked_gt_attempts": 0
+      },
+      "gpu_record": {
+        "status": "VERIFIED_PHYSICAL_GPU",
+        "selected": {
+          "index": 1,
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "memory_mib": 40960,
+          "pci_bus_id": "00000000:81:00.0"
+        },
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+      }
+    },
+    {
+      "name": "SMOKE_C10_mask_only",
+      "status": "VERIFIED_PARTIAL_ENGINEERING_SMOKE_ONLY",
+      "frames": 200,
+      "receipt_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C10_mask_only/receipt.json",
+      "receipt_sha256": "d513f2c5ca010525fc9c76d66d192d47592c464bbe87ef4c4b2d51e3ea3c93d9",
+      "prediction_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C10_mask_only/track_res/uav0000073_00600_v.txt",
+      "prediction_sha256": "1db1a1db5c125e192ba5baf193d63ec68bbcf4d572f9b9c8684e622c9661af3d",
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C10_mask_only/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_sha256": "633f07940db046052d3f0314a9982a736e15ca554c98101d13272042eb7a8506",
+      "guard_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/SMOKE_C10_mask_only_gt_guard.json",
+      "guard_sha256": "aca2bfbc1e736a547b8b9c87cc874d6ba711d1f039f31d5b5f76f12e211b79fd",
+      "log_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/logs/SMOKE_C10_mask_only.log",
+      "log_sha256": "33973c92eb57b35b160d7a7428b5b9773f386973136632191505decb9775a3c0",
+      "command_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/configs/SMOKE_C10_mask_only_command.json",
+      "command_sha256": "cae9aff0941661c1a9792bf8a760b6adca48009ea4f9a77c85922d185c2ed74c",
+      "model_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/F00_full.pkl",
+      "model_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+      "input_stream_sha256": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38",
+      "input_records_rehashed": 200,
+      "problem_frame186_detector_sha256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "association_seams": 600,
+      "corrected_reference_seams_verified": 0,
+      "native_assignment_calls": 600,
+      "candidate_legal_verified_seams": 600,
+      "illegal_edge_recoveries": 0,
+      "observed_gt_guard": {
+        "status": "PASS_NO_GT_READ",
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "checked_file_open_calls": 42,
+        "blocked_gt_attempts": 0
+      },
+      "gpu_record": {
+        "status": "VERIFIED_PHYSICAL_GPU",
+        "selected": {
+          "index": 1,
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "memory_mib": 40960,
+          "pci_bus_id": "00000000:81:00.0"
+        },
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+      }
+    },
+    {
+      "name": "SMOKE_C01_penalty_only",
+      "status": "VERIFIED_PARTIAL_ENGINEERING_SMOKE_ONLY",
+      "frames": 200,
+      "receipt_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C01_penalty_only/receipt.json",
+      "receipt_sha256": "e1c91af2c5f6f83ee65963d10fad13e6fee761ef64977476e98c3a82cda0a71f",
+      "prediction_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C01_penalty_only/track_res/uav0000073_00600_v.txt",
+      "prediction_sha256": "eb0f07a202756170a2c16410b81e23932c2a405ca7e90ad850240568b01d2fab",
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_C01_penalty_only/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_sha256": "a59bb3b44d4d82e36e479d343428e0f22de40c23ff130e298d56a7fd32cf99fc",
+      "guard_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/SMOKE_C01_penalty_only_gt_guard.json",
+      "guard_sha256": "aca2bfbc1e736a547b8b9c87cc874d6ba711d1f039f31d5b5f76f12e211b79fd",
+      "log_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/logs/SMOKE_C01_penalty_only.log",
+      "log_sha256": "c447e8ff6cb430d7421a3de89bc4aa67f756d99c4edae38875dbaf416b425182",
+      "command_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/configs/SMOKE_C01_penalty_only_command.json",
+      "command_sha256": "eb73dacb5f59abb7ce7e2ad58468d5db9abd0d4c69eb8a1f9f4176756e1856af",
+      "model_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/F00_full.pkl",
+      "model_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+      "input_stream_sha256": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38",
+      "input_records_rehashed": 200,
+      "problem_frame186_detector_sha256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "association_seams": 600,
+      "corrected_reference_seams_verified": 0,
+      "native_assignment_calls": 600,
+      "candidate_legal_verified_seams": 600,
+      "illegal_edge_recoveries": 0,
+      "observed_gt_guard": {
+        "status": "PASS_NO_GT_READ",
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "checked_file_open_calls": 42,
+        "blocked_gt_attempts": 0
+      },
+      "gpu_record": {
+        "status": "VERIFIED_PHYSICAL_GPU",
+        "selected": {
+          "index": 1,
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "memory_mib": 40960,
+          "pci_bus_id": "00000000:81:00.0"
+        },
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+      }
+    },
+    {
+      "name": "SMOKE_E10_fusion_no_selective",
+      "status": "VERIFIED_PARTIAL_ENGINEERING_SMOKE_ONLY",
+      "frames": 200,
+      "receipt_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_E10_fusion_no_selective/receipt.json",
+      "receipt_sha256": "258759ba94065e49d949c1637a1513aa89a12be039d6166a21547d66e5832a6b",
+      "prediction_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_E10_fusion_no_selective/track_res/uav0000073_00600_v.txt",
+      "prediction_sha256": "f09cd1fcc00e1a60d32b78761d7aadad4e423f2eda8ae1ac0161c8250c81ffad",
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_E10_fusion_no_selective/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_sha256": "1c9f410de2bb87a71aa9fa6ecc3a89c9e7a71cae043def6e8827e6adee056213",
+      "guard_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/SMOKE_E10_fusion_no_selective_gt_guard.json",
+      "guard_sha256": "aca2bfbc1e736a547b8b9c87cc874d6ba711d1f039f31d5b5f76f12e211b79fd",
+      "log_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/logs/SMOKE_E10_fusion_no_selective.log",
+      "log_sha256": "2d14e7bbba9384c712692936a00c8ad2c1d5d9a9f00efe3edaf0cd27b302d6d8",
+      "command_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/configs/SMOKE_E10_fusion_no_selective_command.json",
+      "command_sha256": "d4704078a31490963b3d016e4d6aec5c6b04aa81ec8170c4e6258ba255b7b6e9",
+      "model_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/FusionOn_NoSelective.pkl",
+      "model_sha256": "e58043b014e851b84440851449c5a52e10bf29af900428e56b2567445f72511c",
+      "input_stream_sha256": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38",
+      "input_records_rehashed": 200,
+      "problem_frame186_detector_sha256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "association_seams": 600,
+      "corrected_reference_seams_verified": 600,
+      "native_assignment_calls": 600,
+      "candidate_legal_verified_seams": 600,
+      "illegal_edge_recoveries": 0,
+      "observed_gt_guard": {
+        "status": "PASS_NO_GT_READ",
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "checked_file_open_calls": 42,
+        "blocked_gt_attempts": 0
+      },
+      "gpu_record": {
+        "status": "VERIFIED_PHYSICAL_GPU",
+        "selected": {
+          "index": 1,
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "memory_mib": 40960,
+          "pci_bus_id": "00000000:81:00.0"
+        },
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+      }
+    },
+    {
+      "name": "SMOKE_H_paired_hierarchical",
+      "status": "VERIFIED_PARTIAL_ENGINEERING_SMOKE_ONLY",
+      "frames": 200,
+      "receipt_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_H_paired_hierarchical/receipt.json",
+      "receipt_sha256": "30d59c2d05d250af881ca3b3c8f0f425e2765439819cd342467b9c859f4efbd0",
+      "prediction_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_H_paired_hierarchical/track_res/uav0000073_00600_v.txt",
+      "prediction_sha256": "91e5641964587051a09b0ce6d99c4a72d941c4386e85f31ce10f3565146de52f",
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_H_paired_hierarchical/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_sha256": "9931af014aa22b2a2181b7fbd11ad00b75861dc95bc508cac47a1c3a7e349008",
+      "guard_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/SMOKE_H_paired_hierarchical_gt_guard.json",
+      "guard_sha256": "aca2bfbc1e736a547b8b9c87cc874d6ba711d1f039f31d5b5f76f12e211b79fd",
+      "log_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/logs/SMOKE_H_paired_hierarchical.log",
+      "log_sha256": "15388bafc52d58c8be9575ee0b90f38bfa8bb01345416eef33e9178eec776178",
+      "command_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/configs/SMOKE_H_paired_hierarchical_command.json",
+      "command_sha256": "b603a63f0f3d4f04fbfc0f2dedef81d3f045d0f2971a590ba31ff2b7aea5ba4d",
+      "model_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/Paired_Hierarchical.pkl",
+      "model_sha256": "ea9398d740472d45ee51dc5052624427c38d7e8948c98f573bbf103bbbe394f8",
+      "input_stream_sha256": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38",
+      "input_records_rehashed": 200,
+      "problem_frame186_detector_sha256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "association_seams": 600,
+      "corrected_reference_seams_verified": 600,
+      "native_assignment_calls": 600,
+      "candidate_legal_verified_seams": 600,
+      "illegal_edge_recoveries": 0,
+      "observed_gt_guard": {
+        "status": "PASS_NO_GT_READ",
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "checked_file_open_calls": 42,
+        "blocked_gt_attempts": 0
+      },
+      "gpu_record": {
+        "status": "VERIFIED_PHYSICAL_GPU",
+        "selected": {
+          "index": 1,
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "memory_mib": 40960,
+          "pci_bus_id": "00000000:81:00.0"
+        },
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+      }
+    },
+    {
+      "name": "SMOKE_H_paired_flat",
+      "status": "VERIFIED_PARTIAL_ENGINEERING_SMOKE_ONLY",
+      "frames": 200,
+      "receipt_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_H_paired_flat/receipt.json",
+      "receipt_sha256": "f686d3ad29c1fb5997fe11a6187ad298aba285be82c881f2a93ab1bb6984decf",
+      "prediction_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_H_paired_flat/track_res/uav0000073_00600_v.txt",
+      "prediction_sha256": "ec18979c0461ac0b45aababf690890a7ed2b723256f7a335878f764309f3c633",
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_H_paired_flat/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_sha256": "dac69151cc65f334c8635d9712b7e11d5603ab370a2f9969cb6d473a62a08e26",
+      "guard_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/SMOKE_H_paired_flat_gt_guard.json",
+      "guard_sha256": "aca2bfbc1e736a547b8b9c87cc874d6ba711d1f039f31d5b5f76f12e211b79fd",
+      "log_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/logs/SMOKE_H_paired_flat.log",
+      "log_sha256": "363180c7cc0b238f1cf9681332e8d2de074ddf28e0641f5e1a8b7e83b2809f02",
+      "command_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/configs/SMOKE_H_paired_flat_command.json",
+      "command_sha256": "e23eef35145c06f00ea65b37c2e0de9fd8c0aeb0dff650ae78ebe86d279fd29a",
+      "model_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/Paired_Flat.pkl",
+      "model_sha256": "1d1435a22ef953824aff5b00770df543e4d7129d4ffec52d40000eaf667952e5",
+      "input_stream_sha256": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38",
+      "input_records_rehashed": 200,
+      "problem_frame186_detector_sha256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "association_seams": 600,
+      "corrected_reference_seams_verified": 600,
+      "native_assignment_calls": 600,
+      "candidate_legal_verified_seams": 600,
+      "illegal_edge_recoveries": 0,
+      "observed_gt_guard": {
+        "status": "PASS_NO_GT_READ",
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "checked_file_open_calls": 42,
+        "blocked_gt_attempts": 0
+      },
+      "gpu_record": {
+        "status": "VERIFIED_PHYSICAL_GPU",
+        "selected": {
+          "index": 1,
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "memory_mib": 40960,
+          "pci_bus_id": "00000000:81:00.0"
+        },
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+      }
+    },
+    {
+      "name": "SMOKE_E00_fusion_off_no_selective",
+      "status": "VERIFIED_PARTIAL_ENGINEERING_SMOKE_ONLY",
+      "frames": 200,
+      "receipt_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_E00_fusion_off_no_selective/receipt.json",
+      "receipt_sha256": "990565fd08167bae871059ebe5623627d7e1061c8c8f36a3ade76a7e8055db41",
+      "prediction_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_E00_fusion_off_no_selective/track_res/uav0000073_00600_v.txt",
+      "prediction_sha256": "fd3813c2daf835f823def5944315ff7a35e1b373212d2bab0253975c3e76521d",
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_E00_fusion_off_no_selective/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_sha256": "b06b82e7bbddaf8a1cfbb59f95cf10239b8179fadbd89fc278422bfa6aea81fd",
+      "guard_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/SMOKE_E00_fusion_off_no_selective_gt_guard.json",
+      "guard_sha256": "2e4303a68b17cc129852ec83750e529d88c3adab6fcafff9992834d5e77855cd",
+      "log_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/logs/SMOKE_E00_fusion_off_no_selective.log",
+      "log_sha256": "733a0eb5c66e6fe181874a3486c7b2a0a37de2ca3f0186db81db7e89788dd086",
+      "command_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/configs/SMOKE_E00_fusion_off_no_selective_command.json",
+      "command_sha256": "be35f89952ab5441b67429e170611c9c51e3ad00b38e5510c732d33ee75140e7",
+      "model_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/FusionOff_NoSelective.pkl",
+      "model_sha256": "bbd97ac63539083accaf655d93cd3dd3ca442330af89b411ecfc0162d0f8cd21",
+      "input_stream_sha256": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38",
+      "input_records_rehashed": 200,
+      "problem_frame186_detector_sha256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "association_seams": 600,
+      "corrected_reference_seams_verified": 600,
+      "native_assignment_calls": 600,
+      "candidate_legal_verified_seams": 600,
+      "illegal_edge_recoveries": 0,
+      "observed_gt_guard": {
+        "status": "PASS_NO_GT_READ",
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "checked_file_open_calls": 41,
+        "blocked_gt_attempts": 0
+      },
+      "gpu_record": {
+        "status": "VERIFIED_PHYSICAL_GPU",
+        "selected": {
+          "index": 1,
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "memory_mib": 40960,
+          "pci_bus_id": "00000000:81:00.0"
+        },
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+      }
+    },
+    {
+      "name": "SMOKE_E01_fusion_off_selective",
+      "status": "VERIFIED_PARTIAL_ENGINEERING_SMOKE_ONLY",
+      "frames": 200,
+      "receipt_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_E01_fusion_off_selective/receipt.json",
+      "receipt_sha256": "ed961c51739bbefd8855a961d30e9b4ad2bb5d9c79cb6c97f9243b2c18de0c43",
+      "prediction_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_E01_fusion_off_selective/track_res/uav0000073_00600_v.txt",
+      "prediction_sha256": "4a966a0134a2a92ba4f3a92e74010742fbf9dca8feb695704ad1b8e9b04fec24",
+      "runtime_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/YOLOX_outputs/SMOKE_E01_fusion_off_selective/track_res/uav0000073_00600_v.txt.runtime.json",
+      "runtime_sha256": "cbe5d99eb3c2745620e255f6e8e59f99dc165780f76c07e33d4f0cd4090b87e8",
+      "guard_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/SMOKE_E01_fusion_off_selective_gt_guard.json",
+      "guard_sha256": "2e4303a68b17cc129852ec83750e529d88c3adab6fcafff9992834d5e77855cd",
+      "log_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/logs/SMOKE_E01_fusion_off_selective.log",
+      "log_sha256": "04c922253e0df8ee168010f66e6e808768eb51dcf42d2151ce74c10036a43fa9",
+      "command_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/configs/SMOKE_E01_fusion_off_selective_command.json",
+      "command_sha256": "be86e95ab93379f2ee6fff91f81bacb0c1bbffc2ccc583602dc350d594e4d5bd",
+      "model_path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/FusionOff_Selective.pkl",
+      "model_sha256": "4165da0896b5246d7a0c494b17c38625fbbb8e55fdee10c6fb0c848e3887ddd9",
+      "input_stream_sha256": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38",
+      "input_records_rehashed": 200,
+      "problem_frame186_detector_sha256": "15d69e475607041a541b2d1245bcc7ebb722993f2bf19dbadbeffa824dafa585",
+      "association_seams": 600,
+      "corrected_reference_seams_verified": 600,
+      "native_assignment_calls": 600,
+      "candidate_legal_verified_seams": 600,
+      "illegal_edge_recoveries": 0,
+      "observed_gt_guard": {
+        "status": "PASS_NO_GT_READ",
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "checked_file_open_calls": 41,
+        "blocked_gt_attempts": 0
+      },
+      "gpu_record": {
+        "status": "VERIFIED_PHYSICAL_GPU",
+        "selected": {
+          "index": 1,
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "memory_mib": 40960,
+          "pci_bus_id": "00000000:81:00.0"
+        },
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+      }
+    }
+  ],
+  "pinned_arms_count": 9,
+  "pinned_frames_total": 1800,
+  "all_pinned_ordered_detector_ReID_ledgers_identical": true,
+  "additional_receipts_present_at_end": [
+    "SMOKE_C00_nativecost_reference",
+    "SMOKE_C01_penalty_only",
+    "SMOKE_C10_mask_only",
+    "SMOKE_C11_full_reference",
+    "SMOKE_E00_fusion_off_no_selective",
+    "SMOKE_E01_fusion_off_selective",
+    "SMOKE_E10_fusion_no_selective",
+    "SMOKE_H_paired_flat",
+    "SMOKE_H_paired_hierarchical"
+  ],
+  "smoke_summary_present_at_end": true,
+  "smoke_launcher_exit_at_end": "0",
+  "GT_guard_limit": "These guards intercept Python builtins.open/io.open/os.open for paths resolving under the configured annotation root in that inference process. They are not syscall, native-library, subprocess, alternative-path or comprehensive IO absence proofs.",
+  "scientific_use": false,
+  "formal_MOT_metrics": false,
+  "smoke_summary": {
+    "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/smoke_receipt.json",
+    "sha256": "7e6fff91b2c5383cabfdacde1db15451e842cfa06a7bae22179ecc45a4dd802c",
+    "status": "PASS_CORRECTED_200_FRAME_ENGINEERING_SMOKE",
+    "manifest_sha256": "071e1bfa2530ef9b7f79884c3264f5969b19db2f842903732e509d7fa81c965b",
+    "arms": 9,
+    "all_actual_arm_receipts_equal_summary": true
+  },
+  "smoke_exit": {
+    "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/smoke_launcher.exit",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "value": "0"
+  },
+  "CPU_source_sha_binding": [
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/INPUT_IDENTITY_REPAIR_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/online.py",
+      "sha256": "67c97ea1128b8ac0fbfcc50331e831b2f555c010cb2f974f96c757b12e28dbe0"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/INPUT_IDENTITY_REPAIR_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/reference_oracle.py",
+      "sha256": "fc746cf4907ee4a47c1b44dd2d29a4924f0cd1a6642b5040b2a1a41b308818a3"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/INPUT_IDENTITY_REPAIR_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/runtime.py",
+      "sha256": "c9c45a934f1474c95809562559a6bcbbe1f96c80cd6c965de066bc2fb8a16e5b"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/INPUT_IDENTITY_REPAIR_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_cost_factors.py",
+      "sha256": "c8a8608c0a7b878e7f967c4bce381e03afc527f8b8f76bfa20b44eb5159cb530"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/INPUT_IDENTITY_REPAIR_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_input_identity.py",
+      "sha256": "f23e23d78fff29f29aa5f8367e1ac31f8a18fd0c9e72a9050ad9c711b83e470a"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/INPUT_IDENTITY_REPAIR_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_internal_path_contract.py",
+      "sha256": "1c7be286e61dbafa79a5f1d1a1416a2e60047998f04ac1e997b1f3ceb6f65c8d"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/INPUT_IDENTITY_REPAIR_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/capture_belief_evidence.py",
+      "sha256": "e0ca29499d1e3d6f3a602b1429f0603275d19818933648aedbe56696e6e288f3"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/belief/runtime.py",
+      "sha256": "731f6be2e71fa1ec8b537da7e8b13966d527492889fa474b7e67e2f3569ac200"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/belief/runtime.py",
+      "sha256": "619b4f354c475c117d09f769c0fa2968abd7bd05ed1b9a981831f352332c4d28"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/host/yolox/tracker/u2mot_tracker.py",
+      "sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/F00_full.pkl",
+      "sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/models/summary_frozen.pkl",
+      "sha256": "aa48c972a3ddbe4c5e4b82c5f2a64f9032978d7c15a863a5a3caefe67ac04ce8"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tests/test_corrected_reference.py",
+      "sha256": "b6aae94f06a51e203a98ceaec639a618fae514bfb4e533713239d208f0c77656"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/reference_oracle.py",
+      "sha256": "fc746cf4907ee4a47c1b44dd2d29a4924f0cd1a6642b5040b2a1a41b308818a3"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/runtime.py",
+      "sha256": "c9c45a934f1474c95809562559a6bcbbe1f96c80cd6c965de066bc2fb8a16e5b"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/features.py",
+      "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/belief/models.py",
+      "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/capture_belief_evidence.py",
+      "sha256": "e0ca29499d1e3d6f3a602b1429f0603275d19818933648aedbe56696e6e288f3"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/belief_data_common.py",
+      "sha256": "aa1a233b8579675f8c8a6884f8e28544debb08d5b0d7f36d1cc8085fe1d47771"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/u2mot_tracker.py",
+      "sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/matching.py",
+      "sha256": "54098ea68ae30d79e4ec80d2b1db4296a3d713e491b3998627d274855a301444"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/basetrack.py",
+      "sha256": "8e28b57bc1f42bc0129dfae31e709ee8f82f1bf15c422f349e837ce164c0b2f7"
+    },
+    {
+      "receipt": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+      "source": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/host/yolox/tracker/kalman_filter.py",
+      "sha256": "7b82c583571eb8192b54649e8b9fa2294472962f7ffc57fb012a04907450b58c"
+    }
+  ],
+  "observed_identity_gate": {
+    "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/INPUT_IDENTITY_AUDIT_GATE.json",
+    "sha256": "ca08836e20a00b88c3a19b5d1685d7a161a9c7cf626bd504c1d4aac328ec44f4",
+    "status": "RESOLVED_DETECTION_METADATA_IDENTITY",
+    "sealed": true,
+    "evidence_files_rehashed": 28
+  },
+  "sealer_source": {
+    "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/tools/seal_corrected_smoke.py",
+    "sha256": "32005e8485db9e0911395ba9418cf64a058feacd6c268adea99fa6b6d47f8405"
+  },
+  "sealer_review": {
+    "status": "CRITICAL_ACTUAL_200_FRAME_INPUT_AND_REFERENCE_GATES_PRESENT",
+    "verified_source_behavior": [
+      "Rehashes all frozen sources/models and the separate identity/reference CPU receipts; requires actual terminal smoke exit zero.",
+      "Requires nine manifest-ordered global smoke records of one sequence and 200 frames each.",
+      "Rehashes actual prediction files, reads actual runtime reports, checks runtime operators, recomputes the ordered per-frame and rolling input ledger, and compares every arm ledger.",
+      "Requires actual problem frame186 detector SHA and all actual corrected-reference or candidate-legal counters through audit_runtime.",
+      "Writes a manifest-bound resolved sealed identity gate only after these checks; full runner verifies that gate and rehashes all its evidence before launching formal arms."
+    ],
+    "nonblocking_integrity_boundaries": [
+      "Sealer does not parse each local arm receipt and compare it with the global summary; it records the local file SHA. This independent audit actually parsed them and confirms all nine equal.",
+      "Sealer does not separately re-read raw GT guard files or same-process hardware logs. This independent audit verifies each raw guard/log equals the recorded object, with all model SHA values and command model paths also checked.",
+      "Sealer does not compare global record runtime_totals with actual runtime counts; this independent audit confirms equality for all nine arms."
+    ],
+    "no_observed_smoke_integrity_mismatch": true
+  },
+  "known_postprocessing_issue": {
+    "status": "CONFIRMED_NONINFERENCE_SCHEMA_INCOMPATIBILITY",
+    "issue": "E00/E01 arm dictionaries omit bundle_sha256 while analyze_completed.py accesses it directly; the authoritative global manifest frozen_files_sha256 contains both correct model hashes.",
+    "impact": "The frozen final analyzer will raise KeyError after full completion unless root introduces a separately versioned postprocessing compatibility solution. This is not an observed smoke model or metadata mismatch.",
+    "frozen_files_edited_by_this_audit": false
+  },
+  "total_actual_smoke_native_and_candidate_legal_seams": 5400,
+  "total_actual_corrected_reference_seams": 4200,
+  "total_guarded_Python_file_open_checks": 376,
+  "total_blocked_GT_attempts": 0
+}

@@ -1,0 +1,69 @@
+--- frozen
++++ compatibility
+@@ -3,10 +3,12 @@
+ import hashlib
+ import json
+ import math
++import sys
+ from collections import Counter, defaultdict
+ from pathlib import Path
+ 
+-ROOT = Path(__file__).resolve().parent
++ROOT = Path(__file__).resolve().parents[2]
++sys.path.append(str(ROOT))
+ METRICS = ['mota', 'idf1', 'num_false_positives', 'num_misses',
+            'num_switches', 'num_fragmentations']
+ SUMMARY_METRICS = METRICS + ['num_objects']
+@@ -56,6 +58,30 @@
+ def require(condition, message):
+     if not condition:
+         raise AssertionError(message)
++
++
++def expected_bundle_sha(manifest, arm):
++    """Resolve model identity from the unchanged pre-inference freeze."""
++    path = ROOT / arm['bundle']
++    require(str(path) in manifest['frozen_files_sha256'],
++            'MODEL_NOT_IN_ORIGINAL_FREEZE: ' + arm['name'])
++    expected = manifest['frozen_files_sha256'][str(path)]
++    require(arm.get('bundle_sha256', expected) == expected,
++            'ARM_MODEL_HASH_DISAGREES_WITH_FREEZE: ' + arm['name'])
++    require(sha(path) == expected, 'FROZEN_MODEL_CHANGED: ' + arm['name'])
++    return expected
++
++
++def compatibility_provenance():
++    return {
++        'scope': 'Postprocessing only: model hash metadata for E00/E01 is resolved from the original frozen_files_sha256; experiment source, manifest and settings are unchanged.',
++        'frozen_analysis_sha256': {
++            name: sha(ROOT / name)
++            for name in ['analyze_completed.py', 'analyze_mechanisms.py']},
++        'executed_analysis_sha256': {
++            name: sha(Path(__file__).with_name(name))
++            for name in ['analyze_completed.py', 'analyze_mechanisms.py']},
++    }
+ 
+ 
+ def compare_summary(actual, recorded, label):
+@@ -218,8 +244,8 @@
+             require(record['gt_guard']['status'] == 'PASS_NO_GT_READ' and
+                     record['gt_guard']['blocked_gt_attempts'] == 0,
+                     'GT_GUARD_FAILED: ' + name)
+-            require(record['bundle_sha256'] == arm['bundle_sha256'] ==
+-                    sha(ROOT / arm['bundle']), 'FROZEN_MODEL_CHANGED: ' + name)
++            require(record['bundle_sha256'] == expected_bundle_sha(manifest, arm),
++                    'FROZEN_MODEL_CHANGED: ' + name)
+         metric_path = output / 'tracking_metrics.json'
+         value = verified_metric(metric_path, local['metrics_sha256'], reference,
+                                 output / 'track_res')
+@@ -317,7 +343,9 @@
+     summary = {'status': 'VERIFIED_COMPLETE_CORRECTED_METADATA_PAIRED_CONTRASTS',
+                'manifest_sha256': sha(ROOT / 'manifest.json'),
+                'receipt_sha256': sha(ROOT / 'artifacts/receipt.json'),
+-               'analysis_sha256': sha(__file__), 'identity_gate': context['identity_gate'],
++               'analysis_sha256': sha(__file__),
++               'postprocessing_compatibility': compatibility_provenance(),
++               'identity_gate': context['identity_gate'],
+                'provenance': context['provenance'], 'scorer': context['scorer'],
+                'groundtruth_sha256': context['groundtruth_sha256'], 'contrasts': contrasts,
+                'sequence_count': 17, 'frames': 6635, 'corrected_arms': 9,

@@ -1,0 +1,105 @@
+{
+  "status": "PASS_POSTPROCESSING_COMPATIBILITY_3_ROUNDS_9_CHECKS",
+  "created_utc": "2026-10-08T01:11:22.927575+00:00",
+  "experimental_settings_changed": false,
+  "production_source_changed": false,
+  "checks": [
+    {
+      "round": 1,
+      "check": "all_nine_models_bound_to_original_freeze",
+      "status": "PASS",
+      "detail": {
+        "C11_full_reference": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+        "C00_nativecost_reference": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+        "C10_mask_only": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+        "C01_penalty_only": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+        "E10_fusion_no_selective": "e58043b014e851b84440851449c5a52e10bf29af900428e56b2567445f72511c",
+        "H_paired_hierarchical": "ea9398d740472d45ee51dc5052624427c38d7e8948c98f573bbf103bbbe394f8",
+        "H_paired_flat": "1d1435a22ef953824aff5b00770df543e4d7129d4ffec52d40000eaf667952e5",
+        "E00_fusion_off_no_selective": "bbd97ac63539083accaf655d93cd3dd3ca442330af89b411ecfc0162d0f8cd21",
+        "E01_fusion_off_selective": "4165da0896b5246d7a0c494b17c38625fbbb8e55fdee10c6fb0c848e3887ddd9"
+      }
+    },
+    {
+      "round": 1,
+      "check": "E00_E01_missing_metadata_resolves_only_from_frozen_map",
+      "status": "PASS",
+      "detail": [
+        "E00_fusion_off_no_selective",
+        "E01_fusion_off_selective"
+      ]
+    },
+    {
+      "round": 1,
+      "check": "declared_model_hash_tamper_rejected",
+      "status": "PASS",
+      "detail": "ARM_MODEL_HASH_DISAGREES_WITH_FREEZE: E01_fusion_off_selective"
+    },
+    {
+      "round": 2,
+      "check": "frozen_model_hash_tamper_rejected",
+      "status": "PASS",
+      "detail": "FROZEN_MODEL_CHANGED: E01_fusion_off_selective"
+    },
+    {
+      "round": 2,
+      "check": "unfrozen_model_rejected",
+      "status": "PASS",
+      "detail": "MODEL_NOT_IN_ORIGINAL_FREEZE: E01_fusion_off_selective"
+    },
+    {
+      "round": 2,
+      "check": "postprocessing_diff_scope_and_root",
+      "status": "PASS",
+      "detail": {
+        "root": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata",
+        "diff_sha256": "1d74dcb96eab803796cbe058780f01fa70f2e672a60f3ef8590ef24f15fc6a14",
+        "scope": "root import, model-identity resolution and execution provenance only"
+      }
+    },
+    {
+      "round": 3,
+      "check": "all_210_original_frozen_files_unchanged",
+      "status": "PASS",
+      "detail": {
+        "files": 210,
+        "manifest_sha256": "071e1bfa2530ef9b7f79884c3264f5969b19db2f842903732e509d7fa81c965b"
+      }
+    },
+    {
+      "round": 3,
+      "check": "actual_nine_arm_pipeline_terminal_success",
+      "status": "PASS",
+      "detail": {
+        "status": "COMPLETE",
+        "completed_arms": 9,
+        "terminal_exit_codes": [
+          0,
+          0,
+          0
+        ],
+        "tmux_absent": true
+      }
+    },
+    {
+      "round": 3,
+      "check": "full_completed_validator_and_executed_provenance",
+      "status": "PASS",
+      "detail": {
+        "status": "COMPLETE_VERIFIED_CORRECTED_METADATA_MECHANISM_ANALYSIS",
+        "contrasts": 10,
+        "historical_scientific_use": false,
+        "summary_sha256": "af9fcd48fc946bf90d7afc12da1d71e5767b57ff51294183f64cd1f53908b86a"
+      }
+    }
+  ],
+  "scope": "Postprocessing only: model hash metadata for E00/E01 is resolved from the original frozen_files_sha256; experiment source, manifest and settings are unchanged.",
+  "frozen_analysis_sha256": {
+    "analyze_completed.py": "cddb4d9f1fd9b4aa67ce2d1723fc0a312590f7f6b83787a67110f3dcf6b7ba06",
+    "analyze_mechanisms.py": "e6c1542ffcf2c27125037d46904676cc9dc92b9e7730997d88e9f6e8baf7540e"
+  },
+  "executed_analysis_sha256": {
+    "analyze_completed.py": "921640bce222b8641a6f80f4ecd8a07bc2dfbece0e1f772ca437053e0892110c",
+    "analyze_mechanisms.py": "d0eb13564d358e6221c727bb48902ec76a44bed54446810e06a8dfd23057bb8b"
+  }
+}

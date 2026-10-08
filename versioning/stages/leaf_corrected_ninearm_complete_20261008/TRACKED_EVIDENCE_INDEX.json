@@ -1,0 +1,501 @@
+{
+  "stage": "leaf_corrected_ninearm_complete_20261008",
+  "time_asia_shanghai": "2026-10-08T09:19:19.293220+08:00",
+  "files": [
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/EXPERIMENT_PLAN.md",
+      "bytes": 7642,
+      "sha256": "bc67ece1f481ad604bd74b4e7c26133af5af3bb12da468a93c806dff2d27f7fb"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/README.md",
+      "bytes": 1271,
+      "sha256": "242e1b018ccc4e653c0b886db0f6ffec42e37ecd8fa6694e61720e7eb2b44c1f"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/LOCAL_ARTIFACTS.json",
+      "bytes": 700,
+      "sha256": "a28b6fa83ce968c59be9e40f82d2671a82d978949c5d27c737dbb86a44871f9b"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/README.md",
+      "bytes": 1995,
+      "sha256": "0baf20e543ef9bd9cd9eff92c3b0f12764c2dd35baa93930cf3f21fccdae462f"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/COMPATIBILITY_RECEIPT.json",
+      "bytes": 3991,
+      "sha256": "2215b7c0ce8198aeed3078239411a680986b06208462784e07f2af2cc42c61f5"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/HARDWARE_SCHEMA_AUDIT.json",
+      "bytes": 1480,
+      "sha256": "667bade37f26d870475a8b81d25e8b1184ead846146e05e7d49610f777ad1a78"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/PRIMARY_ANALYSIS.diff",
+      "bytes": 3196,
+      "sha256": "1d74dcb96eab803796cbe058780f01fa70f2e672a60f3ef8590ef24f15fc6a14"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/analyze_completed.py",
+      "bytes": 22801,
+      "sha256": "921640bce222b8641a6f80f4ecd8a07bc2dfbece0e1f772ca437053e0892110c"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/analyze_mechanisms.py",
+      "bytes": 16167,
+      "sha256": "d0eb13564d358e6221c727bb48902ec76a44bed54446810e06a8dfd23057bb8b"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/build_mechanism_figures.py",
+      "bytes": 11155,
+      "sha256": "61e1152f3d32b509275581ce6c6d408f2e14bc0aae8129d35522ae9d044f8284"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/verify_delivery.py",
+      "bytes": 8375,
+      "sha256": "06afc6ab390e09dcaaede1d91a38715640fb261f52d51b7056080b9b9f4b2365"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C00_nativecost_reference_gt_guard.json",
+      "bytes": 186,
+      "sha256": "2861ed1da55040151aa732595a8b89a098d641621ac7b63bac586a1ec25195c2"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C00_nativecost_reference_hardware.json",
+      "bytes": 1049,
+      "sha256": "ca1d6fb0c592772d17074d20283af77f75f711712e2a02518b0bce5917c1192a"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C01_penalty_only_gt_guard.json",
+      "bytes": 186,
+      "sha256": "2861ed1da55040151aa732595a8b89a098d641621ac7b63bac586a1ec25195c2"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C01_penalty_only_hardware.json",
+      "bytes": 641,
+      "sha256": "f4c7606dbb474107984245655650198bb0c16582a6a717a9ad13bb97b7caa734"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C10_mask_only_gt_guard.json",
+      "bytes": 186,
+      "sha256": "2861ed1da55040151aa732595a8b89a098d641621ac7b63bac586a1ec25195c2"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C10_mask_only_hardware.json",
+      "bytes": 1049,
+      "sha256": "52876785df165f37deacfc3291ccf3b3636c9f33d8e46947438c19aa214a7d8b"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C11_full_reference_gt_guard.json",
+      "bytes": 186,
+      "sha256": "2861ed1da55040151aa732595a8b89a098d641621ac7b63bac586a1ec25195c2"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C11_full_reference_hardware.json",
+      "bytes": 1049,
+      "sha256": "262e88f1a661438fe75332a21feadf2ca552e9b1dc1a1be327820290560a9eab"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E00_fusion_off_no_selective_gt_guard.json",
+      "bytes": 186,
+      "sha256": "b876d12311afa637ccaa803ea902a2026aebcdca923180751329759e7a7e9b6c"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E00_fusion_off_no_selective_hardware.json",
+      "bytes": 641,
+      "sha256": "616a250ef0a4768ed4c1ae38ed0518e945db4c17adbc9cdd0da64b758397b7ad"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E01_fusion_off_selective_gt_guard.json",
+      "bytes": 186,
+      "sha256": "b876d12311afa637ccaa803ea902a2026aebcdca923180751329759e7a7e9b6c"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E01_fusion_off_selective_hardware.json",
+      "bytes": 641,
+      "sha256": "8b9bc9b3a965da8a86b3b3792f9ff0ead8cc4db8ff3ebc2d52dc616d8fe7458d"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E10_fusion_no_selective_gt_guard.json",
+      "bytes": 186,
+      "sha256": "2861ed1da55040151aa732595a8b89a098d641621ac7b63bac586a1ec25195c2"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E10_fusion_no_selective_hardware.json",
+      "bytes": 642,
+      "sha256": "571c3bbd7682077e34ac50d71a682b2a7a57ee2a9a0554948b12ed02b227e885"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/FINAL_DELIVERY_AUDIT.json",
+      "bytes": 39898,
+      "sha256": "b7d5ff09e46262b8d9b89c9b480f612d8a655bec2203f83e1bbca271a4f02d5b"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/H_paired_flat_gt_guard.json",
+      "bytes": 186,
+      "sha256": "2861ed1da55040151aa732595a8b89a098d641621ac7b63bac586a1ec25195c2"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/H_paired_flat_hardware.json",
+      "bytes": 641,
+      "sha256": "c6b16adcd33849fb4ad3d8f5f69ba6286096a25f93b0308495fc0ca6b4b26cff"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/H_paired_hierarchical_gt_guard.json",
+      "bytes": 186,
+      "sha256": "2861ed1da55040151aa732595a8b89a098d641621ac7b63bac586a1ec25195c2"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/H_paired_hierarchical_hardware.json",
+      "bytes": 641,
+      "sha256": "616a250ef0a4768ed4c1ae38ed0518e945db4c17adbc9cdd0da64b758397b7ad"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/INPUT_IDENTITY_AUDIT_GATE.json",
+      "bytes": 5822,
+      "sha256": "ca08836e20a00b88c3a19b5d1685d7a161a9c7cf626bd504c1d4aac328ec44f4"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/RESULTS_FOR_AUTHOR.md",
+      "bytes": 4777,
+      "sha256": "13d4356128a36f1ec120217aaa5d0853bc140a0443ed605528a0b250343dd537"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/RESULTS_FOR_AUTHOR_ZH.md",
+      "bytes": 6561,
+      "sha256": "1cf7b2c30e70b1a3b582b2e21d1bd6939675bf888263b5fcc8e381707745daa9"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/conditional_mechanism_contrasts.csv",
+      "bytes": 1745,
+      "sha256": "3a9be262198d3d173db1a97d63d2f72b60b8269021c6da831920199423b8ea2a"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/launcher.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/mechanism_activity.csv",
+      "bytes": 2239,
+      "sha256": "60335c768562087aea1b2b73b977b0ec40cf73ad38a5fa1aa36c6a0e516a28f1"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/mechanism_summary.json",
+      "bytes": 52439,
+      "sha256": "af9fcd48fc946bf90d7afc12da1d71e5767b57ff51294183f64cd1f53908b86a"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/paired_flight_descriptive_deltas.csv",
+      "bytes": 12229,
+      "sha256": "59cfdba973f5d603556c704621ca91049f80329f5e1fcfd333319c7618411859"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/paired_sequence_deltas.csv",
+      "bytes": 17577,
+      "sha256": "8dbb44dabd22bb836d10caf409dd5d4dbd78fcb867e630c7161e4870982d9081"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/paired_summary.json",
+      "bytes": 34020,
+      "sha256": "7b20b9e8cca1c9a0b5ffcb90a3e3bf4368464f850b7b2ac534d753654400a519"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/pipeline.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/progress.json",
+      "bytes": 66946,
+      "sha256": "df75088c5fe7104238001b0fc22e09940609c78bd3689164ad000e903efa7b83"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/receipt.json",
+      "bytes": 67076,
+      "sha256": "cb874b2d55573b66700fd8bd443bbaf64494d2bd3c0ee20d8792f783803ee93d"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/results.csv",
+      "bytes": 792,
+      "sha256": "323f89f3d92a926fbe42a53f09c2d8b0c12ba637dacd0a31bee850e81b1a5835"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/retained_historical_controls.csv",
+      "bytes": 2834,
+      "sha256": "7717800c03e54df82b9ea8e47a1e1ef6051858f0fa33697937460b0723e572e5"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/smoke_launcher.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/smoke_receipt.json",
+      "bytes": 31298,
+      "sha256": "7e6fff91b2c5383cabfdacde1db15451e842cfa06a7bae22179ecc45a4dd802c"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C00_nativecost_reference/receipt.json",
+      "bytes": 7080,
+      "sha256": "50be02d4ff21779c5c43bc019e2fb0393f700b44edcba6cd8423fc5976424999"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C00_nativecost_reference/tracking_metrics.json",
+      "bytes": 15089,
+      "sha256": "1d4ab3e5fe08b98fd8ce766a9e74e0ba52404e9c8ce2d20ef51c7ac961cb0765"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C01_penalty_only/receipt.json",
+      "bytes": 6847,
+      "sha256": "e97939bd0a2d7590ec87411c6106b3e5752fd5806c2161bd64586d1ec31423f6"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C01_penalty_only/tracking_metrics.json",
+      "bytes": 15080,
+      "sha256": "1fba3badd57883783b1a8af8fd697a0c86f322c0abf11babce1e71c51987d5f0"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C10_mask_only/receipt.json",
+      "bytes": 6833,
+      "sha256": "f0604ae55858d58df324bfe2859de2a60b91eeee787ab2d94449cf35e2656110"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C10_mask_only/tracking_metrics.json",
+      "bytes": 15074,
+      "sha256": "96c78814b7ed22088d19b80861c66dd563a9a382163f8112353f4da2385924ef"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C11_full_reference/receipt.json",
+      "bytes": 7074,
+      "sha256": "7bdaaaf4455d4c28bd38db946f49cbaf71658bff2b1eaccfd4fd5cf92dda869e"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C11_full_reference/tracking_metrics.json",
+      "bytes": 15060,
+      "sha256": "f5f272cd45da65acadfeb78f50cc339ff2f0c9c42a063a9a39625b876455a603"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E00_fusion_off_no_selective/receipt.json",
+      "bytes": 6649,
+      "sha256": "cb60a9aea3b0f55bd920af2d3699cead625e9fdc78c269c9d57bbb650fc26804"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E00_fusion_off_no_selective/tracking_metrics.json",
+      "bytes": 15058,
+      "sha256": "e0b64d3a09d56f5776d8877e1696429b33339985fa1c7fba26a703296392877d"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E01_fusion_off_selective/receipt.json",
+      "bytes": 6834,
+      "sha256": "b923865c915580ffea1e95a7a0ba5bb906b3d2c23178871c4b2cff8456a61e81"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E01_fusion_off_selective/tracking_metrics.json",
+      "bytes": 15093,
+      "sha256": "cf7d5fb5a5b4c806a84470f3aab7bae2b87cde62ea587725ef3c2c9da5b4f676"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E10_fusion_no_selective/receipt.json",
+      "bytes": 6718,
+      "sha256": "a6f9ef3bdc582ae827a9280d14a4ac4311496a54e3e2a42797ad980758d1f6ab"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E10_fusion_no_selective/tracking_metrics.json",
+      "bytes": 15065,
+      "sha256": "ab1b66d0c1ba192748b8e0e66d230c4b866745db186d6d53ab5342707de3d6d5"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/H_paired_flat/receipt.json",
+      "bytes": 6901,
+      "sha256": "4138c408b5166a3b7125018c3c47776c9a6934529f15c7959c346a14228db997"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/H_paired_flat/tracking_metrics.json",
+      "bytes": 15086,
+      "sha256": "47077a4f4be450985e79c4e251622b4621f12686d6d31eaf156b622f9d956601"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/H_paired_hierarchical/receipt.json",
+      "bytes": 6906,
+      "sha256": "4706db2dd026cd751822c8b03a20c7ca26c4b4acb45b02766d0768a4fdec8e03"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/H_paired_hierarchical/tracking_metrics.json",
+      "bytes": 15097,
+      "sha256": "415014e2e769e7ea09fe5bf0e9a8f2b28de5caa7539b6040452152cd452071e3"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/C00_nativecost_reference_command.json",
+      "bytes": 2239,
+      "sha256": "af216f42ccc2217982e385cc04bb29171941d8ed589f784b67599a866e7dc773"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/C01_penalty_only_command.json",
+      "bytes": 2077,
+      "sha256": "4cf2d1365a8b0edd9d06b1ee2ca897db428ffd9e194a3316f7fe77d962f0b9cc"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/C10_mask_only_command.json",
+      "bytes": 2065,
+      "sha256": "4c4e72f5af126f8e07c27f18a0c9913ac7a9dc966b71bdb151f1140f4a6064e8"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/C11_full_reference_command.json",
+      "bytes": 2169,
+      "sha256": "8f424a9798303762bdf98a2a1553253d2266fcac16c9329faeebc98f56873c08"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/E00_fusion_off_no_selective_command.json",
+      "bytes": 2020,
+      "sha256": "2c94a60c7fc57e342da83e4e62b7749257a39ed97ea957b6590753249826bf6b"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/E01_fusion_off_selective_command.json",
+      "bytes": 2009,
+      "sha256": "c899dde74d2749edeedf9fcf91e1b1e87707a811c4689bce161ad9d7dbef709d"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/E10_fusion_no_selective_command.json",
+      "bytes": 2098,
+      "sha256": "186c56773e883f67f335438613b7b61f553f62876bbd940d917fdc1c8ed42dc6"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/H_paired_flat_command.json",
+      "bytes": 2140,
+      "sha256": "a58d9ffe153fca9e0ff915def971bc869920df100d9e046cea2b085b6a56366a"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/H_paired_hierarchical_command.json",
+      "bytes": 2172,
+      "sha256": "24cc471fbf25f58515c00d6a95a32d1976638e40ff0117f013fd76a144e47f8b"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/figures/FIGURE_CAPTIONS.md",
+      "bytes": 1873,
+      "sha256": "8399ffeb3d645f8ca44526cef1b843a869401844100481fed032250f8e199591"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/figures/FIGURE_RECEIPT.json",
+      "bytes": 2369,
+      "sha256": "2cd79fad1bb98bf75c71bba9bed33b74334d4bb0d955fe319a6027d4fdcf2dbb"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/figures/VISUAL_QA.json",
+      "bytes": 1169,
+      "sha256": "331eb97a3cca322ac5b3f4b3c071076bdd8e78523b08154bd0217a6bd2ee1ffa"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/figures/error_contribution_data.csv",
+      "bytes": 1178,
+      "sha256": "79c857eee592cce8199d6b31cd79155d72263ae7209f9ea6a736a91e4e4babc0"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/review/FROZEN_NINE_ARM_CONTRACT_AUDIT_20261008.md",
+      "bytes": 10525,
+      "sha256": "59c6ff39e4edeebf10a8b1ae2bfa566847ea7563c5b8df871334ccf7ef986455"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/review/MECHANISM_FIGURE_OPTIONS.md",
+      "bytes": 16657,
+      "sha256": "79ce1296af731319c8378e14703da38dd074c1e927836765db6612d45b3184ce"
+    },
+    {
+      "path": "continuation_20261008/leaf_internal_mechanism/completed_v2/review/SMOKE_INDEPENDENT_PARTIAL_AUDIT_20261008.json",
+      "bytes": 82865,
+      "sha256": "84fcc8cfb5e03b465b9704da9f23e9f56e40ca22a172724c7ac3d174c19eb63d"
+    },
+    {
+      "path": "versioning/stages/leaf_corrected_ninearm_complete_20261008/LOCAL_ARTIFACT_INDEX.json",
+      "bytes": 8751,
+      "sha256": "62c9b3210ab3f26e0656f25df007d506820050f71f8ec78ace057b8c91ff213d"
+    }
+  ],
+  "excluded_large_text": [],
+  "included_files": [
+    "continuation_20261008/leaf_internal_mechanism/EXPERIMENT_PLAN.md",
+    "continuation_20261008/leaf_internal_mechanism/README.md",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/LOCAL_ARTIFACTS.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/README.md",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/COMPATIBILITY_RECEIPT.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/HARDWARE_SCHEMA_AUDIT.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/PRIMARY_ANALYSIS.diff",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/analyze_completed.py",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/analyze_mechanisms.py",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/build_mechanism_figures.py",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/analysis/verify_delivery.py",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C00_nativecost_reference_gt_guard.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C00_nativecost_reference_hardware.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C01_penalty_only_gt_guard.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C01_penalty_only_hardware.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C10_mask_only_gt_guard.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C10_mask_only_hardware.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C11_full_reference_gt_guard.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/C11_full_reference_hardware.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E00_fusion_off_no_selective_gt_guard.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E00_fusion_off_no_selective_hardware.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E01_fusion_off_selective_gt_guard.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E01_fusion_off_selective_hardware.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E10_fusion_no_selective_gt_guard.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/E10_fusion_no_selective_hardware.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/FINAL_DELIVERY_AUDIT.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/H_paired_flat_gt_guard.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/H_paired_flat_hardware.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/H_paired_hierarchical_gt_guard.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/H_paired_hierarchical_hardware.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/INPUT_IDENTITY_AUDIT_GATE.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/RESULTS_FOR_AUTHOR.md",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/RESULTS_FOR_AUTHOR_ZH.md",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/conditional_mechanism_contrasts.csv",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/launcher.exit",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/mechanism_activity.csv",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/mechanism_summary.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/paired_flight_descriptive_deltas.csv",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/paired_sequence_deltas.csv",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/paired_summary.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/pipeline.exit",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/progress.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/results.csv",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/retained_historical_controls.csv",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/smoke_launcher.exit",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/artifacts/smoke_receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C00_nativecost_reference/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C00_nativecost_reference/tracking_metrics.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C01_penalty_only/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C01_penalty_only/tracking_metrics.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C10_mask_only/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C10_mask_only/tracking_metrics.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C11_full_reference/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/C11_full_reference/tracking_metrics.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E00_fusion_off_no_selective/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E00_fusion_off_no_selective/tracking_metrics.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E01_fusion_off_selective/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E01_fusion_off_selective/tracking_metrics.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E10_fusion_no_selective/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/E10_fusion_no_selective/tracking_metrics.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/H_paired_flat/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/H_paired_flat/tracking_metrics.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/H_paired_hierarchical/receipt.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/cells/H_paired_hierarchical/tracking_metrics.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/C00_nativecost_reference_command.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/C01_penalty_only_command.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/C10_mask_only_command.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/C11_full_reference_command.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/E00_fusion_off_no_selective_command.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/E01_fusion_off_selective_command.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/E10_fusion_no_selective_command.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/H_paired_flat_command.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/commands/H_paired_hierarchical_command.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/figures/FIGURE_CAPTIONS.md",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/figures/FIGURE_RECEIPT.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/figures/VISUAL_QA.json",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/figures/error_contribution_data.csv",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/review/FROZEN_NINE_ARM_CONTRACT_AUDIT_20261008.md",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/review/MECHANISM_FIGURE_OPTIONS.md",
+    "continuation_20261008/leaf_internal_mechanism/completed_v2/review/SMOKE_INDEPENDENT_PARTIAL_AUDIT_20261008.json"
+  ],
+  "self_index_hash_omitted": true
+}

@@ -1,3 +1,5 @@
+> Execution amendment, 2026-10-08: the plan below is the original pre-inference v1 preregistration. v1 stopped after the confirmed metadata identity defect. The sealed corrected protocol in corrected_v2/PROTOCOL_AMENDMENT.json and corrected_v2/PROTOCOL.md supersedes its historical-score reuse/parity gates and adds fresh E00/E01 cells. All nine corrected full runs are now complete; see completed_v2/artifacts/RESULTS_FOR_AUTHOR_ZH.md. Historical metrics remain archived outside corrected scientific contrasts.
+
 # Current LEAF internal mechanism addendum, 2026-10-08
 
 The user requested an experiment-gap plan followed by actual scoring. This

@@ -1,0 +1,11 @@
+contrast,treatment,control,evidence_kind,scientific_use,mota_pp,idf1_pp,num_false_positives,num_misses,num_switches,num_fragmentations
+mask_without_penalty,C10_mask_only,C00_nativecost_reference,corrected_metadata_new_cells_only,True,0.062307739231215464,0.036694564821571074,-62,-81,0,-10
+penalty_without_mask,C01_penalty_only,C00_nativecost_reference,corrected_metadata_new_cells_only,True,0.16252298414856092,0.15842620867833057,-192,-172,-9,-5
+penalty_with_mask,C11_full_reference,C10_mask_only,corrected_metadata_new_cells_only,True,0.14509424590206654,0.15134576865155625,-143,-181,-9,-1
+mask_with_penalty,C11_full_reference,C01_penalty_only,corrected_metadata_new_cells_only,True,0.044879000984721085,0.029614124794796748,-13,-90,0,-6
+SRC_joint_cost_operators,C11_full_reference,C00_nativecost_reference,corrected_metadata_new_cells_only,True,0.207401985133282,0.18804033347312732,-205,-262,-9,-11
+selective_with_fusion,C11_full_reference,E10_fusion_no_selective,corrected_metadata_new_cells_only,True,0.20086620829085078,0.1132557771818199,2103,-2701,137,179
+fusion_without_selective,E10_fusion_no_selective,E00_fusion_off_no_selective,corrected_metadata_new_cells_only,True,0.1947661499045794,0.3333925282100747,2221,-2737,69,104
+fusion_with_selective,C11_full_reference,E01_fusion_off_selective,corrected_metadata_new_cells_only,True,0.06971495298597752,0.04275650274426779,182,-368,26,13
+selective_without_fusion,E01_fusion_off_selective,E00_fusion_off_no_selective,corrected_metadata_new_cells_only,True,0.32591740520945267,0.4038918026476268,4142,-5070,180,270
+paired_hierarchy_minus_flat,H_paired_hierarchical,H_paired_flat,corrected_metadata_new_cells_only,True,-0.07320070063526751,-0.05151681441661893,489,-352,31,22
