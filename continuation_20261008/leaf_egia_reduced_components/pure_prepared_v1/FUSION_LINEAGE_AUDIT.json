@@ -1,0 +1,37 @@
+{
+  "status": "LIVE_CODE_AND_COMPLETED_SCORE_LINEAGE_VERIFIED",
+  "current_paper_joint_row": "fusion-on F00",
+  "current_paper_EGIA_only": "native branch refit without summary fusion",
+  "pure_inference_contract": {
+    "pure_v5_policy": true,
+    "legacy_egia_loaded": false,
+    "egia_fusion_events": 0
+  },
+  "runtime_source_sha256": "8a93d0abe2ad63b615b118d6cd31f5ca37b3e6527bdecdf24f34272e0cc2046a",
+  "old_session_read": "/home/chenhc/.codex/sessions/2026/10/07/rollout-2026-10-07T15-27-52-01a11542-f887-7631-86c3-689689be96de.jsonl",
+  "old_promise_scope": "branch-specific both should not contain old H2 summary head",
+  "input_matched_completed_SRCoff_G0": {
+    "fusion_on": {
+      "MOTA": 57.31963434507159,
+      "IDF1": 71.07095379730492,
+      "IDs": 846
+    },
+    "fusion_off_selective_on": {
+      "MOTA": 57.15972567166,
+      "IDF1": 71.03470552345404,
+      "IDs": 828
+    }
+  },
+  "paper_SRC_on_gate_on": {
+    "fusion_off_selective_on": {
+      "MOTA": 57.9553,
+      "IDF1": 71.3309
+    },
+    "fusion_on_selective_on": {
+      "MOTA": 58.0251,
+      "IDF1": 71.3737
+    }
+  },
+  "experimental_paper_edits": false,
+  "baseline_hardware_and_GT_protocol_fixed": true
+}
