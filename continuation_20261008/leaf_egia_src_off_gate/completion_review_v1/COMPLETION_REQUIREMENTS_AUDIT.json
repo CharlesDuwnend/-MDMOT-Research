@@ -1,0 +1,37 @@
+{
+  "status": "PASS_COMPLETION_REQUIREMENTS_ALL_23_CELLS_AND_20_PAIRED_VALUES",
+  "frozen_dependencies_verified": 246,
+  "cells": 23,
+  "paired_rows": 10,
+  "raw_prediction_files_rehashed_by_scored_final_audit": 391,
+  "native_reference_seams": 398100,
+  "SRC_reference_seams": 59715,
+  "original_GT_denominator": 229506,
+  "all_5_terminal_codes_zero": true,
+  "archive_CSV_values_and_all_hashes_consistent": true,
+  "protected_staging_preserved": true,
+  "manuscript_PDF_unchanged": true,
+  "gains": {
+    "0": {
+      "idf1": 1.1348896218091986,
+      "mota": 1.3921204674387622,
+      "num_false_positives": -5046,
+      "num_fragmentations": -245,
+      "num_misses": 2293,
+      "num_switches": -442
+    },
+    "1": {
+      "idf1": 0.46497602167645535,
+      "mota": 0.4139325333542443,
+      "num_false_positives": -2588,
+      "num_fragmentations": -146,
+      "num_misses": 1852,
+      "num_switches": -214
+    }
+  },
+  "scored_evidence_push_succeeded_commit": "a0de818ff038b33b0af938d1407bb9619c44d722",
+  "push_evidence": "git push exited 0 and advanced main from bab7de6 to a0de818; local remote-tracking ref equals pushed HEAD",
+  "subsequent_independent_remote_read": "Temporary DNS resolution failure on two git ls-remote attempts",
+  "method_variant_selection_or_retraining_performed": false,
+  "audit_condition_correction": "Selective execution is required only when EGIA is enabled; bypass controls correctly have zero selective calls."
+}
