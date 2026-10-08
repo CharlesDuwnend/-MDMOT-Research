@@ -6,7 +6,9 @@
     "FINALIZATION_RECEIPT.json": "16be2e35fbf28a39b538ae75d1040c8152e72a7768cda1992a28d5e4f36a22e6",
     "PAIRED_GATE_TABLE_ZH.md": "abf5ced9247b2d7b1f5576227d2bf78a0db4f5dc06fa50705dcbc2224db02e21",
     "PAIRED_PRESENTATION_PREREGISTRATION.json": "b44b1e681ef3489d476fcae16926229912f9c9941a86171caaa5481168cdd7e2",
-    "deliver_paired_when_complete.py": "eeff487ab2d41638af2bbce1ed45b1bd1151b26dae123a1192dcdc3765fc9099"
+    "deliver_paired_when_complete.py": "eeff487ab2d41638af2bbce1ed45b1bd1151b26dae123a1192dcdc3765fc9099",
+    "tracking_results.csv": "5c4947e9802e609ccfe4a2aff083217cdca0f7822cdf1528933bc56cf1a8a703",
+    "birth_statistics.csv": "894f7dd09bc6c86d46e46c9293b1c0dfa779bc9cdac848fb8e36be900e5eb217"
   },
   "source_final_audit_sha256": "d37b81b849fad663422a15b696ae2757d73650abb59a7324d1520d8648ffcaad",
   "presentation_output": {
@@ -15,5 +17,13 @@
     "source_sha256": "88faf48c2ad1169fcdfa1073ffebd365f779329fe87bbd67a38f842518207e6e",
     "source_results_sha256": "0165e2e72f0e6aba7af71af9d2c05d41afaf3884dc50fa31d7af91ab3cf39a24"
   },
-  "remote_backup": false
+  "remote_backup": false,
+  "archive_csv_reference_repair": {
+    "source": "../completed_v1",
+    "added_files": [
+      "tracking_results.csv",
+      "birth_statistics.csv"
+    ],
+    "tracking_values_or_inference_sources_changed": false
+  }
 }
