@@ -1,0 +1,52 @@
+{
+  "status": "PASS_ARCHIVE_POLICY_3_ROUNDS_9_CHECKS",
+  "initial_failure": "stage_snapshot rejected .tex source copies because .tex is excluded by the repository whitelist. No commit or index mutation occurred.",
+  "resolution": "Archive exact revision patches and compact provenance; retain full .tex copies locally. Whitelist unchanged.",
+  "checks": [
+    {
+      "round": 1,
+      "name": "tex_not_whitelisted_in_current_gitignore",
+      "status": "PASS"
+    },
+    {
+      "round": 1,
+      "name": "both_tex_archive_paths_are_excluded",
+      "status": "PASS"
+    },
+    {
+      "round": 1,
+      "name": "patch_and_markdown_filetypes_are_whitelisted",
+      "status": "PASS"
+    },
+    {
+      "round": 2,
+      "name": "existing_tex_copies_match_actual_sources",
+      "status": "PASS"
+    },
+    {
+      "round": 2,
+      "name": "both_revision_patches_are_eligible",
+      "status": "PASS"
+    },
+    {
+      "round": 2,
+      "name": "both_patches_match_exact_before_after_diff",
+      "status": "PASS"
+    },
+    {
+      "round": 3,
+      "name": "remaining_compact_scope_is_all_eligible",
+      "status": "PASS"
+    },
+    {
+      "round": 3,
+      "name": "no_binary_or_large_artifact_staged",
+      "status": "PASS"
+    },
+    {
+      "round": 3,
+      "name": "repository_whitelist_and_unrelated_staging_unchanged",
+      "status": "PASS"
+    }
+  ]
+}
