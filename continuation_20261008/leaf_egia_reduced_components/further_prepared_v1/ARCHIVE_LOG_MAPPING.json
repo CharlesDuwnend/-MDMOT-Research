@@ -1,0 +1,26 @@
+{
+  "runtime_logs_unchanged": true,
+  "git_policy_preserved": true,
+  "mapping": {
+    "logs/cpu_contracts.log": "cpu_contracts.md",
+    "logs/cpu_round1.log": "cpu_round1.md",
+    "logs/cpu_round2.log": "cpu_round2.md"
+  },
+  "audit_rounds": [
+    {
+      "round": 1,
+      "check": "Archive .log eligibility",
+      "outcome": "excluded by existing .log rule; no index changes"
+    },
+    {
+      "round": 2,
+      "check": "Archive .txt eligibility",
+      "outcome": "excluded by existing text allowlist; no index changes"
+    },
+    {
+      "round": 3,
+      "check": "Compact evidence .md and scoped stage",
+      "outcome": "Use allowed Markdown evidence; preserve raw runtime logs"
+    }
+  ]
+}

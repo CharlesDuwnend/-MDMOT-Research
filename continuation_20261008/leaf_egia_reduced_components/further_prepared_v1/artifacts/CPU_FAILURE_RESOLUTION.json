@@ -1,0 +1,42 @@
+{
+  "status": "RESOLVED_TEST_FIXTURES_NO_MODEL_OR_POLICY_CHANGE",
+  "rounds": [
+    {
+      "round": 1,
+      "passed": 8,
+      "failed": 5,
+      "checks": [
+        "source and unchanged operator signatures",
+        "float64 real-classifier reconstruction",
+        "native eligibility versus EGIA final admission"
+      ]
+    },
+    {
+      "round": 2,
+      "passed": 13,
+      "failed": 0,
+      "checks": [
+        "real head and probability operator checks",
+        "unchanged native and birth decision AST",
+        "both birth gate locations in actual runtime"
+      ]
+    },
+    {
+      "round": 3,
+      "passed": 13,
+      "failed": 0,
+      "checks": [
+        "frozen model and fit-calibration lineage",
+        "independent equivalence operator checks",
+        "actual no SRC no gate no H2 runtime"
+      ]
+    }
+  ],
+  "fixes": [
+    "Audited existing associate method rather than nonexistent helper name",
+    "Independent classifier probe uses float64 exactly as live anchor",
+    "Observe native eligibility counters; outer adapter already invokes EGIA so its final admission is not native-only eligibility"
+  ],
+  "unchanged_inference_operator": true,
+  "new_scores_seen": 0
+}
