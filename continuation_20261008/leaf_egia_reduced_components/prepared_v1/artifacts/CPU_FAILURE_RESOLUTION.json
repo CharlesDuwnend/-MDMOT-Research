@@ -1,0 +1,44 @@
+{
+  "status": "RESOLVED_BEFORE_GPU_LAUNCH",
+  "failure": "CPU synthetic event lacked four legacy context feature keys; real runtime renders these fields",
+  "production_operator_changed_for_this_failure": false,
+  "formal_scores_seen": 0,
+  "rounds": [
+    {
+      "round": 1,
+      "log": "/home/chenhc/leaf_egia_reduced_20261008_v1/logs/cpu_contracts_round1_fixture_failure.log",
+      "log_sha256": "098ed1135ef81e2fa2303a3e1a6cb54169d58cc66cc88d1aa19b11794656c431",
+      "three_implementation_checks": [
+        "frozen F00 and prepared train split verified",
+        "retained estimators and unchanged fusion/selective verified",
+        "actual OnlineBeliefTracker native seams, SRC-off and gate-off verified"
+      ],
+      "outcome": "32 passed; 2 event-fixture failures",
+      "fixture_resolution": null
+    },
+    {
+      "round": 2,
+      "log": "/home/chenhc/leaf_egia_reduced_20261008_v1/logs/cpu_contracts_round2.log",
+      "log_sha256": "a108a4cdd6db6ab4c6e6e641093c33e2cbd21fc8bcc3f771d699706f07dba668",
+      "three_implementation_checks": [
+        "frozen F00 and prepared train split verified",
+        "retained estimators and unchanged fusion/selective verified",
+        "actual OnlineBeliefTracker native seams, SRC-off and gate-off verified"
+      ],
+      "outcome": "34 passed",
+      "fixture_resolution": "all 10 live legacy features explicitly present"
+    },
+    {
+      "round": 3,
+      "log": "/home/chenhc/leaf_egia_reduced_20261008_v1/logs/cpu_contracts.log",
+      "log_sha256": "3349ee68337434860794e4ef6b00a48a9d2da412a29b8322fd98dff2de21d8d7",
+      "three_implementation_checks": [
+        "frozen F00 and prepared train split verified",
+        "retained estimators and unchanged fusion/selective verified",
+        "actual OnlineBeliefTracker native seams, SRC-off and gate-off verified"
+      ],
+      "outcome": "34 passed",
+      "fixture_resolution": "all 10 live legacy features explicitly present"
+    }
+  ]
+}
