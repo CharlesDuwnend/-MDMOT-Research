@@ -1,0 +1,36 @@
+{
+  "status": "RESOLVED_NATIVE_BYPASS_COUNTER_AUDIT_AND_CPU_FIXTURE",
+  "new_root": "/home/chenhc/leaf_egia_detailed_20261008_v2",
+  "old_root": "/home/chenhc/leaf_egia_detailed_20261008_v1",
+  "old_attempt_terminal_exit": 1,
+  "old_frozen_files_preserved": true,
+  "interventions_unchanged": true,
+  "new_tracking_behavior_changes": "none; add native gate counters only",
+  "tests_passed": 59,
+  "rounds": [
+    {
+      "round": 1,
+      "checks": [
+        "Read actual native bypass report: full SRC counters positive, no EGIA admission fields",
+        "Inspect canonical native gate early return and source call counter zero",
+        "Preserve v1 stop, manifest and two completed smoke streams without formal scores"
+      ]
+    },
+    {
+      "round": 2,
+      "checks": [
+        "Use fresh v2 clone; add native gate calls/admissions counters without changing decisions",
+        "Audit disabled admissions against SRC initialization; EGIA-on against source birth seams",
+        "Inspect real detector identity requirement after failed CPU birth fixture; bind full matching raw tuple"
+      ]
+    },
+    {
+      "round": 3,
+      "checks": [
+        "Current 59 CPU contracts all pass including actual enabled/disabled birth calls",
+        "Separate nine whole immutable association and pending-state reference checks pass",
+        "Freeze v2 230 dependencies plus prior terminal evidence; require corrected historical C11 prediction/input parity"
+      ]
+    }
+  ]
+}

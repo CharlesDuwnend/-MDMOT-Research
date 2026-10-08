@@ -1,0 +1,503 @@
+{
+  "status": "PASS_NINE_CORRECTED_REFERENCE_CPU_CONTRACTS",
+  "scope": "Real STrack/F00/summary heads, whole immutable associate methods under shared corrected metadata",
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "rounds": 3,
+  "checks_per_round": 3,
+  "checks": [
+    {
+      "round": 1,
+      "check": 1,
+      "name": "immutable providers and MRO",
+      "status": "PASS",
+      "evidence": {
+        "providers": [
+          {
+            "cost_enabled": true,
+            "runtime": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/belief/runtime.py",
+            "runtime_sha256": "731f6be2e71fa1ec8b537da7e8b13966d527492889fa474b7e67e2f3569ac200",
+            "associate_code_file": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/belief/runtime.py",
+            "MRO": [
+              "_leaf_immutable_reference_1.BeliefTracker",
+              "yolox.tracker.u2mot_tracker.U2MOTTracker",
+              "builtins.object"
+            ],
+            "providers": {
+              "semantic_penalty": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/models.py",
+                "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+                "function_AST_sha256": "ba48cc88d1bb2ac1eda3a8606972ce1f3061696aa46b3ef68f3dc13f43689458"
+              },
+              "semantic_update": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/models.py",
+                "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+                "function_AST_sha256": "d50fbf3ec60524b242920362cefc8a157605a821cafe94d14aa663b999df912d"
+              },
+              "responsibility_features": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/features.py",
+                "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7",
+                "function_AST_sha256": "9398a893fe902473fb145dd56e81e1b3213a6b8cfb901aebe4da4f389b36f250"
+              },
+              "semantic_features": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/features.py",
+                "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7",
+                "function_AST_sha256": "c99d3905cda99afca3ef067d1988d0edb0e53261b8f764e1f3078d4e988f7b27"
+              },
+              "host_associate": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/u2mot_tracker.py",
+                "sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6"
+              },
+              "matching_lap": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/matching.py",
+                "sha256": "54098ea68ae30d79e4ec80d2b1db4296a3d713e491b3998627d274855a301444"
+              },
+              "shared_corrected_det_record": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/tools/capture_belief_evidence.py",
+                "sha256": "e0ca29499d1e3d6f3a602b1429f0603275d19818933648aedbe56696e6e288f3"
+              }
+            }
+          },
+          {
+            "cost_enabled": false,
+            "runtime": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/belief/runtime.py",
+            "runtime_sha256": "619b4f354c475c117d09f769c0fa2968abd7bd05ed1b9a981831f352332c4d28",
+            "associate_code_file": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/belief/runtime.py",
+            "MRO": [
+              "_leaf_immutable_reference_0.BeliefTracker",
+              "yolox.tracker.u2mot_tracker.U2MOTTracker",
+              "builtins.object"
+            ],
+            "providers": {
+              "semantic_penalty": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/models.py",
+                "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+                "function_AST_sha256": "ba48cc88d1bb2ac1eda3a8606972ce1f3061696aa46b3ef68f3dc13f43689458"
+              },
+              "semantic_update": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/models.py",
+                "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+                "function_AST_sha256": "d50fbf3ec60524b242920362cefc8a157605a821cafe94d14aa663b999df912d"
+              },
+              "responsibility_features": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/features.py",
+                "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7",
+                "function_AST_sha256": "9398a893fe902473fb145dd56e81e1b3213a6b8cfb901aebe4da4f389b36f250"
+              },
+              "semantic_features": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/features.py",
+                "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7",
+                "function_AST_sha256": "c99d3905cda99afca3ef067d1988d0edb0e53261b8f764e1f3078d4e988f7b27"
+              },
+              "host_associate": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/u2mot_tracker.py",
+                "sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6"
+              },
+              "matching_lap": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/matching.py",
+                "sha256": "54098ea68ae30d79e4ec80d2b1db4296a3d713e491b3998627d274855a301444"
+              },
+              "shared_corrected_det_record": {
+                "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/tools/capture_belief_evidence.py",
+                "sha256": "e0ca29499d1e3d6f3a602b1429f0603275d19818933648aedbe56696e6e288f3"
+              }
+            }
+          }
+        ],
+        "shared_corrected_capture_declared": true,
+        "feature_file_difference": "Only unused source_vectors pair_shuffle instrumentation differs; called functions AST identical",
+        "old_feature_file_sha256": "816bd3591e8905a26a63fc8616c7095f4721e0c9e67377ed63a4479a87a38e52",
+        "current_feature_file_sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7"
+      }
+    },
+    {
+      "round": 1,
+      "check": 2,
+      "name": "real F00 and summary CPU predictions",
+      "status": "PASS",
+      "evidence": {
+        "observation_probabilities": [
+          [
+            0.9990141566443032,
+            0.0009858433556968523
+          ],
+          [
+            0.000619562295934073,
+            0.9993804377040659
+          ]
+        ],
+        "summary": [
+          0.11168713418697582,
+          0.4301702189530028,
+          0.4581426468600214
+        ],
+        "cuda_initialized": false
+      }
+    },
+    {
+      "round": 1,
+      "check": 3,
+      "name": "C11 direct original whole-method equality",
+      "status": "PASS",
+      "evidence": {
+        "assignment": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [],
+          []
+        ],
+        "pending": 2,
+        "stage": 1
+      }
+    },
+    {
+      "round": 2,
+      "check": 1,
+      "name": "C00 direct update-only whole-method variants",
+      "status": "PASS",
+      "evidence": {
+        "variants": [
+          {
+            "fuse_score": false,
+            "iou_only": false,
+            "assignment": [
+              [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              [],
+              []
+            ],
+            "pending": 2
+          },
+          {
+            "fuse_score": true,
+            "iou_only": false,
+            "assignment": [
+              [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              [],
+              []
+            ],
+            "pending": 2
+          },
+          {
+            "fuse_score": false,
+            "iou_only": true,
+            "assignment": [
+              [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              [],
+              []
+            ],
+            "pending": 2
+          }
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "check": 2,
+      "name": "all empty combinations use complete original methods",
+      "status": "PASS",
+      "evidence": {
+        "cases": 6
+      }
+    },
+    {
+      "round": 2,
+      "check": 3,
+      "name": "duplicate bbox class/score high-low identity",
+      "status": "PASS",
+      "evidence": {
+        "observations": [
+          {
+            "arm": "fc_full",
+            "ordinal": 1,
+            "class": 3,
+            "score": 0.89990234375,
+            "confidence": 0.7998046875
+          },
+          {
+            "arm": "fc_full",
+            "ordinal": 0,
+            "class": 0,
+            "score": 0.39990234375,
+            "confidence": 0.89990234375
+          },
+          {
+            "arm": "fc_full",
+            "ordinal": 0,
+            "class": 3,
+            "score": 0.89990234375,
+            "confidence": 0.7998046875
+          },
+          {
+            "arm": "fc_full",
+            "ordinal": 1,
+            "class": 0,
+            "score": 0.39990234375,
+            "confidence": 0.89990234375
+          },
+          {
+            "arm": "fc_control",
+            "ordinal": 1,
+            "class": 3,
+            "score": 0.89990234375,
+            "confidence": 0.7998046875
+          },
+          {
+            "arm": "fc_control",
+            "ordinal": 0,
+            "class": 0,
+            "score": 0.39990234375,
+            "confidence": 0.89990234375
+          },
+          {
+            "arm": "fc_control",
+            "ordinal": 0,
+            "class": 3,
+            "score": 0.89990234375,
+            "confidence": 0.7998046875
+          },
+          {
+            "arm": "fc_control",
+            "ordinal": 1,
+            "class": 0,
+            "score": 0.39990234375,
+            "confidence": 0.89990234375
+          }
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "check": 1,
+      "name": "whole-seam clone isolation including aliased real STrack",
+      "status": "PASS",
+      "evidence": {
+        "cases": [
+          {
+            "arm": "fc_full",
+            "pending": 2,
+            "alias_case_checked": true
+          },
+          {
+            "arm": "fc_control",
+            "pending": 2,
+            "alias_case_checked": true
+          }
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "check": 2,
+      "name": "host-commit boundary and original semantic update",
+      "status": "PASS",
+      "evidence": {
+        "cases": [
+          {
+            "arm": "fc_full",
+            "commits": 2
+          },
+          {
+            "arm": "fc_control",
+            "commits": 2
+          }
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "check": 3,
+      "name": "deliberate tuple/pending/stage defects must reject",
+      "status": "PASS",
+      "evidence": {
+        "rejected": [
+          "fc_full:unmatched",
+          "fc_full:responsibility",
+          "fc_full:ratio",
+          "fc_full:stage",
+          "fc_full:metadata",
+          "fc_control:unmatched",
+          "fc_control:responsibility",
+          "fc_control:ratio",
+          "fc_control:stage",
+          "fc_control:metadata"
+        ]
+      }
+    }
+  ],
+  "test_path": "/home/chenhc/leaf_egia_detailed_20261008_v2/tests/test_corrected_reference.py",
+  "test_sha256": "a2daef8496e0d2ccd56ea85a242957317f9807a7793347ebaff3000f8363bc87",
+  "source_files_sha256": {
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/belief/runtime.py": "731f6be2e71fa1ec8b537da7e8b13966d527492889fa474b7e67e2f3569ac200",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/belief/runtime.py": "619b4f354c475c117d09f769c0fa2968abd7bd05ed1b9a981831f352332c4d28",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/host/yolox/tracker/u2mot_tracker.py": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/models/F00_full.pkl": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/models/summary_frozen.pkl": "aa48c972a3ddbe4c5e4b82c5f2a64f9032978d7c15a863a5a3caefe67ac04ce8"
+  },
+  "source_sha256": {
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/belief/runtime.py": "731f6be2e71fa1ec8b537da7e8b13966d527492889fa474b7e67e2f3569ac200",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/belief/runtime.py": "619b4f354c475c117d09f769c0fa2968abd7bd05ed1b9a981831f352332c4d28",
+    "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/host/yolox/tracker/u2mot_tracker.py": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/models/F00_full.pkl": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/models/summary_frozen.pkl": "aa48c972a3ddbe4c5e4b82c5f2a64f9032978d7c15a863a5a3caefe67ac04ce8",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/tests/test_corrected_reference.py": "a2daef8496e0d2ccd56ea85a242957317f9807a7793347ebaff3000f8363bc87",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/reference_oracle.py": "fc746cf4907ee4a47c1b44dd2d29a4924f0cd1a6642b5040b2a1a41b308818a3",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/runtime.py": "4fae356dddf9bd7db817bcd2d678fb706f3611b85db41942b39e4d76db6254cb",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/features.py": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/models.py": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/tools/capture_belief_evidence.py": "e0ca29499d1e3d6f3a602b1429f0603275d19818933648aedbe56696e6e288f3",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/tools/belief_data_common.py": "aa1a233b8579675f8c8a6884f8e28544debb08d5b0d7f36d1cc8085fe1d47771",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/u2mot_tracker.py": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/matching.py": "54098ea68ae30d79e4ec80d2b1db4296a3d713e491b3998627d274855a301444",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/basetrack.py": "8e28b57bc1f42bc0129dfae31e709ee8f82f1bf15c422f349e837ce164c0b2f7",
+    "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/kalman_filter.py": "7b82c583571eb8192b54649e8b9fa2294472962f7ffc57fb012a04907450b58c"
+  },
+  "source_hash_key_scope": "absolute filesystem paths",
+  "oracle_path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/reference_oracle.py",
+  "oracle_sha256": "fc746cf4907ee4a47c1b44dd2d29a4924f0cd1a6642b5040b2a1a41b308818a3",
+  "runtime_sha256": "4fae356dddf9bd7db817bcd2d678fb706f3611b85db41942b39e4d76db6254cb",
+  "providers": [
+    {
+      "cost_enabled": true,
+      "runtime": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/belief/runtime.py",
+      "runtime_sha256": "731f6be2e71fa1ec8b537da7e8b13966d527492889fa474b7e67e2f3569ac200",
+      "associate_code_file": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/belief/runtime.py",
+      "MRO": [
+        "_leaf_immutable_reference_1.BeliefTracker",
+        "yolox.tracker.u2mot_tracker.U2MOTTracker",
+        "builtins.object"
+      ],
+      "providers": {
+        "semantic_penalty": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/models.py",
+          "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+          "function_AST_sha256": "ba48cc88d1bb2ac1eda3a8606972ce1f3061696aa46b3ef68f3dc13f43689458"
+        },
+        "semantic_update": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/models.py",
+          "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+          "function_AST_sha256": "d50fbf3ec60524b242920362cefc8a157605a821cafe94d14aa663b999df912d"
+        },
+        "responsibility_features": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/features.py",
+          "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7",
+          "function_AST_sha256": "9398a893fe902473fb145dd56e81e1b3213a6b8cfb901aebe4da4f389b36f250"
+        },
+        "semantic_features": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/features.py",
+          "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7",
+          "function_AST_sha256": "c99d3905cda99afca3ef067d1988d0edb0e53261b8f764e1f3078d4e988f7b27"
+        },
+        "host_associate": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/u2mot_tracker.py",
+          "sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6"
+        },
+        "matching_lap": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/matching.py",
+          "sha256": "54098ea68ae30d79e4ec80d2b1db4296a3d713e491b3998627d274855a301444"
+        },
+        "shared_corrected_det_record": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/tools/capture_belief_evidence.py",
+          "sha256": "e0ca29499d1e3d6f3a602b1429f0603275d19818933648aedbe56696e6e288f3"
+        }
+      }
+    },
+    {
+      "cost_enabled": false,
+      "runtime": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/belief/runtime.py",
+      "runtime_sha256": "619b4f354c475c117d09f769c0fa2968abd7bd05ed1b9a981831f352332c4d28",
+      "associate_code_file": "/home/chenhc/leaf_v5_evidence_completion_20261006_v1/experiment/internal_path_ablation_20261007_v1/belief/runtime.py",
+      "MRO": [
+        "_leaf_immutable_reference_0.BeliefTracker",
+        "yolox.tracker.u2mot_tracker.U2MOTTracker",
+        "builtins.object"
+      ],
+      "providers": {
+        "semantic_penalty": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/models.py",
+          "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+          "function_AST_sha256": "ba48cc88d1bb2ac1eda3a8606972ce1f3061696aa46b3ef68f3dc13f43689458"
+        },
+        "semantic_update": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/models.py",
+          "sha256": "2bac867410571efba5f55a7ff4f6e41560323617ca8875d82f110b2d368e1b8e",
+          "function_AST_sha256": "d50fbf3ec60524b242920362cefc8a157605a821cafe94d14aa663b999df912d"
+        },
+        "responsibility_features": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/features.py",
+          "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7",
+          "function_AST_sha256": "9398a893fe902473fb145dd56e81e1b3213a6b8cfb901aebe4da4f389b36f250"
+        },
+        "semantic_features": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/belief/features.py",
+          "sha256": "2ce1403d8e4def44602aaf304c64d9cc73c42500d9ac3b6789eee2babee54dc7",
+          "function_AST_sha256": "c99d3905cda99afca3ef067d1988d0edb0e53261b8f764e1f3078d4e988f7b27"
+        },
+        "host_associate": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/u2mot_tracker.py",
+          "sha256": "c658a5e110e6b40c8b83ea8f17e2104dcfd5c5054535bc65a1172d0a5b9349c6"
+        },
+        "matching_lap": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/host/yolox/tracker/matching.py",
+          "sha256": "54098ea68ae30d79e4ec80d2b1db4296a3d713e491b3998627d274855a301444"
+        },
+        "shared_corrected_det_record": {
+          "path": "/home/chenhc/leaf_egia_detailed_20261008_v2/tools/capture_belief_evidence.py",
+          "sha256": "e0ca29499d1e3d6f3a602b1429f0603275d19818933648aedbe56696e6e288f3"
+        }
+      }
+    }
+  ],
+  "cuda_initialized": false,
+  "mocked_methods": [],
+  "formal_online_accuracy_evidence": false,
+  "limits": [
+    "CPU seam fixtures do not replace all-seam real-online reference coverage",
+    "Shared corrected metadata guard is declared, not independently frozen old code",
+    "features.py differs only in unused source_vectors instrumentation; called function ASTs equal the immutable versions",
+    "Source head is loaded but not executed by association when clutter/edge policies are off",
+    "Input-state deepcopy isolates seam objects; unrelated removed history is not copied by the oracle"
+  ],
+  "command": "BELIEF_HOST=/home/chenhc/leaf_egia_detailed_20261008_v2/host PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= /home/chenhc/.conda/envs/u2mot/bin/python -B tests/test_corrected_reference.py",
+  "log_path": "/home/chenhc/leaf_egia_detailed_20261008_v2/logs/corrected_reference_cpu.log",
+  "historical_reference_cpu_receipt": {
+    "path": "/home/chenhc/leaf_internal_mechanism_20261008_v2_metadata/artifacts/CORRECTED_REFERENCE_CPU.json",
+    "sha256": "440293b64ef8bf898cf001a36201d6cb8c5a6a0219d5852c9c0789f65b5c9031",
+    "role": "parent history only; current nine contracts executed above"
+  }
+}

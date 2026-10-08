@@ -1,0 +1,3 @@
+# Corrected native-bypass bookkeeping
+
+Active frozen run: /home/chenhc/leaf_egia_detailed_20261008_v2. All nine full-SRC interventions are unchanged. Initial v1 engineering smoke stopped because its audit expected counters exclusive to EGIA in the bypass cell; it has no new formal result. V2 adds native gate counters, checks full SRC initialization and updates, and repeats all smoke/full inference from a fresh output root. 59 CPU contracts and nine separate whole-association contracts pass. Complete original C11 prediction/input parity is a hard full-run gate. Current artifact is preflight, not final MOT evidence.
