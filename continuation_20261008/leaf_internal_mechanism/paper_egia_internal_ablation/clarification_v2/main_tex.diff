@@ -1,0 +1,27 @@
+--- before/main.tex
++++ current/main.tex
+@@ -571,6 +571,24 @@
+ therefore gives the best measured balance between suppression and coverage
+ among these deployment choices.
+ 
++\subsection{EGIA Internal Ablation}
++\input{table_policy.tex}
++We isolate probability fusion (Eq.~\ref{eq:fusion}) and selective admission
++(Eq.~\ref{eq:selective}) with full SRC enabled and the full configuration's
++EGIA head weights fixed. Unlike the branch-specific fits in
++Table~\ref{tab:component}, these runs change only the two policy switches.
++Table~\ref{tab:policy} reports the four combinations
++on all 17 VisDrone2019 test-dev sequences. Both operators improve MOTA and
++IDF1 in either setting of the other operator; their joint use gives the
++highest aggregate MOTA and IDF1. With fusion enabled, selective admission
++increases MOTA and IDF1 by 0.20 and 0.11 percentage points, respectively.
++It reduces FN by 2,701 while increasing FP by 2,103 and IDs by 137,
++consistent with retaining native admission within the uncertainty band.
++With selective admission enabled, fusion adds 0.07 MOTA and 0.04 IDF1
++points. The lower IDs in the argmax settings accompany more missed targets
++and lower IDF1, exposing the precision--coverage trade-off at this fixed
++operating point.
++
+ \subsection{Source-Pairing Diagnostic}
+ Across 8,411 fixed development events, preserving source pairing gives a
+ weighted negative log-likelihood of 0.680, compared with 1.062 after

@@ -1,0 +1,34 @@
+--- before/table_policy.tex
++++ current/table_policy.tex
+@@ -1,23 +1,24 @@
+ \begin{table}[!t]
+ \centering
+-\caption{Admission-policy analysis on VisDrone2019 test-dev with U2MOT. Semantic belief and source-coherent evidence are shared; fusion adds the summary action head.}
++\caption{EGIA internal ablation on VisDrone2019 test-dev. Full SRC is enabled; EGIA head weights, source coherence, and host settings are fixed.}
+ \label{tab:policy}
+ \begingroup
+ \footnotesize
+ \setlength{\tabcolsep}{1.8pt}
+ \renewcommand{\arraystretch}{1.08}
+-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcrrrrr@{}}
++\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ccrrrrr@{}}
+ \toprule
+-Admission & Fusion & MOTA $\uparrow$ & IDF1 $\uparrow$ & FP $\downarrow$ & FN $\downarrow$ & IDs $\downarrow$ \\
++Fusion & Selective & MOTA $\uparrow$ & IDF1 $\uparrow$ & FP $\downarrow$ & FN $\downarrow$ & IDs $\downarrow$ \\
+ \midrule
+-Argmax & No & 57.63 & 70.93 & \textbf{21,723} & 74,935 & \textbf{585} \\
+-Selective & No & 57.96 & 71.33 & 25,865 & 69,865 & 765 \\
+-Selective & Yes & \textbf{58.03} & \textbf{71.37} & 26,047 & \textbf{69,497} & 791 \\
++$\times$ & $\times$ & 57.63 & 70.93 & \textbf{21,723} & 74,935 & \textbf{585} \\
++$\checkmark$ & $\times$ & 57.82 & 71.26 & 23,944 & 72,198 & 654 \\
++$\times$ & $\checkmark$ & 57.96 & 71.33 & 25,865 & 69,865 & 765 \\
++$\checkmark$ & $\checkmark$ & \textbf{58.03} & \textbf{71.37} & 26,047 & \textbf{69,497} & 791 \\
+ \bottomrule
+ \end{tabular*}
+ \par\vspace{2pt}
+ \begin{minipage}{\columnwidth}
+-\footnotesize MOTA and IDF1 are percentages; error columns are counts. Bold marks the best value among these three configurations.
++\footnotesize MOTA and IDF1 are percentages; error columns are counts. Without selective admission, EGIA uses three-way argmax. Bold marks the best value among the four configurations.
+ \end{minipage}
+ \endgroup
+ \end{table}

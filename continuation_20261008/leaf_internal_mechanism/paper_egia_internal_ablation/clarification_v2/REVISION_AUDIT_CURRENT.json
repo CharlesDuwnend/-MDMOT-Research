@@ -1,0 +1,43 @@
+{
+  "status": "PASS_EGIA_INTERNAL_TABLE_INSERTED_AND_RENDERED",
+  "created_utc": "2026-10-08T01:47:56.185981+00:00",
+  "user_scope": "Add a small EGIA internal ablation table to experiments; no graphs.",
+  "before_sha256": {
+    "main.tex": "86573478387d2ffeeb9e22617bda519fef3fbc2686d1717a72e15a6d7605d4d1",
+    "main.pdf": "ed6b2164ae8c577244046c7813fc26a5a7e87b1604ead8ee753025575364b225",
+    "table_policy.tex": "25a67544b22f38be24800964ffc8c3efe0e57d736c3748798f8cfe4b8be0e115"
+  },
+  "after_sha256": {
+    "/home/chenhc/src_egia_icme_paper/main.tex": "9c34dc0970f61cfafbb2330f8d1cb88263643b9ac737b705dda036894652150d",
+    "/home/chenhc/src_egia_icme_paper/main.pdf": "9abb0a305c608f6e7eaf140a259b007f706f2dbfef0a5ab25a577d8a9cf278ce",
+    "/home/chenhc/src_egia_icme_paper/table_policy.tex": "73c062d7430a954f8ba6dbea0843448c1da6f31a78a78f20edac638b63dacb26",
+    "/home/chenhc/src_egia_icme_paper/research/egia_internal_ablation_verified.json": "802c2b0f8a205e379cf4e6f9d5f491c8d0bb0072953be423cce1b7e847506c10"
+  },
+  "paper_pages": 9,
+  "table_number": "V",
+  "table_page": 8,
+  "table_rows": 4,
+  "equations_unchanged": true,
+  "other_manuscript_source_unchanged": true,
+  "metrics_and_68_predictions_verified": true,
+  "layout_review": "Current clarified pages 6, 7 and 8 inspected; continuation legible, Table V retains full SRC and fixed full EGIA weights.",
+  "latex_passes": 2,
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "baseline_underfull_vbox_warnings_retained": true,
+  "new_graphs": false,
+  "raw_experiment_artifacts_modified": false,
+  "backup_directory": "/home/chenhc/src_egia_icme_paper/output/pdf/egia_internal_ablation_20261008/before",
+  "rendered_page_sha256": {
+    "/home/chenhc/src_egia_icme_paper/output/pdf/egia_internal_ablation_20261008/clarified-6.png": "88f7dbaed05521f5a987e0b093e5a5044f82662acd9299d08877e1ae31b4b524",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/egia_internal_ablation_20261008/clarified-7.png": "083af2812514f67029d67dfc8db9e3b3060aef97533685718b383981512d36e1",
+    "/home/chenhc/src_egia_icme_paper/output/pdf/egia_internal_ablation_20261008/clarified-8.png": "8dc7d1b7edb1c221f5fe8bc13319cdb90c2000f4a10e7ebff3c71cc156eb3756"
+  },
+  "diff_sha256": {
+    "main_tex.diff": "7fc697d4b5ec4c3aa804d3606c57cac47216a11a9e241ececca8c5846a15701c",
+    "table_policy_tex.diff": "128957cd58235500b0c66db918325b4afa27e5f0add5d2e89e058b8603fa1096"
+  },
+  "clarification": "Table V explicitly retains full SRC and the full-system EGIA head weights; Table III has branch-specific fitted heads. Argmax rows have fewer IDs alongside higher FN/lower IDF1.",
+  "final_render_reinspection_pending": false,
+  "audit_created_utc": "2026-10-08T02:35:15.529958+00:00"
+}

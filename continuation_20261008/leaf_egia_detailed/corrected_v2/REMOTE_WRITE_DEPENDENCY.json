@@ -1,0 +1,13 @@
+{
+  "status": "REMOTE_WRITE_UNAVAILABLE_AUTHORIZATION",
+  "time_utc": "2026-10-08T02:37:53.624015+00:00",
+  "command": "git push --set-upstream origin refs/heads/main:refs/heads/main",
+  "exit_code": 128,
+  "stderr": "ERROR: Permission to CharlesDuwnend/-MDMOT-Research.git denied to luwnend.\nfatal: Could not read from remote repository.",
+  "local_head": "9620dd9aefe7906c45a28cf854ad347583ec5979",
+  "last_verified_remote_main": "bab7de6d6c7814d12788d24cfff3ae1ccbdfb607",
+  "ordinary_push_attempted": true,
+  "force_push": false,
+  "authorization_requested_again": false,
+  "required_external_change": "Current authenticated GitHub account luwnend needs repository write access, or an authorized identity with write access must be configured."
+}
