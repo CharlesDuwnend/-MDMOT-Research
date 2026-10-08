@@ -1,0 +1,275 @@
+{
+  "arms": [
+    {
+      "bundle_sha256": "47a48aac462b319ec14e318061cdffacae245c176a9082b783e200a6c0647894",
+      "elapsed_seconds": 60.78635096549988,
+      "frames": 200,
+      "gpu_uuid": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0",
+      "gt_guard": {
+        "blocked_gt_attempts": 0,
+        "checked_file_open_calls": 41,
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "status": "PASS_NO_GT_READ"
+      },
+      "historical_prediction_comparison": {
+        "byte_equal": true,
+        "role": "hard parity requirement against completed corrected C11"
+      },
+      "input_sha256": {
+        "uav0000073_00600_v": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38"
+      },
+      "name": "SMOKE_R00_full",
+      "result_sha256": {
+        "uav0000073_00600_v": "b1fb62b85b2eb4598648f1dd084a319743aca1c42ee1725f642cb18a2378123f"
+      },
+      "runtime_totals": {
+        "admitted": 88,
+        "association_changed_vs_native_seams": 0,
+        "association_edges": 235994,
+        "association_seams": 600,
+        "birth_admitted_vs_local_h2_rejected": 0,
+        "birth_changed_vs_local_h2": 102,
+        "birth_changed_vs_same_state_summary": 67,
+        "birth_rejected_vs_local_h2_admitted": 102,
+        "birth_score_eligible_low_class_candidates": 32,
+        "birth_seams": 190,
+        "coherence_nonzero_events": 143,
+        "committed_changed_vs_native_seams": 0,
+        "committed_observations": 6430,
+        "egia_source_probability_calls": 190,
+        "final_birth_activations": 88,
+        "local_h2_admitted": 190,
+        "native_birth_gate_admitted": 190,
+        "native_birth_gate_calls": 300,
+        "native_birth_gate_low_class_admitted": 32,
+        "native_reference_seams_verified": 600,
+        "selective_native_abstained": 88,
+        "selective_native_kept": 88,
+        "selective_native_rejected": 102,
+        "selective_new_certificate": 0,
+        "selective_rejected_without_margin": 0,
+        "source_empty_events": 29,
+        "source_events": 190,
+        "source_multiple_owner_events": 161,
+        "source_nodes": 6018
+      },
+      "same_process_gpu_verification": {
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_uuid": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0",
+        "cuda_visible_devices": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0",
+        "selected": {
+          "index": 0,
+          "memory_mib": 40960,
+          "name": "NVIDIA A100-SXM4-40GB",
+          "pci_bus_id": "00000000:01:00.0",
+          "uuid": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0"
+        },
+        "status": "VERIFIED_PHYSICAL_GPU"
+      },
+      "sequence_count": 1,
+      "status": "PASS_ENGINEERING_SMOKE"
+    },
+    {
+      "bundle_sha256": "fe1e6451e753339596ad79bdd6868b28a882955a590e2de83efd5a95db592195",
+      "elapsed_seconds": 61.071940422058105,
+      "frames": 200,
+      "gpu_uuid": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0",
+      "gt_guard": {
+        "blocked_gt_attempts": 0,
+        "checked_file_open_calls": 41,
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "status": "PASS_NO_GT_READ"
+      },
+      "input_sha256": {
+        "uav0000073_00600_v": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38"
+      },
+      "name": "SMOKE_R01_no_foreground_head",
+      "result_sha256": {
+        "uav0000073_00600_v": "5802709bc3345872302f8650fb03b2c7d8a2d954150fba123508c1907cba4590"
+      },
+      "runtime_totals": {
+        "admitted": 87,
+        "association_changed_vs_native_seams": 0,
+        "association_edges": 235331,
+        "association_seams": 600,
+        "birth_admitted_vs_local_h2_rejected": 0,
+        "birth_changed_vs_local_h2": 109,
+        "birth_changed_vs_same_state_summary": 75,
+        "birth_rejected_vs_local_h2_admitted": 109,
+        "birth_score_eligible_low_class_candidates": 33,
+        "birth_seams": 196,
+        "coherence_nonzero_events": 148,
+        "committed_changed_vs_native_seams": 0,
+        "committed_observations": 6414,
+        "egia_source_probability_calls": 196,
+        "final_birth_activations": 87,
+        "local_h2_admitted": 196,
+        "native_birth_gate_admitted": 196,
+        "native_birth_gate_calls": 310,
+        "native_birth_gate_low_class_admitted": 33,
+        "native_reference_seams_verified": 600,
+        "selective_native_abstained": 87,
+        "selective_native_kept": 87,
+        "selective_native_rejected": 109,
+        "selective_new_certificate": 0,
+        "selective_rejected_without_margin": 0,
+        "source_empty_events": 29,
+        "source_events": 196,
+        "source_multiple_owner_events": 167,
+        "source_nodes": 6232
+      },
+      "same_process_gpu_verification": {
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_uuid": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0",
+        "cuda_visible_devices": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0",
+        "selected": {
+          "index": 0,
+          "memory_mib": 40960,
+          "name": "NVIDIA A100-SXM4-40GB",
+          "pci_bus_id": "00000000:01:00.0",
+          "uuid": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0"
+        },
+        "status": "VERIFIED_PHYSICAL_GPU"
+      },
+      "sequence_count": 1,
+      "status": "PASS_ENGINEERING_SMOKE"
+    },
+    {
+      "bundle_sha256": "af51bcc7391b41a81e9db104326a14980337c212043a19f28cf85a0bbd830a80",
+      "elapsed_seconds": 55.15506434440613,
+      "frames": 200,
+      "gpu_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+      "gt_guard": {
+        "blocked_gt_attempts": 0,
+        "checked_file_open_calls": 41,
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "status": "PASS_NO_GT_READ"
+      },
+      "input_sha256": {
+        "uav0000073_00600_v": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38"
+      },
+      "name": "SMOKE_R02_no_coverage_head",
+      "result_sha256": {
+        "uav0000073_00600_v": "13347ed5733225ed47f816f62257cbe5ad1300971df14f51499a5a3042f54cbc"
+      },
+      "runtime_totals": {
+        "admitted": 110,
+        "association_changed_vs_native_seams": 0,
+        "association_edges": 245127,
+        "association_seams": 600,
+        "birth_admitted_vs_local_h2_rejected": 0,
+        "birth_changed_vs_local_h2": 0,
+        "birth_changed_vs_same_state_summary": 1,
+        "birth_rejected_vs_local_h2_admitted": 0,
+        "birth_score_eligible_low_class_candidates": 22,
+        "birth_seams": 110,
+        "coherence_nonzero_events": 63,
+        "committed_changed_vs_native_seams": 0,
+        "committed_observations": 6591,
+        "egia_source_probability_calls": 110,
+        "final_birth_activations": 110,
+        "local_h2_admitted": 110,
+        "native_birth_gate_admitted": 110,
+        "native_birth_gate_calls": 189,
+        "native_birth_gate_low_class_admitted": 22,
+        "native_reference_seams_verified": 600,
+        "selective_native_abstained": 110,
+        "selective_native_kept": 110,
+        "selective_native_rejected": 0,
+        "selective_new_certificate": 0,
+        "selective_rejected_without_margin": 0,
+        "source_empty_events": 29,
+        "source_events": 110,
+        "source_multiple_owner_events": 81,
+        "source_nodes": 3163
+      },
+      "same_process_gpu_verification": {
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "cuda_visible_devices": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7",
+        "selected": {
+          "index": 1,
+          "memory_mib": 40960,
+          "name": "NVIDIA A100-SXM4-40GB",
+          "pci_bus_id": "00000000:81:00.0",
+          "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+        },
+        "status": "VERIFIED_PHYSICAL_GPU"
+      },
+      "sequence_count": 1,
+      "status": "PASS_ENGINEERING_SMOKE"
+    },
+    {
+      "bundle_sha256": "5502d153be1f7cdd242a0c06ad59a2f7717c5d7d5204f59891250d88534b6cff",
+      "elapsed_seconds": 68.4230043888092,
+      "frames": 200,
+      "gpu_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+      "gt_guard": {
+        "blocked_gt_attempts": 0,
+        "checked_file_open_calls": 41,
+        "guarded_annotation_root": "/raid/datasets/chc_data/VisDrone2019/test_dev/annotations",
+        "status": "PASS_NO_GT_READ"
+      },
+      "input_sha256": {
+        "uav0000073_00600_v": "80a872cdb7b8c103eea76df0d52276ded3ef54adaa081554fe9f3d1e7a61dd38"
+      },
+      "name": "SMOKE_R03_no_source_cues",
+      "result_sha256": {
+        "uav0000073_00600_v": "ce110f61cd19b2b5866282206e50f7e72d340154701b10206b7510fab0cfee8f"
+      },
+      "runtime_totals": {
+        "admitted": 104,
+        "association_changed_vs_native_seams": 0,
+        "association_edges": 244077,
+        "association_seams": 600,
+        "birth_admitted_vs_local_h2_rejected": 0,
+        "birth_changed_vs_local_h2": 10,
+        "birth_changed_vs_same_state_summary": 66,
+        "birth_rejected_vs_local_h2_admitted": 10,
+        "birth_score_eligible_low_class_candidates": 23,
+        "birth_seams": 114,
+        "coherence_nonzero_events": 0,
+        "committed_changed_vs_native_seams": 0,
+        "committed_observations": 6578,
+        "egia_source_probability_calls": 114,
+        "final_birth_activations": 104,
+        "local_h2_admitted": 114,
+        "native_birth_gate_admitted": 114,
+        "native_birth_gate_calls": 198,
+        "native_birth_gate_low_class_admitted": 23,
+        "native_reference_seams_verified": 600,
+        "selective_native_abstained": 104,
+        "selective_native_kept": 104,
+        "selective_native_rejected": 10,
+        "selective_new_certificate": 0,
+        "selective_rejected_without_margin": 0,
+        "source_empty_events": 29,
+        "source_events": 114,
+        "source_multiple_owner_events": 85,
+        "source_nodes": 3323
+      },
+      "same_process_gpu_verification": {
+        "cuda_name": "NVIDIA A100-SXM4-40GB",
+        "cuda_total_memory_bytes": 42298834944,
+        "cuda_uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+        "cuda_visible_devices": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a",
+        "selected": {
+          "index": 3,
+          "memory_mib": 40960,
+          "name": "NVIDIA A100-SXM4-40GB",
+          "pci_bus_id": "00000000:C2:00.0",
+          "uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a"
+        },
+        "status": "VERIFIED_PHYSICAL_GPU"
+      },
+      "sequence_count": 1,
+      "status": "PASS_ENGINEERING_SMOKE"
+    }
+  ],
+  "manifest_sha256": "025f4dcd496346a0f0783ffd01b2032bfcca497d4e6f64e7ba36e9fdc0fee416",
+  "status": "PASS_ALL_4_ACTUAL_SMOKES_INPUT_AND_REFERENCE_PARITY",
+  "testdev_selection": false
+}
