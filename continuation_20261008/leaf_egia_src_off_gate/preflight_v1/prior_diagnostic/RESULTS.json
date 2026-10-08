@@ -1,0 +1,166 @@
+{
+  "status": "COMPLETE_READ_ONLY_PRIOR_AND_HEAD_DIAGNOSTIC",
+  "source_sha256": "6c5389e905a141db1977b3ae7fddf800caf4955fb9d488ca9a1b0d8480aa9d0f",
+  "prepared_sha256": "e126f0ebcbb284985eb8bfd43c6bcaec4dc401fe7e507960518ea59fafde055d",
+  "bundle_sha256": "ee903030e48f73fe87411b6e9aa60d52bbf2ee2d895aebfa8085d260779702ac",
+  "original_experiment_manifest_sha256": "7fd3c67e28a7e327935fefb1fb3b58bafd2473c24a77991c0e3801e5286e7a90",
+  "no_training_no_parameter_changes": true,
+  "no_testdev_prediction_or_GT_read": true,
+  "calibration_split_scope": "Diagnostic; the existing cal8 split also served wider method calibration, not untouched final evaluation",
+  "metrics_scope": "Binary head scores on recorded fit/calibration candidates; not MOT scores or a live test-dev causal diagnosis",
+  "foreground_prior": 0.7079509434020193,
+  "coverage_prior": 0.3121469516094363,
+  "prior_weighting": "Original equal-flight/group weights and binary square-root class balancing beta=0.5 on fit39 only",
+  "metric_weighting": "Raw rows and original flight/group weights; no recalculated calibration class balancing",
+  "class_mapping_and_intervention_checks": [
+    {
+      "cell": "D02_no_foreground_evidence",
+      "class_order": [
+        "NEW_TRUE",
+        "EXISTING_TRUE",
+        "CLUTTER_FALSE"
+      ],
+      "all_8411_outputs_verified": true
+    },
+    {
+      "cell": "D03_no_coverage_evidence",
+      "class_order": [
+        "NEW_TRUE",
+        "EXISTING_TRUE",
+        "CLUTTER_FALSE"
+      ],
+      "all_8411_outputs_verified": true
+    },
+    {
+      "cell": "D04_no_learned_context",
+      "class_order": [
+        "NEW_TRUE",
+        "EXISTING_TRUE",
+        "CLUTTER_FALSE"
+      ],
+      "all_8411_outputs_verified": true
+    }
+  ],
+  "records": [
+    {
+      "split": "fit",
+      "head": "foreground",
+      "learned": {
+        "rows": 8024,
+        "positives": 6093,
+        "positive_rate": 0.7593469591226321,
+        "mean_probability": 0.6868595162989918,
+        "std_probability": 0.07793686567373613,
+        "ROC_AUC": 0.8425064019352038,
+        "NLL": 0.49993603811776416,
+        "Brier": 0.16130728365227573,
+        "flight_group_weighted_ROC_AUC": 0.8732809391378772,
+        "flight_group_weighted_NLL": 0.4034194864059314,
+        "flight_group_weighted_Brier": 0.1190345468923801
+      },
+      "constant_prior": {
+        "rows": 8024,
+        "positives": 6093,
+        "positive_rate": 0.7593469591226321,
+        "mean_probability": 0.7079509434020195,
+        "std_probability": 2.220446049250313e-16,
+        "ROC_AUC": 0.5,
+        "NLL": 0.5584674365869106,
+        "Brier": 0.18538070522579728,
+        "flight_group_weighted_ROC_AUC": 0.5,
+        "flight_group_weighted_NLL": 0.47415163564590607,
+        "flight_group_weighted_Brier": 0.14577713482820862
+      }
+    },
+    {
+      "split": "fit",
+      "head": "coverage_given_foreground",
+      "learned": {
+        "rows": 6093,
+        "positives": 2108,
+        "positive_rate": 0.3459707861480387,
+        "mean_probability": 0.353161378838266,
+        "std_probability": 0.14602641275625905,
+        "ROC_AUC": 0.9873811660901054,
+        "NLL": 0.44217846153387314,
+        "Brier": 0.13600402915767196,
+        "flight_group_weighted_ROC_AUC": 0.9919920919903203,
+        "flight_group_weighted_NLL": 0.32928725298299727,
+        "flight_group_weighted_Brier": 0.08840459792022903
+      },
+      "constant_prior": {
+        "rows": 6093,
+        "positives": 2108,
+        "positive_rate": 0.3459707861480387,
+        "mean_probability": 0.31214695160943634,
+        "std_probability": 5.551115123125783e-17,
+        "ROC_AUC": 0.5,
+        "NLL": 0.6475319712794536,
+        "Brier": 0.22741905306304155,
+        "flight_group_weighted_ROC_AUC": 0.5,
+        "flight_group_weighted_NLL": 0.5091031278637855,
+        "flight_group_weighted_Brier": 0.16159386012452973
+      }
+    },
+    {
+      "split": "calibration",
+      "head": "foreground",
+      "learned": {
+        "rows": 8411,
+        "positives": 6776,
+        "positive_rate": 0.8056116989656402,
+        "mean_probability": 0.6742625373283421,
+        "std_probability": 0.044993475255694956,
+        "ROC_AUC": 0.7964012217973853,
+        "NLL": 0.5065530737993557,
+        "Brier": 0.16139798917376347,
+        "flight_group_weighted_ROC_AUC": 0.7741314950494549,
+        "flight_group_weighted_NLL": 0.4314629319745925,
+        "flight_group_weighted_Brier": 0.12875264358390476
+      },
+      "constant_prior": {
+        "rows": 8411,
+        "positives": 6776,
+        "positive_rate": 0.8056116989656402,
+        "mean_probability": 0.7079509434020194,
+        "std_probability": 1.1102230246251565e-16,
+        "ROC_AUC": 0.5,
+        "NLL": 0.5175021833385478,
+        "Brier": 0.1661391126325922,
+        "flight_group_weighted_ROC_AUC": 0.5,
+        "flight_group_weighted_NLL": 0.45220566119667704,
+        "flight_group_weighted_Brier": 0.1354689964443741
+      }
+    },
+    {
+      "split": "calibration",
+      "head": "coverage_given_foreground",
+      "learned": {
+        "rows": 6776,
+        "positives": 467,
+        "positive_rate": 0.06891971664698937,
+        "mean_probability": 0.30784811297981596,
+        "std_probability": 0.07391183710623968,
+        "ROC_AUC": 0.9973271588156412,
+        "NLL": 0.37295690438342743,
+        "Brier": 0.09951001689987689,
+        "flight_group_weighted_ROC_AUC": 0.9922420067429284,
+        "flight_group_weighted_NLL": 0.34907984865074076,
+        "flight_group_weighted_Brier": 0.0935961860177096
+      },
+      "constant_prior": {
+        "rows": 6776,
+        "positives": 467,
+        "positive_rate": 0.06891971664698937,
+        "mean_probability": 0.31214695160943645,
+        "std_probability": 1.6653345369377348e-16,
+        "ROC_AUC": 0.5,
+        "NLL": 0.4286336034915724,
+        "Brier": 0.12332927713176545,
+        "flight_group_weighted_ROC_AUC": 0.5,
+        "flight_group_weighted_NLL": 0.46170831147732105,
+        "flight_group_weighted_Brier": 0.13905684503471613
+      }
+    }
+  ]
+}

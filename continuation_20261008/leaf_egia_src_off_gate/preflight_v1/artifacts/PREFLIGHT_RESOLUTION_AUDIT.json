@@ -1,0 +1,56 @@
+{
+  "status": "RESOLVED_PREFLIGHT_FIXTURES_AND_NEW_STORAGE_THREE_ROUNDS_NINE_CHECKS",
+  "rounds": [
+    {
+      "round": 1,
+      "checks": [
+        {
+          "check": "first failing CPU log preserved",
+          "pass": true
+        },
+        {
+          "check": "old paired-head provenance files found in frozen parent and copied unchanged",
+          "pass": true
+        },
+        {
+          "check": "counter missing means no calls; synthetic low-class fixture also satisfies unchanged score condition",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "checks": [
+        {
+          "check": "85 distinct CPU contracts all passed on original storage",
+          "pass": true
+        },
+        {
+          "check": "unchanged detector and all copied original weights",
+          "pass": true
+        },
+        {
+          "check": "20 primary cells and 3 references declared before results",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "checks": [
+        {
+          "check": "85 CPU contracts rerun successfully on actual RAID runtime",
+          "pass": true
+        },
+        {
+          "check": "stable logical path and physical storage verified",
+          "pass": true
+        },
+        {
+          "check": "no formal output yet and every prescribed gate pair retained",
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

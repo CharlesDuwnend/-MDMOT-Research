@@ -1,0 +1,42 @@
+"""Audit SRC-off, shared birth gate and explicit EGIA interventions."""
+def audit_grid_runtime(reports,arm,smoke=False):
+    for sequence,r in reports.items():
+        c=r['counts']
+        assert r['arm']==arm['runtime_arm']
+        assert r['src_cost_enabled']==r['src_update_enabled']==r['src_state_enabled']==arm['src']
+        assert r['birth_class_confidence_threshold']==arm['birth_class_gate']
+        assert r['birth_score_threshold']==.6
+        assert r['use_egia']==arm['use_egia'] and r['egia_ablation']==arm['mode']
+        assert r['egia_fusion_policy']==arm['fusion']
+        assert r['gt_read'] is False
+        assert r['input_frames_hashed']==r['frames_seen']
+        assert [v['frame'] for v in r['input_records']]==list(range(1,r['frames_seen']+1))
+        assert c.get('final_birth_activations',0)>0
+        assert c['native_birth_gate_calls']>=c['native_birth_gate_admitted']>0
+        if arm['gate']:
+            assert c['native_birth_gate_low_class_admitted']==0
+        if arm['src']:
+            assert c['belief_initializations']==c['final_birth_activations']
+            assert c['belief_updates']>0 and c['src_responsibility_calls']>0
+            assert c['corrected_reference_seams_verified']==c['association_seams']
+            assert r['cost_factorial']['assignment_mask_enabled']
+            assert r['cost_factorial']['semantic_penalty_enabled']
+        else:
+            assert r['cost_factorial'] is None and r['stored_beliefs']==0
+            assert r['assignment_source']=='native'
+            for name in ['belief_initializations','belief_updates','src_responsibility_calls',
+                    'src_semantic_penalty_calls','src_observation_probability_calls','src_applied_edges']:
+                assert c.get(name,0)==0,(sequence,name)
+            assert c['native_reference_seams_verified']==c['association_seams']
+        if arm['use_egia']:
+            assert c['egia_source_probability_calls']==c['birth_seams']==c['native_birth_gate_admitted']
+            assert c['admitted']==c['final_birth_activations']
+            assert c.get('egia_fusion_events',0)==(c['birth_seams'] if arm['fusion'] else 0)
+        else:
+            assert c.get('egia_source_probability_calls',0)==c.get('egia_fusion_events',0)==0
+            assert c['native_birth_gate_admitted']==c['final_birth_activations']
+        if not arm['selective']:
+            assert all(v==0 for k,v in c.items() if k.startswith('selective_'))
+        if arm['mode']=='pair_shuffle':
+            assert r['operator_audit']['pair_shuffle']['birth_events']==c['birth_seams']
+        if not smoke:assert len(r['input_stream_sha256'])==64
