@@ -1,0 +1,78 @@
+{
+  "status": "COMPLETE_FRESH_PURE_V5_MECHANISM_REVIEW",
+  "created_utc": "2026-10-08T10:09:51.163100Z",
+  "coverage_disabled_all17_native_prediction_byte_parity": true,
+  "coverage_disabled_births": 6595,
+  "coverage_disabled_birth_action_changes_vs_native": 0,
+  "interpretation": "Removing coverage also cancels the E-only coherence action; not an isolated learned-parameter effect",
+  "all_four_pure_arm_results": [
+    {
+      "name": "R00_full",
+      "MOTA": 57.15972567166,
+      "IDF1": 71.03470552345405,
+      "delta_MOTA_vs_full": 0.0,
+      "delta_IDF1_vs_full": 0.0,
+      "runtime_counts": {
+        "birth_seams": 12924,
+        "final_birth_activations": 3588,
+        "coherence_nonzero_events": 10321,
+        "source_multiple_owner_events": 12332,
+        "birth_changed_vs_local_h2": 9336,
+        "egia_fusion_events": 0,
+        "native_reference_seams_verified": 19905
+      }
+    },
+    {
+      "name": "R01_no_foreground_head",
+      "MOTA": 57.0521032129879,
+      "IDF1": 70.9664453615647,
+      "delta_MOTA_vs_full": -0.10762245867209641,
+      "delta_IDF1_vs_full": -0.06826016188935524,
+      "runtime_counts": {
+        "birth_seams": 13010,
+        "final_birth_activations": 3742,
+        "coherence_nonzero_events": 10623,
+        "source_multiple_owner_events": 12418,
+        "birth_changed_vs_local_h2": 9268,
+        "egia_fusion_events": 0,
+        "native_reference_seams_verified": 19905
+      }
+    },
+    {
+      "name": "R02_no_coverage_head",
+      "MOTA": 55.927513877632826,
+      "IDF1": 69.93606417549573,
+      "delta_MOTA_vs_full": -1.2322117940271715,
+      "delta_IDF1_vs_full": -1.098641347958318,
+      "runtime_counts": {
+        "birth_seams": 6595,
+        "final_birth_activations": 6595,
+        "coherence_nonzero_events": 4303,
+        "source_multiple_owner_events": 6003,
+        "birth_changed_vs_local_h2": 0,
+        "egia_fusion_events": 0,
+        "native_reference_seams_verified": 19905
+      }
+    },
+    {
+      "name": "R03_no_source_cues",
+      "MOTA": 56.66257091317875,
+      "IDF1": 70.45387412891472,
+      "delta_MOTA_vs_full": -0.49715475848125523,
+      "delta_IDF1_vs_full": -0.5808313945393273,
+      "runtime_counts": {
+        "birth_seams": 7903,
+        "final_birth_activations": 5068,
+        "coherence_nonzero_events": 0,
+        "source_multiple_owner_events": 7311,
+        "birth_changed_vs_local_h2": 2835,
+        "egia_fusion_events": 0,
+        "native_reference_seams_verified": 19905
+      }
+    }
+  ],
+  "final_audit_sha256": "9194cbb20606d688fcc00dfa95b2cb68ef2a6f87ce6c128a7cef2f173a28556e",
+  "paper_pdf_sha256": "9abb0a305c608f6e7eaf140a259b007f706f2dbfef0a5ab25a577d8a9cf278ce",
+  "remote_completion_head": "546ce4dead6532b96248a0fe5e21d13c893230f4",
+  "no_posthoc_testdev_model_or_threshold_selection": true
+}
