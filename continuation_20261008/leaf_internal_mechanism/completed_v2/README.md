@@ -8,4 +8,4 @@ Author report: artifacts/RESULTS_FOR_AUTHOR_ZH.md. Full nine-arm table: artifact
 
 The three read-only review files under review/ are time-stamped smoke/design snapshots; their pending-full statements describe that earlier stage. The terminal delivery audit and results supersede those status statements without rewriting the historical reviews. Initial preregistration and the corrected amendment are preserved in the sibling frozen_source/corrected_v2 snapshots.
 
-Remote backup is pending: current GitHub SSH access fails DNS resolution (`Could not resolve hostname github.com: Temporary failure in name resolution`). The phase is committed locally with stage_snapshot.py --local-only; no remote backup is claimed.
+The completed phase was first committed locally while connectivity was recovering. One GitHub HEAD read succeeded, followed by another DNS failure during fetch. Connectivity is intermittent; remote backup is established only by an exact remote-main verification from the closeout snapshot command, not by the successful read or local commit. The corresponding stage is `versioning/stages/leaf_corrected_mechanism_remote_closeout_20261008`.
