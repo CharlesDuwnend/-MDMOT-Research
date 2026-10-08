@@ -1,0 +1,36 @@
+{
+  "status": "OWN_UNPUBLISHED_SCOPE_ERROR_REPAIRED",
+  "own_unpublished_commit": "f85e04b7126d395012924bf92aa8b9edaa1a48dd",
+  "restored_head": "19783e9f4df75b39753ac5a3fa5ef046b741280b",
+  "remote_main_verified": "bab7de6d6c7814d12788d24cfff3ae1ccbdfb607",
+  "protected_staged_diff_sha256": "b03d208f880c4bde3f50d3d5a56f29d068e668f1ba1e634b6d07cd506e52db3c",
+  "protected_working_files_unchanged": true,
+  "no_force_push": true,
+  "bad_stage_kept_locally": "/home/chenhc/leaf_egia_detailed_20261008_v1/review/archive_scope_failure",
+  "rounds": [
+    {
+      "round": 1,
+      "checks": [
+        "Inspect failed wrapper: empty allowlist caused unscoped helper fallback",
+        "Read actual Git negative ignore pattern and broad commit paths",
+        "Verify remote main still bab7de; own broad commit not published"
+      ]
+    },
+    {
+      "round": 2,
+      "checks": [
+        "Backup current index and retain own broad commit in a local Codex ref",
+        "Conditionally restore only own unpublished HEAD, leave worktree untouched",
+        "Reconstruct original five staged P63 blob entries and verify exact binary diff SHA"
+      ]
+    },
+    {
+      "round": 3,
+      "checks": [
+        "Verify protected working file SHA unchanged",
+        "Move only own bad-stage evidence to local review; no project artifacts deleted",
+        "Correct eligibility using git ls-files and require nonempty exact phase allowlist before next snapshot"
+      ]
+    }
+  ]
+}

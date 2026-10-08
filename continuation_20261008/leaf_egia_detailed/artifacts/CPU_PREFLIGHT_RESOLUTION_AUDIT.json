@@ -1,0 +1,35 @@
+{
+  "status": "RESOLVED_CPU_FIXTURE_DTYPE_AND_OBSOLETE_SUITE_SCOPE",
+  "initial_attempt": "logs/detailed_cpu_contracts_attempt1.log",
+  "initial_failed": 2,
+  "completed_passed": 59,
+  "rounds": [
+    {
+      "round": 1,
+      "checks": [
+        "Inspect exact two initial stack traces: dtype posterior mismatch and absent continuous matching helper",
+        "Confirm prepared owner float32 versus production explicit float64 conversion",
+        "Inspect canonical matching provider and unchanged obsolete path test bytes"
+      ]
+    },
+    {
+      "round": 2,
+      "checks": [
+        "Independent neutral-cue comparator now casts same float64 input; exact posterior equality checked",
+        "Run original 47 current-host contracts plus 12 detailed EGIA contracts: all 59 pass",
+        "Preserve original failed log; obsolete five-test path suite outside current-host protocol"
+      ]
+    },
+    {
+      "round": 3,
+      "checks": [
+        "Parse all six new or modified production source files",
+        "Actual nine immutable whole-association reference contracts run separately before seal",
+        "New runtime audit verifies disabled native admissions, pairing counters and exactly neutral evidence"
+      ]
+    }
+  ],
+  "production_algorithm_changed_to_pass_tests": false,
+  "test_scope_exclusion": "test_internal_path_contract.py targets historical nonfactorial host helper; same exclusion as original current-host 47-contract gate",
+  "completed_log_sha256": "f9c66948ed5bce34b15e858c75e2d69a7a0cb0831aa60af024b940f17716f268"
+}
