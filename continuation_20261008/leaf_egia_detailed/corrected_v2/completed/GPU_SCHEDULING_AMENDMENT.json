@@ -1,0 +1,57 @@
+{
+  "actual_allocation": {
+    "D00_full_reference": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D01_EGIA_bypass": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D02_no_foreground_evidence": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D03_no_coverage_evidence": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D04_no_learned_context": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D05_no_source_coherence": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D06_broken_source_pairing": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D07_no_geometry_cue": {
+      "index": 0,
+      "uuid": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0"
+    },
+    "D08_no_appearance_cue": {
+      "index": 3,
+      "uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a"
+    }
+  },
+  "all_declared_cells_and_operating_points_unchanged": true,
+  "all_inference_source_model_and_operator_hashes_unchanged": true,
+  "declared_utc": "2026-10-08T04:28:50.465925Z",
+  "in_flight_inference_continues": true,
+  "original_manifest_sha256": "7fd3c67e28a7e327935fefb1fb3b58bafd2473c24a77991c0e3801e5286e7a90",
+  "scientific_scope": "No new outcome-selected control or parameter; cross-GPU input/prediction gates mandatory",
+  "serial_parent_only_paused": true,
+  "source_sha256": {
+    "review/analyze_detailed.py": "96f0c0541d752713ecd2c1d482304b5e7b41d129044b76c9a3f5363bd1d89a59",
+    "review/finalize_when_complete.py": "d421e20527c57c6ec2c96d06bfd61953d32d3a23ace1346fabcf8bf01b3de997",
+    "review/launch_parallel.sh": "844f92aafe826d559c7fede92f3f124c0046ba3570742f691c01bb700fd9f2f4",
+    "review/monitor_progress.py": "8c45faea8962220f7cf5c120dff0fbbfa7e27458fefbc96d4efa51054d3c32b9",
+    "review/parallel_coordinator.py": "de820d214c44b74cea9c6bcc17ebdb1b413b764831220489d0987b12f294fa30"
+  },
+  "status": "USER_AUTHORIZED_GPU_SCHEDULING_AMENDMENT",
+  "storage_relocation_receipt_sha256": "71abd6f821ac5fcd069f26236026be000808a97a6bb74a67ac849308b1005ae5",
+  "user_instruction": "\u591a\u4e2a\u5b9e\u9a8carm\u53ef\u4ee5\u653e\u5728\u4e0d\u540c\u7684GPU\u4e0a"
+}

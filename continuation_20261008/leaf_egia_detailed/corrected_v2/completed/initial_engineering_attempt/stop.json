@@ -1,0 +1,5 @@
+{
+  "error": "'admitted'",
+  "status": "STOP",
+  "traceback": "Traceback (most recent call last):\n  File \"tools/run_mechanism.py\", line 296, in <module>\n    main()\n  File \"tools/run_mechanism.py\", line 255, in main\n    records.append(run_arm(manifest, arm, env, True))\n  File \"tools/run_mechanism.py\", line 179, in run_arm\n    audit_runtime(reports, arm, smoke)\n  File \"tools/run_mechanism.py\", line 125, in audit_runtime\n    assert c['admitted'] == c['local_h2_admitted']\nKeyError: 'admitted'\n"
+}

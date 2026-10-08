@@ -1,0 +1,58 @@
+{
+  "GT_denominator": 229506,
+  "actual_predictions_rehashed": 153,
+  "all_SRC_parts_active_all_cells": true,
+  "all_ordered_detector_ReID_ledgers_equal": true,
+  "created_utc": "2026-10-08T04:46:05.205127Z",
+  "fit_only_neutral_priors": true,
+  "formal_accuracy_scope": "VisDrone2019 original test-dev only",
+  "frames_per_arm": 6635,
+  "full_corrected_C11_prediction_parity": true,
+  "global_receipt_sha256": "8d29cd5b756307c4940f2741015ad506af1d86ac2ea0c2a0c0b8ef74912e389f",
+  "manifest_sha256": "7fd3c67e28a7e327935fefb1fb3b58bafd2473c24a77991c0e3801e5286e7a90",
+  "neutral_cue_zero_gamma_predictions_identical": true,
+  "no_refit_or_testdev_selection": true,
+  "physical_gpu_allocation": {
+    "D00_full_reference": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D01_EGIA_bypass": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D02_no_foreground_evidence": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D03_no_coverage_evidence": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D04_no_learned_context": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D05_no_source_coherence": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D06_broken_source_pairing": {
+      "index": 1,
+      "uuid": "GPU-1b297aba-ae7e-e326-5903-476f1bb683d7"
+    },
+    "D07_no_geometry_cue": {
+      "index": 0,
+      "uuid": "GPU-2a55197e-2c19-45ff-cf33-13031951f9d0"
+    },
+    "D08_no_appearance_cue": {
+      "index": 3,
+      "uuid": "GPU-aaa79a66-b5c4-e0a0-6e2f-28c1ac0e3e6a"
+    }
+  },
+  "postprocessing_source_sha256": "96f0c0541d752713ecd2c1d482304b5e7b41d129044b76c9a3f5363bd1d89a59",
+  "sequences_per_arm": 17,
+  "status": "PASS_ALL_NINE_FULL_SRC_DETAILED_EGIA_RUNS_AND_SOURCE_INPUT_SCORE_AUDIT",
+  "user_authorized_scheduling_amendment_sha256": "a747adcce91d4453a80a7e1f1605b30bbef98fa653d2a03af29e90d0bc4e632c",
+  "verified_original_reference_seams": 179145
+}
