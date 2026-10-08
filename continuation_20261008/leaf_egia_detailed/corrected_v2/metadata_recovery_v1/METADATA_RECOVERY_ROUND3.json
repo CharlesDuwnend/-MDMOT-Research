@@ -1,0 +1,21 @@
+{
+  "status": "PASS_FINAL_SEAL_AND_ARCHIVE_CHECKS",
+  "checks": [
+    {
+      "check": "independent full input, source, prediction and original-GT score audit",
+      "pass": true,
+      "evidence_sha256": "9d096801c3f5070e9e1ba215619ace11e4c1abbe6b793b3f0ff2093f5f653465"
+    },
+    {
+      "check": "failed metadata and controlled handoff terminals preserved; canonical actual completion zero",
+      "pass": true,
+      "evidence_sha256": "1bfb81798ad1c24c75ab342d9640f31368e05b8b816d7e092800e90c63636d40"
+    },
+    {
+      "check": "archived tables byte-identical, scoped commit and unrelated staged contents preserved",
+      "pass": true,
+      "local_head": "5b8ed22caef637deb027d18b3bb20591cf429034",
+      "cached_diff_sha256": "b03d208f880c4bde3f50d3d5a56f29d068e668f1ba1e634b6d07cd506e52db3c"
+    }
+  ]
+}

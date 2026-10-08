@@ -1,0 +1,66 @@
+{
+  "status": "RESOLVED_METADATA_SERIALIZATION_FAILURE_THREE_ROUNDS_NINE_CHECKS",
+  "method_and_model_unchanged": true,
+  "no_inference_or_score_rerun": true,
+  "round1": {
+    "checks": [
+      {
+        "check": "actual Python 3.8 compatibility failure reproduced",
+        "pass": true
+      },
+      {
+        "check": "already running inference exited zero",
+        "pass": true
+      },
+      {
+        "check": "D06 complete original score and receipt hash verified",
+        "pass": true
+      }
+    ]
+  },
+  "round2": {
+    "checks": [
+      {
+        "check": "all 9 actual scores and 153 prediction files rehashed",
+        "pass": true
+      },
+      {
+        "check": "explicit permitted physical devices and unchanged detector/ReID ledgers",
+        "pass": true
+      },
+      {
+        "check": "Python 3.8 AST suffix compilation and unchanged frozen source closure",
+        "pass": true
+      }
+    ],
+    "status": "PASS_COMPLETED_INFERENCE_AND_METADATA_FIX_CONTRACTS"
+  },
+  "round3": {
+    "status": "PASS_FINAL_SEAL_AND_ARCHIVE_CHECKS",
+    "checks": [
+      {
+        "check": "independent full input, source, prediction and original-GT score audit",
+        "pass": true,
+        "evidence_sha256": "9d096801c3f5070e9e1ba215619ace11e4c1abbe6b793b3f0ff2093f5f653465"
+      },
+      {
+        "check": "failed metadata and controlled handoff terminals preserved; canonical actual completion zero",
+        "pass": true,
+        "evidence_sha256": "1bfb81798ad1c24c75ab342d9640f31368e05b8b816d7e092800e90c63636d40"
+      },
+      {
+        "check": "archived tables byte-identical, scoped commit and unrelated staged contents preserved",
+        "pass": true,
+        "local_head": "5b8ed22caef637deb027d18b3bb20591cf429034",
+        "cached_diff_sha256": "b03d208f880c4bde3f50d3d5a56f29d068e668f1ba1e634b6d07cd506e52db3c"
+      }
+    ]
+  },
+  "evidence_sha256": {
+    "METADATA_RECOVERY_ROUND1.json": "625c681861699795182aba4343cddda12682d953578c20ef9552e6b40b92bf54",
+    "METADATA_RECOVERY_ROUND2.json": "62f878ebd33042c951e876f184a196ef67a3ff119604b61d587aedc5341a889f",
+    "METADATA_RECOVERY_ROUND3.json": "ba4245446568bf9483783f74c84549d1103a7ee557f1ca235e4c2b3b67a603f3",
+    "METADATA_RECOVERY_RECEIPT.json": "1bfb81798ad1c24c75ab342d9640f31368e05b8b816d7e092800e90c63636d40",
+    "PARALLEL_METADATA_RECOVERY_PREREGISTRATION.json": "4408fd8d934d5d17ee579a73671976dcb5a6463f4c5074417280399aa8b2ef87"
+  }
+}
